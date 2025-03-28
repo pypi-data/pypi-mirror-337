@@ -1,0 +1,1 @@
+⚠️⚠️⚠️ This package was deprectaed. Upgrade to clear langchain + langchain_gigachat. Uninstall all gigachain-* packages! ⚠️⚠️⚠️

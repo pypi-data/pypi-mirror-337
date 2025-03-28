@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vinclude"
+version = "1.0.0"
+description = "Visual C/C++ project include graphs, in a simple command line UI, for Linux."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE.txt" }
+keywords = ["include", "c", "cpp", "interactive", "ncurses", "visual"]
+authors = [{ name = "2xB", email = "2xb.coding@uni-muenster.de" }]
+maintainers = [{ name = "2xB", email = "2xb.coding@uni-muenster.de" }]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: POSIX :: Linux",
+]
+
+# dependencies = []
+
+# [project.optional-dependencies]
+# dev = []
+# test = []
+
+[project.urls]
+"Homepage" = "https://github.com/2xB/vinclude"
+"Bug Reports" = "https://github.com/2xB/vinclude/issues"
+"Source" = "https://github.com/2xB/vinclude/"
+
+[project.scripts]
+vinclude = "vinclude:main"
+
+# [tool.setuptools]
+# package-data = { "vinclude" = ["*.dat"] }

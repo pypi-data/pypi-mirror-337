@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: ward-lang
+Version: 0.0.1
+Summary: WARD:(Word And Root Development) A modular library for word and morpheme construction.
+Home-page: https://github.com/GoldfishJonny/WARD
+Author: GoldfishJonny
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: neo4j
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# WEIN

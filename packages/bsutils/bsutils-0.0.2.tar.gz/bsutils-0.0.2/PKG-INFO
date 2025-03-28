@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: bsutils
+Version: 0.0.2
+Summary: A collection of basic python utilities.
+Project-URL: Homepage, https://github.com/wangzhen0518/bsutils
+Project-URL: Issues, https://github.com/wangzhen0518/bsutils/issues
+Author-email: wangzhen0518 <wangzhen0518@126.com>
+Requires-Python: >=3.0
+Requires-Dist: pyjson5
+Description-Content-Type: text/markdown
+
+# bsutils (basic python utilities)
+A collection of basic python utilities.

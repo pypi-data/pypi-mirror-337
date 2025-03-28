@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Index/__init__.py
+Index/index.py
+indexyz.egg-info/PKG-INFO
+indexyz.egg-info/SOURCES.txt
+indexyz.egg-info/dependency_links.txt
+indexyz.egg-info/requires.txt
+indexyz.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+__init__.py,sha256=JCChzXWHZUIgiseu6i9KGLLyQreExrNlRKMBpRNMods,32
+hello_package/hello.py,sha256=RUjL660sFwaxVbTURIiOdVOVpZ5nTo1l9Xwc5Sf4k80,49
+ai_workspace-0.1.0.dist-info/METADATA,sha256=wIl2cMtWdSu1Tqcpr75H2RUMkqqGQHHU3htDVDw7hkg,326
+ai_workspace-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ai_workspace-0.1.0.dist-info/top_level.txt,sha256=H7AW5R1nzMViw25BKWzGfeMnW5UCKyt9Zqlotxk0Dxg,23
+ai_workspace-0.1.0.dist-info/RECORD,,

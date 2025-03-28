@@ -1,0 +1,15 @@
+cloud_diagnostics_xprof/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_diagnostics_xprof/xprofiler.py,sha256=vy8Qx8Efeylp00nxPwb-8WTbVSK2lHkYxj2JWrMa7xY,8739
+cloud_diagnostics_xprof/xprofiler_test.py,sha256=wEQpK5PJHQxne1Y1gFqV9aU3tckwdfutvye6omoo7RM,10735
+cloud_diagnostics_xprof/actions/action.py,sha256=pH322VTPeb7QT967PJSi1QzRqxsw7EGX_hOBjrG32Pg,5301
+cloud_diagnostics_xprof/actions/capture_action.py,sha256=CtTLIZj_GUmT8hTCJBtzB-Ugrzk3pwkAf9LjPIDl-bQ,7713
+cloud_diagnostics_xprof/actions/connect_action.py,sha256=ww-DFVOMA_qGvhdJroo71pcXEljZFYSMF0LZDjihQ8I,7465
+cloud_diagnostics_xprof/actions/create_action.py,sha256=njgA-YVKEe2-zXesDHU9rvinNttzPPwDjHqLTAUe3ag,11228
+cloud_diagnostics_xprof/actions/delete_action.py,sha256=0cVwTGiO1ec1m-D-KMSxZ-PIYstyZmPOZuJ54q1O7ro,5395
+cloud_diagnostics_xprof/actions/list_action.py,sha256=-MxrcfjrYljZ4GtVh-7gLzTZUzFj3j95EPWDWy8MOm0,6295
+cloud_diagnostics_xprof-0.0.8.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+cloud_diagnostics_xprof-0.0.8.dist-info/METADATA,sha256=uQZyLouYD6sT6rDE0fAcyyhJZcMIzzPbCTffQd6uA-c,9006
+cloud_diagnostics_xprof-0.0.8.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cloud_diagnostics_xprof-0.0.8.dist-info/entry_points.txt,sha256=9CrqhR3BbixnZJ94lh-CzsA9b5CiNa6Mt4y-wu5aPRE,65
+cloud_diagnostics_xprof-0.0.8.dist-info/top_level.txt,sha256=9UxDfCNeb9eg6R1RVbjzE8-SJnESuuKRMTfzCNbf-z8,24
+cloud_diagnostics_xprof-0.0.8.dist-info/RECORD,,

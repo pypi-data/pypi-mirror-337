@@ -1,0 +1,15 @@
+reporoulette/__init__.py,sha256=JppBvD252s33uMqIDagERUal6CcGz9foHdcnDgRP-zk,2326
+reporoulette/samplers/__init__.py,sha256=JOptlmRDXVPnb4raU1hR3KP0Z50KA-F763OQBTz0lWo,286
+reporoulette/samplers/base.py,sha256=-w7cQMnBYb1ht7zorSZqa00yea3j4Pm3KBBPNr3vR3c,2083
+reporoulette/samplers/bigquery_sampler.py,sha256=_84Tu2EweXt0eQ2rsTcw8raqeoHc1HQL1oe_lYUMrig,17013
+reporoulette/samplers/gh_sampler.py,sha256=t8a3kyj6sAvNpsn6XvBUn8ug-1Mhw3SJ2DW-GJKZclE,13651
+reporoulette/samplers/id_sampler.py,sha256=B3XMT7LetENgDT-bacdHhZZUJENR29LBjDXGPQUn-8c,10828
+reporoulette/samplers/temporal_sampler.py,sha256=xfq7hk35WvMan2pfoCDDl5sKZCnE1DJIJjz50mnn63U,31183
+reporoulette/tests/test-bq-sampler.py,sha256=olZXuo7gAVYHEA92B4OYhZDn6SIxmkPzGvOyBGUDbhg,5630
+reporoulette/tests/test_gharchive_sampler.py,sha256=dBFyUTUDOQkyPciIlRuyI8Uh06B05inmo6swSfbGwCI,8615
+reporoulette/tests/test_id_sampler.py,sha256=f2om0DTZ9V3XpnvX62E4i6wb542cB-QJ12KJZpS0uXU,2665
+reporoulette-0.1.2.dist-info/licenses/LICENSE,sha256=1lEVJHoI_KaH3uSjhc_l0-zGye3qvFOppbj0DTaQQrY,1063
+reporoulette-0.1.2.dist-info/METADATA,sha256=wCfszOSXc6YeS433VYa5p66wV3ij5itoCOPUJ3FEM4Q,7191
+reporoulette-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+reporoulette-0.1.2.dist-info/top_level.txt,sha256=Jqkc1iz1dUMOZsS1S4FyEwHJZfRfy2le4ktHVEVjU0Q,13
+reporoulette-0.1.2.dist-info/RECORD,,

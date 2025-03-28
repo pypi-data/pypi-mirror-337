@@ -1,0 +1,8 @@
+Appium-Python-Client==4.5.1
+getgauge>=0.4.8
+numexpr==2.10.2
+numpy==2.2.4
+scikit-image==0.25.2
+selenium==4.30.0
+webcolors==24.11.1
+webdriver-manager==4.0.2

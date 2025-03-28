@@ -1,0 +1,111 @@
+{
+    "sic": {
+        "db_name": "Silicon Carbide",
+        "versions": [
+            {
+                "Change": "New start of the Presolar Grain Database after a complete rebuild.\n",
+                "Date": "2019-12-20",
+                "DOI": "10.5281/zenodo.8187220",
+                "Grains": 16000,
+                "Known issues": "New grain type assignment still needs to be worked on. Much more data to add.\n",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187220/files/PGD_SiC_2019-12-20.csv"
+            },
+            {
+                "Change": "1. Data with delta values < -1000 removed.\n2. Some grain type assignments corrected.\n3. Some grain labels corrected according to nomenclature in respective publication.\n4. Missing techniques added.\n5. Sheet \"Techniques\" added.\n",
+                "Date": "2020-01-03",
+                "DOI": "10.5281/zenodo.8187406",
+                "Grains": 16000,
+                "Known issues": "New grain type assignment still needs to be worked on. Much more data to add.\n",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187406/files/PGD_SiC_2020-01-03.csv"
+            },
+            {
+                "Change": "1. Changed number format to show all digits.\n2. C and Si data (uncertainties) from Liu et al. (2014) ApJ 786:66 corrected. Reported as 2 sigma but are 1 sigma instead.\n3. Added new columns for strontium data normalized to 87Sr.\n4. Data from following references added:\nLiu et al. (2015) ApJ 803:12\nLiu et al. (2016) ApJ 820:140\nLiu et al. (2017) ApJL 842:L1\nLiu et al. (2017) ApJL 844:L12\nLiu et al. (2017) MAPS 12:2550\nHoppe et al. (2018) GCA 221:182\nLiu et al. (2018) SciA 4:eaao1054\nLiu et al. (2018) ApJ 855:144\nNguyen et al. (2018) GCA 221:162\nHoppe et al. (2019) ApJ 887:8\nLiu et al. (2019) ApJ 881:28\n",
+                "Date": "2020-08-18",
+                "DOI": "10.5281/zenodo.8187446",
+                "Grains": 19759,
+                "Known issues": "New grain type assignment still needs to be worked on. Much more data to add.\n",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187446/files/PGD_SiC_2020-08-18.csv"
+            },
+            {
+                "Change": "1. Corrected typo in reference (volume number 52 instead of 12) for SiC-2017-LIU-2 data.\n2. Grain type asignment for 10 Grains from Nguyen et al. (2018) GCA 221:162 Changed from M to AB.\n3. Data from the following references added:\nKodol\u00e1nyi et al. (2018) GCA 221:127\nTrappitsch et al. (2018) GCA 221:87\n",
+                "Date": "2020-12-24",
+                "DOI": "10.5281/zenodo.8187471",
+                "Grains": 19864,
+                "Known issues": "New grain type assignment still needs to be worked on. Much more data to add.\n",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187471/files/PGD_SiC_2020-12-24.csv"
+            },
+            {
+                "Change": "1. Grain type asignment Changed to AB for Grains M and Z Grains with 12C/13C < 12.3.\n2. Some minor adjustments in grain type assignments.\n3. Grain subtypes introduced.\n4. Data from the following references added:\nFloss & Stadermann (2009) ApJ 697:1242\nNguyen et al. (2010) ApJ 719:166\nLeitner et al. (2012) ApJ 745:38\nHaenecour et al. (2018) GCA 221:379\nNittler et al. (2018) GCA 226:107\n",
+                "Date": "2021-01-10",
+                "DOI": "10.5281/zenodo.8187479",
+                "Grains": 19976,
+                "Known issues": "New grain type and subtype asignments still need to be worked on, especially for separation between M, Y, and Z.\n",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187479/files/PGD_SiC_2021-01-10.csv"
+            },
+            {
+                "Change": "1. New PGD Type asignments including new Type D.\n2. Now probabilities for being consistent with a given grain type are provided.\n3. Size is now split up into Size a and Size b with only numerical entries.\n4. Zero uncertainties in err[12C/13C] replaced by best estimate.\n5. Some notes added.\n6. Corrected typo in abbreviated reference (Hoppe et al. (2019) ApJ 887:8).\n7. Data from the following references added:\nNIttler et al. (2020) MAPS 55:1160\nLiu et al. (2021) ApJL 920:L26\nNIttler et al. (2021) MAPS 56:260\nBarosch et al. (2022) ApJL 935:L3\nBarosch et al. (2022) GCA 335:169\nLiu et al. (2022) EPJA 58:216\nHoppe et al. (2023) ApJL 943:L22\n",
+                "Date": "2023-07-22",
+                "DOI": "10.5281/zenodo.8187488",
+                "Grains": 20230,
+                "Known issues": "",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/8187488/files/PGD_SiC_2023-07-22.csv"
+            },
+            {
+                "Change": "1. Corrected some typos in \"VersionHistory\".\n2. Corrected some typos in references.\n3. Added DOI numbers in \"Techniques\".\n4. Sheet \"ReadMe\" added, explaining the columns in the main data sheet.\n5. Corrected some cases where Size a was listed as being smaller than Size b.\n6. Added/corrected some notes.",
+                "Date": "2023-10-30",
+                "DOI": "10.60520/IEDA/113069",
+                "Grains": 20230,
+                "Known issues": "",
+                "Released on": "Astromat",
+                "URL": "https://zenodo.org/record/10144724/files/PGD_SiC_2023-10-30.csv"
+            },
+            {
+                "Change": "Data from the following references were added:\nNguyen et al. (2023) SciAdv 9:eadh1003\nLiu et al. (2024) ApJL 961:L22",
+                "Date": "2024-05-14",
+                "DOI": "10.60520/IEDA/113249",
+                "Grains": 20316,
+                "Known issues": "",
+                "Released on": "Astromat",
+                "URL": "https://zenodo.org/record/11199606/files/PGD_SiC_2024-05-14.csv"
+            },
+            {
+                "Change": "1. New classification tool now provided on sheet \"Classification\"\n2. Definitions for X, C, D, and N grains changed, now allowing 14N/15N ratios up to solar (441)\n3. Corrected some typos in meteorite names\n4. Corrected: Zr data from Nicolussi et al. (1997) Science 277:1281 were normalized to 92Zr instead of 94Zr\n5. Al data from Hoppe et al. (2023) ApJL 943:L22 were replaced with reevaluated data\n6. Mo and Ru data from Stephan et al. (2019) ApJ 877:101 were replaced with reevaluated data from Stephan et al. (2025) ApJ 981:201\n7. Data from the following references were added:\nLeitner et al. (2018) MAPS 53:204\nLeitner et al. (2020) MAPS 55:1176\nHoppe et al. (2024) MNRAS 532:211\nStephan et al. (2025) ApJ 981:201",
+                "Date": "2025-03-10",
+                "DOI": "10.60520/IEDA/113714",
+                "Grains": 20432,
+                "Known issues": "",
+                "Released on": "Astromat",
+                "URL": "https://zenodo.org/record/15015059/files/PGD_SiC_2025-03-10.csv"
+            }
+        ]
+    },
+    "gra": {
+        "db_name": "Graphite",
+        "versions": [
+            {
+                "Change": "New start of the Presolar Grain Database for graphite after a complete rebuilt.",
+                "Date": "2024-05-13",
+                "DOI": "10.5281/zenodo.11188116",
+                "Grains": 2122,
+                "Known issues": "There is more data to be added.",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/11188116/files/PGD_Gra_2024-05-13.csv"
+            },
+            {
+                "Change": "More data added.\nNew Type definition unifying, e.g., Amari et al. (2014) GCA 59:479 and Jadhav et al. (2013) GCA 113:193 by introducing \"medium density\" grains.",
+                "Date": "2025-03-24",
+                "DOI": "10.5281/zenodo.15079635",
+                "Grains": 2342,
+                "Known issues": "Further classification needed.",
+                "Released on": "Zenodo",
+                "URL": "https://zenodo.org/record/15079635/files/PGD_Gra_2025-03-24.csv"
+            }
+        ]
+    }
+}

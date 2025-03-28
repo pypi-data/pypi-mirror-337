@@ -1,0 +1,3 @@
+[console_scripts]
+vnow-aider-chat = aider.main:main
+vnow-aider-operator = aider.cli.operator:main

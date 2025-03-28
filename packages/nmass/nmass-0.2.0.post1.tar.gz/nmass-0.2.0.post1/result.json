@@ -1,0 +1,354 @@
+{
+    "scanner": "nmap",
+    "args": "/usr/bin/nmap -oX - -vvv --noninteractive -p 21 -Pn --script=ftp-anon 135.224.95.161 135.224.95.122 135.224.95.130 135.224.95.165 135.224.95.37 135.224.95.121 135.224.95.132 135.224.95.125",
+    "start": 1742989666,
+    "start_time": "2025-03-26T19:47:46",
+    "version": "7.95",
+    "xmloutputversion": "1.05",
+    "scaninfo": {
+        "type": "syn",
+        "protocol": "tcp",
+        "numservices": 1,
+        "services": "21"
+    },
+    "verbose": {
+        "level": 3
+    },
+    "debugging": {
+        "level": 0
+    },
+    "hosts": [
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.161",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "51"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 75637,
+                "rttvar": 75637,
+                "to": 378185
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.122",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "52"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 75786,
+                "rttvar": 75786,
+                "to": 378930
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.130",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "52"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 65869,
+                "rttvar": 65869,
+                "to": 329345
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:53",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.165",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "51"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        },
+                        "scripts": [
+                            {
+                                "id": "ftp-anon",
+                                "output": "Anonymous FTP login allowed (FTP code 230)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 73976,
+                "rttvar": 73976,
+                "to": 369880
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.37",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "51"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 76159,
+                "rttvar": 76159,
+                "to": 380795
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.121",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "52"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 72555,
+                "rttvar": 72555,
+                "to": 362775
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.132",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "52"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 72599,
+                "rttvar": 72599,
+                "to": 362995
+            }
+        },
+        {
+            "starttime": "2025-03-26T19:47:52",
+            "endtime": "2025-03-26T19:47:52",
+            "status": {
+                "state": "up",
+                "reason": "user-set",
+                "reason_ttl": "0"
+            },
+            "address": [
+                {
+                    "addr": "135.224.95.125",
+                    "addrtype": "ipv4"
+                }
+            ],
+            "hostnames": [],
+            "ports": {
+                "ports": [
+                    {
+                        "protocol": "tcp",
+                        "portid": 21,
+                        "state": {
+                            "state": "open",
+                            "reason": "syn-ack",
+                            "reason_ttl": "52"
+                        },
+                        "service": {
+                            "name": "ftp",
+                            "method": "table",
+                            "confidence": 3
+                        }
+                    }
+                ]
+            },
+            "times": {
+                "srtt": 78191,
+                "rttvar": 78191,
+                "to": 390955
+            }
+        }
+    ],
+    "stats": {
+        "finished": {
+            "time": "1742989673",
+            "timestr": "Wed Mar 26 19:47:53 2025",
+            "summary": "Nmap done at Wed Mar 26 19:47:53 2025; 8 IP addresses (8 hosts up) scanned in 6.29 seconds",
+            "elapsed": "6.29",
+            "exit": "success"
+        },
+        "hosts": {
+            "up": 8,
+            "down": 0,
+            "total": 8
+        }
+    }
+}

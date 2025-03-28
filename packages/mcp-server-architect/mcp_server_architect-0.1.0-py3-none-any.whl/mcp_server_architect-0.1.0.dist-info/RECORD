@@ -1,0 +1,10 @@
+mcp_server_architect/__init__.py,sha256=p1gEsfCVUH3mho1qj4lIz3LdJFxb55z35cGbAo14OzY,285
+mcp_server_architect/__main__.py,sha256=F25y0vSERdq0L1D7mbi0n513rn5aRtiUvCNYh_BGNcQ,2752
+mcp_server_architect/core.py,sha256=4ATAhnugAoQg2cO9Kqb6MW2AssXHmgsqy22TRlgF-qQ,4632
+mcp_server_architect/file_context.py,sha256=sABDVF8ov0o3nUO2e6b1xpF5LK7dt0DQQ22aZdC66ss,8994
+mcp_server_architect/version.py,sha256=HnfC_TWAA2mfjIbkXT0ipZEqElS5wLaMzSj1DkE1F88,49
+mcp_server_architect-0.1.0.dist-info/METADATA,sha256=aJUc7ShEaAosYgCgHRmmXU3yCckDwZ7MaAjE_YCfsZM,8981
+mcp_server_architect-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_server_architect-0.1.0.dist-info/entry_points.txt,sha256=bB6mnv42AAGQX7YvQwTJm2zNxHc6GXKba76yFhvGvQk,76
+mcp_server_architect-0.1.0.dist-info/licenses/LICENSE,sha256=PTfR6m2ARxy7rE4QMZ6Plh8RDApe9hMnSLKuLBYMk1U,1210
+mcp_server_architect-0.1.0.dist-info/RECORD,,

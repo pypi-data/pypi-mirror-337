@@ -1,0 +1,11 @@
+actions/action.py,sha256=pH322VTPeb7QT967PJSi1QzRqxsw7EGX_hOBjrG32Pg,5301
+actions/capture_action.py,sha256=0sXtVseRuOpoCeiuaskLzGW-cFyoQgW3oD5mQ8Nb7co,7727
+actions/connect_action.py,sha256=lIYzBUaXpvt37SsggZsY0m_eDLVartigPwViqaunirk,7493
+actions/create_action.py,sha256=m9dkHvyKYJ8xXFecPEQ16B2lI38RnZTYTHJUk4l_-nY,11242
+actions/delete_action.py,sha256=fRvAGuID9NLO3iox90YFQ3yxwQ0BAfAaJ-2s_5bD3FU,5423
+actions/list_action.py,sha256=GaTWdBedbR8LqOmnktMDpdhzzgkrwyALXU8AJoug__4,6309
+cloud_diagnostics_xprof-0.0.6.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+cloud_diagnostics_xprof-0.0.6.dist-info/METADATA,sha256=FCK4Q52JNqk4W08Trseb6XzI9iNUT8i8J9rnp-6FV6E,8975
+cloud_diagnostics_xprof-0.0.6.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cloud_diagnostics_xprof-0.0.6.dist-info/top_level.txt,sha256=5apM5x80QlJcGbACn1v3fkmIuL1-XQCKcItJre7w7Tw,8
+cloud_diagnostics_xprof-0.0.6.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+vdraw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vdraw/semantic_segmentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vdraw/semantic_segmentation/bbox.py,sha256=zP19BsfV1WwYMuiKlTdvcRSAds7pn3E0Numr5qOCla8,1879
+vdraw/semantic_segmentation/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vdraw/semantic_segmentation/utils/clean.py,sha256=5DE8bFAJUrd2Ru0d9RykezAdF46RNQfEzbzEFubIpeI,1470
+vdraw/semantic_segmentation/utils/draw.py,sha256=_y8XOWMd8nCVUr-KSl3jWumd0HUpMuER5UbS5D9ToSE,2430
+vdraw/semantic_segmentation/utils/find.py,sha256=SvundPot1fvw9Fca9iimnQl3UGjuOdYqNKaTyv5XoGs,1511
+vdraw-0.1.0.dist-info/METADATA,sha256=LfD55yT-JnL6AHgI4T7-ow2XEuKeyJ01AjrUFDqJx8k,402
+vdraw-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+vdraw-0.1.0.dist-info/top_level.txt,sha256=Xg_IWjbGNJ6S9urGG-URhevlGdhSIB47lnVf98I7E9A,6
+vdraw-0.1.0.dist-info/RECORD,,

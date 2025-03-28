@@ -1,0 +1,66 @@
+Metadata-Version: 2.4
+Name: pyquaca
+Version: 0.0.4
+Summary: An interface to query APIs or make HTTP requests, parse the response with custom parsers, and cache the result for future use.
+Author-email: "Taylor H. Morris" <18409399+taylorhmorris@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/taylorhmorris/pyquaca
+Project-URL: Issues, https://github.com/taylorhmorris/pyquaca/issues
+Keywords: cache,query,requests
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: pyroma; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Provides-Extra: types
+Requires-Dist: types-beautifulsoup4; extra == "types"
+Requires-Dist: types-requests; extra == "types"
+Provides-Extra: docs
+Requires-Dist: pdoc3; extra == "docs"
+Dynamic: license-file
+
+# PyQuaca
+![bandit](https://github.com/taylorhmorris/pyquaca/actions/workflows/bandit.yml/badge.svg?event=push)
+![style](https://github.com/taylorhmorris/pyquaca/actions/workflows/lint.yml/badge.svg?event=push)
+![tests](https://github.com/taylorhmorris/pyquaca/actions/workflows/tests.yml/badge.svg?event=push)
+[![docs](https://github.com/taylorhmorris/pyquaca/actions/workflows/docs.yml/badge.svg?event=push)](https://taylorhmorris.github.io/pyquaca/)
+![GitHub Release](https://img.shields.io/github/v/release/taylorhmorris/pyquaca?sort=semver)
+
+
+
+**Py**thon **Qu**ery **a**nd **Ca**che provides an interface to query APIs or make HTTP requests, parse the response with custom parsers, and cache the result for future use.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install git+ssh://git@github.com/taylorhmorris/pyquaca.git
+```
+
+## Documentation
+
+- [Documentation](https://taylorhmorris.github.io/pyquaca/)
+
+## License
+
+This project is licensed under the MIT License.

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyquaca"
+version = "0.0.4"
+authors = [
+  { name="Taylor H. Morris", email="18409399+taylorhmorris@users.noreply.github.com" },
+]
+description = "An interface to query APIs or make HTTP requests, parse the response with custom parsers, and cache the result for future use."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License"
+]
+keywords = ["cache", "query", "requests"]
+dependencies = [
+  "beautifulsoup4",
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/taylorhmorris/pyquaca"
+Issues = "https://github.com/taylorhmorris/pyquaca/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "black",
+  "pylint",
+  "mypy",
+  "flake8",
+  "bandit",
+  "pyroma",
+  "isort >= 5.0.0",
+  "coverage",
+  "hypothesis"
+]
+types = [
+  "types-beautifulsoup4",
+  "types-requests"
+]
+docs = [
+  "pdoc3"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.bandit]
+exclude_dirs = ["tests"]

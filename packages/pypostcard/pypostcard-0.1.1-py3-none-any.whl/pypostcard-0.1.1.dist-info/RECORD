@@ -1,0 +1,8 @@
+pypostcard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypostcard/compat.py,sha256=YsMChgmYtnDxSqmaTg5Ix0uPz5rdQcZkwcUOyUShULM,3264
+pypostcard/serde.py,sha256=HnPqHKbakzWsIGVmTTtrRcPFqk9Vis6klsK1OSQyZl4,2327
+pypostcard/types.py,sha256=NwNX23I22s_fGNHUiO0u9AvFocQEvv6y8n6iqhC1_CY,5428
+pypostcard-0.1.1.dist-info/METADATA,sha256=fWF2EVTvrDDPm_E9h7P56qS79L3L57VVxENfuilUyiA,1644
+pypostcard-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pypostcard-0.1.1.dist-info/top_level.txt,sha256=hGYibKsA434v2W9J3IuvD3sG7gLBps-9FWeDHN224vw,11
+pypostcard-0.1.1.dist-info/RECORD,,

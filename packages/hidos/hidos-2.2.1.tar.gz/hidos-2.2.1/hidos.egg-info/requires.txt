@@ -1,0 +1,10 @@
+cryptography
+dulwich>=0.22.6
+fastimport
+platformdirs
+requests
+requests-cache
+sshsig
+
+[git]
+GitPython

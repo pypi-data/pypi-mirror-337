@@ -1,0 +1,2 @@
+[console_scripts]
+mcp_weather = mcp_weather.mcp_weather:main

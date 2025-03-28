@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pretty-cli-logger/__init__.py
+pretty-cli-logger/colors.py
+pretty-cli-logger/main.py
+pretty_cli_logger.egg-info/PKG-INFO
+pretty_cli_logger.egg-info/SOURCES.txt
+pretty_cli_logger.egg-info/dependency_links.txt
+pretty_cli_logger.egg-info/top_level.txt

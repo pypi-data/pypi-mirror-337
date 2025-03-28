@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: jsonyx
+Version: 2.0.0
+Summary: Customizable JSON library for Python
+Author: Nice Zombies
+Author-email: nineteendo19d0@gmail.com
+Maintainer: Nice Zombies
+Maintainer-email: nineteendo19d0@gmail.com
+License: GPL-3.0
+Project-URL: Homepage, https://github.com/nineteendo/jsonyx
+Project-URL: Changelog, https://jsonyx.readthedocs.io/en/latest/changelog.html
+Project-URL: Documentation, https://jsonyx.readthedocs.io
+Project-URL: Issues, https://github.com/nineteendo/jsonyx/issues
+Project-URL: Sponser, https://paypal.me/nineteendo
+Keywords: python,json,json-parser
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.8
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+file: README.md

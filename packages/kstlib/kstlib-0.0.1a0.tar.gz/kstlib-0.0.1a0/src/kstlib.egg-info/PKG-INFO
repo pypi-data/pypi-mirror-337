@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: kstlib
+Version: 0.0.1a0
+Summary: Reserved name for future release of kstlib
+Author-email: Michel TRUONG <michel.truong@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Michel TRUONG
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy...
+        
+Keywords: kstlib,placeholder,reserved
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Dynamic: license-file
+
+# kstlib
+
+⚠ **This is a placeholder release to reserve the project name on PyPI.**
+
+The real project is under development and will be released soon.  
+Please do not install or use this version.
+
+Stay tuned ✨

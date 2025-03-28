@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 75.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kstlib"
+version = "0.0.1a0"
+description = "Reserved name for future release of kstlib"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+authors = [
+    {name = "Michel TRUONG", email = "michel.truong@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["kstlib", "placeholder", "reserved"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

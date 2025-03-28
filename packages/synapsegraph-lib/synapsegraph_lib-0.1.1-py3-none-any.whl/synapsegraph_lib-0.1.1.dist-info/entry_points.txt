@@ -1,0 +1,3 @@
+[console_scripts]
+synapse-cli=scripts.cli.synapse_cli:main
+

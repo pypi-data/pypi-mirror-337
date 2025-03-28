@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: smart-gitlab
+Version: 1.0.1
+Summary: gitlab sdk
+Home-page: https://xxx.com
+Author: xuwuqiang
+Author-email: xwqiang2008@outlook.com
+License: MIT Licence
+Keywords: gitlab,deploy,cicd
+Platform: any
+Requires-Dist: browser_cookie3==0.20.1
+Requires-Dist: GitPython==3.1.44
+Requires-Dist: joblib==1.4.2
+Requires-Dist: onetimepass==1.0.1
+Requires-Dist: prettytable==3.16.0
+Requires-Dist: pycookiecheat==0.8.0
+Requires-Dist: Requests==2.32.3
+Requires-Dist: setuptools==65.6.3
+Requires-Dist: tqdm==4.66.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: summary
+
+tools for gitlab with python

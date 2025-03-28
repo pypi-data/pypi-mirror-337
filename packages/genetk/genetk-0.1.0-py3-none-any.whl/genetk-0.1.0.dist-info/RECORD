@@ -1,0 +1,11 @@
+genetk/enrich/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genetk/enrich/gsea_py.py,sha256=q6cpposTc0RzOu_RPRybr8Qcp3TF2VXw_GZNaNiPeOk,2766
+genetk/network/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genetk/network/network.py,sha256=2Pnau-y8AH5d52MABU7LtoCAMNo5MYbDWSBLO1kOTZ4,7644
+genetk/prepmagma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genetk/prepmagma/mk_db.py,sha256=GuMJl3Q6MSCed_aY0V52xYE90r35fBfm5zB0Pb9HSnQ,5146
+genetk/prepmagma/mk_geneset.py,sha256=iHdMarp_SPOPKEwMHoLDkYnfpXbNoImd7QDkn8FbokY,2310
+genetk-0.1.0.dist-info/METADATA,sha256=6iI21vnxQ9QX4QuBhWy4j93YSUQfcbY9iXV8KPJiYoU,828
+genetk-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+genetk-0.1.0.dist-info/top_level.txt,sha256=VMeYVf6GRE_SNEmcLCRIEE0-9sbz-_wh7A-D8cOE2JE,7
+genetk-0.1.0.dist-info/RECORD,,

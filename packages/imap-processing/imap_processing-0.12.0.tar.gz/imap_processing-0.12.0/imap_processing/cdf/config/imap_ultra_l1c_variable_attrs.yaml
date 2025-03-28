@@ -1,0 +1,136 @@
+default_attrs: &default
+  # Assumed values for all variable attrs unless overwritten
+  DEPEND_0: epoch
+  DISPLAY_TYPE: time_series
+  FILLVAL: -9223372036854775808
+  FORMAT: I12
+  VALIDMIN: -9223372036854775808
+  VALIDMAX: 9223372036854775807
+  VAR_TYPE: data
+  UNITS: " "
+
+default_float32_attrs: &default_float32
+  <<: *default
+  FILLVAL: .NAN
+  FORMAT: F12.6
+  VALIDMIN: -3.4028235e+38
+  VALIDMAX: 3.4028235e+38
+  dtype: float32
+
+latitude:
+  <<: *default_float32
+  CATDESC: Latitude bin center corresponding to healpix index with range [-90, 90].
+  FIELDNAM: latitude
+  LABLAXIS: latitude
+  UNITS: degrees
+
+longitude:
+  <<: *default_float32
+  CATDESC: Longitude bin center corresponding to healpix index with range [0, 360].
+  FIELDNAM: longitude
+  LABLAXIS: longitude
+  UNITS: degrees
+
+spin_angle:
+  <<: *default
+  CATDESC: Angular bin defined by central location of the bin
+  FIELDNAM: spin_angle
+  LABLAXIS: spin angle
+  # TODO: come back to format
+  UNITS: degrees
+
+time_bin:
+  <<: *default
+  CATDESC: Time bin defined by central location of the bin.
+  FIELDNAM: time_bin
+  LABLAXIS: time bin
+  # TODO: come back to format
+  UNITS: seconds
+
+species_bin:
+  <<: *default
+  CATDESC: Species bin defined by central location.
+  FIELDNAM: species_bin
+  LABLAXIS: species bin
+  # TODO: come back to format
+  UNITS: " "
+
+exposure_factor:
+  <<: *default_float32
+  CATDESC: Exposure time for a pointing.
+  FIELDNAM: exposure_factor
+  LABLAXIS: exposure factor
+  # TODO: come back to format
+  UNITS: seconds
+
+sensitivity:
+  <<: *default
+  CATDESC: Calibration/sensitivity factor.
+  FIELDNAM: sensitivity
+  LABLAXIS: sensitivity
+  # TODO: come back to format
+  UNITS: counts/second
+
+counts:
+  <<: *default
+  CATDESC: Counts for a spin.
+  FIELDNAM: counts
+  LABLAXIS: counts
+  # TODO: come back to format
+  UNITS: counts
+
+background_rates:
+  <<: *default_float32
+  CATDESC: Background rates. Background dominated by accidentals caused by a combination of UV light and misregistered low energy ENA events.
+  FIELDNAM: background_rates
+  LABLAXIS: background rates
+  # TODO: come back to format
+  UNITS: counts/second
+
+sid:
+  <<: *default
+  CATDESC: Science ID (always totals 8).
+  FIELDNAM: sid
+  LABLAXIS: sid
+  # TODO: come back to format
+  UNITS: " "
+
+row:
+  <<: *default
+  CATDESC: Row number.
+  FIELDNAM: row
+  LABLAXIS: row
+  # TODO: come back to format
+  UNITS: " "
+
+column:
+  <<: *default
+  CATDESC: Column number.
+  FIELDNAM: column
+  LABLAXIS: column
+  # TODO: come back to format
+  UNITS: " "
+
+spin:
+  <<: *default
+  CATDESC: Spin number at integration start.
+  FIELDNAM: spin
+  LABLAXIS: spin
+  # TODO: come back to format
+  UNITS: " "
+
+shcoarse:
+  <<: *default
+  CATDESC: CCSDS packet timestamp.
+  FIELDNAM: shcoarse
+  LABLAXIS: shcoarse
+  # TODO: come back to format
+  UNITS: seconds
+
+packetdata:
+  <<: *default
+  CATDESC: A 2D numpy array representing pixel values. Each pixel is stored as an unsigned 16-bit integer.
+  FIELDNAM: packetdata
+  LABLAXIS: packet data
+  # TODO: come back to format
+  UNITS: " "

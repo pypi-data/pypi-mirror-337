@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+opcua_mcp.egg-info/PKG-INFO
+opcua_mcp.egg-info/SOURCES.txt
+opcua_mcp.egg-info/dependency_links.txt
+opcua_mcp.egg-info/requires.txt
+opcua_mcp.egg-info/top_level.txt

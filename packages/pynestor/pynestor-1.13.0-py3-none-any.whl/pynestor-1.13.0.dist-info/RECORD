@@ -1,0 +1,9 @@
+pynestor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynestor/__main__.py,sha256=NQYJJlGg3w9i6iTrZVrx8de5ANMVAFdOlA56ULjhwHw,2641
+pynestor/default-preview-nestor-cfg.yml,sha256=RdaTwd2eBPw06xmli8jPiIFIEkxi0Y6P2eccR0QKCmk,634
+pynestor/preview_odoo_nestor.py,sha256=86AiCuEbX8q-dlBR8f-D73JMD08BkYmKXjDnt6ZpOAo,22382
+pynestor/pynestor.py,sha256=KYs8DuUk82YhJ1i_4lpm3zY0so-wTTQ-Fet9YFVnQaY,21561
+pynestor-1.13.0.dist-info/METADATA,sha256=qMIxnVRDlBP62RQVjKcV6hpMXE-xp-BRbvMR_aumsqs,2518
+pynestor-1.13.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pynestor-1.13.0.dist-info/top_level.txt,sha256=c3Sf6U_rZN7TopfrgGnyrLsl36IIvVxoh5KYZoxjzd0,9
+pynestor-1.13.0.dist-info/RECORD,,

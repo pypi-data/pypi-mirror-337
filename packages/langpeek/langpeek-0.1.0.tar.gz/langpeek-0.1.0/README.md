@@ -1,0 +1,1 @@
+A lightweight language detection package using stopword heuristics.

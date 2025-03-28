@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: langpeek
+Version: 0.1.0
+Summary: A lightweight language detection package using stopword heuristics.
+Home-page: 
+Author: Williams Brook
+Author-email: williamsbrook1125@gmail.com
+License: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+A lightweight language detection package using stopword heuristics.

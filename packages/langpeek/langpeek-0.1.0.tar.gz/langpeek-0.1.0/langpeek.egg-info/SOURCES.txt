@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+langpeek/__init__.py
+langpeek/langpeek.py
+langpeek.egg-info/PKG-INFO
+langpeek.egg-info/SOURCES.txt
+langpeek.egg-info/dependency_links.txt
+langpeek.egg-info/requires.txt
+langpeek.egg-info/top_level.txt

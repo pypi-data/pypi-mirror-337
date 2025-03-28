@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: rospy_yaml_include
+Version: 3.0.2
+Summary: rospy_yaml_include
+Author: Woods Hole Oceanographic Institution, Acoustic Communications Group
+License: LGPL-3.0-or-later
+Project-URL: homepage, https://git.whoi.edu/acomms/rospy_yaml_include
+Keywords: Library,Python Modules,Scientific/Engineering
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: armw
+Requires-Dist: pyyaml>=6.0.1

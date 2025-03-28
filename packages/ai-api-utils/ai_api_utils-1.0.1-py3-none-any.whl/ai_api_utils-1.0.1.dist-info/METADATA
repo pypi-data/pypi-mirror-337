@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ai_api_utils
+Version: 1.0.1
+Summary: A wrapper for multiple ai apis like deepseek and google.
+Requires-Python: >=3.9.21
+License-File: LICENSE
+Requires-Dist: OpenAI
+Requires-Dist: google
+Dynamic: license-file

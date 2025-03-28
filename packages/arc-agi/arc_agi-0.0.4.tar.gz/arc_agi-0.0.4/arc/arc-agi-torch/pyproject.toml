@@ -1,0 +1,27 @@
+[project]
+name = "arc-agi-torch"
+version = "0.0.1"
+description = "ARC-AGI RTK for PyTorch integragtion"
+readme = "README.md"
+authors = [
+    { name = "Jumyung Park", email = "parkjumyungpublic@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "arc-agi-core",
+]
+
+[dependency-groups]
+lint = ["ruff>=0.11.2"]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["D"]
+pydocstyle = { convention = "google" }
+

@@ -1,0 +1,34 @@
+[project]
+name = "arc-agi"
+version = "0.0.4"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.uv]
+dev-dependencies = [
+    "arc-agi-core",
+    "arc-agi-llm",
+    "arc-agi-torch",
+]
+
+[tool.uv.sources.arc-agi-core]
+workspace = true
+
+[tool.uv.sources.arc-agi-llm]
+workspace = true
+
+[tool.uv.sources.arc-agi-torch]
+workspace = true
+
+[tool.uv.workspace]
+members = [
+    "arc/*",
+]

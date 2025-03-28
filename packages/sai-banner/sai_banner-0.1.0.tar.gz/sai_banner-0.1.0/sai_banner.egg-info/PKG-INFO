@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: sai-banner
+Version: 0.1.0
+Home-page: https://github.com/saikonohack/sai_banner
+Author: saikonohack
+Author-email: saikonohack <saintklovus@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools<79.0.0,>=78.1.0
+Requires-Dist: wheel<0.46.0,>=0.45.1
+Requires-Dist: twine<7.0.0,>=6.1.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Sai Banner
+A badass library to display an animated colored ASCII banner in your terminal.
+
+## Installation
+```bash
+pip install sai_banner
+```
+
+## Usage
+```python
+from sai_banner import print_banner
+
+# Default banner with animation
+print_banner()
+
+# Custom text without animation
+print_banner("Hack the world!", animate=False)
+``` 

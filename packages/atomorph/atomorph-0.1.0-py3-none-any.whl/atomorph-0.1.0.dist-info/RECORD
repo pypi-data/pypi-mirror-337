@@ -1,0 +1,14 @@
+atomorph/__init__.py,sha256=ILtxYnNflUPk4Z9W-FiNwpYvfri6NH2_d9T_RUElHFM,67
+atomorph/cli.py,sha256=ojWBGARlvnsMJmvpzwzWvZ3ljJyw4-w5dwxOKB2yzpk,2525
+atomorph/converter/__init__.py,sha256=rwJVc07K624L_gSeqeG_0vOe03B6l4N00xr0lw8caA8,114
+atomorph/converter/core/__init__.py,sha256=jw67gcam3XSRypqAnezpw7I_MpxwWog0T7CIjXzNpGY,115
+atomorph/converter/core/converter.py,sha256=napsP4CXFKZp5FLlUivb7cgUPPBWaUtOz-ypFLvXjxs,8834
+atomorph-0.1.0.dist-info/licenses/LICENSE,sha256=jAnUdH4UoIv-NKBvd9NMVo4IjhDiCYC_UWnKdptMPGw,1068
+tests/__init__.py,sha256=GNtQx5qBckXEVBZ9lvHblArD33CWkmTPWsO6oF54Giw,41
+tests/test_cli.py,sha256=cHtEPQWvbE2wyIbzwDHZCyDVlQXJOvV7KQlD9tPN0fc,2285
+tests/test_converter.py,sha256=chwbZeCt9NgnGRrrjUM4HFB9FK4tn5OgSCRzPD09H48,3668
+atomorph-0.1.0.dist-info/METADATA,sha256=bYPddVLN_KPQVoJMRwnxKZelxAEyO1y6Eak8D0S19aA,3947
+atomorph-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+atomorph-0.1.0.dist-info/entry_points.txt,sha256=ZyHeqfmiNSJL_1bjLI2EzDa-g53H1bGoDZQk42ptsr8,43
+atomorph-0.1.0.dist-info/top_level.txt,sha256=iGPRN7j5Iii0MtHy7LU--Eom91eLC6Uju5vL5mUEg6M,15
+atomorph-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+db2i-mcp-server = db2i_mcp_server:main

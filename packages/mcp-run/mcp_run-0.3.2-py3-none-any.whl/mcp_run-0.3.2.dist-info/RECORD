@@ -1,0 +1,12 @@
+mcp_run/__init__.py,sha256=fEO9w6-VvMidcWLP3pGMaW1yM2qO4vk37m6Rp1hrkYg,429
+mcp_run/api.py,sha256=GPGGD4en71VlB39XPHdSIhV0qVI1q3ljCOhYNbCWyls,3165
+mcp_run/client.py,sha256=cejMCMjSgWkMfodwIjFI5GF18qXevgyDUGsjoJZ8u0k,23754
+mcp_run/config.py,sha256=Cr8fY1X0XqDmuV0T-p4GvM2ihJJ4dvmVl5gprHGOlS8,2521
+mcp_run/plugin.py,sha256=vk8AFSb-n8x7p2mpIuZAvf0bm9SnjoZtzBjDLF58aCQ,1196
+mcp_run/profile.py,sha256=3WZoTOy6cWmOpElCdf8GbNHvBz9E_45yzzhEEyDtCUM,798
+mcp_run/task.py,sha256=7BSYmtIZst8XGDJw1AloFEU7LLLhJDHAnbzx8dZ8CHU,4397
+mcp_run/types.py,sha256=KFPfkkHkteOqs-JTb476_BV9Xu3waEc3bebUgOX4k60,6017
+mcp_run-0.3.2.dist-info/METADATA,sha256=tn48ZiGSjxXaR-k2z3UGKCwsXFffoFzMtfKe0DVKo3c,1835
+mcp_run-0.3.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_run-0.3.2.dist-info/top_level.txt,sha256=RD4sZ42vyBW0cCFtlCh61SYGgZkdjmq_4YEHMvibEio,8
+mcp_run-0.3.2.dist-info/RECORD,,

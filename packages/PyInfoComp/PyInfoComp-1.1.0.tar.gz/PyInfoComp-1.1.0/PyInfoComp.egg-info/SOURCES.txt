@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+PyInfoComp/PyInfoComp.py
+PyInfoComp/__init__.py
+PyInfoComp.egg-info/PKG-INFO
+PyInfoComp.egg-info/SOURCES.txt
+PyInfoComp.egg-info/dependency_links.txt
+PyInfoComp.egg-info/requires.txt
+PyInfoComp.egg-info/top_level.txt

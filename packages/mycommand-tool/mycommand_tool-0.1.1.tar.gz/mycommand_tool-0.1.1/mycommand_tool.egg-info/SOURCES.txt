@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mycommand/__init__.py
+mycommand/__main__.py
+mycommand/cli.py
+mycommand_tool.egg-info/PKG-INFO
+mycommand_tool.egg-info/SOURCES.txt
+mycommand_tool.egg-info/dependency_links.txt
+mycommand_tool.egg-info/entry_points.txt
+mycommand_tool.egg-info/requires.txt
+mycommand_tool.egg-info/top_level.txt

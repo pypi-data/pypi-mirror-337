@@ -1,0 +1,169 @@
+Metadata-Version: 2.4
+Name: mycommand-tool
+Version: 0.1.1
+Summary: A command-line tool for project management
+Home-page: https://github.com/yourusername/mycommand-tool
+Author: New Gen
+Author-email: your.email@example.com
+Keywords: project-management,cli,tools,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: python-dotenv>=1.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Mycommand Tool
+
+A command-line interface tool for project management.
+
+## Installation
+
+You can install the package from PyPI using pip:
+
+```bash
+pip install mycommand-tool==0.1.0
+```
+
+Or if you prefer using uv:
+
+```bash
+uv pip install mycommand-tool==0.1.0
+```
+
+## Quick Start Guide
+
+After installation, you can use the tool in two ways:
+
+<!-- ### Method 1: Using Python Module (Recommended) -->
+<!-- ```bash
+python -m mycommand init my_project -->
+```
+
+### Method 1: Direct Command (If available in PATH)
+```bash
+mycommand init my_project
+```
+
+## Available Commands
+
+### 1. Initialize a New Project
+```bash
+mycommand init <project_name>
+```
+This command will:
+- Create a new project with a standard structure
+- Set up a virtual environment (.venv) using the available package manager (pip or uv)
+- Install the package in editable mode
+- Create necessary configuration files
+
+### 2. Create a Flow Project
+```bash
+mycommand create flow <project_name>
+```
+This command will:
+- Create a new flow project with a specific structure
+- Set up the necessary directories and configuration files
+- Create a crew-based project structure with tools and configurations
+
+### 3. Add Dependencies
+```bash
+mycommand add <package_name>
+```
+This command will add a new dependency to your project.
+
+## Features
+
+- Create new projects with a single command
+- Create flow-based projects with crew structure
+- Easy to use command-line interface
+- Extensible architecture
+- Automatic virtual environment setup
+- Works with both pip and uv package managers
+- Cross-platform support (Windows, Linux, macOS)
+
+## Project Structure
+
+### Standard Project (`mycommand init`)
+```
+project_name/
+â”œâ”€â”€ src/
+â”‚   â””â”€â”€ project_name/
+â”‚       â”œâ”€â”€ __init__.py
+â”‚       â”œâ”€â”€ main.py
+â”‚       â””â”€â”€ tools/
+â”œâ”€â”€ tests/
+â”œâ”€â”€ .env
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â””â”€â”€ pyproject.toml
+```
+
+### Flow Project (`mycommand create flow`)
+```
+project_name/
+â”œâ”€â”€ crews/
+â”‚   â””â”€â”€ poem_crew/
+â”‚       â”œâ”€â”€ config/
+â”‚       â”‚   â”œâ”€â”€ agents.yaml
+â”‚       â”‚   â””â”€â”€ tasks.yaml
+â”‚       â””â”€â”€ poem_crew.py
+â”œâ”€â”€ tools/
+â”‚   â””â”€â”€ custom_tool.py
+â””â”€â”€ README.md
+```
+
+## Requirements
+
+- Python 3.6 or higher
+- pip (default) or uv package manager (optional)
+
+## Windows-Specific Notes
+
+If you're using Windows and encounter any issues:
+
+1. Make sure Python is added to your system PATH
+2. You can use either Command Prompt or PowerShell
+3. If using PowerShell, you might need to run:
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+4. The tool will automatically detect and use the available package manager (pip or uv)
+5. If the direct `mycommand` command doesn't work, use `python -m mycommand` instead
+
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Make sure you're using the correct Python version (3.6 or higher)
+2. Try using `python -m mycommand` instead of just `mycommand`
+3. Check if Python is properly added to your system PATH
+4. For Windows users, try running the command in PowerShell with administrator privileges
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

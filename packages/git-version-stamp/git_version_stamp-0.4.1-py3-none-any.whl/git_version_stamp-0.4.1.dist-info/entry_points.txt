@@ -1,0 +1,2 @@
+[console_scripts]
+git-version-stamp = git_version_stamp:main

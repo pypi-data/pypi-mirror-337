@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* add\_actions\_api, update for WDA 9 (#12)
+* Update pyusbmux.py to handle devices > 30 (#11)
+* fix logger not exists bug
+* remove logzero import
+* remove requests import

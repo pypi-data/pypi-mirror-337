@@ -1,0 +1,5 @@
+Deprecated>=1.2.6
+Pillow
+retry
+construct>=2
+pydantic>=2.5.1

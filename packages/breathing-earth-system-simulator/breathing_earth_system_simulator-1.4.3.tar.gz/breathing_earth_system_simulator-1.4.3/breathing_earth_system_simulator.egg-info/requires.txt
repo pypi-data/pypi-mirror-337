@@ -1,0 +1,15 @@
+FLiESANN>=1.4.1
+gedi-canopy-height>=1.1.0
+GEOS5FP>=1.1.1
+koppengeiger>=1.0.4
+modisci
+numpy
+rasters
+
+[dev]
+build
+pytest>=6.0
+pytest-cov
+jupyter
+pytest
+twine

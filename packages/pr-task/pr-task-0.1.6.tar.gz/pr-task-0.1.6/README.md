@@ -1,0 +1,18 @@
+# Redis ZSET 任务队列监听框架 (Python + aioredis)
+
+一个基于 Redis ZSET (有序集合) 和 aioredis 的异步任务队列框架，支持自动监听队列并下发任务。
+
+## 功能特性
+
+- 异步监听 Redis ZSET 队列
+- 自动获取并处理最高优先级任务
+- 支持任务重试机制
+- 可配置的消费者数量
+- 优雅的关闭处理
+- 支持多节点消费
+
+## 依赖安装
+
+```bash
+pip3 install pr-task
+```

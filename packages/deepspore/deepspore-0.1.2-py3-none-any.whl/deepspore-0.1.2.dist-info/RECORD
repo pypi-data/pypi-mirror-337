@@ -1,0 +1,17 @@
+deepspore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepspore/ddp_trainer.py,sha256=Q5zN8T7l-WMh74IWsJZ8t5IaZmZrNz4SQm-Fygu5tUY,2625
+deepspore/ddp_trainer_demo.py,sha256=tWQeO-Tq9ub0-OyGDHfFOcuSGOFcv4XVQQlmnNELa0k,2270
+deepspore/training.py,sha256=sbR5kxjzRjTF6sMPCzeZOgD4wZ1PfzEA9d9-8p3L_JY,13537
+deepspore/bio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepspore/bio/cog.py,sha256=cL_4JTSOpxoNYIPLtmpqsj2ZG96kNk9IQ0Qc0wMEYuo,4083
+deepspore/bio/download_eggnog_data.py,sha256=F-HuWyT3dgQq-R7GAdqAg6QNpIjZYo6ql1qJ47CVvzg,11754
+deepspore/bio/extract.py,sha256=2_v-nFZByVb8mYCaNR4Xe91d854Ng7FNf_KEmfC-s3E,2299
+deepspore/bio/flower_plot.py,sha256=nQ2euWm_xYvWlcTl3Cxf7x9_F_g-TwDfINgpqN1L_Ig,5212
+deepspore/bio/parallel.py,sha256=2WlHRgriljPlV3-TJ74h04XG-nrmGMDVpvTb75cATfo,1337
+deepspore/bio/parse_eggNOG.py,sha256=GtdGg1yKoZ0S0vH-Khsm79tAeaYA-t6NiJyG0ji7R40,7084
+deepspore/bio/parse_go_obofile.py,sha256=AQiECJAtlRbmXQVoZImcjYF-qIW2EAXLZ6PAWHFL0CI,2661
+deepspore/bio/roary_plots.py,sha256=4Y2NZ8z91awwvUAKVW8cwCzX9DzPaLHm-T2mE5r-n7Y,14984
+deepspore-0.1.2.dist-info/METADATA,sha256=CCwWoUCzN2tAAF4VO_iqILd7ftPUeO73mn6Pu5ToTfI,338
+deepspore-0.1.2.dist-info/WHEEL,sha256=jB7zZ3N9hIM9adW7qlTAyycLYW9npaWKLRzaoVcLKcM,91
+deepspore-0.1.2.dist-info/top_level.txt,sha256=xoai3doNQW76KMdlbmIzjLMOvSCU6oPWZIsasFJwMko,10
+deepspore-0.1.2.dist-info/RECORD,,

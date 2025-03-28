@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+pancakeswap_poolspy_mcp.egg-info/PKG-INFO
+pancakeswap_poolspy_mcp.egg-info/SOURCES.txt
+pancakeswap_poolspy_mcp.egg-info/dependency_links.txt
+pancakeswap_poolspy_mcp.egg-info/requires.txt
+pancakeswap_poolspy_mcp.egg-info/top_level.txt

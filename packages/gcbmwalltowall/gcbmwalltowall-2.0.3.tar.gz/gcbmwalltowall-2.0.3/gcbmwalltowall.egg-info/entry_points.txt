@@ -1,0 +1,2 @@
+[console_scripts]
+walltowall = gcbmwalltowall.application.walltowall:cli

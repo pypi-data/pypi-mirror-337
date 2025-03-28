@@ -1,0 +1,6 @@
+mojadata>=4.0.3
+sqlalchemy
+sqlalchemy-access
+pandas
+openpyxl
+spatial_inventory_rollback>=1.1.0

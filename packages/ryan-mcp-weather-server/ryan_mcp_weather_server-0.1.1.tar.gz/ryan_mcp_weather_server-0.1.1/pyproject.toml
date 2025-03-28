@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ryan-mcp-weather-server"
+version = "0.1.1"
+description = "The MCP weather server"
+authors = [{ name = "Ryan Zheng", email = "zhengjianhong95@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+keywords = ["mcp", "weather"]
+dependencies = [
+  'httpx',
+  "mcp>=1.0.0"
+]
+
+[project.scripts]
+ryan-mcp-weather-server = "ryan_mcp_weather_server:main"

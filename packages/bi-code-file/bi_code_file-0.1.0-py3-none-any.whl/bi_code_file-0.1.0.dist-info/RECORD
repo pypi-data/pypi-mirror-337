@@ -1,0 +1,22 @@
+bi_code_file/__init__.py,sha256=JRutwIzYNAXQGVfr3DbQ76MAR5IJ6Gr-ZBjuUOgsImA,51
+bi_code_file/downloader.py,sha256=dJhCJgLf-ie5G9OVxDHr3wsrqofZACXTTUxC7cvT6MM,2047
+bi_code_file/files/Daily_minimum_temps.csv,sha256=D5urdidXYdbTnUtfSU16CdmE_E5gIrKONl_Tgd1cg50,52342
+bi_code_file/files/LinearRegression.py,sha256=LPDjJb7NlwwWCqR1HfIGYUgv9XGgXZHCi01tQ2avH00,1065
+bi_code_file/files/Mall_Customers.csv,sha256=QWpPYqjzOEGhbh21KX8OBdO2WwXnNjLO2uWOc54eH3c,3981
+bi_code_file/files/SVM.py,sha256=M5O57SbbWON50EVC-5PwkrPpnWyAaaWAztO8GivPFfs,1047
+bi_code_file/files/Salary_dataset.csv,sha256=CZRdS0h2rUjINKm3zKkbNVXYSHurDu4Tv20XiplsYP4,664
+bi_code_file/files/Wholesale_customers_data.csv,sha256=w9AYxkNWW4XO5zPEoqx23XbggOhXyyPwzPzC4VpsF-8,15021
+bi_code_file/files/admission.csv,sha256=ozpLMakDjSbgitpLhgStplJ8XvvcX66sW81KKfk583Y,12840
+bi_code_file/files/admission.py,sha256=OYbav32PLwuCW_c0RX8cSO9PDSvLRnXS-hSiJPZjUm0,880
+bi_code_file/files/cluster_algoritm.py,sha256=fuZMhOwhOnWU50x9jNN6hc9HBISrrQd-sByLDP5tlzg,1205
+bi_code_file/files/dendogram.py,sha256=dBByOe-OR7BwEaB5V78tELpNyAy7RM8yS5QQIkz-FI0,864
+bi_code_file/files/iris.csv,sha256=xSdC5QMVqZ-Vajg_rt91dVUmdfZAnvD5pHB23QhHmTA,3858
+bi_code_file/files/k_means.py,sha256=fuZMhOwhOnWU50x9jNN6hc9HBISrrQd-sByLDP5tlzg,1205
+bi_code_file/files/navia.py,sha256=VcBY_tNjg3rhdwa632ojnUOq8c1fbnrbmWrETMim4HQ,487
+bi_code_file/files/prediction.py,sha256=kKV_1eYiOrWi5jhvUGmQcvo7TpYiSioGjv4g4P8nkgU,1170
+bi_code_file/files/spam detection.py,sha256=zzV8J1ltBvDclzWfRoP_azjtiafK_-jwsaTpxoSIEX8,807
+bi_code_file/files/spam.csv,sha256=1z719hIIevBMfZCUzaVL7tOz_hW2D6rEPnImPdjSBJ8,480130
+bi_code_file-0.1.0.dist-info/METADATA,sha256=zCKySw7A2x09vQAdCWwaozCjOSV_D9ub8S3iTjp5xJs,512
+bi_code_file-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bi_code_file-0.1.0.dist-info/top_level.txt,sha256=vzwvZrwzXtPuaCKJTUBuwwa3T-Ev6KSapLDHZ9vIffo,13
+bi_code_file-0.1.0.dist-info/RECORD,,

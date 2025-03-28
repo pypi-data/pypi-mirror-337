@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: atomfoxapi
+Version: 1.0.1
+Summary: A Atom Mobility API.
+Author-email: mc_c0rp <dmitriiursachi@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: pydantic

@@ -1,0 +1,8 @@
+nanoml/__init__.py,sha256=LwIYxKw8oiMUlYdGzR6imLstx-uZG1BvwHK0vn-GjMU,274
+nanoml/data.py,sha256=keqiy5U4ZXY3tnvj2EJNHcCZ8_DPir6EMr97pzZiM9c,1645
+nanoml/device.py,sha256=6T2iEaIljORa7yQ0HHpjU1gCTj1sG35HZmBmLb9RSO8,1048
+nanoml/dtype.py,sha256=IrgKiBYImLJge4Ajf2v2NyKacF76nYS2qBG_CWOIxNs,799
+nanoml-0.1.4.dist-info/METADATA,sha256=UHYNC5BRwXuvLG5-GkXARGS0bpGhuI5NhqJh7IMmpj0,1907
+nanoml-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nanoml-0.1.4.dist-info/licenses/LICENSE,sha256=JP7_mVq2QtCF3_DXWtC-ykMTHZTZHWjtml617aLwZtY,1077
+nanoml-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: arc-agi-llm
+Version: 0.0.1
+Summary: ARC-AGI RTK for LLM(Large Language Model) approach
+Author-Email: Jumyung Park <parkjumyungpublic@gmail.com>
+Requires-Python: >=3.13
+Requires-Dist: arc-agi-core
+Description-Content-Type: text/markdown
+

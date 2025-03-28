@@ -1,0 +1,4 @@
+azure-pipelines
+examples
+icsDataValidation
+resources

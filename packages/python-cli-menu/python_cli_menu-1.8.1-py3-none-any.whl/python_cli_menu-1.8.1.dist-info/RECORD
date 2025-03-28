@@ -1,0 +1,9 @@
+python_cli_menu-1.8.1.dist-info/licenses/LICENSE.txt,sha256=7lCfsv1LxYGvlvz0IqhObpYyCMz357xYfhJmSrsTZ3A,1093
+pythonclimenu/__init__.py,sha256=k-QMyht5PhyJPjpHiK3RuisybZwGfhXbjDa6NH5ceHE,183
+pythonclimenu/climenu.py,sha256=nUraAySjwOe3J5bYR4yXUZK4TrSXRh3ZvT00Hz5BEdM,14607
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/ui_menu_test.py,sha256=DHKhbLuVcahTkUWY9Ka5oJ1tyH5IVxSVnm46I0D7Wg0,1749
+python_cli_menu-1.8.1.dist-info/METADATA,sha256=2iKJI7Hy7Xfinbu646XhJUWbEHSAyWFgQJNnFgs-8yo,4305
+python_cli_menu-1.8.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+python_cli_menu-1.8.1.dist-info/top_level.txt,sha256=wxW-Gtg7ObnJVf9NUI9NSImFCDDA7y-SHR1ELK6YZQg,20
+python_cli_menu-1.8.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+docstring_parser
+
+[all]
+openai
+anthropic
+groq
+
+[anthropic]
+anthropic
+
+[groq]
+groq
+
+[openai]
+openai

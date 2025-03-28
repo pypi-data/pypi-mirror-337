@@ -1,0 +1,117 @@
+# Lingora
+
+A command-line utility for translating UI string JSON files for [i18n]() using AI services through a plugin architecture, with a web-based reviewer interface.
+
+## Features
+
+- Translate JSON UI string files to any supported language
+- Plugin-based architecture for different AI translation services
+- Currently supports OpenAI's GPT models and includes a simulator plugin for testing
+- Preserves JSON structure and folder hierarchy
+- Progress tracking during translation
+- Web-based reviewer interface for comparing and editing translations
+- Supports recursive directory scanning for JSON files
+
+## Installation
+
+1. Clone this repository
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Configuration
+
+For the OpenAI plugin, create a `.env` file in the project root with:
+```
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-3.5-turbo  # Optional, defaults to gpt-3.5-turbo
+```
+
+## Usage
+
+### Translation
+
+```bash
+python lingora translate en de --input-dir ./locales/en --plugin-name openai
+```
+
+This will:
+1. Read all JSON files from the input directory
+2. Generate an intermediate XML representation
+3. Translate the content to German
+4. Save the translated files in `output/de/` maintaining the original directory structure
+
+### Launch Translation Reviewer
+
+```bash
+python lingora reviewer ./locales/en ./output/de
+```
+
+This launches a web-based interface for:
+- Comparing source and translated strings
+- Editing translations
+- Saving changes directly to the target files
+
+### List Available Plugins
+
+```bash
+python lingora list-plugins
+```
+
+## Plugin System
+
+The tool uses a plugin architecture to support different AI translation services. Each plugin must implement the `TranslationPlugin` interface defined in `plugins/base.py`.
+
+### Creating a New Plugin
+
+1. Create a new file in the `plugins` directory
+2. Implement the `TranslationPlugin` interface
+3. Register your plugin in `plugins/__init__.py`
+
+Example plugin structure:
+```python
+from .base import TranslationPlugin
+
+class MyTranslationPlugin(TranslationPlugin):
+    def translate(self, text: str, target_lang: str) -> str:
+        # Implement translation logic
+        pass
+    
+    def get_name(self) -> str:
+        return "my_plugin"
+    
+    def get_description(self) -> str:
+        return "Description of my plugin"
+    
+    def is_configured(self) -> bool:
+        return True  # Check if plugin is properly configured
+```
+
+## Declarations
+
+### Credits
+
+#### Artificial Intelligence
+
+- Python code for translation motor regarding _i811_ JavaScript library was almost entirely done by [Cursor](https://www.cursor.com/en) via extremely descriptive prompts [as an experiment].
+- The name was chosen among recommendations in a brainstorming session by [DeepSeek](https://www.deepseek.com/) [as an experiment]. 
+
+### License
+
+    Lingora, an open source utility automating performing language 
+    transformations on documents though artificial intellegience  
+    Copyright (C) 2025 Isaak Engineer
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.

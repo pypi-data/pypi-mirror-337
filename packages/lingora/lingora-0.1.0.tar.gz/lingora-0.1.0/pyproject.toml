@@ -1,0 +1,23 @@
+[project]
+name = "lingora"
+version = "0.1.0"
+authors = [
+  { name="Isaak Engineer", email="isaak@schloosser.com" },
+]
+description = "A utility automating performing language transformations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "AGPL-3.0-only"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://git.schloosser.net/lingora/lingora"
+Issues = "https://git.schloosser.net/lingora/lingora/issues"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,6 @@
+BASE_URL = 'https://frontend.g9.pt/fapi'
+LOGIN_URL = BASE_URL + '/auth/login'
+INVOICES_URL = BASE_URL + '/invoice'
+CONTRACTS_URL = BASE_URL + '/contracts'
+ELECTRICITY_CONSUMPTION_URL = BASE_URL + '/contract/electricity/graph'
+GAS_CONSUMPTION_URL = BASE_URL + '/contract/gas/graph'

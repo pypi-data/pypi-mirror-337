@@ -1,0 +1,5 @@
+[console_scripts]
+shellman = shellman:main
+
+[gui_scripts]
+

@@ -1,0 +1,11 @@
+my_math/__init__.py,sha256=RckF4cUjR_84R56VFFF51sCSCTf6Zjck_lsUDoKDYAg,34
+my_math/basic/__init__.py,sha256=YZLrTcpztlH7r1yei1ICxsubZqlFjyF7xHBOsjIgcII,60
+my_math/basic/addition.py,sha256=ShcbK_MVk3c_v4J_5Aj7UNzbtfrpFptDefz1WANDED0,55
+my_math/basic/subtraction.py,sha256=qa4CkjN72ubO9VE0LpyOv3XvHFGClHIugdmZliq3nxw,60
+my_math/intermediate/__init__.py,sha256=eJAv_TDd8-XD1ycdXYKMwGUNG1BY3QQ2mMTwIWflkoI,76
+my_math/intermediate/addition_vec.py,sha256=fUTJ8qNCZDbCXqpq0gLr9FzNTj-NBk7zf8TGjGfa1HA,169
+my_math/intermediate/subtraction_vec.py,sha256=mStJ1G7_Br_0_cGPmYkQ0bHXfXRrmESMtq72krYhgdw,185
+my_math_math-1.0.0.dist-info/METADATA,sha256=Ym45zkCJT1rOXx4hRrw0SuFycl1titl4M9A1wyrfzoc,541
+my_math_math-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+my_math_math-1.0.0.dist-info/top_level.txt,sha256=UfXS5MzTlzcnd_LOG9ohAryDJdhN6UbUsMpD6SLlBfA,8
+my_math_math-1.0.0.dist-info/RECORD,,

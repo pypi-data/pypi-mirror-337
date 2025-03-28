@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: my-math-math
+Version: 1.0.0
+Summary: Read the latest Python tutorials
+Author-email: Real Python <info@realpython.com>
+Project-URL: Homepage, https://github.com/realpython/reader
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"

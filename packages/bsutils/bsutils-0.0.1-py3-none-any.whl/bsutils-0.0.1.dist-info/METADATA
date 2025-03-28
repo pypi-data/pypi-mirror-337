@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: bsutils
+Version: 0.0.1
+Summary: Frequently used basic python tools.
+Author-email: wangzhen0518 <wangzhen0518@126.com>
+Requires-Python: >=3.11
+Requires-Dist: pyjson5>=1.6.8

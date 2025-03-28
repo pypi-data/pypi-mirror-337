@@ -1,0 +1,5 @@
+[console_scripts]
+pgm-corner-count=cartographer_tuner.cli.pgm_corner_count:main
+pgm-enclosed-areas=cartographer_tuner.cli.pgm_enclosed_areas:main
+pgm-occupied-proportion=cartographer_tuner.cli.pgm_occupied_proportion:main
+

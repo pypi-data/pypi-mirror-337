@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: cartographer-tuner
+Version: 0.1.0
+Summary: A toolkit for Google-Cartographer tuning.
+License: LICENCE
+Keywords: circuit,synthesis,analysis
+Author: Vsevolod Vaskin
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: lark (>=1.2.2,<2.0.0)
+Requires-Dist: lupa (>=2.4,<3.0)
+Requires-Dist: opencv-python (>=4.11.0.86,<5.0.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Cartographer Tuner
+
+Helper package for [Cartographer](https://github.com/ros2/cartographer_ros) tuning.
+
+## Installation
+```
+pip install cartographer_tuner
+```
+
+## PGM Map metrics
+
+The tool implements metrics presented in [2D SLAM Quality Evaluation Methods](https://arxiv.org/abs/1708.02354).
+
+Usage example:
+
+- `pgm-corner-count /path/tp/map.pgm`
+- `pgm-occupied-proportion /path/to/map.pgm`
+- `pgm-enclosed-areas /path/to/map.pgm`
+
+## System Requirements
+
+This package requires the following external tools to be installed (for some functionality):
+
+- `cartographer` - Google Cartographer SLAM library
+  - Installation: `sudo apt-get install ros-<version>-cartographer`
+- `cartographer_ros` - ROS 2 integration for Cartographer
+  - Installation: `sudo apt-get install ros-<version>-cartographer-ros`

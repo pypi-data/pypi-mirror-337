@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: htmlcmd
+Version: 1.0.0
+Summary: HTML to Markdown Converter
+Author: Divid
+Author-email: guowei1264@163.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: playwright>=1.40.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: markdownify>=0.11.0
+Requires-Dist: lxml>=4.9.0
+Requires-Dist: pyyaml>=6.0.0
+Requires-Dist: typing-extensions>=4.0.0
+Requires-Dist: aiohttp>=3.8.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

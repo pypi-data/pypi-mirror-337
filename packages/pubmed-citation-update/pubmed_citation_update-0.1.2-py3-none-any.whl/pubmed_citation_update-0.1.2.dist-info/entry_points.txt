@@ -1,0 +1,2 @@
+[console_scripts]
+pubmed-citation = pubmed_citation.cli:main

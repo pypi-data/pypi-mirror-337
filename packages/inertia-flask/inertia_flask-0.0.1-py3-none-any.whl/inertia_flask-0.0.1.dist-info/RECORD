@@ -1,0 +1,13 @@
+inertia_flask/__init__.py,sha256=BeCU0Myc_I0Tt1LldhZ_7OQI9wq8VMgKmRSbt_-rG_g,601
+inertia_flask/cli.py,sha256=knBqzQs_lwvOdDb-IFrQwG14Pf0xBXkaW7sIrhCja9c,8269
+inertia_flask/extension.py,sha256=533GHP-hnoPfevaIeK1jnEoFD9mmc2mVPSYrcKn2_tA,11498
+inertia_flask/helpers.py,sha256=w6TpgwsvkrmHXG7RmWUzTQQUJg1fnZcCw50rd4Fjr-k,481
+inertia_flask/prop_classes.py,sha256=k22bmLG4Gzjf1RJA5pdacxddxqDtT4KuC1CUho69wPI,798
+inertia_flask/responses.py,sha256=NNrNtp5XPgQ5Wai3eirNC_5wqAQTfvHYKsVsHsUQyCc,8367
+inertia_flask/settings.py,sha256=CDMsmMFJV6j4izlfJOyBX6fAtbOcJE9n8iOMDxUmh5g,1070
+inertia_flask/utils.py,sha256=8wRDMBfZw7UALNweGiq0EWfpzFYkXaacAgw28nlmctg,1450
+inertia_flask/version.py,sha256=gtRhWiECZHKNTuHGobMQmb9bDNQB4ev9qCwvU7faep4,1322
+inertia_flask-0.0.1.dist-info/METADATA,sha256=bZ8MckaELVCTQniRGCxgMgAu369tswcb7B7MI1m5Rm8,7768
+inertia_flask-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+inertia_flask-0.0.1.dist-info/licenses/LICENSE.md,sha256=3NBk-8AlkNy2cvoygPg7v0cmPV0dHbC4zS2VTaSyLn8,1082
+inertia_flask-0.0.1.dist-info/RECORD,,

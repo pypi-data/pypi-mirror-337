@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmpy_stark"
+version = "0.1.1"
+description = "Python SDK for Financial Modeling Prep API"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "The Unlicense"}
+authors = [
+    {name = "Jimmy", email = "skylinezum@noreply.github.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.3",
+    "python-dateutil>=2.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0.0",
+    "pytest-cov>=2.12.0",
+    "black>=21.5b2",
+    "isort>=5.9.1",
+    "mypy>=0.812",
+    "flake8>=3.9.2",
+]
+docs = [
+    "sphinx>=4.0.2",
+    "sphinx-rtd-theme>=0.5.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/fmpy"
+"Bug Tracker" = "https://github.com/yourusername/fmpy/issues"
+"Documentation" = "https://fmpy.readthedocs.io/"
+
+[tool.pytest]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+strict_optional = true
+

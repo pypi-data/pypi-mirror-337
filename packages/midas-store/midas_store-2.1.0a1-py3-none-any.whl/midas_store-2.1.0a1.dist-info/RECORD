@@ -1,0 +1,10 @@
+midas_store/__init__.py,sha256=2nnT_TE7iLNgZ-iQBQx8i5Q0MzvtdEDuoTAKRNqTaPg,76
+midas_store/csv_model.py,sha256=WaCYPqfPfvvGQJWKpcQG0Z2AHgpdm29eAR6R9JftBgo,3753
+midas_store/meta.py,sha256=mTm_paWTM5d5GIiemSn0ymjFeqasJ6Ls5D3F2GMi904,367
+midas_store/module.py,sha256=kN9Kl7000q-KkwardQhWRVCKzxeMdXZfYQLM-vtd3N0,1953
+midas_store/simulator.py,sha256=Uq8dvN_nfmXeCo1DwZGfe1-KqDzS9LNaAwS_rQajQ4w,2348
+midas_store-2.1.0a1.dist-info/licenses/LICENSE,sha256=adm0bP3Oct0QajMMTL3NBtwd_yyhhZFiPc4YVPwmofE,7648
+midas_store-2.1.0a1.dist-info/METADATA,sha256=dAjihAdo5OfoIcrn1LkJ2wdBRIetXYdowWRbEFc16oM,2359
+midas_store-2.1.0a1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+midas_store-2.1.0a1.dist-info/top_level.txt,sha256=zSHEckpnovnncD53C72d9jUKWM5K9aDwjzI6wUXokPo,12
+midas_store-2.1.0a1.dist-info/RECORD,,

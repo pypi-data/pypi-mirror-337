@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: zev
+Version: 0.1.0
+Summary: A CLI using Typer
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: openai==1.68.2
+Requires-Dist: platformdirs==4.3.7
+Requires-Dist: pyperclip==1.9.0
+Requires-Dist: pydantic==2.10.6
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: questionary===2.1.0
+Requires-Dist: rich==13.9.4
+Provides-Extra: dev
+Requires-Dist: ruff>=0.11.2; extra == "dev"
+Dynamic: license-file

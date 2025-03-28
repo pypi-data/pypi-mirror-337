@@ -1,0 +1,2 @@
+[console_scripts]
+vinclude = vinclude:main

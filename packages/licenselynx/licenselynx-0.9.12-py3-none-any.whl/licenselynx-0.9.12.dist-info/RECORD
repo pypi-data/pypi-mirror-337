@@ -1,0 +1,9 @@
+licenselynx/__init__.py,sha256=WUxNsB17SLuzxT8g6IefKI8mX3B2NNQwWJNGb9gi9Hc,123
+licenselynx/license_map_singleton.py,sha256=aA-46N-cit4IDO9dYsYNf-vA_xSpGO5swnNhX5AbcVw,966
+licenselynx/license_object.py,sha256=R8EsbqWfaB6fQlzpOvV6VoFZj7EOrYFsy17IC4B7Qj4,377
+licenselynx/licenselynx.py,sha256=RWz0gqFQiridxQ8I-fW_NEJzzD591UiuyZAP5Lbubz0,1013
+licenselynx/resources/merged_data.json,sha256=g5qSnl3orCaz5J0Xyd-7PbBM3R-97SBmt1-1QhwNR_A,977147
+licenselynx-0.9.12.dist-info/LICENSE,sha256=deGuf_CtjSpRDe54QPn7qoocuPEGika2Sji0LxyJmcI,11340
+licenselynx-0.9.12.dist-info/METADATA,sha256=zbsNP3I3jh7zaJsbHpdLhta_lVGYNzx5UUaith9KWXQ,1239
+licenselynx-0.9.12.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+licenselynx-0.9.12.dist-info/RECORD,,

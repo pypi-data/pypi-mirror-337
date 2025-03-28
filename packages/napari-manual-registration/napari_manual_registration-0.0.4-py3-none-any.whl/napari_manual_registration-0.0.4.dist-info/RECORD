@@ -1,0 +1,10 @@
+napari_manual_registration/__init__.py,sha256=F81iOKaNgs9R9vfyqAzwAwWBydKEUlmF-ZrntgZZTX4,102
+napari_manual_registration/_widget.py,sha256=BstkhmaZWjz0k3v_1FUSzfTcIbTFK2absoBLi2luYBw,19673
+napari_manual_registration/napari.yaml,sha256=3Z7mjbwLlefYuZAKz3smlY9TYM0nLNYrteoFHMMB24k,577
+napari_manual_registration/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_manual_registration-0.0.4.dist-info/licenses/LICENSE,sha256=drXTZqkvnYAV8eMD_UrSbZxOpImehxmyrvGm_aPaO0Q,1488
+napari_manual_registration-0.0.4.dist-info/METADATA,sha256=G4tVPFAJ8q3CJS9CN_rzdqhpQ2gGRviLWZLhm7CHhJk,15455
+napari_manual_registration-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+napari_manual_registration-0.0.4.dist-info/entry_points.txt,sha256=e7EOmCzrkNvHMgqd6DRziXKXXy9RaKHTqzjfs-Wjrww,86
+napari_manual_registration-0.0.4.dist-info/top_level.txt,sha256=if9f17K4rpzk9m_KAMjB2MypSvz4P76EPVRA4-1tugw,27
+napari_manual_registration-0.0.4.dist-info/RECORD,,

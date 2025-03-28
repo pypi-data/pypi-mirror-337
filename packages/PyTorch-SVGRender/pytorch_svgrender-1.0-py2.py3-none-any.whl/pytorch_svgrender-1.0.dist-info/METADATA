@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: PyTorch-SVGRender
+Version: 1.0
+Summary: PyTorch-SVGRender: A package for rendering SVGs using PyTorch.
+Author-email: Ximing Xing <ximingxing@gmail.com>
+License-File: LICENSE

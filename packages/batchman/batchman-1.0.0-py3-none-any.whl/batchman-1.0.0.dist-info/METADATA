@@ -1,0 +1,216 @@
+Metadata-Version: 2.4
+Name: batchman
+Version: 1.0.0
+Summary: A flexible Python library for managing batches of requests to LLM inference providers.
+Author-email: Etienne <etienne@withexxa.com>
+Maintainer-email: Etienne <etienne@withexxa.com>, Corentin <corentin@withexxa.com>
+License: MIT License
+        
+        Copyright (c) 2025 Exxa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: bugs, https://github.com/withexxa/batchman/issues
+Project-URL: changelog, https://github.com/withexxa/batchman/blob/master/changelog.md
+Project-URL: homepage, https://github.com/withexxa/batchman
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: pydantic
+Requires-Dist: PrettyTable
+Provides-Extra: all
+Requires-Dist: openai; extra == "all"
+Requires-Dist: anthropic; extra == "all"
+Provides-Extra: dev
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: tox-uv; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx-rtd-theme; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints; extra == "dev"
+Dynamic: license-file
+
+# Batchman - Batch LLM requests
+
+A flexible Python library for managing batches of requests to LLM inference providers.
+
+## Features
+
+- Use batch providers through a unified API
+- Validate requests before uploading
+- Keep track of uploaded batches and their status
+- [TODO] Visualize batch requests and results
+- [TODO] Support streaming results for dev mode
+
+## Installation
+
+### From PyPI
+
+```bash
+pip install batchman[all]
+```
+
+If you don't want to install all the providers, you can install only the ones you need, and install
+the minimum dependencies with
+
+```bash
+pip install batchman
+```
+
+### For Development
+
+```bash
+git clone https://github.com/yourusername/batchman.git
+cd batchman
+uv pip install -e .[dev,all]
+```
+
+to build the pypi package, run
+
+```bash
+uv build
+```
+
+to publish to testpypi, run
+
+```bash
+uv publish --index testpypi --username __token__ --password $PYPITEST_TOKEN
+```
+
+Downloading from the test index:
+
+```bash
+pip install --verbose -i https://test.pypi.org/simple/  --extra-index-url https://pypi.org/simple/ batchman[all]
+```
+
+### Building the documentation
+
+```bash
+tox -e docs
+```
+
+## Quickstart
+
+### Creating a batch
+
+```python
+import batchman
+from batchman import Request, UserMessage
+
+# Initialize a new batch
+batch = batchman.create_batch("my batch")
+
+# Example: Generate stories for different professions
+jobs = [
+    "an astronaut", "a doctor", "a firefighter", "a teacher",
+    "a chef", "a farmer", "a pilot", "a scientist"
+]
+
+# Add requests to the batch
+batch.add_requests([
+    Request([
+        UserMessage(f"Write a short story about a child dreaming of being {job}.")
+    ])
+    for job in jobs
+])
+
+# Configure batch parameters
+batch.override_request_params(
+    system_prompt=(
+        "You are a creative writer who writes short stories for children. "
+        "The goal of the stories are to motivate them to pursue their dreams "
+        "and to make them believe that they can achieve anything they want."
+    ),
+    model="llama-3.1-70b-instruct-fp16",
+    temperature=0.5,
+)
+
+# Set the provider (uses EXXA_API_KEY environment variable by default)
+batch.set_provider(provider="exxa")
+
+# Upload the batch
+batch.upload()
+```
+
+### Managing Batches
+
+#### Sync batches
+Use the `batchman sync` command to sync all batches. This will fetch the status of all non-completed batches and download the results when the batch is completed.
+
+```bash
+# Sync all batches
+batchman sync
+
+# Sync batches in a specific directory
+batchman --dir path/to/batches sync
+```
+
+#### List batches
+
+```bash
+# List all batches
+batchman list
+
+# List batches in a specific directory
+batchman --dir path/to/batches list
+```
+
+### Advanced Usage
+
+#### Custom Provider Configuration
+
+If you need to specify the api_key and/or the base_url for a provider, you can do so by passing the provider_config parameter to the `create_batch` function.
+
+```python
+batch = batchman.create_batch(
+    name="my batch",
+    provider="exxa",
+    provider_config=ProviderConfig(
+        api_key="your-api-key",
+        url="https://api.example.com",
+    )
+)
+```
+
+### Security
+
+Once a provider is configured (at batch creation time or later), the provider configuration **including the api_key** is
+stored in the `providers_config.jsonl` file. This file should not be shared with others. The batches directories
+only store hash references to this file, and are safe to share.
+
+## Contributing
+
+Contributions are welcome! Please see our [ (TODO) Contributing Guide](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

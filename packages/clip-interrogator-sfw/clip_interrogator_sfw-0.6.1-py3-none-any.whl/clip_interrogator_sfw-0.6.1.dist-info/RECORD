@@ -1,0 +1,12 @@
+clip_interrogator/__init__.py,sha256=XykZOmnQNdO8SUK_ST8lg62kUz9X2eoduu23ENSztGI,167
+clip_interrogator/clip_interrogator.py,sha256=9Ie6JQ3Q1-9Mn0q4wZu-6SOva51elyMIOBRXsVJVzbU,20875
+clip_interrogator/data/artists.txt,sha256=AeSzD218_bYvRYLFvsZY4C15v5wZBSlJzjM21u_005U,82438
+clip_interrogator/data/flavors_sfw.txt,sha256=3DMTCSh0aeBFD0a8pOL71mjdWhHNFvcMLiQnT3xHOQc,1785127
+clip_interrogator/data/mediums.txt,sha256=kfJrnQ19k_jjATmpT4lbpal3RAM-wLF0U586iLxJzSw,1606
+clip_interrogator/data/movements.txt,sha256=FtYOy0iQGIXod8qSQ7PDK8hKJHfE0_Chz21mCGzkdIM,2683
+clip_interrogator/data/negative.txt,sha256=sKijbj9RndOwcwMTfIvq7suip2WDDkBKQn4whFyD6OI,418
+clip_interrogator_sfw-0.6.1.dist-info/licenses/LICENSE,sha256=fh435b5Be9pCS1yDQWllOzE1Px0QZAx_HdYr9WpcZ3s,1072
+clip_interrogator_sfw-0.6.1.dist-info/METADATA,sha256=BMFh0GCGL1I02Zl6ffLqbJUrYQv1fq47QiJndhEpIgw,5832
+clip_interrogator_sfw-0.6.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+clip_interrogator_sfw-0.6.1.dist-info/top_level.txt,sha256=f630938ybGmdxNSkkFLVAr3YUimLzbguSVoCdyPbwfs,18
+clip_interrogator_sfw-0.6.1.dist-info/RECORD,,

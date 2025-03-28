@@ -1,0 +1,10 @@
+TFDWT/DWTIDWT1Dv1.py,sha256=Qu-9k54qdxrmZeydt_QC8ZWW6Nck91Y2KcIDExfhXaA,7833
+TFDWT/DWTIDWT2Dv1.py,sha256=rxSbAcn2YfF0I-dmK69XLs15TgGqCCYny3bwSJeCTPM,9053
+TFDWT/GETDWTFiltersOrtho.py,sha256=QnN4zvnKgNWzUCiGOznvR8xtf_ImScMLa-7_TGyKDkk,2794
+TFDWT/__init__.py,sha256=pO9q__P2ZS36fjysErPQ1IOiVfivv_ozsTNdM52pmuY,1171
+TFDWT/dbFBimpulseResponse.py,sha256=MBYoad_00gOavjWGjorpD5317bYU9X0B6AC2t3SdBnQ,280946
+TFDWT/get_A_matrix_dwt_analysisFB_unit.py,sha256=jniu1Dd5eP7q2OTlt-iJn8jQslt9Rkg0K_xtiAhnxb4,1492
+tfdwt-0.0.1.dist-info/METADATA,sha256=oNd2uM4JlQgv1mvv_RYN09K-8MRd8nQdEDy4YZnvm8A,2983
+tfdwt-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+tfdwt-0.0.1.dist-info/licenses/LICENSE,sha256=owZVK3_Xyd2Wfpq9eStIjTIrQickZ9heb7YFTFPtbDY,35138
+tfdwt-0.0.1.dist-info/RECORD,,

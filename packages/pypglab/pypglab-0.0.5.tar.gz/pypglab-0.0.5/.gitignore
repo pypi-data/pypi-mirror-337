@@ -1,0 +1,8 @@
+.DS_STORE
+.vscode
+venv
+*.pyc
+dist/
+pypglab/__pycache__
+tests/__pycache__
+

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: arc-llm
+Version: 0.1.0
+Summary: ARC-RTK for LLM(Large Language Model) approach
+Author-Email: Jumyung Park <parkjumyungpublic@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+

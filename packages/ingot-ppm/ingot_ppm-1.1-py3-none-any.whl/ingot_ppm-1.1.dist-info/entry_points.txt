@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-ppm = ppm.cli:main
+ppm = ppm.cli:main

@@ -1,0 +1,10 @@
+README.md
+setup.py
+deepspore/__init__.py
+deepspore/ddp_trainer.py
+deepspore/ddp_trainer_demo.py
+deepspore/training.py
+deepspore.egg-info/PKG-INFO
+deepspore.egg-info/SOURCES.txt
+deepspore.egg-info/dependency_links.txt
+deepspore.egg-info/top_level.txt

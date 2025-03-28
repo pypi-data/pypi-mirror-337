@@ -1,0 +1,12 @@
+[qbittorrent]
+address = "http://127.0.0.1"
+port = 8080 # 0 if none
+username = "admin"
+password = "admin"
+download_folder = "/tmp"
+
+[search]
+engine = "all" # default engine (all sites)
+sort = "seed" # default sort
+limit = 50 # 0: no limit
+pages = 1 # pages serched on every site

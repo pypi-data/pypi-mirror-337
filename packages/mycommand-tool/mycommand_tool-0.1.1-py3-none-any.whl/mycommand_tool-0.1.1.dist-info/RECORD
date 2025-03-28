@@ -1,0 +1,10 @@
+my_package/__init__.py,sha256=1fyYjGm8AVdFlz2VXMBBrjQFK_oTaQj1QOspeR1iXm8,230
+mycommand/__init__.py,sha256=5aFdpimUXMjSJMF3vzLIDIB5KQxS4oh9ZJhr-WvdLCQ,114
+mycommand/__main__.py,sha256=_XsT4ygKTsybFTIRa8-ZE00EPWUKE25kwpB0_tBhoUU,62
+mycommand/cli.py,sha256=aeWnllo7s4Vlcr9yrrCGnj_FmRSG7FE76cu22Lk1j-E,9624
+mycommand_tool-0.1.1.dist-info/licenses/LICENSE,sha256=S6Mh6T5HdsY5TrzZUQXK8dx5TWm3O46W__rblc8hrWM,1084
+mycommand_tool-0.1.1.dist-info/METADATA,sha256=amfOOA7TUZudSaXtdD7ukoPcmy5uNgD8WmivvMHto48,4921
+mycommand_tool-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mycommand_tool-0.1.1.dist-info/entry_points.txt,sha256=vYj1Zqtuaw1TfEvgjrRGaXmEEOWjZODrCC7AVj4WsH4,49
+mycommand_tool-0.1.1.dist-info/top_level.txt,sha256=aLL_zQmtQSvQEcJfjwQGIf59CCinODDmD5ov0kJ_sIw,10
+mycommand_tool-0.1.1.dist-info/RECORD,,

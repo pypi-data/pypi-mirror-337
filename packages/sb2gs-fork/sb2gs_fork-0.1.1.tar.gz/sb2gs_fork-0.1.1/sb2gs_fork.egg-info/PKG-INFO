@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: sb2gs-fork
+Version: 0.1.1
+Summary: all credits go to aspizu on github
+Author: aspizu
+Author-email: aspizu@protonmail.com
+Project-URL: Source, https://github.com/thecommcraft/sb2gs-fork
+Project-URL: Original, https://github.com/aspizu/sb2gs
+Keywords: scratch
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# sb2gs
+
+sb2gs converts your Scratch projects into goboscript projects. sb2gs tries to preserve
+as much of the original project as possible, and output readable and idiomatic
+goboscript code.

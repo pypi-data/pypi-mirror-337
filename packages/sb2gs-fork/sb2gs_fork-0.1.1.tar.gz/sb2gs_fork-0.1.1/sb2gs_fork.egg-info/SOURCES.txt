@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sb2gs_fork.egg-info/PKG-INFO
+sb2gs_fork.egg-info/SOURCES.txt
+sb2gs_fork.egg-info/dependency_links.txt
+sb2gs_fork.egg-info/top_level.txt

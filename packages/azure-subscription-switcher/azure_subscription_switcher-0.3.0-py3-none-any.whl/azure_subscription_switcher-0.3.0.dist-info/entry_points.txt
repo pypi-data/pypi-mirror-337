@@ -1,0 +1,3 @@
+[console_scripts]
+azsub=src.app:main
+

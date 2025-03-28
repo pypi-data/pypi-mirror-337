@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: agentia
+Version: 0.0.2
+Summary: ChatGPT powered agents, argumented with tools
+Project-URL: Repository, https://github.com/wenyuzhao/agentia
+Author-email: Wenyu Zhao <wenyuzhaox@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: chatgpt,gpt
+Requires-Python: <4.0,>=3.10
+Requires-Dist: aiohttp<4,>=3.9.3
+Requires-Dist: dataforseo-client<2,>=1.0.34
+Requires-Dist: fastapi<0.116,>=0.115.3
+Requires-Dist: jinja2<4,>=3.1.3
+Requires-Dist: llama-index-vector-stores-chroma<0.5,>=0.4.1
+Requires-Dist: llama-index<0.13,>=0.12.9
+Requires-Dist: markdownify<0.14,>=0.13.1
+Requires-Dist: nltk<4,>=3.9.1
+Requires-Dist: openai<2,>=1.58.1
+Requires-Dist: pillow<11,>=10.2.0
+Requires-Dist: pymstodo<0.3,>=0.2.0
+Requires-Dist: pyright<2,>=1.1.361
+Requires-Dist: python-dotenv<2,>=1.0.0
+Requires-Dist: python-slugify<9,>=8.0.4
+Requires-Dist: pyyaml<7,>=6.0.2
+Requires-Dist: requests<3,>=2.31.0
+Requires-Dist: rich<14,>=13.9.3
+Requires-Dist: tiktoken<0.9,>=0.8.0
+Requires-Dist: typer<0.13,>=0.12.5
+Requires-Dist: uvicorn<0.33,>=0.32.0
+Requires-Dist: websockets~=13.1
+Description-Content-Type: text/markdown
+
+# Agentia: Ergonomic LLM Agent Augmented with Tools
+
+
+## Getting Started
+
+```python
+from agentia import Agent
+from typing import Annotated
+
+# Define a tool as a python function
+def get_weather(location: Annotated[str, "The city name"]):
+    """Get the current weather in a given location"""
+    return { "temperature": 72 }
+
+# Create an agent
+agent = Agent(tools=[get_weather])
+
+# Run the agent with the tool
+response = await agent.chat_completion("What is the weather like in boston?")
+
+print(response)
+
+# Output: The current temperature in Boston is 72°F.
+```
+
+## Create an Agent from a Config File
+
+1. Create a config file at `./alice.yml`
+
+```yaml
+name: Alice
+icon: 👩
+instructions: You are a helpful assistant
+tools:
+  clock:
+  calculator:
+  # ... other tools
+```
+
+2. In your python code:
+
+```python
+agent = Agent.load_from_config("./alice.yml")
+```
+
+3. Alternatively, start a REPL:
+
+```bash
+pipx install agentia
+agentia repl alice
+```

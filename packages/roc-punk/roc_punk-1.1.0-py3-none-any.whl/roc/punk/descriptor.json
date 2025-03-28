@@ -1,0 +1,39 @@
+{
+  "identification": {
+    "project": "ROC",
+    "identifier": "roc.punk",
+    "name": "Pipeline Unit Keeper",
+    "description": "Watchdog plugin for the ROC pipelines"
+  },
+  "release": {
+    "version": "1.1.0",
+    "date": "2025-03-27",
+    "author": "Florence Henry <florence.henry@obspm.fr>, ROC Team <roc.support@sympa.obspm.fr>",
+    "institute": "LESIA",
+    "modification": "Add --recipients input to sbm | make software sub-task deprecated",
+    "url": "https://gitlab.obspm.fr/ROC/Pipelines/Plugins/PUNK"
+  },
+  "tasks": [
+    {
+      "name": "descriptor_report",
+      "category": "Software execution",
+      "description": "Make a report in HTML or PDF about the softwares and datasets in the ROC database",
+      "inputs": {},
+      "outputs": {}
+    },
+    {
+      "name": "sbm_query",
+      "category": "SBM detection",
+      "description": "Search in DB for SBM events",
+      "inputs": {},
+      "outputs": {}
+    },
+    {
+      "name": "sbm_report",
+      "category": "SBM detection",
+      "description": "Make a notification for SBM events",
+      "inputs": {},
+      "outputs": {}
+    }
+  ]
+}

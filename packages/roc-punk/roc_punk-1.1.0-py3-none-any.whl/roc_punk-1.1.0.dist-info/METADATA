@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: roc-punk
+Version: 1.1.0
+Summary: Pipeline UNit Keeper (PUNK) plugin is used to report activities monitored by the pipeline
+License: CeCILL 2.1
+Author: Florence Henry
+Author-email: florence.henry@obspm.fr
+Requires-Python: >=3.9,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: SQLAlchemy (>=2,<3)
+Requires-Dist: poppy-core (>=0.12.0)
+Requires-Dist: poppy-pop (>=0.12.0)
+Requires-Dist: psycopg2
+Requires-Dist: weasyprint (>=62,<63)
+Project-URL: Repository, https://gitlab.obspm.fr/ROC/Pipelines/Plugins/PUNK
+Description-Content-Type: text/markdown
+
+roc-punk
+============
+
+Python Package to run "monitoring" services for the RPW pipeline.
+
+This package has been initially designed to be run in the RPW Operations and Data Pipeline (RODP).
+Contact the developer team for more details.
+
+## Quickstart
+
+To install package using [pip](https://pypi.org/project/pip-tools/):
+
+```
+pip install roc-punk
+```
+
+## Authors
+
+- florence dot henry at obspm dot fr
+- xavier dot bonnin at obspm dot fr
+- sonny dot lion at obspm dot fr
+
+## License
+
+This project is licensed under CeCILL 2.1.
+
+## Acknowledgments
+
+* Solar Orbiter / RPW Operation Centre (ROC) team

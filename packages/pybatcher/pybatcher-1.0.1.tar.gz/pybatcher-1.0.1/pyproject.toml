@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybatcher"
+version = "1.0.1"
+description = "A library for managing batch processing in Python."
+readme = "README.md"
+authors = [
+    {name = "Jimw", email = "jimmy.c@jimw.fr"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://git.jimw.fr/pybatcher"
+Repository = "https://git.jimw.fr/pybatcher"
+
+[tool.setuptools]
+packages = ["pybatcher"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+target-version = ["py36"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.6"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true

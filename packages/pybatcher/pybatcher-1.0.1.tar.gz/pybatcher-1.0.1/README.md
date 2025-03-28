@@ -1,0 +1,134 @@
+# PyBatcher
+
+PyBatcher est une bibliothèque Python qui permet de traiter des requêtes individuelles par lots (batching).
+
+## Fonctionnalités principales
+
+- **Traitement par lots** : Regroupez automatiquement plusieurs requêtes pour les traiter en une seule opération
+- **Modes de fonctionnement flexibles** :
+  - Par délai : traitement automatique après un temps défini
+  - Par taille : traitement lorsque le lot atteint une certaine taille
+  - Mode manuel : contrôle explicite du moment du traitement
+- **API synchrone et asynchrone** : Compatible avec le code synchrone (futures) et asynchrone (async/await)
+- **Traitement parallèle** : Isolation des tâches via une boucle d'événements dédiée
+- **Contrôle fin** : Supervision de l'état des lots et récupération des résultats
+
+## Installation
+
+```bash
+pip install pybatcher
+```
+
+## Concepts
+
+### Batcher
+
+Le `Batcher` est responsable de la gestion du regroupement des requêtes en lots. Il se charge de :
+- Créer des lots (`Batch`) quand nécessaire
+- Router les requêtes vers les lots appropriés
+- Gérer le cycle de vie des lots
+
+### Batch
+
+Un `Batch` représente un groupe de requêtes qui sera traité ensemble. Il offre :
+- Une gestion précise de son état (prêt, démarré, en cours, terminé)
+- Des mécanismes d'annulation
+- La récupération groupée des résultats
+
+## Exemples d'utilisation
+
+### Utilisation synchrone
+
+```python
+from pybatcher import Batcher
+
+def process_requests(items):
+    # Traitement des items par lot
+    print(f"Processing {len(items)} items at once")
+    return [f"Result for {item}" for item in items]
+
+# Création d'un batcher avec une taille maximale de lot de 10
+# et un délai de 2 secondes avant traitement automatique
+batcher = Batcher(
+    process_function=process_requests,
+    batch_delay=2.0,
+    max_batch_size=10
+)
+
+# Soumission de requêtes individuelles
+futures = [batcher.submit_request(f"req_{i}") for i in range(25)]
+
+# Récupération des résultats
+results = [future.result() for future in futures]
+
+# Fermeture du batcher
+batcher.close()
+```
+
+### Utilisation asynchrone
+
+```python
+import asyncio
+from pybatcher import Batcher
+
+async def process_requests_async(items):
+    # Traitement asynchrone des items par lot
+    await asyncio.sleep(1)  # Simulation d'une opération asynchrone
+    return [f"Async result for {item}" for item in items]
+
+async def main():
+    # Création d'un batcher avec traitement asynchrone
+    batcher = Batcher(
+        process_function=process_requests_async,
+        min_batch_size=5,
+        max_batch_size=20
+    )
+    
+    # Traitement asynchrone des requêtes
+    tasks = []
+    for i in range(50):
+        task = asyncio.create_task(batcher.handle_request(f"async_req_{i}"))
+        tasks.append(task)
+    
+    # Attente des résultats
+    results = await asyncio.gather(*tasks)
+    
+    # Fermeture du batcher
+    batcher.close()
+    
+    return results
+
+# Exécution de la fonction principale
+results = asyncio.run(main())
+```
+
+## Paramètres de configuration
+
+### Batcher
+
+- `process_function` : Fonction qui traite les données en lot (peut être synchrone ou asynchrone)
+- `batch_delay` : Délai en secondes avant traitement automatique du lot
+- `min_batch_size` : Taille minimale du lot pour démarrer le traitement
+- `max_batch_size` : Taille maximale du lot, déclenchant un traitement immédiat
+- `strict_batch_size` : Si True, attend que le lot atteigne exactement la taille minimale
+- `loop` : Boucle d'événements asyncio à utiliser (en crée une nouvelle si non spécifiée)
+
+### Batch
+
+- `max_size` : Taille maximale du lot
+- `min_size` : Taille minimale du lot pour le traitement
+- `strict_size` : Compter uniquement les requêtes non annulées pour la taille
+- `auto_start_delay` : Délai avant démarrage automatique du traitement
+- `auto_start_when_full` : Démarrer automatiquement quand le lot est plein
+
+## Tests
+
+La bibliothèque est fournie avec une suite de tests unitaires disponibles dans le répertoire `tests/`.
+
+```bash
+python -m unittest discover tests
+```
+
+## Licence
+
+PyBatcher est distribué sous licence libre.

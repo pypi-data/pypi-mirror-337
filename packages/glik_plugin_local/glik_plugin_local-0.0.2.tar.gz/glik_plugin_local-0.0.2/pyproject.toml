@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "glik_plugin_local"
+version = "0.0.2"
+description = "Glik Plugin SDK"
+authors = ["langgenius <hello@glik.ai>"]
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["glik", "plugin", "sdk"]
+homepage = "https://github.com/hongthai0101/glik-plugin-sdk.git"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+Flask = "~3.0.3"
+Werkzeug = "~3.0.3"
+dpkt = "~1.9.8"
+gevent = "~24.11.1"
+httpx = "~0.27.0"
+pydantic-settings = "~2.3.4"
+pydantic = ">=2.8.2"
+pydub = "~0.25.1"
+pyyaml = "~6.0.1"
+requests = "~2.32.3"
+socksio = "1.0.0"
+tiktoken = "~0.8.0"
+yarl = ">=1.9.4,<2.0"
+
+[tool.poetry.group.lint.dependencies]
+ruff = ">=0.11.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

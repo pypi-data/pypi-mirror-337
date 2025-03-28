@@ -1,0 +1,6 @@
+numpy
+simplejson
+future
+psutil
+six
+ftfy

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+auto-dla/__init__.py
+auto_dla.egg-info/PKG-INFO
+auto_dla.egg-info/SOURCES.txt
+auto_dla.egg-info/dependency_links.txt
+auto_dla.egg-info/requires.txt
+auto_dla.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+ml-gen = ml_project_generator.main:main

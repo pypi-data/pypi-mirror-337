@@ -1,0 +1,2 @@
+[console_scripts]
+vectormorph = vectormorph.app:main

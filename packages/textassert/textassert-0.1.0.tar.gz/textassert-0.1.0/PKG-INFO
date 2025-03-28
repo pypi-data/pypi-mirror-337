@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: textassert
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Travior <30752199+Travior@users.noreply.github.com>
+Requires-Python: >=3.12
+Requires-Dist: aiohttp>=3.11.14
+Requires-Dist: click>=8.1.8
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: rich>=13.9.4

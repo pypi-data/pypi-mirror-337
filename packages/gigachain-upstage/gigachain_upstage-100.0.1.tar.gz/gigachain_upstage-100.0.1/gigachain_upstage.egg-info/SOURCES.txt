@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+gigachain_upstage.egg-info/PKG-INFO
+gigachain_upstage.egg-info/SOURCES.txt
+gigachain_upstage.egg-info/dependency_links.txt
+gigachain_upstage.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+[project]
+name = "gigachain-upstage"
+version = "100.0.1"
+description = "Gigachain libs was deprectaed. Upgrade to clear langchain + langchain_gigachat"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]

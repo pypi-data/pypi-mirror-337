@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: vdraw
+Version: 0.1.0
+Summary: A library for working with segmentation masks
+Author: Arturs Vitins
+Author-email: workerlv@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: summary

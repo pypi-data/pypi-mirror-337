@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask_inputfilter"
+version = "0.2.0a3"
+authors = [
+    { name = "Leander Cain Slotosch", email = "slotosch.leander@outlook.de" }
+]
+description = "A library to filter and validate input data in Flask applications"
+readme = "README.rst"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "flask>=2.1",
+    "pillow>=8.0.0",
+    "requests>=2.22.0",
+    "typing_extensions>=3.6.2"
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.7",
+]
+
+[project.urls]
+Documentation = "https://leandercs.github.io/flask-inputfilter"
+Source = "https://github.com/LeanderCS/flask-inputfilter"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = 'black'
+line_length = 79
+known_first_party = [
+    "flask_inputfilter/Condition/BaseCondition",
+    "flask_inputfilter/Filter/BaseFilter",
+    "flask_inputfilter/Validator/BaseValidator"
+]
+
+[tool.docformatter]
+wrap-summaries = 79
+wrap-descriptions = 79
+recursive = true
+in_place = true
+pre_summary_newline = true

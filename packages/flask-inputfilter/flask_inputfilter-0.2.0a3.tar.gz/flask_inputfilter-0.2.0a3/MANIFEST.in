@@ -1,0 +1,9 @@
+include README.rst
+include LICENSE
+include docs/changelog.rst
+include flask_inputfilter/*.py
+include flask_inputfilter/*.pyx
+include flask_inputfilter/*.pxd
+include flask_inputfilter/*.so
+
+exclude test/*

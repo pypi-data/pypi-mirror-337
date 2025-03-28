@@ -1,0 +1,24 @@
+README.md
+setup.py
+bi_code_file/__init__.py
+bi_code_file/downloader.py
+bi_code_file.egg-info/PKG-INFO
+bi_code_file.egg-info/SOURCES.txt
+bi_code_file.egg-info/dependency_links.txt
+bi_code_file.egg-info/top_level.txt
+bi_code_file/files/Daily_minimum_temps.csv
+bi_code_file/files/LinearRegression.py
+bi_code_file/files/Mall_Customers.csv
+bi_code_file/files/SVM.py
+bi_code_file/files/Salary_dataset.csv
+bi_code_file/files/Wholesale_customers_data.csv
+bi_code_file/files/admission.csv
+bi_code_file/files/admission.py
+bi_code_file/files/cluster_algoritm.py
+bi_code_file/files/dendogram.py
+bi_code_file/files/iris.csv
+bi_code_file/files/k_means.py
+bi_code_file/files/navia.py
+bi_code_file/files/prediction.py
+bi_code_file/files/spam detection.py
+bi_code_file/files/spam.csv

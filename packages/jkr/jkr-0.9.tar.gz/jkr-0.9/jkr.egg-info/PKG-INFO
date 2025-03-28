@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: jkr
+Version: 0.9
+Summary: Simple
+Author: Muhammad
+Author-email: virtualsteve786@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: summary

@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: llm-docsmith
+Version: 0.1
+Summary: Generate Python docstrings automatically with LLM and syntax trees.
+Author: Matheus Pedroni
+Project-URL: Homepage, https://github.com/mathpn/llm-docsmith
+Project-URL: Changelog, https://github.com/mathpn/llm-docsmith/releases
+Project-URL: Issues, https://github.com/mathpn/llm-docsmith/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: libcst>=1.7.0
+Requires-Dist: llm>=0.23
+Requires-Dist: pydantic>=2.10.6
+
+# llm-docsmith
+
+Generate Python docstrings automatically with LLM and syntax trees.
+
+## Installation
+
+Install this plugin in the same environment as [LLM](https://llm.datasette.io/en/stable/).
+
+```bash
+llm install llm-docsmith
+```
+
+## Usage
+
+Pass a Python file as argument to `llm docsmith`:
+
+```bash
+llm docsmith ./scripts/main.py
+```
+
+The file will be edited to include the generated docstrings.
+
+Options:
+
+- `-m/--model`: Use a model other than the configured LLM default model
+- `-o/--output`: Only show the modified code, without modifying the file
+- `-v/--verbose`: Verbose output of prompt and response

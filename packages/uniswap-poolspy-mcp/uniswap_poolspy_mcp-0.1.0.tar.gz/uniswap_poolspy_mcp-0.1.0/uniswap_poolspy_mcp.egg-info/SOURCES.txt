@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+uniswap_poolspy_mcp.egg-info/PKG-INFO
+uniswap_poolspy_mcp.egg-info/SOURCES.txt
+uniswap_poolspy_mcp.egg-info/dependency_links.txt
+uniswap_poolspy_mcp.egg-info/requires.txt
+uniswap_poolspy_mcp.egg-info/top_level.txt

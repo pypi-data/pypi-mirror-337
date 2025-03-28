@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ai_workspace/__init__.py
+src/ai_workspace/hello.py
+src/ai_workspace.egg-info/PKG-INFO
+src/ai_workspace.egg-info/SOURCES.txt
+src/ai_workspace.egg-info/dependency_links.txt
+src/ai_workspace.egg-info/requires.txt
+src/ai_workspace.egg-info/top_level.txt

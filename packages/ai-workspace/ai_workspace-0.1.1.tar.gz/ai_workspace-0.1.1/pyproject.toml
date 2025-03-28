@@ -1,0 +1,41 @@
+[project]
+name = "ai_workspace"
+version = "0.1.1"
+description = "A package for ai workspace (project) features."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bumpver>=2024.1130",
+    "setuptools>=78.1.0",
+    "twine>=6.1.0",
+    "wheel>=0.45.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    # You can add development dependencies here if needed
+]
+
+[build-system]
+requires = ["setuptools>=78.1.0", "wheel>=0.45.1"]
+build-backend = "setuptools.build_meta"
+
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["ai_workspace"]
+
+[tool.bumpver]
+current_version = "0.1.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"src/ai_workspace/__init__.py" = [
+    '__version__ = "{version}"'
+]

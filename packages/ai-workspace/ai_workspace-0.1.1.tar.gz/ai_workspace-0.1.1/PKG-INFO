@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ai_workspace
+Version: 0.1.1
+Summary: A package for ai workspace (project) features.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: bumpver>=2024.1130
+Requires-Dist: setuptools>=78.1.0
+Requires-Dist: twine>=6.1.0
+Requires-Dist: wheel>=0.45.1
+Provides-Extra: dev
+
+A package for ai workspace (project) features.

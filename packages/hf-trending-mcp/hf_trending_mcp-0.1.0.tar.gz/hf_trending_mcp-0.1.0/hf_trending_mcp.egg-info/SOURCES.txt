@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+hf_trending_mcp.egg-info/PKG-INFO
+hf_trending_mcp.egg-info/SOURCES.txt
+hf_trending_mcp.egg-info/dependency_links.txt
+hf_trending_mcp.egg-info/requires.txt
+hf_trending_mcp.egg-info/top_level.txt

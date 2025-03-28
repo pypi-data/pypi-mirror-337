@@ -1,0 +1,11 @@
+ffmpeg-python==0.2.0
+matplotlib==3.10.1
+mediapipe==0.10.21
+numpy
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
+pandas
+pillow==11.1.0
+psutil==7.0.0
+scipy==1.15.2
+Wand==0.6.13

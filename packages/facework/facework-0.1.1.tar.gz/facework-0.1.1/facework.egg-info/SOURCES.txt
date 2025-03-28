@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+facework/FaceCrop.py
+facework/FaceMorph.py
+facework/__init__.py
+facework.egg-info/PKG-INFO
+facework.egg-info/SOURCES.txt
+facework.egg-info/dependency_links.txt
+facework.egg-info/requires.txt
+facework.egg-info/top_level.txt

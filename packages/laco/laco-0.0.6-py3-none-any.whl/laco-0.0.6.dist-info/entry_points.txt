@@ -1,0 +1,8 @@
+[configs]
+examples = laco.examples
+
+[console_scripts]
+laco = laco.cli:main
+
+[expath]
+configs = laco.handler:ConfigsPathHandler

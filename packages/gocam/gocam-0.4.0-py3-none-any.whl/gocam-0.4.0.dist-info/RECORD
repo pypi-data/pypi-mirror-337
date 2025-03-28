@@ -1,0 +1,16 @@
+gocam/__init__.py,sha256=kbOB7vpe35izUUmz5kGJRjHAfXKF3IOMA4EISFgkPqQ,54
+gocam/_version.py,sha256=Fd5sHosv8CCYe3Y5HDmPtImrH7wTdglhMLtu6V86x7A,189
+gocam/cli.py,sha256=FgM-xKql_4u5zUTgTYrc3s2GWcffJvvucosPHPakni8,4772
+gocam/datamodel/__init__.py,sha256=RhZw2w2q5Cyh7C_sp8O10m0igaSmcTjrv81yO8h66VU,195
+gocam/datamodel/gocam.py,sha256=7aq9wpgYLu4Qv-au4wC-kcD3OdUlXCjbYtbNv1GlT3w,47191
+gocam/schema/gocam.yaml,sha256=hFlEmHCIOEgG4_HRFB2RYZdRSQ9VLNM-2upAWjvrS4M,13871
+gocam/translation/__init__.py,sha256=BS7NgBAqqy3g2NgBtpdRakite7I1Hr8n0cfzBlnb3EA,79
+gocam/translation/cx2/__init__.py,sha256=GiwNfUNTXH37CC5DYCVPJVSW9Jjba5MK9jBPuBuIpss,68
+gocam/translation/cx2/main.py,sha256=veM4Pq9tLSVWpAOAbz1TDiQTdKuNPZrUkFYg_uLJymI,12732
+gocam/translation/cx2/style.py,sha256=zAffH5A5DpcoE-8EuiwLhAzupJktjZuCn14dhRyhWjs,16593
+gocam/translation/minerva_wrapper.py,sha256=Ne539uq_JpIr34LO9o8ohi1IZ7-vVNHWrMYZdGh9tvQ,16422
+gocam-0.4.0.dist-info/LICENSE,sha256=BkLxT2pJnL7nHeZFVbTgvLFGoB3MWxBA4apL00NCKsc,1478
+gocam-0.4.0.dist-info/METADATA,sha256=o-liYRN_gUG0DhGGIFcIGdaDM4t4rpkNZ7l99BUwTvY,16239
+gocam-0.4.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+gocam-0.4.0.dist-info/entry_points.txt,sha256=89KH6gqlDdpo4qlxGrMb-vzs8os-MJNdgkSr3hNODNQ,39
+gocam-0.4.0.dist-info/RECORD,,

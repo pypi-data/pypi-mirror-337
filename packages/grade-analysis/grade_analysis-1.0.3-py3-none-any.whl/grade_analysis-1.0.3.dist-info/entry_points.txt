@@ -1,0 +1,3 @@
+[console_scripts]
+grade-analysis=grade_analysis.gradeAnalysisGUI:main
+

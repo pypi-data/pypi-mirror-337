@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/__init__.py
+src/trivyscan.py
+test/__init__.py
+test/trivyscan_test.py
+trivyscan.egg-info/PKG-INFO
+trivyscan.egg-info/SOURCES.txt
+trivyscan.egg-info/dependency_links.txt
+trivyscan.egg-info/top_level.txt

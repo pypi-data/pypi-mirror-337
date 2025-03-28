@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: huanyue
+Version: 0.0.1
+Summary: My First Tool
+Home-page: https://github.com/huanyue/huanyue
+Author: wang xiong huan
+Author-email: 601582039@qq.com
+License: Apache-2.0
+Keywords: rpa,windows,automation
+Description-Content-Type: text/markdown
+Requires-Dist: pillow >=11.1.0
+

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: agenticflow
+Version: 0.1.0
+Summary: A python based tool to create agentic workflows
+License: MIT
+Author: Indresh Bhattacharya
+Author-email: indresh2neel@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# agenticpy
+Coming soon
+
+https://www.geeksforgeeks.org/how-to-build-and-publish-python-packages-with-poetry/

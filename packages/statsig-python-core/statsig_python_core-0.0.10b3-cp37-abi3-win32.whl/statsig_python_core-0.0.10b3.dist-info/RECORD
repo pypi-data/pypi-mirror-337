@@ -1,0 +1,8 @@
+statsig_python_core-0.0.10b3.dist-info/METADATA,sha256=jG4QjT9WHGK3mQGR2HKOKkdvIpzXEgW2kQg2REmImtg,308
+statsig_python_core-0.0.10b3.dist-info/WHEEL,sha256=Op4Cwpue0hHms7dd4InfWfWpy2dyzGCreKE7T50aNnU,90
+statsig_python_core/observability_client.py,sha256=QYPNVzp3j3AO9MlZ4EePcWMHYpDHewgKDWhX14ZXaHs,724
+statsig_python_core/statsig.py,sha256=fBjKHeHuXij4De1SULEZNXAEsC62i7fV-5vxmUTOk78,2194
+statsig_python_core/statsig_python_core.pyi,sha256=MtVBBqLetpVzpIVEn7ngfcG2EJnf1QKnRl0Z5Uv31lM,6218
+statsig_python_core/__init__.py,sha256=5zT2XK_cCopwgMFHYmGQWFEYqvuJrfnTNOCh2o5_vdU,152
+statsig_python_core/statsig_python_core.pyd,sha256=7G0T4p3zI-4yJGfkzFtLBOHjkkyC4VC3yN1YMViodxo,3044864
+statsig_python_core-0.0.10b3.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+ftpsocket/__init__.py,sha256=P3lGx2c5PYD0rBePeuAfPONONin-tBPeBB2P3coP4BE,241
+ftpsocket/__init__.py.bak,sha256=Iyov83S3T9-PSo8XOs3ahF0nT38-e8wSafKVvBmDadg,241
+ftpsocket/_details.py,sha256=yBiDq3TsHekDryaFpyxdZxlDMBzs-yad_SwBHcrdF8U,165
+ftpsocket/client.py,sha256=5c413DoRtPbXUUN9IIkJNwR3BG3BFHasYzNCEV6mO_M,2678
+ftpsocket/commands.py,sha256=mkp0cYTdwKfQ219Xoj1st_lNK2CjaOKMslPgiEKtLCc,194
+ftpsocket/server.py,sha256=KhKoEIqQkUQa9oqXcXxXdoZn0Uv0sW5k7Yjehma4pI8,2655
+ftpsocket/utils.py,sha256=xylX0xCJ8F8MbswpTpiiKnwSRLpL7IlpMUt23mdBbYg,239
+ftpsocket-0.0.1.dist-info/licenses/LICENSE,sha256=2LZeN6RDBpr-w9LRtStOwRajVP-b5aAgDTprbYy0HKc,1076
+ftpsocket-0.0.1.dist-info/WHEEL,sha256=Dyt6SBfaasWElUrURkknVFAZDHSTwxg3PaTza7RSbkY,100
+ftpsocket-0.0.1.dist-info/METADATA,sha256=7QZk1eJvGmfHI2VR9Kjp821TOIYiBtqI0QLH_cB2kcA,1937
+ftpsocket-0.0.1.dist-info/RECORD,,

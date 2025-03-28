@@ -1,0 +1,9 @@
+litei2c/__init__.py,sha256=1v78JIlgKv7R9smZzt3aAsaZJQH5PK-P-oX16byx2So,2859
+litei2c/clkgen.py,sha256=BYrzJcHHjGdOdM4MWLETFxavUHtDwy8_gj0Qn_qum4I,3021
+litei2c/common.py,sha256=ejJ7Pjw1OavgxOAR_B8NDzUnnSY-e8jA5FAAehHT6JY,1235
+litei2c/crossbar.py,sha256=F2K9oxR6WxisNZEPj9ynNj165ov2zOdXAWGe-tVpgLw,3059
+litei2c-2024.12.dist-info/licenses/LICENSE,sha256=zZLFVyZD5W7D_8VdA28RGWHfWrFunTsDs1LdH0rYM7w,1328
+litei2c-2024.12.dist-info/METADATA,sha256=Q4-jEA8YIVzth2It16MJ0DgYLnmI2Dsl7PlGo2wNma8,3204
+litei2c-2024.12.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+litei2c-2024.12.dist-info/top_level.txt,sha256=Ge9TApC9oWo7h8Xg1ohXMeakobSFDPgb9bNUgLmp94o,8
+litei2c-2024.12.dist-info/RECORD,,

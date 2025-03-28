@@ -1,0 +1,12 @@
+edwh_bundler_plugin/__about__.py,sha256=Te9db71Z2pF01C_WSreZ9ssv3WddHqGS-N7mGz2FY-U,139
+edwh_bundler_plugin/__init__.py,sha256=WTsgsI9e7oUM65X8tkDX8hsovdghiLFKPCyhNgK3t38,470
+edwh_bundler_plugin/bundler_plugin.py,sha256=fM2ubE3fofTphxLSx-ts34_azoA4827NhKqgyW6FGrY,31874
+edwh_bundler_plugin/css.py,sha256=K5y7T85WYgatLQ_4z21179y2FGgZOexvlfTEfhFwO6I,6109
+edwh_bundler_plugin/js.py,sha256=zbfVgHgIeys3YKX6kRyXvA1rlBZesQ3152_vRMEDSMA,4823
+edwh_bundler_plugin/lazy.py,sha256=IjZfbXAJTvVAnDTNJf_mu743r9TclOYeoTs0ZVJ-LHc,1990
+edwh_bundler_plugin/shared.py,sha256=qwLNAC9nz79KWI_-5qufStrAG1JJY7MKKW2Yiud4dsM,2956
+edwh_bundler_plugin/js/ts_loader.js,sha256=gdo1WA-rwIsT8Abo5ci0XwFCX8WOASG9cwjHRrAw6lY,817
+edwh_bundler_plugin-2.1.3.dist-info/METADATA,sha256=2XJSQlX3BBlM1AOrPSRuY8Ra2vIre45V0mwxudbhiFs,9670
+edwh_bundler_plugin-2.1.3.dist-info/WHEEL,sha256=as-1oFTWSeWBgyzh0O_qF439xqBe6AbBgt4MfYe5zwY,87
+edwh_bundler_plugin-2.1.3.dist-info/entry_points.txt,sha256=GRShb00kRz-TFBQv0VChG6Q8Pb0MuFit3NmwpRjhXIM,57
+edwh_bundler_plugin-2.1.3.dist-info/RECORD,,

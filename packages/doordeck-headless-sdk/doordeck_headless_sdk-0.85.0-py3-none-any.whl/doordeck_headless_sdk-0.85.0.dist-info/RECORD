@@ -1,0 +1,9 @@
+doordeck_headless_sdk/Doordeck.Headless.Sdk.dll,sha256=VEnrBMbZFM3DM38r-_SE_8sVWTMzrD7BcZ-PYIr4V4M,14223360
+doordeck_headless_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doordeck_headless_sdk/_doordeck_headless_sdk.pyd,sha256=WVPiK5z8j0ttIqn3isloQAJ0tTiunjOkuImMgf11wfc,15979344
+doordeck_headless_sdk/doordeck_headless_sdk.py,sha256=qcZ2E8p1v_u3xkbroi_PvJ0rhL-CPnbxpyFdXJR83-w,3059146
+doordeck_headless_sdk-0.85.0.dist-info/licenses/LICENSE,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+doordeck_headless_sdk-0.85.0.dist-info/METADATA,sha256=hwdoBqTyUe6_Nr3RionSlUVvBBxtdWmu3Fz1sglo_nc,3085
+doordeck_headless_sdk-0.85.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+doordeck_headless_sdk-0.85.0.dist-info/top_level.txt,sha256=VmXlkrtf2J3rayniS9e6Zpu_oYR7p4DmdudxnV0nd_U,22
+doordeck_headless_sdk-0.85.0.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+virtualenv>=16.6.0
+pip>=19.1.1
+setuptools>=18.0.1
+six>=1.14.0
+tox
+twine
+linuxfabrik-lib>=2023051201.post1
+rpaframework>=27.5.2
+pendulum>=2.0.5
+build

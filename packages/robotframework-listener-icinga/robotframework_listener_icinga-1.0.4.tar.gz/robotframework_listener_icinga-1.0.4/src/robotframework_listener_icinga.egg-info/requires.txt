@@ -1,0 +1,2 @@
+linuxfabrik-lib<1000,>=2.0.0.0
+rpaframework>=27.5.2

@@ -1,0 +1,2 @@
+[console_scripts]
+httmcp = httmcp.__main__:main

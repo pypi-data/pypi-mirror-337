@@ -1,0 +1,21 @@
+[project]
+name = "bsutils"
+version = "0.0.1"
+description = "Frequently used basic python tools."
+readme = "README.md"
+authors = [{ name = "wangzhen0518", email = "wangzhen0518@126.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    # "ipython>=9.0.2",
+    "pyjson5>=1.6.8",
+]
+
+[project.scripts]
+bsutils = "bsutils:main"
+
+[tool.ruff]
+line-length = 135
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

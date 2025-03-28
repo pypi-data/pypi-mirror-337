@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: sajilocv
+Version: 0.0.1
+Summary: sajilocv is a library based on opencv and mediapipe
+Author: Sudip Vikram(Beyond Apogee)
+Author-email: <admin@beyond-apogee.com>
+Keywords: opencv,beyond apogee,robotics nepal
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+sajilocv has been developed by Beyond Apogee from Nepal, as part of their Robotics Education initiatives.

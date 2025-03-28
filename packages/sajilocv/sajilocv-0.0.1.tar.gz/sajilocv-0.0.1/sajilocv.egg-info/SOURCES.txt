@@ -1,0 +1,6 @@
+setup.py
+sajilocv.egg-info/PKG-INFO
+sajilocv.egg-info/SOURCES.txt
+sajilocv.egg-info/dependency_links.txt
+sajilocv.egg-info/requires.txt
+sajilocv.egg-info/top_level.txt

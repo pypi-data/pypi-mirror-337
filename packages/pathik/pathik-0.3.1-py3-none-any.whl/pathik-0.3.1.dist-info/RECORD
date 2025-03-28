@@ -1,0 +1,13 @@
+pathik/__init__.py,sha256=l3eYDf0cVWkKBKFp-PDPDoKd--smBy3NuSHdIGHadq8,10631
+pathik/cli.py,sha256=Kq26x2uNWbN-N9x84V4XvsUCV8tcEEX6cjxjtaxDZS4,22866
+pathik/crawler.py,sha256=wex5fC4yTVIXI7nx-394aKpBSYzPtqT03xcMzplq9Ao,29357
+pathik/safe_api.py,sha256=CuqLDFUWakQspzf40NDuXufAo_YrCT3sErAK8QCE4Bw,5235
+pathik/schema.py,sha256=tAsYlWzI8B9tcrx5jbAVd545lbqMMeSZxbPcXyrWAbE,10207
+pathik/simple.py,sha256=wYLYmt3u3QcJsm-S3bAgj5bkUef5V35_WrmvzuFmLOs,2474
+pathik/bin/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pathik-0.3.1.dist-info/licenses/LICENSE,sha256=EMjtxTWW877NZLz6ky3lARHF-l27J1ep6JVtqxjAi2A,11355
+pathik-0.3.1.dist-info/METADATA,sha256=kEZIUaVbltJgrFFfa4Z4vXqh9vHHFaPYpiLcAHn7oRE,11508
+pathik-0.3.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pathik-0.3.1.dist-info/entry_points.txt,sha256=87K-779oxQS_g-TapDiCjOiuuKASEOcOkInEjhvkHc4,43
+pathik-0.3.1.dist-info/top_level.txt,sha256=hnSwZDvErRxkkf2lnCFlxr3qFd8fxdiPBMJvc7sRmFI,7
+pathik-0.3.1.dist-info/RECORD,,

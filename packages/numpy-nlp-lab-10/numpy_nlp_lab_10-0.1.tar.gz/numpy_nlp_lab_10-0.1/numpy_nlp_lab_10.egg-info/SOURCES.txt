@@ -1,0 +1,7 @@
+setup.py
+nlp_exp/__init__.py
+nlp_exp/operations.py
+numpy_nlp_lab_10.egg-info/PKG-INFO
+numpy_nlp_lab_10.egg-info/SOURCES.txt
+numpy_nlp_lab_10.egg-info/dependency_links.txt
+numpy_nlp_lab_10.egg-info/top_level.txt

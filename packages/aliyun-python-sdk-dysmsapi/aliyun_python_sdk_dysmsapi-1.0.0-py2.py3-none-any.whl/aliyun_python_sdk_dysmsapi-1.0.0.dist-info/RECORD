@@ -1,0 +1,15 @@
+aliyunsdkdysmsapi/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+aliyunsdkdysmsapi/endpoint.py,sha256=wagQ8-EQrdFjdxcGsAptUU1pod-_weR3yD9FGia2Keo,1439
+aliyunsdkdysmsapi/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkdysmsapi/request/v20180501/BatchSendMessageToGlobeRequest.py,sha256=tNS0GqUjI-nWhXEadDOuy20DNdnJcq6wbnPGctK9WKg,2491
+aliyunsdkdysmsapi/request/v20180501/ConversionDataRequest.py,sha256=p27UBiKR4ZjV3HtNiQH7uRUUYO_XDYsD2cT9LG4EL5c,1682
+aliyunsdkdysmsapi/request/v20180501/QueryMessageRequest.py,sha256=yZQGXIvczBezRf4VFmaeFFDH5G9BzQLor-bUo96JIaA,1463
+aliyunsdkdysmsapi/request/v20180501/SendMessageToGlobeRequest.py,sha256=yrAR_7w-AFTrDtjMtb5mNj8IxIz-O-lh67mduhDQ1fc,2326
+aliyunsdkdysmsapi/request/v20180501/SendMessageWithTemplateRequest.py,sha256=DnK4n36lN5OF6LRBKRpq-JD5PsQ6ud4oMHaoE4y61RU,2629
+aliyunsdkdysmsapi/request/v20180501/SmsConversionRequest.py,sha256=6TUeiFGslTWSDS-lIbzCDf4lhP5bY0viXiN3k0zhG9E,2006
+aliyunsdkdysmsapi/request/v20180501/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_dysmsapi-1.0.0.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_dysmsapi-1.0.0.dist-info/METADATA,sha256=Jj-zVSHLd7e-LaM-NbtclGUSxD6Ljp6_j2Y9_Tpz2zg,1479
+aliyun_python_sdk_dysmsapi-1.0.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+aliyun_python_sdk_dysmsapi-1.0.0.dist-info/top_level.txt,sha256=w2BGk3eb45MjENkESK3AMN88nytJMt-uM-kIfOSYHss,18
+aliyun_python_sdk_dysmsapi-1.0.0.dist-info/RECORD,,

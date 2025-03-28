@@ -1,0 +1,68 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RpcRequest
+from aliyunsdkdysmsapi.endpoint import endpoint_data
+
+class SendMessageWithTemplateRequest(RpcRequest):
+
+	def __init__(self):
+		RpcRequest.__init__(self, 'Dysmsapi', '2018-05-01', 'SendMessageWithTemplate','dysms')
+		self.set_method('POST')
+
+		if hasattr(self, "endpoint_map"):
+			setattr(self, "endpoint_map", endpoint_data.getEndpointMap())
+		if hasattr(self, "endpoint_regional"):
+			setattr(self, "endpoint_regional", endpoint_data.getEndpointRegional())
+
+	def get_SmsUpExtendCode(self): # String
+		return self.get_query_params().get('SmsUpExtendCode')
+
+	def set_SmsUpExtendCode(self, SmsUpExtendCode):  # String
+		self.add_query_param('SmsUpExtendCode', SmsUpExtendCode)
+	def get_From(self): # String
+		return self.get_query_params().get('From')
+
+	def set_From(self, _From):  # String
+		self.add_query_param('From', _From)
+	def get_ValidityPeriod(self): # Long
+		return self.get_query_params().get('ValidityPeriod')
+
+	def set_ValidityPeriod(self, ValidityPeriod):  # Long
+		self.add_query_param('ValidityPeriod', ValidityPeriod)
+	def get_To(self): # String
+		return self.get_query_params().get('To')
+
+	def set_To(self, To):  # String
+		self.add_query_param('To', To)
+	def get_TemplateCode(self): # String
+		return self.get_query_params().get('TemplateCode')
+
+	def set_TemplateCode(self, TemplateCode):  # String
+		self.add_query_param('TemplateCode', TemplateCode)
+	def get_ChannelId(self): # String
+		return self.get_query_params().get('ChannelId')
+
+	def set_ChannelId(self, ChannelId):  # String
+		self.add_query_param('ChannelId', ChannelId)
+	def get_TemplateParam(self): # String
+		return self.get_query_params().get('TemplateParam')
+
+	def set_TemplateParam(self, TemplateParam):  # String
+		self.add_query_param('TemplateParam', TemplateParam)

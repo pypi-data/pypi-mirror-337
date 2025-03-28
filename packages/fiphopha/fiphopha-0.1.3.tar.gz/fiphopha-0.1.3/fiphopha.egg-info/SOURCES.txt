@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+fiphopha.egg-info/PKG-INFO
+fiphopha.egg-info/SOURCES.txt
+fiphopha.egg-info/dependency_links.txt
+fiphopha.egg-info/entry_points.txt
+fiphopha.egg-info/requires.txt
+fiphopha.egg-info/top_level.txt

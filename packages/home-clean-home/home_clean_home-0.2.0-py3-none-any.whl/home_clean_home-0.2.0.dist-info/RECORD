@@ -1,0 +1,9 @@
+home_clean_home/__init__.py,sha256=bGLiX7XuhVsS-PJdoRIWXiilZ3NTAQ7fb9_8kkNzLlM,216
+home_clean_home/__main__.py,sha256=uy14euJxdrfznQdQVr-MizKTKabxvaJiLk1uuNabhgQ,56
+home_clean_home/load.py,sha256=JiAxDPURweBpHOcdivF0_NjwRSqlrw-GxPygDIhZ640,4834
+home_clean_home/server.py,sha256=I4R_KU_ZwHoBWtdCegT2qIQy-qQedBlSPAfjiO-u8H0,10684
+home_clean_home/docs/hch_knowledge_base_ref.xlsx,sha256=4WafFCDyqdZHbfXEbdDC-L3i_-XMk93Weg9qHTPBE4I,157428
+home_clean_home-0.2.0.dist-info/METADATA,sha256=SgL2ndW18I5u4V1b1QlobY8_RJpMzwRGSaEGgz0g8Kc,5256
+home_clean_home-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+home_clean_home-0.2.0.dist-info/entry_points.txt,sha256=RYQ9TLG6M0x02EJUCOI3JxnsyAu9g6Rs_dRm--27n5c,57
+home_clean_home-0.2.0.dist-info/RECORD,,

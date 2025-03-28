@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+crypto_feargreed_mcp.egg-info/PKG-INFO
+crypto_feargreed_mcp.egg-info/SOURCES.txt
+crypto_feargreed_mcp.egg-info/dependency_links.txt
+crypto_feargreed_mcp.egg-info/requires.txt
+crypto_feargreed_mcp.egg-info/top_level.txt

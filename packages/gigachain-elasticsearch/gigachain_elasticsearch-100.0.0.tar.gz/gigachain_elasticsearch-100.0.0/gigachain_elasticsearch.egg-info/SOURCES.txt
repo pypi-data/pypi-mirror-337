@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+gigachain_elasticsearch.egg-info/PKG-INFO
+gigachain_elasticsearch.egg-info/SOURCES.txt
+gigachain_elasticsearch.egg-info/dependency_links.txt
+gigachain_elasticsearch.egg-info/top_level.txt

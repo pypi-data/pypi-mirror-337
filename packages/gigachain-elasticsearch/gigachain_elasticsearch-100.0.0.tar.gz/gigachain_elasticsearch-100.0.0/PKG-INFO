@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: gigachain-elasticsearch
+Version: 100.0.0
+Summary: Gigachain libs was deprectaed. Upgrade to clear langchain + langchain_gigachat
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown

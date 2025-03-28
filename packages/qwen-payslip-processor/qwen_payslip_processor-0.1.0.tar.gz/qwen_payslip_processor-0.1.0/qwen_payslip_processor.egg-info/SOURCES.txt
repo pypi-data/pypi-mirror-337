@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+qwen_payslip_processor/__init__.py
+qwen_payslip_processor/processor.py
+qwen_payslip_processor/utils.py
+qwen_payslip_processor.egg-info/PKG-INFO
+qwen_payslip_processor.egg-info/SOURCES.txt
+qwen_payslip_processor.egg-info/dependency_links.txt
+qwen_payslip_processor.egg-info/requires.txt
+qwen_payslip_processor.egg-info/top_level.txt
+qwen_payslip_processor/model_files/MODEL_READY

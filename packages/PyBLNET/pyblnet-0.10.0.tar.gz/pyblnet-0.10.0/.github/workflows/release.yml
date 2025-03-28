@@ -1,0 +1,22 @@
+name: Python package
+on:
+  push:
+    tags:
+      - "*.*.*"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # If there isn't a release for this version, create a new one.
+      - uses: ncipollo/release-action@v1
+        with:
+          generateReleaseNotes: true
+          makeLatest: true
+          prerelease: false
+          skipIfReleaseExists: true
+
+      - name: To PyPI using Flit
+        uses: AsifArmanRahman/to-pypi-using-flit@v1
+        with:
+          password: ${{ secrets.PYPI_TOKEN }}

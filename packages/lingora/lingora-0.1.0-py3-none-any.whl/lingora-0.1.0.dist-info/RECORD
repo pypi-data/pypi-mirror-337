@@ -1,0 +1,15 @@
+lingora/__init__.py,sha256=caQNGWac6T60Vf8NpveYbaD1tFb2IjhJP3lXhxzxomE,158
+lingora/cli.py,sha256=u3kr-kPQ0-UF_WGe23qSGvSzfuhwOCtF4ru3AtRcGtI,10978
+lingora/sanic_app.py,sha256=HhsR6vrn_7R9w_gm6Edwl0wr2XXIlBJPZ5cN1V6LEog,5067
+lingora/plugins/__init__.py,sha256=vk-zSSmp4oGa_o6LeNtBCYefCZ-r-Pbfa2nCw5dfcDE,388
+lingora/plugins/base.py,sha256=qF08ftfADZFhD5FDn4xWBVK1BYP-KQrrvEXYUiu-NEI,1000
+lingora/plugins/openai_plugin.py,sha256=MGo0p064P3qqpToDIe8dbRT5Hombv66naZDC_SVdh2o,1410
+lingora/plugins/openrouter.py,sha256=MAcU6WVC0s9vs8TUBM2nB_Ja8FQ4Pmna25pgLp5KkZk,1969
+lingora/plugins/registry.py,sha256=7Iq-gU0aw5qvbT8bxP5Cm7eGt2HXGRWeH0pQjIOivzA,977
+lingora/plugins/simulator_plugin.py,sha256=YmBpjNKRFeowmJdkdjBI7nWfuJu4C1aY5VGvFaM8Ydc,2054
+lingora-0.1.0.dist-info/licenses/LICENSE,sha256=Jl-yYHgkBx6gxYmTUn4eDnFqVCXYY2LDw1eERCo3wpI,34577
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lingora-0.1.0.dist-info/METADATA,sha256=elPG8ZM5p8XHa56KxcjXi2WeNFXN4hWXiM5_yDDIdRQ,4369
+lingora-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+lingora-0.1.0.dist-info/top_level.txt,sha256=ArT1OSOTdRIMQzYpeXmiOONNMVlAu8bF6i4wro-FoHE,14
+lingora-0.1.0.dist-info/RECORD,,

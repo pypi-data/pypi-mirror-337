@@ -1,0 +1,10 @@
+xgodoglib-0.1.1.dist-info/licenses/LICENSE.txt,sha256=htEpwWTdrmWV7JFExm4p12knK7Ms6Y4nSf_b--3Kc0Y,1092
+xgolib/__init__.py,sha256=HIK-ElYZQ8nDp_Y8Yq-ERTexq1qNCCiqrumWmAWdA-c,46
+xgolib/xgolib.py,sha256=1Rb3pFZoljvAysNxymjoBKugGt8JUH9zq_A5Llg-M9o,32578
+xgoscreen/LCD_2inch.py,sha256=j72hhhfL23GYZYX0_RJTbG5M2zD8WZHs0dss8PuOWOg,5339
+xgoscreen/__init__.py,sha256=9LGU_ahJOVd-L4pvYrA3Qg8tnMoYLiz08ByOv9FJ2pw,20
+xgoscreen/lcdconfig.py,sha256=oVlzCnxDTozkGXBQO8st0vA1ChCvhENsvDiA0P7pE7k,2214
+xgodoglib-0.1.1.dist-info/METADATA,sha256=p62NvZOq53x9EZkRF1FjM9DUAEVky9IRd54r-5ceHMo,717
+xgodoglib-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+xgodoglib-0.1.1.dist-info/top_level.txt,sha256=GW-VDmcEOyYBRqAyr2Kp0VmccgWb4eeS7ATvECNKttw,17
+xgodoglib-0.1.1.dist-info/RECORD,,

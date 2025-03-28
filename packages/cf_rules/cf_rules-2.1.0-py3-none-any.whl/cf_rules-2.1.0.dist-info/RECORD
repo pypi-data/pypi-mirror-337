@@ -1,0 +1,9 @@
+cf_rules/__init__.py,sha256=-I9NlHnuRkd9qwAO7aseH7E3Xk_lyYgLPj_IDP9m5eo,505
+cf_rules/cf.py,sha256=K2CEUcpc6GakbCw3IYDpOfnFFSPLGOGeotXELtspgro,22413
+cf_rules/error.py,sha256=LjV0KVsqTiDbhKee4HWGTnbWrnioxTWUG0g4lgg93Kw,2224
+cf_rules/utils.py,sha256=7Qqy6FPRQY-Of4JinaA4CU3dcUPPS_vmYDoIA-EZNxQ,5206
+cf_rules-2.1.0.dist-info/licenses/LICENSE,sha256=C_r1VGN-bCCK4grBZ2x7GbFlqt3GPcx-rVIqmcrzzbc,11351
+cf_rules-2.1.0.dist-info/METADATA,sha256=9E2ijHuWbIltCQu4QQsPiLAGuMfU9_yMN05YcSk2I5I,20541
+cf_rules-2.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cf_rules-2.1.0.dist-info/top_level.txt,sha256=osIxQ3G2zj02lhSZ87EkqGZCfmzERjrOipkStobWqXg,9
+cf_rules-2.1.0.dist-info/RECORD,,

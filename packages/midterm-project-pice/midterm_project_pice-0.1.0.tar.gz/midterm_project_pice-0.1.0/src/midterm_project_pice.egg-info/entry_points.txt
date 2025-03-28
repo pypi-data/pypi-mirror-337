@@ -1,0 +1,2 @@
+[console_scripts]
+symptom-pca = analysis.symptom_pca:cli

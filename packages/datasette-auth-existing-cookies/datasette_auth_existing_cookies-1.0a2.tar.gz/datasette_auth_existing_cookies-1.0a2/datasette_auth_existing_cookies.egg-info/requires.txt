@@ -1,0 +1,8 @@
+httpx
+cachetools
+
+[test]
+datasette
+pytest
+pytest-asyncio
+pytest-httpx

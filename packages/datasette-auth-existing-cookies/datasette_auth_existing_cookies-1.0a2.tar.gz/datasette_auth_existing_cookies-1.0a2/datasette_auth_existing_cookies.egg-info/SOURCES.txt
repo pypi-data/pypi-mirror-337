@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datasette_auth_existing_cookies/__init__.py
+datasette_auth_existing_cookies.egg-info/PKG-INFO
+datasette_auth_existing_cookies.egg-info/SOURCES.txt
+datasette_auth_existing_cookies.egg-info/dependency_links.txt
+datasette_auth_existing_cookies.egg-info/entry_points.txt
+datasette_auth_existing_cookies.egg-info/requires.txt
+datasette_auth_existing_cookies.egg-info/top_level.txt

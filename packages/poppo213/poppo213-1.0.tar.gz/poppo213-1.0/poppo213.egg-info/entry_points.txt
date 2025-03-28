@@ -1,0 +1,2 @@
+[console_scripts]
+poppo213 = poppo213.imad:main

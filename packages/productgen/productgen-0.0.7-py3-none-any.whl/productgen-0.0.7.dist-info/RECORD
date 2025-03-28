@@ -1,0 +1,16 @@
+productgen/__init__.py,sha256=A0kG2JXaQ1Y7WZDnIcl-Qj_YmjvtXM8kBAQBR4WexLs,425
+productgen/ai_generator.py,sha256=O_YZ1WkT3QsZbpkfaOsPKOM9B7whpAlaKlKfpEIKGr8,2878
+productgen/analyzer.py,sha256=tGhRTBzUjXAIcmkXZs7gOBibcJ1BqLkjV30_zjFdieg,1159
+productgen/api.py,sha256=HGMjDRgvPsRXx7Q4_z1FXogMM4X2jMzErCNG_uzSg-0,924
+productgen/generator.py,sha256=RwvWQM3XOJJSSFB7ndc97E5a_6vDaQwY2eDpF31aUMo,12782
+productgen/product_manager.py,sha256=NVMYpZSi2XIScSp2SQwYIWjLDaCyrfUWQk2vj4xtLgE,1109
+productgen/recommender.py,sha256=26XQRzVlB-TpO5aJ31T2ODc331LULW1npj27NYGW_5g,1031
+productgen/seo_optimizer.py,sha256=7hveNOrXafVyU4WgGHHkhPAnF9AUdZLPKpM8_9vkVxI,1041
+productgen/data/marketing_taglines.json,sha256=OohB2UyMGlhfpcaKSBCJRsUxC1AGTTvMlfklOd_xOjA,3175
+productgen/data/product_brands.json,sha256=gb-x4f9IixyhHpHU6su1GNIzz9RYHN6mIFOt4V8Zhuo,4180
+productgen/data/product_categories.json,sha256=QVgBFwjL3phAdajdprOOds_VerUFWK3wC0c9zXsXt5Q,1620
+productgen/data/templates.json,sha256=f7pGlIc0vXlHUF0fD3TIkXBpg5s-PdCUG7-jJuIXeLg,448
+productgen-0.0.7.dist-info/METADATA,sha256=hbqKhr4R2Vc3jR2GI5LaaWO6L7O0K2NvBpSAG_l0rno,5189
+productgen-0.0.7.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+productgen-0.0.7.dist-info/top_level.txt,sha256=KezwFN_cV_ZGIc1_WVWCPS44r6NzX3xjrxIWRUBrhSo,11
+productgen-0.0.7.dist-info/RECORD,,

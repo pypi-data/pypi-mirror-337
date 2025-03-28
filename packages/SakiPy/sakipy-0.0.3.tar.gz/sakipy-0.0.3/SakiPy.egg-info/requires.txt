@@ -1,0 +1,11 @@
+numpy
+joblib
+pandas
+scikit-learn
+requests
+chardet
+typing_inspect
+pdfplumber
+PyPDF2
+tqdm
+colorama

@@ -1,0 +1,8 @@
+pyproject.toml
+atom/__init__.py
+atom/main.py
+atomfoxapi.egg-info/PKG-INFO
+atomfoxapi.egg-info/SOURCES.txt
+atomfoxapi.egg-info/dependency_links.txt
+atomfoxapi.egg-info/requires.txt
+atomfoxapi.egg-info/top_level.txt

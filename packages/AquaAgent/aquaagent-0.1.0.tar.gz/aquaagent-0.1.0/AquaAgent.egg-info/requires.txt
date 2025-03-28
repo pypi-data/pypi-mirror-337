@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+optuna
+shap
+lime
+plotly
+jinja2
+tensorflow>=2.10
+keras>=2.10

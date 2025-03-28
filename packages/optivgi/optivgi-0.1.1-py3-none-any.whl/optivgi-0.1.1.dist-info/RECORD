@@ -1,0 +1,15 @@
+optivgi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivgi/scm_runner.py,sha256=w13GI1zJmMkYeSG0gjCTTAxA7GrxaJ6lFkiMRc6h0pE,1107
+optivgi/threads.py,sha256=dD8K2BiBc8HdjcTykD5SNdX_iu6qzdD9BzpUPHpvZV4,1324
+optivgi/translation.py,sha256=-2EvpfKQCwkMIwEbCbtB-DFmQAtGJgA1M4PRr9nmC-U,1050
+optivgi/utils.py,sha256=Tug1YK_Z-GAoETX93I45-kKiDNPtJQvMgOGNcFNm25U,258
+optivgi/scm/algorithm.py,sha256=ZMB2Bb8JKECA36240fpgo2c-k90Hy5ZZRHdoOMcP_Z0,1431
+optivgi/scm/constants.py,sha256=RJH2WJvvVpnXKUVncdIW97ECHUi73_9UXVSYmKPNmps,571
+optivgi/scm/ev.py,sha256=Vr76Q-GGBvOM9ejjLhGRzOc6jKa4JQj6L4xGz5d3cgQ,4582
+optivgi/scm/go_algorithm.py,sha256=37e5lLzmTFywXzuwCYO4hL5hk9tW7EokKNz0FRtdAtQ,7546
+optivgi/scm/pulp_numerical_algorithm.py,sha256=MB_nzXhIzvxO0vfTEUZasHMLAOoRCVAs6hC8A8lleDs,3919
+optivgi-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+optivgi-0.1.1.dist-info/METADATA,sha256=peu3k9j1eovy6JYPBMuHC48zPkq-em1MSJ-yO70pAa4,14336
+optivgi-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+optivgi-0.1.1.dist-info/top_level.txt,sha256=xPgPhC0YPL-minbrVlegbHM9pttxfK4w_4lLoPyuP0A,8
+optivgi-0.1.1.dist-info/RECORD,,

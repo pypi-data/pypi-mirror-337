@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: gazon
+Version: 0.3.1
+Summary: Парсер информации о товарах с Ozon
+Home-page: https://github.com/unionium/gazon
+Author: RagnarekUA
+Author-email: mrleyyt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: selenium>=4.0
+Requires-Dist: webdriver-manager>=3.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Gazon
+
+Парсер информации о товарах с Ozon
+
+## Установка
+```bash
+pip install gazon
+```
+или
+```bash
+python3 -m pip install gazon
+```
+## Использование
+```python
+import gazon as ozon
+
+data = ozon.getinfo("https://www.ozon.ru/product/1577622901/") # также поддерживаются и полные ссылки(https://www.ozon.ru/product/internet-kabel-patch-kord-1m-100mbit-sek-1577622901/)
+print(data)
+```
+
+## Рекомендуем также нашу библиотеку WildApies для вайлдберриз

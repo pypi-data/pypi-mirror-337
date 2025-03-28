@@ -1,0 +1,9 @@
+klogs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+klogs/kFormatter.py,sha256=wtxgkrA2V1_wziuNtWFjOww95GaBbSI95B7QC5Vc_-Y,1506
+klogs/kLogger.py,sha256=XiFKodpw8aOz4O-XUw_kI6uGro177NCJcti-UmUUYlo,2619
+klogs/test.py,sha256=dKT8IDcetKHmX-RNWAgpY9BBbS00fuEoU8GRVyCh5Tg,942
+klogs_util-0.1.1.dist-info/licenses/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+klogs_util-0.1.1.dist-info/METADATA,sha256=bGTgyfHi6iKcENUe0ZA6KlLvy8Ckuutdxjgq_9f-lNo,1508
+klogs_util-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+klogs_util-0.1.1.dist-info/top_level.txt,sha256=mofjRCnCxYsAcuIHp8y0fNaRp16jUiB7fInuVfy0pPw,6
+klogs_util-0.1.1.dist-info/RECORD,,

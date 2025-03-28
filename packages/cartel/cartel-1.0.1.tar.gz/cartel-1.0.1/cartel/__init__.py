@@ -1,0 +1,1 @@
+from .cartel import carteltext

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: auf
+Version: 1.0.0
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pip (>=20)
+Requires-Dist: scikit-learn (<1.5.0,>=1.3.0)
+Requires-Dist: scikit-uplift (==0.5.1)
+Requires-Dist: mlflow (==2.9.2)
+Requires-Dist: scipy (==1.11.4)
+Requires-Dist: causalml (==0.15.2)
+Requires-Dist: seaborn (==0.13.2)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: pandas
+Requires-Dist: optuna
+Requires-Dist: catboost
+Requires-Dist: numpy
+Requires-Dist: duecredit
+

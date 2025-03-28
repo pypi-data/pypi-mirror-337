@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+poppo213/__init__.py
+poppo213/links.txt
+poppo213/poppo213.py
+poppo213.egg-info/PKG-INFO
+poppo213.egg-info/SOURCES.txt
+poppo213.egg-info/dependency_links.txt
+poppo213.egg-info/entry_points.txt
+poppo213.egg-info/requires.txt
+poppo213.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+textassert/__init__.py,sha256=dpnZlPBeCZSN57QqdW_pHsVmQ5dfbylU-3548HyBsf8,3970
+textassert/ai.py,sha256=GhbPDpi7aJbHiXarIYpIbEuLxJoGh4SBY2PFMjA412M,4388
+textassert/render.py,sha256=qAyFMRo_2iCpYrm50lJO-75mfDQHvcyT5Gt03hI9dqo,759
+textassert/schema/project.py,sha256=ho_X2leKWNLVt0wJOjvn-g4074a0LZf6MmWc0GuhSgk,778
+textassert-0.1.0.dist-info/METADATA,sha256=NXPDXD-hUryHeO48NjbMwpjlLHks2wCT95eb5CKwW9s,299
+textassert-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+textassert-0.1.0.dist-info/entry_points.txt,sha256=OR56qNBb6TATLMUiTPSqj80NxL8ExozC9tnToYOP6Ek,46
+textassert-0.1.0.dist-info/RECORD,,

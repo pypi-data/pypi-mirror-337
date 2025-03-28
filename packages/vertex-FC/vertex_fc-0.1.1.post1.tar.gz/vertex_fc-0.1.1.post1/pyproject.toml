@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vertex-FC"
+version = "0.1.1.post01"
+authors = [
+    {name="Cole Khamnei", email="cole.khamnei@gmail.com"},
+]
+description = "fMRI functional connectivity toolkit with GPU acceleration using torch"
+readme = "README_pypi.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}  # Or your chosen license
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["fMRI", "functional connectivity", "GPU", "XLA", "torch"]
+dependencies = [
+    "memory_profiler>=0.61.0",
+    "nibabel>=5.3.2",
+    "numpy>=2.2.4",
+    "py_cpuinfo>=9.0.0",
+    "scipy>=1.15.2",
+    "torch>=2.6.0",
+    "tqdm>=4.66.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/cole-khamnei/vertex"

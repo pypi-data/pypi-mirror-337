@@ -1,0 +1,10 @@
+openhydroponics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openhydroponics/endpoint.py,sha256=ADibEQa56TmoXunw8pPO6is7Ho83NlljT34xl5DsaKY,2598
+openhydroponics/msg.py,sha256=Mse3Tge84z9BbedcaetgUYR5SLMHl_mtXQceVBAs9RA,3387
+openhydroponics/msg_pipe.py,sha256=CFneYjc-1XoChcIKvwOTkpE_shdMk6DkxvIC9RElARg,2271
+openhydroponics/node_manager.py,sha256=u9KYqI084Rf7f_shiQtpiGEk5KtlqNAGQBTgbAZSQ6s,8253
+openhydroponics/phyinterface.py,sha256=b4CY08D4HWG8ChtTpTeM0KKUFsOZjmQKF8L4ct0LxOE,3557
+openhydroponics-0.2.0.dist-info/METADATA,sha256=XD-SM1Y_bBe-BvcthH55yxgUyrvr6OB4PwYpjB5t4N4,1758
+openhydroponics-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+openhydroponics-0.2.0.dist-info/licenses/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+openhydroponics-0.2.0.dist-info/RECORD,,

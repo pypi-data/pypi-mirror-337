@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+freqtrade_mcp.egg-info/PKG-INFO
+freqtrade_mcp.egg-info/SOURCES.txt
+freqtrade_mcp.egg-info/dependency_links.txt
+freqtrade_mcp.egg-info/requires.txt
+freqtrade_mcp.egg-info/top_level.txt

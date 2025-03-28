@@ -1,0 +1,15 @@
+include README.md
+include LICENSE
+include VERSION
+include pybind11/LICENSE
+
+recursive-include src *.pyi
+recursive-include src *.cpp *.hpp
+
+recursive-include pybind11 *
+graft pybind11/include
+graft pybind11/tools
+
+graft src
+
+global-include CMakeLists.txt *.cmake

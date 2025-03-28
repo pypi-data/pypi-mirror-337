@@ -1,0 +1,9 @@
+from typing import Optional, Tuple
+from .node import Node
+
+class NodeWalker:
+    def __init__(self, root: Node) -> None: ...
+    
+    def next(self) -> Tuple[bool, Optional[Node]]: ...
+    
+    def resume_at(self, node: Node, entering: bool) -> None: ...

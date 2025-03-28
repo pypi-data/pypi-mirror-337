@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: NCD_KNN_Classifier
+Version: 0.1.5
+Summary: A kNN classifier based on NCD distance metric for text compression
+Author-email: Javier Montaño <franjamonga@icloud.com>
+Project-URL: Homepage, https://github.com/M-CORE-hub/NCD-KNN-Classifier
+Project-URL: Bug Tracker, https://github.com/M-CORE-hub/NCD-KNN-Classifier/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==2.2.4
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: datasets==3.4.1
+Dynamic: license-file
+
+# NCD-KNN-Classifier
+
+A kNN classifier based on the Normalized Compression Distance (NCD) for text classification.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install NCD-KNN-Classifier
+```
+
+## Usage
+
+Here's a basic example of how to use the classifier:
+
+```python
+from datasets import load_dataset
+from NCD_KNN_Classifier import CompNCDClassifier
+
+# Example of imdb dataset for classification of two labels
+dataset = load_dataset("imdb")
+test_samples = dataset["test"].shuffle(seed=42).select(range(200))
+
+# Compressing and Saving the Training Dataset Footprint
+classifier = CompNCDClassifier(
+    train_dataset=dataset['train'],
+    test_dataset=test_samples,
+    k=3,
+    compressor="gzip",
+    verbose=True
+)
+classifier.save_to_pickle("train_footprint.pkl")
+
+# Inference on the test set
+metrics = classifier.evaluate()
+print("Evaluation metrics:", metrics)
+```
+## Output Example
+
+After running the example, you should see output similar to this:
+
+```bash
+INFO:NCD_KNN_Classifier.classifier:Evaluating on the dataset...
+Evaluating 200/200: 100%|██████████| 200/200 [00:55<00:00,  3.63it/s]
+Evaluation metrics: {'accuracy': 0.69, 'precision': 0.6969369369369369, 'recall': 0.69, 'f1_score': 0.68476726342711}
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

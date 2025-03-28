@@ -1,0 +1,9 @@
+j_kuant/__init__.py,sha256=9C_kzYIOONGy5CvehZFCxa83HHSf2OQxXji9mBIldSg,68
+j_kuant/core.py,sha256=7RHyQ6tMaanEHc81QtSaDqLe7ZE7Hy-yL1UWnIbxODU,136
+j_kuant/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+j_kuant-0.1.9.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+j_kuant-0.1.9.dist-info/METADATA,sha256=pgZYQes8LKLuPKRZdD1ULf1ZPMlM4NkQoO5Cw6OSpa8,288
+j_kuant-0.1.9.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+j_kuant-0.1.9.dist-info/top_level.txt,sha256=3u-MYjb_VUbt21WgH1R0tpj1k5uSJcg5EhatyGu38nI,14
+j_kuant-0.1.9.dist-info/RECORD,,

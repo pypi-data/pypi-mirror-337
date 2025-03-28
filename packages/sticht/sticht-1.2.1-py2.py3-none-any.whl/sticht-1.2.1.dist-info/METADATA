@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sticht
+Version: 1.2.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytimeparse
+Requires-Dist: slackclient>=1.2.1
+Requires-Dist: transitions
+Requires-Dist: mypy-extensions
+Requires-Dist: signalfx
+Requires-Dist: splunk-sdk
+Requires-Dist: typing-extensions
+Provides-Extra: yelp_internal
+Requires-Dist: yelp-clog>=7.1.1; extra == "yelp-internal"
+Requires-Dist: scribereader>=1.1.1; extra == "yelp-internal"
+Requires-Dist: slo-transcoder>=3.2.3; extra == "yelp-internal"
+
+UNKNOWN
+
+

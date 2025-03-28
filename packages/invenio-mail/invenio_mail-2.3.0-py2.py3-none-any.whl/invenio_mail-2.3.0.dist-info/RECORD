@@ -1,0 +1,13 @@
+invenio_mail/__init__.py,sha256=ue2rCBVY6ySXuFaWiCfuXefU8WYq_8Ud9ziDn_BwLSo,3223
+invenio_mail/api.py,sha256=fjTtaozqdqvSeXrU8a7NLGqagKt51NZ4Ak7U_B4wTrY,1382
+invenio_mail/config.py,sha256=Sjx_qEavgWN1tUxo3GulbeLuIzU82kWFV2Ko3owEXRw,814
+invenio_mail/errors.py,sha256=WU4N0ox-ffkya1-Mga7qOEfW3inxKv-VbfrTXg9LilE,397
+invenio_mail/ext.py,sha256=hH0MhCTq5ifrv4cYGM7f5S3GHhnsXz8Z_4sG9rJL20A,2952
+invenio_mail/tasks.py,sha256=t042Amdnqy9yG2B0kTIjf8gS2YLST8wsOv-j1jaG-i8,3990
+invenio_mail-2.3.0.dist-info/licenses/AUTHORS.rst,sha256=GSYfxMa-cOcBbX7AFCID_OzjkJXPYWRdv8Oh2KE-y-E,416
+invenio_mail-2.3.0.dist-info/licenses/LICENSE,sha256=7NdusrwW2CBXoBZXOYFnEKLE736o9LpcXGBRdwj0lQg,1067
+invenio_mail-2.3.0.dist-info/METADATA,sha256=z5NlEo_SVufMEUObT9dsTOeBb_6ENS8Oldy0E3_qevM,3053
+invenio_mail-2.3.0.dist-info/WHEEL,sha256=MAQBAzGbXNI3bUmkDsiV_duv8i-gcdnLzw7cfUFwqhU,109
+invenio_mail-2.3.0.dist-info/entry_points.txt,sha256=INDErexTSS3MYqFBf7pBJs2d7goYrDaKLWZ2oAJ433g,183
+invenio_mail-2.3.0.dist-info/top_level.txt,sha256=1uZC-gr97iK_qWW3Vx-3MXIOMSR3YXD2LP66H4BQlOE,13
+invenio_mail-2.3.0.dist-info/RECORD,,

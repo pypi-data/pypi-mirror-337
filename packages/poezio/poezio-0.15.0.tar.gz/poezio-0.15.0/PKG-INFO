@@ -1,0 +1,213 @@
+Metadata-Version: 2.4
+Name: poezio
+Version: 0.15.0
+Summary: A console XMPP client
+Author-email: "Florent Le Coz (louiz’)" <louiz@louiz.org>, "Mathieu Pasquet (mathieui)" <mathieui@mathieui.net>, "Emmanuel Gil Peyrot (Link Mauve)" <linkmauve@linkmauve.fr>, "Maxime Buquet (pep.)" <pep@bouah.net>
+Maintainer-email: "Mathieu Pasquet (mathieui)" <mathieui@mathieui.net>, "Emmanuel Gil Peyrot (Link Mauve)" <linkmauve@linkmauve.fr>, "Maxime Buquet (pep.)" <pep@bouah.net>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://poez.io
+Project-URL: Downloads, https://codeberg.org/poezio/poezio/tags
+Project-URL: Repository, https://codeberg.org/poezio/poezio/
+Keywords: jabber,xmpp,client,chat,im,console
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet :: XMPP
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: slixmpp>=1.10.0
+Requires-Dist: aiodns>=1.1.1
+Requires-Dist: pycares>=2.3.0
+Requires-Dist: pyasn1_modules>=0.2.1
+Requires-Dist: pyasn1>=0.4.2
+Requires-Dist: setuptools
+Provides-Extra: autoaway-plugin
+Requires-Dist: pyinotify==0.9.4; extra == "autoaway-plugin"
+Provides-Extra: code-plugin
+Requires-Dist: pygments; extra == "code-plugin"
+Provides-Extra: qr-plugin
+Requires-Dist: qrcode; extra == "qr-plugin"
+Provides-Extra: mpd-plugin
+Requires-Dist: python-musicpd; extra == "mpd-plugin"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pylint; extra == "test"
+Dynamic: license-file
+
+poezio
+======
+
+.. image:: https://codeberg.org/poezio/poezio/-/raw/main/data/poezio_logo.svg
+   :alt: Poezio logo
+   :width: 200
+
+|python versions| |license|
+
+|discuss|
+
+Homepage:      https://poez.io
+
+Forge Page:    https://codeberg.org/poezio/poezio
+
+Poezio is a console Jabber/XMPP client. The initial goal was to provide a
+way of connecting easily to XMPP without the need for an account, exactly like
+IRC clients. Poezio's commands are also designed to be close, if possible,
+to the ones commonly used in IRC clients (weechat, irssi, etc).
+
+For this reason, the experience is still centered around chatrooms, despite
+poezio being a full-featured XMPP client for a very long while.
+
+Install
+-------
+
+Packages
+~~~~~~~~
+
+The stable version of poezio is packaged in
+`a number of GNU/Linux (and OpenBSD) distributions <https://doc.poez.io/install.html#poezio-in-the-gnu-linux-distributions>`_.
+
+
+If it is not packaged in your distribution, you can run the
+`flatpak <https://flathub.org/apps/details/io.poez.Poezio>`_ or use pip
+to install the package from `Pypi <https://pypi.org/project/slixmpp/>`_.
+
+
+From git
+~~~~~~~~
+
+`Documentation <https://doc.poez.io/install.html#install-from-source>`_
+
+
+You need python 3.11 or higher (preferably the latest) and the associated
+devel package, as well as build tools (build-essential, pkg-config,
+etc.), to build C modules, and the slixmpp python library. You also need
+aiodns if you want SRV record support.
+
+The easiest way to have up-to-date dependencies and to be able to test
+this developement version is to use the ``update.sh`` script that relies on
+the uv_ tool.
+
+You can then launch poezio with
+
+::
+
+    $ ./launch.sh
+
+
+You can edit the configuration file which is located in
+``~/.config/poezio/poezio.cfg`` by default, and you will have to copy
+and edit ``data/default_config.cfg`` if you want to edit the config before
+the first launch. The default config file is fully commented, but you can
+also read the “Configuration” documentation page which has links between
+options and longer descriptions.
+
+Please see the online documentation for more information on installing,
+configuring or using poezio: https://doc.poez.io/
+
+If you still have questions, or if you're lost, don't hesitate to come
+talk to us directly on our Jabber chat room (see Contact section).
+
+Please DO report any bug you encounter and ask for any feature you want
+(we may implement it or not, but it’s always better to ask).
+
+Authors
+-------
+
+- Florent Le Coz (louiz’) <louiz@louiz.org> (developer)
+- Mathieu Pasquet (mathieui) <mathieui@mathieui.net> (developer)
+- Emmanuel Gil Peyrot (Link Mauve) <linkmauve@linkmauve.fr> (developer)
+- Maxime Buquet (pep.) <pep@bouah.net> (developer)
+
+Contact/support
+---------------
+
+Jabber chat room:   `poezio@muc.poez.io <xmpp:poezio@muc.poez.io?join>`_
+(`web chat`_)
+
+Report a bug:      https://codeberg.org/poezio/poezio/issues/new
+
+License
+-------
+
+Poezio is Free Software.
+(learn more: http://www.gnu.org/philosophy/free-sw.html)
+
+Poezio is released under the GPL-3.0+ License.
+Please read the COPYING file for details.
+
+The artwork logo was made by Gaëtan Ribémont and released under
+the `Creative Commons BY license <http://creativecommons.org/licenses/by/2.0/>`_.
+
+
+Migration to Rust
+-----------------
+
+We're currently migrating Poezio to Rust. The migration is happening in
+the ``roezio`` branch on the repository. You're welcome to try it out,
+report bugs, and contribute!
+
+To be able to run it you will need to install ``setuptools-rust``, and
+of course the Rust compiler suite. Check out ``rustc`` or ``rustup`` in
+your distribution package manager.
+
+You should then be able to run `python setup.py build_ext --inplace` to
+compile it locally, and launch poezio via `./launch.py`.
+
+Hacking
+-------
+
+If you want to contribute, you will be welcome on
+`poezio@muc.poez.io <xmpp:poezio@muc.poez.io?join>`_ (`web chat`_)
+to announce your ideas, what you are going to do, or to seek help if you have
+trouble understanding some of the code.
+
+The preferred way to submit changes is through a merge request on codeberg,
+at https://codeberg.org/poezio/poezio, but we also accept contributions
+on github, or with a simple “please fetch my code on my personal git
+repository hosted somewhere”.
+
+
+Thanks
+------
+
+- People:
+    - Todd Eisenberger - Plugin system and OTR support
+    - Jérôme Parment (Manfraid) - Code, testing
+    - Akim Sadaoui - Code
+    - Florian Duraffourg - Code
+    - Frédéric Meynadier - Code
+    - Georg Lukas - Code
+    - Johannes Krude - Code
+    - Łabędź - Code
+    - Lasse Aagren - Code
+    - Lancelot SIX - Code
+    - Luke Marlin - Code
+    - Maxime Buquet - Code
+    - Nicolas Braud-Santoni - Code
+    - Perdu - Code
+    - Eijebong - Code
+    - Gaëtan Ribémont - Logo design
+    - Ovart - Testing
+    - Koshie - Donation
+    - Gapan - Makefile
+    - FlashCode (weechat dev) - Useful advices on how to use ncurses efficiently
+    - And all the people using and testing poezio, and especially the ones present
+      on the jabber chatroom doing bug reports and/or feature requests.
+
+
+.. |python versions| image:: https://img.shields.io/pypi/pyversions/poezio.svg
+
+.. |license| image:: https://img.shields.io/badge/license-gpl--3.0--or--later-blue.svg
+
+.. |discuss| image:: https://inverse.chat/badge.svg?room=poezio@muc.poez.io
+   :target: https://chat.jabberfr.org/converse.js/poezio@muc.poez.io
+
+.. _web chat: https://chat.jabberfr.org/converse.js/poezio@muc.poez.io
+.. _uv: https://docs.astral.sh/uv/

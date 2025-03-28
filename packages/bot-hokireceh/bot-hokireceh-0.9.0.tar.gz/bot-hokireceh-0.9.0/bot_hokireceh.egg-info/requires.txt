@@ -1,0 +1,6 @@
+aiogram==3.19.0
+aiohttp
+python-dotenv
+python-telegram-bot
+requests
+yt-dlp

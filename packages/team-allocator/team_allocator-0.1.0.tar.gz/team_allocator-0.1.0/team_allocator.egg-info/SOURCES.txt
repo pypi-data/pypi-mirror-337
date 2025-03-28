@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+team_allocator/__init__.py
+team_allocator/team_generator.py
+team_allocator.egg-info/PKG-INFO
+team_allocator.egg-info/SOURCES.txt
+team_allocator.egg-info/dependency_links.txt
+team_allocator.egg-info/requires.txt
+team_allocator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_team_generator.py

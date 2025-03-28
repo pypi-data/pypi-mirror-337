@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: golinux
+Version: 1.0.3
+Summary: #GoLinux
+Home-page: https://github.com/unionium/#golinux
+Author: Unionium NCO
+Author-email: golinux@unionium.org
+Project-URL: Bug Reports, https://github.com/unionium/#golinux/issues
+Project-URL: Source, https://github.com/unionium/#golinux
+Keywords: linux windows propaganda
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colorama; platform_system == "Windows"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# #Go Linux!
+ A library that shows Linux propaganda when imported on Windows

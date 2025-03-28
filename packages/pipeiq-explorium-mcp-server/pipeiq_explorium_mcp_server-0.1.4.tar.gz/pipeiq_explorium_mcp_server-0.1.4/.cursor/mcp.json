@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "server-name": {
+            "command": "python3",
+            "args": ["-y", "pipeiq_explorium_mcp_server"],
+            "env": {
+                "API_KEY": "4b76eb7b4ee94bd595aa96c0051b344e"
+            }
+        }
+    }
+}

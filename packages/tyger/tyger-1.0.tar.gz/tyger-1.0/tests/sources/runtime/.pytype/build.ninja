@@ -1,0 +1,9 @@
+rule infer
+  command = /home/cristobal/2024/memoria/pytype/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /home/cristobal/2024/memoria/pytype/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /home/cristobal/2024/memoria/gpython/GPython/tests/sources/runtime/.pytype/pyi/if_stmt_name_error.pyi: check /home/cristobal/2024/memoria/gpython/GPython/tests/sources/runtime/if_stmt_name_error.py
+  imports = /home/cristobal/2024/memoria/gpython/GPython/tests/sources/runtime/.pytype/imports/if_stmt_name_error.imports
+  module = if_stmt_name_error

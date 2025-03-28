@@ -1,0 +1,6 @@
+# (generated with --quick)
+
+import module
+
+def foo() -> None: ...
+def y(x: int) -> int: ...

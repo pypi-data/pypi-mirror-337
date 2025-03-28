@@ -1,0 +1,18 @@
+rule infer
+  command = /home/cristobal/2024/memoria/pytype/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /home/cristobal/2024/memoria/pytype/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod1.pyi: infer /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/module/mod1.py
+  imports = /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/imports/module.mod1.imports
+  module = module.mod1
+build /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module2/mod2.pyi: infer /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/module2/mod2.py | /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod1.pyi
+  imports = /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/imports/module2.mod2.imports
+  module = module2.mod2
+build /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod2.pyi: infer /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/module/mod2.py
+  imports = /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/imports/module.mod2.imports
+  module = module.mod2
+build /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/implicit_fun_import_error.pyi: check /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/implicit_fun_import_error.py | /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod2.pyi /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module2/mod2.pyi
+  imports = /home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/imports/implicit_fun_import_error.imports
+  module = implicit_fun_import_error

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tyger"
+version = "1.0"
+authors = [{"name"= "PLEIAD"}]
+description = "Tyger is a simple type analysis tool that provides the foundations to implement different typing disciplines in Python."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pleiad/GPython"
+Team = "https://pleiad.cl"
+[project.scripts]
+tyger = "tyger.main:main"

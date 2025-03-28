@@ -1,0 +1,5 @@
+# ninja log v5
+0	1521	1727887533444138396	/home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod1.pyi	41e67602a937efe6
+1521	3240	1727887535160156276	/home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module2/mod2.pyi	21908343a0653384
+3240	4988	1727887536904174464	/home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/module/mod2.pyi	b29ffc92af7c7cda
+0	2226	1727887834387475700	/home/cristobal/2024/memoria/gpython/GPython/tests/sources/static/.pytype/pyi/implicit_fun_import_error.pyi	374649dc10d0323c

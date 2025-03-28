@@ -1,0 +1,54 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "arc-agi"
+version = "0.0.2"
+description = "Work in progress..."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.4",
+    "requests>=2.32.3",
+]
+
+[project.license]
+file = "LICENSE"
+
+[tool.pdm.extras]
+core = [
+    "arc.core",
+]
+lambda = [
+    "arc.lamdba",
+]
+llm = [
+    "arc.llm",
+]
+torch = [
+    "arc.torch",
+]
+all = [
+    "arc.core",
+    "arc.lambda",
+    "arc.llm",
+    "arc.torch",
+]
+
+[tool.uv.workspace]
+members = [
+    "arc/core",
+    "arc/lambda",
+    "arc/llm",
+    "arc/torch",
+]
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-utl = "https://test.pypi.org/legacy/"
+explicit = true

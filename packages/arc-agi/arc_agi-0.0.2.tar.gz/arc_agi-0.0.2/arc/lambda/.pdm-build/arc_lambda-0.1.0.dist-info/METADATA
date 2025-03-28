@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: arc-lambda
+Version: 0.1.0
+Summary: ARC-RTK for lamdba-calculus(functional programming) approach
+Author-Email: Jumyung Park <parkjumyungpublic@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+

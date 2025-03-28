@@ -1,0 +1,10 @@
+restricted_countries/__init__.py,sha256=aZwqF0DQ36aIpfii4ESPpXYRP31HIqMguptyz4HBuFM,444
+restricted_countries/apps.py,sha256=uO8dx2JCaQLKUAfbA4G0Prcb1D4lUS5uEX6uBo5w5V8,177
+restricted_countries/middleware.py,sha256=J95uN_xV0367XKdaN4XQ8kbl5Xk7SvbN-k8m2ki5QNA,2535
+restricted_countries/settings.py,sha256=IVenKg9pQj2h8-q7-LIUBNWfJIZ_5BoJH5440qvXYOc,655
+restricted_countries/utils.py,sha256=B-D5-361DJhQxWPZj1fyvLnER0Y-uziuAtilTO-IcNg,427
+django_restricted_countries-0.1.2.dist-info/LICENSE,sha256=nr24THpY9BmyZMN-dZOZrfjvUelNZ8QBM9z-nF7FHSE,1096
+django_restricted_countries-0.1.2.dist-info/METADATA,sha256=eLyYk5s409KE7fUgtjjoCxA4UsiAnMHrGMo04bM9gDI,3987
+django_restricted_countries-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_restricted_countries-0.1.2.dist-info/top_level.txt,sha256=EPcuyhYgF2dvU_7x7M-vD2Z_PnHqpI0GWTSVWAypRe0,21
+django_restricted_countries-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+team_allocator/__init__.py,sha256=qCBnFyTod7wWAo8K6BiLU-tgGPEsDZ3NxwoLkTeYcKE,42
+team_allocator/team_generator.py,sha256=v8U2akWH2xM6yuJrnl1_qH5HhkqY4IDOLouURRidiiM,5567
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_team_generator.py,sha256=7r_iMFJgQQs90F4E7_HIXZRiZdP9PiWYu5WsOa-Tkbs,2137
+team_allocator-0.1.0.dist-info/METADATA,sha256=Sai5jaFIcexrpyRrtZfnoMYAJuYc0DChlWPEvdHclXM,2972
+team_allocator-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+team_allocator-0.1.0.dist-info/top_level.txt,sha256=xfZvv_sHZ2EbuU8F7mcpN6tYxkZgHV7U2yAbbTMVFQM,21
+team_allocator-0.1.0.dist-info/RECORD,,

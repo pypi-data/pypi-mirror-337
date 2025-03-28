@@ -1,0 +1,2 @@
+[console_scripts]
+mycommand = mycommand.cli:main

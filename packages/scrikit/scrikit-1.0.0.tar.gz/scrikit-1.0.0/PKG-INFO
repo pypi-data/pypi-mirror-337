@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: scrikit
+Version: 1.0.0
+Summary: A simple Script Kit with essential tools for Python developers.
+Project-URL: Homepage, https://github.com/coryavra/scrikit
+Project-URL: Issues, https://github.com/coryavra/scrikit/issues
+Author-email: Cory Avra <coryavra@icloud.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ScriKit (The Script Kit)
+
+![scrikit Logo](images/scrikit-logo.png)
+
+ScriKit is a lightweight no-dependency toolkit for quickly building consistently beautiful CLI python scripts. Really, it's just a collection of my most-used utilities and variables. 
+
+## Features
+
+- Script Class: Quickly build scripts with colorful banners, built-in benchmarking, and more.
+- Color Theme: Predefined color variables, organized into a theme.
+- Enhanced Logging: Automatically overrides the native logging formatter with colorized output for different log levels.
+- Data displays: Also contains a table and tree display functions for visualizing data in the terminal.
+
+## Installation
+
+You can download the source code and copy into your project, or install directly into your python environment with: 
+
+```pip install scrikit``` 
+
+## License
+
+MIT License

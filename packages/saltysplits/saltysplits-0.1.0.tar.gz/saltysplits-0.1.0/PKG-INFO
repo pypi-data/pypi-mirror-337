@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: saltysplits
+Version: 0.1.0
+Summary: Toolset for LiveSplit files (robust LSS ingestion, run comparison, visualization)
+Keywords: livesplit,speedrunning,pydantic,xml,gaming
+Author: Jasper
+Author-email: j.siebring92@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: streamlit
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pillow (>=11.1.0,<12.0.0)
+Requires-Dist: pybase64 (>=1.4.0,<2.0.0)
+Requires-Dist: pydantic-xml[lxml] (>=2.14.1,<3.0.0)
+Requires-Dist: streamlit (>=1.43.1,<2.0.0) ; extra == "streamlit"
+Project-URL: Homepage, https://saltysplits.com
+Project-URL: Repository, https://github.com/jaspersiebring/saltysplits
+Description-Content-Type: text/markdown
+
+<img src="https://github.com/user-attachments/assets/5863a3ed-0552-449f-8942-4378fbd1a59e" alt="saltysplits_logo" width="300">
+
+---
+SaltySplits is a powerful Python library for the modeling of LiveSplit files and analysis of the speedrunning data within. It also features an experimental front-end powered by `streamlit` (available at [saltysplits.com](https://saltysplits.com/)).
+
+

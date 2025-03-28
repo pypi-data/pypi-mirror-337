@@ -1,0 +1,11 @@
+bmhub/__init__.py,sha256=BIrkbkchJq-q4StchpfQRW_SjSF9YedS9G0lFtlwi4s,54
+bmhub/backend_hf.py,sha256=FzAHJZXoLBgMuUn_hL-xQvLdGzcacxA9bADpRR0VtUg,2845
+bmhub/backend_ms.py,sha256=8BmIExXYj-SUHIPbKv83K9QjF3L5xOhMlVfslrcV_uQ,2800
+bmhub/cli.py,sha256=kUpkvKUc8tCpH-lWktB5yFEOqqcXda5w32-f7WC9h8M,5406
+bmhub/schema.py,sha256=6VWuu8C55ppPVIyifPzAIvwDBR6ihjvw90afvJ08vew,2094
+bmhub/utils.py,sha256=CStXhpobRQr_DRcQFc6x7nXXO9SnptKo2XfGGdFe2tE,950
+bigmodel_hub-0.1.0.dist-info/entry_points.txt,sha256=N-wIK1UDH77QH6Yf9WlB_zOgAHPd66ywGIU3972E5TU,40
+bigmodel_hub-0.1.0.dist-info/LICENSE,sha256=S-tNg84XdphWKxmFe-aLfJiyEfCp3proO-yg_2Xv2Dw,1068
+bigmodel_hub-0.1.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+bigmodel_hub-0.1.0.dist-info/METADATA,sha256=D8Ad2gA5mBIuXBPmE9v6DyG0KopLfwwUP7p3NOao2JI,4319
+bigmodel_hub-0.1.0.dist-info/RECORD,,

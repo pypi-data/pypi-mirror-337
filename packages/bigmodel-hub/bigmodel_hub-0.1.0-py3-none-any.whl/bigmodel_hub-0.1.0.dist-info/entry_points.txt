@@ -1,0 +1,3 @@
+[console_scripts]
+bmhub=bmhub.cli:main
+

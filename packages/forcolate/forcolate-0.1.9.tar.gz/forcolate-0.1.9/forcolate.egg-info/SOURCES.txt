@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+forcolate/__init__.py
+forcolate/outlook_search.py
+forcolate.egg-info/PKG-INFO
+forcolate.egg-info/SOURCES.txt
+forcolate.egg-info/dependency_links.txt
+forcolate.egg-info/requires.txt
+forcolate.egg-info/top_level.txt
+forcolate/vendors/ms-marco-MiniLM-L6-v2/config.json
+forcolate/vendors/ms-marco-MiniLM-L6-v2/model.safetensors
+forcolate/vendors/ms-marco-MiniLM-L6-v2/tokenizer_config.json
+forcolate/vendors/ms-marco-MiniLM-L6-v2/vocab.txt

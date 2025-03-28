@@ -1,0 +1,9 @@
+gurobipy>=11.0
+numpy>=1.23
+qsalto>=0.2
+
+[qiskit]
+qiskit>=1.0
+
+[tqdm]
+tqdm>=4.0

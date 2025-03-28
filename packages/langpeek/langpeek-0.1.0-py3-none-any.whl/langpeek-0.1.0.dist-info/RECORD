@@ -1,0 +1,7 @@
+langpeek/__init__.py,sha256=6rk6VW-f_Efj9qRn-lc1hkvDuY5OOnd43pSjaOnCvJU,68
+langpeek/langpeek.py,sha256=yFy53NMpR6gHqlmwqcyzjP1cmA5GwYrz7HQc6G8_NN8,581
+langpeek/data/stopwords.yaml,sha256=cKMNVBRHErGlzDKQHooguAKbuKhgGfWRK7_n6X3fmDk,219
+langpeek-0.1.0.dist-info/METADATA,sha256=09TO65IDg94msJU9vatEGX-lTmY5hz17qrvWp5_9QQ0,488
+langpeek-0.1.0.dist-info/WHEEL,sha256=iAkIy5fosb7FzIOwONchHf19Qu7_1wCWyFNR5gu9nU0,91
+langpeek-0.1.0.dist-info/top_level.txt,sha256=Sf59yeVV_KZiM28NIPcjsAyNN2nsDEvOVNgg0jSBU54,9
+langpeek-0.1.0.dist-info/RECORD,,

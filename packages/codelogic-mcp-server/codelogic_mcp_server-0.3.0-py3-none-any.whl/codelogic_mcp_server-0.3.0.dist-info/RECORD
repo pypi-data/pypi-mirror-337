@@ -1,0 +1,9 @@
+codelogic_mcp_server/__init__.py,sha256=1l768GhtZLFSwe2Se2fw5aLY0wO0feOl__D1U4YRjDA,481
+codelogic_mcp_server/handlers.py,sha256=SWCyemq-wYm3RLCD1mI0zlAcTq0SvopzWCxcb_YRnTg,21056
+codelogic_mcp_server/server.py,sha256=LdLpihy0l8Th9J6dYI304TYQRwjw3RQZ3FtfDUWqzZ8,2000
+codelogic_mcp_server/utils.py,sha256=ZfaKI606B24cjk1nSHGTftO_uH4dqskWg02U2Bv_M2w,8483
+codelogic_mcp_server-0.3.0.dist-info/METADATA,sha256=HUY6Y9LT6MhGHZ4dLD2Ul13TtSFU-b9cbxx5fAtLQKI,3132
+codelogic_mcp_server-0.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+codelogic_mcp_server-0.3.0.dist-info/entry_points.txt,sha256=uI70kOjCSJ8BszlV7qYQz2kO9nF_cxqIoPWUzn7Q640,67
+codelogic_mcp_server-0.3.0.dist-info/licenses/LICENSE,sha256=wKL5WAohy0lMZn7QbATV8moO1QK9sHHt8Kq7OiLdy8Q,14997
+codelogic_mcp_server-0.3.0.dist-info/RECORD,,

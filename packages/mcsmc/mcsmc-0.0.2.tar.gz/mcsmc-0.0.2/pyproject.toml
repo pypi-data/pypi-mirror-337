@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mcsmc"]
+exclude = ["images", "test.py", ".gitignore"]
+
+[project]
+name = "mcsmc"
+version = "0.0.2"
+urls = { text = "https://github.com/yxjsxl" }
+authors = [
+    { name = 'xiaoliang', email = '2700858939@qq.com' }
+]
+description = "mcsm面板控制库"
+readme = "README.md"
+requires-python = ">=3.5"
+license = { text = "Apache 2.0" }
+keywords = [
+    'mcsm',
+    'minecraft',
+    'server',
+    'control'
+]
+classifiers = [
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3'
+]
+dependencies = [
+    'requests'
+]

@@ -1,0 +1,10 @@
+kanbanpy/__init__.py,sha256=7ydjF4UllAT6cth-WrZHqehyZQyff7mX_Ib2SIgbixM,73
+kanbanpy/__main__.py,sha256=BwJYiSp5K_tTsjKBR1c8NZdRpnFVUup7Tmng8TmCY2Y,1470
+kanbanpy/cli.py,sha256=t7lG7CZ4eBY6yjvemi7P_vmQmDpNP0suv6sFuXPF6xc,1331
+kanbanpy/models.py,sha256=HVzs0GeX81ElU1JAj5cUs5cxT7sIV8guRSv2Mr-kRzk,5907
+kanbanpy/storage.py,sha256=ESnwE9nBx8ScpS1jcLDaVdVJDpx4LPRtlM5f8eFPRb4,1103
+kanbanpy-2.0.0.dist-info/LICENSE,sha256=dOve4uE5V7fH-tyEciaSwzdOLU3WfaR7Xx0JId6F7lw,1071
+kanbanpy-2.0.0.dist-info/METADATA,sha256=wbIQibY846znZxRCEUVWTrVrMLMj8lqBju-msX0yxIE,4370
+kanbanpy-2.0.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+kanbanpy-2.0.0.dist-info/entry_points.txt,sha256=GHyxv6qn3eMnA10jIS053cv1qqIG1H0HyQaUM9NyjnA,51
+kanbanpy-2.0.0.dist-info/RECORD,,

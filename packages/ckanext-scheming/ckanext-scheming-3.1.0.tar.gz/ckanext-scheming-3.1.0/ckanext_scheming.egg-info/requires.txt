@@ -1,0 +1,4 @@
+ckanapi
+pytz
+pyyaml
+six

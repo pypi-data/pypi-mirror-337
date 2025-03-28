@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "teleboting"
+version = "0.0.4"
+authors = [
+ { name="Тихонович Артем Олегович", email="braynt.k@mail.ru" },
+]
+description = ""
+dependencies = [
+    "pyTelegramBotAPI>=4.26.0"
+]
+readme = "README.md"
+requires-python = ">=3.11.0"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+]

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyasltst.egg-info/PKG-INFO
+pyasltst.egg-info/SOURCES.txt
+pyasltst.egg-info/dependency_links.txt
+pyasltst.egg-info/requires.txt
+pyasltst.egg-info/top_level.txt

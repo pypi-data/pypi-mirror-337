@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+udene_sdk/__init__.py
+udene_sdk/client.py
+udene_sdk.egg-info/PKG-INFO
+udene_sdk.egg-info/SOURCES.txt
+udene_sdk.egg-info/dependency_links.txt
+udene_sdk.egg-info/requires.txt
+udene_sdk.egg-info/top_level.txt

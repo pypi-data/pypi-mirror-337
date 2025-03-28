@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: b15py
+Version: 1.0.4
+Summary: Ein Module um das B15F-Board mit Python zu programmieren.
+Author: mmeiler-dev
+Requires-Dist: pyserial>=3.5
+Requires-Dist: typeguard>=4.4.1
+Requires-Dist: matplotlib>=3.10.1
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

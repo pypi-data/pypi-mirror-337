@@ -1,0 +1,12 @@
+README.md
+setup.py
+docs_extractor.egg-info/PKG-INFO
+docs_extractor.egg-info/SOURCES.txt
+docs_extractor.egg-info/dependency_links.txt
+docs_extractor.egg-info/entry_points.txt
+docs_extractor.egg-info/requires.txt
+docs_extractor.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/core.py
+src/utils.py

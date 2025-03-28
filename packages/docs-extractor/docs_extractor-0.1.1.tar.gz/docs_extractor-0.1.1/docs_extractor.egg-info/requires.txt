@@ -1,0 +1,4 @@
+gitpython
+argparse
+urllib3
+pytest

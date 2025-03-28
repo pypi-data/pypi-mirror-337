@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: docs_extractor
+Version: 0.1.1
+Summary: A tool to extract documentation files from GitHub repositories and local folders.
+Home-page: https://github.com/aatitkarki/docs_extractor
+Author: aatitkarki
+Author-email: aatitkarki123@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: gitpython
+Requires-Dist: argparse
+Requires-Dist: urllib3
+Requires-Dist: pytest
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,14 @@
+machine: "local"  # or "cluster"
+device: "cpu"  # or "cpu"
+anomaly_detection: False  # slows down the code
+mode: gan  # 'gan' or 'regression' or 'figures' or 'embedding' or 'sampling' WIP
+base_config_path: '/experiments/base/discriminator.yaml'
+extra_test_set_name: null #'test_blind_test_dataset.pkl'  #'acridin_dataset.pkl' #'test_blind_test_dataset.pkl'
+save_checkpoints: False # will do it always on cluster, only locally if True
+
+dataset:
+  max_dataset_length: 100
+
+logger:
+  run_name: crystal_builder_test
+  experiment_tag: test

@@ -1,0 +1,1 @@
+https://api.vshowapi.com/guild/send-auth-code?p=&v=&c=poppo&l=&_uid=&status_bar_height=&isFullScreen=&dev=&smei_id=&uuid=&public_key=&backend_token=&poppo_id=7769268&_mtime=1743119298905

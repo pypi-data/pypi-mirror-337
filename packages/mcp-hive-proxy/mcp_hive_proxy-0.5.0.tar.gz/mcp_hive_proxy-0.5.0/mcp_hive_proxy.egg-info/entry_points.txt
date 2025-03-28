@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-hive-proxy = mcp_cli.cli:main

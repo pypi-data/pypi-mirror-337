@@ -1,0 +1,6 @@
+README.md
+setup.py
+deepspore.egg-info/PKG-INFO
+deepspore.egg-info/SOURCES.txt
+deepspore.egg-info/dependency_links.txt
+deepspore.egg-info/top_level.txt

@@ -1,0 +1,30 @@
+{
+    "name": "Generating descriptive enums",
+    "template_location": "../src/c_enum_generator/resources/templates",
+    "jobs": [
+        {
+            "render_job": {
+                "name": "Generate Descriptive enums C file",
+                "template": "module_c.j2",
+                "output_file_pattern": "{{ query.module_name }}.c",
+                "query": "data.modules",
+                "query_for_each": true,
+                "run_data": {},
+                "output_override": true,
+                "enabled": true
+            }
+        },
+        {
+            "render_job": {
+                "name": "Generate Descriptive enums H file",
+                "template": "module_h.j2",
+                "output_file_pattern": "{{ query.module_name }}.h",
+                "query": "data.modules",
+                "query_for_each": true,
+                "run_data": {},
+                "output_override": true,
+                "enabled": true
+            }
+        }
+    ]
+}

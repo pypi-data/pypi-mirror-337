@@ -1,0 +1,13 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_coordinate_offsets.py,sha256=cE7gWPmvcwHAeos5rOq0LyJSMj13iXnk1MWxBWQmSTg,1798
+test/test_keplerian_field.py,sha256=OI0m8bRCrynjACDFlIcu9efx5ZUkYmBHCn5p_QysHpU,3720
+test/test_vgrad.py,sha256=dyS9kLNA830-7az53GUfFYaoGCGA-0a1tjub8FdYrFo,4857
+velocity_tools/__init__.py,sha256=oRXfeRfvpDmWqqEgcfKi4uMc-0KpKQcKf4SiS8L2bFk,92
+velocity_tools/coordinate_offsets.py,sha256=S5yNRdMygigmZAUtZaTGtP5KS1FIVeS87aud1JmiZzM,5795
+velocity_tools/keplerian_field.py,sha256=lhsQkJTR1G3iipBCABGOX0oJvynQD4y0J3dwkxoYH30,8053
+velocity_tools/stream_lines.py,sha256=JtSAhCxSffCrXVOCSESabsbVmIkICkmSWxTEjHMQ0X8,10821
+velocity_tools/vgrad.py,sha256=cG4z9HaAdayZtu9pnLH1ODfwbynbVxHObrpxBV0yhKE,10123
+velocity_tools-1.1.dist-info/METADATA,sha256=wCuzgXgssll3KAJQKT6Ohyz1lkWU8efFlN2rwQaMl1o,1370
+velocity_tools-1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+velocity_tools-1.1.dist-info/top_level.txt,sha256=Ka97oGfJrBKhKknum_QIKa362EJja-BMspDpbrLNd_A,20
+velocity_tools-1.1.dist-info/RECORD,,

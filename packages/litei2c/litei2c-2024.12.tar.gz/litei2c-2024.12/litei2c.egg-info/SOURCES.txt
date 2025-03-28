@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+litei2c/__init__.py
+litei2c/clkgen.py
+litei2c/common.py
+litei2c/crossbar.py
+litei2c.egg-info/PKG-INFO
+litei2c.egg-info/SOURCES.txt
+litei2c.egg-info/dependency_links.txt
+litei2c.egg-info/requires.txt
+litei2c.egg-info/top_level.txt

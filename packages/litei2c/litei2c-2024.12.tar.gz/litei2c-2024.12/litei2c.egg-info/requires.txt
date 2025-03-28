@@ -1,0 +1,5 @@
+migen
+litex
+
+[develop]
+mesonpexpectsetuptoolsrequests

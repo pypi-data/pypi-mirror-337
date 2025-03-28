@@ -1,0 +1,13 @@
+ga4gh.vrs==2.*
+pydantic==2.*
+
+[dev]
+pre-commit
+ruff==0.4.9
+
+[notebooks]
+jupyter
+
+[tests]
+pytest
+pytest-cov

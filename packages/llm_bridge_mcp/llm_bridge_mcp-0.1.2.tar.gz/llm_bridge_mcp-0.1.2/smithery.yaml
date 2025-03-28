@@ -1,0 +1,52 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    description: Configuration for the LLM Bridge MCP with various provider API keys.
+    properties:
+      openaiApiKey:
+        type: string
+        description: API key for OpenAI services
+      anthropicApiKey:
+        type: string
+        description: API key for Anthropic services
+      googleApiKey:
+        type: string
+        description: API key for Google AI services
+      deepseekApiKey:
+        type: string
+        description: API key for Deepseek AI services
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => {
+      // Base command to run the server
+      const command = 'llm-bridge-mcp';
+      const args = [];
+      
+      // Set environment variables for provided API keys
+      const env = {
+        ...process.env
+      };
+      
+      if (config.openaiApiKey) {
+        env.OPENAI_API_KEY = config.openaiApiKey;
+      }
+      if (config.anthropicApiKey) {
+        env.ANTHROPIC_API_KEY = config.anthropicApiKey;
+      }
+      if (config.googleApiKey) {
+        env.GOOGLE_API_KEY = config.googleApiKey;
+      }
+      if (config.deepseekApiKey) {
+        env.DEEPSEEK_API_KEY = config.deepseekApiKey;
+      }
+
+      return { command, args, env };
+    }
+  exampleConfig:
+    openaiApiKey: "sk-..." # Example OpenAI API key
+    anthropicApiKey: "sk-ant-..." # Example Anthropic API key

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: random-sort
+Version: 0.1.0
+Summary: A library that sorts lists randomly
+Home-page: https://github.com/yourusername/random_sort
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Random Sort is a joke library that implements a sorting algorithm based on randomness. It repeatedly shuffles a list until it happens to be sorted.
+

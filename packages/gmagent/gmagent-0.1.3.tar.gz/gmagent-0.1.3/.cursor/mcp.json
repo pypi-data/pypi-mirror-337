@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gmagent": {
+      "command": "uv run",
+      "args": [
+        "app/mcp_server.py"
+      ]
+    }
+  }
+} 

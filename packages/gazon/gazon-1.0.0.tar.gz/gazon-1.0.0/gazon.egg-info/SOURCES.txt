@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+gazon/__init__.py
+gazon/parser.py
+gazon.egg-info/PKG-INFO
+gazon.egg-info/SOURCES.txt
+gazon.egg-info/dependency_links.txt
+gazon.egg-info/requires.txt
+gazon.egg-info/top_level.txt

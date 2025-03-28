@@ -1,0 +1,530 @@
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+2025-03-25 14:06:05.845174: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742925965.896233  169208 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1742925965.917731  169208 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-25 14:06:05.968351: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-25 14:06:06.395097: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-03-25 14:06:06.425009: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742925966.446449  169210 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1742925966.467194  169210 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742925966.477464  169209 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-25 14:06:06.481586: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+E0000 00:00:1742925966.486011  169209 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-25 14:06:06.516464: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742925966.535494  169214 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-25 14:06:06.536740: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+E0000 00:00:1742925966.556875  169214 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-25 14:06:06.595696: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/kramesh3/.local/lib/python3.9/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Differentially private training...
+Path the model is saved to : /home/kramesh3/syntheval//data/generator/models/princeton-nlp_Sheared-LLaMA-1.3B_tab_DP_8
+03/25/2025 14:06:11:WARNING:Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+03/25/2025 14:06:11:INFO:Training/evaluation parameters TrainingArguments(
+_n_gpu=1,
+accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None, 'use_configured_state': False},
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+batch_eval_metrics=False,
+bf16=False,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=2,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+dataloader_prefetch_factor=None,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=True,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=False,
+dry_run=False,
+dry_test_run=False,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_do_concat_batches=True,
+eval_on_start=False,
+eval_steps=None,
+eval_strategy=no,
+eval_use_gather_object=False,
+evaluation_strategy=no,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+gradient_accumulation_steps=16,
+gradient_checkpointing=True,
+gradient_checkpointing_kwargs=None,
+greater_is_better=None,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+include_num_input_tokens_seen=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=0.003,
+length_column_name=length,
+load_best_model_at_end=False,
+local_rank=0,
+log_level=info,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=/data/projects/syntheval/models/runs/Mar25_14-06-10_oak.wse.jhu.edu,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=4,
+logging_strategy=steps,
+lr_scheduler_kwargs={},
+lr_scheduler_type=constant,
+max_grad_norm=0.0,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+neftune_noise_alpha=None,
+no_cuda=False,
+num_train_epochs=50,
+optim=adamw_torch,
+optim_args=None,
+optim_target_modules=None,
+output_dir=/data/projects/syntheval/models/,
+overwrite_output_dir=False,
+past_index=-1,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=4,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=False,
+report_to=['tensorboard'],
+restore_callback_states_from_checkpoint=False,
+resume_from_checkpoint=None,
+run_name=/data/projects/syntheval/models/,
+save_on_each_node=False,
+save_only_model=False,
+save_safetensors=True,
+save_steps=500,
+save_strategy=steps,
+save_total_limit=2,
+seed=42,
+skip_memory_metrics=True,
+split_batches=None,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torch_empty_cache_steps=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_liger_kernel=False,
+use_mps_device=False,
+warmup_ratio=0.0,
+warmup_steps=0,
+weight_decay=0.01,
+)
+03/25/2025 14:06:11:INFO:Privacy parameters PrivacyArguments(per_sample_max_grad_norm=1.0, noise_multiplier=None, target_epsilon=8, target_delta=1e-05, disable_dp=False)
+/home/kramesh3/.local/lib/python3.9/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Differentially private training...
+Path the model is saved to : /home/kramesh3/syntheval//data/generator/models/princeton-nlp_Sheared-LLaMA-1.3B_tab_DP_8
+03/25/2025 14:06:12:WARNING:Process rank: 2, device: cuda:2, n_gpu: 1, distributed training: True, 16-bits training: False
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Differentially private training...
+Path the model is saved to : /home/kramesh3/syntheval//data/generator/models/princeton-nlp_Sheared-LLaMA-1.3B_tab_DP_8
+03/25/2025 14:06:12:WARNING:Process rank: 3, device: cuda:3, n_gpu: 1, distributed training: True, 16-bits training: False
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Differentially private training...
+Path the model is saved to : /home/kramesh3/syntheval//data/generator/models/princeton-nlp_Sheared-LLaMA-1.3B_tab_DP_8
+03/25/2025 14:06:12:WARNING:Process rank: 1, device: cuda:1, n_gpu: 1, distributed training: True, 16-bits training: False
+CPU:  3.1
+Model:  princeton-nlp/Sheared-LLaMA-1.3B
+[INFO|configuration_utils.py:675] 2025-03-25 14:06:15,647 >> loading configuration file config.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/config.json
+[INFO|configuration_utils.py:742] 2025-03-25 14:06:15,649 >> Model config LlamaConfig {
+  "_name_or_path": "princeton-nlp/Sheared-LLaMA-1.3B",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 5504,
+  "max_position_embeddings": 4096,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_key_value_heads": 16,
+  "pad_token_id": 0,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.45.2",
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+[INFO|modeling_utils.py:3732] 2025-03-25 14:06:15,708 >> loading weights file pytorch_model.bin from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/pytorch_model.bin
+[INFO|configuration_utils.py:1099] 2025-03-25 14:06:15,729 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0
+}
+
+[INFO|modeling_utils.py:4574] 2025-03-25 14:06:15,782 >> All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+[INFO|modeling_utils.py:4582] 2025-03-25 14:06:15,782 >> All the weights of LlamaForCausalLM were initialized from the model checkpoint at princeton-nlp/Sheared-LLaMA-1.3B.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1054] 2025-03-25 14:06:15,825 >> loading configuration file generation_config.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/generation_config.json
+[INFO|configuration_utils.py:1099] 2025-03-25 14:06:15,825 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0
+}
+
+[INFO|tokenization_utils_base.py:2206] 2025-03-25 14:06:15,939 >> loading file tokenizer.model from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/tokenizer.model
+[INFO|tokenization_utils_base.py:2206] 2025-03-25 14:06:15,939 >> loading file tokenizer.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/tokenizer.json
+[INFO|tokenization_utils_base.py:2206] 2025-03-25 14:06:15,939 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2206] 2025-03-25 14:06:15,939 >> loading file special_tokens_map.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/special_tokens_map.json
+[INFO|tokenization_utils_base.py:2206] 2025-03-25 14:06:15,939 >> loading file tokenizer_config.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/tokenizer_config.json
+[WARNING|logging.py:328] 2025-03-25 14:06:15,967 >> You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[INFO|modeling_utils.py:2161] 2025-03-25 14:06:16,025 >> You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 32001. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
+CPU:  2.8
+Model:  princeton-nlp/Sheared-LLaMA-1.3B
+CPU:  2.8
+Model:  princeton-nlp/Sheared-LLaMA-1.3B
+CPU:  2.8
+Model:  princeton-nlp/Sheared-LLaMA-1.3B
+[WARNING|logging.py:328] 2025-03-25 14:06:17,363 >> You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[WARNING|logging.py:328] 2025-03-25 14:06:17,391 >> You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[WARNING|logging.py:328] 2025-03-25 14:06:17,401 >> You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+03/25/2025 14:06:19:WARNING:Using the latest cached version of the module from /home/kramesh3/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Feb  2 20:35:49 2024) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00000_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00000_of_00008.arrow
+Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00001_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00001_of_00008.arrow
+Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00002_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00002_of_00008.arrow
+Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00003_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00003_of_00008.arrow
+Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00004_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00004_of_00008.arrow
+Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00005_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00005_of_00008.arrow
+Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00006_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00006_of_00008.arrow
+Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00007_of_00008.arrow
+03/25/2025 14:06:19:INFO:Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00007_of_00008.arrow
+Spawning 8 processes
+03/25/2025 14:06:20:INFO:Spawning 8 processes
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00000_of_00008.arrow
+03/25/2025 14:06:23:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00000_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00002_of_00008.arrow
+03/25/2025 14:06:23:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00002_of_00008.arrow
+03/25/2025 14:06:24:WARNING:Using the latest cached version of the module from /home/kramesh3/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Feb  2 20:35:49 2024) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+03/25/2025 14:06:24:WARNING:Using the latest cached version of the module from /home/kramesh3/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Feb  2 20:35:49 2024) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+03/25/2025 14:06:24:WARNING:Using the latest cached version of the module from /home/kramesh3/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--rouge/b01e0accf3bd6dd24839b769a5fda24e14995071570870922c71970b3a6ed886 (last modified on Fri Feb  2 20:35:49 2024) since it couldn't be found locally at evaluate-metric--rouge, or remotely on the Hugging Face Hub.
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00001_of_00008.arrow
+03/25/2025 14:06:24:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00001_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00005_of_00008.arrow
+03/25/2025 14:06:25:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00005_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00003_of_00008.arrow
+03/25/2025 14:06:25:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00003_of_00008.arrow
+[rank2]:[W325 14:06:25.216353716 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank3]:[W325 14:06:25.300195243 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+[rank1]:[W325 14:06:25.341163813 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00006_of_00008.arrow
+03/25/2025 14:06:25:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00006_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00004_of_00008.arrow
+03/25/2025 14:06:25:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00004_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00007_of_00008.arrow
+03/25/2025 14:06:26:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/train/cache-3355abab06e89e18_00007_of_00008.arrow
+Concatenating 8 shards
+03/25/2025 14:06:26:INFO:Concatenating 8 shards
+Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00000_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00000_of_00008.arrow
+Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00001_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00001_of_00008.arrow
+Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00002_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00002_of_00008.arrow
+Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00003_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00003_of_00008.arrow
+Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00004_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00004_of_00008.arrow
+Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00005_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00005_of_00008.arrow
+Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00006_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00006_of_00008.arrow
+Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00007_of_00008.arrow
+03/25/2025 14:06:26:INFO:Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00007_of_00008.arrow
+Spawning 8 processes
+03/25/2025 14:06:26:INFO:Spawning 8 processes
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00000_of_00008.arrow
+03/25/2025 14:06:27:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00000_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00001_of_00008.arrow
+03/25/2025 14:06:27:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00001_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00002_of_00008.arrow
+03/25/2025 14:06:27:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00002_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00003_of_00008.arrow
+03/25/2025 14:06:27:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00003_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00004_of_00008.arrow
+03/25/2025 14:06:27:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00004_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00005_of_00008.arrow
+03/25/2025 14:06:28:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00005_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00006_of_00008.arrow
+03/25/2025 14:06:28:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00006_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00007_of_00008.arrow
+03/25/2025 14:06:28:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/validation/cache-fcca484de43a6515_00007_of_00008.arrow
+Concatenating 8 shards
+03/25/2025 14:06:28:INFO:Concatenating 8 shards
+Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00000_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #0 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00000_of_00008.arrow
+Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00001_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #1 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00001_of_00008.arrow
+Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00002_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #2 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00002_of_00008.arrow
+Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00003_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #3 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00003_of_00008.arrow
+Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00004_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #4 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00004_of_00008.arrow
+Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00005_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #5 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00005_of_00008.arrow
+Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00006_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #6 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00006_of_00008.arrow
+Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00007_of_00008.arrow
+03/25/2025 14:06:28:INFO:Process #7 will write at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00007_of_00008.arrow
+Spawning 8 processes
+03/25/2025 14:06:28:INFO:Spawning 8 processes
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00000_of_00008.arrow
+03/25/2025 14:06:31:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00000_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00001_of_00008.arrow
+03/25/2025 14:06:31:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00001_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00003_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00003_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00002_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00002_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00004_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00004_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00007_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00007_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00005_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00005_of_00008.arrow
+Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00006_of_00008.arrow
+03/25/2025 14:06:32:INFO:Caching processed dataset at /home/kramesh3/syntheval/data/generator/data/tab/test/cache-7f27c6be06cb2a93_00006_of_00008.arrow
+Concatenating 8 shards
+03/25/2025 14:06:33:INFO:Concatenating 8 shards
+[rank0]:[W325 14:06:33.016341540 ProcessGroupNCCL.cpp:4561] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. Specify device_ids in barrier() to force use of a particular device, or call init_process_group() with a device_id.
+03/25/2025 14:06:34:INFO:Using LoRA
+03/25/2025 14:06:34:INFO:Total number of parameters of the model: 1347000320
+03/25/2025 14:06:34:INFO:Fine-tuned number of parameters of the model: 1572864
+1572864
+Differentially Private Training: True
+Sampling probability: 0.252465483234714
+1572864
+Differentially Private Training: True
+Sampling probability: 0.252465483234714
+1572864
+Differentially Private Training: True
+Sampling probability: 0.252465483234714
+1572864
+Differentially Private Training: True
+Sampling probability: 0.252465483234714
+Trainer initialized.
+Trainer initialized.
+Trainer initialized.
+Trainer initialized.
+[INFO|trainer.py:2243] 2025-03-25 14:07:32,225 >> ***** Running training *****
+[INFO|trainer.py:2244] 2025-03-25 14:07:32,225 >>   Num examples = 1,014
+[INFO|trainer.py:2245] 2025-03-25 14:07:32,225 >>   Num Epochs = 50
+[INFO|trainer.py:2246] 2025-03-25 14:07:32,225 >>   Instantaneous batch size per device = 4
+[INFO|trainer.py:2249] 2025-03-25 14:07:32,225 >>   Total train batch size (w. parallel, distributed & accumulation) = 256
+[INFO|trainer.py:2250] 2025-03-25 14:07:32,225 >>   Gradient Accumulation steps = 16
+[INFO|trainer.py:2251] 2025-03-25 14:07:32,226 >>   Total optimization steps = 150
+[INFO|trainer.py:2252] 2025-03-25 14:07:32,228 >>   Number of trainable parameters = 1,572,864
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/nn/modules/module.py:1830: FutureWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  self._maybe_warn_non_full_backward_hook(args, result, grad_fn)
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/nn/modules/module.py:1830: FutureWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  self._maybe_warn_non_full_backward_hook(args, result, grad_fn)
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/nn/modules/module.py:1830: FutureWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  self._maybe_warn_non_full_backward_hook(args, result, grad_fn)
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/nn/modules/module.py:1830: FutureWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  self._maybe_warn_non_full_backward_hook(args, result, grad_fn)
+[rank3]:[W325 14:07:57.673020332 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[rank1]:[W325 14:08:18.251493109 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[rank2]:[W325 14:08:20.789126048 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[rank0]:[W325 14:08:20.235637039 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+{'loss': 1.539, 'learning_rate': 0.003, 'epoch': 1.0158730158730158}
+{'loss': 1.5017, 'learning_rate': 0.003, 'epoch': 2.0317460317460316}
+{'loss': 1.4757, 'learning_rate': 0.003, 'epoch': 3.0476190476190474}
+{'loss': 1.4545, 'learning_rate': 0.003, 'epoch': 4.063492063492063}
+{'loss': 1.4416, 'learning_rate': 0.003, 'epoch': 5.079365079365079}
+{'loss': 1.4262, 'learning_rate': 0.003, 'epoch': 6.095238095238095}
+{'loss': 1.413, 'learning_rate': 0.003, 'epoch': 7.111111111111111}
+{'loss': 1.4022, 'learning_rate': 0.003, 'epoch': 8.126984126984127}
+{'loss': 1.393, 'learning_rate': 0.003, 'epoch': 9.142857142857142}
+{'loss': 1.3859, 'learning_rate': 0.003, 'epoch': 10.158730158730158}
+{'loss': 1.3789, 'learning_rate': 0.003, 'epoch': 11.174603174603174}
+{'loss': 1.3729, 'learning_rate': 0.003, 'epoch': 12.19047619047619}
+{'loss': 1.367, 'learning_rate': 0.003, 'epoch': 13.206349206349206}
+{'loss': 1.3626, 'learning_rate': 0.003, 'epoch': 14.222222222222221}
+{'loss': 1.3581, 'learning_rate': 0.003, 'epoch': 15.238095238095237}
+{'loss': 1.3551, 'learning_rate': 0.003, 'epoch': 16.253968253968253}
+{'loss': 1.3538, 'learning_rate': 0.003, 'epoch': 17.26984126984127}
+{'loss': 1.3522, 'learning_rate': 0.003, 'epoch': 18.285714285714285}
+{'loss': 1.3515, 'learning_rate': 0.003, 'epoch': 19.3015873015873}
+{'loss': 1.3506, 'learning_rate': 0.003, 'epoch': 20.317460317460316}
+{'loss': 1.3486, 'learning_rate': 0.003, 'epoch': 21.333333333333332}
+{'loss': 1.3489, 'learning_rate': 0.003, 'epoch': 22.349206349206348}
+{'loss': 1.3499, 'learning_rate': 0.003, 'epoch': 23.365079365079364}
+{'loss': 1.3505, 'learning_rate': 0.003, 'epoch': 24.38095238095238}
+{'loss': 1.3511, 'learning_rate': 0.003, 'epoch': 25.396825396825395}
+{'loss': 1.3534, 'learning_rate': 0.003, 'epoch': 26.41269841269841}
+{'loss': 1.3568, 'learning_rate': 0.003, 'epoch': 27.428571428571427}
+{'loss': 1.354, 'learning_rate': 0.003, 'epoch': 28.444444444444443}
+{'loss': 1.3572, 'learning_rate': 0.003, 'epoch': 29.46031746031746}
+{'loss': 1.3584, 'learning_rate': 0.003, 'epoch': 30.476190476190474}
+{'loss': 1.3608, 'learning_rate': 0.003, 'epoch': 31.49206349206349}
+{'loss': 1.3652, 'learning_rate': 0.003, 'epoch': 32.507936507936506}
+{'loss': 1.367, 'learning_rate': 0.003, 'epoch': 33.523809523809526}
+{'loss': 1.3709, 'learning_rate': 0.003, 'epoch': 34.53968253968254}
+{'loss': 1.3769, 'learning_rate': 0.003, 'epoch': 35.55555555555556}
+{'loss': 1.3805, 'learning_rate': 0.003, 'epoch': 36.57142857142857}
+{'loss': 1.3861, 'learning_rate': 0.003, 'epoch': 37.58730158730159}
+[INFO|trainer.py:3705] 2025-03-25 15:23:16,511 >> Saving model checkpoint to /data/projects/syntheval/models/checkpoint-150
+[INFO|trainer.py:3719] 2025-03-25 15:23:16,517 >> Trainer.model is not a `PreTrainedModel`, only saving its state dict.
+[INFO|tokenization_utils_base.py:2641] 2025-03-25 15:23:29,339 >> tokenizer config file saved in /data/projects/syntheval/models/checkpoint-150/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2650] 2025-03-25 15:23:29,339 >> Special tokens file saved in /data/projects/syntheval/models/checkpoint-150/special_tokens_map.json
+[INFO|trainer.py:2505] 2025-03-25 15:23:30,010 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+{'train_runtime': 4557.7827, 'train_samples_per_second': 11.124, 'train_steps_per_second': 0.033, 'train_loss': 1.3830812199910483, 'epoch': 38.095238095238095}
+/home/kramesh3/.local/lib/python3.9/site-packages/opacus/privacy_engine.py:142: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/opacus/privacy_engine.py:142: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  warnings.warn(
+{'final_epsilon_prv': 6.030846607543476, 'final_epsilon_rdp': 6.44200088001635, 'epoch': 38.095238095238095}
+/home/kramesh3/.local/lib/python3.9/site-packages/opacus/privacy_engine.py:142: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  warnings.warn(
+/home/kramesh3/.local/lib/python3.9/site-packages/opacus/privacy_engine.py:142: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  warnings.warn(
+[INFO|configuration_utils.py:675] 2025-03-25 15:23:44,659 >> loading configuration file config.json from cache at /home/kramesh3/.cache/huggingface/hub/models--princeton-nlp--Sheared-LLaMA-1.3B/snapshots/a4b76938edbf571ea7d7d9904861cbdca08809b4/config.json
+[INFO|configuration_utils.py:742] 2025-03-25 15:23:44,660 >> Model config LlamaConfig {
+  "_name_or_path": "princeton-nlp/Sheared-LLaMA-1.3B",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 5504,
+  "max_position_embeddings": 4096,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_key_value_heads": 16,
+  "pad_token_id": 0,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.45.2",
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+/data/kramesh3/envs/sdg-env/lib/python3.9/site-packages/peft/utils/save_and_load.py:160: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+03/25/2025 15:23:44:WARNING:Repo card metadata block was not found. Setting CardData to empty.
+/data/kramesh3/envs/sdg-env/lib/python3.9/site-packages/peft/utils/save_and_load.py:160: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+/data/kramesh3/envs/sdg-env/lib/python3.9/site-packages/peft/utils/save_and_load.py:160: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+/data/kramesh3/envs/sdg-env/lib/python3.9/site-packages/peft/utils/save_and_load.py:160: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+[rank0]:[W325 15:23:47.421954759 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+/home/kramesh3/.local/lib/python3.9/site-packages/torch/utils/_pytree.py:185: FutureWarning: optree is installed but the version is too old to support PyTorch Dynamo in C++ pytree. C++ pytree support is disabled. Please consider upgrading optree using `python3 -m pip install --upgrade 'optree>=0.13.0'`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/kramesh3/syntheval/scripts/tab/gen.py", line 5, in <module>
+    from syntheval.generation.controllable.inference import inference
+  File "/home/kramesh3/syntheval/syntheval/generation/controllable/inference.py", line 10, in <module>
+    import syntheval.generation.controllable.data_utils as data_utils
+  File "/home/kramesh3/syntheval/syntheval/generation/controllable/data_utils.py", line 299
+    if(inference == False):
+    ^
+SyntaxError: invalid syntax

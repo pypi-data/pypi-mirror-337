@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Noti",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "noti",
+            "console": "integratedTerminal",
+            "args": [
+                "--interval", "1",
+                "--",
+                "bash", "-ci", "[ $RANDOM -gt 16384 ]"
+            ]
+        },
+        {
+            "name": "Install",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "noti",
+            "console": "integratedTerminal",
+            "args": [
+                "--interval", "1",
+                "--install",
+                "--",
+                "bash", "-ci", "[ $RANDOM -gt 16384 ]"
+            ]
+        }
+    ]
+}

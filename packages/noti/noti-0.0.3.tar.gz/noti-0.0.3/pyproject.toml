@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "noti"
+version = "0.0.3"
+description = "CLI Command Status => tray bar"
+readme = "README.md"
+authors = [{name = "Jonas Eschmann", email = "jonas.eschmann@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+    "pystray",
+    "pillow"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["noti"]
+
+[project.scripts]
+noti = "noti:main"

@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: noti
+Version: 0.0.3
+Summary: CLI Command Status => tray bar
+Author-email: Jonas Eschmann <jonas.eschmann@gmail.com>
+License: MIT
+Requires-Dist: pillow
+Requires-Dist: pystray
+Description-Content-Type: text/markdown
+
+# Noti 
+
+A simple tool to show a status marker in the system tray, based on the return code of a specifiable command.
+
+## Install
+
+```
+pip install noti
+```
+
+## Blinky
+```
+noti --interval 1 -- bash -ci '[ $RANDOM -gt 16384 ]'
+```
+
+## Autostart
+Blinky example:
+```
+noti --install --interval 1 -- bash -ci '[ $RANDOM -gt 16384 ]'
+```
+

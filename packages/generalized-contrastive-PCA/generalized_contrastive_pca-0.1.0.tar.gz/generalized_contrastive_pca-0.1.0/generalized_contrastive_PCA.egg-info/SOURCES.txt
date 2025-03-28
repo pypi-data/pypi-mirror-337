@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+generalized_contrastive_PCA/__init__.py
+generalized_contrastive_PCA/contrastive_methods.py
+generalized_contrastive_PCA.egg-info/PKG-INFO
+generalized_contrastive_PCA.egg-info/SOURCES.txt
+generalized_contrastive_PCA.egg-info/dependency_links.txt
+generalized_contrastive_PCA.egg-info/requires.txt
+generalized_contrastive_PCA.egg-info/top_level.txt

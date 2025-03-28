@@ -1,0 +1,9 @@
+README.md
+setup.py
+pretty_colors/__init__.py
+pretty_colors/colors.py
+pretty_colors/mc.py
+pretty_colors.egg-info/PKG-INFO
+pretty_colors.egg-info/SOURCES.txt
+pretty_colors.egg-info/dependency_links.txt
+pretty_colors.egg-info/top_level.txt

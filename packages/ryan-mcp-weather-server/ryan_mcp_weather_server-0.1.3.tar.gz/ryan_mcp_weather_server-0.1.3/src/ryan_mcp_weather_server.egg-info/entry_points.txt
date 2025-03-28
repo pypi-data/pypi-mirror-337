@@ -1,0 +1,2 @@
+[console_scripts]
+ryan-mcp-weather-server = ryan_mcp_weather_server.server:main

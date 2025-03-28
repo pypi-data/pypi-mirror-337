@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: cm-cluster-on-demand-azure
+Version: 10.0.11.1
+Summary: Bright Cluster on Demand Azure
+Home-page: https://www.brightcomputing.com/
+Author: Cloudteam
+Author-email: cloudteam@brightcomputing.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools_scm>=4.1.2
+Requires-Dist: azure-identity~=1.14.0
+Requires-Dist: azure-mgmt-authorization~=4.0.0
+Requires-Dist: azure-mgmt-compute~=30.3.0
+Requires-Dist: azure-mgmt-marketplaceordering==1.1.0
+Requires-Dist: azure-mgmt-network~=25.1.0
+Requires-Dist: azure-mgmt-resource~=23.0.0
+Requires-Dist: azure-mgmt-storage~=21.1.0
+Requires-Dist: azure-storage-blob~=12.18.2
+Requires-Dist: msrestazure~=0.6
+Requires-Dist: tenacity>=8.1.0
+Requires-Dist: aiohttp>=3.8.3
+Requires-Dist: cm-cluster-on-demand-config==10.0.11.1
+Requires-Dist: cm-cluster-on-demand==10.0.11.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+With Cluster on Demand for Azure you can spin up a cluster running Bright
+Cluster Manager inside of Azure.
+
+# Installation
+
+```
+pip install cm-cluster-on-demand-azure
+```
+
+# Usage
+
+To get started, execute the following command:
+
+```
+cm-cod-azure --help
+```
+
+Example, To start a Bright Cluster with 5 nodes and 1 headnode in Azure:
+
+```
+cm-cod-azure cluster create --on-error 'cleanup' $REGION$' --wlm 'slurm' --nodes '5' $AZURE CREDENTIALS$ --cluster-password '...'  --license-product-key '...' --name mycluster
+```
+
+Don't forget to fill in the '...' blanks, and change the other parameters to
+the values that match your use-case and organization. To obtain a Bright
+product key, please contact sales@brightcomputing.com. All documentation for
+setting up and running a Bright cluster using Cluster On Demand on Azure can be
+found in the
+[Cloudbursting Manual](https://www.brightcomputing.com/documentation).
+
+If you have an account in Bright Computing's Customer Portal, you can also
+create a AWS/Azure cluster from there.

@@ -1,0 +1,7 @@
+igbot-base
+igbot-base
+igbot-impl
+langchain
+langchain_chroma
+langchain_huggingface
+openai

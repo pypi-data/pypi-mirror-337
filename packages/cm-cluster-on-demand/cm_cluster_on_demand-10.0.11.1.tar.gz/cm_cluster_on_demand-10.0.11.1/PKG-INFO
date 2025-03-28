@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: cm-cluster-on-demand
+Version: 10.0.11.1
+Summary: Bright Cluster on Demand Utility
+Home-page: https://www.brightcomputing.com/
+Author: Cloudteam
+Author-email: cloudteam@brightcomputing.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools_scm>=4.1.2
+Requires-Dist: netaddr>=0.8.0
+Requires-Dist: passlib>=1.7.4
+Requires-Dist: pytz>=2022.5
+Requires-Dist: python_dateutil>=1.5
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: PrettyTable>=3.4.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: urllib3<2
+Requires-Dist: filelock>=2.0.8
+Requires-Dist: tenacity>=8.1.0
+Requires-Dist: cm-cluster-on-demand-config==10.0.11.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+With Cluster on Demand you can spin up a cluster running Bright Cluster Manager.
+
+This package is a supporting package, for the full COD client packages check:
+- cm-cluster-on-demand-aws
+- cm-cluster-on-demand-azure
+- cm-cluster-on-demand-oci

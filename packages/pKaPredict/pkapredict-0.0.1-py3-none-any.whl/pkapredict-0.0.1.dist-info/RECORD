@@ -1,0 +1,9 @@
+pkapredict/RDkit_descriptors.py,sha256=BeuF-6k_2IvrMhlQC_gO4sJ3rA0vV7YXVT5Ub35Dl4U,2054
+pkapredict/__init__.py,sha256=ZiImmKVqIHLc6wi2P33NhEXMh2jOHF3_mX0ucpg69Hs,84
+pkapredict/clean_and_visualize_pka.py,sha256=y54tZXdkiuPtUCKr4XBkIxmbdvHuvpNuQ-alIQk5v6A,4647
+pkapredict/plot_data.py,sha256=HyrjkW-pAPYpFfa86dVe0nWXTRVDLDOp8ENoDAUnFpU,2047
+pkapredict/smiles_to_rdkit_descriptors_predict_pKa.py,sha256=5-UF3TU48Vq7-1Mr34JF1csUBATk2U1yx9jUerA88mU,4427
+pkapredict-0.0.1.dist-info/METADATA,sha256=KOa4wkRTbVS9jG8TDpf0ueEJhJNNGnb1svU2LcE9cOw,4848
+pkapredict-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pkapredict-0.0.1.dist-info/licenses/LICENSE,sha256=XIUE2BYpxSdhrCW_tJ_VwqYxqIZA5ZCYwEZJfMCDSV0,1126
+pkapredict-0.0.1.dist-info/RECORD,,

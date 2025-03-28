@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.0
+-----
+
+* Add IAM configuration module for token encryption settings

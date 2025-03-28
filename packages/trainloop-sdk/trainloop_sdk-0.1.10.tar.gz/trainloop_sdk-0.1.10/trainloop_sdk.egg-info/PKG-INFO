@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: trainloop-sdk
+Version: 0.1.10
+Summary: A Data Collection SDK for TrainLoop
+Author-email: TrainLoop <hello@trainloop.ai>
+Project-URL: Homepage, https://github.com/trainloop/sdk
+Requires-Dist: requests>=2.32.3

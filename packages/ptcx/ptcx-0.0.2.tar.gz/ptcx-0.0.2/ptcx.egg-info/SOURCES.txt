@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+ptcx/__init__.py
+ptcx/__main__.py
+ptcx/patch.py
+ptcx.egg-info/PKG-INFO
+ptcx.egg-info/SOURCES.txt
+ptcx.egg-info/dependency_links.txt
+ptcx.egg-info/entry_points.txt
+ptcx.egg-info/requires.txt
+ptcx.egg-info/top_level.txt

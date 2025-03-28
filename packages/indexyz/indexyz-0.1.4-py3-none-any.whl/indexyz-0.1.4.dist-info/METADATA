@@ -1,0 +1,136 @@
+Metadata-Version: 2.4
+Name: indexyz
+Version: 0.1.4
+Summary: Biblioteca para interactuar con Google Sheets.
+Author: Palomino Ramos Yony Leonardo
+Author-email: yony.palomino.r@uni.pe
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-auth==2.38.0
+Requires-Dist: google-api-python-client==2.162.0
+Requires-Dist: google-auth-httplib2==0.2.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Index 📌
+Index es una biblioteca de Python diseñada para facilitar la interacción con Google Sheets mediante las operaciones GET, UPDATE y BATCHUPDATE.
+
+📌 Cómo Obtener las Credenciales para Google Sheets
+Para utilizar esta biblioteca con Google Sheets, es necesario obtener credenciales de una cuenta de servicio en Google Cloud. Sigue estos pasos para configurarlas correctamente:
+
+1️⃣ Crear un Proyecto en Google Cloud
+Accede a la Consola de Google Cloud.
+Crea un nuevo proyecto o selecciona uno existente.
+
+2️⃣ Habilitar la API de Google Sheets
+En la Consola de Google Cloud, ve a APIs y Servicios > Biblioteca.
+Busca "Google Sheets API" y haz clic en Habilitar.
+
+3️⃣ Crear una Cuenta de Servicio
+Ve a APIs y Servicios > Credenciales.
+Haz clic en Crear credenciales y selecciona Cuenta de servicio.
+Asigna un nombre y una descripción a la cuenta de servicio.
+En el apartado de Roles, selecciona Editor.
+Haz clic en Continuar y luego en Listo.
+
+4️⃣ Descargar el Archivo JSON de Credenciales
+En la sección de Cuentas de servicio, selecciona la cuenta que creaste.
+Ve a la pestaña Claves y haz clic en Añadir clave > Crear nueva clave.
+Selecciona el formato JSON y descarga el archivo.
+Guarda este archivo en un lugar seguro y añádelo a tu proyecto de Python.
+
+5️⃣ Compartir el Google Sheet con la Cuenta de Servicio
+Abre tu hoja de Google Sheets.
+Haz clic en Compartir.
+Copia el correo electrónico de la cuenta de servicio (se encuentra en la Consola de Google Cloud).
+Pega el correo en la sección de compartir y otórgale permisos de Editor.
+
+
+### 1. **`initialize_credentials(empresa)`**
+   - **Propósito**: Inicializa las credenciales de Google Sheets usando un archivo JSON.
+   - **Argumentos**:
+     - `empresa`: Nombre de la empresa para buscar su archivo JSON de credenciales.
+   - **Retorno**: Un servicio de Google Sheets o `None` si ocurre un error.
+   - **Ejemplo**:
+     ```python
+     service = Index.initialize_credentials("mi_empresa")
+     ```
+
+### 2. **`get_data(service, archivo, hoja, rango=None)`**
+   - **Propósito**: Obtiene datos de una hoja de cálculo de Google Sheets.
+   - **Argumentos**:
+     - `service`: Objeto de servicio de Google Sheets.
+     - `archivo`: ID del archivo de Google Sheets.
+     - `hoja`: Nombre de la hoja.
+     - `rango`: Rango de celdas (opcional).
+   - **Retorno**: Lista con los datos de la hoja.
+   - **Ejemplo**:
+     ```python
+     data = Index.get_data(service, "archivo_id", "Hoja1", "A1:B10")
+     ```
+
+### 3. **`update_data(service, archivo, hoja, rango, valores)`**
+   - **Propósito**: Actualiza un rango específico en Google Sheets.
+   - **Argumentos**:
+     - `service`: Objeto de servicio de Google Sheets.
+     - `archivo`: ID del archivo.
+     - `hoja`: Nombre de la hoja.
+     - `rango`: Rango a actualizar.
+     - `valores`: Nuevos valores para actualizar.
+   - **Retorno**: Ninguno (actualiza los datos en Google Sheets).
+   - **Ejemplo**:
+     ```python
+     Index.update_data(service, "archivo_id", "Hoja1", "A1", [["Nuevo valor"]])
+     ```
+
+### 4. **`update_data_locate(service, archivo, hojas, ubicaciones, valores)`**
+   - **Propósito**: Actualiza varias celdas en varias hojas.
+   - **Argumentos**:
+     - `service`: Objeto de servicio de Google Sheets.
+     - `archivo`: ID del archivo.
+     - `hojas`: Lista de nombres de hojas.
+     - `ubicaciones`: Lista de ubicaciones a actualizar.
+     - `valores`: Valores a poner en las ubicaciones.
+   - **Retorno**: Ninguno (actualiza las celdas en las hojas).
+   - **Ejemplo**:
+     ```python
+     Index.update_data_locate(service, "archivo_id", ["Hoja1", "Hoja2"], ["A1", "B2"], [["Valor1"], ["Valor2"]])
+     ```
+
+### 5. **`get_index(data_cliente, columnas=None, filas=None)`**
+   - **Propósito**: Obtiene un subconjunto de datos seleccionados por columnas y filas.
+   - **Argumentos**:
+     - `data_cliente`: Datos de la hoja.
+     - `columnas`: Letras de columnas o rangos.
+     - `filas`: Índices de filas.
+   - **Retorno**: Subconjunto de datos.
+   - **Ejemplo**:
+     ```python
+     data_subset = Index.get_index(data_cliente, columnas=["A", "B"], filas=[1, 2])
+     ```
+
+### 6. **`print_matriz(matriz)`**
+   - **Propósito**: Imprime una matriz (lista de listas) en formato tabular.
+   - **Argumentos**:
+     - `matriz`: La matriz a imprimir.
+   - **Retorno**: Ninguno (solo imprime).
+   - **Ejemplo**:
+     ```python
+     Index.print_matriz([["A", "B"], ["C", "D"]])
+     ```
+
+
+¡Listo! Ahora puedes usar la biblioteca para interactuar con Google Sheets.

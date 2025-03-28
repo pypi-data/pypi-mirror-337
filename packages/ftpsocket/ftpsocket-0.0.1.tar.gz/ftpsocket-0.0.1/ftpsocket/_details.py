@@ -1,0 +1,5 @@
+__ver__ = '0.0.1'
+__me__ = 'd9c'
+__email__ = 'aymenmw@proton.me'
+__url__ = 'https://github.com/kkkik/ftpsocket'
+__des__ = 'FTP Clients using socket, to file manage.'

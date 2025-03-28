@@ -1,0 +1,17 @@
+iikocloudapi/__init__.py,sha256=rIN3H9oC0KG5Ss1YVvJgaxsTfO-gL9BVDGU0O4kyzl4,119
+iikocloudapi/api.py,sha256=UYocDoyonGFI5eJ3NJkP08o0q8q-Jasmz3vpSrJc0QI,884
+iikocloudapi/client.py,sha256=CMkQhl2hUXW0GfMP7gesIdDLXKngOa3PI-OfxrUcVW8,3711
+iikocloudapi/helpers.py,sha256=z1l32swB5lx3mIl6AdT1DdYPW2dVWCRiy2w2V5NuU4o,867
+iikocloudapi/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iikocloudapi/modules/auth.py,sha256=eZVFX9V6MoRK0ylUWUzMWQqaBLtZhh2fixa5ZlAA4W0,513
+iikocloudapi/modules/dictionaries.py,sha256=A3WGAyJoYLQYptfWLkhqBpbbvnwDLnaSKgVfmnMUtSE,9335
+iikocloudapi/modules/employees.py,sha256=CajHPeqCEd23_YlRzwXO6qOSXLR99W3GkGIwcEGQoG8,1432
+iikocloudapi/modules/menu.py,sha256=qPKid35ArcLXYvt4IGkeydullse65dVhkyBp7aEyE9w,19597
+iikocloudapi/modules/notifications.py,sha256=106icxR85uR4IAB3k9ZwPBE3h7XyIRaIkN56slJPz6k,1509
+iikocloudapi/modules/operations.py,sha256=K9MU1vm9vjrl1lknJ_-KcZ4zFKajoC1XS4UYrJbd9Tk,1362
+iikocloudapi/modules/organizations.py,sha256=2QN7tiYGveVyOTQhQslj_wwsJlCi_PWr7WZBIasezSE,7857
+iikocloudapi/modules/terminal_groups.py,sha256=iXxcP-LiWCzBogf17VamB0qkKbP5JSiARzO5em8HQkU,4992
+iikocloudapi-0.4.0.dist-info/LICENCE,sha256=px0RLu3IrIxkAdVGCUENozMX6-S5rH6pigqDhE44myw,1049
+iikocloudapi-0.4.0.dist-info/METADATA,sha256=eb0794Gj7_BTF3m6DLEkRou-W4Wql8Q_Qik65_TDmgI,5465
+iikocloudapi-0.4.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+iikocloudapi-0.4.0.dist-info/RECORD,,

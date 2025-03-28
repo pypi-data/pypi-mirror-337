@@ -1,0 +1,2 @@
+# AutoMCP
+wip

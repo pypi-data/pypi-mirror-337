@@ -1,0 +1,7 @@
+README.md
+automcp.py
+pyproject.toml
+automcp.egg-info/PKG-INFO
+automcp.egg-info/SOURCES.txt
+automcp.egg-info/dependency_links.txt
+automcp.egg-info/top_level.txt

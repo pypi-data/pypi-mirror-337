@@ -1,0 +1,2 @@
+[console_scripts]
+htmlcmd = mcp.cli:main

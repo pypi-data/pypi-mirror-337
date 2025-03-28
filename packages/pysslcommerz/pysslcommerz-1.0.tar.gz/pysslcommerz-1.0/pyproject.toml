@@ -1,0 +1,15 @@
+[project]
+name = "pysslcommerz"
+version = "1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SSLCOMMERZ Developers", email = "sajan.sslwireless@gmail.com" },
+    { name = "rozari0", email = "rozario@duck.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["requests"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

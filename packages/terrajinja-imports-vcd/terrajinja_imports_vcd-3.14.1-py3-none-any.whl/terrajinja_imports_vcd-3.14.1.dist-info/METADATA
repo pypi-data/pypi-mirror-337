@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: terrajinja-imports-vcd
+Version: 3.14.1
+Summary: Prebuild import for vcd
+Home-page: https://gitlab/terrajinja
+Author: Terrajinja Team
+Author-email: int-terrajinja@schubergphilis.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cdktf >=0.20.3
+
+# terrajinja-imports-vcd
+
+since there is no package maintained by vcd vendor, this is a intermediate package to skip the cdktf get process
+this makes the library available from within Terrajinja
+
+
+History
+-------
+
+0.0.1 (14-03-2024)
+---------------------
+
+* First code creation

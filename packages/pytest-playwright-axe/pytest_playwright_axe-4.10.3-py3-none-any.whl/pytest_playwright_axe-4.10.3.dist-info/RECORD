@@ -1,0 +1,8 @@
+pytest_playwright_axe/__init__.py,sha256=JNpwi1SgZq_IezqTyaAsgpgBlCnL7jaMB9xSvR-auVo,98
+pytest_playwright_axe/axe.py,sha256=IP2XnthZ4TWGymuUGOdcbtyPdsagDbCHvuOncwxWdy8,18118
+pytest_playwright_axe/resources/axe.js,sha256=vurbjUBDRYSCqEMt0ievkm0brzeP-81jiI6R7AyoU10,1244505
+pytest_playwright_axe-4.10.3.dist-info/licenses/LICENCE.md,sha256=GcsnkjBZNnMzfz390xDfUl8KTbHOotRL4vlqaewDy9w,1072
+pytest_playwright_axe-4.10.3.dist-info/METADATA,sha256=q6-0xzyHzFxTP6an6kBq_DiV5jst-QHJ01vswBAoyaA,17243
+pytest_playwright_axe-4.10.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pytest_playwright_axe-4.10.3.dist-info/top_level.txt,sha256=Ah5OmwisfHaedWQ-PUV3HvC8ISjwKvGQxK7JNDo5pbw,22
+pytest_playwright_axe-4.10.3.dist-info/RECORD,,

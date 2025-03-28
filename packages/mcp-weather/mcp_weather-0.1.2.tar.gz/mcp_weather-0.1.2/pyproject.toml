@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-weather"
+version = "0.1.2"
+description = "An MCP server for weather information"
+readme = "README.md"
+authors = [{ name = "Ryan Zheng", email = "zhengjianhong95@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["mcp", "weather"]
+dependencies = [
+  'httpx',
+  "mcp>=1.0.0"
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+mcp_weather = "mcp_weather.mcp_weather:main"

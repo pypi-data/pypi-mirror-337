@@ -1,0 +1,86 @@
+# Example Package
+
+这是一个示例包，用于演示如何创建和上传 Python 包到 PyPI。
+
+## 安装
+
+```bash
+pip install your-example-package
+```
+
+## 使用
+
+```python
+from example_package import hello_world
+
+print(hello_world())  # 输出: Hello, World!
+print(hello_world("PyPI"))  # 输出: Hello, PyPI!
+```
+```
+
+6. 创建 `LICENSE` (使用 MIT 许可证作为示例)：
+```text
+MIT License
+
+Copyright (c) 2024 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files...
+```
+
+7. 创建测试文件 `tests/test_main.py`：
+```python
+from example_package import hello_world
+
+def test_hello_world():
+    assert hello_world() == "Hello, World!"
+    assert hello_world("PyPI") == "Hello, PyPI!"
+```
+
+现在，您可以按以下步骤上传包：
+
+1. 安装必要的工具：
+```bash
+pip install build twine
+```
+
+2. 构建包：
+```bash
+python -m build
+```
+
+3. 在上传到 PyPI 之前，先在 TestPyPI 上测试：
+```bash
+# 创建 TestPyPI 账号并获取 API token
+twine upload --repository testpypi dist/*
+```
+
+4. 测试安装：
+```bash
+pip install --index-url https://test.pypi.org/simple/ your-example-package
+```
+
+5. 如果一切正常，上传到正式 PyPI：
+```bash
+# 创建 PyPI 账号并获取 API token
+twine upload dist/*
+```
+
+注意事项：
+1. 包名要唯一，建议在 PyPI 上先搜索确认
+2. 记得在 `~/.pypirc` 中配置您的认证信息：
+```ini
+[pypi]
+username = __token__
+password = your-pypi-token
+
+[testpypi]
+username = __token__
+password = your-testpypi-token
+```
+
+3. 每次上传新版本时需要更新版本号
+4. 确保代码质量和文档完整性
+5. 添加适当的类型提示和文档字符串
+
+这个示例包含了最基本的结构和配置，您可以根据需要添加更多功能和文档。上传成功后，其他人就可以通过 `pip install your-example-package` 来安装您的包了。

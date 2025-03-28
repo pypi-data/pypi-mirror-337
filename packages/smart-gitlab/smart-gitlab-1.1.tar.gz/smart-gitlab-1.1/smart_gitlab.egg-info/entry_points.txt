@@ -1,0 +1,17 @@
+[console_scripts]
+addHook = git_hooks.git_hook:add_hook_command
+branches = branches.branch_ops:git_branches_command
+ci = git_tools.git_push_tag:tag_command
+currbranch = branches.branch_ops:git_current_branch_command
+fcommit = git_hooks.git_hook:force_commit_command
+gcheckout = branches.branch_ops:git_checkout_branch_command
+git-extract = branches.branch_ops:git_extract_pull_command
+git-logs = branches.branch_ops:git_log_command
+gstatus = branches.branch_ops:git_status_command
+h = git_tools.git_home_page:page_pipeline_command
+merge = git_tools.git_home_page:page_merge_command
+pick = git_tools.git_pick_task:pick_command
+prepull = branches.branch_ops:git_prepull_command
+repolist = branches.branch_ops:git_repolist_command
+task = git_tools.git_list_task:task_command
+vpn = vpn.otputils:vpn_command

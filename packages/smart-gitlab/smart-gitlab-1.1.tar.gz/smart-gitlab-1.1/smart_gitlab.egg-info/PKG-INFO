@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: smart-gitlab
+Version: 1.1
+Summary: gitlab sdk
+Home-page: https://xxx.com
+Author: xuwuqiang
+Author-email: xwqiang2008@outlook.com
+License: MIT Licence
+Keywords: gitlab,deploy,cicd
+Platform: any
+
+tools for gitlab with python

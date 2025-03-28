@@ -1,0 +1,40 @@
+[project]
+name = "arc-agi-core"
+version = "0.0.1"
+description = "Core package of ARC-AGI Research Tool Kit"
+readme = "README.md"
+authors = [
+    { name = "Jumyung Park", email = "parkjumyungpublic@gmail.com" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.2.4",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+lint = [
+    "ruff>=0.11.2",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+package-dir = "src"
+
+[tool.ruff]
+extend-include = [
+    "*.ipynb",
+]
+
+[tool.ruff.lint]
+select = [
+    "D",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"

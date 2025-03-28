@@ -1,0 +1,8 @@
+imagequant/__init__.py,sha256=vKQzx50YlbF6T0ea0O8g_4MRmOQkT-JaxUmCOnsXpKc,7240
+imagequant/_libimagequant.pyd,sha256=5a1jTWxEikVS9WIzGYTg-CggeUAduGJ0rzr-j_wAc7g,112640
+imagequant/libimagequant_build.py,sha256=OL-3EjI_gjcwOpAaVoRcmYQj1G-rc5Y7jIbTvZgGays,840
+imagequant-1.1.4.dist-info/LICENSE,sha256=WjuRuFXN2gXuJFKlhnK19ITS8sBlwOjdbRMCCU5oISA,1521
+imagequant-1.1.4.dist-info/METADATA,sha256=1TtsGYFGhUslV35-L_61WrNWBfZw85pD7zQxl2BN_Y0,6948
+imagequant-1.1.4.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+imagequant-1.1.4.dist-info/top_level.txt,sha256=9AzQ9NgvAz4fDBTQwr6nG2LtlMnV88Dm3IGIkx0ZfGo,11
+imagequant-1.1.4.dist-info/RECORD,,

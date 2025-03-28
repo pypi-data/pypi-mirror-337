@@ -1,0 +1,6 @@
+include jdSimpleAutostart/translations/*.ts
+exclude jdSimpleAutostart/ui_compiled/*
+include jdSimpleAutostart/Icon.png
+include jdSimpleAutostart/ui/*
+include BuildBackend.py
+exclude tools/*

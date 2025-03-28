@@ -1,0 +1,33 @@
+[project]
+name = "maverick-coref-de"
+description = "co-reference resolution for German using the Maverick system"
+version = "1.0.3"
+requires-python = ">=3.10"
+license = "CC-BY-NC-SA-4.0"
+authors = [
+  { name="Fynn Petersen-Frey" },
+  { name="Giuliano Martinelli" },
+]
+readme = "README.md"
+dependencies = [
+    "transformers[torch] >= 4.48.2",
+    "pytorch-lightning",
+    "pandas",
+    "hydra-core",
+    "jsonlines",
+    "nltk",
+    "torch >= 2.0.0",
+    "sentencepiece",
+    "scipy",
+    "numpy",
+    "protobuf",
+    "spacy",
+    "huggingface-hub",
+]
+
+[tool.setuptools]
+packages = ["maverick_de", "maverick_de.models", "maverick_de.data", "maverick_de.utils", "maverick_de.common"]
+
+
+[project.urls]
+Repository = "https://github.com/fynnos/maverick-coref.git"

@@ -1,0 +1,8 @@
+redis_msgpack/__init__.py,sha256=UdgcAFpAwXnetVl8nAAIEZki9UMeJO65Mk8UAch3F90,277
+redis_msgpack/client.py,sha256=L39gKIwYEBPVHaetDYnIBjBivBHsQ7f_zImyY7qKsZs,51939
+redis_msgpack/django_integration.py,sha256=ZqmIiVACMRAhXDtAW382KfhfHCvsGtlxZc9k4bBy_Ts,6399
+redis_msgpack/utils.py,sha256=aLGCCjRA1qMdD76flYyfu_y1J-PFQdoMZ79nLZsWKv4,1767
+redis_msgpack-0.1.1.dist-info/LICENSE,sha256=GTVQl3vH6ht70wJXKC0yMT8CmXKHxv_YyO_utAgm7EA,1065
+redis_msgpack-0.1.1.dist-info/METADATA,sha256=dy0Z0IV-CXsE5ku4rPrS2tdsHowcO9SsQzPD4VrvaoY,4382
+redis_msgpack-0.1.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+redis_msgpack-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/my_math/__init__.py
+src/my_math/basic/__init__.py
+src/my_math/basic/addition.py
+src/my_math/basic/subtraction.py
+src/my_math/intermediate/__init__.py
+src/my_math/intermediate/addition_vec.py
+src/my_math/intermediate/subtraction_vec.py
+src/my_math_math.egg-info/PKG-INFO
+src/my_math_math.egg-info/SOURCES.txt
+src/my_math_math.egg-info/dependency_links.txt
+src/my_math_math.egg-info/requires.txt
+src/my_math_math.egg-info/top_level.txt
+tests/test_basic.py

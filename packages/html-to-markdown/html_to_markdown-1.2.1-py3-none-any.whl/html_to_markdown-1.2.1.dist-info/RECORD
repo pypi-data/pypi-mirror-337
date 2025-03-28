@@ -1,0 +1,12 @@
+html_to_markdown/__init__.py,sha256=95S7_7mR_g88uTnFI0FaRNykrtAaSKb6sJbwSea2zjk,145
+html_to_markdown/__main__.py,sha256=u5xevySlT5eIGyLUaethdDQIKJygaKnc3F2sHWoz75g,264
+html_to_markdown/cli.py,sha256=HVnzmcyrYwah_yWhZ87mZcG0VgnKYp6y89fJh2R-Rlw,4532
+html_to_markdown/constants.py,sha256=Usk67k18tuRovJpKDsiEXdgH20KgqI9KOnK4Fbx-M5c,547
+html_to_markdown/converters.py,sha256=W6Dq2PAwVe5nxE3LSaeO8_hm0eWzSBlRLxf0ryasL6Q,11844
+html_to_markdown/processing.py,sha256=nh_Or-4faI_qh6gF8-xY2qNiqX4eH-jCnBnFpHJbc2M,8632
+html_to_markdown/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_to_markdown/utils.py,sha256=HJUDej5HSpXRtYv-OkCyD0hwnPnVfQCwY6rBRlIOt9s,1989
+html_to_markdown-1.2.1.dist-info/METADATA,sha256=-raxzt9vDtzHOOsR0nkbQN-r80V5gRFfeHjDOLWrDwk,6902
+html_to_markdown-1.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+html_to_markdown-1.2.1.dist-info/licenses/LICENSE,sha256=3J_HR5BWvUM1mlIrlkF32-uC1FM64gy8JfG17LBuheQ,1122
+html_to_markdown-1.2.1.dist-info/RECORD,,

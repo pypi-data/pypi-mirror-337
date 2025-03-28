@@ -1,0 +1,11 @@
+PyMultiDictionary/__init__.py,sha256=EXheWAGXzPjokju2A4-082f33Z4OFwGHqFvoeA41pYg,1077
+PyMultiDictionary/_dictionary.py,sha256=VSEQEbAIIy26-_XqXClq31KedSw4c4-WqIgf_JgH2zI,20640
+PyMultiDictionary/_goslate.py,sha256=OEM-69Ua5-hEtpxUwvOVMfFHpCt5GFYdg-gELIoTYk0,19090
+PyMultiDictionary/_tokenizer.py,sha256=syA5oTOmhtfNDuS1iHitknl5-S9TYnpBi3sUq7vZvOg,5172
+PyMultiDictionary/_utils.py,sha256=gSdVhFZqgr3arb-o3ccsdaGMUtG0oDVXYnOUVyVP8EM,15407
+PyMultiDictionary/version.py,sha256=fVNl9eMmdygOwOned5Rl6GwDGqOfrixw1TMyFhZOkOw,805
+pymultidictionary-1.3.2.dist-info/LICENSE,sha256=JlCw7T2RNpUl7DTMli5EKEa_xx1od14PH_YUiZ10m2U,1073
+pymultidictionary-1.3.2.dist-info/METADATA,sha256=gLV3Bh41wLdXjsNFs4UKFCyPELaFnxeB80B66z88AuA,8132
+pymultidictionary-1.3.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pymultidictionary-1.3.2.dist-info/top_level.txt,sha256=rAZup-sShdE2P7Bus10l-xXa9DhqAW_NN3JzWU-BFyM,18
+pymultidictionary-1.3.2.dist-info/RECORD,,

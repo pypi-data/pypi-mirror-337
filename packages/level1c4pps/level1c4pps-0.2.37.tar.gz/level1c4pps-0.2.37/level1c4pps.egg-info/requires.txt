@@ -1,0 +1,11 @@
+h5netcdf
+pyorbital
+pyspectral
+satpy[avhrr_l1b_eps,viirs_compact,viirs_l1b,viirs_sdr]!=0.38.*,!=0.39.*,!=0.40.*,!=0.41.*
+trollsift
+
+[gaclac]
+satpy[avhrr_l1b_gaclac]
+
+[seviri]
+satpy[seviri_l1b_hrit,seviri_l1b_native,seviri_l1b_nc]

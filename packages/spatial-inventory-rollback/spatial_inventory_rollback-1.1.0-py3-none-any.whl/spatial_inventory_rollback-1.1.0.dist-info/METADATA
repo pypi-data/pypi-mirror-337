@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: spatial_inventory_rollback
+Version: 1.1.0
+Summary: GCBM Spatial Inventory Rollback Tool 
+Home-page: https://github.com/Simpleshell3/spatial_inventory_rollback
+Author: Moja.global
+Author-email: 
+License: MPL2
+Keywords: moja.global
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: GDAL==3.4.3
+Requires-Dist: jupytext==1.16.7
+Requires-Dist: libcbm==2.6.6
+Requires-Dist: mojadata==4.1.5
+Requires-Dist: nbconvert==7.16.6
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: numba==0.61.0
+Requires-Dist: numpy==2.2.4
+Requires-Dist: pandas==2.2.3
+Requires-Dist: papermill==2.6.0
+Requires-Dist: psutil==7.0.0
+Requires-Dist: scipy==1.15.2
+Requires-Dist: setuptools==75.8.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+GCBM Spatial Inventory Rollback Tool
+---
+The roll-back tool combines spatial information from a forest
+inventory for a post-1990 inventory year with data on disturbances
+and then rolls back the inventory from its reference year to the
+starting year of the planned analysis.
+see: https://publications.gc.ca/collections/collection_2022/rncan-nrcan/Fo143-2-457-eng.pdf

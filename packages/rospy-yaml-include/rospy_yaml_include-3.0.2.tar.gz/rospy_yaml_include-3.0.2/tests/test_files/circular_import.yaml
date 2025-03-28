@@ -1,0 +1,3 @@
+test:
+  - 5
+fields: !path_include test_files/import.yaml

@@ -1,0 +1,5 @@
+test:
+  - 5
+fields: !ros_include 
+        package: rospy_yaml_include_test
+        extension: test_files/circular_import.yaml

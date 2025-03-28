@@ -1,0 +1,14 @@
+darkcoverage/__init__.py,sha256=iFq5Rr7cCDNqXvLu6RZi5jvFKNyjrhCh9p1kRShPW3k,219
+darkcoverage/gui.py,sha256=iSNhJyNUlLEcQQzsmQmfHZat35iGx5rfFB_eKDHCo1c,7455
+darkcoverage/image_processing.py,sha256=6j7F-99LmuYfoQNUxQVjlbiHqbgSJ2q0wKPrKp9_Jj4,2939
+darkcoverage/main.py,sha256=oKj0lWLCt6xSnOsijN9-psBbmyEQHzwtUHb5m6UvklQ,322
+darkcoverage/widgets/__init__.py,sha256=jJE2TkKMy3IxaIRkv29o1nIMXzYiIX5IMq9RLhX0K7o,189
+darkcoverage/widgets/image_label.py,sha256=001yGYZgmUh9LrdEhhL3qayTNClkJ0_wjIfyidjsTzU,2326
+darkcoverage/widgets/reference_window.py,sha256=72raj0qjXxBuoYP9Phm6E3Y6pwNHjld4_zeh7hXDnrY,1935
+darkcoverage/widgets/sliders_window.py,sha256=xuBXjqeEhlrgWsppyzN92dKcdf6WJYztOH8CPGukX00,4204
+darkcoverage-0.1.1.dist-info/licenses/LICENSE,sha256=DxtLtyvviBxkFyOq6-XjEGuYCmYX1iq-3pEUN_ZuLLY,1081
+darkcoverage-0.1.1.dist-info/METADATA,sha256=wv22Nzsas4HrdJD0wR9UW335XiKXdIGn1Qe6Sf5cj-4,3238
+darkcoverage-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+darkcoverage-0.1.1.dist-info/entry_points.txt,sha256=S1Ev8pc-w0F3h1JIyugZNmG0VJvtnnub3exhAF_vydo,56
+darkcoverage-0.1.1.dist-info/top_level.txt,sha256=XXzG8VG0ByUu2Xw2h08luxh-1eq9n0YxLmHGR0tJo6U,13
+darkcoverage-0.1.1.dist-info/RECORD,,

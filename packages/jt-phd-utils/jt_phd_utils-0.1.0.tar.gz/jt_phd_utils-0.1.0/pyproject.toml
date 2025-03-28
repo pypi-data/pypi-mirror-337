@@ -1,0 +1,13 @@
+[project]
+name = "jt-phd-utils"
+version = "0.1.0"
+description = "Assorted helper functions for my PhD, not generaly useful enough for their own packages."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ma-utils==0.0.3",
+    "dantArrays==0.0.4",
+    "sr-agreement==0.0.5",
+    "birra==0.1.1",
+    "pymaic==0.2",
+]

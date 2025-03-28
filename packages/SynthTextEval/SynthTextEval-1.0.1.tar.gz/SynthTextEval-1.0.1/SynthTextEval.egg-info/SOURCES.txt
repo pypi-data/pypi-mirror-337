@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SynthTextEval.egg-info/PKG-INFO
+SynthTextEval.egg-info/SOURCES.txt
+SynthTextEval.egg-info/dependency_links.txt
+SynthTextEval.egg-info/requires.txt
+SynthTextEval.egg-info/top_level.txt

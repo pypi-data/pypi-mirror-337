@@ -1,0 +1,10 @@
+gettake/__init__.py,sha256=8sYOzEgLNy8k52ur0D1c-eIGEzn3ebrqGGTzknx6OO4,196
+gettake/gettake.py,sha256=YWYgA2imRe1WjXMoErPmSHaqYNFDPn2N6uh2UfLr0tU,4054
+gettake/main.py,sha256=f7rYh6XFpe6ETICScNPnk-8sJaDZzApIWjVur4NA57w,3862
+gettake/models.py,sha256=q275HcJZIhIIf97av7iXI8FmVDHuElfHTuKmEyrPME4,1177
+gettake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gettake-0.2.1.dist-info/METADATA,sha256=BM_-7IOH_Y29TdrbZ4thmds_LQ7IiRogzKSyZyDARrc,3311
+gettake-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gettake-0.2.1.dist-info/entry_points.txt,sha256=le54B4Zc_KqvQ4NjXTaf3Fi3QD_yOzujg3k9AixPfWo,46
+gettake-0.2.1.dist-info/licenses/LICENSE.txt,sha256=_iy0ilzSqxUirYYOTdl3sx62b80gELvkwj6pXniGSO8,1046
+gettake-0.2.1.dist-info/RECORD,,

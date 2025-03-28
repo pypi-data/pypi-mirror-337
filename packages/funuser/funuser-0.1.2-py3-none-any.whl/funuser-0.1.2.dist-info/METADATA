@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: funuser
+Version: 0.1.2
+Summary: User Management System
+Author-email: niuliangtao <farfarfun@qq.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.8
+Requires-Dist: fastapi>=0.115.12
+Requires-Dist: pymysql>=1.1.1
+Requires-Dist: sqlalchemy>=2.0.40
+Requires-Dist: uvicorn>=0.33.0
+
+# funuser

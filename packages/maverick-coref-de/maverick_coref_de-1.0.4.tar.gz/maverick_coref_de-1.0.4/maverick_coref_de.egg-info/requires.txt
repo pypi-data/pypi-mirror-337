@@ -1,0 +1,13 @@
+transformers[torch]>=4.48.2
+pytorch-lightning
+pandas
+hydra-core
+jsonlines
+nltk
+torch>=2.0.0
+sentencepiece
+scipy
+numpy
+protobuf
+spacy
+huggingface-hub

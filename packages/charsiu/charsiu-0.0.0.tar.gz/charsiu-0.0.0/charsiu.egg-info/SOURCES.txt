@@ -1,0 +1,5 @@
+pyproject.toml
+charsiu.egg-info/PKG-INFO
+charsiu.egg-info/SOURCES.txt
+charsiu.egg-info/dependency_links.txt
+charsiu.egg-info/top_level.txt

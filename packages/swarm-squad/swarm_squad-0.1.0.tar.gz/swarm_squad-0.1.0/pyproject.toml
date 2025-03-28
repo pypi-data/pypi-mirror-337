@@ -1,0 +1,30 @@
+[project]
+name = "swarm-squad"
+version = "0.1.0"
+description = "Swarm Squad: A simulation framework for multi-agent systems"
+authors = [{ name = "Sang Buster", email = "hello@singsongaftermath.com" }]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.11.0",
+    "pre-commit>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://swarm-squad.com"
+Documentation = "https://docs.swarm-squad.com"
+Repository = "https://github.com/Swarm-Squad/Swarm-Squad-Ep1"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/swarm_squad"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+swarm-squad = "swarm_squad.app:main"  # web app entry point

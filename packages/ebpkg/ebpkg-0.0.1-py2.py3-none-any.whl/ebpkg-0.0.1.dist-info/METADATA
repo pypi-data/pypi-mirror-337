@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: ebpkg
+Version: 0.0.1
+Project-URL: Documentation, https://ebpkg.github.io
+Project-URL: Issues, https://github.com/ebpkg/ebpkg/issues
+Project-URL: Source, https://github.com/ebpkg/ebpkg
+Author-email: Jayesh Badwaik <j.badwaik@fz-juelich.de>
+License-Expression: GPL-2.0-only
+Requires-Dist: semver
+Description-Content-Type: text/markdown
+
+<!--
+- SPDX-License-Identifier: GPL-2.0-only
+- Copyright (C) 2025 Jayesh Badwaik <j.badwaik@fz-juelich.de>
+-->
+
+# ebpkg - EasyBuild Package Manager

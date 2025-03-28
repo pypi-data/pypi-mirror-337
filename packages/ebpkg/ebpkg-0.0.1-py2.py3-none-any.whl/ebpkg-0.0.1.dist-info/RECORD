@@ -1,0 +1,6 @@
+ebpkg/metadata.py,sha256=q0Q4gNRtXUUK5BjMzotDLHV3dt9shfYGCNmdkT8ZXYo,288
+ebpkg/cli/__init__.py,sha256=DapfqE5t54dPiM9MN0LGLUdG4FJYXd_7nuhxTBzfHog,304
+ebpkg-0.0.1.dist-info/METADATA,sha256=CWd6EGMJBjyFX1-5mIXyMPlRGA5FWAGC1WcHjr0zQpo,511
+ebpkg-0.0.1.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+ebpkg-0.0.1.dist-info/entry_points.txt,sha256=1StQi9H4sxT6SELIc4dQLa47R7IU0nZwH01V8RxDna4,41
+ebpkg-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+numpy
+matplotlib
+netcdf4
+xarray
+#zarr            # cannot easily be installed with pip
+pandas
+cmocean
+scipy
+ipywidgets
+ipykernel
+jupytext
+nbconvert
+healpy
+cftime
+#cartopy         # cannot easily be installed with pip
+#dask[complete]  # cannot easily be installed with pip
+intake
+requests

@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: baidu-maps
+Version: 0.0.2
+Summary: Baidu Maps MCP Server
+Author: baidu-maps
+Maintainer-email: Pineapple274 <yuyangyang3838@gmail.com>
+License: MIT
+Keywords: http,mcp,map,baidu
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp[cli]>=1.5.0
+Dynamic: license-file
+
+# Baidu Maps MCP Server
+
+[Github](https://github.com/baidu-maps/mcp)

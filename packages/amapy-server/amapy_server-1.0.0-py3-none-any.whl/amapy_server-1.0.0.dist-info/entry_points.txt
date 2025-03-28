@@ -1,0 +1,2 @@
+[console_scripts]
+ama-server = server_core.main:main

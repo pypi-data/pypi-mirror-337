@@ -1,0 +1,6 @@
+datasette
+datasette-profiles>=0.1a3
+
+[test]
+pytest
+pytest-asyncio

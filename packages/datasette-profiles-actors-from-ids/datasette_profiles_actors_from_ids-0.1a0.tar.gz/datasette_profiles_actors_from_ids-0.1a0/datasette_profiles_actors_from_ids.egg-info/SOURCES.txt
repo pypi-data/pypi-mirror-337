@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+datasette_profiles_actors_from_ids/__init__.py
+datasette_profiles_actors_from_ids.egg-info/PKG-INFO
+datasette_profiles_actors_from_ids.egg-info/SOURCES.txt
+datasette_profiles_actors_from_ids.egg-info/dependency_links.txt
+datasette_profiles_actors_from_ids.egg-info/entry_points.txt
+datasette_profiles_actors_from_ids.egg-info/requires.txt
+datasette_profiles_actors_from_ids.egg-info/top_level.txt
+tests/test_profiles_actors_from_ids.py

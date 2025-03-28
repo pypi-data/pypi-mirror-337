@@ -1,0 +1,8 @@
+requests
+rich
+urllib3
+
+[dev]
+twine
+setuptools
+build

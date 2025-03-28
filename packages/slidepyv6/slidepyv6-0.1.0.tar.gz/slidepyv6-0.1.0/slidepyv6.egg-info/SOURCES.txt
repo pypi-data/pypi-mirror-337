@@ -1,0 +1,9 @@
+LICENSE .txt
+README.md
+setup.py
+slidepyv6/__init__.py
+slidepyv6/core.py
+slidepyv6.egg-info/PKG-INFO
+slidepyv6.egg-info/SOURCES.txt
+slidepyv6.egg-info/dependency_links.txt
+slidepyv6.egg-info/top_level.txt

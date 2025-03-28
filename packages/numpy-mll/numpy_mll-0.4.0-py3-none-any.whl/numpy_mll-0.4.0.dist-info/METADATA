@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: numpy_mll
+Version: 0.4.0
+Summary: A simple experimental library
+License: MIT
+Requires-Python: >=3.4

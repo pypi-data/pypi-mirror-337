@@ -1,0 +1,14 @@
+[project]
+name = "swiftian"
+version = "0.0.1"
+description = "A placeholder Python package for swiftian"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "Your Name", email = "your@email.com"}
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

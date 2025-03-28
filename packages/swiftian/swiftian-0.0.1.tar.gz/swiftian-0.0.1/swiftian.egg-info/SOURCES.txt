@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+swiftian/__init__.py
+swiftian.egg-info/PKG-INFO
+swiftian.egg-info/SOURCES.txt
+swiftian.egg-info/dependency_links.txt
+swiftian.egg-info/top_level.txt
+tests/test_dummy.py

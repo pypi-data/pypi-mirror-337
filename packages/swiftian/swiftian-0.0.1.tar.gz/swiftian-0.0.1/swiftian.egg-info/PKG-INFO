@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: swiftian
+Version: 0.0.1
+Summary: A placeholder Python package for swiftian
+Home-page: https://github.com/thinkswift/swiftian-py
+Author: Swiftian
+Author-email: Your Name <your@email.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# swiftian
+
+A placeholder package to reserve the `swiftian` namespace.
+
+## Usage
+
+```python
+from swiftian import hello
+
+print(hello())  # → "Hello, Swiftian!"

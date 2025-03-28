@@ -1,0 +1,9 @@
+ptcx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptcx/__main__.py,sha256=7D_q5qIvUv10yZEXSEfRXmYafLa-gWjPaxDNUSmRr7c,370
+ptcx/patch.py,sha256=ayYA6pcj07pCl6co0ZFkIRQQixPSG5LrX4AhqlyfJeQ,962
+ptcx-0.0.2.dist-info/licenses/LICENSE,sha256=2-vdbvxLovpVq8067B7EsgeufNgrJLhdQnQjXXXaGbM,1521
+ptcx-0.0.2.dist-info/METADATA,sha256=P1R9fhrvWbCaaPxIZ1STtzS9DRwhBKXtv9pGWpWktKs,949
+ptcx-0.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ptcx-0.0.2.dist-info/entry_points.txt,sha256=lRL6gGaoWX94VAvv1JKYIyRNoRUMknsHKU1KfSPZCw8,43
+ptcx-0.0.2.dist-info/top_level.txt,sha256=5caQ5k_2975FqkCSZkvuMyO4QZ1j5LzLaRx0RigTC8k,5
+ptcx-0.0.2.dist-info/RECORD,,

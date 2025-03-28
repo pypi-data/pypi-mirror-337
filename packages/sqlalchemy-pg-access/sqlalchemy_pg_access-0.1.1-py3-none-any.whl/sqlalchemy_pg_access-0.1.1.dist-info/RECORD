@@ -1,0 +1,16 @@
+./.gitignore,sha256=Y2yfkmGPjVjBAtnizS7VTkryZMHI-yYYnaCS9I4gbWY,133
+./PKG-INFO,sha256=oj1BkB0rXmVu8-o0riuNiKT045sXS8dOIg0JlCbgifw,3570
+./README.md,sha256=AajEN6nbrGYC8ySH4Z1OMHxnkFt4V5qgO9J4v8a-rQA,3230
+./pyproject.toml,sha256=5Z87zFQNO1ONDC8d03jYdAyF-23hwBIV4klj7tFFd0E,846
+./uv.lock,sha256=VUyJTXPx6-iq1cww85YUEeTnPLhMnLBHA2K_sJcHby4,49984
+./.github/workflows/publish-to-pypi.yml,sha256=ab-hS8DnUsfQXuc-mau_LhqepZnSdDSjonZrB_09agM,492
+./sqlalchemy_pg_access/alembic.py,sha256=5TPMCTdwO4PwVCVXopC1JCOG86CmAlnvhiXPkkz_U40,12966
+./sqlalchemy_pg_access/grant.py,sha256=URIyBamkAMUOwylk82JlpWxLOUH5m714jT4kNIenCps,2078
+./sqlalchemy_pg_access/policy.py,sha256=vOSBvloz8gixR51sx7tg2tBdqTfybK34XsebFjCNebA,3634
+./sqlalchemy_pg_access/registry.py,sha256=QWIwBE_OxDVbOXBbwcIRVNHGzKIIHwCDmAAgbNT_jzo,1312
+./tests/conftest.py,sha256=f9wY6T_Q7d4_Z9BaZNMh-KYFlNYEPXN3K7qO1apJM-M,102
+./tests/test_policy_compilation.py,sha256=GUl_0Ytn1efX9XjfSR7zfp4j14s2SZ7cMYMU8wRdn1c,724
+./tests/test_policy_decorator.py,sha256=0DVeyuNzUfB3LZhRXEKCDc5ZS0Y5OlhIMkZ_s89C7ZY,733
+sqlalchemy_pg_access-0.1.1.dist-info/METADATA,sha256=oj1BkB0rXmVu8-o0riuNiKT045sXS8dOIg0JlCbgifw,3570
+sqlalchemy_pg_access-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+sqlalchemy_pg_access-0.1.1.dist-info/RECORD,,

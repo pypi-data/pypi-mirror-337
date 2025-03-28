@@ -1,0 +1,9 @@
+services:
+  hsi2rgb_gui:
+    build: .   # you should remove this line if you're not building it locally 
+    image: songyz2019/hsi2rgb
+    container_name: hsi2rgb
+    ports:
+      - "7860:7860"
+    restart: unless-stopped
+    # privileged: true

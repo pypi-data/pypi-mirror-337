@@ -1,0 +1,2 @@
+def Multiply():
+    print("Multiply")

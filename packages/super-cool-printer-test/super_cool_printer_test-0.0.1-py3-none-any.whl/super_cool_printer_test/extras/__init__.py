@@ -1,0 +1,2 @@
+from super_cool_printer_test.extras.divide import Divide
+from super_cool_printer_test.extras.multiply import Multiply

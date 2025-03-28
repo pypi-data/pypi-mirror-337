@@ -1,0 +1,2 @@
+def Divide():
+    print("Divide")

@@ -1,0 +1,5 @@
+rs_csv_reader-0.1.2.dist-info/METADATA,sha256=d1h6QnyTkJ56qQ6rKhSp7bB1BtePgDt4MsTt7gjgUwE,3814
+rs_csv_reader-0.1.2.dist-info/WHEEL,sha256=GogT3O65foWJ8aaakPyMh6QY21RIpsku3drW8sYS-D0,106
+csv_reader/__init__.py,sha256=xVmezkNzD8KyrXR3vAbG0NVT9FocKNtmd_OUUvk0C0U,123
+csv_reader/csv_reader.cpython-38-x86_64-linux-gnu.so,sha256=fT0gYJk0r5jaJXrO8lyOYYnbfIwE9I0D26GcPCRd38A,612168
+rs_csv_reader-0.1.2.dist-info/RECORD,,

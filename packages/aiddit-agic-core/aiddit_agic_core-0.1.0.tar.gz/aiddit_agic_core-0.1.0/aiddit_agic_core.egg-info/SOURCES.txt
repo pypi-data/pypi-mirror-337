@@ -1,0 +1,6 @@
+README.md
+setup.py
+aiddit_agic_core.egg-info/PKG-INFO
+aiddit_agic_core.egg-info/SOURCES.txt
+aiddit_agic_core.egg-info/dependency_links.txt
+aiddit_agic_core.egg-info/top_level.txt

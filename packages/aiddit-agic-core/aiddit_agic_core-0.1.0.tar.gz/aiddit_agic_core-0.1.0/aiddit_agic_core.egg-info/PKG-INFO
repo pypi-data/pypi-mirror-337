@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: aiddit_agic_core
+Version: 0.1.0
+Summary: aiddit agic core
+Home-page: https://www.aiddit.com
+Author: nieqi
+Author-email: burningpush@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+ My Package
+
+A simple greeting package.
+
+## Installation
+
+```bash
+pip install aiddit_agic_core

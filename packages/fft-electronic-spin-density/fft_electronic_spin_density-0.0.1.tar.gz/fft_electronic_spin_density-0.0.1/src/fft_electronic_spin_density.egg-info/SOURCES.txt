@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fft_electronic_spin_density/__init__.py
+src/fft_electronic_spin_density/fft_electronic_spin_density.py
+src/fft_electronic_spin_density.egg-info/PKG-INFO
+src/fft_electronic_spin_density.egg-info/SOURCES.txt
+src/fft_electronic_spin_density.egg-info/dependency_links.txt
+src/fft_electronic_spin_density.egg-info/requires.txt
+src/fft_electronic_spin_density.egg-info/top_level.txt

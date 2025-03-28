@@ -1,0 +1,6 @@
+include version.txt
+include LICENSE
+include src/hana_ai/vectorstore/knowledge_base/python_knowledge/*
+include src/hana_ai/vectorstore/knowledge_base/sql_knowledge/*
+include src/hana_ai/agents/scenario_knowledge_base/*
+include img/*

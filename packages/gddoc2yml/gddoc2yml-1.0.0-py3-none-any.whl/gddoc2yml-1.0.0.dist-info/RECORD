@@ -1,0 +1,12 @@
+gddoc2yml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gddoc2yml/gdxml2xrefmap.py,sha256=wTL2e5jtfhmMHPw-03D9RckWs1UHJauS57PAglvpdtk,10503
+gddoc2yml/gdxml2yml.py,sha256=Tn7Cy8JxG-b5SsRKKvRQIZEiK1sTExThNgZayKARI6c,19276
+gddoc2yml/gdxml_helpers.py,sha256=yqNKvVHVtO6hoc9osObLJ0NGplEvuySyHn0CCQsE7pw,46947
+gddoc2yml/make_rst.py,sha256=X9iewKuWQ3cOEHQN4zm0vyOs4inptL8aCrQtcX8GHpg,106910
+gddoc2yml/version.py,sha256=oa1PwCs0k3XjV0acBkqLSqeFRf3l9_xRB1myUhYtbYo,166
+gddoc2yml-1.0.0.dist-info/licenses/LICENSE,sha256=onlVdQmpDsK5LXj10dF-CXVVBbp9Kvkgx8SrpW1w2qA,1077
+gddoc2yml-1.0.0.dist-info/METADATA,sha256=ml9ATxP8a-9UzqPXl_GSmYY3Xiv0uFVxEy8Mi8Kjff0,7406
+gddoc2yml-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+gddoc2yml-1.0.0.dist-info/entry_points.txt,sha256=1OFoDp5fxTqC061lmIsAhtwRyi76Ae-imPNfvhwBErA,100
+gddoc2yml-1.0.0.dist-info/top_level.txt,sha256=6kJ8hKUWAQrgQp7YZWiefcDjYwZ7kgRb2Ko1b31cgsk,10
+gddoc2yml-1.0.0.dist-info/RECORD,,

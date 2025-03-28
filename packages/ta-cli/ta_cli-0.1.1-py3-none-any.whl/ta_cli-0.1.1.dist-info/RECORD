@@ -1,0 +1,11 @@
+ta/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ta/cli.py,sha256=geCYR6-mCW1ArRSMwqu6ElxbTYLENR_TVsy_vfV22fo,4179
+ta/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ta/core/db.py,sha256=wblzC3VeAbsJGHN9xMnYLNhbIEueM9BdZTcCbz_yxG0,1526
+ta/core/ta.py,sha256=B_olbhOVtkCBGSxkKiZDkMkd2jeSXZmLMk6dp5DGH7U,2102
+ta/core/web_search.py,sha256=tjATSNP42qoaJZWhtwNTu5IJsd2H2kgSUMQOoqaA4bU,2945
+ta_cli-0.1.1.dist-info/METADATA,sha256=3vmds2RNbHxO2ULndaNEODX5mP-KTwcQJxQyb70Q89Y,760
+ta_cli-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ta_cli-0.1.1.dist-info/entry_points.txt,sha256=ejuAo_Lo2rsRkuRSAi4H7VWV1knH5jTLTXJul6Pxynw,35
+ta_cli-0.1.1.dist-info/top_level.txt,sha256=hN4n21ntk5jWIaAUAczptsOu_z8s-2wbKNQFwFYMsVk,3
+ta_cli-0.1.1.dist-info/RECORD,,

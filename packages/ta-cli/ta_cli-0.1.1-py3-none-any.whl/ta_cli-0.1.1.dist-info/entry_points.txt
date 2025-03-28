@@ -1,0 +1,2 @@
+[console_scripts]
+ta = ta.cli:main

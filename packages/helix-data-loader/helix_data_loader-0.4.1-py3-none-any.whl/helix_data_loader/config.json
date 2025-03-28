@@ -1,0 +1,15 @@
+{
+  "api": {
+    "api_key": "",
+    "tenant_id": ""
+  },
+  "defaults": {
+    "table_name": "",
+    "start_line": 1,
+    "threads": 4,
+    "debug": false
+  },
+  "performance": {
+    "batch_size": 499
+  }
+}

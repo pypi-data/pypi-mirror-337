@@ -1,0 +1,2 @@
+[console_scripts]
+helix-data-loader = helix_data_loader.cli:main

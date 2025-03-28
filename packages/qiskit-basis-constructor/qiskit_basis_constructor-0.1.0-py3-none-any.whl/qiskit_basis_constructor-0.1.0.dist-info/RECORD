@@ -1,0 +1,9 @@
+qiskit_basis_constructor/__init__.py,sha256=JMq2V6C3Ox59CgQLqoW0NVfkObWsIKz9qC44FZNMa70,1321
+qiskit_basis_constructor/constructor.py,sha256=hWJCmbIowHWyuwzv0t2VCHdGeBhPRnUPG8XzV02mK_4,32701
+qiskit_basis_constructor/equivalence.py,sha256=8M-ouNlkTE5nVnkmhNrq5K6lakRtAKFz-0ZSa_NcGFI,54609
+qiskit_basis_constructor/plugin.py,sha256=7n_nT0U2jMf60z_LBlZF2iYzzH9tx78wMMWbKMQzCsY,2950
+qiskit_basis_constructor-0.1.0.dist-info/METADATA,sha256=mhhRjcPpLk-Fs5pUKvhx8za7xj4WbBeAey6cBUTHRZw,30636
+qiskit_basis_constructor-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+qiskit_basis_constructor-0.1.0.dist-info/entry_points.txt,sha256=SeitVR2Xg8Nrm17ZY6x1kbdbdUv4uxS5lti4gbuMR2M,99
+qiskit_basis_constructor-0.1.0.dist-info/licenses/LICENSE.txt,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+qiskit_basis_constructor-0.1.0.dist-info/RECORD,,

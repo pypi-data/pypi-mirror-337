@@ -1,0 +1,2 @@
+[qiskit.transpiler.translation]
+constructor-beta = qiskit_basis_constructor:BasisConstructorPlugin

@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: doro
+Version: 1.0.0
+Summary: CLI based pomodoro app
+Author-email: Suresh Kumar <sureshdsk91@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.12.8
+Requires-Dist: mitmproxy>=11.1.3
+Requires-Dist: pyglet==1.5.19
+Requires-Dist: pyyaml==6.0.2
+Requires-Dist: rich==13.9.4
+Requires-Dist: typer==0.15.2
+Description-Content-Type: text/markdown
+
+# Doro - CLI based pomodoro app
+Doro is a CLI based pomodoro app and countdown timer application built using python.
+
+## Install
+```bash
+$ pip install doro
+```
+
+## Usage
+
+### Pomodoro
+#### Configuration
+Configure pomodoro session using `doro config`. Config will be stored at `~/.doro.yaml`
+```bash
+$ doro config
+
+# verify config
+$ cat ~/.doro.yaml
+```
+#### Start Pomodoro
+```bash
+$ doro start
+```
+
+### Countdown timer
+```bash
+$ doro countdown MINUTES
+
+# 15 minutes counter
+$ doro countdown 15
+
+# 90 minutes counter
+$ doro countdown 90
+```
+
+## Demo
+![pomodoro-demo](https://raw.githubusercontent.com/sureshdsk/doro/main/screenshots/doro-demo.gif?raw=true)
+![countdown-demo](https://raw.githubusercontent.com/sureshdsk/doro/main/screenshots/doro-demo2.gif?raw=true)
+
+
+## Development
+```
+$ uv venv --python=3.12
+$ source .venv/bin/activate
+
+$ uv build
+Successfully built dist/doro-X.X.X.tar.gz
+Successfully built dist/doro-X.X.X-py3-none-any.whl 
+
+$ pip install dist/doro-0.0.4-py3-none-any.whl --force
+
+$ doro --help
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+doro = app:app

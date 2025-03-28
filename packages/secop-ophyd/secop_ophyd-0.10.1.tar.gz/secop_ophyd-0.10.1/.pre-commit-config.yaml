@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-yaml
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: black
+        name: Run black
+        stages: [pre-commit]
+        language: system
+        entry: black --check --diff src tests
+        types: [python]
+
+      - id: flake8
+        name: Run flake8
+        stages: [pre-commit]
+        language: system
+        entry: flake8 src tests
+        types: [python]
+        verbose: true
+
+

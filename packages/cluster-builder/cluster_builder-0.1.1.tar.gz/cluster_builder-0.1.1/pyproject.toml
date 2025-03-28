@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cluster-builder"
+version = "0.1.1"
+description = "Swarmchestrate cluster builder"
+readme = "README.md"
+authors = [
+    {name = "Gunjan", email = "G.Kotak@westminster.ac.uk"},
+    {name = "Jay", email = "J.Deslauriers@westminster.ac.uk"}
+]
+license = {text = "Apache2"}
+
+dependencies = [
+    "names_generator",
+    "python-hcl2",
+    "lark-parser",
+    "jinja2",
+    "python-dotenv"
+]
+
+[tool.setuptools]
+packages = ["cluster_builder"]

@@ -1,0 +1,101 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [ "hatchling", "uv-dynamic-versioning" ]
+
+[project]
+name = "gettake"
+description = "Get and save images from webcomicgamma"
+readme = "README.md"
+keywords = [
+  "cli",
+  "downloader",
+  "manga",
+]
+license = { text = "MIT" }
+authors = [ { name = "eggplants", email = "w10776e8w@yahoo.co.jp" } ]
+requires-python = ">=3.9,<4"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Graphics",
+  "Typing :: Typed",
+]
+dynamic = [ "version" ]
+dependencies = [
+  "pillow>=11.1,<12",
+  "requests>=2.32.3,<3",
+]
+urls.Documentation = "https://egpl.dev/gettake/"
+urls.Repository = "https://github.com/eggplants/gettake"
+scripts.gettake = "gettake.main:main"
+
+[dependency-groups]
+dev = [
+  "mypy>=0.991,<1.15",
+  "pre-commit>=2.20,<5",
+  "pytest>=7.2.2,<9",
+  "pytest-cov>=4,<7",
+  "ruff>=0.4.1,<0.9",
+  "taskipy>=1.10.3,<2",
+  "types-pillow>=10.2.0.20240415,<11",
+  "types-requests>=2.31.0.20240406,<3",
+]
+docs = [ "pdoc" ]
+
+[tool.hatch.version]
+# NOTE: tool.hatch.version.source is not listed in official schema.
+# https://github.com/ninoseki/uv-dynamic-versioning/issues/21
+source = "uv-dynamic-versioning"
+
+[tool.hatch.build.targets]
+sdist.include = [ "gettake" ]
+wheel.include = [ "gettake" ]
+
+[tool.ruff]
+format.indent-style = "space"
+format.quote-style = "double"
+
+[tool.mypy]
+pretty = true
+python_version = "3.12"
+show_error_codes = true
+strict = true
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "strict"
+
+[tool.uv]
+default-groups = [
+  "dev",
+  "docs",
+]
+
+[tool.uv-dynamic-versioning]
+vcs = "git"
+style = "semver"
+
+[tool.lint.ruff]
+select = [
+  "ALL",
+]
+
+[tool.lint.ruff.per-file-ignores]
+"main.py" = [
+  "T201", # `print` found
+]
+"tests/*test_*.py" = [
+  "S101", # Use of assert detected
+]
+
+[tool.taskipy.tasks]
+test = "pytest --cov=gettake --cov-report=term"
+"test:ci" = "task test --cov-report=xml:cov.xml"
+lint = "pre-commit run -a"
+profile = "python -m cProfile"
+gendoc = "pdoc gettake -o ./docs"

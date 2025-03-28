@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: vertex-FC
+Version: 0.1.1.post1
+Summary: fMRI functional connectivity toolkit with GPU acceleration using torch
+Home-page: https://github.com/cole-khamnei/vertex
+Author: Cole Khamnei
+Author-email: Cole Khamnei <cole.khamnei@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/cole-khamnei/vertex
+Keywords: fMRI,functional connectivity,GPU,XLA,torch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: memory_profiler>=0.61.0
+Requires-Dist: nibabel>=5.3.2
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: py_cpuinfo>=9.0.0
+Requires-Dist: scipy>=1.15.2
+Requires-Dist: torch>=2.6.0
+Requires-Dist: tqdm>=4.66.6
+Dynamic: author
+Dynamic: home-page
+
+# VERTEX: Accelerated fMRI Functional Connectivity Tools
+VERTEX is a a python for functional connectivity analysis at the voxel / vertex level that utilizes pytorch for GPU speed ups and scipy sparse matrices for memory savings.
+
+# Tools:
+	[] list tools: vFC tools
+	[] clustering methods:
+		[] PM: infomaps - for individual parcellations
+		[] PM: with other clustering techniques
+		[] PM: integrate with Sparse-Low Rank Clustering
+
+
+# Acceleration Effects:
+Comparisons are with `wb_command` package (~~version~~):
+
+### Time Speed Up
+	[] Creating dconns:
+	[] Creating sparse dconns:
+	[] Dconn comparisons
+
+### Memory Savings
+	[] Creating dconns
+	[] Sparse dconns
+	[] Dconn comparisons
+
+### Storage Savings
+	[] Sparse dconns
+	[] Dconn comparisons

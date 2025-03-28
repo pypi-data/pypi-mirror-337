@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: video2pdf-cli
+Version: 0.1.0
+Summary: Extract frames from a video and summarize them as a PDF file.
+Author-email: Jiadong He <jiadonghe007@gmail.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: reportlab>=4.3.1
+Requires-Dist: scikit-image>=0.25.2
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: tyro>=0.9.17
+Description-Content-Type: text/markdown
+
+## Usage
+```shell
+usage: video2pdf [-h] --input STR [--output STR] [--jump INT]
+
+Extract frames from a video and summarize them as a PDF file.
+
+╭─ options ───────────────────────────────────────────╮
+│ -h, --help          show this help message and exit │
+│ --input STR         input video path (required)     │
+│ --output STR        output path (default: tmp.pdf)  │
+│ --jump INT          jump seconds (default: 2)       │
+╰─────────────────────────────────────────────────────╯
+```

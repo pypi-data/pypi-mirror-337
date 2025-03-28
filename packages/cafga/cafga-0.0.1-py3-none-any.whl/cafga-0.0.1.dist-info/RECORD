@@ -1,0 +1,14 @@
+cafga/__init__.py,sha256=a0RjWO078FYfPwePKbrYZfsxsHYIDgSyKnaS53cLt0c,91
+cafga/cafga.py,sha256=trqfR7IUJP45cJYioiL6BVaP7C9xN2suCy52cdyVx_o,27716
+cafga/config.py,sha256=uW2pJD4SxHOFeq-P1Wro1kwep594dn4QkLrUuQAbOz4,700
+cafga/containers.py,sha256=hvFnTw7QJTRhIoePzHiJ0fxlRIaf9jTf2H03VFk_beg,2973
+cafga/util.py,sha256=rFY85Bj5qJFQA2eJH_bVf2VBKCOFs6de2adTy0hJFg8,14102
+cafga/demo/src/demo/__init__.py,sha256=n8zk4mx1Gc5sgjRN477TzKJDx5_3AajKu8XOdfyUlQ0,1365
+cafga/models/__init__.py,sha256=UCQp2jgO19ydNuwQZ5Enso5-7bR0_Ta2qqoJwbjUti0,1913
+cafga/models/huggingface.py,sha256=OEYKRTTdRsFl59a0bied_h_8brZWT_RK6OQLFh_jKC4,2773
+cafga/models/openai.py,sha256=VOeiDzMoUapkZVZG7hmgdReZrN5K18VEV4Ps-N_LcTg,3295
+cafga-0.0.1.dist-info/licenses/LICENSE,sha256=V3wvEnCo8iF9Wyi7KCp0F0bY9HqQFHao6AQclsm98Ds,1518
+cafga-0.0.1.dist-info/METADATA,sha256=M_mebTv8vUhR__nVBmjI9AKr8meoT7pe4kSC87GbnHg,6359
+cafga-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cafga-0.0.1.dist-info/top_level.txt,sha256=VRXXwHIXYmvUJ6a00g7e2oscrshhzxZ2X5RWIxee9n4,6
+cafga-0.0.1.dist-info/RECORD,,

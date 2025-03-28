@@ -1,0 +1,26 @@
+[project]
+name = "pypostcard"
+version = "0.1.1"
+description = "Python implementation of the postcard serialization format"
+authors = [
+    {name = "Micke Prag", email = "micke.prag@gmail.com"},
+    { name = "Simon Österberg", email = "simon.osterberg@gmail.com" }
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers", 
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=8.3.2",
+    "pyserde>=0.20.1; platform_python_implementation == 'CPython'",
+]

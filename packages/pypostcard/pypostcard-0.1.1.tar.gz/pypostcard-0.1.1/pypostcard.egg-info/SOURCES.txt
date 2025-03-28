@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+pypostcard/__init__.py
+pypostcard/compat.py
+pypostcard/serde.py
+pypostcard/types.py
+pypostcard.egg-info/PKG-INFO
+pypostcard.egg-info/SOURCES.txt
+pypostcard.egg-info/dependency_links.txt
+pypostcard.egg-info/requires.txt
+pypostcard.egg-info/top_level.txt
+tests/test_compat.py
+tests/test_serde.py
+tests/test_types.py

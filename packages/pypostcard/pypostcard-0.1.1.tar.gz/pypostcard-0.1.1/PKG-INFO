@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: pypostcard
+Version: 0.1.1
+Summary: Python implementation of the postcard serialization format
+Author-email: Micke Prag <micke.prag@gmail.com>, Simon Österberg <simon.osterberg@gmail.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pytest>=8.3.2
+Requires-Dist: pyserde>=0.20.1; platform_python_implementation == "CPython"
+
+# PyPostcard
+
+Python implementation of the postcard serialization format.
+
+## Installation
+
+### Using uv (recommended)
+
+```bash
+uv pip install .
+```
+
+The package automatically detects your Python implementation and installs the appropriate dependencies:
+- On CPython: Installs with pyserde for efficient serialization
+- On PyPy: Uses a custom optimized implementation
+
+### Development Installation
+
+Install in editable mode:
+```bash
+uv pip install -e .
+```
+
+## Implementation Details
+
+The library automatically detects whether you're using CPython or PyPy and uses the appropriate implementation:
+- On CPython: Uses `pyserde` for efficient serialization/deserialization
+- On PyPy: Uses a custom implementation optimized for PyPy

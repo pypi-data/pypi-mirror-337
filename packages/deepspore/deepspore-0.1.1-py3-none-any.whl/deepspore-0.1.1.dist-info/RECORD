@@ -1,0 +1,8 @@
+deepspore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepspore/ddp_trainer.py,sha256=Q5zN8T7l-WMh74IWsJZ8t5IaZmZrNz4SQm-Fygu5tUY,2625
+deepspore/ddp_trainer_demo.py,sha256=tWQeO-Tq9ub0-OyGDHfFOcuSGOFcv4XVQQlmnNELa0k,2270
+deepspore/training.py,sha256=sbR5kxjzRjTF6sMPCzeZOgD4wZ1PfzEA9d9-8p3L_JY,13537
+deepspore-0.1.1.dist-info/METADATA,sha256=Fi3AjPn9YG5PxWe9EQzw3HaSUTPhVcomkbeWMHtbww0,338
+deepspore-0.1.1.dist-info/WHEEL,sha256=jB7zZ3N9hIM9adW7qlTAyycLYW9npaWKLRzaoVcLKcM,91
+deepspore-0.1.1.dist-info/top_level.txt,sha256=xoai3doNQW76KMdlbmIzjLMOvSCU6oPWZIsasFJwMko,10
+deepspore-0.1.1.dist-info/RECORD,,

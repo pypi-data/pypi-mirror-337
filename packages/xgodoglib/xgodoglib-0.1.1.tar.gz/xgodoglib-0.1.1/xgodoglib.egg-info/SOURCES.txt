@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+xgodoglib.egg-info/PKG-INFO
+xgodoglib.egg-info/SOURCES.txt
+xgodoglib.egg-info/dependency_links.txt
+xgodoglib.egg-info/top_level.txt
+xgolib/__init__.py
+xgolib/xgolib.py
+xgoscreen/LCD_2inch.py
+xgoscreen/__init__.py
+xgoscreen/lcdconfig.py

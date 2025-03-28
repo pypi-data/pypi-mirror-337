@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: arc-agi
+Version: 0.0.3
+Summary: Work in progress...
+License: test
+Requires-Python: >=3.13
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+WIP

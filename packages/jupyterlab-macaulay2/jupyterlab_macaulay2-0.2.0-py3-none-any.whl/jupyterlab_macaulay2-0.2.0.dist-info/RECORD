@@ -1,0 +1,17 @@
+jupyterlab_macaulay2/__init__.py,sha256=91xT156s-2PSZIKbp36j6lCw9iI-_TP2VY2crIHg5P8,598
+jupyterlab_macaulay2/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/package.json,sha256=tSDXuKRDI8ju_l1QEfPbQ1G421fBJHCf3qxLma_bEE0,6017
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/220.1ee533abd9f78899917d.js,sha256=HuUzq9n3iJmRfa9syQx1E7ndUxVkNLF4sn7TxKAM104,23159
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/57.24da7a4f53017a85160d.js,sha256=JNp6T1MBeoUWDXX-Q07AMrN_xQPm0jtYBUrTx36vhV8,958666
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/60.e5a67ae0f8243e4ff1fe.js,sha256=5aZ64PgkPk_x_vkie0513FjEwqni8dw5MZLnLlgWQN8,13416
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/679.e5a67ae0f8243e4ff1fe.js,sha256=5aZ64PgkPk_x_vkie0513FjEwqni8dw5MZLnLlgWQN8,13416
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/728.ac0b7099b1f4c6739ffa.js,sha256=rAtwmbH0xnOf-vSecIqkQhoqjNrGTYrhnAzsYETZNME,4163
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/851.815a4b39af6f5dfaf2c1.js,sha256=gVpLOa9vXfrywdmWgmWVaYcn_mCU9-zcFSaqYG_XFY8,6832
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/remoteEntry.67138fc6332b560c3de8.js,sha256=ZxOPxjMrVgw96AWySn7EiKXgjuia6A_hCCpqf2n8-po,8040
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/style.js,sha256=A5TFd8QRosPJEWoVkIr7PHkdyQeDbVJikl9hHX3nNyg,163
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/static/third-party-licenses.json,sha256=eTcfQqPPrejMIjWxBg7eie2d6UWyGjY40sRXFChhju4,8424
+jupyterlab_macaulay2-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-macaulay2/install.json,sha256=dygsxgSonab6a_Lvj5H9y4px5B6xyjDgYh8suS2ba38,201
+jupyterlab_macaulay2-0.2.0.dist-info/METADATA,sha256=IcZR4vAcIWFmQFRHQ6frw7VIuDUPA4rv1SCt5SxlT-o,6253
+jupyterlab_macaulay2-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jupyterlab_macaulay2-0.2.0.dist-info/licenses/LICENSE,sha256=yn1XNG76PmdRsHW62YHriABxkFEDocEoK9AI56Pf_hY,1521
+jupyterlab_macaulay2-0.2.0.dist-info/RECORD,,

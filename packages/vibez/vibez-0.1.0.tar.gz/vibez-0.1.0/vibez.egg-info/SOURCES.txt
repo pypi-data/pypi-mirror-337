@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vibez/__init__.py
+vibez/main.py
+vibez.egg-info/PKG-INFO
+vibez.egg-info/SOURCES.txt
+vibez.egg-info/dependency_links.txt
+vibez.egg-info/entry_points.txt
+vibez.egg-info/requires.txt
+vibez.egg-info/top_level.txt

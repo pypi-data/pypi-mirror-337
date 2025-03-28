@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: arve
+Version: 0.2.2
+Summary: Analyzing Radial Velocity Elements
+Home-page: https://github.com/almoulla/arve
+Author: Khaled Al Moulla
+Author-email: khaled.almoulla@gmail.com
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astroquery
+Requires-Dist: lmfit
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+<p align="center">
+    <img width="500" src="https://github.com/almoulla/arve/blob/main/arve/_logo/logo.png?raw=true"/>
+</p>
+
+# ARVE ~ Analyzing Radial Velocity Elements
+
+## Installation
+
+```
+pip install arve
+```

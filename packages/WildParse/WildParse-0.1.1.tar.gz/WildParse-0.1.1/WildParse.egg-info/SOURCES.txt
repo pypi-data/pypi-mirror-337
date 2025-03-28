@@ -1,0 +1,9 @@
+README.md
+setup.py
+WildParse/__init__.py
+WildParse/parser.py
+WildParse.egg-info/PKG-INFO
+WildParse.egg-info/SOURCES.txt
+WildParse.egg-info/dependency_links.txt
+WildParse.egg-info/requires.txt
+WildParse.egg-info/top_level.txt

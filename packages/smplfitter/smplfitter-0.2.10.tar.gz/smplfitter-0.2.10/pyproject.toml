@@ -1,0 +1,69 @@
+[build-system]
+requires = [
+    "setuptools>=64",
+    "wheel",
+    "numpy",
+    "setuptools_scm[toml]>=8"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smplfitter"
+dynamic = ["version"]
+description = "Fast inverse kinematics and shape fitting for SMPL-family models in NumPy, PyTorch, and TensorFlow"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "István Sárándi", email = "istvan.sarandi@uni-tuebingen.de" }
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "chumpy"
+]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow"]
+pytorch = ["torch"]
+
+keywords = [
+    "smpl",
+    "smplx",
+    "smplh",
+    "3d-human",
+    "body-model",
+    "ik",
+    "inverse-kinematics",
+    "parametric-model",
+    "pose-estimation",
+    "differentiable",
+    "gpu",
+    "tensorflow",
+    "pytorch",
+    "numpy",
+    "batch-processing"
+]
+
+[project.urls]
+Homepage = "https://github.com/isarandi/smplfitter"
+Repository = "https://github.com/isarandi/smplfitter"
+Issues = "https://github.com/isarandi/smplfitter/issues"
+Author = "https://istvansarandi.com"
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
+write_to = "src/smplfitter/_version.py"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 99
+skip-string-normalization = true

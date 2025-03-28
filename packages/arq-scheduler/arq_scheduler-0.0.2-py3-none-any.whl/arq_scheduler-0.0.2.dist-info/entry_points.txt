@@ -1,0 +1,2 @@
+[console_scripts]
+arq_scheduler = arq_scheduler.cli:cli

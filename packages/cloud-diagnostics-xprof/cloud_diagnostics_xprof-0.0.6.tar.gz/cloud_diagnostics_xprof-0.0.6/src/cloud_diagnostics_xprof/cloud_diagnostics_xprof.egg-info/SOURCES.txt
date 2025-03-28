@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/cloud_diagnostics_xprof/actions/action.py
+src/cloud_diagnostics_xprof/actions/capture_action.py
+src/cloud_diagnostics_xprof/actions/connect_action.py
+src/cloud_diagnostics_xprof/actions/create_action.py
+src/cloud_diagnostics_xprof/actions/delete_action.py
+src/cloud_diagnostics_xprof/actions/list_action.py
+src/cloud_diagnostics_xprof/cloud_diagnostics_xprof.egg-info/PKG-INFO
+src/cloud_diagnostics_xprof/cloud_diagnostics_xprof.egg-info/SOURCES.txt
+src/cloud_diagnostics_xprof/cloud_diagnostics_xprof.egg-info/dependency_links.txt
+src/cloud_diagnostics_xprof/cloud_diagnostics_xprof.egg-info/top_level.txt

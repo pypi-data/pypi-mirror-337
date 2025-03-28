@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "g9_api_client"
+authors = [{ name = "Jose Rolo", email = "ze.p.rolo@gmail.com" }]
+version = "0.0.1"
+description = "Python library to retrieve information from \"G9\" portal"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["api", "g9"]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests"
+]

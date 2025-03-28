@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./g9_api_client/__init__.py
+./g9_api_client/constants.py
+./g9_api_client/g9.py
+g9_api_client/__init__.py
+g9_api_client/constants.py
+g9_api_client/g9.py
+g9_api_client.egg-info/PKG-INFO
+g9_api_client.egg-info/SOURCES.txt
+g9_api_client.egg-info/dependency_links.txt
+g9_api_client.egg-info/requires.txt
+g9_api_client.egg-info/top_level.txt

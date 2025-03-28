@@ -1,0 +1,10 @@
+pandas
+google-cloud-bigquery
+xgboost
+scikit-learn
+pyyaml
+google-generativeai
+db-dtypes
+xlsxwriter
+apache-airflow
+pendulum

@@ -1,0 +1,61 @@
+[project]
+name = "arc-agi"
+version = "0.1.0"
+description = "WIP"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arc-core",
+    "arc-torch",
+    "arc-lambda",
+    "arc-llm",
+]
+
+[project.urls]
+
+[dependency-groups]
+lint = [
+    "ruff>=0.11.2",
+]
+dev = [
+    "ipykernel>=6.29.5",
+]
+
+[tool.uv.sources.arc]
+path = "./libs/arc"
+editable = true
+
+[tool.uv.sources.arc-core]
+path = "./libs/arc/core"
+editable = true
+
+[tool.uv.sources.arc-torch]
+path = "./libs/arc/torch"
+editable = true
+
+[tool.uv.sources.arc-lambda]
+path = "./libs/arc/lambda"
+editable = true
+
+[tool.uv.sources.arc-llm]
+path = "./libs/arc/llm"
+editable = true
+
+[tool.ruff]
+extend-include = [
+    "*.ipynb",
+]
+
+[tool.ruff.lint]
+select = [
+    "D",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

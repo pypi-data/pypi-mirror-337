@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: arc-agi
+Version: 0.1.0
+Summary: WIP
+Requires-Python: >=3.13
+Requires-Dist: arc-core
+Requires-Dist: arc-torch
+Requires-Dist: arc-lambda
+Requires-Dist: arc-llm
+Description-Content-Type: text/markdown
+
+# ARC-Research-Template

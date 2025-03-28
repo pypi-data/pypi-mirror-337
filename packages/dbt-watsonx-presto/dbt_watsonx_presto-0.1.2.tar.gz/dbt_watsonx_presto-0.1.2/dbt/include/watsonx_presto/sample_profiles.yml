@@ -1,0 +1,26 @@
+default:
+  outputs:
+
+    dev:
+      type: watsonx_presto
+      method: BasicAuth  # one of {none | BasicAuth}
+      user: [dev_user]
+      password: [password]  # required if method is BasicAuth
+      host: [hostname]
+      port: [port_number]
+      catalog: [catalog_name]
+      schema: [dev_schema]
+      threads: [1 or more]
+
+    prod:
+      type: watsonx_presto
+      method: BasicAuth  # one of {none | BasicAuth}
+      user: [prod_user]
+      password: [prod_password]  # required if method is BasicAuth
+      host: [hostname]
+      port: [port_number]
+      catalog: [catalog_name]
+      schema: [prod_schema]
+      threads: [1 or more]
+  
+  target: dev

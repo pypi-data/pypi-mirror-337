@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: mcp-guardian
+Version: 0.1.1
+Summary: A lightweight guardian/middleware for MCP servers (auth, rate-limiting, logging, WAF, etc.)
+Author-email: AI Anytime <aianytime07@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/AIAnytime/mcp-guardian
+Project-URL: Repository, https://github.com/AIAnytime/mcp-guardian
+Project-URL: Bug Tracker, https://github.com/AIAnytime/mcp-guardian/issues
+Keywords: mcp,security,middleware,observability
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest<8.0,>=7.0; extra == "dev"

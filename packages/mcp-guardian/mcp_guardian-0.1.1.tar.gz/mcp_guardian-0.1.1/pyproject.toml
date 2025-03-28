@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=62.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-guardian"
+version = "0.1.1"
+description = "A lightweight guardian/middleware for MCP servers (auth, rate-limiting, logging, WAF, etc.)"
+authors = [
+  { name = "AI Anytime", email = "aianytime07@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["mcp", "security", "middleware", "observability"]
+classifiers = [
+  "Programming Language :: Python :: 3"
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0,<8.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/AIAnytime/mcp-guardian"
+Repository = "https://github.com/AIAnytime/mcp-guardian"
+"Bug Tracker" = "https://github.com/AIAnytime/mcp-guardian/issues"
+
+[project.scripts]
+# Uncomment when CLI is ready
+# mcp-guardian = "mcp_guardian.cli:main"

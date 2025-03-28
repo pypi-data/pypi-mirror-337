@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mvn-utils
+Version: 1.0.5
+Summary: code sdk
+Home-page: https://xxx.com
+Author: xuwuqiang
+Author-email: xwqiang2008@outlook.com
+License: MIT Licence
+Keywords: mvn utils,java dependencies
+Platform: any
+Requires-Dist: setuptools (==65.6.3)
+
+
+    command line tool for maven dependencies
+    
+    usage:
+    dependency -d 'your mvn project path' 
+    
+    output is mermaid graph, you can use https://mermaid-js.github.io/mermaid-live-editor/ to preview
+    
+    

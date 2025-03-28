@@ -1,0 +1,19 @@
+[project]
+name = "git-version-stamp"
+version = "0.4.1"
+description = "Make a version from git repo/tree status for files of interest"
+readme = "README.md"
+authors = [{ name = "Dan Egnor", email = "egnor@ofb.net" }]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/egnor/git-version-stamp/#readme"
+Repoository = "https://github.com/egnor/git-version-stamp.git"
+
+[project.scripts]
+git-version-stamp = "git_version_stamp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

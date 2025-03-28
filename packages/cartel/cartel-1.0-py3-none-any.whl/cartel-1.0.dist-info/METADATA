@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: cartel
+Version: 1.0
+Summary: Как ему не страшно говорить про кортель
+Author: mistertayodimon
+Author-email: dimondimonych1@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+Библиотека cartel: как ей пользоваться
+
+cartel - это шуточная библиотека при помощи которой можно написать скрипт который будет выводить текстовый мем из тиктока "Как ему не страшно говорить про кортель"
+Пример использования:
+from cartel import carteltext
+
+text = carteltext()
+print(text)
+
+Пользуйтесь на здоровье! (Интересно для чего ее вообще будут использовать...)

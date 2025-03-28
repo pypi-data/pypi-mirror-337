@@ -1,0 +1,134 @@
+# CloudSMS Python SDK
+
+A Python SDK for the CloudSMS API, allowing you to easily integrate SMS functionality into your Python applications.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install cloudsms
+```
+
+## Requirements
+
+- Python 3.6 or higher
+- requests>=2.25.0
+
+## Quick Start
+
+```python
+from cloudsms import CloudSMSClient
+
+# Initialize the client
+client = CloudSMSClient(
+    api_token="your-api-token",
+    sender_id="your-sender-id"
+)
+
+# Test the connection
+test_response = client.test_connection()
+print(test_response["status"])  # 'success' or 'error'
+
+# Check your balance
+balance_response = client.get_balance()
+if balance_response["status"] == "success":
+    print(f"Current balance: {balance_response['data']}")
+
+# Send an SMS
+sms_response = client.send_sms(
+    phone_number="+1234567890",
+    message="Hello from CloudSMS!"
+)
+if sms_response["status"] == "success":
+    print("SMS sent successfully!")
+else:
+    print(f"Error: {sms_response['message']}")
+```
+
+## API Reference
+
+### CloudSMSClient
+
+The main class for interacting with the CloudSMS API.
+
+#### Constructor
+
+```python
+client = CloudSMSClient(api_token: str = "", sender_id: str = "")
+```
+
+- `api_token`: Your CloudSMS API token
+- `sender_id`: Your CloudSMS sender ID
+
+#### Methods
+
+##### get_balance()
+
+Get your current account balance.
+
+```python
+response = client.get_balance()
+```
+
+Returns:
+```python
+{
+    "status": "success",
+    "data": "100.00"  # Balance amount without currency symbol
+}
+```
+
+##### test_connection()
+
+Test the API connection.
+
+```python
+response = client.test_connection()
+```
+
+Returns:
+```python
+{
+    "status": "success",
+    "message": "Connection successful! Your account is properly configured."
+}
+```
+
+##### send_sms(phone_number: str, message: str)
+
+Send an SMS message.
+
+```python
+response = client.send_sms(
+    phone_number="+1234567890",
+    message="Hello from CloudSMS!"
+)
+```
+
+Returns:
+```python
+{
+    "status": "success",
+    "success": True
+}
+```
+
+## Error Handling
+
+All methods return a dictionary with at least a "status" key that can be either "success" or "error". When an error occurs, the response will include an error message:
+
+```python
+{
+    "status": "error",
+    "message": "Error description here"
+}
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Support
+
+For support, please visit [https://cloudsms.gr](https://cloudsms.gr) or contact info@gsoftware.gr.

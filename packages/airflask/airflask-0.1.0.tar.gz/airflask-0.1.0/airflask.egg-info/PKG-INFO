@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: airflask
+Version: 0.1.0
+Summary: Simplest way to host your flask web app in production!
+Home-page: https://github.com/naitikmundra/AirFlask
+Author: Naitik Mundra
+Author-email: naitikmundra18@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: click
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# AirFlask
+Simplest way to host flask web apps in production.
+Using nginx and gunicorn.
+
+## Installation
+`pip install airflask`
+
+## Usage
+**Deploying**
+
+`airflask deploy <path>`
+
+where path is full path to parent folder containing our app.py (BE sure to rename the main flask file as `app.py`)
+
+for eg. `airflask deploy /home/naitik/flaskecomapp/`
+
+**Stop or Restart**
+
+`airflask restart <path>` 
+
+`airflask stop <path>`
+
+Restart whenever you make any changes
+
+
+
+
+

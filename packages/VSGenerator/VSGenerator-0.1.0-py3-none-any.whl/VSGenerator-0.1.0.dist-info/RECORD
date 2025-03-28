@@ -1,0 +1,10 @@
+VSGenerator/DVSNet.py,sha256=r_wxaQbraYQ-tbx16xFzYqYX3Wnoot1EBmbNZY2x7wQ,10030
+VSGenerator/__init__.py,sha256=nh9xWmictD1UxPJswCx9eK6pcqyulAh921nllEJhFiI,376
+VSGenerator/_BgoVAE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VSGenerator/_BgoVAE/svae.py,sha256=4YSoOw5JJQXLy1mhCz9sTlsktFUIGncY__qzUV_J2ZY,3134
+VSGenerator/_VSGNN/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VSGenerator/_VSGNN/vsg.py,sha256=oQMEKFy56V2h5a72I-Pi39HPDINM52n13lE_a_4Tjbw,2961
+VSGenerator-0.1.0.dist-info/METADATA,sha256=U_wHsYV6X_u5wZaFHOBEKRe4X2YbfH9r5xRyFnrTCPw,1161
+VSGenerator-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+VSGenerator-0.1.0.dist-info/top_level.txt,sha256=4Hdahh35TirmR7s8WPjv12o0wS3DbZM9DYrG9X4NgvQ,12
+VSGenerator-0.1.0.dist-info/RECORD,,

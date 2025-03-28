@@ -1,0 +1,2 @@
+[console_scripts]
+docs-extractor = docs_extractor.cli:main

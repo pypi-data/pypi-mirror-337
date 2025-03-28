@@ -1,0 +1,2 @@
+[console_scripts]
+conv = atomorph.cli:main

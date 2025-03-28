@@ -1,0 +1,9 @@
+cryptography
+
+[dev]
+pytest
+flask
+build
+pre-commit
+ruff
+bump-my-version

@@ -1,0 +1,17 @@
+igbot_base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+igbot_base/agent.py,sha256=iyjKdY7d0xbk5Mlb9LWeK0hxXq8VZ4yc4MKwhPMUeig,177
+igbot_base/agent_response.py,sha256=eAps47djL_aWYn8P_BMpVGkPwO6m8nhltWWyh8qSG6E,1042
+igbot_base/exception_handler.py,sha256=BMzQpgP4jnnRuTcEItx0oMljTZmKgMRCHzpybHn88Ig,341
+igbot_base/llm.py,sha256=2Fsb4BTeK-SiujDPWEySVnXWkIkQMSsjcqq_1QRVjqM,1428
+igbot_base/llmmemory.py,sha256=KslOeTSZwvHVyFglbFhPcb6_GCCXZOqHz5YBTzJ2mew,977
+igbot_base/models.py,sha256=15bitUZy4Z4JhZbLd_SMx5pD7m8YuZiIq-wYGumf0ws,622
+igbot_base/persistable_memory.py,sha256=7-2GZK646SkSyCdQ1HLh5xGw0-JEGuur4RzI_sl9HYI,155
+igbot_base/prompt_template.py,sha256=s19X_MznzezZ8GecVB0cOUB7PsBRykLGWErOLGXZKec,1095
+igbot_base/response_formats.py,sha256=Sp679VfkcyxsR19ddFEHTOM7Ox0u2WBhdji_Y9pVc2M,94
+igbot_base/retriever.py,sha256=lwQhJbPtlWxiRMoRzqz2VI6WFv-60B8jPvKQc8hdeeY,177
+igbot_base/tool.py,sha256=8QwzQuokkVSITCjZuZJeEbCvJU-n2yh9D-QauQex4Ko,319
+igbot_base/vectorstore.py,sha256=6GGV7QkUltbkQp6Ds_lu3ityF17fj5QWBjoj-Or__fY,831
+igbot_base-0.0.2.dist-info/METADATA,sha256=hMDUXJyF3XR1nApP6zFmv6Iw-Zr3AZOwyNfNcGhc6nw,210
+igbot_base-0.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+igbot_base-0.0.2.dist-info/top_level.txt,sha256=RGpEN0pLsnfNLoLfpw1D_nLSyZwi3ggSaDq07o4ZEAI,11
+igbot_base-0.0.2.dist-info/RECORD,,

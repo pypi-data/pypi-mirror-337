@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ai_api_utils/__init__.py
+ai_api_utils/main.py
+ai_api_utils.egg-info/PKG-INFO
+ai_api_utils.egg-info/SOURCES.txt
+ai_api_utils.egg-info/dependency_links.txt
+ai_api_utils.egg-info/requires.txt
+ai_api_utils.egg-info/top_level.txt

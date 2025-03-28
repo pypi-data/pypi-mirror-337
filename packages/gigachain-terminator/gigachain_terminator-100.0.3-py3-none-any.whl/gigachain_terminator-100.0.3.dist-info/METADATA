@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gigachain-terminator
+Version: 100.0.3
+Summary: ⚠️⚠️⚠️ This package was deprectaed. Upgrade to clear langchain + langchain_gigachat. Uninstall all gigachain-* packages! ⚠️⚠️⚠️
+Author: Konstantin Krestnikov
+Author-email: rai220@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+⚠️⚠️⚠️ This package was deprectaed. Upgrade to clear langchain + langchain_gigachat. Uninstall all gigachain-* packages! ⚠️⚠️⚠️

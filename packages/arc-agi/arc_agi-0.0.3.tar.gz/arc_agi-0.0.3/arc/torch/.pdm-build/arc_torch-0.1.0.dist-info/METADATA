@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: arc-torch
+Version: 0.1.0
+Summary: Extended ARC-RTK for PyTorch integration. 
+Author-Email: Jumyung Park <parkjumyungpublic@gmail.com>
+Requires-Python: >=3.13
+Requires-Dist: torch>=2.6.0
+Description-Content-Type: text/markdown
+

@@ -1,0 +1,2 @@
+[console_scripts]
+bark = src.wicspy.utils.send_bark_message:bark

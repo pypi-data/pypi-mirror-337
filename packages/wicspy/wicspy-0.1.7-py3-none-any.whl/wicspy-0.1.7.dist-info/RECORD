@@ -1,0 +1,17 @@
+wicspy/__init__.py,sha256=EHV0a9BliOgyA5vQCQQSTy6eBUW-oylzBnpPJztcE_g,448
+wicspy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wicspy/config/__init__.py,sha256=h3kiDyiAYP_swTkh4vWw3ddr4EdeGThGmkeem2iNZp0,2186
+wicspy/messaging/__init__.py,sha256=bO0ZhCfEbslZYaIDsLuU52zOEJXQtX1RiatCoEBb0-M,113
+wicspy/messaging/bark.py,sha256=NOpR-DbZd7YX11LA9EOObMZZBEHNlgCqPKNu67N_q0A,3972
+wicspy/security/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wicspy/server/__init__.py,sha256=4J8ZEbjCjD5QoSnBX4J6JyXRn9-1VTKAcFKNN4Nd56U,220
+wicspy/server/monitor.py,sha256=4fE4icnQzv_95Uk3P847t-xtz4ela-J0U09nhONo_sQ,10997
+wicspy/server/process.py,sha256=0tbn8u-gCsD4QFGZllk1rTMAIxuOVHhBcpnVLvAeVbE,4749
+wicspy/system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wicspy/web/__init__.py,sha256=SplWizW9QxWoFk2CZ4H0p_sYEAar66xwSIQy-v0nu90,120
+wicspy/web/scraper.py,sha256=yS-5Yuv8lar02T72i4C6pc-v0q2FJrAy9yveDR6CtPY,6176
+wicspy-0.1.7.dist-info/METADATA,sha256=ehUjByx-fw_cPnyr4-aSzfJ3079aqIGICfZYS7odxiY,2630
+wicspy-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+wicspy-0.1.7.dist-info/entry_points.txt,sha256=njAN-FsiBlCxVf0k__SiH-8Y48K9wBB-4giBc6PBdFk,65
+wicspy-0.1.7.dist-info/licenses/LICENSE,sha256=kH9qWMQCUG32JiTP_V7H0Pe2vBnVHPInTJxGADyZ1OQ,1062
+wicspy-0.1.7.dist-info/RECORD,,

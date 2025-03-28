@@ -1,0 +1,3 @@
+[console_scripts]
+gitlab-ml=gitlab_ml.cli:app
+

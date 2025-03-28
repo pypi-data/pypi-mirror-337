@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "synapsegraph-lib"
+version = "0.1.1"
+description = "SynapseGraph is a real-time, self-updating knowledge graph designed to integrate with LLMs, enabling intelligent belief formation, probabilistic knowledge updates, and scalable memory management. It continuously learns, refines, and evolves its understanding—mimicking human cognition."
+authors = ["Jack Nam <naminalstack+synapse@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "synapsegraph_lib", from = "src"},
+]
+include = [
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+]
+repository = "https://github.com/thienlnam/SynapseGraph"
+keywords = ["knowledge graph", "ai", "temporal", "beliefs", "neo4j"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+neo4j = ">=5.28.1,<6.0.0"
+langchain = ">=0.3.20,<0.4.0"
+langchain-community = ">=0.3.19,<0.4.0"
+openai = ">=1.65.5,<2.0.0"
+python-dotenv = ">=1.0.1,<2.0.0"
+langchain-openai = ">=0.3.8,<0.4.0"
+pydantic = ">=2.0.0"
+scikit-learn = ">=1.6.1,<2.0.0"
+sentence-transformers = ">=3.4.1,<4.0.0"
+python-levenshtein = ">=0.27.1,<0.28.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["src/tests", "tests/integration"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+[tool.poetry.scripts]
+synapse-cli = "scripts.cli.synapse_cli:main"

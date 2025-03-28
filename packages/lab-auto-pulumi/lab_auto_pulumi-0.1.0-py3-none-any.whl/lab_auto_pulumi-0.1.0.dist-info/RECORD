@@ -1,0 +1,9 @@
+lab_auto_pulumi/__init__.py,sha256=W6XWMKwGt3qmqo5DiojyFjyAf4JTdA-5-aj7WNuH0oE,1167
+lab_auto_pulumi/constants.py,sha256=rEm1zssVm-toh9Vp4he-RE4p_Qw2OWPkKlPFErLS5v8,479
+lab_auto_pulumi/ec2.py,sha256=1HJdD0fC1a5sQfbLf2i3rU7tAZgZi6Ph2O3bsAAMcnI,4313
+lab_auto_pulumi/lib.py,sha256=2yXL-EHyVzcl4SAG1WdPuO-V70e2opy0s0v2A50Qo2g,1708
+lab_auto_pulumi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lab_auto_pulumi-0.1.0.dist-info/METADATA,sha256=qJP4TO7WSxOltZzHTlbI3tqrcPNI9jIt5wjf7Pkvgn8,2893
+lab_auto_pulumi-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+lab_auto_pulumi-0.1.0.dist-info/top_level.txt,sha256=gbrqBYxRky3Ag6JOpVB3_dm3IjTuoQ7i7rwxfF4V3ng,16
+lab_auto_pulumi-0.1.0.dist-info/RECORD,,

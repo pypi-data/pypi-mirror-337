@@ -1,0 +1,2 @@
+[console_scripts]
+baidu-maps = baidu_maps:main

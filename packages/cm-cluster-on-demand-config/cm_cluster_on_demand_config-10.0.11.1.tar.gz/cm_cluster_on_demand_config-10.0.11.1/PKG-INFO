@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: cm-cluster-on-demand-config
+Version: 10.0.11.1
+Summary: Bright Computing COD configuration library
+Home-page: https://www.brightcomputing.com/
+Author: Cloudteam
+Author-email: cloudteam@brightcomputing.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mako>=0.8.1
+Requires-Dist: PrettyTable>=3.4.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+With Cluster on Demand you can spin up a cluster running Bright Cluster Manager.
+
+This package is a supporting package, for the full COD client packages check:
+- cm-cluster-on-demand-aws
+- cm-cluster-on-demand-azure

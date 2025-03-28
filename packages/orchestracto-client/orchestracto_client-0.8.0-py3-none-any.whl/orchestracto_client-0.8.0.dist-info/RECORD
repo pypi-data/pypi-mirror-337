@@ -1,0 +1,8 @@
+orc_client/__init__.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+orc_client/cli.py,sha256=FbyM9s9p3cTHPOQM5KUimq0vYEtmM_ZBA0U_BMEs-uQ,9899
+orc_client/client.py,sha256=Jk0GLFrF6PfGOOzrbD_HEWN-etIqcBgp3wUHHH66olQ,5293
+orchestracto_client-0.8.0.dist-info/METADATA,sha256=-hLtdP7qa5wDpqNq1KhI3BVVpZbMRAXzs1oVVf-T2WU,170
+orchestracto_client-0.8.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+orchestracto_client-0.8.0.dist-info/entry_points.txt,sha256=OBniMtt1Lid0g_91JDQ_xppEgFehRTocANin1O8hILE,44
+orchestracto_client-0.8.0.dist-info/top_level.txt,sha256=fNW7xd-I9i0QhrpLlZs_YGFRHr04FmTe9CfbTzqoUPI,11
+orchestracto_client-0.8.0.dist-info/RECORD,,

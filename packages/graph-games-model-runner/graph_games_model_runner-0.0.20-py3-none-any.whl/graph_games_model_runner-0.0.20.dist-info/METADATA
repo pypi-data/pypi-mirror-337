@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: graph-games-model-runner
+Version: 0.0.20
+Requires-Dist: multipledispatch==1.0.0
+Requires-Dist: torch==2.2.0
+Requires-Dist: torch-geometric==2.3.1
+Requires-Dist: graph-games-proto==0.3.645
+

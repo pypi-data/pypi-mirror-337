@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Librosax.egg-info/PKG-INFO
+src/Librosax.egg-info/SOURCES.txt
+src/Librosax.egg-info/dependency_links.txt
+src/Librosax.egg-info/requires.txt
+src/Librosax.egg-info/top_level.txt
+src/librosax/__init__.py
+src/librosax/core.py
+src/librosax/layers/__init__.py
+src/librosax/layers/core.py
+tests/test_librosax.py

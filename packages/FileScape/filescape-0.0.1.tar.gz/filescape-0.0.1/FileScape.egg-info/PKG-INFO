@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: FileScape
+Version: 0.0.1
+Summary: A simple tool to declutter and organize your files.
+Home-page: https://github.com/rtallarr/FileScape
+Author: Rodrigo Tallar
+Keywords: files,sort,organize
+Classifier: Programming Language :: Python :: 3
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: summary
+
+FileTidy helps you sort and clean up your messy folders by automatically categorizing files.

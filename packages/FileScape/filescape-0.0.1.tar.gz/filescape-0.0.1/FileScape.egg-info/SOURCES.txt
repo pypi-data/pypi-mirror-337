@@ -1,0 +1,8 @@
+README.md
+setup.py
+FileScape/__init__.py
+FileScape/core.py
+FileScape.egg-info/PKG-INFO
+FileScape.egg-info/SOURCES.txt
+FileScape.egg-info/dependency_links.txt
+FileScape.egg-info/top_level.txt

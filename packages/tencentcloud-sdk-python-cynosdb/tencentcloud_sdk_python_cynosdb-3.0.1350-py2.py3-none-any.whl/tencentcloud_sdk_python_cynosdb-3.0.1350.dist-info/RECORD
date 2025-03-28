@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=wVNC5MY3FKauOk0lVeGUoZ6dWhMidsFeQu0c5iT863c,631
+tencentcloud/cynosdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cynosdb/v20190107/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cynosdb/v20190107/cynosdb_client.py,sha256=1F5KB6X01N9M6nCFy_g-pHcOdpu3Frs5KuHaEzVssME,148888
+tencentcloud/cynosdb/v20190107/errorcodes.py,sha256=DncycqN7NjO65iTvLL-rlpiTi1MXLlTAfVYOntTBsek,13442
+tencentcloud/cynosdb/v20190107/models.py,sha256=Gb2XwOcTACMAh9MLLLPb0HTihKtJUt1tTebbB0t0zfw,1129498
+tencentcloud_sdk_python_cynosdb-3.0.1350.dist-info/METADATA,sha256=1MSM5ehcd_SoYGxRWFVp3Y1g2qe_Q8hwBy91MZD9R2A,1516
+tencentcloud_sdk_python_cynosdb-3.0.1350.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_cynosdb-3.0.1350.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_cynosdb-3.0.1350.dist-info/RECORD,,

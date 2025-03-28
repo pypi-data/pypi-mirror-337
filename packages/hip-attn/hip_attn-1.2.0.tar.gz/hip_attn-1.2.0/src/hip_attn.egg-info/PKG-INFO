@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: hip-attn
+Version: 1.2.0
+Summary: HiP Attention
+Requires-Python: <3.13,>=3.10
+License-File: LICENSE.md
+Requires-Dist: torch==2.5.1
+Requires-Dist: setuptools
+Requires-Dist: numba
+Requires-Dist: performer_pytorch
+Requires-Dist: peft
+Requires-Dist: seaborn
+Requires-Dist: sympy
+Requires-Dist: bitsandbytes
+Requires-Dist: cupy-cuda12x
+Requires-Dist: nvtx
+Provides-Extra: sglang
+Requires-Dist: sgl-kernel; extra == "sglang"
+Requires-Dist: flashinfer-python; extra == "sglang"
+Requires-Dist: flash-attn; extra == "sglang"
+Requires-Dist: sglang[all]; extra == "sglang"
+Dynamic: license-file

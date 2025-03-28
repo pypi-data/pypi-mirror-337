@@ -1,0 +1,8 @@
+[project]
+name = "mgimo"
+version = "0.1.1"
+description = "Softpower and command line tools by MGIMO"
+authors = [{ name = "Evgeniy Pogrebnyak", email = "e.pogrebnyak@odin.mgimo.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

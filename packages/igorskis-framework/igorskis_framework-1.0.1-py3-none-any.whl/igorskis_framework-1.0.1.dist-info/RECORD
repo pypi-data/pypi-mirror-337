@@ -1,0 +1,15 @@
+igorskis_framework/__init__.py,sha256=VCmyrLWA5D9InycYMzNZCrGmIWKP-R1IvSdreB43XrM,335
+igorskis_framework/base_model.py,sha256=4keDvIA11HPB61G4m3nJoA7YpgGP_cz7-CafGacPo5g,2477
+igorskis_framework/cli.py,sha256=OBGAz1FjuG8mEp85zgvNOHwLUb9CWNd9KGg6faHuQeY,1561
+igorskis_framework/config.py,sha256=I9w1IN3gadvTtbSRj7GCj0hjMA0Z6QlgN7b-3pTefFw,3171
+igorskis_framework/models.py,sha256=c5ERSGVQZoD-ABHphklQv-f8SAY6MQ58KItOdOzLjfE,1758
+igorskis_framework/restart_handler.py,sha256=mykZgo42UvAD31wSWxpAnYlOoHBBX3iXnA-ouNWqqVo,1177
+igorskis_framework/router.py,sha256=uYOEWow9vZrnEOGBFCZpAUuuoNoEtBPmQZLmJ_oYaq0,601
+igorskis_framework/templates.py,sha256=XW0Rde7l3E1Pj1u4r2gQWvxVbJHNci3mKE4yDq3q_Kg,778
+igorskis_framework/validator.py,sha256=SFeLg-0ayfJgEnoJrVm3rkccaoTqruaRBISl5I9jrFc,1115
+igorskis_framework-1.0.1.dist-info/licenses/LICENSE,sha256=uyVQcR2Hnpxi2bArgJPLl49nEumM7nrkRygzrxCwq58,1066
+igorskis_framework-1.0.1.dist-info/METADATA,sha256=IcLn4xAoqeHSAqh-BXHTSH-0Gbpr2HviRFU5yFJ2J3U,2949
+igorskis_framework-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+igorskis_framework-1.0.1.dist-info/entry_points.txt,sha256=_wlux9hCq-J7DBMHf_pMP4WIcmfgyciA8A-m0Tki3jI,63
+igorskis_framework-1.0.1.dist-info/top_level.txt,sha256=VmYU6Q3jtPNPVI009irHn8UWXvEZjlSBwHmtQtwwm2o,19
+igorskis_framework-1.0.1.dist-info/RECORD,,

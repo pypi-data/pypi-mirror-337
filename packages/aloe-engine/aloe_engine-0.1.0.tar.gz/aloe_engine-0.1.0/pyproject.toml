@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aloe-engine"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Asynchronous Lightweight Optimization Engine"
+authors = [
+    { name = "Ethan Tran", email = "ethantran0815@gmail.com" },
+    { name = "Yiwen Wang", email = "yiwenwang9702@gmail.com" },
+    { name = "Ron Sarma", email = "rsarma@andrew.cmu.edu" }
+]
+license = {file = "LICENSE"}
+
+dependencies = [
+    "torchani",
+    "ase",
+    "tqdm",
+    "psutil",
+    "numpy>=1.26.0",
+    "pandas>=2.2.3",
+    "rdkit>=2024.3.1"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"aloe" = ["models/*"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["pics*", "examples*"]

@@ -1,0 +1,149 @@
+# svnm - A Simplified Deep Learning Models Package
+
+`svnm` is a Python package designed to simplify the process of using deep learning models in your code. With just a simple import, you can easily load pre-trained models and make predictions with minimal setup. This package is aimed at making deep learning models more accessible for developers, enabling rapid experimentation and deployment.
+
+## Routing
+
+### Image Classification
+- [Gender Detection](#gender-detection)
+- [Face Detection](#face-detection)
+- [Face Recognition](#face-recognition)
+- [Handwritten Digit Recognition](#handwritten-digit-recognition)
+
+## Features
+
+- **Easy-to-use interface**: Import the package and start making predictions with minimal code.
+- **Pre-trained models**: Includes popular deep learning models ready for use without additional training.
+- **Flexible prediction methods**: Support for various types of input data to make predictions.
+- **Lightweight and efficient**: Focuses on simplifying deep learning workflows without overhead.
+
+## Installation
+
+To install `svnm`, simply use `pip`:
+
+```bash
+pip install svnm
+```
+
+## Model Usage
+
+### Gender Detection
+
+```python
+from svnm.models import GenderDetection
+
+model = GenderDetection()
+
+# Single Prediction
+prediction, confidence = model.predict("face_image.jpg")
+print(f"Predicted Gender: {prediction} with confidence {confidence:.2f}")
+
+# Batch Prediction
+image_paths = ["face1.jpg", "face2.jpg", "face3.jpg"]
+predictions = model.predict_batch(image_paths)
+for img, (label, conf) in zip(image_paths, predictions):
+    print(f"Image: {img} -> Predicted Gender: {label} with confidence {conf:.2f}")
+
+# Visualization
+model.visualize_prediction("face_image.jpg")
+```
+
+## How Gender Detection Works
+
+The Gender Detection model in `svnm` classifies whether a detected face belongs to a male or female. It works as follows:
+
+1. **Loading the Model**: The pre-trained deep learning model is loaded automatically when the `GenderDetection` class is initialized.
+2. **Processing the Image**: The input image is preprocessed and resized before being fed into the model.
+3. **Making Predictions**: The model analyzes the facial features and predicts the gender along with a confidence score.
+4. **Batch Processing**:
+   - Supports batch predictions for multiple images at once.
+   - Each image is processed individually, and the results are returned as a list.
+5. **Visualization**:
+   - If `visualize_prediction()` is called, the image is displayed with the predicted gender and confidence score.
+
+### Face Detection
+
+```python
+from svnm.models import FaceDetection
+
+model = FaceDetection(save=True, save_dir="predictions")
+
+# Single Image Prediction
+predictions = model.predict("face_image.jpg")
+print("Face Detection Results:", predictions)
+
+# Batch Prediction
+image_paths = ["face1.jpg", "face2.jpg", "face3.jpg"]
+batch_predictions = model.predict_batch(image_paths)
+for img, preds in zip(image_paths, batch_predictions):
+    print(f"Image: {img} -> Predictions: {preds}")
+```
+
+## How Face Detection Works
+
+The Face Detection model in `svnm` is designed to detect human faces in images. It works as follows:
+
+1. **Loading the Model**: The pre-trained YOLO-based face detection model is loaded automatically when the `FaceDetection` class is initialized.
+2. **Processing the Image**: The input image is read, preprocessed, and fed into the model.
+3. **Detecting Faces**: The model detects faces in the image and returns bounding box coordinates, confidence scores, and class labels.
+4. **Batch Processing**:
+   - Supports batch predictions for multiple images at once.
+   - Each image is processed individually, and the results are returned as a list.
+5. **Saving and Visualizing Results**:
+   - If `save=True`, the detected faces are highlighted in the image and saved to the specified directory.
+   - The model outputs a list of detected faces with their positions and confidence levels.
+
+### Face Recognition
+
+```python
+from svnm.models import FaceRecognition
+
+model = FaceRecognition()
+
+# Train the model
+train_dataset = [
+    {"imagepath": "person1.jpg", "label": "John"},
+    {"imagepath": "person2.jpg", "label": "Jane"}
+]
+model.train(train_dataset)
+
+# Predict from a new image
+prediction = model.predict("test_face.jpg")
+print("Face Recognition Prediction:", prediction)
+```
+
+## How Face Recognition Works
+
+1. **Face Detection**: Detects faces in the given image using the `FaceDetection` model.
+2. **Face Embeddings**: Extracts feature embeddings using a deep learning model.
+3. **Matching Faces**: Compares embeddings with the trained dataset using cosine similarity.
+4. **Making Predictions**:
+   - If a match is found, returns the predicted label and confidence score.
+   - If no match is found, returns `Unknown`.
+
+### Handwritten Digit Recognition
+
+```python
+from svnm.models import HandwrittenDigitRecognition
+
+model = HandwrittenDigitRecognition()
+
+# Single Image Prediction
+prediction = model.predict("digit_image.jpg")
+print("Predicted Digit:", prediction)
+```
+
+## How Handwritten Digit Recognition Works
+
+1. **Loading the Model**: The pre-trained digit recognition model is initialized.
+2. **Processing the Image**: The input image is resized and normalized before being fed into the model.
+3. **Making Predictions**:
+   - The model predicts the digit and outputs the confidence score.
+   - Supports batch predictions for multiple images at once.
+
+### Example Output
+
+```python
+{"digit": 7, "confidence": 0.98}
+```
+

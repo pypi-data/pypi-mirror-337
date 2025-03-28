@@ -1,0 +1,10 @@
+README.md
+fast_create.py
+pyproject.toml
+setup.py
+fast_create.egg-info/PKG-INFO
+fast_create.egg-info/SOURCES.txt
+fast_create.egg-info/dependency_links.txt
+fast_create.egg-info/entry_points.txt
+fast_create.egg-info/requires.txt
+fast_create.egg-info/top_level.txt

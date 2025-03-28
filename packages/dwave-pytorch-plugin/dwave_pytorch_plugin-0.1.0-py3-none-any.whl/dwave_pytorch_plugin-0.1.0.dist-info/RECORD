@@ -1,0 +1,13 @@
+dwave/__init__.py,sha256=96tdngyLrF7Sr-ENWxy6gw2A2p7KRxjQZI40ZAP1aYQ,636
+dwave/plugins/__init__.py,sha256=96tdngyLrF7Sr-ENWxy6gw2A2p7KRxjQZI40ZAP1aYQ,636
+dwave/plugins/torch/__init__.py,sha256=v9oIcul9DQ-o-v-0ie8kIA_g2BqbEc1YcxHxAd06csI,591
+dwave/plugins/torch/boltzmann_machine.py,sha256=pt70opvrdwL_rC3yoXCAOB6OE1l2_XVihA3O5J0js-I,8612
+dwave/plugins/torch/utils.py,sha256=zrBPZ0ycBR1M5wEjrZPfYDmnysBE1MEjjvNGbcKRIVQ,2698
+dwave_pytorch_plugin-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+examples/boltzmann_machine.py,sha256=2l3Z6MhwVBtGgbM7IJ6FI9WbY_bwwM-uoFvbDnkoNrA,3109
+tests/test_boltzmann_machine.py,sha256=LR9OfvN0SLKIqb3gDeIaqKj9fQZea3z--q_LA2Jm5hc,6679
+tests/test_utils.py,sha256=8nY2NSfcASLEU-u41pPzHQVuRzqwhoVPpL6pZNxHxJQ,1679
+dwave_pytorch_plugin-0.1.0.dist-info/METADATA,sha256=CPgs5sQvVFCEg5GI5wBadam12YKfxKrcSd9vg8ZwMIk,15173
+dwave_pytorch_plugin-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+dwave_pytorch_plugin-0.1.0.dist-info/top_level.txt,sha256=NXtIqK_mUMSSQqqdvkU72hL00p3CcSKvbtyu8X2-tvA,43
+dwave_pytorch_plugin-0.1.0.dist-info/RECORD,,

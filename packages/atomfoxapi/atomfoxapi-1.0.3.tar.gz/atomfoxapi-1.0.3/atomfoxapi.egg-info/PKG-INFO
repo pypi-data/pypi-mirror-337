@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: atomfoxapi
+Version: 1.0.3
+Summary: ATOM API.
+Author: mc_c0rp
+Author-email: mc.c0rp@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

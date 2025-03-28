@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pamji_bot/__init__.py
+pamji_bot/pamji_bot.py
+pamji_bot.egg-info/PKG-INFO
+pamji_bot.egg-info/SOURCES.txt
+pamji_bot.egg-info/dependency_links.txt
+pamji_bot.egg-info/requires.txt
+pamji_bot.egg-info/top_level.txt

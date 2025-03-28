@@ -1,0 +1,15 @@
+[project]
+name = "pamji_bot"
+version = "1.0.0"
+description = "The pamji discor bot."
+requires-python = ">=3.9.21"
+dependencies = [
+"discord",
+"requests",
+"ai_api_utils",
+"dotenv",
+]
+
+[[tool.uv.index]]
+
+[tool.uv.sources]

@@ -1,0 +1,4 @@
+discord
+requests
+ai_api_utils
+dotenv

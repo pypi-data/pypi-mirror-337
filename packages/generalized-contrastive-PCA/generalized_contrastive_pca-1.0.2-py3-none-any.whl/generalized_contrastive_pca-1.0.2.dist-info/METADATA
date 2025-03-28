@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: generalized_contrastive_PCA
+Version: 1.0.2
+Summary: Python implementation of generalized contrastive PCA methods.
+Home-page: https://github.com/SjulsonLab/generalized_contrastive_PCA
+Author: Eliezyer de Oliveira, Lucas Sjulson
+Author-email: eliezyer.deoliveira@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

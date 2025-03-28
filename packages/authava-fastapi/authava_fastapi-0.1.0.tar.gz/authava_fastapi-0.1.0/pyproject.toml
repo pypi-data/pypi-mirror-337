@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "authava-fastapi"
+version = "0.1.0"
+description = "FastAPI integration for Authava authentication service"
+authors = ["Authava <support@authava.com>"]
+readme = "README.md"
+packages = [{include = "authava_fastapi"}]
+license = "MIT"
+homepage = "https://github.com/authava/fastapi"
+repository = "https://github.com/authava/fastapi"
+documentation = "https://docs.authava.com/fastapi"
+keywords = ["fastapi", "authentication", "authava", "oauth", "security"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP :: Session",
+    "Topic :: Security",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.109.0"
+httpx = "^0.26.0"
+pydantic = "^2.0.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+cachetools = "^5.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.0"
+pytest-cov = "^4.1.0"
+black = "^24.0.0"
+isort = "^5.13.0"
+mypy = "^1.8.0"
+ruff = "^0.2.0"
+httpx = "^0.26.0"
+asgi-lifespan = "^2.1.0"
+respx = "^0.20.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

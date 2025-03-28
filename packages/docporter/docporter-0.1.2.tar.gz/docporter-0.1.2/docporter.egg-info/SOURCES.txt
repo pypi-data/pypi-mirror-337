@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+docporter.egg-info/PKG-INFO
+docporter.egg-info/SOURCES.txt
+docporter.egg-info/dependency_links.txt
+docporter.egg-info/entry_points.txt
+docporter.egg-info/requires.txt
+docporter.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/core.py
+src/utils.py

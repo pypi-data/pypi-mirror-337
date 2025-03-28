@@ -1,0 +1,106 @@
+Metadata-Version: 2.4
+Name: docporter
+Version: 0.1.2
+Summary: A tool to extract documentation files from GitHub repositories and local folders
+Home-page: https://github.com/aatitkarki/docporter
+Author: aatitkarki
+Author-email: aatitkarki <aatitkarki123@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Doc Porter
+
+A Python package to extract documentation files from GitHub repositories and local folders.
+
+## Features
+
+- **GitHub Support**:
+
+  - Clones repositories (shallow clone)
+  - Handles various GitHub URL formats
+  - Automatically cleans up after cloning
+
+- **Local Folder Support**:
+
+  - Processes documentation files from local directories
+  - Validates path existence and permissions
+
+- **Documentation Extraction**:
+
+  - Recognizes .md, .mdx, .rst, .txt files
+  - Automatically includes README files
+  - Preserves directory structure in output
+
+- **CLI Interface**:
+  - Simple command-line usage
+  - Custom output directory support
+  - Help messages and error handling
+
+## Installation
+
+Install directly from PyPI:
+
+```bash
+pip install docporter
+```
+
+Or install from source:
+
+```bash
+git clone https://github.com/aatitkarki/docporter
+cd docporter
+pip install .
+```
+
+## Usage
+
+### From GitHub repository:
+
+```bash
+doc-porter https://github.com/user/repo.git -o ./output-docs
+```
+
+### From local folder:
+
+```bash
+doc-porter /path/to/local/docs -o ./output-docs
+```
+
+## Options
+
+- `-o`, `--output`: Specify custom output directory (default: [repo_name]-docs)
+
+## Examples
+
+1. Extract docs from GitHub with default output:
+
+```bash
+doc-porter https://github.com/user/repo.git
+```
+
+2. Extract docs from local folder with custom output:
+
+```bash
+doc-porter ./my-docs -o ./extracted-docs
+```
+
+## Development
+
+Run tests:
+
+```bash
+pytest
+```
+
+## License
+
+MIT

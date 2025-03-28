@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docporter"
+version = "0.1.2"
+description = "A tool to extract documentation files from GitHub repositories and local folders"
+authors = [
+    {name = "aatitkarki", email = "aatitkarki123@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+docporter = "docporter.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "--cov=docporter"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]

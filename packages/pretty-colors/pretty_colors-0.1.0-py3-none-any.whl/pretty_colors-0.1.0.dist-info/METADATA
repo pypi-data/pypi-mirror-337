@@ -1,0 +1,154 @@
+Metadata-Version: 2.4
+Name: pretty_colors
+Version: 0.1.0
+Summary: A package for working with colors, including retrieval, random selection without repeats, and hex-to-RGB conversion.
+Home-page: https://github.com/yourusername/color-package
+Author: Dave
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# PrettyColors
+
+PrettyColors is a lightweight Python package that provides a simple interface to access a comprehensive palette of Material Design colors. Use it to easily retrieve hex codes for colors, list available shades, and even generate random colors with options for unique (non-repeating) selections.
+
+## Features
+
+- Easy Color Retrieval: Access color hex codes by name, with automatic defaulting to a mid-range shade (500) when a specific shade isn’t provided.
+- Flexible Access Methods: Retrieve colors using attribute or dictionary-style access.
+- Random Color Generation: Pick random colors, with an option to avoid repeats until the entire palette has been cycled through.
+- Color Listing: Get a full list of available color keys from the Material Design palette.
+
+## Installation
+
+Install PrettyColors using pip:
+
+```bash
+pip install pretty_colors
+```
+
+## Quick Start
+
+Below is a quick example to get you started:
+
+```python
+from pretty_colors import colors
+
+# Retrieve a specific color; if no shade is specified, defaults to the "500" shade.
+print(colors.RED)      # Equivalent to colors.RED500
+
+# Retrieve a specific shade of a color.
+print(colors.get("BLUE100"))
+
+# Access colors using dictionary-style access.
+print(colors["GREEN"]) # Defaults to GREEN500
+
+# List all available colors.
+print(colors.list_colors())
+
+# Generate a random color (duplicates allowed).
+print(colors.random())
+
+# Generate a random color ensuring uniqueness until all colors have been used.
+print(colors.random(repeat=False))
+```
+
+## API Reference
+### Attribute Access
+
+- Usage: `colors.COLOR_NAME`
+- Behavior: If you access a color without specifying a shade (digits), the package appends "500" by default.
+- Example:
+```python
+print(colors.PINK)      # Retrieves PINK500
+print(colors.PURPLE200) # Retrieves PURPLE200
+```
+
+## Availble Names
+
+This is a list of colors base names. 
+```txt
+AMBER
+BLACK
+BLUE 
+BLUEGREY 
+BROWN 
+CYAN 
+DEEPORANGE 
+DEEPPURPLE 
+GREEN 
+GREY 
+INDIGO 
+LIGHTBLUE 
+LIGHTGREEN 
+LIME 
+ORANGE 
+PINK 
+PURPLE 
+RED
+TEAL 
+WHITE 
+YELLOW
+```
+
+`get(name)`
+
+- Description: Retrieves the hex code for the given color name. If the name does not include a shade, "500" is appended.
+- Example:
+```python
+    print(colors.get("RED"))    # Returns hex code for RED500
+    print(colors.get("RED100")) # Returns hex code for RED100
+```
+
+`list_colors()`
+
+- Description: Returns a list of all available color keys.
+- Example:
+```python
+print(colors.list_colors())
+```
+`random(repeat=False)`
+
+- Description: Returns a random color’s hex code. If repeat is False, the method ensures no color is repeated until all colors have been selected.
+- Example:
+```python
+print(colors.random())             # Random color (may repeat)
+print(colors.random(repeat=False)) # Random unique color
+```
+
+`reset_available_colors()`
+
+- Description: Resets the list of available colors for unique random selection.
+- Example:
+```python
+colors.reset_available_colors()
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+- Fork the repository.
+- Create a feature branch (e.g., git checkout -b feature/new-feature).
+- Commit your changes (git commit -am 'Add new feature').
+- Push your branch (git push origin feature/new-feature).
+- Open a Pull Request with your changes.
+
+## License
+
+This project is licensed under the MIT [License](license.txt). See the LICENSE file for details.
+
+## Acknowledgements
+
+This package leverages the Material Design color palette and provides a simple yet powerful interface to work with these colors in your Python projects.

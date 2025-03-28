@@ -1,0 +1,16 @@
+scraipe/__init__.py,sha256=HxE9G8dmRTNaDx6S5Io4pLLe_h88QG9d8Nte7xk84N8,115
+scraipe/classes.py,sha256=kBQrMGLleiJNS4hF0JK9qDiWcdP1KaZ5nFd90RI54Og,1777
+scraipe/workflow.py,sha256=7Xj5xd135cuI6Eg33opUtmSsjIhogNRgub1GEewuw5s,7800
+scraipe/analyzers/__init__.py,sha256=gFd4v37LrF9LNNXa8nKONmybtRqfP8NETQjZ-fu4eQo,128
+scraipe/analyzers/openai_analyzer.py,sha256=ZY-L7XYBDX4ODQgMnmbIFPSBNcjI8Q6NKOs9_MtBd5g,2811
+scraipe/analyzers/text_stats_analyzer.py,sha256=T9QApEbn-iyJDwaLMWjgnF8D77Nc2eAj6GH6gECpw_4,1340
+scraipe/scrapers/__init__.py,sha256=4vIsCp-w8lP8Zrq7WSFt-kK2uJrIk1u1tstVEXd2o6o,231
+scraipe/scrapers/default_scraper.py,sha256=oPXj0BHvGLSmve_KNttqF7pW6Beq6X0DP1rsmQppOUk,1475
+scraipe/scrapers/multi_scraper.py,sha256=6ZJ8RZoKLhOuaRuQeEO9ez5mewZbQHkKoQC9fFgAKFg,1622
+scraipe/scrapers/news_scraper.py,sha256=c3QmAHI_b82VcW4LeSr0-gEGBGksT31HEFUrUUdnzFg,1461
+scraipe/scrapers/telegram_scraper.py,sha256=LbT21HBBE0PNKvx-_sJmTYKK4TdN_77dPByhJMr_CUg,2676
+scraipe-0.1.11.dist-info/licenses/LICENSE,sha256=wRJm4HyAOY2NKERqMU3gGddU8xxW6pyE99ElICVeITc,1061
+scraipe-0.1.11.dist-info/METADATA,sha256=F8a4xfLC64J6TWWxqfpWoDjFbcdOl_WeyLYTDsC0m3s,667
+scraipe-0.1.11.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+scraipe-0.1.11.dist-info/top_level.txt,sha256=TrtsW1eeGW--4tcuStC5k4-E3LSHmSWBMcOK4cyd1xg,8
+scraipe-0.1.11.dist-info/RECORD,,

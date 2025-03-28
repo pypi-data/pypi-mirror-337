@@ -1,0 +1,13 @@
+pyquaca/__init__.py,sha256=C1TNGiFhbpXdlujOc0qqCstj96YxlXc03xBbEv-V4Oc,417
+pyquaca/api_requester.py,sha256=yZloRf6iHNZjsyNirHHutNLFLca5h5Se-DBcIU-Ogww,627
+pyquaca/cache.py,sha256=fOw73S22CLFtloL0j4yZAiRFtiKzEZ-2tNarpFVLt0Y,1943
+pyquaca/json_cache.py,sha256=x2h0dVcZJYH7fajKlJIqSuPxRdAWT6iaE5N_43qRPHM,1101
+pyquaca/parser.py,sha256=J60wBM-W9mJtMUT1Np5nQsk5-LAbWr2xZYUBU3pTLE8,1766
+pyquaca/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyquaca/query.py,sha256=ucNOiFDPPIwCCw6vb1FCsdrShg5VEDeD69Hy3fPoh_U,2467
+pyquaca/requester.py,sha256=4EWdwu92XAooRBlM6n9COWgTQy8iKS6xlKp_suuGTsw,1023
+pyquaca-0.0.4.dist-info/licenses/LICENSE,sha256=U3EukKIjFpY0gjlMI2Rrgm0rnsqvmgnlWKI43yXvOlQ,1094
+pyquaca-0.0.4.dist-info/METADATA,sha256=ZpOaNQfzgeA6RM6Xp_5VDZtMeJwQfWOvZSHV-0iXnpo,2695
+pyquaca-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pyquaca-0.0.4.dist-info/top_level.txt,sha256=5sGk52uFG25XvwS1-4DuI8f6hc5XsY7tt2VFQWY7Yhk,8
+pyquaca-0.0.4.dist-info/RECORD,,

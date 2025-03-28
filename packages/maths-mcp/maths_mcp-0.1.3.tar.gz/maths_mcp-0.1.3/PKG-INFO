@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: maths-mcp
+Version: 0.1.3
+Summary: Does all the cool maths related stuff for your LLM. Goal is to support all the maths tools we can support.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: mcp[cli]>=1.6.0
+
+# maths-mcp
+
+Does all the cool maths related stuff for your LLM. Goal is to support all the maths tools we can support
+
+Run the following command:
+
+```
+maths-mcp --rounded
+```

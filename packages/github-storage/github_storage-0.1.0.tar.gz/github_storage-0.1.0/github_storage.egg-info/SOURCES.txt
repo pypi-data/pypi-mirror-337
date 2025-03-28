@@ -1,0 +1,10 @@
+README.md
+setup.py
+github_storage/__init__.py
+github_storage/github_storage.py
+github_storage.egg-info/PKG-INFO
+github_storage.egg-info/SOURCES.txt
+github_storage.egg-info/dependency_links.txt
+github_storage.egg-info/entry_points.txt
+github_storage.egg-info/requires.txt
+github_storage.egg-info/top_level.txt

@@ -1,0 +1,33 @@
+[project]
+name = "facework"
+version = "0.1.0"
+description = "A Python library for face cropping and face morphing"
+readme = "README.md"
+requires-python = ">=3.10.11"
+license = {text = "MIT"}
+authors = [
+  { name = "Gioele Angelo Crespi", email = "crespigioeleangelo@email.com" }
+]
+keywords = ["face", "morph", "crop", "image-processing", "computer-vision", "landmark-detection"]
+
+dependencies = [
+  "ffmpeg-python==0.2.0",
+  "matplotlib==3.10.1",
+  "mediapipe==0.10.21",
+  "numpy",
+  "opencv-contrib-python==4.11.0.86",
+  "opencv-python==4.11.0.86",
+  "pandas",
+  "pillow==11.1.0",
+  "psutil==7.0.0",
+  "scipy==1.15.2",
+  "Wand==0.6.13"
+]
+
+[project.urls]
+Homepage = "https://github.com/gngcr/FaceWork"
+Repository = "https://github.com/gngcr/FaceWork"
+
+[build-system]
+requires = ["setuptools>=65.5", "wheel"]
+build-backend = "setuptools.build_meta"

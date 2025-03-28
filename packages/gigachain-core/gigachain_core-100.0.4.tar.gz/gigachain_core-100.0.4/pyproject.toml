@@ -1,0 +1,7 @@
+[project]
+name = "gigachain-core"
+version = "100.0.4"
+description = "⚠️⚠️⚠️ This package was deprectaed. Upgrade to clear langchain + langchain_gigachat. Uninstall all gigachain-* packages! ⚠️⚠️⚠️"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

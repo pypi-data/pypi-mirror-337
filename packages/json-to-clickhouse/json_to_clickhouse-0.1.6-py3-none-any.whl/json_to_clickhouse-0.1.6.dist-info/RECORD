@@ -1,0 +1,5 @@
+json_to_clickhouse/__init__.py,sha256=nZHGs6Q2-53DXeu28FrLcRGre1yde4Csw4qCLqNgyUE,207
+json_to_clickhouse/json_to_clickhouse.py,sha256=vQe19a66IC4xAr238f3Vz9ghDf3_z0H4NtnexQuwGl0,12330
+json_to_clickhouse-0.1.6.dist-info/METADATA,sha256=BDYD7uBFFMav3qkRICFuimrs2hM_RoQIaRO3Do72MC4,618
+json_to_clickhouse-0.1.6.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+json_to_clickhouse-0.1.6.dist-info/RECORD,,

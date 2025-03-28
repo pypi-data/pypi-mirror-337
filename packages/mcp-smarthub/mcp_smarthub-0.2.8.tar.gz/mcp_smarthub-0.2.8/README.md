@@ -1,0 +1,73 @@
+# SmartHub MCP Extension
+
+A Goose extension for natural language interaction with SmartHub data and portfolio management.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install mcp-smarthub
+```
+
+## Configuration
+
+Add the extension to Goose using either the UI or configuration file.
+
+### Using Goose Desktop UI
+
+1. Open Goose Desktop
+2. Click menu (top right) → Settings → Extensions
+3. Click "Add Extension"
+4. Use these settings:
+
+```yaml
+Type: Standard IO
+ID: smarthubdata
+Name: SmartHub Extension
+Description: Natural language interface for SmartHub data and portfolio management
+Command: mcp_smarthub
+```
+
+### Using Configuration File
+
+Add to `~/.config/goose/config.yaml`:
+
+```yaml
+extensions:
+  smarthubdata:
+    type: standard_io
+    command: mcp_smarthub
+```
+
+## Authentication
+
+The extension uses SSO for Snowflake authentication at Block. No additional credentials are required.
+
+## Features
+
+- Natural language queries for SmartHub data
+- Portfolio management capabilities
+- Custom pricing analysis
+- Winter 2025 features (churn model, variable comp)
+
+## Testing
+
+After installation:
+1. Restart Goose
+2. Ask Goose: "Can you test the SmartHub extension connection to Snowflake?"
+
+## Troubleshooting
+
+1. Verify installation: `pip list | grep mcp-smarthub`
+2. Verify SSO is working by testing Snowflake access in another tool
+3. Check that you're on the Block network or VPN
+
+## Support
+
+- GitHub Issues: https://github.com/squareup/smarthub-extension/issues
+- Contact: goose@squareup.com
+
+## License
+
+MIT License - see LICENSE file for details

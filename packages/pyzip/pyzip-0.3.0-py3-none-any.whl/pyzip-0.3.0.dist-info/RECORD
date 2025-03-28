@@ -1,0 +1,9 @@
+pyzip/__init__.py,sha256=JiPKytj13WmryNDu8BtGC_EvcUlTtAednA4hlYxBRVE,6868
+pyzip/tests/__init__.py,sha256=q_HcW5dUeszeXEkxrbjnvzxVSos0QlwBvkOy-0sPYts,1184
+pyzip/tests/test_pyzip.py,sha256=P9AG0iJjpLj-tebiHTWrch0HivmwXi5xr-DQ_5c-mGo,8800
+pyzip-0.3.0.dist-info/AUTHORS,sha256=RKVmft01if-9pdEVhuLZQdkUjx7AUlEGjZ8MxC9-fzk,39
+pyzip-0.3.0.dist-info/LICENSE,sha256=ljgM51fskDMnN_l2wcR0GFe0Etcm6ZuK_QxuzXk8gmg,1077
+pyzip-0.3.0.dist-info/METADATA,sha256=2g0rJ7Zoo6iSY3j2pJdUeXMG_obTmLyUfnCp7qaRmJs,4206
+pyzip-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyzip-0.3.0.dist-info/top_level.txt,sha256=aB5zBsVLEAseTAPlaKPhJxO5i_gnscQ6eIAa6gHRkBg,6
+pyzip-0.3.0.dist-info/RECORD,,

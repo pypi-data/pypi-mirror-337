@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: add_five
+Version: 0.1.0
+Summary: Una función prime que suma cinco
+Home-page: https://github.com/tuusuario/the_add_five
+Author: Brad HM
+Author-email: hackbrad111@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# add_five
+
+Una funciÃ³n prime que suma cinco a un nÃºmero.
+
+## InstalaciÃ³n
+pip install add_five
+## Uso
+```python
+from add_five import add_five
+print(add_five(10))  # Output: 15
+
+

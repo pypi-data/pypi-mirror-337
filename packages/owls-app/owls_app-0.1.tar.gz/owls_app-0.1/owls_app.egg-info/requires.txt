@@ -1,0 +1,12 @@
+matplotlib
+solara
+ipywidgets
+numpy
+astropy
+astroquery
+expecto
+specutils
+pandas
+lcviz
+specutils
+aesop-arces

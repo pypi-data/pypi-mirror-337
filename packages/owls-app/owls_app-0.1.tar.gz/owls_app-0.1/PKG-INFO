@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: owls-app
+Version: 0.1
+Summary: Olin Wilson Legacy Survey
+Author-email: Brett Morris <morrisbrettm@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Brett M. Morris
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/bmorris3/owls-app
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: solara
+Requires-Dist: ipywidgets
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: astroquery
+Requires-Dist: expecto
+Requires-Dist: specutils
+Requires-Dist: pandas
+Requires-Dist: lcviz
+Requires-Dist: specutils
+Requires-Dist: aesop-arces
+Dynamic: license-file
+
+owls-app
+========
+
+Browse echelle spectra of low-mass stars from the Olin Wilson Legacy Survey (OWLS).
+
+Getting started
+---------------
+
+Installation
+^^^^^^^^^^^^
+
+.. code-block:: bash
+
+    python -m pip install owls-app
+
+Run the app
+^^^^^^^^^^^
+
+To run the interactive tool, run:
+
+.. code-block:: bash
+
+    owls-app
+
+
+Multiple sessions
+^^^^^^^^^^^^^^^^^
+
+If you already have an instance of `solara` or `whoseline` running, you can
+launch a second one by specifying a different port:
+
+.. code-block:: bash
+
+    owls-app --port 1234
+

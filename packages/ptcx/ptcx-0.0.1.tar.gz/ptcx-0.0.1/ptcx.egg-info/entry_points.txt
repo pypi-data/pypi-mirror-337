@@ -1,0 +1,2 @@
+[console_scripts]
+hello_script = ptcx:main

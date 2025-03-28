@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: ptcx
+Version: 0.0.1
+Summary: A format for modularized AST-based patching of arbitary code
+Author-email: Aurin Aegerter <adm.chrx@gmail.com>
+License-Expression: BSD-2-Clause
+Project-URL: Homepage, https://github.com/chrxer/ptcx
+Project-URL: Issues, https://github.com/chrxer/ptcx/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# ptcx
+A format for modularized AST-based patching of arbitary code

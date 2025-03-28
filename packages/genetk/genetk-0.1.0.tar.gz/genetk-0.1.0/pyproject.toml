@@ -1,0 +1,25 @@
+[project]
+name = "genetk"
+version = "0.1.0"
+description = "for enrichment and network analysis given gene list"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name="brainfo", email="scilavisher@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "gseapy>=1.1.8",
+    "matplotlib>=3.9.4",
+    "mygene>=3.2.2",
+    "networkx>=3.2.1",
+    "numpy>=2.0.2",
+    "pandas>=2.2.3",
+]
+[project.urls]
+Homepage = "https://github.com/brainfo/genetk"
+Issues = "https://github.com/brainfo/genetk/issues"

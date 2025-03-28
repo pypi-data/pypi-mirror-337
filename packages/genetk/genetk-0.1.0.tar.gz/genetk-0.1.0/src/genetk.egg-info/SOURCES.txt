@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/genetk.egg-info/PKG-INFO
+src/genetk.egg-info/SOURCES.txt
+src/genetk.egg-info/dependency_links.txt
+src/genetk.egg-info/requires.txt
+src/genetk.egg-info/top_level.txt
+src/genetk/enrich/__init__.py
+src/genetk/enrich/gsea_py.py
+src/genetk/network/__init__.py
+src/genetk/network/network.py
+src/genetk/prepmagma/__init__.py
+src/genetk/prepmagma/mk_db.py
+src/genetk/prepmagma/mk_geneset.py

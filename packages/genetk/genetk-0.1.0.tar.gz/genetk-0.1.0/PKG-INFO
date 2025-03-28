@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: genetk
+Version: 0.1.0
+Summary: for enrichment and network analysis given gene list
+Author-email: brainfo <scilavisher@gmail.com>
+Project-URL: Homepage, https://github.com/brainfo/genetk
+Project-URL: Issues, https://github.com/brainfo/genetk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: gseapy>=1.1.8
+Requires-Dist: matplotlib>=3.9.4
+Requires-Dist: mygene>=3.2.2
+Requires-Dist: networkx>=3.2.1
+Requires-Dist: numpy>=2.0.2
+Requires-Dist: pandas>=2.2.3
+
+
+## gene level analysis
+
+- Use gseapy for gene set enrichment analysis
+- Use magma to enrich for GWAS hits
+- Use networkx for Network analysis given any edge list

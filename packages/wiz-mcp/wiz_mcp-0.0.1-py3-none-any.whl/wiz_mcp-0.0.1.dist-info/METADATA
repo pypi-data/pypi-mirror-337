@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: wiz-mcp
+Version: 0.0.1
+Summary: A sample mcp server
+Author-email: Gentleelephant <moon0hello@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: aiohttp>=3.11.14
+Requires-Dist: mcp[cli]>=1.5.0
+Requires-Dist: setuptools>=78.1.0
+Description-Content-Type: text/markdown
+
+A sample mcp server for KubeSphere Wizard.

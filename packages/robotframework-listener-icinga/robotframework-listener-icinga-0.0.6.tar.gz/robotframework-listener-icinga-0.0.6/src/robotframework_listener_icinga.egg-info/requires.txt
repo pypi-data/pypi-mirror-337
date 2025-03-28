@@ -1,0 +1,1 @@
+lib@ git+https://github.com/slalomsk8er/lib.git@v0.0.1

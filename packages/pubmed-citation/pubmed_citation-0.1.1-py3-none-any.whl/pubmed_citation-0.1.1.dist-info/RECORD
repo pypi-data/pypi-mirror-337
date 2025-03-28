@@ -1,0 +1,10 @@
+pubmed_citation/__init__.py,sha256=ZJpnVH4dJ75tuMNeQ_Lkg6obP1tlsW3ECCk5iEqNagc,200
+pubmed_citation/cli.py,sha256=bUnVjwZojiwhSxM29VihQ8sF6nwaCZfe-W1bKulM7Gc,17798
+pubmed_citation/models.py,sha256=qCkpc56Pm-zq2E3RFf3o_LIFor7vfcQdj4Ulnh2MzAw,13636
+pubmed_citation/navigate.py,sha256=qxMP5Gl3kHYh6sd8wlvsp2l7Wd8RmQBTKCdNncyBshY,4745
+pubmed_citation/scaffold.py,sha256=JYmyLLxwt8GMFCaXbkohnuULb86kGGgorPiKJnx9oZI,18030
+pubmed_citation-0.1.1.dist-info/METADATA,sha256=H7owCQ_smjeE0OnKBLDrAUTcemtYzCYL7dvTwjuaBMY,3810
+pubmed_citation-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pubmed_citation-0.1.1.dist-info/entry_points.txt,sha256=JGIKJZ48sh1wm5Jo5YBWK0Xkye45qMH8q0ZC-ftUXuw,61
+pubmed_citation-0.1.1.dist-info/top_level.txt,sha256=Bq4nhxX0N5-9fCQ8StdVik7oeRVT7i_LGvsxgmE65c0,16
+pubmed_citation-0.1.1.dist-info/RECORD,,

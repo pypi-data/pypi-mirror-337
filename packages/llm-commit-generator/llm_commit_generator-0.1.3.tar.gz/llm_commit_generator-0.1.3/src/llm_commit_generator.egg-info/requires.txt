@@ -1,0 +1,11 @@
+loguru
+requests
+
+[docs]
+mkdocs
+mkdocs-material
+mkdocstrings-python
+
+[tests]
+pytest<9,>=8
+pytest-sugar>=0.9.6

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=48", "setuptools_scm[toml]>=6.3.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-commit-generator"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dynamic = ["version"]
+dependencies = [
+  "loguru",
+  "requests",
+]
+
+[project.optional-dependencies]
+docs = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocstrings-python",
+]
+
+tests = [
+  "pytest>=8,<9",
+  "pytest-sugar>=0.9.6",
+]
+
+[project.urls]
+Documentation = "https://tooluse.github.io/llmcommit/"
+Issues = "https://github.com/tooluse/llmcommit/issues"
+Source = "https://github.com/tooluse/llmcommit"
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "tests.*"]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
+
+[project.scripts]
+lcm = "llm_commit_generator.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

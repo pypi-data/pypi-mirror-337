@@ -1,0 +1,280 @@
+Metadata-Version: 2.4
+Name: pubmed-citation-update
+Version: 0.1.5
+Summary: A tool for collecting citation data from PubMed and analyzing author relationships
+Home-page: https://github.com/yourusername/pubmed-citation
+Author: Armelle,Brandon,Shanta
+Author-email: your.email@example.com
+Project-URL: Bug Tracker, https://github.com/yourusername/pubmed-citation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: scipy>=1.5.0
+Provides-Extra: viz
+Requires-Dist: networkx>=2.5; extra == "viz"
+Requires-Dist: matplotlib>=3.3.0; extra == "viz"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# PubMed Citation
+
+This is a Python package that automates the collection of citation data from PubMed and provides tools for network analysis, enabling researchers to gain insights into scientific collaborations and citation patterns.
+
+## Features
+
+- Build citation networks showing how papers reference each other
+- Map co-authorship networks revealing collaboration patterns
+- Calculate degrees of separation between researchers
+- Detect communities of authors using spectral clustering
+- Export structured data for visualization and further analysis
+
+View interactive visualizations and results on our website: [PubMed Network Visualizations](https://armelleduston.github.io/BST236_website/PubMed_network.html)
+
+## Installation
+
+The package can be installed with required dependencies directly from PyPi:
+
+```bash
+pip install pubmed-citation-update==0.1.5
+```
+
+For the development version:
+
+```bash
+git clone https://github.com/yourusername/pubmed-citation.git
+cd pubmed-citation
+pip install -e .
+```
+
+### Requirements
+
+- Python 3.6 or higher
+- Required dependencies (automatically installed):
+  - requests>=2.25.0
+  - numpy>=1.19.0
+  - scipy>=1.5.0
+
+### Optional Dependencies
+
+For visualization and advanced analysis:
+
+```bash
+pip install networkx matplotlib scikit-learn
+```
+
+## Usage
+
+Once installed, full documentation is available using:
+
+```bash
+pubmed-citation --help
+```
+
+### 1. Search PubMed Articles
+
+Searches PubMed for articles matching the given query and returns the results.
+
+This command translates your query into a PubMed API request, fetches the matching articles,
+and displays their basic information (title, authors, journal, etc.).
+
+```bash
+pubmed-citation search "CRISPR gene editing" --max-results 5
+```
+
+Which yields the output:
+```bash
+2025-03-27 17:16:07,496 - INFO - Searching PubMed for: CRISPR gene editing
+2025-03-27 17:16:07,866 - INFO - Found 5 matching articles
+2025-03-27 17:16:08,070 - INFO - Found 5 articles
+1. CRISPR-Cas9 system: A new-fangled dawn in gene editing.
+   PMID: 31295471
+   Journal: Life sciences
+   Date: 2019-Sep-01
+   Authors: Darshana Gupta, Oindrila Bhattacharjee, Drishti Mandal
+     and 11 more
+.... # followed by additional 4 articles
+```
+
+Parameters:
+- `--max-results N`: Number of results to return (default: 50)
+- `--from-date YYYY/MM/DD`: Filter by start date
+- `--to-date YYYY/MM/DD`: Filter by end date
+- `--output filename.json`: Save results to a JSON file
+
+Example with date filtering:
+```bash
+pubmed-citation search "cancer immunotherapy" --from-date 2022/01/01 --to-date 2022/12/31 --output cancer_papers.json
+```
+
+Example output:
+```bash
+2025-03-27 17:17:27,046 - INFO - Searching PubMed for: cancer immunotherapy
+2025-03-27 17:17:27,439 - INFO - Found 50 matching articles
+2025-03-27 17:17:28,095 - INFO - Found 50 articles
+1. The Role of Telomerase in Breast Cancer's Response to Therapy.
+   PMID: 36361634
+   Journal: International journal of molecular sciences
+   Date: 2022-Oct-25
+   Authors: Eliza Judasz, Natalia Lisiak, Przemysław Kopczyński
+     and 2 more
+....
+```
+
+### 2. Build Citation Network
+
+Builds a network of articles, authors, and citations starting from search results.
+
+This command:
+1. Searches PubMed for your query (similar to the "search" command)
+2. For each result, it finds articles that cite it (if depth >= 1)
+3. Builds a network of articles, authors, and their relationships
+4. Saves this network to a JSON file for later analysis
+
+The network includes:
+- Articles (with metadata like title, journal, etc.)
+- Authors (with their publications)
+- Citation relationships (which articles cite others)
+- Co-authorship relationships (which authors have worked together)
+
+```bash
+pubmed-citation network "CRISPR gene editing" --max-results 3 --depth 1 --output crispr_network.json
+```
+
+Parameters:
+- `--depth N`: Citation levels to include (default: 1)
+  - 0: Only search results
+  - 1: Include articles citing the search results
+  - 2: Also include articles citing the citing articles
+- `--max-results N`: Number of top-level articles (default: 50)
+- `--from-date` & `--to-date`: Date filters
+- `--output filename.json`: Save network file (required)
+
+### 3. Find Path Between Authors
+
+Analyzes a citation network to find how two authors are connected through co-authorship relationships.
+
+This command:
+1. Loads a previously created network from a JSON file
+2. Finds the shortest path connecting two authors through their co-authors
+3. Displays the degrees of separation and the connecting authors
+4. Shows the papers that connect consecutive authors in the path
+
+This is similar to the "degrees of separation" or "Six Degrees of Kevin Bacon" concept,
+but for scientific authors based on their publication history.
+
+```bash
+pubmed-citation path --network crispr_network.json --author1 "Darshana Gupta" --author2 "Drishti Mandal"
+```
+
+Parameters:
+- `--network filename.json`: Path to network file (required)
+- `--author1 "Name"`: First author name (required)
+- `--author2 "Name"`: Second author name (required)
+- `--algorithm [bfs|dfs]`: Path finding algorithm (default: bfs)
+  - bfs: Breadth-first search (guarantees shortest path)
+  - dfs: Depth-first search (may be faster on large networks)
+
+### 4. Perform Spectral Clustering
+
+Detects author communities using spectral clustering to group researchers based on their collaboration patterns.
+
+```bash
+pubmed-citation cluster --network crispr_network.json -k 3 --output clusters.json
+```
+
+Parameters:
+- `--network filename.json`: Path to network file (required)
+- `-k/--num_clusters N`: Number of clusters to create (required)
+- `--output filename.json`: Save cluster results to this file (required)
+
+### 5. Export for Visualization
+
+Converts a network into CSV files that can be imported into visualization tools like Gephi or Cytoscape.
+
+This command:
+1. Loads a previously created network from a JSON file
+2. Exports the network data into four CSV files:
+   - {prefix}_articles.csv: Article data (PMID, title, journal, etc.)
+   - {prefix}_citations.csv: Citation relationships (citing_pmid, cited_pmid)
+   - {prefix}_authors.csv: Author information (ID, name, publication count)
+   - {prefix}_coauthorship.csv: Co-authorship relationships (author1, author2)
+
+These CSV files can be imported into network visualization and analysis tools for further study.
+
+```bash
+pubmed-citation export --network crispr_network.json --output-prefix crispr
+```
+
+Parameters:
+- `--network filename.json`: Path to network file (required)
+- `--output-prefix prefix`: Prefix for output files (required)
+
+## Report
+
+### Data Scaffolding
+
+The package accesses data through the public PubMed API with these specific steps:
+  1) User interface translates user inputs into API requests
+  2) Data is fetched and stored client-side on the user's local PC
+  3) Rate-limiting guardrails are implemented 
+
+Additionally there is separation of concerns between UI and API requests to allow limiting access to a subset of data (e.g., articles from certain timeframe as shown in usage example above).
+Note some limitations include dependency on PubMed API availability and potential slowdowns during peak usage.
+
+### Data Navigation
+
+We have calculated "degrees of separation" between authors by traversing through co-authors with different approaches, as described below:
+- Using a choice of BFS/DFS to find the shortest path between authors:
+  - BFS guarantees shortest path but uses more memory
+  - DFS may be faster for large networks but doesn't guarantee shortest path
+These citation networks are modeled as directed graphs (papers as nodes, citations as edges)
+Additionally, the data structure uses sparse matrix representations for memory efficiency with large networks
+Note that the accuracy depends on completeness of PubMed's citation data; it is possible some interdisciplinary connections might be missed.
+
+### Data Analysis
+
+The core analysis task here is an implementation of spectral clustering to group authors into k clusters based on the "closeness" of their coauthorships where k is user-defined This is done in a few key steps: First, create the adjacency and degree matrices and derive the laplacian based on coauthorships. 
+
+Second, get the smallest k eigenvalues and eigenvectors (skipping over the smallest). Third use a k-means clustering algorithm to form clusters. 
+
+The key computational element includes use of scipy sparse matrices and scipy sparse eigenvector/value functions to speed up computation, and a timeout in the case of slow convergence. A dictionary from authors to their assigned cluster is returned for use in downstream visualizations.
+
+### Interactive Visualization
+
+- Our package exports network data in standardized formats for visualization tools (Gephi, Cytoscape)
+- We have four specific CSV files:
+  1. Articles data (PMID, title, journal)
+  2. Citation relationships (citing_pmid, cited_pmid)
+  3. Author information (ID, name, publication count)
+  4. Co-authorship relationships (author1, author2)
+- These enable users to conduct visualization of:
+  - "Degrees of separation" between authors via network graphs
+  - Research distribution across institutions with interactive maps
+  - Temporal analysis showing how research networks evolve
+- Our website demonstrates these visualizations with example search criteria
+- Interactive examples are available at: [PubMed Network Visualizations](https://armelleduston.github.io/BST236_website/PubMed_network.html)
+
+## Contributors
+
+- Armelle Duston: Interactive visualizations and website
+- Brandon Spiegel: Spectral clustering, testing
+- Shanta Murthy: Data scaffolding and navigation, testing

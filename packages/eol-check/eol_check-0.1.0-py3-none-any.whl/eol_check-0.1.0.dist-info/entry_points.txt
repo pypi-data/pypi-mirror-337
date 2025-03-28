@@ -1,0 +1,2 @@
+[console_scripts]
+eol-check = eol_check.cli:main

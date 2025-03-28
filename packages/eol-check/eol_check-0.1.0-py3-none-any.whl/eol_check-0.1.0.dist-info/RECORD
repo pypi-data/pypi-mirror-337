@@ -1,0 +1,10 @@
+eol_check/__init__.py,sha256=MnyF6dlUiD_wdbrnaDzuPhJ1X7o3Ooial7CAE99akUI,118
+eol_check/__main__.py,sha256=nlwMZ0z5nWNDJCjmkzDg52r1wKdRb5WMvGxgvgScG2E,148
+eol_check/cli.py,sha256=CzMfQ_Cwm3tGegSmSC9oBgrTtiIMOZzHnfQqgt1-Jdc,5139
+eol_check/core.py,sha256=cH9UfuusuobdOPre1bQUU8OteHvprcvVUzPjZHjiz2s,11674
+eol_check-0.1.0.dist-info/licenses/LICENSE,sha256=XKZVmjXMxUAda4nh_7o9n9Rdu6xH3mlb5zapp-w8maQ,1062
+eol_check-0.1.0.dist-info/METADATA,sha256=E9FnDUgKpVNlPy04N5-JPZf-jLWeXeYbp0zkm5YvJPE,8443
+eol_check-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+eol_check-0.1.0.dist-info/entry_points.txt,sha256=T-zIGGp0JG8M2F19CUuel2PW46iTfMvWuyF9PnUecXk,49
+eol_check-0.1.0.dist-info/top_level.txt,sha256=F3MPuoXjE8wOJa1kgl0aooMF6WVLyGSCYd4K0NfQzZM,10
+eol_check-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,153 @@
+Metadata-Version: 2.4
+Name: helix-data-loader
+Version: 0.4.1
+Summary: Data loader for Helix platform
+Home-page: https://github.com/yourusername/helix-data-loader
+Author: Arnaud Lacour
+Author-email: arnaudlacour@pingidentity.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Helix Data Loader
+
+A command-line utility for loading data into Helix platform from CSV and JSONL files.
+
+## Features
+
+- Process CSV and JSONL files with dynamic schema detection
+- Automatic table schema and tenant ID detection
+- Proper handling of UTF-8 files with BOM (Byte Order Mark)
+- Batch processing for improved performance
+- Multithreaded operation for high throughput
+- Real-time progress tracking and reporting
+- Comprehensive transaction metrics and HTTP status code reporting
+- Debug mode for detailed request/response logging
+- Support for both create/update and delete operations
+
+## Installation
+
+```bash
+pip install helix-data-loader
+```
+
+## Usage
+
+```bash
+# Load data from CSV file with auto-detection of tenant ID and schema
+helix-data-loader --file data.csv --table-name my_table --api-key your-api-key
+
+# Load data using API key from environment variable
+export HELIX_API_KEY=your-api-key
+helix-data-loader --file data.csv --table-name my_table
+
+# All tenant IDs are now detected automatically from the schema
+helix-data-loader --file data.csv --table-name my_table --api-key your-api-key
+
+# Load data with batch processing and multiple threads
+helix-data-loader --file data.jsonl --table-name my_table --threads 8
+
+# Start from a specific line
+helix-data-loader --file data.csv --table-name my_table --start-line 100
+
+# Delete mode (uses first column as the primary key)
+helix-data-loader --file data.csv --table-name my_table --delete
+
+# With debug output
+helix-data-loader --file data.csv --table-name my_table --debug
+
+# Use a custom configuration file
+helix-data-loader --file data.csv --table-name my_table --config custom_config.json
+
+# Show version information
+helix-data-loader --version
+```
+
+## Configuration
+
+The API key can be provided in three different ways (in order of precedence):
+1. Command line argument: `--api-key your-api-key`
+2. Environment variable: `HELIX_API_KEY=your-api-key`
+3. Configuration file
+
+Create a configuration file named `config.json` in your working directory:
+
+```json
+{
+  "api": {
+    "api_key": "your-api-key"
+  },
+  "defaults": {
+    "table_name": "default_table",
+    "start_line": 1,
+    "threads": 4,
+    "debug": false
+  },
+  "performance": {
+    "batch_size": 499
+  }
+}
+```
+
+### Automatic Table Schema and Tenant ID Detection
+
+The utility automatically fetches table schema information from the Helix API, which provides:
+
+- Automatic detection of the tenant ID (no need to configure or specify it)
+- Correct namespace and version information for API URLs
+- Future compatibility as the API evolves
+
+This schema information is required for the tool to function. If the schema cannot be retrieved, the tool will exit with an error message.
+
+### Context ID Auto-generation
+
+The utility automatically generates a random UUID for the context ID for each run, eliminating the need to specify this parameter manually.
+
+## Development
+
+### Running Tests
+
+The package includes a comprehensive test suite:
+
+```bash
+# Install development dependencies
+pip install pytest pytest-cov
+
+# Run tests with the test runner
+./run_tests.py
+
+# Or use pytest directly
+pytest tests/
+
+# Run tests with coverage report
+pytest tests/ --cov=helix_data_loader
+```
+
+### Building the Package
+
+```bash
+# Install build tools
+pip install build twine
+
+# Build distribution packages
+python -m build
+
+# Test installation from local build
+pip install dist/helix_data_loader-*.whl
+```
+
+## License
+
+MIT

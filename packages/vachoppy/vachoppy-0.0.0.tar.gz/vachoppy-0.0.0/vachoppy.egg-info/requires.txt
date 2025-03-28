@@ -1,0 +1,10 @@
+numpy>=1.26.4
+tqdm>=4.67.1
+colorama
+matplotlib>=3.10.0
+scipy
+tabulate
+pymatgen>=2024.6.10
+
+[parallel]
+mpi4py

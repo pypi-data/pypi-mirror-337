@@ -1,0 +1,15 @@
+rgbkb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbkb/__main__.py,sha256=Mewj7v9RsaGsowtLsXj0loThaXiwAswoulrAYShx_U8,35
+rgbkb/cli.py,sha256=qFeX1gwshs4IZX__vGdFn4rFMVtnUmUcmRnSQ1vhX4A,3628
+rgbkb/kb.py,sha256=P0O4jDkwVhuNZ7I8IwjyXQ6_Dinxfrcvw7hluOf2HP0,730
+rgbkb/utils.py,sha256=-yhpbI7GYMBOAZE2Crz_zTD2edgqr_uTRk9O--0LE_A,2472
+rgbkb/acer_ph16_71/README.md,sha256=YcAMTJIEzqEOPu7ATll1hZ9bXIdEG-0Y6kL_vwOO8G8,16871
+rgbkb/acer_ph16_71/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbkb/acer_ph16_71/commands.py,sha256=umAjFTd0kz-kfekQUt3pPKZKvo5s9cgoAhbvIGffH-M,33924
+rgbkb/acer_ph16_71/device.py,sha256=xtY4z9XBse45oB9YAYLLVb__wO_erC_V_mi27PTcV8w,13432
+rgbkb/acer_ph16_71/keys.py,sha256=rda_LLGP8HGJ_hRXY20yBMtJM-TyiXIN_H8VYpDyDvE,8601
+rgbkb-0.0.1.dist-info/METADATA,sha256=07Azzg6M7-TVefKEFmf3XqFPTvFcTBTPPYk_V3HnGFk,6851
+rgbkb-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+rgbkb-0.0.1.dist-info/entry_points.txt,sha256=D7Ug-XiBJEIUtFBQu7Qh9OsbHP7djDEalFPjlzuqSqQ,41
+rgbkb-0.0.1.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+rgbkb-0.0.1.dist-info/RECORD,,

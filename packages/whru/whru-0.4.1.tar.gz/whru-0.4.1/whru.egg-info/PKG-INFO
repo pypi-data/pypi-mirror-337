@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: whru
+Version: 0.4.1
+Summary: My custom Python module
+Author: whr819987540
+Author-email: steeliron550@gmail.com
+Project-URL: Source, https://github.com/whr819987540/whru
+Project-URL: Bug Tracker, https://github.com/whr819987540/whru/issues
+Requires-Dist: torch>=1.7.0
+Requires-Dist: tensorflow>=2.0.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary

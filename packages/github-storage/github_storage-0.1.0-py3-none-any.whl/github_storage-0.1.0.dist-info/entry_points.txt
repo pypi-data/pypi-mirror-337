@@ -1,0 +1,2 @@
+[console_scripts]
+github-storage = github_storage.github_storage:main

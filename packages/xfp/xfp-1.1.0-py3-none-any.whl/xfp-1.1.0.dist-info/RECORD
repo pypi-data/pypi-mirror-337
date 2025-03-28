@@ -1,0 +1,15 @@
+xfp/__init__.py,sha256=LSPZlFLERAOoOnD3q-G75todUdg3IkXSmJWGPGsVkXc,464
+xfp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xfp/utils.py,sha256=OIDRcHhxkildDTE2ukd-tVi3MyV4Jo-Dxou3Tckfot8,843
+xfp/xdict.py,sha256=b05MtWQ0mHIp3FLxOtyupwDou2JNbF6_pIyMV2vTnB4,12307
+xfp/xiter.py,sha256=f3gMeg_HCumaTHn3YygEX1SKia5S2XP-_EwmMDQp7wc,19034
+xfp/xlist.py,sha256=07l9aHsxuZ_qPHrczwfT2wrrsqaeMq9FNLMnGWmihF8,19484
+xfp/functions/__init__.py,sha256=gQe4IXIkXew23F8r0SdBHmFfn09nrvvA0MkWdgG55oU,34196
+xfp/xresult/__init__.py,sha256=lelGENkaYiurEZzswFkBFftINoqqInbgqNbWhtrJwL0,299
+xfp/xresult/_xresult.py,sha256=-6IJe7LbIKGZLc46u7u3ugzDQ2LJvUHQ72wDcchOgd4,21497
+xfp/xresult/xeither.py,sha256=nAb6LCX_L6h8HE6RpcNxql9axeF4Q3QiUWrmpJ89sf4,2453
+xfp/xresult/xoption.py,sha256=PpceCCoHbv83u51sZ3JO3a5CiLC8ZlIy8wmR383Oq-s,2140
+xfp/xresult/xtry.py,sha256=3I_6MJqE_hzfPbPQJIch5MmcXWgmscwgMh-yAuSxzVw,4185
+xfp-1.1.0.dist-info/METADATA,sha256=yi8s4HAdkj_xficOraRUie2L4oJ_v8DYNGK4OVU-N0Q,9403
+xfp-1.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+xfp-1.1.0.dist-info/RECORD,,

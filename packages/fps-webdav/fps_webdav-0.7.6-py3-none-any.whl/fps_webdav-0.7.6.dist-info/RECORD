@@ -1,0 +1,10 @@
+fps_webdav/__init__.py,sha256=wu65dmVM9fKR1rBHH263ls8Ca2FZzb0ejYcrP_Ld0iY,22
+fps_webdav/config.py,sha256=dKEMrBDvBMpGc33ocxxfNywaYeiErKJtp4cu7sA3XCg,423
+fps_webdav/main.py,sha256=WWOjC-SuUT_ksm8AM1hBHYaIr2OBBhzTZHFggR9tIkE,410
+fps_webdav/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fps_webdav/routes.py,sha256=eRO7AiLXxDDzS5OdtZfz3EksnEUEPHi_rPtOUjo8cWw,3701
+fps_webdav-0.7.6.dist-info/METADATA,sha256=AenKHulplDJ8nczLMyB5dkKW4VphY7ARoVPxcmMfFos,617
+fps_webdav-0.7.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+fps_webdav-0.7.6.dist-info/entry_points.txt,sha256=tC-7ZG7jUAi_RiScm_hMOsWhTEgJhEAHd7WtUXTjEmU,52
+fps_webdav-0.7.6.dist-info/licenses/COPYING.md,sha256=mhO0ZW9EiWOPg0dUgB-lNbJ0CGwRmTdbeAg_se1SOnY,2833
+fps_webdav-0.7.6.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+dependency = main:mvn_graph_command
+

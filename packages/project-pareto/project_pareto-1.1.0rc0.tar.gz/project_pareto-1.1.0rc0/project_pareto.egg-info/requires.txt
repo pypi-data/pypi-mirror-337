@@ -1,0 +1,19 @@
+pyomo>=6.2
+numpy
+pandas<3,>=2
+openpyxl
+idaes-pse==2.5
+requests
+plotly==5.11.0
+kaleido
+ipywidgets>=8.0.0
+tensorflow==2.13.0
+omlt==1.1
+
+[:python_version >= "3.9"]
+pyproj
+
+[testing]
+pytest
+packaging
+pyyaml

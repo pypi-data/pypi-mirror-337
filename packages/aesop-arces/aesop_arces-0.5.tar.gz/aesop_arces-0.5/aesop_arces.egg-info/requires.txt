@@ -1,0 +1,23 @@
+astropy
+numpy
+matplotlib
+h5py
+pytest-astropy
+specutils
+scipy
+astroquery
+
+[docs]
+sphinx
+sphinx-automodapi
+sphinx-astropy[confv2]
+sphinx-rtd-theme
+matplotlib
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest-doctestplus
+pytest>=4.6.0
+pytest-astropy

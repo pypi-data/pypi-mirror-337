@@ -1,0 +1,6 @@
+vtracer
+scikit-image
+opencv-python
+numpy
+pillow
+gradio>=3.0.0

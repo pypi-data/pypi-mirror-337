@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: mojadata
+Version: 3.7.1
+Summary: Mojadata Tiler
+Home-page: https://github.com/SLEEK-TOOLS/moja.data
+Author: Moja.global
+Author-email: 
+License: MPL2
+Keywords: moja.global
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: simplejson
+Requires-Dist: future
+Requires-Dist: psutil
+Requires-Dist: six
+Requires-Dist: ftfy
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Mojadata Tiler
+---
+Converts vector and raster layers to the Moja tile/block/cell format.

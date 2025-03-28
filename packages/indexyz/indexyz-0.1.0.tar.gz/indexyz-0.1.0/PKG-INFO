@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: indexyz
+Version: 0.1.0
+Summary: Biblioteca para interactuar con Google Sheets.
+Author: Palomino Ramos Yony Leonardo
+Author-email: yony.palomino.r@uni.pe
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-auth==2.38.0
+Requires-Dist: google-api-python-client==2.162.0
+Requires-Dist: google-auth-httplib2==0.2.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Index 📌
+Index es una biblioteca de Python diseñada para facilitar la interacción con Google Sheets mediante las operaciones GET, UPDATE y BATCHUPDATE.
+
+📌 Cómo Obtener las Credenciales para Google Sheets
+Para utilizar esta biblioteca con Google Sheets, es necesario obtener credenciales de una cuenta de servicio en Google Cloud. Sigue estos pasos para configurarlas correctamente:
+
+1️⃣ Crear un Proyecto en Google Cloud
+Accede a la Consola de Google Cloud.
+Crea un nuevo proyecto o selecciona uno existente.
+
+2️⃣ Habilitar la API de Google Sheets
+En la Consola de Google Cloud, ve a APIs y Servicios > Biblioteca.
+Busca "Google Sheets API" y haz clic en Habilitar.
+
+3️⃣ Crear una Cuenta de Servicio
+Ve a APIs y Servicios > Credenciales.
+Haz clic en Crear credenciales y selecciona Cuenta de servicio.
+Asigna un nombre y una descripción a la cuenta de servicio.
+En el apartado de Roles, selecciona Editor.
+Haz clic en Continuar y luego en Listo.
+
+4️⃣ Descargar el Archivo JSON de Credenciales
+En la sección de Cuentas de servicio, selecciona la cuenta que creaste.
+Ve a la pestaña Claves y haz clic en Añadir clave > Crear nueva clave.
+Selecciona el formato JSON y descarga el archivo.
+Guarda este archivo en un lugar seguro y añádelo a tu proyecto de Python.
+
+5️⃣ Compartir el Google Sheet con la Cuenta de Servicio
+Abre tu hoja de Google Sheets.
+Haz clic en Compartir.
+Copia el correo electrónico de la cuenta de servicio (se encuentra en la Consola de Google Cloud).
+Pega el correo en la sección de compartir y otórgale permisos de Editor.
+
+¡Listo! Ahora puedes usar la biblioteca para interactuar con Google Sheets.

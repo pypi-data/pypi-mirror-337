@@ -1,0 +1,2 @@
+[json2any.plugin]
+a = c_enum_generator.CGenHelperProvider:CGenHelperProvider

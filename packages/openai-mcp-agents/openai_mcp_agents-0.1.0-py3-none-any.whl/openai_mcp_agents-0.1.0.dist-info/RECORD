@@ -1,0 +1,8 @@
+openai_mcp_agents/__init__.py,sha256=vpcja3YdpwDCpVSAFqFbOVtK6jqIXabEMOC_uQ3TwLk,32
+openai_mcp_agents/mcp_agent.py,sha256=NuwvmXCO2dpibxme5o3Q0E9qhztOBZ3HwcdRU0zFJfc,15227
+openai_mcp_agents/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openai_mcp_agents/tools.py,sha256=i4OKYHCxfDmeqeUAzucr85_3avMYfhrQRRjHWGTdIJg,4486
+openai_mcp_agents-0.1.0.dist-info/METADATA,sha256=E7gd1ReST9w-nuniqRYyX3-_zw31O20k22KtNYUSE3Q,5889
+openai_mcp_agents-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+openai_mcp_agents-0.1.0.dist-info/licenses/LICENSE,sha256=T_XlT-MVlzVouCYnz5nObGXtS1Jg8njqsC4c_wJI-Cg,11337
+openai_mcp_agents-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "PyTorch-SVGRender"
+authors = [{name = "Ximing Xing", email = "ximingxing@gmail.com"}]
+dynamic = ["version", "description"]
+
+[tool.poetry]
+name = "PyTorch-SVGRender"
+version = "0.1.0"  # Add this line
+description = "Your package description"
+authors = ["Gaurav Swansi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"  # Adjust this to your required Python version

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+json_compare_karate.egg-info/PKG-INFO
+json_compare_karate.egg-info/SOURCES.txt
+json_compare_karate.egg-info/dependency_links.txt
+json_compare_karate.egg-info/top_level.txt
+jsoncomparekarate/__init__.py
+jsoncomparekarate/jsoncomparekarate.py
+jsoncomparekarate/jsoncomparekaratetest.py

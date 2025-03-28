@@ -1,0 +1,21 @@
+[project]
+dynamic = ["version", "readme"]
+name = "yet_more_functools"
+requires-python = ">=3.11"
+description = "Additional functional tools for python."
+license = "MIT"
+license-files = ["LICENSE.txt"]
+keywords = ["functional"]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-data.yet_more_functools = ["VERSION"]
+dynamic.version = { attr = "yet_more_functools.__version__" }
+dynamic.readme = { file = "README.md", content-type = "text/markdown" }
+

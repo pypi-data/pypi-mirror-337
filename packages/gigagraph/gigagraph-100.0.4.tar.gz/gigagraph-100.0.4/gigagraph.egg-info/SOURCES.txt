@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+gigagraph.egg-info/PKG-INFO
+gigagraph.egg-info/SOURCES.txt
+gigagraph.egg-info/dependency_links.txt
+gigagraph.egg-info/top_level.txt

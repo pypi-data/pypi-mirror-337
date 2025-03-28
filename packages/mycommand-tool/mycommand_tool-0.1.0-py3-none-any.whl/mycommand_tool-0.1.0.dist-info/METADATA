@@ -1,0 +1,69 @@
+Metadata-Version: 2.4
+Name: mycommand-tool
+Version: 0.1.0
+Summary: A command-line tool for project management
+Home-page: https://github.com/yourusername/mycommand-tool
+Author: New Gen
+Author-email: your.email@example.com
+Keywords: project-management,cli,tools,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: python-dotenv>=1.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Mycommand Tool
+
+A command-line interface tool for project management.
+
+## Installation
+
+You can install the package using `uv`:
+
+```bash
+uv pip install mycommand-tool
+```
+
+## Usage
+
+After installation, you can use the CLI tool with the following commands:
+
+```bash
+# Create a new project
+mycommand create project_name
+```
+
+## Features
+
+- Create new projects with a single command
+- Easy to use command-line interface
+- Extensible architecture
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

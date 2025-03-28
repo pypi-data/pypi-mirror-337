@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+chaichai/__init__.py
+chaichai/rabbitmq.py
+chaichai.egg-info/PKG-INFO
+chaichai.egg-info/SOURCES.txt
+chaichai.egg-info/dependency_links.txt
+chaichai.egg-info/requires.txt
+chaichai.egg-info/top_level.txt

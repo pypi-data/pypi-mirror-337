@@ -1,0 +1,9 @@
+h5ad_validate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+h5ad_validate/validate.py,sha256=80bzkoTvPc-VID5cJFNPuBznFHK0IQBq5NN_JY2Sbl8,1679
+h5ad_validate/validator.py,sha256=SeILPak-ITGifMfYGaSG7DzOY7shqtC_O6nttlPesSc,6063
+HTAN_h5ad_validate-0.1.1.dist-info/LICENSE,sha256=2nIcjUD0GtJUYRcYrlOHg7bv4709bjBxSYWfTQB3yMI,1093
+HTAN_h5ad_validate-0.1.1.dist-info/METADATA,sha256=acS0YTLJdKntDqn-hqiQ_atY1G2dV-lj9itArOZyep8,7248
+HTAN_h5ad_validate-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+HTAN_h5ad_validate-0.1.1.dist-info/entry_points.txt,sha256=w_iOPRbl5QzhQtVYO4GHOnv1MdH-PzHD788YKVKOS_I,75
+HTAN_h5ad_validate-0.1.1.dist-info/top_level.txt,sha256=6EjDk85hDVtRM42uVqpnldidEvcslxTCKsYdsoNzLKw,14
+HTAN_h5ad_validate-0.1.1.dist-info/RECORD,,

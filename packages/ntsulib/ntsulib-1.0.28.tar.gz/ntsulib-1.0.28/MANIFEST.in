@@ -1,0 +1,2 @@
+include ntsulib/n_c/c_lib/*.dll
+recursive-include ntsulib/n_c/c_lib *.dll

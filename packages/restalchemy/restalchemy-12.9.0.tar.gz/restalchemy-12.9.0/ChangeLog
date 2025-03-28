@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+12.9.0
+------
+
+* Added dynamic model type handling and OpenAPI schema generation

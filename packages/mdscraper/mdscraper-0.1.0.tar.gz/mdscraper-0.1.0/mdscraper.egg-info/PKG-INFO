@@ -1,0 +1,118 @@
+Metadata-Version: 2.4
+Name: mdscraper
+Version: 0.1.0
+Summary: A tool to fetch webpages and convert their content to clean Markdown format for LLM processing
+Author-email: Oscar Jiang <pengj0520@gmail.com>
+Project-URL: Homepage, https://github.com/warmwind/mdscraper
+Project-URL: Bug Tracker, https://github.com/warmwind/mdscraper/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.9.3
+Requires-Dist: requests>=2.25.1
+Requires-Dist: markdownify>=0.11.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Dynamic: license-file
+
+# MDScraper
+
+A specialized tool for extracting clean, structured content from webpages and converting it to Markdown format. Ideal for preparing web content for LLM embeddings and semantic search applications.
+
+## Features
+
+- Clean and normalize web content for optimal LLM processing
+- Extract relevant content while filtering out noise, navigation, ads, and irrelevant elements
+- Transform HTML content into consistent, well-structured Markdown format
+- Process single URLs or batch process multiple URLs from a file
+- Intelligent content detection for various webpage layouts
+- Options to ignore images and links to reduce token usage in embeddings
+- Option to add extra spacing before headings for improved document structure
+- Debug mode for troubleshooting extraction issues
+
+## Installation
+
+### Option 1: Install from PyPI
+
+```bash
+uv pip install mdscraper
+```
+
+### Option 2: Install from source
+
+First, ensure you have UV installed. If not, install it following the [official UV installation guide](https://github.com/astral-sh/uv):
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Then clone and install the repository:
+
+```bash
+git clone https://github.com/yourusername/mdscraper.git
+cd mdscraper
+uv pip install .
+```
+
+## Usage
+
+### Process a single URL
+
+```bash
+mdscraper --url https://example.com --output example.md
+```
+
+### Process multiple URLs from a file
+
+Create a text file with one URL per line, then run:
+
+```bash
+mdscraper --file urls.txt --outdir output_directory
+```
+
+### Additional options
+
+- `--debug` or `-d`: Enable debug mode for more information
+- `--no-images`: Ignore all images in the content
+- `--no-links`: Ignore all links in the content
+- `--extra-heading-space LEVELS`: Add newlines before specific heading levels for better readability. LEVELS can be:
+  - `all`: Add spacing to all heading levels (h1-h6)
+  - `1,2,3`: Comma-separated list of specific heading levels to apply spacing to
+
+## Development
+
+### Running Tests
+
+To run the test suite, first ensure you have the development dependencies installed:
+
+```bash
+uv pip install -e ".[dev]"
+```
+
+Then run the tests:
+
+```bash
+# Run tests without coverage
+pytest tests/
+
+# Run tests with coverage report
+pytest tests/ --cov
+```
+
+The coverage report will show you which parts of the code are covered by tests and which lines are missing coverage.
+
+## License
+
+MIT

@@ -1,0 +1,9 @@
+pystac
+geopandas
+movingpandas
+pandas
+shapely
+toolz
+
+[visualization]
+folium

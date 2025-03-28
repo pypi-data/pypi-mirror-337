@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: hidos
+Version: 2.2.1
+Summary: Hash Identifed Digital Object Successions
+Author-email: Castedo Ellerman <castedo@castedo.com>
+License-Expression: MIT
+Project-URL: Homepage, https://hidos.readthedocs.io/
+Project-URL: Repository, https://gitlab.com/perm.pub/hidos
+Keywords: git
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: dulwich>=0.22.6
+Requires-Dist: fastimport
+Requires-Dist: platformdirs
+Requires-Dist: requests
+Requires-Dist: requests-cache
+Requires-Dist: sshsig
+Provides-Extra: git
+Requires-Dist: GitPython; extra == "git"
+Dynamic: license-file
+
+Hash Identified Digital Object Successions
+==========================================
+
+Visit [hidos.readthedocs.io](https://hidos.readthedocs.io) for documentation.
+
+Documentation built from the `docs` branch.

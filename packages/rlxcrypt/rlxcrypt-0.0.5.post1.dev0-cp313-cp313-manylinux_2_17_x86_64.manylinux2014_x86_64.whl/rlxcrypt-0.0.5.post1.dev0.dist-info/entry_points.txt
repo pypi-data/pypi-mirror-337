@@ -1,0 +1,2 @@
+[console_scripts]
+rlxcrypt = rlxcrypt.main:run

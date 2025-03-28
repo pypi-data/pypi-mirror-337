@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+smart_gitlab.egg-info/PKG-INFO
+smart_gitlab.egg-info/SOURCES.txt
+smart_gitlab.egg-info/dependency_links.txt
+smart_gitlab.egg-info/requires.txt
+smart_gitlab.egg-info/top_level.txt

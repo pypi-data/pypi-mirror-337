@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: smart-gitlab
+Version: 1.0
+Summary: gitlab sdk
+Home-page: https://xxx.com
+Author: xuwuqiang
+Author-email: wuqiang@test.com
+License: MIT Licence
+Keywords: git_tools,deploy
+Platform: any
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: summary
+
+tools for gitlab with python

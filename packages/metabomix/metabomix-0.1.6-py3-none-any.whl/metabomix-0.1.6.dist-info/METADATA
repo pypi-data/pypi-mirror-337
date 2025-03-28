@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: metabomix
+Version: 0.1.6
+Summary: Add your description here
+Author-email: Tim Hendriksen <tim.hendriksen@wur.nl>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# How to get started
+1) create conda environment from env.yml
+2) pip install metabomix in the environment, activate environment
+3) From the example folder: run main.py 
+
+# How to add more tools: 
+Soon

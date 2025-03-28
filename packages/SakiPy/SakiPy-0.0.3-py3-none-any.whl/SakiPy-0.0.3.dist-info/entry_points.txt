@@ -1,0 +1,2 @@
+[console_scripts]
+SakiPy = SakiPy.manage:run

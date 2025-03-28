@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "simple-llm-eval"
+version = "0.0.1"
+description = "Simple LLM Evaluation Using LLM As a Judge"
+readme = "README.md"
+license = "Apache Software License (Apache-2.0)"
+authors = ["CyberArk <acyberark@cyberark.com>"]
+packages = [{include = "simpleval"}]
+ 
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+ 
+[tool.poetry.dependencies]
+python = ">=3.10.0, <4.0"
+
+ 
+[tool.poetry.dev-dependencies]
+twine = "^6.1.0"
+

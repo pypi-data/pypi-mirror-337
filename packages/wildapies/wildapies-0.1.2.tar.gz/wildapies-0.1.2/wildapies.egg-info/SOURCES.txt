@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+wildapies/__init__.py
+wildapies/parser.py
+wildapies.egg-info/PKG-INFO
+wildapies.egg-info/SOURCES.txt
+wildapies.egg-info/dependency_links.txt
+wildapies.egg-info/requires.txt
+wildapies.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+.*
+!.gitignore
+!.github/
+!.cursor/
+
+*pyc
+__pycache__
+
+logs/
+*.log
+*.log.*
+
+config.yaml
+
+venv/
+node_modules/

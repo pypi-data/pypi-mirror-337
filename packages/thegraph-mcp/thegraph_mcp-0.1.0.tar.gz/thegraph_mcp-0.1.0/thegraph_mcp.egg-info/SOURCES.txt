@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+deprecated/hello.py
+thegraph_mcp.egg-info/PKG-INFO
+thegraph_mcp.egg-info/SOURCES.txt
+thegraph_mcp.egg-info/dependency_links.txt
+thegraph_mcp.egg-info/requires.txt
+thegraph_mcp.egg-info/top_level.txt

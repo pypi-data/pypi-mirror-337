@@ -1,0 +1,11 @@
+databricks_ai_bridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databricks_ai_bridge/genie.py,sha256=rnUGP7pXJZbkMmk9utwXjes4XGJFeSTTugRxQYjdU08,6549
+databricks_ai_bridge/vector_search_retriever_tool.py,sha256=6hJInJ311XED8zVYu9LaSICsXpuJ7ZMfPQ8ulecRvGg,4211
+databricks_ai_bridge/test_utils/vector_search.py,sha256=8UZKC8gLP3ovWbsGudh2G1a8n32wOgQ6G7t3pGgkqH4,4742
+databricks_ai_bridge/utils/annotations.py,sha256=-T0XE5bAKu0PmeQ0SQ-SVQljcP1c14os4MAo2oazc44,2341
+databricks_ai_bridge/utils/vector_search.py,sha256=HiwjZhcLCzppGFY2qtacKjXNDcqJ8fHkQDDBhOFlEqE,4765
+databricks_ai_bridge-0.4.1.dist-info/METADATA,sha256=a3XfGE2RHqFQhytVy2xO_aX9KTH1G38QxdR5MGcw6lM,6143
+databricks_ai_bridge-0.4.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+databricks_ai_bridge-0.4.1.dist-info/licenses/LICENSE.txt,sha256=BvxmmzgRH6hoC_x8PfSICm1ygYulx2m6bjcHu0qKzVk,3411
+databricks_ai_bridge-0.4.1.dist-info/licenses/NOTICE.txt,sha256=QAeSdDMJxecqVRvNsKyP-0VxfurdtY4n0KaSHjxPdvc,1330
+databricks_ai_bridge-0.4.1.dist-info/RECORD,,

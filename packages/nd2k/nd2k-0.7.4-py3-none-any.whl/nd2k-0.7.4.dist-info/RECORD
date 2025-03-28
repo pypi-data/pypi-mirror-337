@@ -1,0 +1,14 @@
+nd2k/__init__.py,sha256=NlEauMwtXoEKbwrPOrli10ayCB9mL0DXpZSrGwBJ7T4,88
+nd2k/formatter.py,sha256=nP68f4w5HfMIFDD5I1eOS0NGrn2fpOwWzakQreCXzX4,2524
+nd2k/main.py,sha256=3ZvFuNOePWTLo8xJoxjZ2YRzVe5QmcmVW0tu-eHztDg,1156
+nd2k/queries.py,sha256=8S-0mNW0WfMNZpY8lS9xY6EsmQ9RsCCzNP98FamV8jI,1500
+nd2k/types.py,sha256=ER2n-N6ML2LeyAYz1oL29b1vnne20ib2SbZU7Iuw3vY,2066
+nd2k/utils.py,sha256=5wBcPYeZTz79lFNRiFy_yIBpsyyoqxHcEwcgCB3grho,483
+nd2k/converter/__init__.py,sha256=llk3SnPI-lyo2wksm1092TV4IGiDQ0Ahh9gbUF8I6to,215
+nd2k/converter/combine_groups.py,sha256=iqftzTx8rMKL_iYQEdMd5z1ZVeSD-743qpeODiw-yYY,1272
+nd2k/converter/group_similar.py,sha256=7g3JRvSWu4saW4NIQj2pjQFMJb4hEberd7h4rBB74s8,354
+nd2k/converter/organize_rows.py,sha256=0KoaWSObduVyXsxlBAnc3wj059Sr38fPrtY2R0B5ShU,3892
+nd2k-0.7.4.dist-info/entry_points.txt,sha256=Wmk_7e-isYXo7-LnkDoCkXNxztt-_v5Dfdr7OVIMy_U,39
+nd2k-0.7.4.dist-info/WHEEL,sha256=G2gURzTEtmeR8nrdXUJfNiB3VYVxigPQ-bEQujpNiNs,82
+nd2k-0.7.4.dist-info/METADATA,sha256=s4sNGmmTZBibSdfcQRkLSKvF9eppyvym3c9Q06Gjhr8,3007
+nd2k-0.7.4.dist-info/RECORD,,

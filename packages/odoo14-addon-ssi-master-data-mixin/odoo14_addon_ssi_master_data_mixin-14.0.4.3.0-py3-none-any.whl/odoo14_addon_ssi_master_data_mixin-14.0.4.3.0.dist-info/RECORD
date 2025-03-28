@@ -1,0 +1,11 @@
+odoo/addons/ssi_master_data_mixin/README.rst,sha256=lLjXhCxU_VIVtry1OgQuBcHYRjVO-ENZiENQp9GdwFQ,1278
+odoo/addons/ssi_master_data_mixin/__init__.py,sha256=_euh7OtzMTDmyHY0E3tvYRWTi0ufnrMCH3IH8ZLtu0s,181
+odoo/addons/ssi_master_data_mixin/__manifest__.py,sha256=nv2FgulyRQI3wvYtMa--HzbBMbfEHiVJhO1IMbKgzrc,544
+odoo/addons/ssi_master_data_mixin/models/__init__.py,sha256=MH-geBjhVAfrd9wgl2Z6Ojz-WndWU4Sxeo-9yfB0hLE,192
+odoo/addons/ssi_master_data_mixin/models/mixin_master_data.py,sha256=TAax8jSU25TbwCt755Vt4bwUJS8vcsoa0bTwoLOfg44,3277
+odoo/addons/ssi_master_data_mixin/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_master_data_mixin/views/mixin_master_data_views.xml,sha256=9i4Br6rrTF7izuiFYPZZMMu8LNRyfteuJ2BpzlwbXsY,3640
+odoo14_addon_ssi_master_data_mixin-14.0.4.3.0.dist-info/METADATA,sha256=SENLJP2IjqW1ZsS3zOpHan9jmyGemyKb52d8p3RhhHs,1862
+odoo14_addon_ssi_master_data_mixin-14.0.4.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_ssi_master_data_mixin-14.0.4.3.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_master_data_mixin-14.0.4.3.0.dist-info/RECORD,,

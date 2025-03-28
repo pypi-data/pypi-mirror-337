@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sqs_message_sender/__init__.py
+sqs_message_sender/sender.py
+sqs_message_sender.egg-info/PKG-INFO
+sqs_message_sender.egg-info/SOURCES.txt
+sqs_message_sender.egg-info/dependency_links.txt
+sqs_message_sender.egg-info/requires.txt
+sqs_message_sender.egg-info/top_level.txt

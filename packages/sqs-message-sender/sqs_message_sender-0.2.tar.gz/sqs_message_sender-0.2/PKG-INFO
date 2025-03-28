@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: sqs_message_sender
+Version: 0.2
+Summary: A custom library for sending messages to AWS SQS
+Author: Omkar Mahajan
+Author-email: mahajanomkar86@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3>=1.20.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Feature Lists
+
+A custom library for sending messages to AWS SQS
+
+## Installation
+
+```bash
+pip install sqs-message-sender
+

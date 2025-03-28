@@ -1,0 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example1-reproi5000"
+version = '0.0.562'

@@ -1,0 +1,10 @@
+pybatcher/__init__.py,sha256=X2M9_DOzOWoO3jUguSDdHULSpyPDuPYNk2wj1rXqXbs,194
+pybatcher/batch.py,sha256=IwG0gw396lTKfb4C0800C__mWoYWHZTR9VvnJ8-sR50,16870
+pybatcher/batcher.py,sha256=rLirCmf4r4Oclv368CiAIhi6TkO0ygeLw93xHqbKH8w,10505
+pybatcher/exceptions.py,sha256=N74ttlPxzMMuC0Z9fUDApod7xN1fgIkjXS3oYCd3cJU,133
+pybatcher/utils.py,sha256=OSNIzjIGPzTlAfDjfUQcJlffBQJzJPN4epOTLEgctSc,4364
+pybatcher-1.0.1.dist-info/licenses/LICENCE,sha256=xrBpO678hd2d5men0vRHcwQQENj5NzfAs7tMO_nnRSk,1061
+pybatcher-1.0.1.dist-info/METADATA,sha256=Z14w6MvrP8E1PJ0vEaGkqNQvWdINBFAjkGvO5PqLAcM,4701
+pybatcher-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pybatcher-1.0.1.dist-info/top_level.txt,sha256=gEOVW-kaYFe-5K-D-UAOgakySA2bkKB4IxhrNSOmSEA,10
+pybatcher-1.0.1.dist-info/RECORD,,

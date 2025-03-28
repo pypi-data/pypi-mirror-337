@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=wVNC5MY3FKauOk0lVeGUoZ6dWhMidsFeQu0c5iT863c,631
+tencentcloud/mariadb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/mariadb/v20170312/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/mariadb/v20170312/errorcodes.py,sha256=mMElCZWF6FvV48KgG25MgD-q5kDKl3TcvwuchePj6vo,15238
+tencentcloud/mariadb/v20170312/mariadb_client.py,sha256=uhQb-1P_2RbExFYyXbahbMnVUSkoQwweuXNE0rcssbQ,77022
+tencentcloud/mariadb/v20170312/models.py,sha256=9IQFIPsCfdKDpqkD_WBOmadIpJWrPP49aUNr9YXAmPg,484925
+tencentcloud_sdk_python_mariadb-3.0.1350.dist-info/METADATA,sha256=p5Y6RuaTt4z_Rsr9qLd9xay64PyVmxXYIVWKf_k5HIs,1516
+tencentcloud_sdk_python_mariadb-3.0.1350.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_mariadb-3.0.1350.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_mariadb-3.0.1350.dist-info/RECORD,,

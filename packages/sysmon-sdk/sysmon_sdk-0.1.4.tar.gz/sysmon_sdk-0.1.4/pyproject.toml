@@ -1,0 +1,27 @@
+[project]
+name = "sysmon-sdk"
+version = "0.1.4"
+description = "Python SDK and CLI to interact with the sysmon daemon"
+authors = [{name="Arun Gupta", email="arun_o_gupta@gmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+  "psutil",
+  "pytest",
+  "pytest-cov",
+  "pytest-order"
+]
+
+
+[tool.setuptools.package-data]
+"sysmon_sdk" = ["config.json"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+sysmon = "sysmon_sdk.cli:main"
+

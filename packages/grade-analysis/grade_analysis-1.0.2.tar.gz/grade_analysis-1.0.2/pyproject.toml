@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "grade-analysis"
+version = "1.0.2"
+description = "Tool for analyzing grading analysis data"
+authors = ["Mario Marku <mariom@fordham.edu>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://www.cis.fordham.edu/edmlab/software/grade-analysis-tool"
+repository = "https://github.com/Fordham-EDM-Lab/Grading-Analysis-Tool/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+matplotlib = "*"
+mplcursors = "*"
+numpy = "*"
+pandas = "*"
+prompt_toolkit = "*"
+Requests = "*"
+scikit_learn = "*"
+seaborn = "*"
+tabulate = "*"
+ttkwidgets = "*"
+webcolors = "*"
+
+[tool.poetry.scripts]
+grade-analysis = "grade_analysis.gradeAnalysisGUI:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "tolbi-gis"
+readme = "README.md"
+version = "1.0.0"
+authors = [{name = "Tolbi", email = "dep.it@tolbico.com"}]
+description = "A Django middleware to explode GeoJSON files in requests."
+requires-python = ">=3.7"
+dependencies = [
+    "Django>=3.2",
+    "geopandas",
+]

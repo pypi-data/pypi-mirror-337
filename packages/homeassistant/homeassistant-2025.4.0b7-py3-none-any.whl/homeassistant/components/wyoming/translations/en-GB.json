@@ -1,0 +1,40 @@
+{
+    "config": {
+        "abort": {
+            "no_port": "No port for endpoint"
+        },
+        "step": {
+            "zeroconf_confirm": {
+                "description": "Do you want to configure Home Assistant to connect to the Wyoming service {name}?",
+                "title": "Discovered Wyoming service"
+            }
+        }
+    },
+    "entity": {
+        "number": {
+            "auto_gain": {
+                "name": "Auto gain"
+            },
+            "volume_multiplier": {
+                "name": "Mic volume"
+            }
+        },
+        "select": {
+            "noise_suppression_level": {
+                "name": "Noise suppression level",
+                "state": {
+                    "high": "High",
+                    "low": "Low",
+                    "max": "Max",
+                    "medium": "Medium",
+                    "off": "Off"
+                }
+            }
+        },
+        "switch": {
+            "mute": {
+                "name": "Mute"
+            }
+        }
+    }
+}

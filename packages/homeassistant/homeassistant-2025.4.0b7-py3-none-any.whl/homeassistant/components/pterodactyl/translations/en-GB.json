@@ -1,0 +1,19 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "api_key": "The account API key for accessing your Pterodactyl server.",
+                    "url": "The URL of your Pterodactyl server, including the protocol (http:// or https://) and optionally the port number."
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "status": {
+                "name": "Status"
+            }
+        }
+    }
+}

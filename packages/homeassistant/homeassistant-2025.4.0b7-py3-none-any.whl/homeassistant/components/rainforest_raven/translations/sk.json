@@ -1,0 +1,42 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zariadenie u\u017e je nakonfigurovan\u00e9",
+            "already_in_progress": "Konfigur\u00e1cia u\u017e prebieha",
+            "no_devices_found": "Nena\u0161li sa \u017eiadne kompatibiln\u00e9 zariadenia"
+        },
+        "error": {
+            "cannot_connect": "Nepodarilo sa pripoji\u0165",
+            "timeout_connect": "\u010casov\u00fd limit na nadviazanie spojenia"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "device": "Zariadenie"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "meter_price": {
+                "name": "Cena mera\u010da",
+                "state_attributes": {
+                    "rate_label": {
+                        "name": "Sadzba"
+                    },
+                    "tier": {
+                        "name": "\u00darove\u0148"
+                    }
+                }
+            },
+            "signal_strength": {
+                "state_attributes": {
+                    "channel": {
+                        "name": "Kan\u00e1l"
+                    }
+                }
+            }
+        }
+    }
+}

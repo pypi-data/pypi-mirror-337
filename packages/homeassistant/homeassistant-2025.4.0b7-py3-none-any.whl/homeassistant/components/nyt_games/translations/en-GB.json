@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "token": "Token"
+                },
+                "data_description": {
+                    "token": "The NYT Games NYT-S cookie value."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "last_played": {
+                "name": "Last played"
+            },
+            "max_streak": {
+                "name": "Highest streak"
+            },
+            "streak": {
+                "name": "Current streak"
+            },
+            "total_pangrams": {
+                "name": "Total pangrams found"
+            },
+            "total_words": {
+                "name": "Total words found"
+            },
+            "won": {
+                "name": "Won"
+            },
+            "wordles_played": {
+                "name": "Played"
+            }
+        }
+    }
+}

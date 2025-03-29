@@ -1,0 +1,8 @@
+{
+    "config": {
+        "error": {
+            "multiple_queries": "Multiple SQL queries are not supported",
+            "query_no_read_only": "SQL query must be read-only"
+        }
+    }
+}

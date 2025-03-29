@@ -1,0 +1,34 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "air_demand": {
+                "name": "Air demand"
+            },
+            "floor_demand": {
+                "name": "Floor demand"
+            }
+        },
+        "select": {
+            "grille_angles": {
+                "name": "Cold angle"
+            },
+            "heat_angles": {
+                "name": "Heat angle"
+            },
+            "modes": {
+                "name": "Mode",
+                "state": {
+                    "stop": "Stop"
+                }
+            },
+            "sleep_times": {
+                "name": "Sleep"
+            }
+        },
+        "sensor": {
+            "rssi": {
+                "name": "RSSI"
+            }
+        }
+    }
+}

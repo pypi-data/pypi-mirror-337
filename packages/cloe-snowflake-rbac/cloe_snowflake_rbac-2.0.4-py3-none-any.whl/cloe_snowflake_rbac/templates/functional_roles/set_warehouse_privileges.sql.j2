@@ -1,0 +1,15 @@
+{% if usage is not none -%}
+{{ 'GRANT' if usage else "REVOKE" }} USAGE ON WAREHOUSE {{ warehouse_name }} {{ 'TO' if usage else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if operate is not none -%}
+{{ 'GRANT' if operate else "REVOKE" }} OPERATE ON WAREHOUSE {{ warehouse_name }} {{ 'TO' if operate else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if monitor is not none -%}
+{{ 'GRANT' if monitor else "REVOKE" }} MONITOR ON WAREHOUSE {{ warehouse_name }} {{ 'TO' if monitor else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if modify is not none -%}
+{{ 'GRANT' if modify else "REVOKE" }} MODIFY ON WAREHOUSE {{ warehouse_name }} {{ 'TO' if modify else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if applybudget is not none -%}
+{{ 'GRANT' if applybudget else "REVOKE" }} APPLYBUDGET ON WAREHOUSE {{ warehouse_name }} {{ 'TO' if applybudget else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}

@@ -1,0 +1,3 @@
+[console_scripts]
+cloe-snowflake-rbac=cloe_snowflake_rbac.main:app
+

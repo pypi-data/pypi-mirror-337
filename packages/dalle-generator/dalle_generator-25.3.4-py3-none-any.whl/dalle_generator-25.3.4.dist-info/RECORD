@@ -1,0 +1,10 @@
+dalle_generator/__init__.py,sha256=FftlO6YpuVURlrUyiC1m7yhOuv2TYA2NgdVjBzx2jps,16173
+dalle_generator/api.py,sha256=hXMn0MydI0hqgY9RDBBBRkkFA0pWPECFjQF4l9qF9NE,2976
+dalle_generator/data.py,sha256=5X-viWR9cYZb9M1Zl_gjcswxFvnU6nEsWEvaZfx_PEU,759
+dalle_generator/webui.py,sha256=jK7_MjrOau1iaArRbxvu4kTBRXnCPQ2288MQuhNIbZQ,7250
+dalle_generator/templates/index.py,sha256=9wnizCzqJGzhQZR-wcs1GRaYvLMZKdry3JD1P00rmSc,12315
+dalle_generator-25.3.4.dist-info/licenses/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+dalle_generator-25.3.4.dist-info/METADATA,sha256=S6B4cGYDBiNoMZUKnqx50IvyrjL7Yb_NDVhPHHvlbII,3059
+dalle_generator-25.3.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+dalle_generator-25.3.4.dist-info/top_level.txt,sha256=yXUOfb34roiiVr9sUWLWJrUK-llALRRvnuKfQUjXEO4,16
+dalle_generator-25.3.4.dist-info/RECORD,,

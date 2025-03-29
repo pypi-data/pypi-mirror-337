@@ -1,0 +1,10 @@
+xkits_command/__init__.py,sha256=wXuMzN8SfVZw0wIyFZmVd37SmxhPK6lpceGgx3xDmeQ,447
+xkits_command/actuator.py,sha256=enXO_MYXK1NtuKafVdPwK89oPJjTMq381K5ShJmqb6I,24231
+xkits_command/attribute.py,sha256=LANOgFgOTCFqoSx_qY-0NV69rR6iMLOoUY3PJ3J-Tuo,240
+xkits_command/parser.py,sha256=8vf5Sm2Act2TO9cYrPxajj70FiQpFgCkCZEWr_Rzy28,9097
+xkits_command-0.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xkits_command-0.2.dist-info/METADATA,sha256=mLdgwWH9LVrp6olFy3LKIIULsJ8k-OhNcLxrPK8tAps,757
+xkits_command-0.2.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+xkits_command-0.2.dist-info/top_level.txt,sha256=cTjduFaptSrsDAiu3H_1QR_eqZjytYwABnaA1oiE2VU,14
+xkits_command-0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xkits_command-0.2.dist-info/RECORD,,

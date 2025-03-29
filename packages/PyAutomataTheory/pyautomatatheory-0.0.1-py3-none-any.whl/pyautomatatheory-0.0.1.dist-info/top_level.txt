@@ -1,0 +1,4 @@
+automatas
+jflap
+minimization
+transformations

@@ -1,0 +1,15 @@
+automatas/__init__.py,sha256=eu1WIYFQooJze2gwZY0SCRj8cZmTi47maPWE1ipahB4,136
+automatas/base_automata.py,sha256=5NbWpFKA-ouAelXQ4sC9fVjD3IAFMmCWPpcnU1J0K0U,389
+automatas/mealy_automata.py,sha256=FzLq2o8fM3udWwu3oujzufNTcAEmoquZisj8urRHiPw,587
+automatas/moor_automata.py,sha256=_b1XcbMpDmojyvdmC0GAFeskhhad7qSE1CJxbrLcL1I,787
+jflap/__init__.py,sha256=6fczNpQGiY--K5veL7NutLyVNlN0WuEH9kjJbLs719U,114
+jflap/to_jflap_mealy.py,sha256=rRPDtyUZScqUF2yxZvAtMuypDR1j90PMvm8RyVa6Wn0,1367
+jflap/to_jflap_moor.py,sha256=6wulyoOocEFi9iW0j6BGsuUPbBWT9kHB3nK-Ld1lx40,1587
+minimization/__init__.py,sha256=GULu5KBTs11WfE2ESQmWHloCkHWMhgGHQ4Odlw-AOII,59
+minimization/pi_minimization.py,sha256=lPTsDWbrn7632giAB8y5hO4c-AjaJAOnd6NS3OAbSQI,2642
+transformations/__init__.py,sha256=5RE-azwRls__1Pw_BwOENDhsaxcZbvzvDU61H2haUT4,65
+transformations/from_mealy_to_moor.py,sha256=C0JOpXfQ_Kwo-rxpv1DmiCDi9Rq8VvgRJdj6WhL2qRw,1131
+pyautomatatheory-0.0.1.dist-info/METADATA,sha256=s9YD3op32mmuvGD3VXOVDZkVpyR1Fovc9AN-LBLdjmo,177
+pyautomatatheory-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pyautomatatheory-0.0.1.dist-info/top_level.txt,sha256=gYwnuGlDrrJmXaNSnj8kLcFrNsiJKdOc3ldzXCcH7Ww,45
+pyautomatatheory-0.0.1.dist-info/RECORD,,

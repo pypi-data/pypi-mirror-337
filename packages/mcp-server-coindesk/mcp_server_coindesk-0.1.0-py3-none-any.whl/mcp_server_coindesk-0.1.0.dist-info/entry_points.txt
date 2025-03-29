@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-coindesk = mcp_server_coindesk.server:main

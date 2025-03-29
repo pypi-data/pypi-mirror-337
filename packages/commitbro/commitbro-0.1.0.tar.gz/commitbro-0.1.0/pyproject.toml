@@ -1,0 +1,23 @@
+[project]
+name = "commitbro"
+version = "0.1.0"
+description = "Generate Git commit messages using local or remote AI models."
+authors = [
+    { name = "Himanshu Patel", email = "dev@commitbro.privexamail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29"
+]
+
+[project.scripts]
+commitbro = "commitbro.cli:main"
+commitbro-train = "commitbro.train:main"
+commitbro-setup = "commitbro.setup_config:setup"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

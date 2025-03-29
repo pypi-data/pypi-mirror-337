@@ -1,0 +1,7 @@
+setup.py
+quantalent/__init__.py
+quantalent/hello.py
+quantalent.egg-info/PKG-INFO
+quantalent.egg-info/SOURCES.txt
+quantalent.egg-info/dependency_links.txt
+quantalent.egg-info/top_level.txt

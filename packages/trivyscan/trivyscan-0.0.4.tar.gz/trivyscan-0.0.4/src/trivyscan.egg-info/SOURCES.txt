@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+src/trivyscan.egg-info/PKG-INFO
+src/trivyscan.egg-info/SOURCES.txt
+src/trivyscan.egg-info/dependency_links.txt
+src/trivyscan.egg-info/top_level.txt

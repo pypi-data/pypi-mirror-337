@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: kognic-studio-proto
+Version: 0.0.0
+Author: Kognic
+Author-email: team-annotate@kognic.com
+Requires-Python: ~=3.10
+Requires-Dist: protobuf
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python

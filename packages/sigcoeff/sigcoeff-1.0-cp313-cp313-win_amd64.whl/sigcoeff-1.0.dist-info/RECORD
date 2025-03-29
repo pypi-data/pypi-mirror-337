@@ -1,0 +1,9 @@
+cython_backend.cp313-win_amd64.pyd,sha256=66fWM2SijGR_nuS3t24ahz-qLMjoZ_ABZtY_GpwiVII,164352
+sigcoeff/__init__.py,sha256=I31pmaozjI1qnGRW5sjefaLpREkcd43zudIJ3NNscwg,82
+sigcoeff/cuda_backend.py,sha256=KrxqWgUeM6TKGy6Wmobhc43hG2hOzHa7zAvEZHWxXEI,15201
+sigcoeff/sigcoeff.py,sha256=prmr9_Ifo9_hSuW7ZZKJEua85M-CUWE9lgXjhGvCImE,7489
+sigcoeff-1.0.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sigcoeff-1.0.dist-info/METADATA,sha256=p9arRd3xct44SHEb82hqzsskUux2DJnwK9lyFsRQZFY,4164
+sigcoeff-1.0.dist-info/WHEEL,sha256=6WoW_bHwIgUwfRGomr3tsp2x5B1WboZF1vodYe1_93Y,101
+sigcoeff-1.0.dist-info/top_level.txt,sha256=JteJT7Mfy4pEWMsnyOirCXbaSZmKwUwgH1u4qLMa0NY,24
+sigcoeff-1.0.dist-info/RECORD,,

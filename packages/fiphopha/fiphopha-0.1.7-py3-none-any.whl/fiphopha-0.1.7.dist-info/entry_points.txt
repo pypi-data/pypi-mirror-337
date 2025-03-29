@@ -1,0 +1,3 @@
+[console_scripts]
+fiphopha = fiphopha.run_fiphopha:main
+

@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: aiohttp-mcp
+Version: 0.0.1
+Summary: Tools for building Model Context Protocol (MCP) servers on top of aiohttp
+Project-URL: Homepage, https://github.com/kulapard/aiohttp-mcp
+Project-URL: Repository, https://github.com/kulapard/aiohttp-mcp.git
+Project-URL: Documentation, https://github.com/kulapard/aiohttp-mcp#readme
+Author-email: Taras Drapalyuk <taras@drapalyuk.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: ai,aiohttp,async,llm,mcp,model-context-protocol,server
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: aiohttp>=3.9.0
+Description-Content-Type: text/markdown
+
+# aiohttp-mcp
+
+Tools for building Model Context Protocol (MCP) servers on top of aiohttp. 

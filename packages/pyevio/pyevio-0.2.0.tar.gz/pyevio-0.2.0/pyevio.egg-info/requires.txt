@@ -1,0 +1,9 @@
+click>=8.1.0
+lz4>=4.4.0
+rich
+numpy
+matplotlib
+textual
+
+[test]
+pytest

@@ -1,0 +1,32 @@
+{% set role_name = 'R_T_' ~ database_name ~ '_' ~ schema_name ~ '_OWNER' -%}
+{% if delete_role -%}
+DROP ROLE IF EXISTS {{ role_name }};
+{% elif create_role -%}
+CREATE ROLE IF NOT EXISTS {{ role_name }};
+{% elif grant_role -%}
+GRANT ROLE {{ role_name }} TO ROLE SYSADMIN;
+GRANT USAGE ON DATABASE {{ database_name }} TO ROLE {{ role_name }};
+GRANT OWNERSHIP ON SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL MATERIALIZED VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL PROCEDURES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL FUNCTIONS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL STAGES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL FILE FORMATS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE MATERIALIZED VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE PROCEDURES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE FUNCTIONS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE STAGES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE FILE FORMATS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL TASKS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE TASKS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL STREAMS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE STREAMS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL SEQUENCES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE SEQUENCES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON ALL EXTERNAL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+GRANT OWNERSHIP ON FUTURE EXTERNAL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+{% endif -%}

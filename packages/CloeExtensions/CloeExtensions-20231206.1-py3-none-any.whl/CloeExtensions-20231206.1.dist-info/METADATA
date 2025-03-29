@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CloeExtensions
+Version: 20231206.1
+Summary: Various CLOE based helper tools independent of CLOE Core.
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Dist: CloeCore >=20230720.1
+Requires-Dist: click ==8.1.3
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: snowflake-connector-python ==3.5.0
+Requires-Dist: GitPython ==3.1.40
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: pyodbc ==5.0.1
+Requires-Dist: cython ==3.0.0a10 ; extra == 'sap_crawler'
+Requires-Dist: pyrfc ==3.0 ; extra == 'sap_crawler'

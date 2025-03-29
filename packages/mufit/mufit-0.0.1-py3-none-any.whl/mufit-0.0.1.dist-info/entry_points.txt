@@ -1,0 +1,2 @@
+[console_scripts]
+mufit = mufit:main

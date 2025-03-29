@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hregex/__init__.py
+hregex/__version__.py
+hregex.egg-info/PKG-INFO
+hregex.egg-info/SOURCES.txt
+hregex.egg-info/dependency_links.txt
+hregex.egg-info/top_level.txt
+tests/test.py

@@ -1,0 +1,8 @@
+__title__ = "hregex"
+__description__ = "HRegex: A streamlined approach to simplifying regex creation."
+__url__ = "https://github.com/farhaanaliii/hregex"
+__version__ = "1.0.1"
+__author__ = "Farhan Ali"
+__author_email__ = "i.farhanali.dev@gmail.com"
+__license__ = "Apache-2.0"
+__copyright__ = "© Farhan Ali, 2025"

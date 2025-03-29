@@ -1,0 +1,11 @@
+watchdog
+paramiko
+pycryptodome
+pywin32
+rich
+plyer
+mpmath
+miniaudio
+argostranslate
+googletrans
+pyautogui

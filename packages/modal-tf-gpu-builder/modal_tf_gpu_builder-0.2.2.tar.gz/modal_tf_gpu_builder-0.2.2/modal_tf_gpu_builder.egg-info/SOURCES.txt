@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+modal_tf_builder/__init__.py
+modal_tf_builder/builder.py
+modal_tf_gpu_builder.egg-info/PKG-INFO
+modal_tf_gpu_builder.egg-info/SOURCES.txt
+modal_tf_gpu_builder.egg-info/dependency_links.txt
+modal_tf_gpu_builder.egg-info/requires.txt
+modal_tf_gpu_builder.egg-info/top_level.txt

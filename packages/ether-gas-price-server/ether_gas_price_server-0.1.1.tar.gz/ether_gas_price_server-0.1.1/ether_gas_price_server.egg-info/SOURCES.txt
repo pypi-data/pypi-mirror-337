@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+ether_gas_price_server.egg-info/PKG-INFO
+ether_gas_price_server.egg-info/SOURCES.txt
+ether_gas_price_server.egg-info/dependency_links.txt
+ether_gas_price_server.egg-info/requires.txt
+ether_gas_price_server.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+tamilocrx = tamilocrx.ocr:main

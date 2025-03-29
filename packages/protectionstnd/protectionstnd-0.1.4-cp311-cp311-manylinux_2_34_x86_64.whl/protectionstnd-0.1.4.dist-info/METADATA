@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: protectionstnd
+Version: 0.1.4
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Requires-Dist: tomli>=1.1.0 ; python_full_version < '3.10'
+Summary: Security Protections, from sql injection to country specific protections
+Author: Alejandro Martinez <aegloszenit@protonmail.com>
+Author-email: Alejandro Martinez <aegloszenit@protonmail.com>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/zenitaeglos/protectionstnd.git
+
+# protectionstnd
+
+This package proporcionates the capability of detecting sql injection in your json/dict data.
+Regardles of how your data looks like and how nested is your dictionary, it will go through 
+each step and provide a response
+
+Usage:
+
+import libs
+
+```python 
+import protectionstnd
+```
+
+for validating a dictionary in case a sql injection has been mada
+
+```python 
+dict_to_check = {"one": {"second": "ssss"}}
+protectionstnd.sql.sql_check(dict_to_check)
+```
+
+for analyzing a dict and receive more detailed information, how many sql injections has been detected
+```python 
+dict_to_check = {"one": {"second": "ssss"}}
+protectionstnd.sql.sql_analizer(dict_to_check)
+```
+
+RUT/RUN checker for CHILE
+```python 
+
+protectionstnd.cl.rut_run_checker("123456789-2")
+```

@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: plotting_utils
+Version: 0.1.3
+License-File: LICENSE
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: statannotations
+Requires-Dist: textalloc
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+Dynamic: requires-dist

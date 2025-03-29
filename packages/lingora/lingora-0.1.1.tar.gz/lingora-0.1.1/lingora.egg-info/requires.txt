@@ -1,0 +1,5 @@
+typer
+rich
+sanic
+openai
+python-dotenv

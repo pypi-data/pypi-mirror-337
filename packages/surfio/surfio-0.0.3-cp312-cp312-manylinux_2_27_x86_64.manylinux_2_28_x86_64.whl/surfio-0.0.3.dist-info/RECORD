@@ -1,0 +1,11 @@
+surfio.cpython-312-x86_64-linux-gnu.so,sha256=PLFR4_TrG4G_L_MCWFsclQRFRa3sXzcEY8Yt0L42YcI,1692528
+lib/irap_import.cpp,sha256=Xgll2qhRm8qD34UL91LvWzhP6imNfVIZmeeQWu0CU8g,3346
+lib/include/irap_import.h,sha256=ChPeXWtbYF_6LqbuWoNA8n-BnLTVqLTVoSy1onX3izI,729
+lib/mmap_helper/mmap_helper.cpp,sha256=dnrTo7gjYeUqCW0sUyvIJ_aD02VF_uGNoYaXI9uNUyg,1044
+lib/mmap_helper/mmap_helper.h,sha256=0Qwx_vkxuikYE0VxTD_4H8sH3MMPoqB7teawpJ8OwSc,241
+pybind_module/surfio.cpp,sha256=ApRtqyNadLELP365FccV1csHLrcsWXjqPMqvfgjF96M,5114
+surfio-0.0.3.dist-info/METADATA,sha256=7DJCL1IIlO1FOS53s9LjlJdk9R-uODXKdvwNSCD_v0g,1049
+surfio-0.0.3.dist-info/WHEEL,sha256=Kzrnip9bQoDeu9Hkt4viU5qzBCgSKuxCt9VcQ9IVnjw,152
+surfio-0.0.3.dist-info/top_level.txt,sha256=quxRfG2maS3bX-H8G8RoW_QfFcoqUSsZ_ecr2JXI894,25
+surfio-0.0.3.dist-info/RECORD,,
+surfio-0.0.3.dist-info/licenses/COPYING,sha256=Oxa41JV9hC5O_nH03AF0a_AlLes9lXQYTtnEonhDljU,1064

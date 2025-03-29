@@ -1,0 +1,32 @@
+# Python bytecode files
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Data files
+*.csv 
+*.db 
+
+# Poetry files
+poetry.lock
+dist/
+*.egg-info/
+
+# Environment
+.env
+.venv/
+.envrc
+.python-version
+
+# OS files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Logs and temp files
+*.log
+tmp/

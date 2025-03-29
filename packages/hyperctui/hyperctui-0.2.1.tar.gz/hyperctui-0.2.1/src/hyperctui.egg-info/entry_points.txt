@@ -1,0 +1,2 @@
+[console_scripts]
+hyperctui = hyperctui.__main__:main

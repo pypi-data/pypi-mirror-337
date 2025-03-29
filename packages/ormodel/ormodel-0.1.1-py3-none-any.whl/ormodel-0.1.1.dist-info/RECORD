@@ -1,0 +1,10 @@
+ormodel/__init__.py,sha256=hpxWjt1C1OhbI4yM939S1zBej9JtMXc86X1JkDw1m8U,442
+ormodel/base.py,sha256=wJU6IByZ6QH5wWl1ZtQO5Yf_xEbMxuJDMzTF4Go7HCI,1757
+ormodel/database.py,sha256=RGsix79H0wkYDZ_7X0wJ3r_st0jhET7tXd7N99XLBCk,4961
+ormodel/exceptions.py,sha256=B_jAwOBOyU1q5Yl8HDQp7BcCymKwl8SvIZfcCQj7geo,412
+ormodel/manager.py,sha256=IEwZINr4jd_7PlCbCfuK6bdCiLPeZl_WCahwNlBUTRQ,15918
+ormodel/types.py,sha256=pyaf3Y1SSDbQaa6-3uU9GeQFtxfQ2DCYmJ0QjWlSz0U,239
+ormodel-0.1.1.dist-info/METADATA,sha256=o_KSruwWc3sURPJK2Jetft8gupTSFobcXz00U2UvJK4,11128
+ormodel-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ormodel-0.1.1.dist-info/licenses/LICENSE,sha256=0wOQqc8mbnQCh5HS9wR2kvE0jrV9xtJyf9xyBeF-Hh4,1068
+ormodel-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,1 @@
+CALL {{ procedure_identifier }}({% for parameter_value in parameters.values() %}{{ escape_character }}{{ parameter_value }}{{ escape_character }}{{ ", " if not loop.last else ""}}{% endfor %});

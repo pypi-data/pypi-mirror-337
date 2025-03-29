@@ -1,0 +1,17 @@
+t{{ task_n }} = {{ task_internal_name }}(
+    task_id="{{ task_n }}_{{ task_id }}",
+    {% if stage_name %}stage_name="{{ stage_name }}",
+	{% endif %}get_from_filecatalog={{ get_from_filecatalog }},
+    filecatalog_conn_id="{{ filecatalog_connections_id | upper }}",
+    source_conn_id="{{ source_connections_id | upper }}",
+    {% if container_name %}container_name="{{ container_name }}",
+	{% endif %}source_file_path_pattern="{{ source_file_path_pattern }}",
+    source_file_name_pattern="{{ source_file_name_pattern }}",
+    source_file_format="{{ source_file_format }}",
+    datasource_info_id="{{ datasource_info_id }}",
+    dataset_type_id="{{ dataset_type_id }}",
+    sink_conn_id="{{ sink_connections_id|upper }}",
+    sink_table="{{ sink_table }}",
+    {% if postload_job_call_query %}postload_job_call_query="{{ postload_job_call_query }}",
+	{% endif %}dag=dagone
+)

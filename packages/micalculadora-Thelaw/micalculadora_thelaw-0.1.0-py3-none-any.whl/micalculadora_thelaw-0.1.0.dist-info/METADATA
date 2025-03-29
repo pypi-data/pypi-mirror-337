@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: micalculadora_Thelaw
+Version: 0.1.0
+Summary: Un paquete de operaciones matematicas basicas.
+Home-page: https://pypi.org/project/micalculadora/
+Author: Thelaw
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+# Mi calculadora
+paquetes de operaciones matematicas basicas.
+

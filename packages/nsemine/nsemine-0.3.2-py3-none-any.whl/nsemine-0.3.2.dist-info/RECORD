@@ -1,0 +1,17 @@
+nsemine/__init__.py,sha256=VZKTX7poHyYDVQwHNbL-7ztXRKpCfTbHlZ0KNRPl90k,55
+nsemine/fno.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsemine/generic.py,sha256=JDL1p113MEEhPpBUSsg4JGYTXVMzR21Cigdb7ZjDIcE,2071
+nsemine/historical.py,sha256=v79qL1rIyvFZrNC2iNd6AzCDSOC9FnQi8ARZIdKnpAc,4230
+nsemine/live.py,sha256=7QPvMJvMJACg9L7XhOwAn4dDj8rUuiy3Nv4V4c1-NI0,11336
+nsemine/nse.py,sha256=y2OWKm3pfJgPy5eUDAHLi8DUg2KxjGTCBp5FHQjJk64,8125
+nsemine/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsemine/bin/cookie.py,sha256=PP05KBEdMg1JrAMwbTWsH4Ib6rjJVCNEEymQaTFEcpo,46
+nsemine/bin/scraper.py,sha256=Hpj6Ln66Y0mWZqQzmcG_hUWl3FDtwqpdYGlGO2YHm94,1036
+nsemine/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsemine/utilities/urls.py,sha256=ZDk9X_SaCiR4rcbT5mFeIpObaR3awV_sufqKoh01WHU,2888
+nsemine/utilities/utils.py,sha256=GCj8pKU5clVYjVeI2a39FNRyVbgKqdndUZJtpIrZP8Y,7589
+nsemine-0.3.2.dist-info/licenses/LICENSE,sha256=HIFqTe3C88fQzTz4NmAxxr32cEggBDjWrRZWKWj1vU8,1072
+nsemine-0.3.2.dist-info/METADATA,sha256=4MRC3XHbbRl3tjwXD85PX_TrsH9PD3tE9WrETN7yVfM,5907
+nsemine-0.3.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+nsemine-0.3.2.dist-info/top_level.txt,sha256=nKuMgejPQWu8eg4Q3v1r90ohbETo4L1B5jszKe2RbeA,8
+nsemine-0.3.2.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+BOSolver/__init__.py,sha256=RG6Nww_l7AqVDGUBA2XPWfrAbwqenvm7DI8sxkLgvsU,60
+BOSolver/bosolve.py,sha256=IMFQPhE2C4LnXccvzWP57wctm_PYbGWyC4_AKBTB8mo,2104
+BOSolver/cli.py,sha256=dqOIPmIDDwYMZRbGxvUpLhdMJB3GeSYVSYocM5WJs3M,4327
+BOSolver/compute_chg_and_bo.py,sha256=mlwlrXKhJJ2A4JMEGT0uDmecfHReo43zS28pRgJZHV0,21142
+BOSolver/utils/__init__.py,sha256=ocqd7oLIm4hd0xT8tpO_w6nfw4pN-iRkenBI1hHppHo,77
+BOSolver/utils/chem.py,sha256=IuHug9s9sAIU8ASH2k1MnJT-_CY_zp3mGv3j9tuFCJI,6840
+BOSolver/utils/coord2adj.py,sha256=gv32sxfB-ZW6Ru53jao9zE1CMXUEu05V_RR_NdvYQV0,3837
+bosolver-0.1.dist-info/licenses/LICENSE,sha256=puN8KciCbVw3px4Nq6N-91vuQthXRitCmZG2NtgCJOM,1082
+bosolver-0.1.dist-info/METADATA,sha256=IZ6RSR3RC_9muz0MIT19WPAGB2dsbysZx7mU9LrYldY,5906
+bosolver-0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bosolver-0.1.dist-info/entry_points.txt,sha256=4Kx8unWVhcKafyUV-hC9rkO04jnrBvWLxI-Qp6fFzwI,50
+bosolver-0.1.dist-info/top_level.txt,sha256=o5yrssVcsT4wyJpbtLW3z0Ab0mMJZ_BN6pc-7S6y6Uc,9
+bosolver-0.1.dist-info/RECORD,,

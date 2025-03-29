@@ -1,0 +1,10 @@
+codebase_ai_prompt_generator-0.1.2.dist-info/licenses/LICENSE,sha256=Zu2t4A1pko0P26QH2ES666XjwXXOp9qbqvBIc_mWXxw,1068
+codebase_prompt_gen/__init__.py,sha256=kAxLVagtAjJZDULceVrQaTjIflQeoyMlmvq06Wj0evU,254
+codebase_prompt_gen/core.py,sha256=oOAkQVtfweAAbuEWbVtHVRHjF8dv7n3ODp-32OIu3ts,12665
+codebase_prompt_gen/cli/__init__.py,sha256=3g2xRI4rIrCjuD8BS9ef2-ZvaBf2jpiBuDkT9mpLGls,63
+codebase_prompt_gen/cli/main.py,sha256=eUSuIX509vVo9FGt4FC-lHGMRp3Yvr_425L1wM74QqQ,2807
+codebase_ai_prompt_generator-0.1.2.dist-info/METADATA,sha256=cPCCAxwDBsa6IU5yU0r3FYFb1MW-J0xam9EKjNsWec0,7188
+codebase_ai_prompt_generator-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+codebase_ai_prompt_generator-0.1.2.dist-info/entry_points.txt,sha256=H2M6cFa86GaBG5uxeraHKvniVJg1SOAhL-KEbX4bmz4,70
+codebase_ai_prompt_generator-0.1.2.dist-info/top_level.txt,sha256=4xgkazWBmzXTZtdluHiVW8VKua5YxhUrQYF0BKqXvWY,20
+codebase_ai_prompt_generator-0.1.2.dist-info/RECORD,,

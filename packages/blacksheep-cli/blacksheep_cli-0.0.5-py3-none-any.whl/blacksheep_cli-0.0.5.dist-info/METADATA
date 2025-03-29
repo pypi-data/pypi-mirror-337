@@ -1,0 +1,106 @@
+Metadata-Version: 2.4
+Name: blacksheep-cli
+Version: 0.0.5
+Summary: 🛠️ CLI to bootstrap BlackSheep projects
+Project-URL: Homepage, https://github.com/Neoteroi/BlackSheep-CLI
+Project-URL: Bug Tracker, https://github.com/Neoteroi/BlackSheep-CLI/issues
+Author-email: Roberto Prevato <roberto.prevato@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Neoteroi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: CLI,blacksheep,developer experience,project templates,projects scaffolding
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.7
+Requires-Dist: click
+Requires-Dist: cookiecutter
+Requires-Dist: essentials-configuration[full]
+Requires-Dist: pathvalidate
+Requires-Dist: python-dotenv~=1.0.0
+Requires-Dist: questionary
+Requires-Dist: rich-click
+Requires-Dist: tomli; python_version < '3.11'
+Description-Content-Type: text/markdown
+
+# BlackSheep-CLI
+🛠️ CLI to start BlackSheep projects.
+
+- Interactive project scaffolding
+- Support for configuring more `cookiecutter` project templates
+
+```bash
+pip install blacksheep-cli
+```
+
+```bash
+blacksheep --help
+
+blacksheep create --help
+```
+
+## Official project templates
+
+- `api`, to scaffold Web API projects.
+- `mvc`, to scaffold Web Apps projects with Model, View, Controller
+   architecture, including Server Side Rendering of HTML views (SSR).
+
+## Creating a new project
+
+```bash
+blacksheep create
+```
+
+Create a project pinned to a specific tag:
+
+```bash
+blacksheep create Example --template mvc --checkout v1.0.2
+```
+
+Tags refer to the project template repository. To see the list of tags, use the
+`blacksheep templates details` and navigate to the URL of the template
+repository.
+
+## Listing the project templates
+
+```bash
+blacksheep templates list
+```
+
+See details about the templates:
+
+```bash
+blacksheep templates details
+```
+
+## How to contribute
+
+- clone this repository
+- create a Python virtual environment
+- install in development mode `pip install -e .`
+- add new commands, test

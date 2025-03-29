@@ -1,0 +1,12 @@
+bcpkgfox/__init__.py,sha256=KboDXWcfT8te2M1rPNiVV_FGf7kKPfeZ9F0FYLupAaQ,14755
+bcpkgfox/cli.py,sha256=e9UMnsS9D9VfB_KLuWEdke2MWVB0f6JaMYnL9r7rlhw,22725
+bcpkgfox/exec_file.py,sha256=fl_Do2SlF7JuXazpNTod-e_0WZUk355fbd7ustQvi40,3728
+bcpkgfox/find_elements.py,sha256=rTWR86w7TSTAQDn5myzbetK4PPZlRhBxfedsRGqyJqo,22015
+bcpkgfox/get_driver.py,sha256=RhDch9c3PPN4ygdxmP_3y4Pm4rVtu_w-BQ_VAHaalhc,29742
+bcpkgfox/invoke_api.py,sha256=FCGbONIR7i9djlckQNH89EvFvq1rZdejRUIEYfVk6Kk,7686
+bcpkgfox/system.py,sha256=Pf6VgVLnludCFow2N1bXTly9HEUHsytGw8PGveahuk8,6818
+bcpkgfox-0.15.98.dist-info/METADATA,sha256=IjSOYCeqvg3mx__8ljLNxrjztzWz8mClwDh2oC3t_Sg,1539
+bcpkgfox-0.15.98.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bcpkgfox-0.15.98.dist-info/entry_points.txt,sha256=zzthtJtEpeRjlpE6YDBbSGVH6hvnnVyRxVSSgz1_S0M,337
+bcpkgfox-0.15.98.dist-info/top_level.txt,sha256=h01SqyYBEfS72vkRFOlEDZBUSu9pzU0bdX4m9hWNNmw,9
+bcpkgfox-0.15.98.dist-info/RECORD,,

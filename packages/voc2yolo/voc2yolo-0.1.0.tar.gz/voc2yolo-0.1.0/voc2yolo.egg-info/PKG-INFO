@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: voc2yolo
+Version: 0.1.0
+Summary: A simple Python package to convert Pascal VOC annotations to YOLO format.
+Home-page: https://github.com/Saikat-Raj/voc2yolo
+Author: Saikat Raj
+Author-email: saikat.raj.cs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

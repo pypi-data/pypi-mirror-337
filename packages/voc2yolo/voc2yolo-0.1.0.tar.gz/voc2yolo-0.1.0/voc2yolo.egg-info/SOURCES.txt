@@ -1,0 +1,9 @@
+README.md
+setup.py
+voc2yolo/__init__.py
+voc2yolo/converter.py
+voc2yolo/utils.py
+voc2yolo.egg-info/PKG-INFO
+voc2yolo.egg-info/SOURCES.txt
+voc2yolo.egg-info/dependency_links.txt
+voc2yolo.egg-info/top_level.txt

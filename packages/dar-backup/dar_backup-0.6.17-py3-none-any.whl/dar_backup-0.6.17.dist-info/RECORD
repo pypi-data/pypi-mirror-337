@@ -1,0 +1,17 @@
+dar_backup/.darrc,sha256=-aerqivZmOsW_XBCh9IfbYTUvw0GkzDSr3Vx4GcNB1g,2113
+dar_backup/__about__.py,sha256=vii4GL7MExpBC8tvQjQXAsEgfxDE9p438_97wKl4XCc,22
+dar_backup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dar_backup/clean_log.py,sha256=cGhtKYnQJ2ceNQfw5XcCln_WNBasbmlfhO3kRydjDNk,5196
+dar_backup/cleanup.py,sha256=HA8SmwrqDGjfFg4L0CuUQ5N0YJFT6qYbCuvh5mQseF0,13148
+dar_backup/command_runner.py,sha256=74Fsylz1NN-dn8lbdRhkL6LA1r527QJeojBlniGrPuo,2708
+dar_backup/config_settings.py,sha256=Rh4T35-w_5tpRAViMfv3YP3GBpG4mQy7Do8cNBzYAR0,4912
+dar_backup/dar-backup.conf,sha256=64O3bGlzqupneT2gVeaETJ1qS6-3Exet9Zto27jgwPQ,897
+dar_backup/dar_backup.py,sha256=NHBm3zsOhCHnCVoPO0ysD3uMdIQMe62AIdr0yCQ_6BY,37952
+dar_backup/installer.py,sha256=ehp4KSgTc8D9Edsyve5v3NY2MuDbuTFYQQPgou8woV8,4331
+dar_backup/manager.py,sha256=4NeIVgrhIzOS8UePUCdvtswEG55ue0tXWAK7SjD3tpo,21897
+dar_backup/util.py,sha256=6dJXFOjIIZqerbNVFxJZ6gQ4ZVAxyY-RxHcO--9bxwg,8462
+dar_backup-0.6.17.dist-info/METADATA,sha256=-TmZ95gGD9VX1Uz0so4G8sWWX0RE6Aq8qkfKThkDFnY,79979
+dar_backup-0.6.17.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dar_backup-0.6.17.dist-info/entry_points.txt,sha256=Z7P5BUbhtJxo8_nB9qNIMay2eGDbsMKB3Fjwv3GMa4g,202
+dar_backup-0.6.17.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dar_backup-0.6.17.dist-info/RECORD,,

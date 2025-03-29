@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/fairfru/__init__.py
+src/fairfru/main.py
+src/fairfru.egg-info/PKG-INFO
+src/fairfru.egg-info/SOURCES.txt
+src/fairfru.egg-info/dependency_links.txt
+src/fairfru.egg-info/top_level.txt
+src/fairfru/utils/FRSpy.py
+src/fairfru/utils/__init__.py
+src/fairfru/utils/h5file_create_array.py

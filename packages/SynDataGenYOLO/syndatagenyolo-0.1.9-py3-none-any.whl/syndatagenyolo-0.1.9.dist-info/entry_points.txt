@@ -1,0 +1,3 @@
+[console_scripts]
+SynDataGenYOLO = SynDataGenYOLO.cli.main:main
+syn_data_gen-extract = SynDataGenYOLO.cli.extract_cli:main

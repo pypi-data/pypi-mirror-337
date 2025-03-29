@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SynDataGenYOLO"
+version = "0.1.9"
+description = "A package for generating synthetic data, using labelme and generating synthetic images."
+readme = "README.md"
+authors = [{ name = "Sebastian Jörz", email = "seppel8426@gmail.com" }]
+license = { file = "LICENSE" }
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools]
+packages = ["SynDataGenYOLO"]
+
+[project.scripts]
+SynDataGenYOLO = "SynDataGenYOLO.cli.main:main"
+syn_data_gen-extract = "SynDataGenYOLO.cli.extract_cli:main"
+

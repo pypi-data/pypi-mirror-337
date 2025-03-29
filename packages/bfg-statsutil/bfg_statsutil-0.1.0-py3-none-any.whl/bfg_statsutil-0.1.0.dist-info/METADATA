@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: bfg-statsutil
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Lei Zhao <8961794+leizha@users.noreply.github.com>
+Requires-Python: >=3.13
+Requires-Dist: requests

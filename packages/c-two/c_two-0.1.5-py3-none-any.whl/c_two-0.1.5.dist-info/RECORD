@@ -1,0 +1,8 @@
+c_two/__init__.py,sha256=5sSKYOASYgedE0Rydl0DxgB2yu6QLjsJqV-3iouZfjw,125
+c_two/client.py,sha256=1EWQdTX7H6aNEMevpO9uW8AMDA8DExxUeOYo0hDbtas,2828
+c_two/server.py,sha256=S7CY7z9QXagjkQPaapznkAX_3XYb7gBkkCQ2hNN7ZDA,2441
+c_two/wrapper.py,sha256=-LDZAucsKiHZE41Qe5clfqFbp3i3xKg6Z3lwpn5ekTo,4162
+c_two-0.1.5.dist-info/LICENSE,sha256=Z3ztcWEfJfFAc1ewKPtCsBX90cCc27d5ezqszUPAnCQ,1074
+c_two-0.1.5.dist-info/METADATA,sha256=YsvQns8jGM6cZNuDfK9QK2ryfE_-U2XAxpbbt_8tXRM,1143
+c_two-0.1.5.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+c_two-0.1.5.dist-info/RECORD,,

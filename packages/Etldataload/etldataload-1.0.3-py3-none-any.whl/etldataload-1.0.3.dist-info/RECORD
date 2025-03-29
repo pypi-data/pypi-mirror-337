@@ -1,0 +1,16 @@
+dataload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataload/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataload/conf/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataload/conf/model/config.py,sha256=yk4Dqy3AP70c_GKoU3zg36eEFm0qVHXwvoP8EWButwk,1341
+dataload/conf/model/connection.py,sha256=eaZPPH4SpB2nf0g3ePCg2G4BwzmRX5rMq5ifeVDV3Ds,701
+dataload/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataload/model/dataStorageConnectionFactory.py,sha256=XCNhKwOtr7JzkWJXLfbtCD0OoGLWttUQMxj-Sn0yvco,776
+dataload/model/datastorageconnection.py,sha256=W_uw0wj4KtXnZ9D8--7LPbpnbGBJ5lKPS0Yy_jQ8mXs,144
+dataload/model/DataStorageConnections/csv.py,sha256=qXpYalMaxIzA76AloRI9YMbgRg3DwO1Di350KIOWYjU,752
+dataload/model/DataStorageConnections/mysql.py,sha256=6q-p9MBy503RRB0MP5PJgnn6_trY-yxeiFS1oseUuuQ,2525
+dataload/model/DataStorageConnections/postgresql.py,sha256=UpLiMTmkWGUcPsaOmZRVc2qUpQJ5b60E5A7AQbfPZRA,775
+dataload/model/DataStorageConnections/restapi.py,sha256=NRRfA7jGsqveH2D9nV2V2k-8bEezPcsr1NSM8Z4jvaA,2386
+etldataload-1.0.3.dist-info/METADATA,sha256=u1fRxyGg037yKyI5mJd3EemPZY1ANgaC8Up33S4eoS4,1982
+etldataload-1.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+etldataload-1.0.3.dist-info/top_level.txt,sha256=FHQTV9acTFt2flOLSVwTY77WtzkramWVfa1H8icDCI4,9
+etldataload-1.0.3.dist-info/RECORD,,

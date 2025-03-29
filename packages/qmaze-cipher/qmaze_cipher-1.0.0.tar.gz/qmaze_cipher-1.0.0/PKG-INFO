@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: qmaze_cipher
+Version: 1.0.0
+Summary: Quantum-resistant chaos-based encryption algorithm
+Home-page: https://github.com/SanjiCo/qmaze_cipher
+Author: [SanjiCo]
+Author-email: [i.ckl53@outlook.com]
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# QMazeCipher
+
+QMazeCipher, kuantum bilgisayarlara dayanıklı, kaotik sistem tabanlı bir şifreleme algoritmasıdır. Logistic map ve dinamik hash tabanlı blok permütasyonu ile geleneksel frekans analizlerini boşar. Python ile yazılmıştır ve her türlü metni güvenli bir şekilde şifrelemek için uygundur.
+
+## Özellikler
+- Logistic Map ile kaotik karışıklık
+- SHA3-256 tabanlı blok şifreleme
+- Nonce (tuzlama) ile non-deterministik çıktı
+- PKCS7 benzeri padding sistemi
+- Base64 destekli çıktı
+
+## Kurulum
+```
+pip install qmaze_cipher
+```
+
+## Kullanım
+```python
+from qmaze_cipher import QMazeCipher
+
+cipher = QMazeCipher("gizli_anahtar")
+
+sifreli = cipher.encrypt("Bu bir testtir.")
+cozulen = cipher.decrypt(sifreli)
+
+print(cozulen)  # Bu bir testtir.
+```
+
+## Testler
+```bash
+pytest tests/
+```
+
+## Lisans
+MIT License

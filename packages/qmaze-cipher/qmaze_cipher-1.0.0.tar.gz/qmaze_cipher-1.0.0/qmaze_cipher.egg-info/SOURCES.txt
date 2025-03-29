@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+qmaze_cipher/__init__.py
+qmaze_cipher/core.py
+qmaze_cipher.egg-info/PKG-INFO
+qmaze_cipher.egg-info/SOURCES.txt
+qmaze_cipher.egg-info/dependency_links.txt
+qmaze_cipher.egg-info/top_level.txt
+tests/test_qmaze.py

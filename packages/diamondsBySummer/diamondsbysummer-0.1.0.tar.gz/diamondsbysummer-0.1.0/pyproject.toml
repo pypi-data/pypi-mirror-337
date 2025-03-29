@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diamondsBySummer"
+version = "0.1.0"
+description = "Your package description"
+authors = [{name = "Your Name", email = "your@email.com"}]
+license = "MIT"  # ✅ Fixed
+requires-python = ">=3.6"  # ✅ Required to avoid errors
+dependencies = []  # List your dependencies here
+
+[project.urls]
+Homepage = "https://github.com/yourusername/diamondsBySummer"
+
+

@@ -1,0 +1,8 @@
+cloe_util_snowflake_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloe_util_snowflake_connector/connection_parameters.py,sha256=mKxurJOozIS-NSJSuTFCXY8VQzKalkcbyB9KQxjnk9Y,26107
+cloe_util_snowflake_connector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloe_util_snowflake_connector/snowflake_interface.py,sha256=geH-gUEoHYrqGGs8IRLDUD-kn0jY0vajkVx1RGoBcbw,4268
+cloe_util_snowflake_connector/utils.py,sha256=g0MB-sm6MB0YgiOkoqFpca_lV9MgeLLlcUTVYNQ4YFo,5831
+cloe_util_snowflake_connector-1.0.3.dist-info/METADATA,sha256=eZ-pPTzWgqUGxLk_nGPHbp8cJ-jDJhFXd41PiFz1C04,4624
+cloe_util_snowflake_connector-1.0.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+cloe_util_snowflake_connector-1.0.3.dist-info/RECORD,,

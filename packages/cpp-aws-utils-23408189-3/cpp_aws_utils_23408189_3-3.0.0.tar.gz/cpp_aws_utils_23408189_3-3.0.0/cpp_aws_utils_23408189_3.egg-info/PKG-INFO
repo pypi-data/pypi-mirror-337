@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: cpp-aws_utils_23408189_3
+Version: 3.0.0
+Summary: aws utils for my projects 
+Home-page: https://github.com/pypa/sampleproject
+Author: shritiz kumar
+Author-email: shritizk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary

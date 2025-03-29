@@ -1,0 +1,7 @@
+vault:
+  gcp_secret_manager:
+    project: ascend-io-cody
+  metadata:
+    source:
+      path: vaults/environment.yaml
+  name: environment

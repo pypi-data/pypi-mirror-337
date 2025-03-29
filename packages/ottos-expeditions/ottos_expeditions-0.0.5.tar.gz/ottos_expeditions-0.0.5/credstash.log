@@ -1,0 +1,40 @@
+2025-02-28 16:22:55,885 ERROR An error occurred (AccessDeniedException) when calling the Scan operation: User: arn:aws:iam::115613497299:user/cody.peterson is not authorized to perform: dynamodb:Scan on resource: arn:aws:dynamodb:us-east-1:115613497299:table/credential-store because no identity-based policy allows the dynamodb:Scan action
+Traceback (most recent call last):
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/bin/credstash.py", line 274, in clean_error
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/bin/credstash.py", line 310, in listSecrets
+    response = secrets.scan(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/boto3/resources/factory.py", line 581, in do_action
+    response = action(self, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/boto3/resources/action.py", line 88, in __call__
+    response = getattr(parent.meta.client, operation_name)(*args, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/botocore/client.py", line 569, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/botocore/client.py", line 1023, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDeniedException) when calling the Scan operation: User: arn:aws:iam::115613497299:user/cody.peterson is not authorized to perform: dynamodb:Scan on resource: arn:aws:dynamodb:us-east-1:115613497299:table/credential-store because no identity-based policy allows the dynamodb:Scan action
+2025-02-28 16:29:58,663 ERROR An error occurred (AccessDeniedException) when calling the Scan operation: User: arn:aws:iam::115613497299:user/cody.peterson is not authorized to perform: dynamodb:Scan on resource: arn:aws:dynamodb:us-east-1:115613497299:table/credential-store because no identity-based policy allows the dynamodb:Scan action
+Traceback (most recent call last):
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/bin/credstash.py", line 274, in clean_error
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/bin/credstash.py", line 310, in listSecrets
+    response = secrets.scan(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/boto3/resources/factory.py", line 581, in do_action
+    response = action(self, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/boto3/resources/action.py", line 88, in __call__
+    response = getattr(parent.meta.client, operation_name)(*args, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/botocore/client.py", line 569, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cody/code/ascend-io/community/ottos-expeditions/.venv/lib/python3.12/site-packages/botocore/client.py", line 1023, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDeniedException) when calling the Scan operation: User: arn:aws:iam::115613497299:user/cody.peterson is not authorized to perform: dynamodb:Scan on resource: arn:aws:dynamodb:us-east-1:115613497299:table/credential-store because no identity-based policy allows the dynamodb:Scan action

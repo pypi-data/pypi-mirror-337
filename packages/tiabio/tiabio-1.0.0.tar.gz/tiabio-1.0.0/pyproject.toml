@@ -1,0 +1,32 @@
+[project]
+name = "tiabio"
+version = "1.0.0"
+description = "Easily interact with the TIAB IO board"
+readme = "README.md"
+authors = [{ name = "Matthew Howard", email = "matt.howard@codethink.co.uk" }]
+requires-python = ">=3.12"
+dependencies = ["pyserial>=3.5", "types-pyserial>=3.5.0.20250304"]
+keywords = ["tiab", "io", "testing"]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+]
+
+[project.urls]
+homepage = "https://codethinklabs.gitlab.io/testing-in-a-box/ct-tiab-documentation/"
+source = "https://gitlab.com/CodethinkLabs/testing-in-a-box/firmware-hardware/tiab-io-board-python.git"
+issues = "https://gitlab.com/CodethinkLabs/testing-in-a-box/firmware-hardware/tiab-io-board-python/-/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["mypy>=1.15.0", "ruff>=0.11.0"]
+
+[tool.mypy]
+warn_return_any = true
+strict_optional = true
+check_untyped_defs = true
+no_implicit_optional = true

@@ -1,0 +1,3 @@
+[console_scripts]
+temporal-boost=temporal_boost.__main__:cli
+

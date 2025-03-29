@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: hkjx-billing-sdk
+Version: 0.1.0
+Summary: Huakunjingxiu Billing SDK
+Project-URL: Homepage, https://github.com/a1huakunjingxiu/billing-sdk
+Project-URL: Bug Tracker, https://github.com/a1huakunjingxiu/billing-sdk/issues
+Author-email: A1 Huakunjingxiu <dev@a1huakunjingxiu.com>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: dotenv>=0.9.9
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.10.6
+Provides-Extra: dev
+Requires-Dist: pre-commit>=3.7.0; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.22.0; extra == 'dev'
+Requires-Dist: pytest-mock>=3.14.0; extra == 'dev'
+Requires-Dist: pytest>=6.0; extra == 'dev'
+Requires-Dist: ruff>=0.0.254; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# A1 Huakunjingxiu Billing SDK
+
+Python SDK for interacting with the A1 Huakunjingxiu Billing API.
+
+## Installation
+
+```bash
+pip install billing-sdk
+```
+
+## Usage
+
+```python
+from billing import Client
+
+# Initialize client
+client = Client(api_key="your_api_key")
+
+# Create an invoice
+invoice = client.create_invoice(
+    amount=100.00,
+    description="Monthly subscription"
+)
+
+# Get invoice details
+invoice_details = client.get_invoice(invoice["id"])
+
+# List invoices
+invoices = client.list_invoices(limit=10)
+```
+
+## Error Handling
+
+The SDK provides several exception types:
+
+```python
+from billing import (
+    BillingError,
+    AuthenticationError,
+    InvalidRequestError,
+    APIError
+)
+
+try:
+    # API calls
+except AuthenticationError as e:
+    print("Invalid API key")
+except InvalidRequestError as e:
+    print("Invalid request parameters")
+except APIError as e:
+    print("Server error occurred")
+except BillingError as e:
+    print("General billing error")
+```
+
+## Development
+
+Install development dependencies:
+
+```bash
+pip install -e ".[dev]"
+```
+
+Run tests:
+
+```bash
+pytest
+```
+
+## License
+
+MIT

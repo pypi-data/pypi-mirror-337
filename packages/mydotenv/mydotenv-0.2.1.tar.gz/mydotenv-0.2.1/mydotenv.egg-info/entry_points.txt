@@ -1,0 +1,2 @@
+[console_scripts]
+mydotenv = mydotenv:main

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/difypy/__init__.py
+src/difypy/dify.py
+src/difypy.egg-info/PKG-INFO
+src/difypy.egg-info/SOURCES.txt
+src/difypy.egg-info/dependency_links.txt
+src/difypy.egg-info/requires.txt
+src/difypy.egg-info/top_level.txt

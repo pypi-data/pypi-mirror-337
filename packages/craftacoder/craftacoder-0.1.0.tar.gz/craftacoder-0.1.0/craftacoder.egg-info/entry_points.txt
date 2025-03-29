@@ -1,0 +1,2 @@
+[console_scripts]
+craftacoder = craftacoder.cli.main:main

@@ -1,0 +1,11 @@
+simpleui_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleui_ext/apps.py,sha256=VSBk8Xzcq4yk8DAat_VOgV0rDM4hOxc2hjv0JcSb2Q8,202
+simpleui_ext/templates/admin/change_list_results.html,sha256=TdLVto-JYbQ71Fu6Q9s8MQlSW46J0o5gksl-2WMb9Gc,6187
+simpleui_ext/templates/admin/includes/fieldset.html,sha256=vMCMub1LPLjS9QBvsRQVgSrsX-oNRFo-lwQ3ms4T5rc,24304
+simpleui_ext/templates/widgets/select.html,sha256=kd0xzUjrjLZGGQ4ZJeiHQpxnYYRxwrbpScl5DJKzlMc,1428
+simpleui_ext/templates/widgets/select_opt.html,sha256=vgI_4bmTnQG83oqm_pGzj5EmXjzvqgSyMg1zIZpI31s,215
+simpleui_ext-0.1.dist-info/LICENSE,sha256=_oMak67i9FS0Al6E9i4382acVaJGdpLPzFrAzEqYIIU,1095
+simpleui_ext-0.1.dist-info/METADATA,sha256=tvk_svZ2PdgmYVV4nKtCVrr-ZMDHcf4fCMj1d2tfW_s,736
+simpleui_ext-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+simpleui_ext-0.1.dist-info/top_level.txt,sha256=jcV3QJBGFVSARxrgB7JBiykcjtdAYQQm3sXyZ50QqXs,13
+simpleui_ext-0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+qkun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qkun/compute_alpha_envelope.py,sha256=zvzFqlz77kme7sG0plESbjnYIyKfShp0L7p6OYjbGCo,4416
+qkun/download_elevation.py,sha256=3m9SkL9nVSRWlAryurUOy-LD5ZQYPzvjfejOIhHAPec,752
+qkun/extract_pace_latlon.py,sha256=pqUuxdvW-drx2XD052njcjnkCll0iwHPCZx0KwcAjIU,3582
+qkun/geobox.py,sha256=tvZMYpivlO23Xxp_554IVbKVXOL76COc5fWoYZdTSpE,2060
+qkun/nc_global_to_yaml.py,sha256=mulmyxeZm8KfBHnkFq9St-HjHMpFq6XuFYUzQVb6RIw,1494
+qkun/nc_utils.py,sha256=4oNFxegpSbIvyoZkqFJzaLWD75bjqFWDg-zJTX42Nsc,1706
+qkun/nc_variable_to_yaml.py,sha256=utEnNA4Zs_hD_9RWnfaPzUQYKS4ki-kmrmx7zgIcKCE,2128
+qkun/plot_pace_geobox.py,sha256=5G5sWQVSytigM2PTGow2rTKLL3J8KToOtRPZ_H00Wg0,1399
+qkun-0.1.0.dist-info/licenses/LICENSE,sha256=e-xOV96Wx02crH2-PH4usIe9Z6ivmQxhFg9Vt0-9OZQ,1065
+qkun-0.1.0.dist-info/METADATA,sha256=cTxYj0wAQ74c3iYlKPcYnrS6FexIr_3EPFBC73rgsH8,551
+qkun-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+qkun-0.1.0.dist-info/top_level.txt,sha256=ijFzTFdwgL4sluZkjsmOBK5vZqYqJm8xIFeSM88seIc,5
+qkun-0.1.0.dist-info/RECORD,,

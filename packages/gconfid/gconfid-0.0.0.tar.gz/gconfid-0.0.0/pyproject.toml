@@ -1,0 +1,8 @@
+[project]
+name = "gconfid"
+version = "0.0.0"
+maintainers = [
+    {name = "G-Confid Support, Statistics Canada", email = "statcan.gconfid-gconfid.statcan@statcan.gc.ca"}
+]
+description = "Coming soon ... G-Confid, Disclosure Avoidance Software from Statistics Canada."
+readme = "README.md"

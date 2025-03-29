@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/gconfid/__init__.py
+src/gconfid.egg-info/PKG-INFO
+src/gconfid.egg-info/SOURCES.txt
+src/gconfid.egg-info/dependency_links.txt
+src/gconfid.egg-info/top_level.txt

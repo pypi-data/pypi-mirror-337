@@ -1,0 +1,54 @@
+# github workflow to run on semver tags
+
+name: Build Artifact
+
+env:
+  PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  test:
+    name: Build and upload artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+
+      - name: Run tests
+        run: make run-test-image
+        continue-on-error: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -U pip && pip install \
+            setuptools \
+            build \
+            wheel \
+            twine
+        continue-on-error: false
+
+      - name: Build artifact
+        run: python -m build
+        continue-on-error: false
+
+      - name: Upload artifact
+        run: twine upload --repository pypi dist/*
+        continue-on-error: false
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ env.PYPI_TOKEN }}

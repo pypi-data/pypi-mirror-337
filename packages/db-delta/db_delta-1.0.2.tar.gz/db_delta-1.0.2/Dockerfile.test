@@ -1,0 +1,13 @@
+FROM python:3.12
+
+WORKDIR /tests
+
+# copy testing requirements and install
+COPY ./tests/requirements.txt ./requirements.txt
+RUN pip install -U pip && pip install -r requirements.txt
+
+COPY ./src ./src
+COPY tests ./tests
+COPY pytest.ini .
+
+CMD ["pytest", "-vv"]

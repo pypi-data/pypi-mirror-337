@@ -1,0 +1,3 @@
+[console_scripts]
+cloe-snowflake-feature-db-clone=cloe_snowflake_feature_db_clone.main:app
+

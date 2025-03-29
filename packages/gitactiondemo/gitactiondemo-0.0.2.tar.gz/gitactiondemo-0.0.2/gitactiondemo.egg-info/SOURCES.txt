@@ -1,0 +1,10 @@
+README.md
+setup.py
+gitactiondemo/__init__.py
+gitactiondemo/test.py
+gitactiondemo.egg-info/PKG-INFO
+gitactiondemo.egg-info/SOURCES.txt
+gitactiondemo.egg-info/dependency_links.txt
+gitactiondemo.egg-info/not-zip-safe
+gitactiondemo.egg-info/requires.txt
+gitactiondemo.egg-info/top_level.txt

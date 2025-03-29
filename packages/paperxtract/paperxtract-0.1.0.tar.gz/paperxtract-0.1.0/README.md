@@ -1,0 +1,136 @@
+# PaperXtract
+
+*For Chinese documentation, please see [README_ZH.md](README_ZH.md).* 
+
+PaperXtract is a powerful tool for extracting and formatting academic papers from scholarly platforms such as OpenReview, making it easier to read and organize research papers.
+
+## Key Features
+
+- **Paper Extraction**: Extract paper information from OpenReview platform, supporting both URL and conference ID methods
+- **Category Filtering**: Filter papers by category (e.g., oral, spotlight, poster)
+- **Formatted Output**: Convert paper information into readable TXT format
+- **Batch Processing**: Support batch processing for increased efficiency
+- **Command-line Interface**: Provide a convenient CLI for easy integration into automated workflows
+
+## Installation
+
+### Via pip
+
+```bash
+pip install paperxtract
+```
+
+### From source
+
+```bash
+git clone https://github.com/yuxiaoLeeMarks/paperxtract.git
+cd paperxtract
+pip install -e .
+```
+
+## Usage
+
+### Command-line Tool
+
+PaperXtract provides a command-line tool named `paperxtract` with several operation modes:
+
+#### Extracting Papers
+
+```bash
+# Extract papers from URL
+paperxtract extract --url "https://openreview.net/group?id=ICML.cc/2024/Workshop/AI4Science" --output papers.json
+
+# Extract papers from conference ID
+paperxtract extract --venue-id "ICML.cc/2024/Workshop/AI4Science" --category oral --output papers.json
+```
+
+#### Formatting Papers
+
+```bash
+# Convert JSON file to TXT format
+paperxtract format papers.json --output papers.txt
+
+# Only convert papers of specific categories
+paperxtract format papers.json --categories oral spotlight --output oral_spotlight_papers.txt
+
+# List available paper categories
+paperxtract format papers.json --list-categories
+```
+
+#### One-step Operation
+
+```bash
+# Extract papers from URL and format directly to TXT
+paperxtract run --url "https://openreview.net/group?id=ICML.cc/2024/Workshop/AI4Science" --output papers.txt --clean-temp
+
+# Only extract and format papers of specific categories
+paperxtract run --url "https://openreview.net/group?id=ICML.cc/2024/Workshop/AI4Science" --output oral_papers.txt --categories oral --clean-temp
+```
+
+### Python API
+
+PaperXtract can also be used as a Python library:
+
+```python
+from paperxtract.extractors.openreview import OpenReviewExtractor
+from paperxtract.formatters.text_formatter import convert_papers_to_txt
+
+# Extract papers
+extractor = OpenReviewExtractor()
+papers = extractor.get_papers_from_url("https://openreview.net/group?id=ICML.cc/2024/Workshop/AI4Science")
+extractor.save_to_json(papers, "papers.json")
+
+# Format papers
+convert_papers_to_txt("papers.json", "papers.txt", categories="oral")
+```
+
+## Project Structure
+
+```
+paperxtract/
+├── paperxtract/          # Main package
+│   ├── __init__.py       # Package initialization
+│   ├── __main__.py       # Entry point
+│   ├── cli.py            # Command line interface
+│   ├── extractors/       # Extractors subpackage
+│   │   ├── __init__.py
+│   │   └── openreview.py # OpenReview extractor
+│   └── formatters/       # Formatters subpackage
+│       ├── __init__.py
+│       └── text_formatter.py # Text formatter
+├── examples/             # Example code
+│   └── extract_and_format.py
+├── docs/                 # Documentation
+├── tests/                # Tests
+├── setup.py              # Installation configuration
+├── requirements.txt      # Dependencies
+└── README.md             # Documentation
+```
+
+## Example Output
+
+Example of a formatted TXT file:
+
+```
+ICML.2024 - Accept
+   | Total: 45
+
+#1 Efficient Vision-Language Pre-training by Cluster Masking
+Authors: Zihao Wei, Zixuan Pan, Andrew Owens
+Keywords: Vision-Language, Pre-training, Masking
+Abstract: The quest for optimal vision-language pretraining strategies...
+
+#2 MicroDiffusion: Implicit Representation-Guided Diffusion for 3D Reconstruction
+Authors: Mude Hui, Zihao Wei, Hongru Zhu
+Keywords: 3D Reconstruction, Diffusion Models, Microscopy
+Abstract: Volumetric optical microscopy using non-diffracting beams...
+```
+
+## License
+
+MIT
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+

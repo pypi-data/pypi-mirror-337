@@ -1,0 +1,2 @@
+openreview-py>=1.0
+pandas>=1.0.0

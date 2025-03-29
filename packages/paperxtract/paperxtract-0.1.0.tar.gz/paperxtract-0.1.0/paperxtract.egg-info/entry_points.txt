@@ -1,0 +1,2 @@
+[console_scripts]
+paperxtract = paperxtract.cli:main

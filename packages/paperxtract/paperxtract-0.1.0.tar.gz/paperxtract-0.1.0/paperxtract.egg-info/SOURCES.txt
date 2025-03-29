@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+paperxtract/__init__.py
+paperxtract/__main__.py
+paperxtract/cli.py
+paperxtract.egg-info/PKG-INFO
+paperxtract.egg-info/SOURCES.txt
+paperxtract.egg-info/dependency_links.txt
+paperxtract.egg-info/entry_points.txt
+paperxtract.egg-info/requires.txt
+paperxtract.egg-info/top_level.txt
+paperxtract/extractors/__init__.py
+paperxtract/extractors/openreview.py
+paperxtract/formatters/__init__.py
+paperxtract/formatters/text_formatter.py
+tests/test_import.py

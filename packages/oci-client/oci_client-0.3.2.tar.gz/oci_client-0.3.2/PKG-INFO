@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: oci-client
+Version: 0.3.2
+Summary: 
+License: MIT
+Author: Florian Daude
+Author-email: floriandaude@hotmail.fr
+Requires-Python: >=3.12,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.1)
+Requires-Dist: certifi (>=2023.11.17)
+Requires-Dist: cryptography (>=41)
+Requires-Dist: pydantic (>=2.5.2)
+Description-Content-Type: text/markdown
+
+

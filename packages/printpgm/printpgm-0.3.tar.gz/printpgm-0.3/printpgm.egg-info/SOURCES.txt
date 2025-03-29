@@ -1,0 +1,8 @@
+setup.py
+printpgm/__init__.py
+printpgm/texts.py
+printpgm.egg-info/PKG-INFO
+printpgm.egg-info/SOURCES.txt
+printpgm.egg-info/dependency_links.txt
+printpgm.egg-info/requires.txt
+printpgm.egg-info/top_level.txt

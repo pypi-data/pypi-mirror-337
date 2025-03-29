@@ -1,0 +1,306 @@
+Metadata-Version: 2.4
+Name: llamachain
+Version: 0.1.0
+Summary: Blockchain intelligence and analytics platform
+Home-page: https://github.com/llamachain/llamachain
+Author: LlamaChain Team
+Author-email: info@llamachain.io
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi<0.96.0,>=0.95.0
+Requires-Dist: uvicorn<0.22.0,>=0.21.1
+Requires-Dist: pydantic<2.0.0,>=1.10.7
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: sqlalchemy<3.0.0,>=2.0.9
+Requires-Dist: alembic<2.0.0,>=1.10.3
+Requires-Dist: asyncpg<0.28.0,>=0.27.0
+Requires-Dist: httpx<0.25.0,>=0.24.0
+Requires-Dist: python-multipart<0.1.0,>=0.0.6
+Requires-Dist: jinja2<4.0.0,>=3.1.2
+Requires-Dist: aiofiles<24.0.0,>=23.1.0
+Requires-Dist: web3<7.0.0,>=6.0.0
+Requires-Dist: solana<0.31.0,>=0.30.0
+Requires-Dist: eth-account<0.9.0,>=0.8.0
+Requires-Dist: eth-typing<4.0.0,>=3.0.0
+Requires-Dist: eth-utils<3.0.0,>=2.1.0
+Requires-Dist: slither-analyzer<0.10.0,>=0.9.3
+Requires-Dist: mythril<0.24.0,>=0.23.15
+Requires-Dist: pandas<3.0.0,>=2.0.0
+Requires-Dist: numpy<2.0.0,>=1.24.2
+Requires-Dist: plotly<6.0.0,>=5.14.1
+Requires-Dist: matplotlib<4.0.0,>=3.7.1
+Requires-Dist: nltk<4.0.0,>=3.8.1
+Requires-Dist: scikit-learn<2.0.0,>=1.2.2
+Requires-Dist: types-requests<3.0.0,>=2.31.0
+Requires-Dist: types-setuptools<66.0.0.0,>=65.6.0.0
+Requires-Dist: bcrypt<5.0.0,>=4.0.1
+Requires-Dist: python-jose[cryptography]<4.0.0,>=3.3.0
+Requires-Dist: passlib[bcrypt]<2.0.0,>=1.7.4
+Requires-Dist: requests<3.0.0,>=2.31.0
+Requires-Dist: aiohttp<4.0.0,>=3.8.5
+Requires-Dist: tenacity<9.0.0,>=8.2.3
+Requires-Dist: pyyaml<7.0.0,>=6.0.1
+Requires-Dist: ujson<6.0.0,>=5.8.0
+Requires-Dist: orjson<4.0.0,>=3.9.7
+Requires-Dist: loguru<0.8.0,>=0.7.0
+Requires-Dist: pytest<8.0.0,>=7.3.1
+Requires-Dist: pytest-asyncio<0.22.0,>=0.21.0
+Requires-Dist: pytest-cov<5.0.0,>=4.1.0
+Requires-Dist: black<24.0.0,>=23.3.0
+Requires-Dist: isort<6.0.0,>=5.12.0
+Requires-Dist: flake8<7.0.0,>=6.0.0
+Requires-Dist: mypy<2.0.0,>=1.2.0
+Requires-Dist: types-requests<3.0.0,>=2.31.0
+Requires-Dist: pylance<0.8.0,>=0.7.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.3.1; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=23.3.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.2.0; extra == "dev"
+Provides-Extra: nlp
+Requires-Dist: spacy>=3.5.3; extra == "nlp"
+Requires-Dist: transformers>=4.28.1; extra == "nlp"
+Requires-Dist: torch>=2.0.1; extra == "nlp"
+Requires-Dist: nltk>=3.8.1; extra == "nlp"
+Requires-Dist: scikit-learn>=1.2.2; extra == "nlp"
+Requires-Dist: sentence-transformers>=2.2.2; extra == "nlp"
+Provides-Extra: security
+Requires-Dist: py-ecc>=6.0.0; extra == "security"
+Requires-Dist: slither-analyzer>=0.9.3; extra == "security"
+Requires-Dist: mythril>=0.23.15; extra == "security"
+Provides-Extra: all
+Requires-Dist: spacy>=3.5.3; extra == "all"
+Requires-Dist: transformers>=4.28.1; extra == "all"
+Requires-Dist: torch>=2.0.1; extra == "all"
+Requires-Dist: py-ecc>=6.0.0; extra == "all"
+Requires-Dist: slither-analyzer>=0.9.3; extra == "all"
+Requires-Dist: mythril>=0.23.15; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# LlamaChain
+
+A comprehensive blockchain analytics and security platform for on-chain data analysis and smart contract security auditing.
+
+![LlamaChain Banner](assets/banner.png)
+
+## 🌟 Features
+
+- **Blockchain Data Access**: Connect to multiple blockchains (Ethereum, Solana) and access on-chain data.
+- **Analytics Dashboard**: View and analyze blockchain data through interactive visualizations.
+- **Security Auditing**: Analyze smart contracts for vulnerabilities and security issues.
+- **Monitoring & Alerts**: Monitor addresses, contracts, and transactions with real-time alerts.
+- **Background Workers**: Process blockchain data asynchronously for analytics and monitoring.
+- **API**: Access blockchain data and analytics through a RESTful API.
+- **CLI**: Command-line interface for interacting with the platform.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- PostgreSQL (optional if using Docker)
+- Docker & Docker Compose (optional)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/llamachain.git
+cd llamachain
+```
+
+2. Set up a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Configure environment variables:
+
+Copy the example `.env` file and modify as needed:
+
+```bash
+cp .env.example .env
+```
+
+### Using the Startup Script
+
+LlamaChain includes a convenient startup script to manage the application:
+
+```bash
+# Make the script executable
+chmod +x llamachain-script.sh
+
+# Start all services
+./llamachain-script.sh start
+
+# Start only the API
+./llamachain-script.sh api
+
+# Start only the worker
+./llamachain-script.sh worker
+
+# Run CLI commands
+./llamachain-script.sh cli blockchain list
+
+# Get help
+./llamachain-script.sh --help
+
+# Use Docker if available
+./llamachain-script.sh --docker start
+```
+
+### Running with Docker
+
+1. Build and start services:
+
+```bash
+docker-compose up -d
+```
+
+2. Access the API at [http://localhost:8000](http://localhost:8000)
+
+3. Run CLI commands:
+
+```bash
+docker-compose run --rm api python -m llamachain cli <command>
+```
+
+## 🔧 Usage
+
+### API Examples
+
+The API documentation is available at [http://localhost:8000/docs](http://localhost:8000/docs) when running the server.
+
+#### Example Endpoints:
+
+- `GET /dashboard/summary`: Get a summary of blockchain statistics
+- `GET /dashboard/network/stats/{chain}`: Get statistics for a specific blockchain
+- `GET /dashboard/transactions/recent/{chain}`: Get recent transactions
+- `GET /dashboard/security/alerts`: Get security alerts
+
+### CLI Examples
+
+```bash
+# List available blockchains
+python -m llamachain cli blockchain list
+
+# Get blockchain information
+python -m llamachain cli blockchain info ethereum
+
+# Get block information
+python -m llamachain cli blockchain block ethereum 12345678
+
+# Get transaction information
+python -m llamachain cli blockchain tx ethereum 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+
+# Run security analysis
+python -m llamachain cli security audit ethereum 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+
+# View configuration
+python -m llamachain cli config list
+```
+
+## 📊 Dashboard
+
+The dashboard provides visualizations and analytics for blockchain data:
+
+- Network statistics
+- Transaction volume
+- Gas prices
+- Security alerts
+- Address analytics
+- Contract analysis
+
+## 🔒 Security Features
+
+- Smart contract vulnerability detection
+- Transaction anomaly detection
+- Security alerts and notifications
+- Address and contract risk scoring
+
+## 📁 Project Structure
+
+```
+llamachain/
+├── analytics/            # Analytics and data processing
+├── api/                  # API server and endpoints
+│   ├── app.py            # FastAPI application
+│   └── endpoints/        # API route handlers
+├── blockchain/           # Blockchain connectors
+│   ├── base.py           # Base blockchain interface
+│   ├── ethereum/         # Ethereum implementation
+│   └── solana/           # Solana implementation
+├── cli/                  # Command-line interface
+├── db/                   # Database models and session
+├── worker/               # Background worker processes
+├── __main__.py           # Entry point for the application
+├── config.py             # Configuration settings
+└── log.py                # Logging utilities
+```
+
+## 💻 Development
+
+### Running Tests
+
+```bash
+pytest
+```
+
+### Linting
+
+```bash
+flake8 llamachain
+black llamachain
+```
+
+### Database Migrations
+
+```bash
+alembic revision --autogenerate -m "description"
+alembic upgrade head
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
+
+## 📢 Acknowledgements
+
+- [Web3.py](https://github.com/ethereum/web3.py)
+- [Solana.py](https://github.com/michaelhly/solana-py)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [Plotly](https://plotly.com/) 

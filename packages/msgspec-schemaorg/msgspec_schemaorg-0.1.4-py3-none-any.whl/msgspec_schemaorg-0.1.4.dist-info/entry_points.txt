@@ -1,0 +1,2 @@
+[console_scripts]
+msgspec-schemaorg-generate = msgspec_schemaorg.cli:generate_models_command

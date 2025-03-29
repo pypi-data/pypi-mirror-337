@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [
+      "SPDX_PACKAGE_VERSION"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": [
+      "beaglebone-yocto",
+      "genericarm64",
+      "genericx86",
+      "genericx86-64"
+    ]
+  }
+}

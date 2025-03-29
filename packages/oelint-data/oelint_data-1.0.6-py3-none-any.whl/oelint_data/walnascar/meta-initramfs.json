@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [
+      "SPDX_PACKAGE_VERSION"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

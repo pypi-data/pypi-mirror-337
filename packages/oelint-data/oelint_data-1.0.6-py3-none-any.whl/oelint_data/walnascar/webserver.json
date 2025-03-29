@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "known": []
+  },
+  "variables": {
+    "known": [
+      "LIBS",
+      "SPDX_PACKAGE_VERSION"
+    ],
+    "renamed": {}
+  },
+  "replacements": {
+    "distros": [],
+    "machines": []
+  }
+}

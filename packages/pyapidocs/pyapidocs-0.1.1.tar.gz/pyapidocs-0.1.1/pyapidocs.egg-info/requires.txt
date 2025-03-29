@@ -1,0 +1,4 @@
+click
+ollama
+pathspec
+yaspin

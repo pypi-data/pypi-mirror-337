@@ -1,0 +1,4 @@
+names_generator
+python-hcl2
+lark-parser
+python-dotenv

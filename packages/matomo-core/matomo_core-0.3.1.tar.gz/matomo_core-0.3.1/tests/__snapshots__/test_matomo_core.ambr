@@ -1,0 +1,7 @@
+# serializer version: 1
+# name: test_empty_idsite_raise_value_error
+  "<ExceptionInfo ValueError('id_site has to be set') tblen=2>"
+# ---
+# name: test_empty_matomo_url_raise_value_error
+  "<ExceptionInfo ValueError('matomo_url has to be set') tblen=2>"
+# ---

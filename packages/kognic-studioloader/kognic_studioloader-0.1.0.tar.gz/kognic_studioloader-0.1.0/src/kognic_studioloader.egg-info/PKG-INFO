@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: kognic-studioloader
+Version: 0.1.0
+Summary: Serve local data to drawing tool
+Author-email: Team New Annotation <new-annotation@kognic.com>
+Requires-Python: >=3.10
+Requires-Dist: websockets
+Requires-Dist: kognic-studio-proto>=0.0.21
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: kognic-io[wasm]
+Requires-Dist: pandas
+Provides-Extra: zod
+Requires-Dist: zod[cli]; extra == "zod"

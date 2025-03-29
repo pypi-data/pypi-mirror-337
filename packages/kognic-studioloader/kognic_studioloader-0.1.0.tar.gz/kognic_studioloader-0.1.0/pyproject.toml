@@ -1,0 +1,43 @@
+
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kognic-studioloader"
+version = "0.1.0"
+authors = [
+    { name = "Team New Annotation", email = "new-annotation@kognic.com" },
+]
+requires-python = ">=3.10"
+description = "Serve local data to drawing tool"
+dependencies = [
+    "websockets",
+    "kognic-studio-proto>=0.0.21",
+    "Pillow",
+    "numpy",
+    "kognic-io[wasm]",
+    "pandas"
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "W", "I001"]
+
+[tool.black]
+line-length = 100
+
+[tool.pylint]
+# just use default
+
+[project.scripts]
+studioloader = "kognic.studioloader.app:main"
+
+[project.optional-dependencies]
+zod = [
+    "zod[cli]"
+]

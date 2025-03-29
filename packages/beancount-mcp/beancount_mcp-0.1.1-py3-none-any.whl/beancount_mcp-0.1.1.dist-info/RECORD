@@ -1,0 +1,7 @@
+beancount_mcp/__init__.py,sha256=AREOBHx181hj5hd9G-H9MR-NFmLSmu0R7dCsq2u3cEg,70
+beancount_mcp/__main__.py,sha256=MFJphiZ92qmqiYG0raTbAHTVzHYeEugFf2_rYeXvg24,1088
+beancount_mcp/server.py,sha256=xa2eVZmUwTeB9W1N7c0dPCPyXRDYS_SRR9ANFHDdvVk,10377
+beancount_mcp-0.1.1.dist-info/METADATA,sha256=g7A85QrEAx7eqUzc4NRRRpoIXNAJQI59KyOopGf_wlY,269
+beancount_mcp-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+beancount_mcp-0.1.1.dist-info/entry_points.txt,sha256=wh2eIV4BdEbhzRsMDk30sglAUohBI8oAwoVItQ2K5qQ,62
+beancount_mcp-0.1.1.dist-info/RECORD,,

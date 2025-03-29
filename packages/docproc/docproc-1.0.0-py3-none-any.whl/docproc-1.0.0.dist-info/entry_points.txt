@@ -1,0 +1,2 @@
+[console_scripts]
+docproc = docproc.bin.main:main

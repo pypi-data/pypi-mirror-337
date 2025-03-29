@@ -1,0 +1,21 @@
+[project]
+name = "mcp-jina-reader"
+version = "1.0.6"
+description = "url reader powered by jina ai reader"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+ "httpx>=0.28.1",
+ "mcp[cli]>=1.6.0",
+ "requests>=2.32.3",
+]
+[[project.authors]]
+name = "fish"
+email = "lechuanyu@foxmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-jina-reader = "mcp_jina_reader:main"

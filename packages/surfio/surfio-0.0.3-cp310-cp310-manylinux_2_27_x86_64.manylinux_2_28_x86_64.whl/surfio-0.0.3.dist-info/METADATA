@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: surfio
+Version: 0.0.3
+Summary: Reader/Writer library for irap files.
+License: GPL-3.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-snapshot; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Dynamic: license-file
+
+# surfio
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Development
+
+```bash
+pip install -e ".[dev]"
+```
+
+Style is enforced via pre-commit:
+
+```bash
+pre-commit install
+```

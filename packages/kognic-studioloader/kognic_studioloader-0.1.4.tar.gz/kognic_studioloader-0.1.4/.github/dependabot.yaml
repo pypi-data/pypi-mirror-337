@@ -1,0 +1,17 @@
+version: 2
+registries:
+  artifact-registry:
+    type: python-index
+    url: https://pypi.kognic.io/simple
+    username: "_json_key_base64"
+    password: ${{ secrets.GCLOUD_CREDENTIALS_B64 }}
+    replaces-base: true
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # this is needed to make auth work with our private registry
+    insecure-external-code-execution: allow
+    registries:
+      - artifact-registry

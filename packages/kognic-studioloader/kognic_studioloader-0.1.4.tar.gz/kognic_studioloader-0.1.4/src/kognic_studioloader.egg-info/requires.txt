@@ -1,0 +1,9 @@
+websockets
+kognic-studio-proto>=0.0.21
+Pillow
+numpy
+kognic-io[wasm]
+pandas
+
+[zod]
+zod[cli]

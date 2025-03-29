@@ -1,0 +1,16 @@
+idinn/__init__.py,sha256=t9iKgW36AwepfCIkuf8CVLBIXhVBl0gIIbU5IynVv-A,24
+idinn/demand.py,sha256=3WCiB0MVtUOzVTU3r2hxiZxETZyavDTMEKN3cU4KK64,3326
+idinn/sourcing_model.py,sha256=aAzqteyTCB6f4lbRJgsgtFIeRT8H81G5YhsV5AW64bE,10933
+idinn/dual_controller/__init__.py,sha256=7an5Ffj1PGFt4v4pfpoawxnpclSfxiR9DdzCShGywko,172
+idinn/dual_controller/base.py,sha256=WlUq6s1UlvcDIRKVVAIjcjwy_HOp4jab_3eGl1FxzOE,9560
+idinn/dual_controller/capped_dual_index.py,sha256=5PFr2cPKCuMSUsyCYT1BbG7cbP5TqzERmeIvGNxMQnc,8429
+idinn/dual_controller/dual_neural.py,sha256=Rcm6txEfJ9HSfdpRMtxse8LrBbYrNlmsHvF9PTBaFS0,14329
+idinn/dual_controller/dynamic_programming.py,sha256=oxU-ELj1yhoR-NkJ7TgWzO0VLkb0bXyvyNQbdLSRJ5g,11359
+idinn/single_controller/__init__.py,sha256=-EQ1bVRBrfS6NPCLcy017OPfelvSZgkDFEex3k5kiGQ,101
+idinn/single_controller/base.py,sha256=us54Bgyw28zxqbLu5BYrKwOTv7kQjhkt4DxNNkWfOuI,6882
+idinn/single_controller/base_stock.py,sha256=Eqd1xCA0lZnNF0joTG-5Xnyvcpd3x3ok4Rfl5vhxifw,4825
+idinn/single_controller/single_neural.py,sha256=YfEg91JdMm8DEA1b5GYlSiik40NbG_8Mj94DmnBPVd4,12248
+idinn-0.2.0a0.dist-info/METADATA,sha256=H5sRUX7Lu-q1VfsmxYZlRC0Aayqfs-uQ5oCG8eZ4510,5457
+idinn-0.2.0a0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+idinn-0.2.0a0.dist-info/licenses/LICENSE,sha256=1rx2EY_ZFy1gZHPZoQXPzjEhHMXuR6GUF7PewmWRRi4,1118
+idinn-0.2.0a0.dist-info/RECORD,,

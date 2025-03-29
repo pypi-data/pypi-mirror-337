@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: lonedev
+Version: 0.0.3
+Summary: A collection of utilities for Python development
+Author-email: Bouhier Loan <loan.bouhier@gmail.com>
+Project-URL: Homepage, https://github.com/bouhier-loan/lonedev.pyutils
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich>=13.9.4
+Dynamic: license-file

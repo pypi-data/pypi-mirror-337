@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: spidercreator
+Version: 0.0.1
+Summary: Automated web scraping spider generation using Browser Use and LLMs.
+Author-email: "Carlos A. Planchón" <carlosandresplanchonprestes@gmail.com>
+License-Expression: AGPL-3.0-or-later
+Project-URL: repository, https://github.com/carlosplanchon/spidercreator
+Project-URL: documentation, https://github.com/carlosplanchon/spidercreator#readme
+Keywords: scraping,spider,scrapy,automation,browser,AI,LLM,web-scraping
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Dynamic: license-file
+
+This is a stub library for the project https://github.com/carlosplanchon/spidercreator.
+
+We need to ensure that the package works correctly before publishing it to PyPI.
+
+By: Carlos A. Planchón.

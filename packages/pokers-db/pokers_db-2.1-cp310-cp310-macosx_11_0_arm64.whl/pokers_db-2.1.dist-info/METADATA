@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: pokers_db
+Version: 2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Provides-Extra: dev
+Summary: Embarrassingly simple No Limit Texas Holdem environment for RL fork with verbosity option
+Keywords: poker,reinforcement learning
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+forked from:
+https://github.com/Reinforcement-Poker/pokers

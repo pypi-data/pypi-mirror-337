@@ -1,0 +1,2 @@
+# easypwn
+Make pwn easier

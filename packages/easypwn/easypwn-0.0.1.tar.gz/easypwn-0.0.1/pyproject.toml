@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "0.0.1"
+name = "easypwn"
+description = "Make pwn easier again"
+dependencies = [
+    "pwntools >= 4.10.0"
+]
+require-python = ">=3.6"
+
+[project.scripts]
+easycheck = "easypwn.easycheck:main"

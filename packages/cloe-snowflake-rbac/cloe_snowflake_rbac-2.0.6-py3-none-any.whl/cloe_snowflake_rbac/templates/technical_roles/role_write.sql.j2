@@ -1,0 +1,21 @@
+{% set database_name_role = database_name_role_override or database_name %}
+{% set role_name = static_role_name_override or 'R_T_' ~ database_name_role ~ '_' ~ schema_name ~ '_WRITE' -%}
+{% if delete_role -%}
+DROP ROLE IF EXISTS {{ role_name }};
+{% elif create_role -%}
+CREATE ROLE IF NOT EXISTS {{ role_name }};
+{% elif grant_role -%}
+{% if not grants_only -%}
+GRANT ROLE {{ role_name }} TO ROLE SYSADMIN;
+GRANT ROLE R_T_{{ database_name }}_{{ schema_name }}_READ TO ROLE {{ role_name }};
+{% endif -%}
+GRANT USAGE ON DATABASE {{ database_name }} TO ROLE {{ role_name }};
+GRANT USAGE ON SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT INSERT, DELETE, UPDATE, TRUNCATE ON ALL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT INSERT, DELETE, UPDATE, TRUNCATE ON FUTURE TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+{% elif revoke_role -%}
+REVOKE USAGE ON DATABASE {{ database_name }} FROM ROLE {{ role_name }};
+REVOKE USAGE ON SCHEMA {{ database_name }}.{{ schema_name }} FROM ROLE {{ role_name }};
+REVOKE INSERT, DELETE, UPDATE, TRUNCATE ON ALL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} FROM ROLE {{ role_name }};
+REVOKE INSERT, DELETE, UPDATE, TRUNCATE ON FUTURE TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} FROM ROLE {{ role_name }};
+{% endif -%}

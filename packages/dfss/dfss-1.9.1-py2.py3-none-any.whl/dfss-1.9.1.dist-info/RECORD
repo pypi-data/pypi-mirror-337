@@ -1,0 +1,15 @@
+dfss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfss/__main__.py,sha256=rvQSQesVSuagqRM-Pg5jg2-I7FRN0rJEiBqONhp_Zz0,6191
+dfss/output/dfss-config.json,sha256=Uww4Ybrb7f33scvWKflKi3GX4jOcWVinYHe28qwdOFo,694
+dfss/output/dfss-cpp-linux-amd64,sha256=hiU2JRljNUIrfFSeGAU8AJc_ThA7Mjau8BuFUWx5aAA,3647032
+dfss/output/dfss-cpp-linux-arm64,sha256=c4_VZcDCs1OPl4MIdEByVYkiq4Gz36V2ovA7YRSEEW8,3090568
+dfss/output/dfss-cpp-linux-armbi,sha256=g7YtnKOKViCOphb_ydEL5ffNzIgZWof4IPcV9qkngkQ,998712
+dfss/output/dfss-cpp-linux-loongarch64,sha256=T9z_Hw0BnJa5YPX0byyqSW_vuZb9wbCiqJUJfPJJOSA,3565512
+dfss/output/dfss-cpp-linux-riscv64,sha256=wzpwbUha932cUNzyepXtfwSEPepQzk29oA6iTz7cu2c,2562208
+dfss/output/dfss-cpp-linux-sw_64,sha256=cJfsXhPFvrgjKFkNDaNhC6u-Zeh8cwfQnR0KC7Oa5d4,3848552
+dfss/output/dfss-cpp-win-i686.exe,sha256=Nc3joEzLVdjxMOhXMBIDSnEoa7TcAWEnizp5y9kg9o8,2584358
+dfss/output/git_version,sha256=Yx0P5UDSLh1GzfDfgMWcbV4VB8R0RL0CbnD0jctcuwI,7
+dfss-1.9.1.dist-info/METADATA,sha256=ot8SeoqV9Iu7fMhhsR704supngY6XouQ2WqbkeGOOhQ,195
+dfss-1.9.1.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+dfss-1.9.1.dist-info/top_level.txt,sha256=K-6jHqEhW7mU4r0Hz8ypAn5PTswxRODvETfeNo7b2WE,5
+dfss-1.9.1.dist-info/RECORD,,

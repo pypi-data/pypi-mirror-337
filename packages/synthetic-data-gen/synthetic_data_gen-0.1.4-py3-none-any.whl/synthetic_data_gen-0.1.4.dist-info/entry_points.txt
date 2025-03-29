@@ -1,0 +1,2 @@
+[console_scripts]
+synthetic-data-gen = synthetic_data_gen.cli.main:main

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: foundation_stereo
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/iKrishneel/foundation_stereo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FoundationStereo: Zero-Shot Stereo Matching
+
+:hammer: Refactored version of the original implementation of the [FoundationStereo](https://nvlabs.github.io/FoundationStereo/)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NVlabs/FoundationStereo/website/static/images/intro.jpg" width="800"/>
+</p>
+
+# License
+This project is a refactored version of code originally developed by NVIDIA. The original code and its modifications are licensed under the terms specified in the [LICENSE](https://github.com/NVlabs/FoundationStereo/blob/master/LICENSE) file provided in the original repository.
+
+

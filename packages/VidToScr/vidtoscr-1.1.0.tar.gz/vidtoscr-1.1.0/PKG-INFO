@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: VidToScr
+Version: 1.1.0
+Summary: A library to convert video files to SCR format.
+Home-page: https://github.com/Martingonn/VID-to-SCR-Lib
+Author: Marcin Jacek Chmiel
+Author-email: martingonn.dev@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# VID-to-SCR-Lib
+Python library for converting video files (currently .mp4) to .scr screensavers.
+# Original Author 
+Development was started on March 28th, 2025, by Marcin Jacek Chmiel.
+# Contributors 
+As of now, there are no more contributors than the original author.
+If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
+# How to install
+* Simply install it via "pip install vidToScr".
+  # Manually:
+  * run setup.py 
+# Future Additions
+* add more formats
+* Simply update for later Python versions
+* (maybe) compile for older versions
+# Downloads
+![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/MP4-to-SCR-lib/total)

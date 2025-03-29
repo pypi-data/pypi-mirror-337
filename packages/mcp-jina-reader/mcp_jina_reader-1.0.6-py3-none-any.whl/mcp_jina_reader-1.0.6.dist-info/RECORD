@@ -1,0 +1,7 @@
+mcp_jina_reader/__init__.py,sha256=rW_5co2xGch8pJEjB9pYb1cl75CoRWz_JfRnELgfGN0,335
+mcp_jina_reader/__main__.py,sha256=m2XfENyTcopH4qchCDBDlh6DXhdk09JJoMS804UjTuo,84
+mcp_jina_reader/server.py,sha256=U_9JUrgiCbTrw0MnGg8IhzEoqdPxbYCUuDOMUaawHTg,837
+mcp_jina_reader-1.0.6.dist-info/METADATA,sha256=mnyLEXVOMqJVpWR-ezgGJ72Dm8pTwv74IbPELADmpnU,2408
+mcp_jina_reader-1.0.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_jina_reader-1.0.6.dist-info/entry_points.txt,sha256=wlR9NxSTStNCNWlXTxPse4CzDSu3RUNsEQlKxMs7BdQ,57
+mcp_jina_reader-1.0.6.dist-info/RECORD,,

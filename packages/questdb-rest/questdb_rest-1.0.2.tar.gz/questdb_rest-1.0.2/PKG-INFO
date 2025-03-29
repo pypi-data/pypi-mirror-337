@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: questdb-rest
+Version: 1.0.2
+Summary: QuestDB REST API Python client library and CLI
+Home-page: https://github.com/tddschn/questdb-rest
+License: MIT
+Keywords: questdb,rest,api,wrapper,client,http
+Author: Teddy Xinyuan Chen
+Author-email: 45612704+tddschn@users.noreply.github.com
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Utilities
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: sqlparse (>=0.5.3,<0.6.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Project-URL: Bug Tracker, https://github.com/tddschn/questdb-rest/issues
+Project-URL: Repository, https://github.com/tddschn/questdb-rest
+Description-Content-Type: text/markdown
+
+

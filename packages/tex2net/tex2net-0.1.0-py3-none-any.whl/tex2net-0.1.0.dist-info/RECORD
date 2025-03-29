@@ -1,0 +1,10 @@
+tex2net/__init__.py,sha256=V-dy49QZIFgV_l2eogq57EBtW9A3GQ9XG3-P4OIO3IY,463
+tex2net/analysis.py,sha256=t-WyEZJ-QGKwTn0ehCm6hG_c_pAi5Vkl2gyfNz0R1l0,4798
+tex2net/graph.py,sha256=v5LX9zyXjZ2MHYOfpaKjc0I9t1BJe5Bm2vbxK7hiOg4,5363
+tex2net/rewriting.py,sha256=6Hfc08FZLb4CThUp4PfPnnNZFAVKyhty90LztjJP7iU,939
+tex2net/visualization.py,sha256=R7-HQ5U2FMtB_NOVFviWMzWW7f9rkE4txMj0K_OLEl8,4927
+tex2net-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tex2net-0.1.0.dist-info/METADATA,sha256=FOrT73PMxHXMSA2nORk7WQ2L2EQrgU0vgD7REqTmFIg,3877
+tex2net-0.1.0.dist-info/WHEEL,sha256=iAkIy5fosb7FzIOwONchHf19Qu7_1wCWyFNR5gu9nU0,91
+tex2net-0.1.0.dist-info/top_level.txt,sha256=aAPb6c4eFoawa5856lPGV39aUXgkejOTh09mwT-HUfY,8
+tex2net-0.1.0.dist-info/RECORD,,

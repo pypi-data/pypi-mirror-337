@@ -1,0 +1,6 @@
+README.md
+setup.py
+byted_overpass_toutiao_videoarch_wrynn.egg-info/PKG-INFO
+byted_overpass_toutiao_videoarch_wrynn.egg-info/SOURCES.txt
+byted_overpass_toutiao_videoarch_wrynn.egg-info/dependency_links.txt
+byted_overpass_toutiao_videoarch_wrynn.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: pyg4i
+Version: 0.1.2
+Summary: Более удобное использование pyg4i
+Author: pyg4i
+Author-email: kigzobadi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyg4i
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pyg4i
+
+**pyg4i** - СЌС‚Рѕ Р±РёР±Р»РёРѕС‚РµРєР°, РєРѕС‚РѕСЂР°СЏ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ Р±РѕР»РµРµ СѓРґРѕР±РЅС‹Р№ РёРЅС‚РµСЂС„РµР№СЃ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ Р±РёР±Р»РёРѕС‚РµРєРѕР№ g4f. РћРЅР° СѓРїСЂРѕС‰Р°РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ g4f Рё РґРµР»Р°РµС‚ РµРіРѕ Р±РѕР»РµРµ РґРѕСЃС‚СѓРїРЅС‹Рј РґР»СЏ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ.
+
+## РЈСЃС‚Р°РЅРѕРІРєР°
+
+Р’С‹ РјРѕР¶РµС‚Рµ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ pyg4i СЃ РїРѕРјРѕС‰СЊСЋ pip:
+
+```bash
+pip install g4i
+```
+
+```bash
+from pyg4i.module import g4i
+
+response = g4i.answer("РїСЂРѕРјС‚")
+print(response)
+```

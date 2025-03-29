@@ -1,0 +1,2 @@
+[console_scripts]
+help2md = help2md:main

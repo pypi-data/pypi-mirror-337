@@ -1,0 +1,12 @@
+README.md
+setup.py
+HumanTone/__init__.py
+HumanTone/paraphrase.py
+HumanTone/sentiment.py
+HumanTone/similarity.py
+HumanTone/speech.py
+HumanTone.egg-info/PKG-INFO
+HumanTone.egg-info/SOURCES.txt
+HumanTone.egg-info/dependency_links.txt
+HumanTone.egg-info/requires.txt
+HumanTone.egg-info/top_level.txt

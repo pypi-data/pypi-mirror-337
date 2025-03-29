@@ -1,0 +1,10 @@
+pyproject.toml
+src/zodable_sample_package/__init__.py
+src/zodable_sample_package.egg-info/PKG-INFO
+src/zodable_sample_package.egg-info/SOURCES.txt
+src/zodable_sample_package.egg-info/dependency_links.txt
+src/zodable_sample_package.egg-info/requires.txt
+src/zodable_sample_package.egg-info/top_level.txt
+src/zodable_sample_package/digital/guimauve/example/Address.py
+src/zodable_sample_package/digital/guimauve/example/Country.py
+src/zodable_sample_package/digital/guimauve/example/User.py

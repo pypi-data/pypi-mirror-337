@@ -1,0 +1,9 @@
+[project]
+name = "zodable-sample-package"
+version = "1.1.2"
+description = "Auto-generated Pydantic project"
+dependencies = [ "annotated-types", "DateTime", "pydantic", "pydantic_core", "pytz", "setuptools", "toml", "typing-inspection", "typing_extensions", "uuid", "zodable-sample-package-multiplatform", "zodable_idschema", "zope.interface",]
+
+[build-system]
+requires = [ "setuptools", "wheel",]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,3 @@
+[console_scripts]
+skreader=skreader.cli:run
+

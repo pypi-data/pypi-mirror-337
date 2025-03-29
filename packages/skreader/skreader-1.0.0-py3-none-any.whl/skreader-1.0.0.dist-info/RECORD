@@ -1,0 +1,14 @@
+skreader/__init__.py,sha256=8Bch7W0idhUays67DQmGreVlRi37H7k4PxCNs6B7-Ec,46
+skreader/cli.py,sha256=veHZFLilN2jMgQ-wGFfNGPkTtzmij23m9FBmVDL9H-Y,7530
+skreader/const.py,sha256=NKQP6FgLzNfovOO5j7ZGGTGxyp_-q4t4lHJg34SBR4s,1162
+skreader/controller.py,sha256=ChKVaa586m6Mo5fi22ixNr1-hsqObRnbZThpSabcR_E,6631
+skreader/conv.py,sha256=423igfPjwrZxyJ8_4y2B9Fo0RgV0qr5nOs_qC6gpbLE,1118
+skreader/device.py,sha256=XGtJyj4gYGb8_0ANIAaZoe_WsIbz7qH5ReP7uhpb8wg,7415
+skreader/measurement.py,sha256=hK8QsXubOPQc22SXHaRo5BWaL0EwNe8RxZclHGHuwPs,7084
+skreader/testdata.py,sha256=7Xqh77FZzqyO558um6Wbnx48WyIXtk540GSciO1yPxs,30488
+skreader/usbadapter.py,sha256=PxfDxg6yMaIJT2eh9e3dEhx_VBjsW01LnFOPQM3txVY,1813
+skreader-1.0.0.dist-info/LICENSE.md,sha256=Zzx5EBzLq4WmlJwK437EkbCc2-0gW2z-gVXZzNkQFkM,1072
+skreader-1.0.0.dist-info/METADATA,sha256=0gRFyrRhE_Yng727PR7LmJftDDy0PdJUXGY3qsHIPVE,5890
+skreader-1.0.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+skreader-1.0.0.dist-info/entry_points.txt,sha256=emBPQ9Iv7g-0TkuKJGtaNed50DN-AAlsNV6hneoF6ww,45
+skreader-1.0.0.dist-info/RECORD,,

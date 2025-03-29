@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mestra_jobs/__init__.py
+mestra_jobs.egg-info/PKG-INFO
+mestra_jobs.egg-info/SOURCES.txt
+mestra_jobs.egg-info/dependency_links.txt
+mestra_jobs.egg-info/top_level.txt

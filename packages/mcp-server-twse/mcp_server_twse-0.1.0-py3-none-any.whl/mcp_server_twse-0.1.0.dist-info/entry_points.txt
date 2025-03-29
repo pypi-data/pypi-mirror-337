@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-twse = mcp_server_twse.server:main

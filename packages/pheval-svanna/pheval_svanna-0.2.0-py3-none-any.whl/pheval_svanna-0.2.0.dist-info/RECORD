@@ -1,0 +1,15 @@
+pheval_svanna/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_svanna/cli.py,sha256=CMms8I_P4psMr-ukMA8DfF85EyqiimkuCJ2_8B7Nya0,212
+pheval_svanna/post_process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_svanna/post_process/post_process.py,sha256=yPbbuw2-1jNZjj_TfMwWANE8X4QqxSZtjP0OLDED5qs,718
+pheval_svanna/post_process/post_process_results_format.py,sha256=x4sgFUEJaxfUQrTlgNVIMbEI0H05dhYw5EVO4SStBpc,1925
+pheval_svanna/prepare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_svanna/prepare/prepare_commands.py,sha256=Zb9ASJhnyGOJEtTXDm_9uNwj_ET6DicxR8TqHteM32U,6655
+pheval_svanna/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_svanna/run/run.py,sha256=v4x1CQy-jKXS6Rr_ipHtlpva9fk9jLfo5KeXRA9xNVE,1368
+pheval_svanna/runner.py,sha256=JEi6--R2mGA5-57QpyIW2YTGa9wt2ZzvbsAWMvz0KVU,1752
+pheval_svanna/tool_specific_configuration_parser.py,sha256=9XCTP3G5IxfFrylk8ceu03bnXp70DWpdDPbuI4nu6Us,276
+pheval_svanna-0.2.0.dist-info/METADATA,sha256=ZS8QaCOWMWdmMftYYyDYoDh3DkTo7WliU0nfMVm-Ni4,3098
+pheval_svanna-0.2.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+pheval_svanna-0.2.0.dist-info/entry_points.txt,sha256=SMZix2d_1-cjhijLs_2JawGu4phYkPzc4ujN4PLqkG8,121
+pheval_svanna-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: refine-user-story-mcp
+Version: 0.3.0
+Summary: A refine user story MCP server
+Author: B. Anil Kumar
+Author-email: anilkumarbaatula@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: fastmcp
+Requires-Dist: langchain_groq
+Requires-Dist: langchain
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary

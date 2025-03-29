@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: beancount-mcp
+Version: 0.1.0
+Summary: Beancount Model Context Protocol Server
+Requires-Python: >=3.10
+Requires-Dist: beancount>=2.3.5
+Requires-Dist: beanquery>=0.1.0
+Requires-Dist: mcp[cli]
+Requires-Dist: watchdog>=3.0.0
+Provides-Extra: dev

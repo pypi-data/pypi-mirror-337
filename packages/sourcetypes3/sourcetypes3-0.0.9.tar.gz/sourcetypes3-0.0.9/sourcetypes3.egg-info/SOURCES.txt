@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+sourcetypes/__init__.py
+sourcetypes/py.typed
+sourcetypes3.egg-info/PKG-INFO
+sourcetypes3.egg-info/SOURCES.txt
+sourcetypes3.egg-info/dependency_links.txt
+sourcetypes3.egg-info/requires.txt
+sourcetypes3.egg-info/top_level.txt

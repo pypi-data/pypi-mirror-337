@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: PassCrypt
+Version: 1.0.0
+Description-Content-Type: text/markdown
+
+# PassCrypt
+
+A simple strong password making tool that only needs an assignment of the lenght of the password and it automatically returns a password very effective to be broken.
+
+## Features
+- Uses the built-in 'random' library
+- Generates passwords of customizable length
+- Includes both upper and lower case letters, numbers and special characters
+
+## Installation
+You can install the package using pip:
+
+```sh
+pip install https://github.com/rupayan-23/PassForge.git
+```
+
+## Usage
+
+```python
+from PassCrypt import Generate_pass
+
+length = 12
+
+password = Generate_pass(length)
+
+print(password)
+```
+
+## Requirements
+- Python 3.6+
+
+## Author
+[Rupayan Sarker](https://github.com/rupayan-23)

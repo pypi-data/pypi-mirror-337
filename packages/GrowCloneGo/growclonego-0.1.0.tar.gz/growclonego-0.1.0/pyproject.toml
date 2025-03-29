@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GrowCloneGo"
+version = "0.1.0"
+description = "Simple code to estimate the exponential growth rate of each clone in a barcoded cell population."
+readme = "README.rst"
+authors = [
+  {name = "Andrea (Didi) Gardner", email = "andrealgardner@utexas.edu"}
+]
+maintainers = [
+  {name = "Andrea (Didi) Gardner", email = "andrealgardner@utexas.edu"}
+]
+classifiers = [
+
+]
+license = {text = "GNU General Public License v3"}
+dependencies = [
+  "pandas >= 1.5.3",
+  "numpy >= 2.0.0"
+]
+
+[project.scripts]
+GrowCloneGo = "GrowCloneGo.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+  "build",
+    #"coverage",  # testing
+    #"mypy",  # linting
+    #"pytest",  # testing
+  "ruff"  # linting
+]
+
+[project.urls]
+
+bugs = "https://github.com/andrealgardner/GrowCloneGo/issues"
+changelog = "https://github.com/andrealgardner/GrowCloneGo/blob/master/changelog.md"
+homepage = "https://github.com/andrealgardner/GrowCloneGo"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]
+
+
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+GrowCloneGo = { path = ".", editable = true }
+
+[tool.pixi.environments]
+default = { solve-group = "default" }
+#dev = { features = ["dev"], solve-group = "default" }
+
+[tool.pixi.tasks]
+
+#[tool.pixi.feature.dev.dependencies]
+#setuptools = ">=75.8.2,<76"
+

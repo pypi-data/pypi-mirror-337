@@ -1,0 +1,2 @@
+[console_scripts]
+GrowCloneGo = GrowCloneGo.__main__:main

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+googleemail.egg-info/PKG-INFO
+googleemail.egg-info/SOURCES.txt
+googleemail.egg-info/dependency_links.txt
+googleemail.egg-info/requires.txt
+googleemail.egg-info/top_level.txt

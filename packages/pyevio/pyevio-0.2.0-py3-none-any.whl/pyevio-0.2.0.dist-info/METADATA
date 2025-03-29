@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: pyevio
+Version: 0.2.0
+Summary: A Python EVIO parsing library and CLI.
+Author-email: Dmitry Romanov <romanovda@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: click>=8.1.0
+Requires-Dist: lz4>=4.4.0
+Requires-Dist: rich
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: textual
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"

@@ -1,0 +1,15 @@
+DescriptorDOS/Analyzer.py,sha256=iFs9EkfTe2EimbeTQoxCERvykM5PhEi2XFBIPyO0QEo,27322
+DescriptorDOS/BaseWorker.py,sha256=zq4YkYiCTpurWK8OmCJwHsNwVQfv4Wf_QgezIEqmIPM,5187
+DescriptorDOS/BasicAgent.py,sha256=WiVDurCzcQbMiuV6oSoxxN63vsv4eMaI9JRZyuCOJUU,7114
+DescriptorDOS/Constants.py,sha256=C-PylJfhtcUfaSLYRtcK1l6kAPDsUd3k3IAEnFyZj3w,263
+DescriptorDOS/Displacers.py,sha256=3h53pky-piMVaF5jyqogtEZygkoyNh3ct8qgRmOEK28,20508
+DescriptorDOS/LAMMPSWorker.py,sha256=B8qz2ZDM_4qST1iUk--0NHoXgu89tua0TfNMbp-ftOk,14777
+DescriptorDOS/MPIAgent.py,sha256=J9mwTiNYF1PCl3b45k8ovlOJ47UX0nh2FWsx7ojdBSM,4142
+DescriptorDOS/Manager.py,sha256=3E9C-WyNzn-Jr6wTgGYxJrav_xC6M6j0fSLajBPjIeM,10535
+DescriptorDOS/TensorCompressor.py,sha256=tjmIQaZqeR9bBpNTpChBVpWQcKNSKVr20dWzR6QKnCs,4587
+DescriptorDOS/YAMLParser.py,sha256=dud4rE2A1anrojDUK9z05LMi0UZaMW2K7lmC8QVSY4U,1728
+DescriptorDOS/__init__.py,sha256=bWybwFmixiutF82fvnSPQgeDl2Za2DKkN9MG6WvUh2k,168
+descriptordos-0.1.0.dist-info/METADATA,sha256=j4fClh5_xBaIQQC8PDsCPb_ovPNTZwZUC_MFdV7YL5A,4235
+descriptordos-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+descriptordos-0.1.0.dist-info/top_level.txt,sha256=sTxLIOHt8bgjcsi4vF4n369h4NvepAcQX_WAqJMDvBw,14
+descriptordos-0.1.0.dist-info/RECORD,,

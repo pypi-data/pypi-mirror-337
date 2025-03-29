@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: kube-transform
+Version: 0.0.0a0
+Summary: A lightweight open-source framework for writing and deploying distributed data transformations on Kubernetes.
+Author-email: Devin Toth <devin.r.toth@gmail.com>
+Project-URL: Homepage, https://github.com/dtoth/kube-transform
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: kubernetes==32.0.1
+Requires-Dist: boto3==1.34.91
+Requires-Dist: fsspec==2025.3.0
+Requires-Dist: s3fs==2025.3.0
+
+> ## Notice
+> This project is currently on version 0.0.0-alpha, so documentation is limited.
+>
+> Additional documentation and usage tutorials will be provided soon. Check back here for updates!
+
+
+## kube-transform
+
+kube-transform is a lightweight open-source framework for writing and deploying distributed batch-oriented data transformations on Kubernetes.
+
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+alft5=alf_t5.app:run
+

@@ -1,0 +1,2 @@
+[console_scripts]
+botobot = botobot.main:app

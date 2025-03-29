@@ -1,0 +1,7 @@
+README.md
+setup.py
+pynava.egg-info/PKG-INFO
+pynava.egg-info/SOURCES.txt
+pynava.egg-info/dependency_links.txt
+pynava.egg-info/requires.txt
+pynava.egg-info/top_level.txt

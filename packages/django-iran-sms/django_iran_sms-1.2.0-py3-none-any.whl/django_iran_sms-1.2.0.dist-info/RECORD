@@ -1,0 +1,16 @@
+django_iran_sms-1.2.0.dist-info/licenses/LICENSE.txt,sha256=XRnE2jPRynby1_SvDX9JZgeDg0pBnRas9-pelvrNKVU,1070
+drfiransms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfiransms/admin.py,sha256=2jENr99r_Wrh2q4dBN7x4lB5JljC6lWlZ3XWSmcEn2Q,369
+drfiransms/apps.py,sha256=i0SFDwM5802BWcgFheBVwTyDXcFGHEOrXXfSFHWCF5o,208
+drfiransms/models.py,sha256=mpgCX1C8GR-W53e6t_DUQgFrOD9EZDglEtpmKkjAGK0,1722
+drfiransms/serializers.py,sha256=vI56AZPxocng_a0bDhfsIIvBmw1XdLUdc2cUXuT1cug,492
+drfiransms/services.py,sha256=oEv0A90l1D_2tj7ZwqnxCimWXl1wUdJXiyMycTHFrZ8,7039
+drfiransms/settings.py,sha256=cemZmFCEVS1tro16c46rPsuDPvpL8DUJBpiD-9Rx3rk,3209
+drfiransms/signals.py,sha256=iu6ZT3A4nFYBGGjOM4vtAzg8HyD9NIdec_hWyM997Ho,903
+drfiransms/urls.py,sha256=ADw5X6hPZ6THRjaTAgIVHZW3IKDdeGDiUspKzm8QZhg,253
+drfiransms/validators.py,sha256=jAJASfG4kPcqrGxxIcoR8VjS4L4n_EzZuxJtQ1g9qmo,480
+drfiransms/views.py,sha256=ohD5FQWitr6Doq0PDgGW5zumM1qfZ0sxJwx08UdXxvE,11409
+django_iran_sms-1.2.0.dist-info/METADATA,sha256=YAg8kdMOMnMv5Q_w-oTXgiq9jpEyqJQBLWoMlnva0VY,5911
+django_iran_sms-1.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+django_iran_sms-1.2.0.dist-info/top_level.txt,sha256=tfl3MadgsjUjDiTo90Oa12LL3CsK8tiTA0-aVVM6xyU,11
+django_iran_sms-1.2.0.dist-info/RECORD,,

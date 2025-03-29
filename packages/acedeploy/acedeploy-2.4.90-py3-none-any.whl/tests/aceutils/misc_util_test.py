@@ -1,0 +1,74 @@
+import aceutils.misc_utils as mu
+import pytest
+
+
+@pytest.mark.parametrize(
+    "input, expected",
+    [
+        ("VARCHAR", "VARCHAR"),
+        ("VARCHAR  ", "VARCHAR"),
+        ("  VARCHAR", "VARCHAR"),
+        ("varchar", "VARCHAR"),
+        ("CHAR", "VARCHAR"),
+        ("CHARACTER", "VARCHAR"),
+        ("STRING", "VARCHAR"),
+        ("TEXT", "VARCHAR"),
+        ("VARCHAR(20)", "VARCHAR"),
+        ("VARCHAR (20)", "VARCHAR"),
+        ("varchar (20)", "VARCHAR"),
+        ("NUMBER", "NUMBER"),
+        ("DECIMAL", "NUMBER"),
+        ("NUMERIC", "NUMBER"),
+        ("INT", "NUMBER"),
+        ("INTEGER", "NUMBER"),
+        ("BIGINT", "NUMBER"),
+        ("SMALLINT", "NUMBER"),
+        ("NUMBER(38,0)", "NUMBER"),
+        ("NUMBER( 38,0 )", "NUMBER"),
+        ("NUMBER (38,0)", "NUMBER"),
+        ("NUMBER(38 , 0)", "NUMBER"),
+        ("NUMBER(38,0) ", "NUMBER"),
+        ("NUMBER(38,0)", "NUMBER"),
+        ("NUMBER(10,0)", "NUMBER"),
+        ("NUMBER(38,5)", "NUMBER"),
+        ("FLOAT", "FLOAT"),
+        ("float", "FLOAT"),
+        ("FLOAT4", "FLOAT"),
+        ("FLOAT8", "FLOAT"),
+        ("DOUBLE", "FLOAT"),
+        ("DOUBLE PRECISION", "FLOAT"),
+        ("REAL", "FLOAT"),
+        ("BINARY", "BINARY"),
+        ("VARBINARY", "BINARY"),
+        ("DATE", "DATE"),
+        ("TIME", "TIME"),
+        ("DATETIME", "TIMESTAMP_NTZ"),
+        ("TIMESTAMP", "TIMESTAMP_NTZ"),
+        ("TIMESTAMP_NTZ", "TIMESTAMP_NTZ"),
+        ("TIMESTAMP_LTZ", "TIMESTAMP_LTZ"),
+        ("TIMESTAMP_TZ", "TIMESTAMP_TZ"),
+        ("VARIANT", "VARIANT"),
+        ("OBJECT", "OBJECT"),
+        ("ARRAY", "ARRAY"),
+        ("GEOGRAPHY", "GEOGRAPHY"),
+    ],
+)
+def test_map_datatype_name_to_default(input, expected):
+    result = mu.map_datatype_name_to_default(input)
+    assert result == expected
+
+@pytest.mark.parametrize(
+    "datatype_1, datatype_2, expected",
+    [
+        ("VARCHAR", "VARCHAR", True),
+        ("VARCHAR(16777216)", "VARCHAR", True),
+        ("VARCHAR", "VARCHAR(16777216)", True),
+        ("VARCHAR(6)", "VARCHAR(6)", True),
+        ("VARCHAR(6)", "VARCHAR(7)", False),
+        ("NUMBER", "NUMBER", True),
+        ("NUMBER", "VARCHAR", False),
+    ],
+)
+def test_compare_datatype_ignore_varchar_maximum_length(datatype_1, datatype_2, expected):
+    result = mu.compare_datatype_ignore_varchar_maximum_length(datatype_1, datatype_2)
+    assert result == expected

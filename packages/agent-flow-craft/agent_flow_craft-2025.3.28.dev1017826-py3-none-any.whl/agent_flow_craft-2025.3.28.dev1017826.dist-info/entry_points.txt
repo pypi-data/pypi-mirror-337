@@ -1,0 +1,2 @@
+[console_scripts]
+mcp_agent = src.core.apps.agent_manager.agents.feature_creation_agent:main

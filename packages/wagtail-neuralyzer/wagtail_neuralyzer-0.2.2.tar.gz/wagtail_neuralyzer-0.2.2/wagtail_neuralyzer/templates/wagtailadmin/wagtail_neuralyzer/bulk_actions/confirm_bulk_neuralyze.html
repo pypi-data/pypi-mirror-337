@@ -1,0 +1,41 @@
+{% extends 'wagtailadmin/bulk_actions/confirmation/base.html' %}
+{% load i18n wagtailadmin_tags %}
+
+{% block titletag %}
+    {% with counter_val=items|length %}
+        {% blocktrans trimmed with counter=counter_val|intcomma count counter_val=counter_val %}Anonymize 1 object {% plural %}Anonymize {{ counter }} objects{% endblocktrans %}
+    {% endwith %}
+{% endblock %}
+
+{% block header %}
+    {% include "wagtailadmin/shared/header.html" with title=_("Anonymize") icon="no-view" %}
+{% endblock header %}
+
+{% block items_with_access %}
+    {% if items %}
+        <p>{% trans "Are you sure you want to anonymize these objects?" %}</p>
+        <ul>
+            {% for obj in items %}
+                <li> {{ obj.item }} </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock items_with_access %}
+
+{% block items_with_no_access %}
+
+    {% blocktrans trimmed asvar no_access_msg count counter=items_with_no_access|length %}You don't have permission to anonymize this object{% plural %}You don't have permission to anonymize these objects{% endblocktrans %}
+    {% include './list_items_with_no_access.html' with items=items_with_no_access no_access_msg=no_access_msg %}
+
+{% endblock items_with_no_access %}
+
+{% block form_section %}
+    {% if items %}
+        {% trans 'Yes, anonymize' as action_button_text %}
+        {% trans "No, don't anonymize" as no_action_button_text %}
+        {% include 'wagtailadmin/bulk_actions/confirmation/form.html' %}
+    {% else %}
+        {% include 'wagtailadmin/bulk_actions/confirmation/go_back.html' %}
+    {% endif %}
+{% endblock form_section %}
+

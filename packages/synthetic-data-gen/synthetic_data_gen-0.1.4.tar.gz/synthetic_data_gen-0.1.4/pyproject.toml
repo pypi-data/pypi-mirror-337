@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthetic_data_gen"
+version = "0.1.4"
+description = "A package for generating synthetic data, using labelme and generating synthetic images."
+readme = "README.md"
+authors = [{ name = "Sebastian Jörz", email = "seppel8426@gmail.com" }]
+license = { file = "LICENSE" }
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools]
+packages = ["synthetic_data_gen"]
+
+[tool.setuptools.package-data]
+synthetic_data_gen = ["data/*.yml"]
+
+[project.scripts]
+synthetic-data-gen = "synthetic_data_gen.cli.main:main"

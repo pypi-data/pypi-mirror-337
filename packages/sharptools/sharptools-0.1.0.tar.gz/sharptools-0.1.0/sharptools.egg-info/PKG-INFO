@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: sharptools
+Version: 0.1.0
+Summary: Jednoduchý balíček s užitečnými funkcemi pro práci s čísly a textem.
+Home-page: https://github.com/tvujprofil/ultimate
+Author: UltimateTeam
+Author-email: support@ultimateteam.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# SharpTools
+
+SharpTools je jednoduchý Python balíček, který obsahuje několik užitečných funkcí pro práci s čísly a textem.
+
+## 📥 Instalace
+
+Stačí použít `pip`:
+
+
+## 🚀 Použití
+
+```python
+import sharptools
+
+print(sharptools.nahodne_cislo())  # Náhodné číslo (např. 42)
+print(sharptools.secti(10, 20))  # 30
+print(sharptools.veliky_text("ahoj"))  # AHOJ
+print(sharptools.maly_text("ČAU"))  # čau
+

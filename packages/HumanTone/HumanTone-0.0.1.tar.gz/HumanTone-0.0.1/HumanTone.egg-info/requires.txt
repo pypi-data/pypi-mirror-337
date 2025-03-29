@@ -1,0 +1,8 @@
+transformers
+textblob
+nltk
+sentence-transformers
+pyttsx3
+torch
+scipy
+pandas

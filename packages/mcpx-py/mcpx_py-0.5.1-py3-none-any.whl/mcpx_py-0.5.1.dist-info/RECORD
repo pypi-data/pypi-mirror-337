@@ -1,0 +1,9 @@
+mcpx_py/__init__.py,sha256=G2GU_nqxj2fZcRpV0Qz_Gkjs0F-5k-JHtNNrBa48BIk,319
+mcpx_py/__main__.py,sha256=zZc_SgwHXn_L_UmBDIT7or-99oeGH-65P1NNk1HfY1Y,6652
+mcpx_py/builtin_tools.py,sha256=EVNMwRluglQ4rZfY77e93sGStZCmLbHcrGyPtMzi-g4,2180
+mcpx_py/chat.py,sha256=QTf16nuKmjbNDDMxY58GW8z9EZAGsqNWp850te7i3dY,5619
+mcpx_py-0.5.1.dist-info/METADATA,sha256=QXuVy6tKayeKj2LEJ3IMBgUe8f9W-Co9Aqx_2zQ9gis,4198
+mcpx_py-0.5.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcpx_py-0.5.1.dist-info/entry_points.txt,sha256=JzfJPrfXJuP8ck8fftKIkuTpkFtVjiq7_KhsP4QEufg,54
+mcpx_py-0.5.1.dist-info/top_level.txt,sha256=opNVmYJ2WIZP2JuOo3Bm0VaGN3RWtw-vnjGI8Sx1atE,8
+mcpx_py-0.5.1.dist-info/RECORD,,

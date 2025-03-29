@@ -1,0 +1,13 @@
+alf_t5/__init__.py,sha256=Ey1SWp3otDxG2dZwi925wCsCsPLLxFrkl7huY7e2pH0,813
+alf_t5/app.py,sha256=FjwZinPuLa-H5PCbBPNG_e0KItQqFqld1xQHLrVKQwA,11553
+alf_t5/data.py,sha256=UpfxXDXmiihSTuXFfb6SUNXimvRIeKI1eg2n-95YozA,3190
+alf_t5/dataset.py,sha256=7yvsgE9opd0j1uabGkJJTPIQmAw1KXvMuU-u903kG_Q,2198
+alf_t5/evaluation.py,sha256=tuAfLC5MdkIcMayCep3j25eF_rSsECQ8evdWXX0PUSo,13758
+alf_t5/experiment.py,sha256=g4Jmd0auyWMDmVbemnSUwCGFNpEs05ZdqTIslctB6Qs,14947
+alf_t5/translator.py,sha256=2ep-PcGXE8z4A63QmpvTyNGOWgvbIYjL-7PLodvkCuY,29445
+alf_t5/utils.py,sha256=0uZ_YSLyCLwq09IJ_jMnwbpiR5xS8D-ol1JDniEAo64,1001
+alf_t5-1.1.1.dist-info/entry_points.txt,sha256=3ruBC-A4qmOWr40irNLzFSUKGHEbHxVh4ZAuJ56s23Y,40
+alf_t5-1.1.1.dist-info/LICENSE,sha256=5Vfg4wgXGhgsX195rAaV5jFwPjJufKWAP3KcwccfepA,1091
+alf_t5-1.1.1.dist-info/METADATA,sha256=5pU-_J3J0xovsiWj1xHnDon2UVyTWJLFCmniNh8DToQ,18225
+alf_t5-1.1.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+alf_t5-1.1.1.dist-info/RECORD,,

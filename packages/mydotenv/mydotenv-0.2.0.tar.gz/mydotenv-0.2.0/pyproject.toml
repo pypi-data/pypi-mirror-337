@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mydotenv"
+version = "0.2.0"
+description = "A simple .env file manager with IDE autocompletion support"
+readme = "README.md"
+authors = [
+    {name = "Mike Band", email = "mike@example.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "python-dotenv>=0.19.0",
+]
+
+[project.scripts]
+mydotenv = "mydotenv:main"
+
+[project.urls]
+"Homepage" = "https://github.com/banddude/mydotenv"
+"Bug Tracker" = "https://github.com/banddude/mydotenv/issues"
+
+[tool.setuptools]
+packages = ["mydotenv"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+mydotenv = ["*.pyi"]

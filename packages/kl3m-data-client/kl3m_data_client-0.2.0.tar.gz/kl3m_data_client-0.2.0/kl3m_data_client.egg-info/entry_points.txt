@@ -1,0 +1,2 @@
+[console_scripts]
+kl3m-client = kl3m_data_client.cli.commands:main

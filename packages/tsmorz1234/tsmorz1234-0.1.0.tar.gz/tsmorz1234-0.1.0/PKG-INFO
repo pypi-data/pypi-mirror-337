@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tsmorz1234
+Version: 0.1.0
+Summary: An extended Kalman filter for SLAM and localization.
+Author: Tsmorz
+Author-email: tonysmoragiewicz@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: autograd (>=1.7.0,<2.0.0)
+Requires-Dist: jax (>=0.5.3,<0.6.0)
+Requires-Dist: loguru (>=0.7.3,<0.8.0)
+Requires-Dist: matplotlib (>=3.10.1,<4.0.0)
+Requires-Dist: numpy (>=2.2.3,<3.0.0)
+Requires-Dist: pre-commit (>=4.1.0,<5.0.0)
+Requires-Dist: pytest (>=8.3.5,<9.0.0)
+Requires-Dist: pytest-cov (>=6.0.0,<7.0.0)
+Requires-Dist: scipy (>=1.15.2,<2.0.0)
+Requires-Dist: sympy (>=1.13.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# state-estimation
+![controls-example](https://github.com/user-attachments/assets/f2abb831-2cf8-4599-95b8-127963a9e981)
+
+# ekf-localization
+![ekf-localization](https://github.com/user-attachments/assets/c441e3ec-4151-473b-be20-dd3ba98de8b4)
+
+# setup
+1. `make init`
+2. `make format`
+3. `make test`
+

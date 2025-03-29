@@ -1,0 +1,11 @@
+mydotenv/.env,sha256=HRSy_PRixTm9iENws0Q6j5XlQWPIxqWLX7H0yBqM9Zo,110
+mydotenv/__init__.py,sha256=8f9rc2VnD3tMXfwPh8K7liLipg_fSvz6KkzyzYkIMZ4,5859
+mydotenv/__init__.pyi,sha256=CkTH5aYld-9QVCPEwD7d98easlguf1bVJH4jVvwqvuU,72
+mydotenv/config.py,sha256=WcpOTAJMT1ZrquU2Q3YWGsycKq3G5Kszf5dvpdMThjg,2768
+mydotenv/symlink.py,sha256=WUQhp2qax0uB3JdL0UVoHGehWbCkEB290TOBLAHosBE,894
+mydotenv-0.2.0.dist-info/licenses/LICENSE,sha256=cfT9BoWRSTk9wZme6WBSMsHj6y1iMVbv37FfhMB_F8g,1069
+mydotenv-0.2.0.dist-info/METADATA,sha256=4Hk9LW4GdcF1QABPVaafqAUKczIYJVorIpvhAZhl1LQ,2182
+mydotenv-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mydotenv-0.2.0.dist-info/entry_points.txt,sha256=YST8MsDyFNFc9gw2TyAzpTA7DoaRAH284IAkOHD9ca0,43
+mydotenv-0.2.0.dist-info/top_level.txt,sha256=aRCEq0lpnKqkyIMm0O63YgUhOU80UpIUxmsIl0-9tj0,9
+mydotenv-0.2.0.dist-info/RECORD,,

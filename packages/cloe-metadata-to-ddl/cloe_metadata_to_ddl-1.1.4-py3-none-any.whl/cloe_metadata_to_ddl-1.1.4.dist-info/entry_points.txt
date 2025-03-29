@@ -1,0 +1,3 @@
+[console_scripts]
+cloe-metadata-to-ddl=cloe_metadata_to_ddl.main:app
+

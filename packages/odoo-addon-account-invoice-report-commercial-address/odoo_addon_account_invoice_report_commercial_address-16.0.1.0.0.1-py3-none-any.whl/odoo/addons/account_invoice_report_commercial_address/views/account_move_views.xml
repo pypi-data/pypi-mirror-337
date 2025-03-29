@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2025 Ángel Rivas <angel.rivas@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record
+        id="account_invoice_report_commercial_address_view_move_form"
+        model="ir.ui.view"
+    >
+        <field
+            name="name"
+        >account.invoice.report.commercial.address.view.move.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='to_check']" position="after">
+                <field name="show_commercial_entity" />
+            </xpath>
+        </field>
+    </record>
+</odoo>

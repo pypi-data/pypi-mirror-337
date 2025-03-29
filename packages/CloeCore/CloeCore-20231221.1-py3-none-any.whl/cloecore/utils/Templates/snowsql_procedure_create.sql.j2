@@ -1,0 +1,29 @@
+CREATE OR REPLACE PROCEDURE {{ procedure_identifier }}(
+{%- for parameter_name, parameter_type in parameters.items() %}{{ parameter_name }} {{ parameter_type }}{{ ", " if not loop.last else ""}}{% endfor %})
+RETURNS VARCHAR
+LANGUAGE JAVASCRIPT
+EXECUTE AS CALLER
+AS
+$$
+    sql_commands = [];
+    {%- for query in queries %}
+    var sql_command_{{ loop.index }} = `{{ query }}`;
+    sql_commands.push(sql_command_{{ loop.index }});
+    {% endfor %}
+    {%- if is_transaction is defined and is_transaction %}
+    {%- raw %}
+    snowflake.execute( {sqlText: "BEGIN TRANSACTION"} );
+    {%- endraw %}
+    {%- endif %}
+    {%- raw %}
+    sql_commands.forEach(function (item, index) {
+        snowflake.execute( {sqlText: item} );
+    });
+    {%- endraw %}
+    {%- if is_transaction is defined and is_transaction %}
+    {%- raw %}
+    snowflake.execute( {sqlText: "COMMIT"} );
+    {%- endraw %}
+    {%- endif %}
+    return "true"
+$$;

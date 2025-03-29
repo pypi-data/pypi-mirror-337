@@ -1,0 +1,1 @@
+EXEC {{ procedure_identifier }} {% for parameter_name, parameter_value in parameters.items() %}{{ '@' ~ parameter_name ~ "=" }}{{ escape_character }}{{ parameter_value }}{{ escape_character }}{{ ", " if not loop.last else ""}}{% endfor %};

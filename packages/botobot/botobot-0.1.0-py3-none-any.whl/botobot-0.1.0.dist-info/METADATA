@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: botobot
+Version: 0.1.0
+Summary: aws access assistant
+Author-email: Yoni Gottesman <yonigo10@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: anthropic>=0.49.0
+Requires-Dist: boto3>=1.37.22
+Requires-Dist: prompt-toolkit>=3.0.50
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: rich>=13.9.4
+Requires-Dist: typer>=0.15.2
+Description-Content-Type: text/markdown
+
+# botobot

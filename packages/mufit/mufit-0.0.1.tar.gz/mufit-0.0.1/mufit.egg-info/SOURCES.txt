@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+mufit/__init__.py
+mufit/bulkglassfit.py
+mufit/main.py
+mufit.egg-info/PKG-INFO
+mufit.egg-info/SOURCES.txt
+mufit.egg-info/dependency_links.txt
+mufit.egg-info/entry_points.txt
+mufit.egg-info/requires.txt
+mufit.egg-info/top_level.txt
+tests/test_mufit.py

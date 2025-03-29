@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/why_langchain/): LLM should read this page when building applications with LLMs, considering different LLM providers, or evaluating and testing LLM applications. Covers standardized interfaces for LLM components, orchestration of complex applications with LangGraph, and observability/evaluation with LangSmith.
+

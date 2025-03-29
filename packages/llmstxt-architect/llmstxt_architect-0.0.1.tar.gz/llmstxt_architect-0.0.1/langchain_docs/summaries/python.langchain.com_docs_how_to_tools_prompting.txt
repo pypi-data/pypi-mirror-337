@@ -1,0 +1,2 @@
+[How to: add ad-hoc tool calling capability to models](https://python.langchain.com/docs/how_to/tools_prompting): LLM should read this page when: 1) Adding ad-hoc tool calling capability to chat models/LLMs, 2) Using models not fine-tuned for tool calling, 3) Invoking custom tools from LLMs 'This guide demonstrates how to create prompts that instruct LLMs to request tool invocations, parse the LLM output to extract tool and arguments, invoke the requested tool, and return the tool output.'
+

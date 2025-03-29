@@ -1,0 +1,2 @@
+[Agents](https://js.langchain.com/docs/concepts/agents/): LLM should read this page when (1) building an AI agent system, (2) exploring agent architectures, (3) migrating from legacy agents to LangGraph. (Overview of LangChain agents and LangGraph as a recommended solution for building customizable agents. Includes information on transitioning from the legacy AgentExecutor to LangGraph.)
+

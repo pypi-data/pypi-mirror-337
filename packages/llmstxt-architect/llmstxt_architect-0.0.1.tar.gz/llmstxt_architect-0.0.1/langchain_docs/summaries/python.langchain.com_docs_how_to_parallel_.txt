@@ -1,0 +1,2 @@
+[How to: invoke runnables in parallel](https://python.langchain.com/docs/how_to/parallel/): LLM should read this page when parallelizing steps in a chain, formatting data for chaining, or splitting inputs to run multiple runnables in parallel. Explains how to use RunnableParallel to execute runnables concurrently, format data between steps, and provides examples of parallelizing chains.
+

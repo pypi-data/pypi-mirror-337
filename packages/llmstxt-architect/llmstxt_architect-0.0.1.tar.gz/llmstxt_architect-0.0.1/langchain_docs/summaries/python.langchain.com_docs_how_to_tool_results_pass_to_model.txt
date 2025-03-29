@@ -1,0 +1,2 @@
+[How to: pass tool outputs to chat models](https://python.langchain.com/docs/how_to/tool_results_pass_to_model): LLM should read this page when 1) integrating tools with chat models, 2) implementing tool calling functionality, 3) passing tool outputs back to chat models. Demonstrates how to pass tool function outputs back to chat models as tool messages, allowing the model to incorporate tool results in generating a final response.
+

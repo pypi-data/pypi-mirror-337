@@ -1,0 +1,2 @@
+[How to: add examples to the prompt](https://python.langchain.com/docs/how_to/query_few_shot): LLM should read this page when needing to guide an LLM to generate queries, when fine-tuning an LLM for query generation, when incorporating examples into few-shot prompts. This page covers how to add examples to prompts for query analysis in LangChain, including setting up the system, defining the query schema, generating queries, and tuning prompts by adding examples.
+

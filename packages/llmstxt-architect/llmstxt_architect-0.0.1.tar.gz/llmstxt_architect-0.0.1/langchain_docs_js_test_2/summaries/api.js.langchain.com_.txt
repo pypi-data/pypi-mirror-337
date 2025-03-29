@@ -1,0 +1,2 @@
+[API Reference](https://api.js.langchain.com/): LLM should read this page when (building JavaScript applications with language models) or (using LangChain.js for natural language processing tasks) or (developing language model agents and chains with composability). (Introduction to LangChain.js, a framework for building applications powered by language models. Covers installation, supported environments, key concepts like composability and agents, documentation, contributing, and relationship to Python LangChain.)
+

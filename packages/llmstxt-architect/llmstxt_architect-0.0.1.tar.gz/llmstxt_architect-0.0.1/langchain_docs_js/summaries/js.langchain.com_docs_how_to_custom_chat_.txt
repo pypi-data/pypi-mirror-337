@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/custom_chat/): LLM should read this page when: 1) Needing to create a custom chat model wrapper 2) Wanting to integrate a custom chat model with LangChain's callback system 3) Needing to enable tracing for a custom chat model 'Covers how to extend SimpleChatModel or BaseChatModel classes to create a custom chat model wrapper with required methods like _call and _generate, optional streaming support, and enabling tracing by implementing the invocationParams method.'
+

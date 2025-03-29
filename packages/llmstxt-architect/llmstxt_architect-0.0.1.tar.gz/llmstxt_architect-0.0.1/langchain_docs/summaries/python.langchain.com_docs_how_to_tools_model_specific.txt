@@ -1,0 +1,2 @@
+[How to: bind model-specific formatted tools](https://python.langchain.com/docs/how_to/tools_model_specific): LLM should read this page when binding model-specific tools, binding OpenAI tool schemas, invoking model-specific tools This page explains how to bind model-specific tool schemas directly to an LLM, with an example using the OpenAI tool schema format.
+

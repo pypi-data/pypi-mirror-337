@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/retrievers/): LLM should read this page when: 1) developing a retrieval component, 2) integrating with different retrieval systems, 3) understanding advanced retrieval patterns. The page covers the concept of retrievers in LangChain, their interface, common types (search APIs, databases, lexical search, vector stores), and advanced patterns like ensembling and source document retention.
+

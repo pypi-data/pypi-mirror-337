@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/example_selectors_length_based/): LLM should read this page when needing to select examples by length for a prompt, when having a limited context window size, or when concerned about exceeding the token limit. This page explains how to use the LengthBasedExampleSelector to dynamically select which examples to include in a prompt based on the length of the input, in order to avoid exceeding the total prompt length limit.
+

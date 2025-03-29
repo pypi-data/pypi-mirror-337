@@ -1,0 +1,2 @@
+[Retrieval](https://python.langchain.com/docs/concepts/retrieval): LLM should read this page when building retrieval systems, understanding query analysis, integrating with databases This page covers key concepts and techniques in retrieval systems, including query analysis (re-writing and construction), vector and lexical indexes, databases, and LangChain's unified retriever interface.
+

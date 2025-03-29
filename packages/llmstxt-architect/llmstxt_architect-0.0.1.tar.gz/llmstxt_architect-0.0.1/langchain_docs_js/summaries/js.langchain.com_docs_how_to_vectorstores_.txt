@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/vectorstores/): LLM should read this page when it needs to create and query a vector store, it needs to choose the right vector store for its use case, or it needs to load data into a vector store. The page covers how to create a new vector store index from documents or text chunks, how to query a vector store for similar vectors, and provides guidance on choosing the appropriate vector store integration based on different criteria.
+

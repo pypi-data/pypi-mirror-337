@@ -1,0 +1,2 @@
+[this guide](https://python.langchain.com/docs/tutorials/extraction/): LLM should read this page when building information extraction applications, understanding how to use reference examples for improving extraction performance, or when needing to extract structured data from unstructured text. This tutorial covers building an information extraction chain using LangChain, defining schemas for extracting structured data, using reference examples to improve extraction quality, and extracting multiple entities from text.
+

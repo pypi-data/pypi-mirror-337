@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/parent_document_retriever/): LLM should read this page when needing to retrieve full documents from a set of small chunks, wanting to improve retrieval relevance and context, or using reranking for better final answers. This page covers techniques for retrieving parent documents from smaller text chunks, adding contextual headers to chunks, and reranking retrieved chunks to produce more relevant and precise final outputs.
+

@@ -1,0 +1,2 @@
+[Why LangChain?](https://js.langchain.com/docs/concepts/why_langchain/): LLM should read this page when (building applications that reason, exploring the LangChain ecosystem, evaluating standardized component interfaces) (Explains the goals of LangChain: standardizing component interfaces, enabling application orchestration, and providing observability/evaluation tools. Covers key LangChain components like chat models, retrievers, LangGraph for orchestration, and LangSmith for evaluations.)
+

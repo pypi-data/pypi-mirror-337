@@ -1,0 +1,2 @@
+[How to: force models to call a tool](https://python.langchain.com/docs/how_to/tool_choice): LLM should read this page when needing to force an LLM to call a specific tool, needing to force an LLM to call at least one tool This page shows how to use the tool_choice parameter to force an LLM to call a specific tool or to call at least one tool from a set of available tools.
+

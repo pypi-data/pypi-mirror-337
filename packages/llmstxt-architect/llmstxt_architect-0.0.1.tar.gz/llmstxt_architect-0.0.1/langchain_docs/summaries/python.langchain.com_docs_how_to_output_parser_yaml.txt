@@ -1,0 +1,2 @@
+[How to: parse YAML output](https://python.langchain.com/docs/how_to/output_parser_yaml): LLM should read this page when: 1) Needing to generate YAML output conforming to a specific schema 2) Incorporating YAML output into a larger prompt/chain 3) Parsing YAML output returned by an LLM 'This page explains how to use the YamlOutputParser to parse YAML output from language models, allowing the output to conform to a predefined schema. It covers setting up the parser, constructing prompts with formatting instructions, and chaining the parser with a model.'
+

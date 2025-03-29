@@ -1,0 +1,2 @@
+[#tool-binding](https://js.langchain.com/docs/concepts/tool_calling/#tool-binding): LLM should read this page when building applications that require calling external tools or APIs, integrating language models with other systems, or leveraging structured data inputs/outputs. Summarizes the concept of tool calling, which allows language models to directly interact with systems by adhering to their input schemas. Covers creating tools, binding them to models, invoking tool calls, and executing tools.
+

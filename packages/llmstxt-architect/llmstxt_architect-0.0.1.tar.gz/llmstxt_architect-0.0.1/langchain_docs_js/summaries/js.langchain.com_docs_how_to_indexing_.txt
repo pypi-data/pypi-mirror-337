@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/indexing/): LLM should read this page when needing to keep a vector store in sync with underlying data sources, when incremental updates are made to the data, or when data is deleted from the source. Covers using the LangChain indexing API to reindex data into a vector store, handling deduplication, deletions, and incremental updates while avoiding unnecessary recomputation of embeddings.
+

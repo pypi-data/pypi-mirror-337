@@ -1,0 +1,2 @@
+[How-to guides](https://js.langchain.com/docs/how_to/): LLM should read this page when (it needs to understand how to use LangChain for specific tasks) (it needs guidance on building LLM applications with LangChain) (The page covers how-to guides for key LangChain features like prompt templates, chat models, document loaders, vectorstores, tools/agents, callbacks, and use cases like Q&A, extraction, chatbots, querying databases, and evaluation/tracing with LangSmith. It outlines how to accomplish specific goals with different components.)
+

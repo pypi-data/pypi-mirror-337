@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/extraction_parse/): LLM should read this page when [1) learning how to extract information without function calling, 2) exploring custom parsing approaches, 3) understanding structured output parsing] [The page explains how to use LLMs for information extraction without relying on function calling, covering both structured output parsing and custom parsing techniques with code examples.]
+

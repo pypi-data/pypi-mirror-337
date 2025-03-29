@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/sql_prompting/): LLM should read this page when needing to improve SQL query generation, needing to provide SQL-specific context to a model, or needing to dynamically select relevant examples. This page covers strategies like dialect-specific prompting, including table definitions and sample rows, using few-shot examples, and dynamically selecting relevant examples based on semantic similarity.
+

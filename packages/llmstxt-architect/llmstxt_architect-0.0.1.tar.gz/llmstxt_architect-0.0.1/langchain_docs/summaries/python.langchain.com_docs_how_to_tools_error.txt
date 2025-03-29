@@ -1,0 +1,2 @@
+[How to: handle tool errors](https://python.langchain.com/docs/how_to/tools_error): LLM should read this page when needing to handle errors that occur when tools are called by an LLM, when building fault tolerance into tool-calling chains, or when enabling self-correction for tool calling errors. The page covers strategies like try/except for tool calls, fallbacks to different models, retrying with exceptions passed to the LLM, and creating custom tool exceptions.
+

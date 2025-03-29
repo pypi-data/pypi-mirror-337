@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/few_shot_prompting/): LLM should read this page when it needs to understand few-shot prompting, determine how to generate and format examples, and decide how many examples to include. Covers how to generate examples, the number of examples to include, how to select examples, and how to format examples for few-shot prompting with chat models.
+

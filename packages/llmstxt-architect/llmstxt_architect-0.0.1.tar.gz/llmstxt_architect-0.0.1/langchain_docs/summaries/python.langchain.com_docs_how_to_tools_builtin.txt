@@ -1,0 +1,2 @@
+[How to: use built-in tools and toolkits](https://python.langchain.com/docs/how_to/tools_builtin): LLM should read this page when needing to use built-in LangChain tools or toolkits, needing to customize built-in LangChain tools. This page covers how to use LangChain's built-in tools and toolkits, including customizing tool names, descriptions, and argument schemas. It also explains how to use LangChain toolkits, which are collections of tools for specific tasks.
+

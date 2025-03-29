@@ -1,0 +1,2 @@
+[How to: summarize text in a single LLM call](https://python.langchain.com/docs/how_to/summarize_stuff): LLM should read this page when looking to summarize text, seeking a simple single-LLM summarization method, or exploring basic summarization chains in LangChain. This page outlines how to use LangChain's pre-built 'stuff' summarization chain, which stuffs text into a prompt for an LLM to summarize in a single call.
+

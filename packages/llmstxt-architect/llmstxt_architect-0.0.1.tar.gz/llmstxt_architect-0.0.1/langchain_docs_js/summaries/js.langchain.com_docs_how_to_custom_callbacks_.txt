@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/custom_callbacks/): LLM should read this page when needing to create custom callback handlers for LangChain, needing to handle specific events in the LangChain execution lifecycle This page explains how to create custom callback handlers in LangChain by defining functions to handle desired events, and attaching the handler object to relevant components.
+

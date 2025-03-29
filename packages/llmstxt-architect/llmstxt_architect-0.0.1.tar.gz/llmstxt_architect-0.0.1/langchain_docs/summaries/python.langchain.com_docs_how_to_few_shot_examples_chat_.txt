@@ -1,0 +1,2 @@
+[How to: use few shot examples in chat models](https://python.langchain.com/docs/how_to/few_shot_examples_chat/): LLM should read this page when: 1) wanting to provide a few-shot example to fine-tune a chat model's output, 2) needing to dynamically select examples from a larger set based on semantic similarity to the input This page covers how to provide few-shot examples to chat models using either fixed examples or dynamically selecting examples from a vectorstore based on semantic similarity to the input.
+

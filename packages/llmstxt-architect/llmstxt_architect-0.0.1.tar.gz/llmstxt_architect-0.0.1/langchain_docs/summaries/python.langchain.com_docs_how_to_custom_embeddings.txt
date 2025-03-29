@@ -1,0 +1,2 @@
+[How to: create a custom embeddings class](https://python.langchain.com/docs/how_to/custom_embeddings): LLM should read this page when needing to use a custom text embedding model, integrating a new text embedding provider, or contributing a new text embedding integration. The page covers implementing custom text embedding models for LangChain by following the Embeddings interface, providing examples, testing, and contributing guidelines.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/prompts_partial/): LLM should read this page when needing to partially format prompts with variables, needing to partially format prompts with functions that return strings This page explains how to partially format prompt templates by applying some but not all input variables, either with string values or functions that return string values.
+

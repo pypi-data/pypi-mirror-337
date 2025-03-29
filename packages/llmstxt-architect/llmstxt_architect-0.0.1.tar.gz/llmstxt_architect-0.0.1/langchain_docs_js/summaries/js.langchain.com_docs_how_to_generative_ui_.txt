@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/generative_ui/): LLM should read this page when developing generative UIs using LangChain, when creating interactive UI elements from LLM outputs, when using LangChain's built-in utilities for streaming React UI from tool calls This page provides guidance and code examples for building LLM-generated UIs using LangChain, including utilities to yield React elements inside runnables/tool calls, stream UI updates to client, and expose server actions as client hooks
+

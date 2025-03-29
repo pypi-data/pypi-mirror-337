@@ -1,0 +1,2 @@
+[#langchainlanggraph](https://js.langchain.com/docs/concepts/architecture/#langchainlanggraph): LLM should read this page when seeking an overview of LangChain's architecture, evaluating whether to use LangChain, or planning to contribute to LangChain. Outlines the different packages that make up the LangChain framework, including @langchain/core, langchain, integration packages, @langchain/community, @langchain/langgraph, and LangSmith, along with their respective roles and responsibilities.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/document_loaders/): LLM should read this page when needing to load data from various sources, needing to understand LangChain's document loader interface, or looking for integrations with specific data sources. Document loaders are designed to load data from different sources like files, web pages, databases, etc. The page covers the available integrations, the document loader interface, and related resources.
+

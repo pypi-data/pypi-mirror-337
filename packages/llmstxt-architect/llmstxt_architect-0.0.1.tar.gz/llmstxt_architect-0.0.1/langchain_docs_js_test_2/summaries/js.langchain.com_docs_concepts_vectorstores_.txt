@@ -1,0 +1,2 @@
+[Vector stores](https://js.langchain.com/docs/concepts/vectorstores/): LLM should read this page when (developing applications that require semantic search or retrieval over unstructured data, integrating vector stores into an application, understanding how vector stores work). (Overview of vector stores, how they index and retrieve data based on semantic representations. Details on LangChain's vectorstore interface and integration. Covers adding/deleting documents, similarity search, metadata filtering, and advanced techniques.)
+

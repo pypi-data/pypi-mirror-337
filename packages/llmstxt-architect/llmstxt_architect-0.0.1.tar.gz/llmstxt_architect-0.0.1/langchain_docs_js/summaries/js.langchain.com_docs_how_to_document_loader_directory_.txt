@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_directory/): LLM should read this page when needing to load multiple document types from a directory, needing to load documents efficiently from a directory, or wanting an example of how to do so. Explains how to use the DirectoryLoader class to load documents of different file types from a directory, including JSON, CSV, text, and JSON lines formats.
+

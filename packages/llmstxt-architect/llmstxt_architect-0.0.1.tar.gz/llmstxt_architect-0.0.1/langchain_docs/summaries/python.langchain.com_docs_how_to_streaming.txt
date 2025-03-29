@@ -1,0 +1,2 @@
+[How to: stream runnables](https://python.langchain.com/docs/how_to/streaming): Line 1: 'LLM should read this page when wanting to learn how to stream LLM responses, stream intermediate steps, and configure streaming events.' Line 2: 'This page covers how to use the `stream` and `astream` methods to stream final outputs, how to use `astream_events` to stream both final outputs and intermediate steps, filtering events, propagating callbacks for streaming, and working with input streams.'
+

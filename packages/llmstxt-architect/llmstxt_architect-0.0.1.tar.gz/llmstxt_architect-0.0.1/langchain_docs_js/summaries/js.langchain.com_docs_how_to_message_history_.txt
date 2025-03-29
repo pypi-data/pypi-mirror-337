@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/message_history/): LLM should read this page when building chatbots, working with conversational AI, or developing applications that require tracking conversation history. This page explains how to add message history to LangChain chains, enabling multi-turn conversations and persisting state across different conversational threads.
+

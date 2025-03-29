@@ -1,0 +1,2 @@
+[How to: convert Runnables to tools](https://python.langchain.com/docs/how_to/convert_runnable_to_tool): Line 1: 'LLM should read this page when needing to convert a Python function or Runnable into a LangChain tool, when building an agent that calls external tools, or when integrating a custom tool into a chat model' Line 2: 'Demonstrates how to use the Runnable.as_tool() method to convert a Runnable to a tool with a name, description, and arguments schema. Includes examples of agents calling tools created from Runnables.'
+

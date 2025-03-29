@@ -1,0 +1,2 @@
+[Memory](https://langchain-ai.github.io/langgraphjs/concepts/memory/): LLM should read this page when (building a conversational AI, working with memories in LLMs, learning about short-term and long-term memory in LLMs) (Explains concepts of short-term and long-term memory in AI, techniques for managing conversation history and summarizing conversations for short-term memory, and approaches for writing, managing, and representing long-term memories like profiles, collections, instructions, and few-shot examples)
+

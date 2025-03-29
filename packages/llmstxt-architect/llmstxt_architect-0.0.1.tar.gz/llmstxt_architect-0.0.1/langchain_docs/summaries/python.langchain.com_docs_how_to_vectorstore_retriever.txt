@@ -1,0 +1,2 @@
+[How to: use a vector store to retrieve data](https://python.langchain.com/docs/how_to/vectorstore_retriever): LLM should read this page when using vector stores for retrieval, implementing maximum marginal relevance retrieval, or specifying additional search parameters. This page explains how to create a retriever from a vector store, how to use maximum marginal relevance retrieval, and how to pass parameters like similarity score thresholds and top-k results.
+

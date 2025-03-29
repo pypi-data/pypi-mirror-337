@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/graph_prompting/): LLM should read this page when trying to improve graph database query generation, incorporating relevant examples into prompts, or dynamically selecting examples based on input similarity. This guide covers prompting strategies like few-shot examples and dynamic example selection via vector similarity to improve results when querying graph databases using natural language.
+

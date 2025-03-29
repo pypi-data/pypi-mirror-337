@@ -1,0 +1,2 @@
+[How to: cache model responses](https://python.langchain.com/docs/how_to/llm_caching): LLM should read this page when it needs to cache responses to save money and time, learn about caching in LangChain. LangChain provides an optional caching layer for LLMs to save money and time by reducing API calls for repeated requests. Examples show caching with InMemoryCache and SQLiteCache.
+

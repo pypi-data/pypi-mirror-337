@@ -1,0 +1,2 @@
+[LLMs](https://python.langchain.com/docs/concepts/text_llms): LLM should read this page when needing an overview of string-based language models, learning about legacy models in LangChain, or comparing string-based models to chat models. Covers LangChain's support for older language models that take strings as input and output, distinguishing them from newer chat models; advises using chat models where possible.
+

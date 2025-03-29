@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/sql_large_db/): LLM should read this page when dealing with SQL databases with many tables or high-cardinality columns, or needing to handle queries against large databases. Covers techniques for dynamically including relevant table schemas and feature values in prompts, like retrieving relevant tables using function-calling, grouping tables into categories, and creating vector stores of proper nouns to check spelling.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/trim_messages/): LLM should read this page when [needing to trim messages to fit within model context windows, working with long message histories, chaining trimming functionality] 'How to trim messages using various strategies, including getting last/first tokens, writing custom token counters, chaining trimming with other components, using with chat message histories.'
+

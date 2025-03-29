@@ -1,0 +1,2 @@
+[with_structured_output](https://python.langchain.com/docs/concepts/structured_outputs/#structured-output-method): LLM should read this page when [needing to return structured data like JSON or database rows, working with models that support structured output like tools or JSON modes, or integrating with helper functions to streamline structured output] [Overview of structured output concept, schema definition formats like JSON/dicts and Pydantic, model integration methods like tool calling and JSON modes, LangChain structured output helper method]
+

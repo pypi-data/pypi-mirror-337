@@ -1,0 +1,2 @@
+[structured outputs](https://js.langchain.com/docs/concepts/structured_outputs/): LLM should read this page when (needing structured output from a model, creating chatbots or other applications requiring specific output formats, integrating structured output into a larger application) (Overview of structured output in LLMs, defining output schemas, methods for returning structured output like tool calling and JSON mode, using LangChain's withStructuredOutput helper)
+

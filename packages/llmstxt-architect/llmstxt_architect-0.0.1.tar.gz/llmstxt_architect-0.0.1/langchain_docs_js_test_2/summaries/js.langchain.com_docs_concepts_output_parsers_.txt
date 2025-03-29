@@ -1,0 +1,2 @@
+[Output Parsers](https://js.langchain.com/docs/concepts/output_parsers/): LLM should read this page when (needing to parse output from an LLM into structured formats, needing to normalize output from chat models and LLMs, needing to get structured data from an LLM) (The page covers output parsers in LangChain, which are responsible for transforming LLM output into structured formats like JSON, XML, CSV, etc. It lists the different output parsers available and their capabilities.)
+

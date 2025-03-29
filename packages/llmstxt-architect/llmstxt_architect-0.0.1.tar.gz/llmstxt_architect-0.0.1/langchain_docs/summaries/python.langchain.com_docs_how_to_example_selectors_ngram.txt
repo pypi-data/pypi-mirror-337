@@ -1,0 +1,2 @@
+[How to: select examples by semantic ngram overlap](https://python.langchain.com/docs/how_to/example_selectors_ngram): LLM should read this page when selecting relevant examples to include in few-shot prompts, determining relevancy through n-gram overlap scores, and customizing example selection thresholds. Explains how to use the NGramOverlapExampleSelector to select and order examples based on n-gram overlap with the input text, including setting thresholds and dynamically adding examples.
+

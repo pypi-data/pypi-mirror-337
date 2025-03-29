@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/contextual_compression/): LLM should read this page when needing to retrieve relevant information from documents, when dealing with long documents that contain irrelevant content, when filtering for relevant content based on a query. This page explains how to use contextual compression to filter and shorten documents based on relevance to a given query, covering methods like LLMChainExtractor, EmbeddingsFilter, and combining document transformers.
+

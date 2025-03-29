@@ -1,0 +1,2 @@
+[Tool binding](https://python.langchain.com/docs/concepts/tool_calling#tool-binding): LLM should read this page when determining if tool calling functionality is appropriate for their application, understanding the key concepts and workflow of tool calling, and considering best practices for designing tools. This page covers an overview of tool calling, key concepts like tool creation/binding/calling/execution, recommended usage workflow, details on implementing each step, and best practices for designing effective tools.
+

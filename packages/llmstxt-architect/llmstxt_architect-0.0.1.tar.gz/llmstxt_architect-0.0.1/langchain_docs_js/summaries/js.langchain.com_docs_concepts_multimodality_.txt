@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/multimodality/): LLM should read this page when [working with multimodal data like text, audio, images or video], [building multimodal applications or components] Explains multimodality and how it can appear in various LangChain components like chat models, embedding models, and vector stores. Discusses current capabilities and limitations around multimodal inputs, outputs, and processing.
+

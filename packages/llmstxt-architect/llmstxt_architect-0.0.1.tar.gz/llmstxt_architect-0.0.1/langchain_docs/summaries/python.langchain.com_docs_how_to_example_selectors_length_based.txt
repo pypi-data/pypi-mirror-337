@@ -1,0 +1,2 @@
+[How to: select examples by length](https://python.langchain.com/docs/how_to/example_selectors_length_based): LLM should read this page when selecting examples for few-shot prompting, handling long examples that may exceed context window, and dynamically including the appropriate number of examples. This page explains how to use the LengthBasedExampleSelector to select examples based on their length, including fewer examples for longer inputs to avoid exceeding the context window.
+

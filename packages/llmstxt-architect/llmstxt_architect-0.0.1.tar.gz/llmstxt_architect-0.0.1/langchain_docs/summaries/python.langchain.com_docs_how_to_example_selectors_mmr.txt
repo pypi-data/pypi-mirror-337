@@ -1,0 +1,2 @@
+[How to: select examples by maximal marginal relevance](https://python.langchain.com/docs/how_to/example_selectors_mmr): LLM should read this page when needing to select few-shot examples optimizing for both similarity to inputs and diversity from each other, working with example-based prompting for fewshot learning. Demonstrates how to use the MaxMarginalRelevanceExampleSelector, which selects examples by maximizing relevance to inputs while also optimizing for diversity between selected examples, contrasting it with just selecting by similarity.
+

@@ -1,0 +1,2 @@
+[How to: manage large chat history](https://python.langchain.com/docs/how_to/trim_messages/): LLM should read this page when working with long chat histories, when concerned about token limits for chat models, when implementing token management strategies. This page explains how to use the trim_messages utility to reduce the size of a chat message history to fit within token limits, covering trimming by token count or message count, and allowing customization of trimming strategies.
+

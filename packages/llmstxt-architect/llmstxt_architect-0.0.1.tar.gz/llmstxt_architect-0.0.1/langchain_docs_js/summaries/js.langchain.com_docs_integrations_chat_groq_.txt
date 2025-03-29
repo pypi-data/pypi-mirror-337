@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/groq/): LLM should read this page when learning how to use the ChatGroq chat model in LangChain, when looking for details on ChatGroq's capabilities, or when needing instructions on setting up and using ChatGroq. This page provides an overview of the LangChain integration with the Groq ChatGPT-like language model, including setup instructions, code examples for instantiating and invoking the model, and details on ChatGroq's features like structured JSON output and token streaming.
+

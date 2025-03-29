@@ -1,0 +1,2 @@
+[Retrievers](https://js.langchain.com/docs/concepts/retrievers/): LLM should read this page when (needing to understand how to retrieve relevant documents from various sources) (seeking information on advanced retrieval patterns like ensembling and retaining source documents) (Overview of retrievers in LangChain) (Common types of retrievers including search APIs, databases, lexical search, and vector stores) (Advanced retrieval patterns like ensembling multiple retrievers and retaining source documents)
+

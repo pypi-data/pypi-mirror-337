@@ -1,0 +1,2 @@
+[How to: use output parsers to parse an LLM response into structured format](https://python.langchain.com/docs/how_to/output_parser_structured): LLM should read this page when [needing to parse LLM output into structured data, needing to stream partially parsed structured outputs, using LCEL with output parsers] 'Explains how to use output parsers like PydanticOutputParser to parse LLM text responses into structured formats like Python objects, and how to integrate them with prompts, models, and LCEL streaming.'
+

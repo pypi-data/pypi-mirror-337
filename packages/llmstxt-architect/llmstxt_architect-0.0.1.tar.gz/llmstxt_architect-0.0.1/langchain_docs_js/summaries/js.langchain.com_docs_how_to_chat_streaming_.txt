@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/chat_streaming/): LLM should read this page when needing to stream chat model responses, when needing to stream granular events from chains containing chat models, when needing examples of streaming chat model outputs This page explains how to stream chat model responses and events using the standard Runnable interface methods, provides code examples for several chat model providers, and covers key details around streaming granularity.
+

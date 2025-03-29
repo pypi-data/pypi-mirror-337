@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_markdown/): LLM should read this page when loading Markdown files for downstream processing, parsing Markdown elements like titles and lists, or retaining document structure during ingestion. Covers loading Markdown files into LangChain Document objects, including basic usage, parsing Markdown elements, and retaining structure when chunking by titles.
+

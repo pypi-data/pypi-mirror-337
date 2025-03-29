@@ -1,0 +1,2 @@
+[How to: select examples from LangSmith few-shot datasets](https://python.langchain.com/docs/how_to/example_selectors_langsmith/): LLM should read this page when [learning how to use LangSmith datasets for few-shot example selection, dynamically creating few-shot prompts from LangSmith data, integrating LangSmith with LangChain chains] [The page covers setting up LangSmith, querying LangSmith datasets for similar examples, and using those examples in a LangChain chain to create dynamic few-shot prompts for chat models.]
+

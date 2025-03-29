@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/streaming/): LLM should read this page when building applications that need to stream responses from LLMs, parsers, or other components, and when implementing responsive user interfaces for language model applications. The page covers how to use the .stream() and .streamEvents() methods to stream output from LLMs, chains, prompts, parsers, and other components in LangChain, including filtering events and working with non-streaming components.
+

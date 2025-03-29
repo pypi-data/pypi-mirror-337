@@ -1,0 +1,2 @@
+[Agents](https://python.langchain.com/docs/concepts/agents): LLM should read this page when building AI agents or systems that take high-level tasks and perform a series of actions to accomplish them, transitioning from the legacy AgentExecutor to the newer and more flexible LangGraph system. Provides an overview of agents in LangChain, the legacy AgentExecutor concept, resources for using AgentExecutor, and guidance on migrating to the preferred LangGraph architecture for building customizable agents.
+

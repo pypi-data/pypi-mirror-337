@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/output_parser_fixing/): LLM should read this page when trying to parse structured output from an LLM, handling errors when parsing structured output, attempting to fix formatting errors in output The page explains how to use the OutputFixingParser to attempt to fix formatting errors when parsing structured output from an LLM by calling another LLM to fix the formatting.
+

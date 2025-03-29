@@ -1,0 +1,2 @@
+[LangChain Expression Language (LCEL)](https://js.langchain.com/docs/concepts/lcel/): Line 1: LLM should read this page when (composing sequences of operations, executing operations in parallel, working with LangChain Expression Language) Line 2: (Explains LangChain Expression Language (LCEL) for declaratively building chains of Runnables, benefits of LCEL, composition primitives like RunnableSequence and RunnableParallel, composition syntax using pipe method)
+

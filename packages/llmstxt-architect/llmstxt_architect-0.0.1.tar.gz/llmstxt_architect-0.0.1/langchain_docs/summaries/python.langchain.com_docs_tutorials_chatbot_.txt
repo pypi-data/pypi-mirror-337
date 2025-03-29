@@ -1,0 +1,2 @@
+[this guide](https://python.langchain.com/docs/tutorials/chatbot/): LLM should read this page when building a chatbot application, incorporating conversational history, or using prompt templates. This page demonstrates how to build a chatbot with LangChain, including adding message persistence, prompt templates, conversation history management, and response streaming.
+

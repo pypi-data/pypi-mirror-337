@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_pdf/): LLM should read this page when needing to load PDF files into LangChain, handling PDF files with multiple pages, or using custom pdfjs builds. Covers how to load PDF documents, options for handling page splits, eliminating extra spaces, and using custom pdfjs builds.
+

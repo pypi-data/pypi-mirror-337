@@ -1,0 +1,2 @@
+[How to: split by character](https://python.langchain.com/docs/how_to/character_text_splitter): LLM should read this page when needing to split text by individual characters, needing to control chunk size by character count, needing to handle text with differing chunk sizes. Explains how to split text into chunks by character count, using the CharacterTextSplitter. Covers setting chunk size, overlap, and passing metadata.
+

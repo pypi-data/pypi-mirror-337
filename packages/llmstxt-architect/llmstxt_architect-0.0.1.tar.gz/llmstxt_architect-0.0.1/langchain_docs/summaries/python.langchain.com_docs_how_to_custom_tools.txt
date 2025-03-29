@@ -1,0 +1,2 @@
+[How to: define a custom tool](https://python.langchain.com/docs/how_to/custom_tools): LLM should read this page when creating custom tools for agents, converting functions or runnables to tools, or subclassing BaseTool. This page covers creating tools from functions using the @tool decorator or StructuredTool class, creating tools from Runnables, subclassing BaseTool for custom tools, creating async tools, handling tool errors, and returning artifacts from tool execution.
+

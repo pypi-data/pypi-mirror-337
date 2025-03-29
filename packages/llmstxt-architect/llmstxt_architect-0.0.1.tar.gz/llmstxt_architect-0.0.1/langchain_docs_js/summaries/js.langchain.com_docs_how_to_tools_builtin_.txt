@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tools_builtin/): LLM should read this page when learning about built-in LangChain tools, understanding how to use toolkits, and looking for guidance on working with custom tools. This page introduces the concept of LangChain tools, demonstrates how to use built-in tools and toolkits, and provides links to further information on creating custom tools and working with tool-related features.
+

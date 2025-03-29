@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/text_splitters/): LLM should read this page when developing applications involving long documents, retrieving relevant information, or summarizing text. Introduces text splitters, why text splitting is useful, and different approaches including length-based, text-structure based, document-structure based, and semantic meaning based splitting.
+

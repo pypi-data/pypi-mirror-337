@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/query_high_cardinality/): LLM should read this page when dealing with high cardinality categorical data, constructing queries involving categorical filters, or handling large vocabularies of values. This page covers techniques for handling categorical variables with many unique values, such as adding all values to the prompt, using vector store indexing to find relevant values, and combining these approaches.
+

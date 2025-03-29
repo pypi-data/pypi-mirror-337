@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/chatbots_retrieval/): LLM should read this page when building chatbots with retrieval functionality, understanding query transformation for better retrieval, adding context from external data sources to chatbot responses. The page covers creating retrievers to fetch relevant data from sources like documentation, constructing chains that use retrieved data as context for responses, transforming queries to improve retrieval, streaming responses from retrieval-augmented chatbot chains.
+

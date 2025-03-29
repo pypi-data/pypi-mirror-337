@@ -1,0 +1,2 @@
+[How to: route between sub-chains](https://python.langchain.com/docs/how_to/routing): LLM should read this page when: - It needs to conditionally route between sub-chains based on previous outputs - It needs to use semantic similarity to choose the most relevant prompt for a given query 'The page covers how to route between sub-chains in LangChain, including using custom functions, RunnableBranch, and semantic similarity for prompt routing. It provides code examples for each method.'
+

@@ -1,0 +1,2 @@
+[Managing chat history](https://python.langchain.com/docs/concepts/chat_history#managing-chat-history): LLM should read this page when understanding and managing chat history, learning about conversation patterns, following correct chat history structure. Explains chat history concept, provides guidelines for managing chat history, discusses conversation patterns involving users, assistants, and tools.
+

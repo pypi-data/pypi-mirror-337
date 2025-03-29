@@ -1,0 +1,2 @@
+[Tool binding](https://js.langchain.com/docs/concepts/tool_calling/#tool-binding): LLM should read this page when (needing to use tool calling functionality) (adding external tool capabilities to an LLM) (Overview of tool calling, creating tools, binding tools to models, models calling tools, executing tools. Key concepts and recommended usage.)
+

@@ -1,0 +1,2 @@
+[How to: configure runnable behavior at runtime](https://python.langchain.com/docs/how_to/configure): LLM should read this page when configuring chain internals at runtime, swapping models or prompts within a chain, or exploring different configurations of runnables. The page covers how to use .configurable_fields to configure parameters of a runnable at runtime, and .configurable_alternatives to swap out runnables with alternatives, including examples for chat models, prompts, and combinations thereof.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/tutorials/graph/): LLM should read this page when building a question answering system over graph databases, implementing a semantic layer over a graph database, adding graph querying capabilities to an application. This page provides guidance on creating a Q&A chain over a graph database like Neo4j, including setting up the database, retrieving schema information, and invoking a chain to generate natural language answers from graph queries.
+

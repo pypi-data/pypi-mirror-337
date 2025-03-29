@@ -1,0 +1,2 @@
+[Few-shot prompting](https://python.langchain.com/docs/concepts/few_shot_prompting): LLM should read this page when needing to improve model performance, when deciding how to format few-shot examples, when selecting examples for few-shot prompting The page covers generating examples, number of examples, selecting examples, and formatting examples for few-shot prompting with language models.
+

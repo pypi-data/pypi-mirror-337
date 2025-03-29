@@ -1,0 +1,2 @@
+[How to: generate metadata filters](https://python.langchain.com/docs/how_to/self_query): LLM should read this page when needing to perform retrieval on documents based on semantic similarity to the query text and metadata filters, integrating the retrieval into a question-answering pipeline. Covers creating a Self Query Retriever which can perform semantic text retrieval and structured metadata filtering in one step, using an underlying vector store and a query constructor LLM chain to parse natural language queries into structured representations.
+

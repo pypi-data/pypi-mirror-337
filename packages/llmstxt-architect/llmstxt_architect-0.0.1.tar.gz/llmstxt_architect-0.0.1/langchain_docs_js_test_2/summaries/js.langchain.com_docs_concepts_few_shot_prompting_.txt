@@ -1,0 +1,2 @@
+[Few-shot prompting](https://js.langchain.com/docs/concepts/few_shot_prompting/): Line 1: 'LLM should read this page when (1) using few-shot prompting, (2) wanting to improve model performance, (3) selecting and formatting examples for prompts' Line 2: '(Discusses techniques for few-shot prompting, including generating examples, determining number of examples, selecting relevant examples, and formatting examples in prompts)'
+

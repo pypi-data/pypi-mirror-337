@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/routing/): LLM should read this page when routing execution within a chain, conditionally returning runnables from a RunnableLambda, or using a RunnableBranch. Covers how to do routing in LangChain Expression Language, allowing non-deterministic chains where output of a previous step defines the next step, using custom functions or RunnableBranch with condition/runnable pairs.
+

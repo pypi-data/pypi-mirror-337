@@ -1,0 +1,2 @@
+[Embedding Models](https://python.langchain.com/docs/concepts/embedding_models): LLM should read this page when: 1) Working with text embeddings for search/retrieval 2) Comparing text similarity using embedding vectors 3) Selecting or integrating text embedding models It covers key concepts of embedding models: converting text to numerical vectors, measuring similarity between vectors, embedding models (historical context, interface, integrations), and common similarity metrics (cosine, Euclidean, dot product).
+

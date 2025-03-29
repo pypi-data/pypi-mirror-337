@@ -1,0 +1,2 @@
+[How to: add fallbacks to a runnable](https://python.langchain.com/docs/how_to/fallbacks): LLM should read this page when needing to add fallback options in case of errors, processing long inputs, or wanting to use a better model. This page explains how to configure fallback chains for LLM APIs in case of rate limiting or errors, for handling long input texts exceeding context windows, and for defaulting to better models when parsing fails.
+

@@ -1,0 +1,2 @@
+[Embedding models](https://python.langchain.com/docs/concepts/multimodality/#multimodality-in-embedding-models): LLM should read this page when needing to understand multimodal capabilities of LangChain components, wanting to work with non-text data like images/audio/video, or planning to incorporate multimodal data in chat interactions. Provides an overview of multimodality support in chat models (inputs and tools), embedding models, and vector stores; notes current limitations and expected future expansions to handle different data types.
+

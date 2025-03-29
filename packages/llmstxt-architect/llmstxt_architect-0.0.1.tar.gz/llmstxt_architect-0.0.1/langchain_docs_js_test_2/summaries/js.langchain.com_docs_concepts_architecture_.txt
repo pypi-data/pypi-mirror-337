@@ -1,0 +1,2 @@
+[Architecture](https://js.langchain.com/docs/concepts/architecture/): LLM should read this page when (needing an overview of LangChain's architecture, planning to integrate a new component, developing advanced LLM applications) (Overview of LangChain's key packages and their roles: core abstractions, application architecture, popular integrations, community integrations, advanced orchestration with LangGraph, developer tooling with LangSmith)
+

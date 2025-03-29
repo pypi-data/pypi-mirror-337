@@ -1,0 +1,2 @@
+[How to: cache model responses](https://python.langchain.com/docs/how_to/chat_model_caching): LLM should read this page when needing to cache ChatModel responses for efficiency, needing to reduce API calls for cost savings, or during development. This page covers how to use an in-memory cache or a SQLite database for caching ChatModel responses, which can improve performance and reduce costs.
+

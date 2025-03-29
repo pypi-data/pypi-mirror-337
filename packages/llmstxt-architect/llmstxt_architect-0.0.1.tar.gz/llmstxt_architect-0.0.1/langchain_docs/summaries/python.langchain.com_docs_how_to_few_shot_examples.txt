@@ -1,0 +1,2 @@
+[How to: use few shot examples](https://python.langchain.com/docs/how_to/few_shot_examples): LLM should read this page when creating few-shot prompts, using example selectors, providing examples to large language models This page explains how to use few-shot examples to provide context to language models, including creating formatters, constructing example sets, using example selectors like SemanticSimilarityExampleSelector, and creating FewShotPromptTemplates.
+

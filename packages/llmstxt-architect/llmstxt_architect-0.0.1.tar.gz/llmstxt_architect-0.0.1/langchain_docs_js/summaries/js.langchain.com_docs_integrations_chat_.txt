@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/): LLM should read this page when needing to integrate chat or conversational models, when building applications requiring multimodal support Covers integrations and usage details for various chat/conversational AI models from providers like OpenAI, Anthropic, Google, Microsoft, and more
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/ollama/): LLM should read this page when 1) using Ollama LLMs, 2) performing multimodal tasks, 3) working with structured outputs This page provides an overview of integrating LangChain with Ollama, an open-source platform for running large language models locally. It covers setup, instantiation, invoking the model, chaining, using tools, structured outputs, JSON mode, and multimodal capabilities.
+

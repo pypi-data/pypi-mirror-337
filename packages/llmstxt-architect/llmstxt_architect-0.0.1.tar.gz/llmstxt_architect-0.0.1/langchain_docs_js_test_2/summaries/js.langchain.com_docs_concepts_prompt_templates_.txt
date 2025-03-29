@@ -1,0 +1,2 @@
+[Prompt Templates](https://js.langchain.com/docs/concepts/prompt_templates/): LLM should read this page when (working with prompts for LLMs or chat models), (constructing prompt templates for different use cases). (Covers different types of prompt templates - string, chat, and using message placeholders. Explains formatting and invoking these templates.)
+

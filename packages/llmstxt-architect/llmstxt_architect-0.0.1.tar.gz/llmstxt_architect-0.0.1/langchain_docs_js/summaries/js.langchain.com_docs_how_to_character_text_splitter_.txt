@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/character_text_splitter/): LLM should read this page when needing to split text into chunks by character, wanting to control chunk size and overlap, or creating Document objects from text. Explains how to use CharacterTextSplitter to split text by character separator into chunks of specified character length, with options for chunk overlap and metadata propagation.
+

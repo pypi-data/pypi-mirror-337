@@ -1,0 +1,2 @@
+[LangGraph](https://langchain-ai.github.io/langgraph/): LLM should read this page when learning about LangGraph, considering using LangGraph for an AI application, or deciding between LangGraph and alternatives. Overview of LangGraph as an open-source framework for building AI agents, its key features like reliability and customizability, its ecosystem integration with other LangChain products, and additional learning resources.
+

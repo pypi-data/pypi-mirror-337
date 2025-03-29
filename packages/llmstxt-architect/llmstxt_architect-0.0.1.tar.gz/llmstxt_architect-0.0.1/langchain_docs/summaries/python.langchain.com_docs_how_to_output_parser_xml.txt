@@ -1,0 +1,2 @@
+[How to: parse XML output](https://python.langchain.com/docs/how_to/output_parser_xml): LLM should read this page when needing to parse XML output from a model, when outputting prompts with XML formatting instructions for models, when streaming partial XML results This page shows how to use the XMLOutputParser to parse model output in XML format, including adding XML formatting instructions to prompts and streaming partial XML output
+

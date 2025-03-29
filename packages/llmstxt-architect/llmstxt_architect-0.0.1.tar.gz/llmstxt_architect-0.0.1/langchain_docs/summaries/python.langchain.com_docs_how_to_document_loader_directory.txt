@@ -1,0 +1,2 @@
+[How to: load data from a directory](https://python.langchain.com/docs/how_to/document_loader_directory): LLM should read this page when loading documents from a file system, handling various file encodings, or using custom document loaders. Shows how to load files from directories using the DirectoryLoader, handle encoding errors, use multithreading, and customize the loader class.
+

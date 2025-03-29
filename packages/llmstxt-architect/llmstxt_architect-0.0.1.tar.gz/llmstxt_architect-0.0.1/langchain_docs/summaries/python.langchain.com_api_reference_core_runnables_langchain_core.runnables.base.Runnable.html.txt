@@ -1,0 +1,2 @@
+[Runnable](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.Runnable.html): LLM should read this page when 1) working with Runnables and composing chains, 2) needing to understand async/streaming capabilities of chains, 3) needing to inspect input/output schemas 'Covers Runnable class, async/batch/streaming methods, config/lifecycle listeners, composing chains, inspecting input/output schemas.'
+

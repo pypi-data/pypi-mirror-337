@@ -1,0 +1,2 @@
+[How to: select examples by semantic similarity](https://python.langchain.com/docs/how_to/example_selectors_similarity): LLM should read this page when selecting relevant examples for few-shot prompting, building example-based systems, finding relevant reference cases This page covers how to select examples by similarity to the input using embedding-based semantic search over a vector store.
+

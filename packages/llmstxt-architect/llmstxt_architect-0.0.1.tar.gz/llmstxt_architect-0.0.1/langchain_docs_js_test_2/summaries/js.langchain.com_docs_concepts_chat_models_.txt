@@ -1,0 +1,2 @@
+[Context window](https://js.langchain.com/docs/concepts/chat_models/#context-window): LLM should read this page when (they are developing applications that use chat models) (they need to understand how to integrate chat models with other LangChain features) (Provides an overview of chat models, their features, integrations, and interfaces. Covers tool calling, structured outputs, multimodality, context windows, caching, and related resources.)
+

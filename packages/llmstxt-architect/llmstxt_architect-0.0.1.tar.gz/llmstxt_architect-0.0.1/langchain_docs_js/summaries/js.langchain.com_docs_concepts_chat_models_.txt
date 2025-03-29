@@ -1,0 +1,2 @@
+[#standard-parameters](https://js.langchain.com/docs/concepts/chat_models/#standard-parameters): LLM should read this page when developing applications using chat models, integrating chat models with other systems, understanding the capabilities and limitations of chat models. Explains what chat models are, their features, integrations, interfaces, tool calling, structured outputs, multimodality, context windows, caching, and related concepts.
+

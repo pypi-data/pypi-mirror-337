@@ -1,0 +1,2 @@
+[Evaluation](https://python.langchain.com/docs/concepts/evaluation): LLM should read this page when evaluating the performance of LLM-powered applications, creating or curating datasets, defining metrics for evaluation This page covers the concept of evaluation in LangChain, including using LangSmith to create datasets, define metrics, track results over time, and run evaluations automatically.
+

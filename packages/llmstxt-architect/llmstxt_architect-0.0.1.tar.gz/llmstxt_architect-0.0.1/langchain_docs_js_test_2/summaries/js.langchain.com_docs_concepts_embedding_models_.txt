@@ -1,0 +1,2 @@
+[Embedding Models](https://js.langchain.com/docs/concepts/embedding_models/): Line 1: 'LLM should read this page when (1) learning about embedding models and their role in LangChain, (2) needing to understand how to measure text similarity, (3) seeking integrations for embedding models.' Line 2: '(Overview of embedding models, their purpose in transforming text into numerical representations, measuring similarity between embeddings, and available integrations in LangChain.)'
+

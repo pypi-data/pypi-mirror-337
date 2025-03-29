@@ -1,0 +1,2 @@
+[How to: do per-user retrieval](https://python.langchain.com/docs/how_to/qa_per_user/): LLM should read this page when needing to configure retrieval chains for per-user data access, wanting to limit document access for different users, or building retrieval applications with multi-tenant architectures. Explains how to configure retriever search kwargs to limit retrieved documents based on user, demonstrates code example using Pinecone namespace for multi-tenancy.
+

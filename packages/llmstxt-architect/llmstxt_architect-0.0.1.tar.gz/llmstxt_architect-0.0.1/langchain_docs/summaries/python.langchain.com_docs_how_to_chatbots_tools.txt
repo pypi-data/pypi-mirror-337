@@ -1,0 +1,2 @@
+[How to: use tools](https://python.langchain.com/docs/how_to/chatbots_tools): LLM should read this page when looking to integrate tools into chatbots, when using agents with tools, when incorporating web search into conversational agents. The page covers how to create a conversational agent using LangChain that can interact with APIs and web search tools, while maintaining chat history. It demonstrates setting up a ReAct agent with a Tavily search tool, invoking the agent, handling conversational responses with chat history, and adding memory.
+

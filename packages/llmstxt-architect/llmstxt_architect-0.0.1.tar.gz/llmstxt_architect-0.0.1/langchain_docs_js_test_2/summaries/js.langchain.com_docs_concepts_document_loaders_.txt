@@ -1,0 +1,2 @@
+[Document Loaders](https://js.langchain.com/docs/concepts/document_loaders/): LLM should read this page when (1) looking to load data from various sources into LangChain, (2) needing to understand the document loading interface, (3) needing examples of how to use document loaders. (This page provides an overview of document loaders in LangChain, which are designed to load document objects from various data sources like files, websites, databases, etc. It covers the interface, available integrations, and related resources.)
+

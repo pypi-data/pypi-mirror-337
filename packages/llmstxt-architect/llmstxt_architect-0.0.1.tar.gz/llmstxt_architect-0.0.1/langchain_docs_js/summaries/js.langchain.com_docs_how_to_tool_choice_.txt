@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_choice/): LLM should read this page when needing to force a certain tool choice for an LLM application, when using chat models with tools, or when needing a model to select and use a specific tool. This page covers how to force an LLM to select a specific tool for a task by using the 'tool_choice' parameter, including forcing it to use any tool, as well as code examples demonstrating the functionality.
+

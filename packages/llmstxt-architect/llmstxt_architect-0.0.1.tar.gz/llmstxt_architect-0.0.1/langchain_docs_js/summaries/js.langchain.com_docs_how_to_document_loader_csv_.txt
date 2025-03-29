@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_csv/): Line 1: 'LLM should read this page when loading CSV data, extracting specific columns from CSV data, or handling CSV input in general' Line 2: 'Provides code examples for loading CSV data with options to extract all columns or a single specified column. Covers setup, usage, and resulting Document objects.'
+

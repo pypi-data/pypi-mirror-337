@@ -1,0 +1,2 @@
+[How to: pass run time values to tools](https://python.langchain.com/docs/how_to/tool_runtime): LLM should read this page when it needs to pass runtime values to tools, when it needs to prevent an LLM from generating certain tool arguments, and when it needs to inject arguments directly at runtime. This page explains how to use the InjectedToolArg annotation to mark certain parameters of a Tool as being injected at runtime, preventing the LLM from generating those arguments. It also shows how to inject the arguments at runtime and create a tool-executing chain.
+

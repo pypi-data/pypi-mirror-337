@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/functions/): LLM should read this page when needing to run custom functions within LangChain, implementing custom streaming behavior, or coercing custom functions into runnables. Covers how to explicitly create runnables from custom functions using RunnableLambda, automatic coercion of functions into runnables in chains, passing run metadata to custom functions, and implementing streaming behavior with async generators.
+

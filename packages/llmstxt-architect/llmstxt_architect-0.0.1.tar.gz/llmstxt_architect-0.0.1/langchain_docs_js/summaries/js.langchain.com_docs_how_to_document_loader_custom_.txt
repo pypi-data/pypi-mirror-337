@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_custom/): LLM should read this page when implementing custom document loaders, extending base document loaders, or extending text/buffer loaders. Explains how to subclass BaseDocumentLoader, TextLoader, and BufferLoader to create custom document loaders for different data sources.
+

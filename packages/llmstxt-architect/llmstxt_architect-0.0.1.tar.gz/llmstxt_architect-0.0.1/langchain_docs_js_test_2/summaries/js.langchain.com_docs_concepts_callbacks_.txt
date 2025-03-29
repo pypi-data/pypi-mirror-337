@@ -1,0 +1,2 @@
+[Callbacks](https://js.langchain.com/docs/concepts/callbacks/): LLM should read this page when (needing to hook into various stages of an LLM application) (logging, monitoring, or streaming events) (Covers callback events, callback handlers, and how to pass callbacks into modules)
+

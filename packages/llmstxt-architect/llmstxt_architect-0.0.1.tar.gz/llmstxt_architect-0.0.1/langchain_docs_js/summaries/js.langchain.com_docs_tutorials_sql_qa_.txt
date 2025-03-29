@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/tutorials/sql_qa/): LLM should read this page when building a question/answering system over a SQL database, creating a SQL agent for question answering, handling high-cardinality columns in databases. Provides step-by-step guides and code examples for creating a Q&A system over SQL data using LangChain's chains and agents, with techniques like SQL query generation, error handling, and dealing with high-cardinality columns.
+

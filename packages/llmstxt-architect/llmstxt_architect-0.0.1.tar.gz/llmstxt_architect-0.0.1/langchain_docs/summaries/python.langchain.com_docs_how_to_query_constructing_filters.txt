@@ -1,0 +1,2 @@
+[How to: construct filters](https://python.langchain.com/docs/how_to/query_constructing_filters): LLM should read this page when constructing filters for query analysis, translating filters to specific retriever formats, using LangChain's structured query objects. This page covers how to construct filters as Pydantic models and translate them into retriever-specific filters using LangChain's translators for Chroma and Elasticsearch.
+

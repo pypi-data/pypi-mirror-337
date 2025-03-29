@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/extraction_long_text/): LLM should read this page when handling long text documents, considering different strategies for extracting information, and choosing the appropriate approach based on the trade-offs. This page discusses three main strategies to handle long text: using a larger context window LLM, chunking the text and extracting from each chunk (brute force), and retrieving only relevant chunks before extracting (RAG). It also covers common issues with each approach.
+

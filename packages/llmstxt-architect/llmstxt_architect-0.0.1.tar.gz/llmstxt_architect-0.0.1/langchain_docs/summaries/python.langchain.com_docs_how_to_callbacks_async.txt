@@ -1,0 +1,2 @@
+[How to: use callbacks in async environments](https://python.langchain.com/docs/how_to/callbacks_async): LLM should read this page when needing to use callbacks in async environments, handling sync callbacks in async methods, using AsyncCallbackHandler Covers using callbacks with async APIs, avoiding blocking with AsyncCallbackHandler, propagating callbacks in async runnables, example of sync and async callback handlers
+

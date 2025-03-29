@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/parallel/): LLM should read this page when [1) working with parallel processing, 2) formatting inputs/outputs between chained operations, 3) parallelizing prompts or retrievals] 'This page covers how to use RunnableParallel (RunnableMap) to invoke multiple operations in parallel, as well as how to format inputs/outputs between chained operations using RunnableParallel for manipulation.'
+

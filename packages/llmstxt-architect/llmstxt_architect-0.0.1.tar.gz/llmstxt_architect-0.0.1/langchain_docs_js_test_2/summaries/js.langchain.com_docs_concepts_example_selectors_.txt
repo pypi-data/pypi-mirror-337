@@ -1,0 +1,2 @@
+[Example Selectors](https://js.langchain.com/docs/concepts/example_selectors/): LLM should read this page when (using few-shot examples with chat models, dynamically selecting examples for prompts) (Overview of example selectors for dynamically selecting and formatting examples into prompts for few-shot prompting with language models)
+

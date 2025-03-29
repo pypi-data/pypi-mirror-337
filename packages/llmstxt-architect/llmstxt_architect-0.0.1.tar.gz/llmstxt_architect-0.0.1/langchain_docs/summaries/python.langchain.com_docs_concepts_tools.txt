@@ -1,0 +1,2 @@
+[Toolkits](https://python.langchain.com/docs/concepts/tools#toolkits): LLM should read this page when creating custom Python functions to use with LangChain, configuring existing tools, or adding tools to chat models. Explains the tool abstraction for encapsulating Python functions, creating tools with the `@tool` decorator, configuring schemas, handling tool artifacts, special type annotations, and using toolkits that group related tools.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_calling_parallel/): LLM should read this page when [learning how to disable parallel tool calling for OpenAI models, binding tools to OpenAI models, calling tools through OpenAI models] [This page explains how to disable parallel tool calling for OpenAI models, which by default call tools in parallel. It shows code examples for binding tools to OpenAI models and invoking tool calls, with the parallel_tool_calls parameter set to false to force sequential tool calling instead of parallel.]
+

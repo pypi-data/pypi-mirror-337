@@ -1,0 +1,2 @@
+[Introduction](https://langchain-ai.github.io/langgraphjs/): LLM should read this page when introducing LangGraph, understanding the LangGraph ecosystem, deploying agents with LangGraph Platform LangGraph is an open-source framework for building controllable AI agents; it integrates with LangChain and can be deployed with the LangGraph Platform; the page covers the ecosystem, deployment options, and additional resources.
+

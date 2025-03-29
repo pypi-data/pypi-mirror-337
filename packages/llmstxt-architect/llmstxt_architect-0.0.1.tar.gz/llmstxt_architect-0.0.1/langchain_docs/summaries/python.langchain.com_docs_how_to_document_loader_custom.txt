@@ -1,0 +1,2 @@
+[How to: write a custom document loader](https://python.langchain.com/docs/how_to/document_loader_custom): Line 1: 'LLM should read this page when creating a custom document loader, working with files, or using the GenericLoader abstraction' Line 2: 'This page explains how to create a custom document loader, work with files using BaseBlobParser and Blob, and use the GenericLoader to combine a BlobLoader with a BaseBlobParser.'
+

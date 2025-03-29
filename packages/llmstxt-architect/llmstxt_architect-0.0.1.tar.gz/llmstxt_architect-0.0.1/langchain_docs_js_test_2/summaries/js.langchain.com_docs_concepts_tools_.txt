@@ -1,0 +1,2 @@
+[Tools](https://js.langchain.com/docs/concepts/tools/): Line 1: 'LLM should read this page when (1) integrating external tools and APIs into an LLM application, (2) using chat models for tool calling, (3) understanding the concept of tools in LangChain' Line 2: '(An overview of LangChain tools, how to create custom tools using the tool function, configuring tool schemas, handling tool artifacts, and best practices for designing tools)'
+

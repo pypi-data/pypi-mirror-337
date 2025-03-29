@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/evaluation/): LLM should read this page when evaluating the performance of an LLM-powered application, tracking results over time, defining metrics for evaluation This page discusses the importance of evaluating LLM applications and how LangSmith can help with creating datasets, defining metrics, running evaluations, and tracking results over time.
+

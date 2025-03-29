@@ -1,0 +1,2 @@
+[input and output types](https://js.langchain.com/docs/concepts/runnables/#input-and-output-types): LLM should read this page when (1) working with Runnable components in LangChain, (2) creating custom Runnables, (3) composing Runnables using LCEL. (Page covers Runnable interface concepts like input/output types, batch/stream execution, RunnableConfig for passing metadata/callbacks/configs, creating custom Runnables from functions.)
+

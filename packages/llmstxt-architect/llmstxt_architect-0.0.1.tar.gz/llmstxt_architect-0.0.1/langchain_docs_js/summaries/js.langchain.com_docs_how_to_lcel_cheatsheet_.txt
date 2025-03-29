@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/lcel_cheatsheet/): LLM should read this page when it needs a quick reference for key LangChain Expression Language (LCEL) primitives, when building applications that use LCEL, or when looking for code examples for common LCEL operations. Cheatsheet covering invoking runnables, batching/streaming runnables, composing runnables, parallel execution, handling failures, configuring execution, dynamic chaining, event streaming, output manipulation, and visualizing runnable graphs.
+

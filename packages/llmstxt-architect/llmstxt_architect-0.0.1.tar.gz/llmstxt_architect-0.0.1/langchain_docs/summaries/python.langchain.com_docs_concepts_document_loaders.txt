@@ -1,0 +1,2 @@
+[Document Loaders](https://python.langchain.com/docs/concepts/document_loaders): LLM should read this page when needing to load data from various sources like files, webpages, or databases, or when handling large datasets with lazy loading. Document loaders help load data from different sources into a standardized Document object format, with options for lazy loading of large datasets.
+

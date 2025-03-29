@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/callbacks_runtime/): LLM should read this page when needing to pass callbacks into a module at runtime, when wanting to avoid manually attaching callbacks to each nested object, when needing examples of passing callbacks to LangChain modules. This page explains how to pass CallbackHandlers to LangChain modules at runtime using the 'callbacks' keyword argument, preventing the need to manually attach handlers to each nested object. It provides examples of using LangChain's built-in ConsoleCallbackHandler.
+

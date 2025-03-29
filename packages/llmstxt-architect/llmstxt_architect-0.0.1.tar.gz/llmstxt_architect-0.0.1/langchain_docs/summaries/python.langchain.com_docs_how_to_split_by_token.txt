@@ -1,0 +1,2 @@
+[How to: split by tokens](https://python.langchain.com/docs/how_to/split_by_token): LLM should read this page when: 1) Splitting long text into chunks while counting tokens 2) Handling non-English languages for text splitting 3) Comparing different tokenizers for text splitting 'The page covers how to split text into chunks based on token count using different tokenizers like tiktoken, spaCy, SentenceTransformers, NLTK, KoNLPY (for Korean), and Hugging Face tokenizers. It explains the approaches, usage, and API references for each tokenizer.'
+

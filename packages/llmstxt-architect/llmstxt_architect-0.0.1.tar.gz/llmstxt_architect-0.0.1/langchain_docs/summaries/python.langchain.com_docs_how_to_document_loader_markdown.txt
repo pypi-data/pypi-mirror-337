@@ -1,0 +1,2 @@
+[How to: load Markdown data](https://python.langchain.com/docs/how_to/document_loader_markdown): LLM should read this page when needing to load Markdown files, needing to retain Markdown elements, needing to parse Markdown into components This page covers how to load Markdown files into LangChain documents, including retaining elements like titles and lists, and parsing Markdown into components.
+

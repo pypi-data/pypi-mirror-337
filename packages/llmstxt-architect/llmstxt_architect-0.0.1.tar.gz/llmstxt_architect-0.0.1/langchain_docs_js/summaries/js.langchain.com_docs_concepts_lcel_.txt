@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/lcel/): LLM should read this page when explaining the LangChain Expression Language (LCEL), composing custom chains using LCEL, or migrating from legacy LangChain chains. The page covers the benefits of LCEL, how to decide whether to use LCEL or LangGraph, LCEL's composition primitives like RunnableSequence and RunnableParallel, the composition syntax with the pipe method, and a note on migrating from legacy chains.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/custom_llm/): LLM should read this page when building a custom LLM class, implementing custom LLM capabilities like streaming, and handling custom metadata. Shows how to create a custom LLM class by extending the LLM or BaseLLM class, implementing required methods like _call and _generate, and handling options like streaming and passing metadata.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/filter_messages/): LLM should read this page when needing to filter message lists, needing to filter by message type/id/name, needing to chain message filtering with other operations. Describes how to filter lists of messages (e.g. Human, AI, System) by including/excluding specific types, names, or IDs. Shows basic usage and chaining examples.
+

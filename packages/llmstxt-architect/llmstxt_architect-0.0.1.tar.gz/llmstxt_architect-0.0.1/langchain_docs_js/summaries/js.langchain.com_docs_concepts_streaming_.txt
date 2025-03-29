@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/streaming/): LLM should read this page when building applications with streaming data, integrating streaming into LLM workflows, or understanding LangChain's streaming capabilities. This page covers the importance of streaming for improving UX in LLM applications, what data to stream (LLM outputs, pipeline progress, custom data), LangChain's streaming APIs (stream, streamEvents), writing custom data to the stream, and auto-streaming chat models.
+

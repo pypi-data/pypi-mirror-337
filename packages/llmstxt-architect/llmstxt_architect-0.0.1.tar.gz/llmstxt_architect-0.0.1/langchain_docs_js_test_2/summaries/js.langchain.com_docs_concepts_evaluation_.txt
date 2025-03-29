@@ -1,0 +1,2 @@
+[Evaluation](https://js.langchain.com/docs/concepts/evaluation/): LLM should read this page when (evaluating the performance of an LLM application) (building reliable LLM applications) (understanding how LangSmith can help with evaluation) (The page covers the concept of evaluation for LLM applications, its importance, how LangSmith can help with creating datasets, defining metrics, tracking results over time, and running evaluations automatically or as part of CI/CD.)
+

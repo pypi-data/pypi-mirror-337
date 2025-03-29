@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/merge_message_runs/): LLM should read this page when it needs to merge consecutive messages of the same type, when it needs to chain the merging operation with other components, or when it needs a reference for the mergeMessageRuns() utility function. The page explains how to use the mergeMessageRuns() function to merge consecutive messages of the same type (e.g., multiple system messages, human messages, or AI messages). It covers basic usage, chaining with other components, and provides an API reference.
+

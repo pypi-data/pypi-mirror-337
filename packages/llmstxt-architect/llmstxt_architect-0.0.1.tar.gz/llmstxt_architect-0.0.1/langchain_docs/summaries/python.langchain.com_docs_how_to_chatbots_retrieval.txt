@@ -1,0 +1,2 @@
+[How to: do retrieval](https://python.langchain.com/docs/how_to/chatbots_retrieval): LLM should read this page when building a retrieval-augmented chatbot, adding conversational context to retrieval queries, or streaming responses from a chatbot. This page covers setting up a retriever over a document corpus, creating document chains and retrieval chains, transforming queries for better retrieval, and streaming responses from the retrieval chain.
+

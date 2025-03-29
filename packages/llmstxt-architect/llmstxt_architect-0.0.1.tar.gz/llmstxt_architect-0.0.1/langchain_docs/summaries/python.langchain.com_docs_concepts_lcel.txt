@@ -1,0 +1,2 @@
+[LCEL](https://python.langchain.com/docs/concepts/lcel): LLM should read this page when needing an overview of the LangChain Expression Language (LCEL), deciding whether to use LCEL or not, and understanding how to compose chains using LCEL primitives. Provides an overview of the LCEL, a declarative approach to building chains from existing Runnables, covering its benefits, composition primitives like RunnableSequence and RunnableParallel, the composition syntax, automatic type coercion, and guidance on when to use LCEL versus alternatives like LangGraph.
+

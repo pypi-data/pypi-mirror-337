@@ -1,0 +1,2 @@
+[How to: add message history (memory) to a chain](https://python.langchain.com/docs/how_to/message_history): LLM should read this page when building a chatbot or multi-turn application, wanting to persist conversational state, wanting to manage message history This page explains how to add message history and persist conversational state using LangGraph, covering examples with chat models and prompt templates, and managing the message history.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/multimodal_prompts/): LLM should read this page when using multimodal inputs like images in prompts, providing multimodal examples to models, or working with models that can process multimodal data. This page demonstrates how to pass images and other multimodal data to language models using prompt templates in LangChain, including handling single and multiple images.
+

@@ -1,0 +1,2 @@
+[How to: load HTML data](https://python.langchain.com/docs/how_to/document_loader_html): LLM should read this page when loading HTML documents, parsing HTML files with specialized tools, or extracting text from HTML. This page covers how to load HTML documents into LangChain Document objects using Unstructured and BeautifulSoup4, with code examples and API references provided.
+

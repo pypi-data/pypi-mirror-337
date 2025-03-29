@@ -1,0 +1,2 @@
+[Prompt Templates](https://python.langchain.com/docs/concepts/prompt_templates): LLM should read this page when creating prompts for language models, formatting chat messages, slotting messages into specific locations in a prompt. This page covers different types of prompt templates (string, chat, messages placeholder) for formatting prompts for language models and chat models.
+

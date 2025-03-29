@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/query_constructing_filters/): LLM should read this page when constructing filters for search queries, handling structured data queries, and interfacing with vector databases. Explains how to convert a structured query schema (e.g. Zod) into a format that can be used by LangChain retrievers, covering the use of query translators like ChromaTranslator.
+

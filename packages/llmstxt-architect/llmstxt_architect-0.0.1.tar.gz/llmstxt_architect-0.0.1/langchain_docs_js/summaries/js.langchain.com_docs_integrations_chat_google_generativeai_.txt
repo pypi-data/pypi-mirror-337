@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/google_generativeai/): LLM should read this page when [working with Google AI's Generative models, needing to set up and use the ChatGoogleGenerativeAI model, implementing features like tool calling or context caching] [Provides setup instructions, code examples, and documentation for using Google AI's chat models (like Gemini) through the ChatGoogleGenerativeAI class in LangChain's @langchain/google-genai integration, covering features such as tool calling, code execution, context caching, and safety settings.]
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tools_few_shot/): LLM should read this page when: 1) Using few-shot prompting with tool calling; 2) Demonstrating a new operation or concept to a tool; 3) Providing examples to guide tool calling behavior. This page explains how to provide few-shot examples in the form of simulated conversations to steer a chat model's tool calling behavior, with a specific example of teaching a "divide" operation represented by a custom symbol.
+

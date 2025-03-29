@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/llm_token_usage_tracking/): LLM should read this page when developing applications that use language models, tracking token usage, integrating with OpenAI or other providers that support token usage tracking. This page explains how to track token usage for language model calls, including a code example that uses callbacks to log the token usage for an OpenAI request.
+

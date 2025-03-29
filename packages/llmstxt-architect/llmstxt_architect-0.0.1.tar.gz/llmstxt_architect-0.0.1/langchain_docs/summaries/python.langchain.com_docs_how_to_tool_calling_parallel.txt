@@ -1,0 +1,2 @@
+[How to: disable parallel tool calling](https://python.langchain.com/docs/how_to/tool_calling_parallel): LLM should read this page when considering disabling parallel tool calling, when looking for examples on parallel vs. single tool calls, when trying to control the number of tool calls made. Explains how to disable parallel tool calling in LangChain so that only one tool is called at a time, providing code examples.
+

@@ -1,0 +1,2 @@
+[#vectorstores](https://js.langchain.com/docs/concepts/#vectorstores): LLM should read this page when building LLM applications, needing conceptual explanations, or wanting to understand LangChain's key components. Provides conceptual explanations of core LangChain components like chat models, message history, tools, memory, multimodality, retrieval, agents, prompts, and evaluation; defines key terminology.
+

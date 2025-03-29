@@ -1,0 +1,2 @@
+[StructuredTool](https://api.js.langchain.com/classes/_langchain_core.tools.StructuredTool.html/): LLM should read this page when (it needs to understand the StructuredTool class, or when creating or working with structured tools, or when integrating tools with Zod schemas). (This page covers the StructuredTool class, which is a base class for tools that accept input defined by a Zod schema. It includes properties like description, name, schema, and methods for invoking, streaming, and configuring the tool.)
+

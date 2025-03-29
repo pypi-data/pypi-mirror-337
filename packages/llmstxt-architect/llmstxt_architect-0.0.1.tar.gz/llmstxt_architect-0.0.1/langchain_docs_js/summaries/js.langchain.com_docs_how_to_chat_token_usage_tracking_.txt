@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/chat_token_usage_tracking/): LLM should read this page when tracking token usage for chat models, streaming chat responses, or using callbacks to get model output and token usage. This page explains how to access token usage information from chat model responses, how to get token usage during streaming, and how to use callbacks to retrieve full model output including token usage.
+

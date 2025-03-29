@@ -1,0 +1,2 @@
+[How to: track token usage](https://python.langchain.com/docs/how_to/llm_token_usage_tracking): LLM should read this page when tracking token usage for LLM calls, managing costs for an LLM application, or calculating costs based on token counts. The page covers how to track token usage using LangSmith, OpenAI callback handlers, and handling streaming contexts; it also summarizes limitations with legacy models for streaming.
+

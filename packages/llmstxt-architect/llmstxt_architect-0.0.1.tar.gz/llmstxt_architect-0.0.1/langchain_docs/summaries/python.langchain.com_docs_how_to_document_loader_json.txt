@@ -1,0 +1,2 @@
+[How to: load JSON data](https://python.langchain.com/docs/how_to/document_loader_json): LLM should read this page when loading JSON or JSON Lines data into LangChain Documents, or extracting metadata from JSON data. This page explains how to use the JSONLoader to convert JSON and JSONL data into LangChain Documents, including how to extract specific fields into the content and metadata, and provides examples for common JSON structures.
+

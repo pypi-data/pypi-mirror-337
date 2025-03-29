@@ -1,0 +1,2 @@
+[stream](https://js.langchain.com/docs/concepts/streaming/): LLM should read this page when (building streaming LLM applications), (integrating chat models in real-time applications), (displaying long-running task progress) (Page covers streaming outputs from LLMs, pipelines, and custom data sources. Provides APIs for streaming like stream() and streamEvents(). Discusses auto-streaming chat models.)
+

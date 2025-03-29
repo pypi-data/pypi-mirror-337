@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/assign/): LLM should read this page when needing to pass data between steps in a chain, needing to accumulate data across multiple parallel steps, or needing to stream intermediate results. This page explains how to use RunnablePassthrough.assign() to add values to a chain's state dictionary, which is useful for formatting data flowing through chains. It covers using assign() with parallel and streaming examples.
+

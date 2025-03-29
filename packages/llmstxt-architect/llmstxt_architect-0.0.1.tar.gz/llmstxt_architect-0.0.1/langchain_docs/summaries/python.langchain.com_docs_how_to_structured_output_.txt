@@ -1,0 +1,2 @@
+[How to: return structured data from a model](https://python.langchain.com/docs/how_to/structured_output/): LLM should read this page when: 1) wanting to return structured data from a model, 2) building applications that require structured outputs, 3) exploring techniques for parsing model outputs into objects or schemas. This page covers methods for obtaining structured outputs from language models, including using .with_structured_output(), prompting techniques with output parsers, and handling complex schemas with few-shot examples.
+

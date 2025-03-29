@@ -1,0 +1,2 @@
+[How to: combine the results from multiple retrievers](https://python.langchain.com/docs/how_to/ensemble_retriever): LLM should read this page when combining results from multiple retriever algorithms, leveraging different retrieval strengths, or using a hybrid search approach. The page explains how to use the EnsembleRetriever to combine results from sparse and dense retrievers, outlines basic usage, and demonstrates runtime configuration of individual retrievers.
+

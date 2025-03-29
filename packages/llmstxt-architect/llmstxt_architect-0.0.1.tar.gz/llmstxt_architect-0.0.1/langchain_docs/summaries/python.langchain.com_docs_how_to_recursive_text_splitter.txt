@@ -1,0 +1,2 @@
+[How to: recursively split text](https://python.langchain.com/docs/how_to/recursive_text_splitter): LLM should read this page when splitting long text into smaller chunks, processing text from languages without word boundaries like Chinese or Japanese, parsing documents for downstream tasks. Covers how to recursively split text by list of characters like newlines and spaces, and options to customize characters for different languages. Discusses chunk size, overlap, and creating LangChain Document objects.
+

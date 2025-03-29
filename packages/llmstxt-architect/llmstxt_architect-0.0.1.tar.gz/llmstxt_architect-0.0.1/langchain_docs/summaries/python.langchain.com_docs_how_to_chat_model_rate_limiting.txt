@@ -1,0 +1,2 @@
+[How to: handle rate limits](https://python.langchain.com/docs/how_to/chat_model_rate_limiting): LLM should read this page when handling rate limits from model providers, running many parallel queries to a model, benchmarking a chat model. The page explains how to initialize and use an in-memory rate limiter with chat models to limit the number of requests made per unit time.
+

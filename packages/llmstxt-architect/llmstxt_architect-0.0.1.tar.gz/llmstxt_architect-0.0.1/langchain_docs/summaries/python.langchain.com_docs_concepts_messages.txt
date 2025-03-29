@@ -1,0 +1,2 @@
+[ToolMessage](https://python.langchain.com/docs/concepts/messages#toolmessage): LLM should read this page when understanding the communication protocol with chat models, working with chat history management, or understanding LangChain's Message object structure. Messages are the unit of communication in chat models and represent input/output along with metadata; LangChain provides a unified Message format with types like SystemMessage, HumanMessage, AIMessage to handle different roles, content types, tool calls.
+

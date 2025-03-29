@@ -1,0 +1,2 @@
+[Conversation patterns](https://js.langchain.com/docs/concepts/chat_history/#conversation-patterns): LLM should read this page when (managing chat history in conversations with chat models) (configuring conversational agents for tool calling) (Explains chat history as a record of messages between user and assistant, and assistant and tools. Covers managing history length and conversation patterns/structures. Provides guidelines for preserving correct flow.)
+

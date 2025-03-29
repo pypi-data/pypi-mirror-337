@@ -1,0 +1,2 @@
+[HumanMessage](https://js.langchain.com/docs/concepts/messages/#humanmessage): Line 1: 'LLM should read this page when (managing chat histories, implementing chat interfaces, working with chat models)' Line 2: '(Overview of the structure and components of messages in chat models, including different message types, roles, content formats, and metadata)'
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/streaming_llm/): LLM should read this page when they need to stream responses token-by-token from an LLM, when they need to use a callback handler to process each token incrementally, or when they need to handle streaming differently based on whether the provider supports token-by-token streaming. This page explains how to use the .stream() method to get a readable stream of tokens from an LLM and how to use a CallbackHandler to handle streaming events like processing each new token.
+

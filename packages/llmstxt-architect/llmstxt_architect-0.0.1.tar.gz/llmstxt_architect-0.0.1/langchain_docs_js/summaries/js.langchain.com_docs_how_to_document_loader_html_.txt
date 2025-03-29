@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/document_loader_html/): LLM should read this page when loading HTML files to use as input data, when integrating web scraped HTML data, or when working with HTML documents in general. Provides steps to install and set up UnstructuredLoader for parsing HTML files, along with code examples for loading HTML into LangChain documents.
+

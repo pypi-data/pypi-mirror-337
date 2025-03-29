@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/openai/): LLM should read this page when integrating with OpenAI's language models, using OpenAI tools and models, or enabling specific features like structured output, tool calling, or audio input/output. Provides setup instructions, code examples, and guides for using OpenAI models in LangChain, covering key features like tool calling, structured output, built-in tools (web/file search), predicted outputs, audio input/output, and model-specific configurations.
+

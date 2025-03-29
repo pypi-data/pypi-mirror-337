@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/multimodal_inputs/): LLM should read this page when needing to pass multimodal data like images to a model, needing to pass multiple images to a model, or needing to vary how images are passed (as byte strings vs URLs). This page shows how to pass multimodal input like images directly to models like ChatAnthropic and ChatOpenAI, including techniques for passing single images, multiple images, images as byte strings vs URLs, and handling different model providers' expected input formats.
+

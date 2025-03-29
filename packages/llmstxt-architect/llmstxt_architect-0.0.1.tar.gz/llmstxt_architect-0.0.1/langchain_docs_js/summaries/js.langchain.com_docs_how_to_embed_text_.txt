@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/embed_text/): LLM should read this page when needing to embed text for semantic search, when wanting to convert text to vector representations, when learning how to use different embedding models. This page explains how to use LangChain's Embeddings class to embed queries and documents into vector representations, enabling techniques like semantic search.
+

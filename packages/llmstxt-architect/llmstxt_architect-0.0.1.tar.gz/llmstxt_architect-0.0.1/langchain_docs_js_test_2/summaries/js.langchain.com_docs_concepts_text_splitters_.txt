@@ -1,0 +1,2 @@
+[Text Splitters](https://js.langchain.com/docs/concepts/text_splitters/): LLM should read this page when (1) handling uneven document lengths, (2) working with models that have maximum input size constraints, (3) aiming to improve representation quality or retrieval precision. (Overview of different text splitting strategies: length-based, text structure-based, document structure-based, and semantic meaning-based. Covers the rationale, implementation, and use cases for each approach.)
+

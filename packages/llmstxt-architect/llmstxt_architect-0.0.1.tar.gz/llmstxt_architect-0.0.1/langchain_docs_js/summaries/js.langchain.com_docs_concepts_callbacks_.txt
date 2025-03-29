@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/callbacks/): LLM should read this page when building applications that require logging, monitoring, or streaming data generated during the application's execution The page explains how LangChain's callback system allows hooking into various stages of an application by subscribing to events triggered during execution, and provides details on available events, callback handlers, and how to pass callbacks to modules.
+

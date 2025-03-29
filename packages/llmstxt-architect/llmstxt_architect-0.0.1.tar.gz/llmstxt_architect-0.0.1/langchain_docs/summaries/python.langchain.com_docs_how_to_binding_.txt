@@ -1,0 +1,2 @@
+[How to: add default invocation args to runnables](https://python.langchain.com/docs/how_to/binding/): LLM should read this page when: 1) Wanting to invoke a Runnable with constant arguments not part of the preceding output or user input 2) Needing to bind provider-specific arguments like stop sequences or tools 'This page explains how to use the Runnable.bind() method to set default invocation arguments for a Runnable within a RunnableSequence. It covers binding stop sequences to language models and attaching OpenAI tools.'
+

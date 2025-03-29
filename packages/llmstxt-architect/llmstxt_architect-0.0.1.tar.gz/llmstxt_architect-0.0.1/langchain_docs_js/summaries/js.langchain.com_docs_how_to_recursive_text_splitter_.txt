@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/recursive_text_splitter/): LLM should read this page when needing to split long text into smaller chunks, when handling large documents for tasks like question answering, and when preprocessing text for embeddings or model input. The page covers how to use the RecursiveCharacterTextSplitter to recursively split text by specified characters or separators, with options to control chunk size and overlap. It shows examples of splitting raw text or Document objects.
+

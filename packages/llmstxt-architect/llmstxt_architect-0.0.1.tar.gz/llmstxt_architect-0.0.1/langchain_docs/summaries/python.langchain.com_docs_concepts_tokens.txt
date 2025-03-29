@@ -1,0 +1,2 @@
+[Tokens](https://python.langchain.com/docs/concepts/tokens): LLM should read this page when needing to understand tokens used by LLMs, when dealing with character/token counts, when working with multimodal inputs Tokens are the fundamental units processed by language models. A token can represent words, word parts, punctuation, and other units. Models tokenize inputs, process tokens sequentially, and generate new tokens as output. Tokens enable efficient and contextual language processing compared to characters.
+

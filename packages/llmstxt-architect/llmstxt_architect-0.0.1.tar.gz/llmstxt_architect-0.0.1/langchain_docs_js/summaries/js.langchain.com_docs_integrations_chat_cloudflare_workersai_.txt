@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/cloudflare_workersai/): LLM should read this page when integrating with Cloudflare Workers AI, using Cloudflare Workers AI for chat applications, or working with streaming chat models. This page provides instructions for setting up and using the ChatCloudflareWorkersAI integration, including obtaining credentials, installation, instantiation, invocation examples, and information on supported features like multimodal inputs and token-level streaming.
+

@@ -1,0 +1,2 @@
+[How to: track token usage](https://python.langchain.com/docs/how_to/chat_token_usage_tracking): LLM should read this page when tracking token usage for chat models, determining costs of using chat models, implementing token usage tracking in applications. Provides methods to track token usage from OpenAI and Anthropic chat models through AIMessage.usage_metadata, callbacks, and using LangSmith. Covers streaming token usage and aggregating usage across multiple calls.
+

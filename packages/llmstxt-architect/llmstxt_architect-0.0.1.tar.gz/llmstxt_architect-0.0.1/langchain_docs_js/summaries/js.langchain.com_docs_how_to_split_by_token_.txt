@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/split_by_token/): LLM should read this page when splitting long text into chunks, handling token limits, and using tokenizers compatible with LLMs. This page explains how to split text into chunks based on token count using the js-tiktoken tokenizer, which is tuned for OpenAI models, and provides code examples using the TokenTextSplitter class.
+

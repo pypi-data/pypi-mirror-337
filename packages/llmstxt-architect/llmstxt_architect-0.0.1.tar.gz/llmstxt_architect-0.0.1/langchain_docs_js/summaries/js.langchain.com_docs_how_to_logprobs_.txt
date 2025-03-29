@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/logprobs/): LLM should read this page when it needs to get token-level log probabilities for a generated response, it wants to get alternate potential generations at each step of a model's response, or it needs to understand how to access logprobs in LangChain. This page explains how to get token-level log probabilities representing the likelihood of each token in a response from OpenAI models in LangChain, including seeing top alternate tokens at each step. It covers setting parameters and accessing logprobs from responses.
+

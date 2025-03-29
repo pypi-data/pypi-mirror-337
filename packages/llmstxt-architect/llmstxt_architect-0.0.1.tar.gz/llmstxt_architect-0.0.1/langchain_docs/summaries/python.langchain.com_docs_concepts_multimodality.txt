@@ -1,0 +1,2 @@
+[Multimodality](https://python.langchain.com/docs/concepts/multimodality): LLM should read this page when needing to understand multimodal capabilities, using chat models with multimodal inputs, or using multimodal retrieval/embeddings. Discusses ability of LangChain components like chat models, embedding models, and vector stores to handle multimodal data like text, images, audio, video. Covers current status and limitations around multimodal inputs and outputs for chat models.
+

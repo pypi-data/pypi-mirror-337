@@ -1,0 +1,2 @@
+[How to: partially format prompt templates](https://python.langchain.com/docs/how_to/prompts_partial): LLM should read this page when needing to partially format prompt templates, wanting to pass partial strings to templates, or needing to pass functions returning strings to templates. Explains how to partially format prompt templates by passing in a subset of required values as strings or functions that return strings, to create a new template expecting only remaining values.
+

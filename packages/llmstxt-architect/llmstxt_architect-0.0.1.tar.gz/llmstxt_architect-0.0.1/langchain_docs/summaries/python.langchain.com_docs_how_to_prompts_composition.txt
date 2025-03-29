@@ -1,0 +1,2 @@
+[How to: compose prompts together](https://python.langchain.com/docs/how_to/prompts_composition): LLM should read this page when needing to compose prompts from various prompt components, working with chat prompts, or using the PipelinePromptTemplate class. This page explains how to concatenate different prompt templates together to build larger prompts, covering both string prompts and chat prompts, as well as using the PipelinePromptTemplate to reuse prompt components.
+

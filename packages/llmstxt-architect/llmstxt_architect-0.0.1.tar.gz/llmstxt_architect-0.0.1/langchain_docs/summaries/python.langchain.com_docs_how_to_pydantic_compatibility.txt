@@ -1,0 +1,2 @@
+[How to: use LangChain with different Pydantic versions](https://python.langchain.com/docs/how_to/pydantic_compatibility): LLM should read this page when needing to use LangChain with different Pydantic versions, needing to install Pydantic 2 with LangChain, or avoiding using the pydantic.v1 namespace with LangChain APIs. The page explains that LangChain 0.3 uses Pydantic 2 internally and advises users to install Pydantic 2 and avoid using the pydantic.v1 namespace with LangChain APIs.
+

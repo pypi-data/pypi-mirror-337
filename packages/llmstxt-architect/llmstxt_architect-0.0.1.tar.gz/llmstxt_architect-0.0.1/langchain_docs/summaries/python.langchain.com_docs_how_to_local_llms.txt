@@ -1,0 +1,2 @@
+[How to: work with local models](https://python.langchain.com/docs/how_to/local_llms): LLM should read this page when [running LLMs locally on a user's device, using open-source LLMs, utilizing custom prompts with LLMs] [Overview of open-source LLMs and frameworks for running inference locally, instructions for setting up and using local LLMs (Ollama, llama.cpp, GPT4All, llamafile), guidance on formatting prompts for specific LLMs, potential use cases for local LLMs.]
+

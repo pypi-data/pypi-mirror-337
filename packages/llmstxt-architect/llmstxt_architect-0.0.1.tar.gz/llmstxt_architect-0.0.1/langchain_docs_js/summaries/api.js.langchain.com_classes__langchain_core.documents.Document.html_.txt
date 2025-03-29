@@ -1,0 +1,2 @@
+[Document | LangChain.js](https://api.js.langchain.com/classes/_langchain_core.documents.Document.html/): LLM should read this page when needing to interact with documents in LangChain.js, needing to understand the Document class, or needing to work with document metadata. This page defines the Document class, which represents a document with page content, metadata, and an optional ID. It implements the DocumentInterface and DocumentInput interfaces.
+

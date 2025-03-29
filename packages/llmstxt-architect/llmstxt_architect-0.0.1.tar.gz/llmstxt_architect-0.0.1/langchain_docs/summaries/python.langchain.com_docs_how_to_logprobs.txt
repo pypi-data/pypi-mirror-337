@@ -1,0 +1,2 @@
+[How to: get log probabilities](https://python.langchain.com/docs/how_to/logprobs): Line 1: 'LLM should read this page when seeking to get token-level log probabilities from OpenAI chat models, when needing to understand how log probabilities are represented in LangChain' Line 2: 'Explains how to configure OpenAI chat models to return token log probabilities, and how these are included in the response metadata and streamed responses.'
+

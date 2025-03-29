@@ -1,0 +1,2 @@
+[How to: try to fix errors in output parsing](https://python.langchain.com/docs/how_to/output_parser_fixing): LLM should read this page when needing to handle improperly formatted outputs, attempting to fix formatting issues using an LLM, or parsing outputs that do not conform to a predefined schema. Explains how to use the OutputFixingParser, which wraps another parser and attempts to fix formatting errors by consulting an LLM when the original parser fails.
+

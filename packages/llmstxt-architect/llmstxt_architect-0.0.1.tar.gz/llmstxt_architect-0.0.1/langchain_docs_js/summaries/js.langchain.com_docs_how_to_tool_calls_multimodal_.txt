@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_calls_multimodal/): LLM should read this page when: 1) Using multimodal inputs like images or audio with language models 2) Calling tools from language models using multimodal data The page demonstrates how to pass multimodal data like images or audio to language models like OpenAI's GPT-4, Anthropic's Claude, and Google's Gemini, and how to call tools from these models using the multimodal inputs.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/installation/): LLM should read this page when configuring LangChain for various environments, installing LangChain packages, or troubleshooting installation issues. This page covers supported environments, installation instructions for LangChain and its ecosystem packages, guidance on avoiding multiple versions of core dependencies, and instructions for loading the library in different environments.
+

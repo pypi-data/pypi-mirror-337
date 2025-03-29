@@ -1,0 +1,2 @@
+[#toolkits](https://js.langchain.com/docs/concepts/tools/#toolkits): LLM should read this page when building applications that involve calling external tools/APIs, integrating with external systems or services, or using chat models to delegate tasks to external utilities. This page covers the 'Tool' abstraction in LangChain, which allows associating functions with schemas to enable chat models to invoke external capabilities. It explains key concepts, how to create custom tools, handle tool outputs/artifacts, and best practices.
+

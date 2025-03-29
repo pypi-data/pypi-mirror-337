@@ -1,0 +1,2 @@
+[Standard parameters for chat models](https://python.langchain.com/docs/concepts/chat_models#standard-parameters): LLM should read this page when building applications using chat models, working with chat models for tool calling, structured outputs or multimodal inputs/outputs. Covers overview of chat models, integrations, interfaces, tool calling, structured outputs, multimodality, context window, rate-limiting, and caching of chat models.
+

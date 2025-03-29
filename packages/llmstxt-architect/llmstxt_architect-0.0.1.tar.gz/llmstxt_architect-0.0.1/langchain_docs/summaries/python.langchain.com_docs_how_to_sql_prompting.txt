@@ -1,0 +1,2 @@
+[How to: use prompting to improve results](https://python.langchain.com/docs/how_to/sql_prompting): 'LLM should read this page when querying SQL databases with a language model, when doing few-shot prompting for SQL queries, and when selecting relevant few-shot examples dynamically.' 'This page covers how to improve SQL query generation prompts by incorporating database schema information, providing few-shot examples, and dynamically selecting the most relevant few-shot examples using semantic similarity.'
+

@@ -1,0 +1,60 @@
+{% set database_name_role = database_name_role_override or database_name %}
+{% set role_name = static_role_name_override or 'R_T_' ~ database_name_role ~ '_' ~ schema_name ~ '_OWNER' -%}
+{% if delete_role -%}
+DROP ROLE IF EXISTS {{ role_name }};
+{% elif create_role -%}
+CREATE ROLE IF NOT EXISTS {{ role_name }};
+{% elif grant_role -%}
+{% if not grants_only -%}
+GRANT ROLE {{ role_name }} TO ROLE SYSADMIN;
+GRANT ROLE {{ role_name }} TO ROLE R_T_{{ database_name }}_OWNER;
+{% endif -%}
+GRANT USAGE ON DATABASE {{ database_name }} TO ROLE {{ role_name }};
+GRANT OWNERSHIP ON SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+{% for object in [
+    'ALL TABLES',
+    'ALL VIEWS',
+    'ALL MATERIALIZED VIEWS',
+    'ALL PROCEDURES',
+    'ALL FUNCTIONS',
+    'ALL STAGES',
+    'ALL FILE FORMATS',
+    'ALL TASKS',
+    'ALL STREAMS',
+    'ALL SEQUENCES',
+    'ALL EXTERNAL TABLES',
+    'ALL DYNAMIC TABLES',
+    'FUTURE TABLES',
+    'FUTURE VIEWS',
+    'FUTURE MATERIALIZED VIEWS',
+    'FUTURE PROCEDURES',
+    'FUTURE FUNCTIONS',
+    'FUTURE STAGES',
+    'FUTURE FILE FORMATS',
+    'FUTURE TASKS',
+    'FUTURE STREAMS',
+    'FUTURE SEQUENCES',
+    'FUTURE EXTERNAL TABLES',
+    'FUTURE DYNAMIC TABLES'
+    ] -%}
+GRANT OWNERSHIP ON {{ object }} IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }} COPY CURRENT GRANTS;
+{% endfor -%}
+{% elif revoke_role -%}
+REVOKE USAGE ON DATABASE {{ database_name }} FROM ROLE {{ role_name }};
+{% for object in [
+    'FUTURE TABLES',
+    'FUTURE VIEWS',
+    'FUTURE MATERIALIZED VIEWS',
+    'FUTURE PROCEDURES',
+    'FUTURE FUNCTIONS',
+    'FUTURE STAGES',
+    'FUTURE FILE FORMATS',
+    'FUTURE TASKS',
+    'FUTURE STREAMS',
+    'FUTURE SEQUENCES',
+    'FUTURE EXTERNAL TABLES',
+    'FUTURE DYNAMIC TABLES'
+    ] %}
+REVOKE OWNERSHIP ON {{ object }} IN SCHEMA {{ database_name }}.{{ schema_name }} FROM ROLE {{ role_name }};
+{% endfor -%}
+{% endif -%}

@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: openmav
+Version: 0.0.2
+Summary: Model Activation Visualizer
+Home-page: https://github.com/attentionmech/mav
+Author: attentionmech
+Author-email: attentionmech@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: torch
+Requires-Dist: transformers
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

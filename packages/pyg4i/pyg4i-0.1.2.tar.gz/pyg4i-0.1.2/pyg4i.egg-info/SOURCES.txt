@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyg4i/__init__.py
+pyg4i/g4i.py
+pyg4i.egg-info/PKG-INFO
+pyg4i.egg-info/SOURCES.txt
+pyg4i.egg-info/dependency_links.txt
+pyg4i.egg-info/requires.txt
+pyg4i.egg-info/top_level.txt

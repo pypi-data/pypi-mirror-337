@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rbible/__init__.py
+rbible/rbible.py
+rbible.egg-info/PKG-INFO
+rbible.egg-info/SOURCES.txt
+rbible.egg-info/dependency_links.txt
+rbible.egg-info/entry_points.txt
+rbible.egg-info/requires.txt
+rbible.egg-info/top_level.txt
+tests/test_rbible.py

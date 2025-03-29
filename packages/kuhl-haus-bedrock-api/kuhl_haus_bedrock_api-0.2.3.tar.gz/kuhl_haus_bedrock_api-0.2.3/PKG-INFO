@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: kuhl-haus-bedrock-api
+Version: 0.2.3
+Summary: OpenAI-compatible REST API using AWS Bedrock as a backend
+Author-Email: Tom Pounders <git@oldschool.engineer>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Project-URL: Homepage, https://github.com/kuhl-haus
+Project-URL: Documentation, https://github.com/kuhl-haus/kuhl-haus-bedrock-api/wiki
+Project-URL: Source, https://github.com/kuhl-haus/kuhl-haus-bedrock-api.git
+Project-URL: Changelog, https://github.com/kuhl-haus/kuhl-haus-bedrock-api/commits
+Project-URL: Tracker, https://github.com/kuhl-haus/kuhl-haus-bedrock-api/issues
+Requires-Python: >=3.12
+Requires-Dist: kuhl-haus-bedrock-app~=0.2.3
+Requires-Dist: kuhl-haus-metrics~=0.2.2
+Requires-Dist: uvicorn~=0.34.0
+Requires-Dist: fastapi~=0.115.11
+Requires-Dist: mangum~=0.19.0
+Requires-Dist: boto3~=1.37.5
+Requires-Dist: botocore~=1.37.5
+Requires-Dist: pydantic~=2.10.6
+Requires-Dist: numpy~=2.2.3
+Requires-Dist: requests~=2.32.3
+Requires-Dist: tiktoken~=0.9.0
+Requires-Dist: importlib-metadata~=8.6.1
+Requires-Dist: wheel~=0.45.1
+Provides-Extra: testing
+Requires-Dist: setuptools~=76.1.0; extra == "testing"
+Requires-Dist: pdm-backend; extra == "testing"
+Requires-Dist: pytest~=8.3.5; extra == "testing"
+Requires-Dist: pytest-cov~=6.0.0; extra == "testing"
+Description-Content-Type: text/markdown
+
+# kuhl-haus-bedrock-api

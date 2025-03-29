@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: fastrlsa
+Version: 0.0.6
+Summary: Run Length Smoothing Algorithm
+License-File: LICENSE
+Requires-Dist: numpy
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "numpy"
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.pixi.project]
+name = "fastrlsa"
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+fastrlsa = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+numpy = "1.26.*"
+twine = ">=6.1.0,<7"

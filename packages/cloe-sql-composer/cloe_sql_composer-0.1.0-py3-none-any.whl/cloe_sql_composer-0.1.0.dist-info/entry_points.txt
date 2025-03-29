@@ -1,0 +1,3 @@
+[console_scripts]
+cloecompose=cloe_sql_composer.cli:main
+

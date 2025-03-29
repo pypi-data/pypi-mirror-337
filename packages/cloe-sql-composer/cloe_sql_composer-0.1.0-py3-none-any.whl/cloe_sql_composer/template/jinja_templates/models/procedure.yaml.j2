@@ -1,0 +1,39 @@
+system: {{ system|lower }}
+object_type: {{ object_type|lower }}
+
+{% if prefix is defined -%}
+prefix: {{ prefix }}
+{% endif -%}
+name: {{ target.name }}
+schema: {{ schema }}
+
+source:
+  name: {{ source.name }}
+  schema: {{ source.schema }}
+  {%- if source.prefix is defined %}
+  prefix: {{ source.prefix }}
+  {%- endif %}
+
+target:
+  name: {{ target.name }}
+  schema: {{ target.schema }}
+  {%- if target.prefix is defined %}
+  prefix: {{ target.prefix }}
+  {%- endif %}
+
+columns:
+  {%- for column in columns %}
+  - {{ column.name }}
+  {%- endfor -%}
+
+{%- for column in columns -%}
+{% if column.key -%}
+{% if loop.first %}
+
+bk:
+  - {{ column.name }}
+  {%- else %}
+  - {{ column.name }}
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}

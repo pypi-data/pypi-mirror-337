@@ -1,0 +1,26 @@
+SELECT
+    {%- for alias, name in columns.items() %}
+    {%- if loop.first %}
+    "{{ name|upper }}" AS {{ alias|upper }}
+    {%- elif alias|upper == "KEY" %}
+    ,IFF("{{ name.name }}" = '{{ name.truth_value }}', TRUE, FALSE) AS {{ alias|upper }}
+    {%- else %}
+    ,"{{ name|upper }}" AS {{ alias|upper }}
+    {%- endif %}
+    {%- endfor %}
+FROM "{{ database }}"."CORE"."TBL_DD03L"
+ORDER BY {% for alias, name in columns.items() -%}
+    {% if alias|upper == "TABLE_NAME" -%}
+    "{{ name|upper }}"
+    {%- endif %}
+    {%- endfor %}
+    {% if order_by is defined -%}
+    ,TO_NUMBER("{{ order_by }}")
+    {%- else -%}
+    {% for alias, name in columns.items() -%}
+    {% if alias|upper == "COLUMN_NAME" -%}
+    ,"{{ name|upper }}"
+    {%- endif %}
+    {%- endfor %}
+    {%- endif %}
+;

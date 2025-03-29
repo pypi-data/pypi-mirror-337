@@ -1,0 +1,52 @@
+CREATE OR REPLACE PROCEDURE "{{ schema|upper }}"."{{ prefix|upper }}_{{ target.name|upper }}_TRUNCATE_INSERT"()
+RETURNS VARCHAR
+LANGUAGE JAVASCRIPT
+EXECUTE AS OWNER
+AS
+$$
+    snowflake.execute({{ "{" }}sqlText: `BEGIN`{{ "}" }});
+
+    command = `TRUNCATE "{{ target.schema|upper }}"."{{ target.prefix|upper }}_{{ target.name|upper }}";`;
+    snowflake.execute({{ "{" }}sqlText: command{{ "}" }});
+
+    command = `
+        INSERT INTO "{{ target.schema|upper }}"."{{ target.prefix|upper }}_{{ target.name|upper }}" (
+             {%- if bk is defined %}
+             "BK"
+            {%- endif -%}
+            {% for name, alias in columns %}
+            {%- if not bk is defined and loop.first %}
+            "{{ alias|upper }}"
+            {%- else %}
+            ,"{{ alias|upper }}"
+            {%- endif %}
+            {%- endfor %}
+        )
+        SELECT {% if bk is defined -%}
+            CONCAT(
+                {%- for column in bk %}
+                {%- if loop.first -%}
+                "{{ column|upper }}"
+                {%- else -%}
+                , '-', "{{ column|upper }}"
+                {%- endif -%}
+                {%- endfor -%})
+            {%- endif -%}
+            {%- for name, alias in columns %}
+            {%- if not bk is defined and loop.first -%}
+            "{{ name|upper }}"
+            {%- else %}
+            ,"{{ name|upper }}"
+            {%- endif %}
+            {%- endfor %}
+        FROM "{{ source.schema|upper }}"."{{ source.prefix|upper }}_{{ source.name|upper }}"
+        ;`
+    ;
+
+    snowflake.execute({{ "{" }}sqlText: command{{ "}" }});
+
+    snowflake.execute({{ "{" }}sqlText: `COMMIT`{{ "}" }});
+
+    return "True";
+$$
+;

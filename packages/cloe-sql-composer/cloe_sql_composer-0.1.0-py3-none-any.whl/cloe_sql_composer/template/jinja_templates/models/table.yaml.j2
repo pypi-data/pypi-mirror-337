@@ -1,0 +1,26 @@
+system: {{ system|lower }}
+object_type: {{ object_type|lower }}
+
+{% if prefix is defined -%}
+prefix: {{ prefix }}
+{% endif -%}
+name: {{ name }}
+schema: {{ schema }}
+
+columns:
+  {%- for column in columns %}
+  - name: {{ column.name }}
+    {%- if column.datatype is string %}
+    datatype: {{ column.datatype }}
+    {%- else %}
+    datatype:
+      name: {{ column.datatype.name }}
+      precision: {{ column.datatype.precision }}
+      {%- if "scale" in column.datatype %}
+      scale: {{ column.datatype.scale }}
+      {%- endif %}
+    {%- endif %}
+    {%- if column.key %}
+    key: true
+    {%- endif %}
+  {%- endfor %}

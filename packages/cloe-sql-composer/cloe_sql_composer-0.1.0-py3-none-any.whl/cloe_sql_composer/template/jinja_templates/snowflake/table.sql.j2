@@ -1,0 +1,38 @@
+CREATE OR REPLACE TABLE "{{ schema|upper }}"."{{ prefix|upper }}_{{ table_name|upper }}" (
+     "ID" NUMBER(38,0) AUTOINCREMENT(1,1)
+    ,"BK" VARCHAR(16777216) NOT NULL DEFAULT '#'
+    {% for column in columns -%}
+    {% if column.datatype.dtype == "VARCHAR" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}({{ column.datatype.length }})
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT '{{ column.default }}'{% endif %}
+    {% elif column.datatype.dtype == "NUMBER" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}({{ column.datatype.precision }},{{ column.datatype.scale }})
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT {{ column.default }}{% endif %}
+    {% elif column.datatype.dtype == "FLOAT" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT {{ column.default }}{% endif %}
+    {% elif column.datatype.dtype == "BOOLEAN" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT {{ column.default|string|upper }}{% endif %}
+    {% elif column.datatype.dtype == "DATE" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT TO_DATE('{{ column.default }}'){% endif %}
+    {% elif column.datatype.dtype == "TIME" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}({{ column.datatype.precision }})
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT TO_TIME('{{ column.default }}'){% endif %}
+    {% elif column.datatype.dtype == "TIMESTAMP_NTZ" -%}
+    ,"{{ column.name|upper }}" {{ column.datatype.dtype }}({{ column.datatype.precision }})
+    {%- if not column.nullable %} NOT NULL{% endif %}
+    {%- if not column.default is none %} DEFAULT TO_TIMESTAMP('{{ column.default }}'){% endif %}
+    {% endif -%}
+    {% endfor -%}
+    ,"_DCR" TIMESTAMP_NTZ(9) NOT NULL DEFAULT CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ(9))
+    ,"_DMR" TIMESTAMP_NTZ(9) NOT NULL DEFAULT CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ(9))
+)
+;

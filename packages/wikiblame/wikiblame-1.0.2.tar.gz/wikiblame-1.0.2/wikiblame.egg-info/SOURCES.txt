@@ -1,0 +1,10 @@
+license.md
+pyproject.toml
+readme.md
+wikiblame.py
+wikiblame.egg-info/PKG-INFO
+wikiblame.egg-info/SOURCES.txt
+wikiblame.egg-info/dependency_links.txt
+wikiblame.egg-info/entry_points.txt
+wikiblame.egg-info/requires.txt
+wikiblame.egg-info/top_level.txt

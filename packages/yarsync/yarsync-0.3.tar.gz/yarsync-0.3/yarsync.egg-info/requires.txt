@@ -1,0 +1,5 @@
+
+[documentation]
+furo
+myst-parser
+sphinx

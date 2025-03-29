@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+aws_utils/__init__.py
+aws_utils/awsutils.py
+aws_utils_23408189.egg-info/PKG-INFO
+aws_utils_23408189.egg-info/SOURCES.txt
+aws_utils_23408189.egg-info/dependency_links.txt
+aws_utils_23408189.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+HRegex/__init__.py
+HRegex/__version__.py
+HRegex.egg-info/PKG-INFO
+HRegex.egg-info/SOURCES.txt
+HRegex.egg-info/dependency_links.txt
+HRegex.egg-info/top_level.txt
+tests/test.py

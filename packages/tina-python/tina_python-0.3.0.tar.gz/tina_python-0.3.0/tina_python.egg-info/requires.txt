@@ -1,0 +1,13 @@
+httpx
+diskcache
+faiss-cpu
+Jinja2
+lxml
+MarkupSafe
+numpy
+packaging
+PyPDF2
+python-docx
+setuptools
+typing_extensions
+wheel

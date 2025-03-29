@@ -1,0 +1,2 @@
+[console_scripts]
+gimmie = gimmie.main:main

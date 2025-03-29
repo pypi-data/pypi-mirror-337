@@ -1,0 +1,10 @@
+core_ftp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_ftp/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_ftp/clients/sftp.py,sha256=czZFcBXbffUhdc86SK2aG7pbCqwTPS8QYVFP-X3jheU,6024
+core_ftp/etls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core_ftp/etls/file_based.py,sha256=_3qn4Fx54dxGJVnb33AEuv2WRi5BJv-CbhM6DrmJmPY,3425
+core_ftp-1.1.1.dist-info/licenses/LICENSE,sha256=dj8Wz7OWOIOTyLJzaYLn8RFz_W5uYWSGR2xS5lHNAl4,1082
+core_ftp-1.1.1.dist-info/METADATA,sha256=EWEAFoSE0MmvzMR2pMX0QzGLcUVugKfpOhoL36bYWE4,3659
+core_ftp-1.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+core_ftp-1.1.1.dist-info/top_level.txt,sha256=RqAP7pOh-E9GoyIHVspY25FzTwb4qFId1oBgQlXj6Do,9
+core_ftp-1.1.1.dist-info/RECORD,,

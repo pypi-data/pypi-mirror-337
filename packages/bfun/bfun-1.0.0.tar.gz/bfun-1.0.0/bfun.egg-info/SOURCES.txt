@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+bfan.py
+pyproject.toml
+bfun.egg-info/PKG-INFO
+bfun.egg-info/SOURCES.txt
+bfun.egg-info/dependency_links.txt
+bfun.egg-info/entry_points.txt
+bfun.egg-info/requires.txt
+bfun.egg-info/top_level.txt

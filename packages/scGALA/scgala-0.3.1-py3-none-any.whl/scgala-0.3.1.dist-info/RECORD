@@ -1,0 +1,10 @@
+scGALA/__init__.py,sha256=ftnuhypB8EWW-Rzpkffby4o9QYXlvzesYKPJSL-H1Jk,163
+scGALA/data.py,sha256=Dy0imidnN4DRoK4AjeNxEswBvYJhZLBHzQK_B-kJLV0,8272
+scGALA/main.py,sha256=Y_e25DtjcGp1YOiOfjXMhzXGoI1teAmzr9USNZxnvGs,17236
+scGALA/model.py,sha256=xUd5eseP17FGSGLM4bczcNrCzUAWCQgwySd_DVhoy1Y,30853
+scGALA/utils.py,sha256=bWuKdDt5aiHnGJSq68UyC0YyWqZAs-59vF4IfNEwBeY,25919
+scgala-0.3.1.dist-info/LICENSE,sha256=kQEomH4RAg3837VONclUmXcd6DxXkSiaRz4-zSbsLVw,1072
+scgala-0.3.1.dist-info/METADATA,sha256=AgXJfjzOWxy-hMZ1WSoi2f5JGOeLpkKAjPWIiEpdF3I,744
+scgala-0.3.1.dist-info/WHEEL,sha256=jB7zZ3N9hIM9adW7qlTAyycLYW9npaWKLRzaoVcLKcM,91
+scgala-0.3.1.dist-info/top_level.txt,sha256=VuK2vJ_J94N2pF3zVL1C6pQgCbTdM5B7MLozuLbs4AM,7
+scgala-0.3.1.dist-info/RECORD,,

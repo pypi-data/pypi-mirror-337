@@ -1,0 +1,15 @@
+image_recognition_server/__init__.py,sha256=XB1hF58uLmFMPtOSwjMhaDTRNKRHR4W55gvm7F8nYeY,102
+image_recognition_server/server.py,sha256=PF4TdggSjK891WTpv8MrRtiXtrsi5Oq0HMaR6E6RXzE,8807
+image_recognition_server/utils/__init__.py,sha256=zjLYj08BOzHLvaoYbgPQpGa6SIlpWTnl157cOZTfpBg,174
+image_recognition_server/utils/image.py,sha256=gDug5rvIAydLf7CAahqXS3ffLSY0JWz6yWoHHri3-s0,7102
+image_recognition_server/utils/ocr.py,sha256=ZQEZBmKAAM5X8DCUaAxddb463VKcfkARWenWwFogIpA,2026
+image_recognition_server/vision/__init__.py,sha256=_3NVb7ObeZ8MhTliub6I-yJor9bwpAPTWjXh9I35dL4,240
+image_recognition_server/vision/anthropic.py,sha256=xfZlnO8kdm7olronCLBWTX_aReV5-1HazjtB_zppg2Q,3085
+image_recognition_server/vision/cloudflare.py,sha256=OYGsi1jzIRMW4kMYMkSnRnxr_OUhjBS1BSOnFnKvbl8,3926
+image_recognition_server/vision/openai.py,sha256=bzAtuiaGD88ezJ1sH_fzKN7P5qIwJGLqAe6vpPdD8JE,3459
+mcp_image_recognition-1.2.2.dist-info/licenses/LICENSE,sha256=xEJYkZyzmQ-ktqVfg08Y3pvtlPK2LLvHhJwq8Vp5aTU,1073
+mcp_image_recognition-1.2.2.dist-info/METADATA,sha256=5tuI_QwLnXiSU50RwaRwoAOwejquuzsRla4y8B71Qik,15825
+mcp_image_recognition-1.2.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_image_recognition-1.2.2.dist-info/entry_points.txt,sha256=iJ2wHJ2s2HInwg3rWEzuGNLWCORlPKEV0C-QWhWqCj8,79
+mcp_image_recognition-1.2.2.dist-info/top_level.txt,sha256=7msOiRMoU6lN7oSoro_lYx2KqDChbew08T_DgM8F-8I,25
+mcp_image_recognition-1.2.2.dist-info/RECORD,,

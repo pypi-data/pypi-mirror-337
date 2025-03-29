@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xmemory/__init__.py
+xmemory/attribute.py
+xmemory.egg-info/PKG-INFO
+xmemory.egg-info/SOURCES.txt
+xmemory.egg-info/dependency_links.txt
+xmemory.egg-info/top_level.txt
+xmemory.egg-info/zip-safe

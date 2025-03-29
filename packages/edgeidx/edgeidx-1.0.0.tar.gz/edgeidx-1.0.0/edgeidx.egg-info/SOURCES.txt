@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+edgeidx/__init__.py
+edgeidx/ocr.py
+edgeidx/utils.py
+edgeidx.egg-info/PKG-INFO
+edgeidx.egg-info/SOURCES.txt
+edgeidx.egg-info/dependency_links.txt
+edgeidx.egg-info/requires.txt
+edgeidx.egg-info/top_level.txt

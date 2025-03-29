@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: edgeidx
+Version: 1.0.0
+Summary: EdgeIDX is an python library for Optical Character Recognition (OCR) project that aims to address the limitations of existing OCR systems by focusing on accuracy, speed, and lightweight deployment. The project is designed specifically for extracting information from government-issued identity documents such as Aadhaar and PAN cards.
+Author: Nawaz Sayyad , Kunal Chandak , Mayuresh Muluk , Harshal Pathare
+Author-email: kmcwankhed2021@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytesseract
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# edgeIDX
+
+## Overview
+edgeIDX is a Python package for extracting Aadhaar card details (Name, DOB, Gender, and Aadhaar Number) from images using Tesseract OCR. Unlike traditional setups, this package embeds a trained Tesseract model within itself, eliminating the need for a separate `tesseract.exe` installation.
+
+## Features
+- Extracts Aadhaar card details using OCR.
+- Uses an embedded Tesseract model, requiring no external dependencies.
+- Supports image preprocessing to improve OCR accuracy.
+- Works across different platforms without requiring external Tesseract installation.
+- Can be integrated with Android applications for automated Aadhaar data extraction.
+
+## System Requirements
+- Python 3.7+
+- OpenCV for image processing
+- NumPy for handling image arrays
+- Pytesseract for OCR
+
+## Installation
+
+### 1. Install via pip (After Publishing on PyPI)
+```sh
+pip install edgeidx
+
+

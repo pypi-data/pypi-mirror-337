@@ -1,0 +1,3 @@
+[console_scripts]
+cloe-sql-transformations=cloe_sql_transformations.main:app
+

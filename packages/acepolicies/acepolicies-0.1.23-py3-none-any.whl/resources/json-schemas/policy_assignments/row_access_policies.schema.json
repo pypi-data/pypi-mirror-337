@@ -1,0 +1,20 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Row Access Policies",
+    "description": "",
+    "type": "object",
+    "uniqueItems": true,
+    "additionalProperties": false,
+    "properties": {
+        "annotations": {
+            "type": "object"
+        },
+        "tables": {
+            "type": "object"
+        },
+        "views": {
+            "type": "object"
+        }
+    }
+}

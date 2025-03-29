@@ -1,0 +1,2 @@
+[console_scripts]
+mike = mike.__init__:main

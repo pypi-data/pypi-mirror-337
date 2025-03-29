@@ -1,0 +1,5 @@
+[console_scripts]
+mydotenv = mike.__init__:main
+
+[mydotenv.commands]
+set_command = mike.config:set_command_name

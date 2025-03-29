@@ -1,0 +1,2 @@
+[console_scripts]
+filgood = filgood:__main__.boot

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+upyboard/__init__.py
+upyboard/upy.py
+upyboard.egg-info/PKG-INFO
+upyboard.egg-info/SOURCES.txt
+upyboard.egg-info/dependency_links.txt
+upyboard.egg-info/entry_points.txt
+upyboard.egg-info/not-zip-safe
+upyboard.egg-info/requires.txt
+upyboard.egg-info/top_level.txt

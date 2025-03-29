@@ -1,0 +1,9 @@
+README.md
+setup.py
+micalculadora/__init__.py
+micalculadora/calculadora.py
+micalculadora/operaciones.py
+micalculadora_Thelaw.egg-info/PKG-INFO
+micalculadora_Thelaw.egg-info/SOURCES.txt
+micalculadora_Thelaw.egg-info/dependency_links.txt
+micalculadora_Thelaw.egg-info/top_level.txt

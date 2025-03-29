@@ -1,0 +1,11 @@
+imodmodel/__init__.py,sha256=IKbZoUM0NzVxEJgWT65ZiMo50Mbq6aG0E5N5TFJHJlY,91
+imodmodel/binary_specification.py,sha256=3cOc-GOs0b2ud3HueNc0wZ0Za5kjW-SGeTlM3vhwcZE,2830
+imodmodel/dataframe.py,sha256=idaPDncDm203c5XClog1OdQs9Wg67439Y76W-XS5n20,2146
+imodmodel/functions.py,sha256=4Z6XYcEPwCzfP8MVJ83rHtnyfQYk1URpNE9zU_5Na2w,509
+imodmodel/models.py,sha256=UQpIORpdcCHLxRDQ1KFX9YlCnaPFThfbYrigTUbtBS0,7360
+imodmodel/parsers.py,sha256=x3Qii-1V-IuYk0TmjdupRR5YbQNRQLSwe0HfonC71AY,7347
+imodmodel/writers.py,sha256=i-GDs3HLbGwea862HjAxdlD7gU5AS-WBFEYn6fWCb1M,5034
+imodmodel-0.0.16.dist-info/METADATA,sha256=C0_kItTdi7sYreUP3PsbEawyf7gGHbNPhVM0glMOVrY,3220
+imodmodel-0.0.16.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+imodmodel-0.0.16.dist-info/licenses/LICENSE,sha256=tEUp1hBehHov1EqUVPm09_TlyKymwNcSBBwvu2ZPPMs,1513
+imodmodel-0.0.16.dist-info/RECORD,,

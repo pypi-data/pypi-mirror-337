@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: testrail_api_module
+Version: 0.1.1
+Summary: A simple wrapper for the TestRail API
+Author: Christian Thompson
+Author-email: Matt Troutman <github@trtmn.com>
+Project-URL: Homepage, https://github.com/trtmn/testrail_api_module
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: license-file

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: lion-fields
+Version: 0.1.0
+Summary: A collection of pydantic models
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.0.0
+Description-Content-Type: text/markdown
+
+# lion-fields
+
+a set of pydantic structured output for LLM based structured output

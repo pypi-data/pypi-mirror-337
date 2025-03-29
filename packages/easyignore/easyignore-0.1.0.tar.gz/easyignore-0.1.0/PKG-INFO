@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: easyignore
+Version: 0.1.0
+Summary: Add your description here
+Project-URL: homepage, https://github.com/andrew-s28/easyignore
+Project-URL: issues, https://github.com/andrew-s28/easyignore/issues
+Author-email: Andrew Scherer <scherand@oregonstate.edu>
+Maintainer-email: Andrew Scherer <scherand@oregonstate.edu>
+License: MIT License
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.32.3
+Requires-Dist: typer>=0.15.2
+Description-Content-Type: text/markdown
+
+# `easyignore`
+
+Create a .gitignore (or .prettierignore with --prettier) file for over 500 languages and frameworks.
+Currently, the source for the ignore files is https://gitignore.io but this may change in the future
+to ensure the most up-to-date ignore files are used (see also https://github.com/toptal/gitignore.io/issues/650).
+
+**Usage**:
+
+```console
+$ easyignore [OPTIONS] LANGUAGES...
+```
+
+**Arguments**:
+
+* `LANGUAGES...`: language/framework for .gitignore (enter as many as you like)  [required]
+
+**Options**:
+
+* `-p, --path DIRECTORY`: path to .gitignore file  [default: current working directory]
+* `-a, --append`: append to existing .gitignore file
+* `-o, --overwrite`: overwrite existing .gitignore file
+* `-r, --prettier`: save as .prettierignore
+* `-l, --list`: list available languages/frameworks for .gitignore
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.

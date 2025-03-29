@@ -1,0 +1,10 @@
+numpy
+
+[config]
+ruamel.yaml
+
+[google-drive]
+requests
+
+[parallel]
+joblib

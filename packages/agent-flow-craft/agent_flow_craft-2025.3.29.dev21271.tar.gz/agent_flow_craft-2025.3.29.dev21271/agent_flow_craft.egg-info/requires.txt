@@ -1,0 +1,11 @@
+autogen
+pyyaml
+python-slugify
+openai
+asyncio
+
+[dev]
+wheel
+pytest
+build
+twine

@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: pookie-ai
+Version: 1.0.1
+Summary: Pookie - AI-powered terminal assistant using Gemini API
+Home-page: https://github.com/Aryandev12/pookie
+Author: Aryan Dev
+Author-email: Aryan Dev <aryandev512@gmail.com>
+Project-URL: Homepage, https://github.com/Aryandev12/pookie
+Project-URL: Repository, https://github.com/Aryandev12/pookie
+Project-URL: Bug Tracker, https://github.com/Aryandev12/pookie/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich>=13.9.4
+Requires-Dist: google-generativeai>=0.8.4
+Requires-Dist: inquirer>=3.4.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# Pookie – Terminal AI Assistant
+
+Pookie is a terminal-based AI assistant that converts natural language commands into shell commands using the Google Gemini API. It enables you to perform terminal operations quickly and efficiently without having to remember complex commands.
+
+## Features
+
+- **Natural Language Conversion:**  
+  Convert plain language instructions into precise shell commands.
+
+- **Interactive Execution:**  
+  Review generated commands before execution with options to execute, abort, or edit.
+
+- **Modular Design:**  
+  A clean, modular codebase with separate components for configuration, API interaction, command execution, and utilities.

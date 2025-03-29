@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pookie-ai"                                
+version = "1.0.1"                                
+description = "Pookie - AI-powered terminal assistant using Gemini API"
+authors = [{name = "Aryan Dev", email = "aryandev512@gmail.com"}] 
+readme = "README.md"                           
+license = {file = "LICENSE"}                      
+dependencies = [
+    "rich>=13.9.4",
+    "google-generativeai>=0.8.4",
+    "inquirer>=3.4.0"
+]
+requires-python = ">=3.8"                        
+
+[project.urls]
+"Homepage" = "https://github.com/Aryandev12/pookie"
+"Repository" = "https://github.com/Aryandev12/pookie"
+"Bug Tracker" = "https://github.com/Aryandev12/pookie/issues"
+
+[project.scripts]
+pookie = "pookie.cli:main"                      

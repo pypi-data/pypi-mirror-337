@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pookie/__init__.py
+pookie/cli.py
+pookie/config.py
+pookie/executor.py
+pookie/gemini_api.py
+pookie/utils.py
+pookie_ai.egg-info/PKG-INFO
+pookie_ai.egg-info/SOURCES.txt
+pookie_ai.egg-info/dependency_links.txt
+pookie_ai.egg-info/entry_points.txt
+pookie_ai.egg-info/requires.txt
+pookie_ai.egg-info/top_level.txt

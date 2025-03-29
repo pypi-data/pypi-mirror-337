@@ -1,0 +1,17 @@
+cmip_ref_celery/__init__.py,sha256=rrYAsKRgN8REgoaRxJBeTF8W8TsubKxFmerb2bXzewM,123
+cmip_ref_celery/app.py,sha256=4lZ_97_XoCMmKXjMlC-6BI9w88C42HNburlLUHlI6sI,1685
+cmip_ref_celery/cli.py,sha256=sqhDNCdCs8Q1hBrx5JOlU5rwuWEz0tm5CTmdiyiMXKs,2943
+cmip_ref_celery/executor.py,sha256=KBVKOjC4JwvMmX66f3-1RqVdXHJP7W9WQXw6oIoWdjk,4918
+cmip_ref_celery/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmip_ref_celery/tasks.py,sha256=P7Bv9bG7HSIVDs6cMxloMdzBhyWXvEAeUodot_ff_fg,2198
+cmip_ref_celery/worker_tasks.py,sha256=MTvHcQTauRrpB41-F3LyZlWLs_o7pRgUAGEF-vTaIIU,1288
+cmip_ref_celery/celeryconf/__init__.py,sha256=MvLjEv3rgp1LCCgz-GKg9dNBnCgMC0p6fQXvMMvt1G8,311
+cmip_ref_celery/celeryconf/base.py,sha256=F7vMUqEXn1J8uEyUgfN0R21lwRx5C2Z4RzRkRj2ikKU,481
+cmip_ref_celery/celeryconf/dev.py,sha256=um7hvEhlTBfwey9ler_vAHAln_DrpqAP3fbbO2wdmUQ,217
+cmip_ref_celery/celeryconf/prod.py,sha256=HyGTfwTZD8MjIkfkb3qyfzjjTPE9sKAoXNq3fJDFO9Q,231
+cmip_ref_celery-0.3.0.dist-info/METADATA,sha256=2qLuYSpcoQcMlZMrJb7ylkosXu8orIfo9c7N3i6aLtU,2462
+cmip_ref_celery-0.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cmip_ref_celery-0.3.0.dist-info/entry_points.txt,sha256=VLPT6obatqfIKuhic3U2Uk-FSwYZUthMg35mQdy24wM,55
+cmip_ref_celery-0.3.0.dist-info/licenses/LICENCE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cmip_ref_celery-0.3.0.dist-info/licenses/NOTICE,sha256=FVLtsq3L9eLCzrjXnZClepAe9uFPnjPnGJIyyPNcp3Y,98
+cmip_ref_celery-0.3.0.dist-info/RECORD,,

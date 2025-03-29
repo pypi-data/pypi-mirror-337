@@ -1,0 +1,12 @@
+{% if read is not none -%}
+{{ 'GRANT' if read else "REVOKE" }} ROLE R_T_{{ database_name }}_{{ schema_name }}_READ {{ 'TO' if read else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if write is not none -%}
+{{ 'GRANT' if write else "REVOKE" }} ROLE R_T_{{ database_name }}_{{ schema_name }}_WRITE {{ 'TO' if write else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if execute is not none -%}
+{{ 'GRANT' if execute else "REVOKE" }} ROLE R_T_{{ database_name }}_{{ schema_name }}_EXECUTE {{ 'TO' if execute else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}
+{% if owner is not none -%}
+{{ 'GRANT' if owner else "REVOKE" }} ROLE R_T_{{ database_name }}_{{ schema_name }}_OWNER {{ 'TO' if owner else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}

@@ -1,0 +1,8 @@
+PerSent/CommentAnalyzer.py,sha256=2Nk2KGvhDt7ZTI5-lKgykOcw-GPSFlOznh4vA00axMw,7385
+PerSent/__init__.py,sha256=qfHH_BUkVmHoaPg07QHhyTAulg5pmbd42QMIUIUqJIQ,104
+PerSent/model/CommentAnalyzer/classifier.joblib,sha256=bETyy0LMiN6QvnwBZqLSPsEAgcz76RCeRC3HAFNat2g,3295
+PerSent/model/CommentAnalyzer/word2vec.model,sha256=QIcSmqSWUghivruIb6cLth3zcQ6jiruUPYzf6BNGw7k,30214557
+persent-1.0.201.dist-info/METADATA,sha256=-zx1mNbRrM2Ew53JPXQ3AxabvphBxcIRfmh0sN-PBeY,3285
+persent-1.0.201.dist-info/WHEEL,sha256=DK49LOLCYiurdXXOXwGJm6U4DkHkg4lcxjhqwRa0CP4,91
+persent-1.0.201.dist-info/top_level.txt,sha256=D-YZBGOvL3FdEaLI9OwoTXniE26IUqE_dX3w8XEiDms,8
+persent-1.0.201.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+ga4gh/va_spec/__init__.py,sha256=40H6xDoo0lhdx0jQUnt90JTRhSdKz-Cd6oLNSQy3zBk,48
+ga4gh/va_spec/aac_2017/__init__.py,sha256=oByiAiCmFty7Lg2IOo8veM8zlNaxcKILO--mo3yc2GE,518
+ga4gh/va_spec/aac_2017/models.py,sha256=tmjYuOG0m-y0fXUze4YMB2Bz8hllQZ2acY54BU-EAJ4,7030
+ga4gh/va_spec/acmg_2015/__init__.py,sha256=Xh0rcyvlk7N3qoyRsG0PM6zggp4D3RvnshVDgLYvSqE,488
+ga4gh/va_spec/acmg_2015/models.py,sha256=OIdEW7x4Z5FLQc0HYEZIT_2zXgIjV3CEDYGbxLUF8Hk,8472
+ga4gh/va_spec/base/__init__.py,sha256=bkPBHW-27Mhx7TCMSL9y25Zm-I0TUSBmIiO_b0-6cvY,2270
+ga4gh/va_spec/base/core.py,sha256=PFMEmkODcegO846F7WWcAp6oZriG-1t9HHQaEOQcZ38,31021
+ga4gh/va_spec/base/domain_entities.py,sha256=7RR7pP3hWRlWQITufVCqz14m5jdzl8XXVoX4Yf7epHM,2946
+ga4gh/va_spec/base/enums.py,sha256=c_og03x2xKbOKHPs-q1ei9GRJBaZZWNoO6uJJ1Y1M6c,2770
+ga4gh/va_spec/base/validators.py,sha256=nDNvtVXMON4gwS7j29EFIHF1mPdGHwu7MTg9q_oEGVI,1159
+ga4gh/va_spec/ccv_2022/__init__.py,sha256=MqsQiDA6f1AYCBDCFPGmYwPt4dYaDJupIIco128htvY,390
+ga4gh/va_spec/ccv_2022/models.py,sha256=g5SOy9XSgCc3tQXFTktQ5VHxs3-CfKDB7pENrr3Zbuw,5921
+ga4gh_va_spec-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ga4gh_va_spec-0.2.0.dist-info/METADATA,sha256=_o8vF0m9q9iONbqzUvRmqT_Tb3Kbv5b25w53By4ZTXM,18291
+ga4gh_va_spec-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ga4gh_va_spec-0.2.0.dist-info/top_level.txt,sha256=dcwOVyhs_HDiP72Eg7DskeWMdcbw70-OwDmjxNuwNKg,6
+ga4gh_va_spec-0.2.0.dist-info/RECORD,,

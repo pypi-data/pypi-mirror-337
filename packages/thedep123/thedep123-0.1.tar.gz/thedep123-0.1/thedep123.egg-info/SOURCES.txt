@@ -1,0 +1,7 @@
+setup.py
+thedep123/__init__.py
+thedep123/hello.py
+thedep123.egg-info/PKG-INFO
+thedep123.egg-info/SOURCES.txt
+thedep123.egg-info/dependency_links.txt
+thedep123.egg-info/top_level.txt

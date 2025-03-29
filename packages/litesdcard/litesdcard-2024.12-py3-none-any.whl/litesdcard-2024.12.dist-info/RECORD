@@ -1,0 +1,17 @@
+litesdcard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+litesdcard/common.py,sha256=RW8Qz-sb6TsHpdKNfPOZnKPYFIhl7bAGN0h0EURoULE,1590
+litesdcard/core.py,sha256=2E2dC6nvxCvm98eUccuokaJKuI4MZIDC53Bz8Zj3UD4,11086
+litesdcard/crc.py,sha256=kPj18HoUzCjHbEz2fRW9OwyiOd8n6i_yJ5Gb_zath0A,4343
+litesdcard/gen.py,sha256=5TE3gB42eg4AmhBacJyhp7evtxu37Y1KPrGuAVWnXEY,4830
+litesdcard/phy.py,sha256=fZDDDy3GhhEhNm36eL0srv_MRPEl32UARajv5sim3vg,22578
+litesdcard/emulator/__init__.py,sha256=51sZuPwD97Q3aJYdfVmeu6xAErVKwUBRyFH5mkm_ny4,198
+litesdcard/emulator/core.py,sha256=tbgB66mdU05uKjHUAlKh9Z1cvf6JjEfm2TrVJ-i5bUA,9679
+litesdcard/frontend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+litesdcard/frontend/bist.py,sha256=-mtvaq8lbEjD1Op9BVt_jdbKo1UEkzlP9dJXwrjrIjI,5489
+litesdcard/frontend/dma.py,sha256=R6sQnJiRhaWuy9OCXKTZUBtARr0n6nFb_sG_xizGY1s,3310
+litesdcard-2024.12.dist-info/licenses/LICENSE,sha256=LQ1-UAZUQ8-l2ue_0Ot8762V-N4k5fUnFQedkTL6kwg,1760
+litesdcard-2024.12.dist-info/METADATA,sha256=pvuqDu8ahLg3pBvw3io42TEgPrWgjcrxuAC2NLFUK6A,5135
+litesdcard-2024.12.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+litesdcard-2024.12.dist-info/entry_points.txt,sha256=osCRbsarkMAtl57koQdEXRIWB4tLqHJe2TI7-DyQk00,55
+litesdcard-2024.12.dist-info/top_level.txt,sha256=8kVhW3LFd7Mav7UWnP1QCRGA0GJycwvsKhVntxAjKrk,11
+litesdcard-2024.12.dist-info/RECORD,,

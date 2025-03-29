@@ -1,0 +1,8 @@
+README.md
+setup.py
+WeatherIconsMapping.egg-info/PKG-INFO
+WeatherIconsMapping.egg-info/SOURCES.txt
+WeatherIconsMapping.egg-info/dependency_links.txt
+WeatherIconsMapping.egg-info/top_level.txt
+icon_mapping_pkg_/__init__.py
+icon_mapping_pkg_/weather_icons.py

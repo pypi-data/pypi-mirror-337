@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tkinter-yzw
+Version: 0.1
+Summary: UI as an Independent Module: As Simple as Using print, Interacting with an Event-Driven MainApp
+Home-page: https://github.com/mfmain/tkinter_yzw
+Author: Oliver Yang
+Author-email: mfmain@sina.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sortedcontainers
+
+# UI as an Independent Module: As Simple as Using print, Interacting with an Event-Driven MainApp

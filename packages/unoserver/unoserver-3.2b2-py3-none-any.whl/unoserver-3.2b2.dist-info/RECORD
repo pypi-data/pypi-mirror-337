@@ -1,0 +1,11 @@
+unoserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unoserver/client.py,sha256=OXYvGQsw8tc04cs355ZM4Ho1APJyS_MeRdyFX6A3alE,16106
+unoserver/comparer.py,sha256=oP7-kl-5lAaNQJH8HW2tacw_ffv8zdUaEI2wIb6uz4s,10009
+unoserver/converter.py,sha256=zqZAFqapE8dp1L3FtKF_7pEjTHqytJKJnfb_CaP5t-g,13189
+unoserver/server.py,sha256=odpgads4MGkH999WR-3SDD5tD6iTiLz6DG34UR9SkXo,15342
+unoserver-3.2b2.dist-info/LICENSE,sha256=6I6VF83paFVq9oRPS8rLhqvSIH7uYFveBsjkeNNsATM,1064
+unoserver-3.2b2.dist-info/METADATA,sha256=Bai9eY_0X34EnkmL8n223sm_f4qo-6KM-XBjrX8K3rg,19420
+unoserver-3.2b2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+unoserver-3.2b2.dist-info/entry_points.txt,sha256=eoWA_-UgBUqBkwLVSP7OVAT36GpmX6PW0aB9-1widaM,141
+unoserver-3.2b2.dist-info/top_level.txt,sha256=al7ilgWYcDGbHAOXClkCFguaYbAh0bT4RXf4RJqbobI,10
+unoserver-3.2b2.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/jobinformation/__init__.py
+src/jobinformation/main.py
+src/jobinformation.egg-info/PKG-INFO
+src/jobinformation.egg-info/SOURCES.txt
+src/jobinformation.egg-info/dependency_links.txt
+src/jobinformation.egg-info/entry_points.txt
+src/jobinformation.egg-info/requires.txt
+src/jobinformation.egg-info/top_level.txt
+tests/test_main.py

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+aparecium/__init__.py
+aparecium.egg-info/PKG-INFO
+aparecium.egg-info/SOURCES.txt
+aparecium.egg-info/dependency_links.txt
+aparecium.egg-info/requires.txt
+aparecium.egg-info/top_level.txt
+tests/test_aparecium.py

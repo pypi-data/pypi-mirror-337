@@ -1,0 +1,8 @@
+flash_tokenizer/__init__.py,sha256=eFzu2Pq61Mr_wx56DJOnII4Uj5cLDPWVwxDPvh9IW8g,357
+flash_tokenizer/_core.cp310-win_amd64.pyd,sha256=p0SUO7aqHMPq4DgFb5VlnE9ePxaOFR2e0LmxzibdSDg,552448
+flash_tokenizer/batch_encoding.py,sha256=KpSIIKQAntkUv8pb4Bi18VmfehcumTng3e4_sdWvho0,1783
+flash_tokenizer/bert_tokenizer_flash.py,sha256=w9aXqtHr_2tvx5TNorUiXszmJxuhBfo_CeJbNR5_c40,1952
+flash_tokenizer-1.1.6.dist-info/METADATA,sha256=caj67CGogLYswjEDuauV3Fhk2zwmef97xGA3mHwZ6G4,26917
+flash_tokenizer-1.1.6.dist-info/WHEEL,sha256=Z5M11CPhkhUCn14horIIG3GeSgJ2uFqbheGfNFzSz8s,106
+flash_tokenizer-1.1.6.dist-info/licenses/LICENSE,sha256=ggPtCNRcrL-xvz5M34s-CrCxDHp_SerEvsCZTEJgzXM,1085
+flash_tokenizer-1.1.6.dist-info/RECORD,,

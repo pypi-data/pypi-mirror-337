@@ -1,0 +1,5 @@
+[project]
+name = "pygression"
+version = "1.0.0"
+description = "A package about chord progressions."
+readme = "README.md"

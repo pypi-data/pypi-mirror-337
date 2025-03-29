@@ -1,0 +1,12 @@
+pookie/__init__.py,sha256=FWh8qa53B0wD0RlPUWH6sCpg-0gkzlAso1fmVr4Ar8U,449
+pookie/cli.py,sha256=GgrHHhXnbbk5MaagHY5t1WKqxRQs5SwMIS6HQkY9s08,2368
+pookie/config.py,sha256=z17lhxY478yE2_wd9bd_dYBUcnYw83_Ho8ER-x98pZ0,856
+pookie/executor.py,sha256=gGBmrge5joMEf67exX4NvLP9q59VVDseqBwZYlx2oEI,1785
+pookie/gemini_api.py,sha256=eoeJh0vjw-mT7hJZyKwwQtrxcQMOv03cmFKyVh5xkzU,5036
+pookie/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pookie_ai-1.0.1.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pookie_ai-1.0.1.dist-info/METADATA,sha256=69txqyVZPHeIJSW-SWAv_1DXH-IwRWTiR0lup1TgPnI,1357
+pookie_ai-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pookie_ai-1.0.1.dist-info/entry_points.txt,sha256=ewNTjyu5Gaog6XiybVyAF0ORc8kvOTipHUesJXR2-s8,43
+pookie_ai-1.0.1.dist-info/top_level.txt,sha256=br-VG10H3m3ijndFdJ7c6VPyXKoTTU6XLJFN06zSmto,7
+pookie_ai-1.0.1.dist-info/RECORD,,

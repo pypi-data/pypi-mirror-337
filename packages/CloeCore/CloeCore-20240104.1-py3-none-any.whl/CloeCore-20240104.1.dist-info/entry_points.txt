@@ -1,0 +1,2 @@
+[console_scripts]
+cloegen = cloecore.utils.cli:gen_cli

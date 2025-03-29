@@ -1,0 +1,11 @@
+{% if identity_insert %}
+SET IDENTITY_INSERT {{ schema_name }}.{{ table_name }} ON{{ output_sql_transaction_separator if output_sql_transaction_separator else ""}}
+{% endif %}
+{% if truncate_before_insert %}
+TRUNCATE TABLE {{ schema_name }}.{{ table_name }}{{ output_sql_transaction_separator if output_sql_transaction_separator else ""}}
+{% endif %}
+INSERT INTO {{ schema_name }}.{{ table_name }} 
+    ({% for sink_column in sink_columns %}{{ sink_column }}{{ ", " if not loop.last else ""}}{% endfor %}) VALUES
+{% for insert_values in insert_values_list %}    ({% for insert_value in insert_values %}{{ "'" ~ insert_value ~ "'" if insert_value else "NULL" }}{{ ", " if not loop.last else ""}}{% endfor %}){{ ", \n" if not loop.last else ""}}{% endfor %}{{ output_sql_transaction_separator if output_sql_transaction_separator else ""}}
+{% if identity_insert %}
+SET IDENTITY_INSERT {{ schema_name }}.{{ table_name }} OFF{{ output_sql_transaction_separator if output_sql_transaction_separator else ""}}{% endif %}

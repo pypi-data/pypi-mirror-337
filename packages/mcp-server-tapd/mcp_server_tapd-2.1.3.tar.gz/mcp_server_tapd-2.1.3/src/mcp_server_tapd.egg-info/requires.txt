@@ -1,0 +1,4 @@
+httpx
+requests
+mcp[cli]>=1.0.0
+tapd

@@ -1,0 +1,6 @@
+django
+
+[testing]
+tox
+tox-gh-actions
+coveralls

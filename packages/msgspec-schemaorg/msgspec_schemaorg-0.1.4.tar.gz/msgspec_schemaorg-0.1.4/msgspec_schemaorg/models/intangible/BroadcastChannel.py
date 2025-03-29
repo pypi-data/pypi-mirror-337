@@ -1,0 +1,22 @@
+from __future__ import annotations
+from msgspec import Struct, field
+from msgspec_schemaorg.models.intangible.Intangible import Intangible
+from msgspec_schemaorg.utils import URL
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from msgspec_schemaorg.models.intangible.BroadcastFrequencySpecification import BroadcastFrequencySpecification
+    from msgspec_schemaorg.models.intangible.BroadcastService import BroadcastService
+    from msgspec_schemaorg.models.intangible.CableOrSatelliteService import CableOrSatelliteService
+from typing import Optional, Union, Dict, List, Any
+
+
+class BroadcastChannel(Intangible):
+    """A unique instance of a BroadcastService on a CableOrSatelliteService lineup."""
+    type: str = field(default_factory=lambda: "BroadcastChannel", name="@type")
+    broadcastFrequency: str | 'BroadcastFrequencySpecification' | None = None
+    inBroadcastLineup: 'CableOrSatelliteService' | None = None
+    broadcastChannelId: str | None = None
+    broadcastServiceTier: str | None = None
+    providesBroadcastService: 'BroadcastService' | None = None
+    genre: 'URL' | str | None = None

@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: controlresell-connector
+Version: 0.0.11
+Summary: Auto-generated Pydantic project from Kotlin using guimauvedigital/zodable
+Requires-Dist: annotated-types
+Requires-Dist: DateTime
+Requires-Dist: pydantic
+Requires-Dist: pydantic_core
+Requires-Dist: pytz
+Requires-Dist: setuptools
+Requires-Dist: toml
+Requires-Dist: typing
+Requires-Dist: typing-inspection
+Requires-Dist: typing_extensions
+Requires-Dist: uuid
+Requires-Dist: zodable_idschema
+Requires-Dist: zope.interface

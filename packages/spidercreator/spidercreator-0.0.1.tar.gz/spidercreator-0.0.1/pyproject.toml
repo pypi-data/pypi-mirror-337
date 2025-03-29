@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spidercreator"
+version = "0.0.1"
+description = "Automated web scraping spider generation using Browser Use and LLMs."
+readme = "README.md"
+authors = [
+    { name = "Carlos A. Planchón", email = "carlosandresplanchonprestes@gmail.com" }
+]
+license = "AGPL-3.0-or-later"
+keywords = [
+    "scraping",
+    "spider",
+    "scrapy",
+    "automation",
+    "browser",
+    "AI",
+    "LLM",
+    "web-scraping"
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Programming Language :: Python :: 3.11"
+]
+
+[project.urls]
+repository = "https://github.com/carlosplanchon/spidercreator"
+documentation = "https://github.com/carlosplanchon/spidercreator#readme"
+
+[options]
+package_dir = "spidercreator"
+packages = ["spidercreator"]

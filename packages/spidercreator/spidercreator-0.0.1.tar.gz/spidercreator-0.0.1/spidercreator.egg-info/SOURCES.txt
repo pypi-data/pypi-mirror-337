@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+spidercreator/__init__.py
+spidercreator.egg-info/PKG-INFO
+spidercreator.egg-info/SOURCES.txt
+spidercreator.egg-info/dependency_links.txt
+spidercreator.egg-info/top_level.txt

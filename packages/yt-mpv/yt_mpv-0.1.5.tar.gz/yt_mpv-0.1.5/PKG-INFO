@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: yt-mpv
+Version: 0.1.5
+Summary: Play videos in MPV, while archiving them on archive.org
+Author-email: Gareth Davidson <gaz@bitplane.net>
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: uv
+Requires-Dist: internetarchive
+Requires-Dist: freeze_one~=0.2
+Requires-Dist: flake8 ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: coverage ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: build ; extra == "dev"
+Requires-Dist: twine ; extra == "dev"
+Project-URL: Bug Tracker, https://github.com/bitplane/yt-mpv/issues
+Project-URL: Homepage, https://bitplane.net/dev/python/yt-mpv
+Project-URL: Source Code, https://github.com/bitplane/yt-mpv
+Provides-Extra: dev
+
+# 📺 yt-mpv
+
+Watch a YouTube video without ads, while archiving to archive.org.
+
+```bash
+uvx yt-mpv install
+```
+
+Follow instructions to configure internet archive credentials, then drag the link
+to your bookmarks bar. Clicking it will open mpv (takes a couple of seconds).
+Afterwards, it'll download it again in highest quality in the background, and
+upload it to archive.org
+
+You'll need to install `mpv` in order to use it, and have an archive.org account
+to configure the `internetarchive` uploader.
+
+## why?
+
+This is what you get when you put 4 minutes of adverts after every 6 minutes
+of content; someone spends a couple of hours fixing the problem.
+
+## links
+
+* [🏠 home](/dev/python/yt-mpv)
+* [🐍 pypi](https://pypi.org/project/yt-mpv/)
+* [🐱 github](https://github.com/bitplane/yt-mpv)
+
+

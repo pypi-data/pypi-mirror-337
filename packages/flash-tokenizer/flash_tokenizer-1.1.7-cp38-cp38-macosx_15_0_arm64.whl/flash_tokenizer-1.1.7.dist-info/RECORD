@@ -1,0 +1,7 @@
+flash_tokenizer/__init__.py,sha256=Tug15pd3rIzCZ20ZARi4CZf_LxONKix4LS1CvnyF4ro,350
+flash_tokenizer/_core.cpython-38-darwin.so,sha256=aZOI1TthoLTL3WxaMA2xXbZKsIVTEwjx6CORlikqOuE,800008
+flash_tokenizer/batch_encoding.py,sha256=dW7bGRu2XyBZT_sV_1ome3iB-vlUcZ-zeiOuj2eC88Y,1792
+flash_tokenizer/bert_tokenizer_flash.py,sha256=s1myxunlbdaYiGb9VIFoIUi1PdohKesD4BuO7oNqmNQ,1910
+flash_tokenizer-1.1.7.dist-info/METADATA,sha256=v9EwhYrZt90kCG1BtAq6bC96uL1KLWGDMsN01Q_ZdEs,26967
+flash_tokenizer-1.1.7.dist-info/WHEEL,sha256=QBnOXovmQj9pqsc0oQF1-m-D5naCAhf1mqYZiUuscgE,112
+flash_tokenizer-1.1.7.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+CREATE OR ALTER PROCEDURE {{ procedure_identifier }}
+AS
+BEGIN
+    {% for query in queries %}
+    {{ query }}
+    {% endfor %}
+END;

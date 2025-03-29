@@ -1,0 +1,55 @@
+import logging
+import pathlib
+
+import cloecore.to_airflow.airflow_build as airflow
+import cloecore.utils.model as meta
+import cloecore.utils.reader as reader
+import cloecore.utils.SQL as sql
+import cloecore.utils.writer as writer
+
+logger = logging.getLogger(__name__)
+
+
+def deploy(
+    input_model_path: pathlib.Path,
+    output_dag_path: pathlib.Path,
+    output_sql_path: pathlib.Path,
+    transaction_based_exec_sql: bool,
+) -> None:
+    files_found = reader.read_models_from_disk(reader.find_files(input_model_path))
+    (
+        s_errors,
+        id_to_table,
+        id_to_ds_type,
+        id_to_conn,
+        id_to_ds_info,
+    ) = reader.read_jobs_support_files(files_found)
+    s_errors.log_report()
+    j_errors, jobs = reader.read_jobs_base_files(
+        models=files_found,
+        id_to_conn=id_to_conn,
+        ds_types=id_to_ds_type,
+        databases=id_to_table,
+        ds_infos=id_to_ds_info,
+    )
+    j_errors.log_report()
+    b_errors, batches = reader.read_orchestration_base_files(
+        models=files_found,
+    )
+    b_errors.log_report()
+    jobs_c = {}
+    for id, job in jobs.items():
+        if isinstance(job, (meta.FS2DB, meta.DB2FS, meta.ExecSQLJob)):
+            jobs_c[id] = job
+        else:
+            raise NotImplementedError
+    dags = airflow.create_dags(batches, jobs_c, id_to_conn)
+    proc_per_source = sql.create_stored_procedure_script(
+        [task for task in jobs.values() if isinstance(task, meta.ExecSQLJob)],
+        transaction_based_exec_sql,
+    )
+    logger.info("Stored procedures created")
+    for n, i in enumerate(dags):
+        writer.write_string_to_disk(i.to_python(), output_dag_path / f"dags{n}.py")
+    for k, v in proc_per_source.items():
+        writer.write_string_to_disk(v, output_sql_path / f"{k}.sql")

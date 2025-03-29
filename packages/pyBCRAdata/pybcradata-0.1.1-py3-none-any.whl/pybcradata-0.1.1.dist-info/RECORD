@@ -1,0 +1,10 @@
+pyBCRAdata/__init__.py,sha256=Ivd4KdwfJv0B3gNWaXl7hiStp9Qn1rSHWJw2wO-h-QQ,483
+pyBCRAdata/config.py,sha256=3-LvXo1LLcLwQmhLtDa0xqJaO4LXAa1uIvqeV8bmIb4,758
+pyBCRAdata/connector.py,sha256=71ruD3eXeRe7GOMf7pM78qRj6rUrOpEr_9kGim9s0M4,4693
+pyBCRAdata/getter.py,sha256=ZAYTHtVIrpKw8y5GxsAF0cr-o0Q7W-cBrZSN21XSH_Y,5597
+pyBCRAdata/cert/ca.pem,sha256=qhB_yWx9xVc4Cdx_Yx31Iq7v8TcLvy_0CDFhthg6ipY,6874
+pybcradata-0.1.1.dist-info/licenses/LICENSE,sha256=j7P6WM610CR3rxMQ7WWHD2uX2cBAKkU6-NdAys7D2kA,312
+pybcradata-0.1.1.dist-info/METADATA,sha256=Lijb7xlsqiXZFjERM0bizUz9JPQspgCx6RH-BHY4uE0,6189
+pybcradata-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pybcradata-0.1.1.dist-info/top_level.txt,sha256=gNDq2Gd97P889lh-Uw1CHffMLWeHTgEY76hLE1ASFUg,11
+pybcradata-0.1.1.dist-info/RECORD,,

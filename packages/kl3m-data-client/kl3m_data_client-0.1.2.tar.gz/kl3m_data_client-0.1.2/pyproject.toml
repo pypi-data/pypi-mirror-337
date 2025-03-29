@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kl3m-data-client"
+version = "0.1.2"
+description = "Client for interacting with KL3M data stored in S3"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    {name = "KL3M Team"}
+]
+keywords = ["kl3m", "data", "s3", "aws", "parquet", "nlp", "client", "tokenization"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "boto3>=1.26.0",
+    "pyarrow>=19.0.1",
+    "rich>=12.0.0",
+    "tokenizers>=0.21.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alea-institute/kl3m-data-client"
+"Bug Tracker" = "https://github.com/alea-institute/kl3m-data-client/issues"
+"Documentation" = "https://github.com/alea-institute/kl3m-data-client/tree/main/kl3m-data-client/docs"
+"Source" = "https://github.com/alea-institute/kl3m-data-client/tree/main/"
+
+[project.scripts]
+kl3m-client = "kl3m_data_client.cli.commands:main"
+
+[tool.setuptools]
+packages = ["kl3m_data_client", 
+            "kl3m_data_client.cli",
+            "kl3m_data_client.models",
+            "kl3m_data_client.operations",
+            "kl3m_data_client.utils"]
+
+[tool.setuptools.package-data]
+kl3m_data_client = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = false  # Temporarily disable due to boto3
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = true
+disallow_untyped_decorators = false
+no_implicit_optional = true
+strict_optional = true
+follow_imports = "silent"
+
+[[tool.mypy.overrides]]
+module = ["pyarrow.*", "tokenizers.*", "rich.*", "boto3.*", "botocore.*"]
+ignore_missing_imports = true

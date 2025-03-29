@@ -1,0 +1,12 @@
+yt_mpv/__init__.py,sha256=5_94s4s59wHn4cVyAmBLbRqaV-sDLT7_OcytJTQJ1uQ,272
+yt_mpv/checker.py,sha256=D01BuLMfiIW1Qd5l_u4ws3WrWkHq7eyCQkEcnjNtl4s,1905
+yt_mpv/cli.py,sha256=NlLMG8GOajSlw9rx0nG3JXaNd8B7fw2Da3xg_ZQHv7w,2716
+yt_mpv/installer.py,sha256=gHrS_AD33-Y7pZfyrgYUUZ8JlUGSDQu7rh9Jjoaid8E,7052
+yt_mpv/launch.py,sha256=uoS7N_PX2_VJOOTp6SCDDQO9LO0eJmB7NEnzNUBGa8c,9728
+yt_mpv/install/bookmark.html,sha256=lUpeSdbr5T81hWTW-N3cUs9hR0q000juwCpvMVDsCYo,2164
+yt_mpv/install/yt-mpv.desktop,sha256=ynrjdRYfXg1EXoPdfEGXSDvdZVLlI3CK1tLDJgBjBEo,319
+yt_mpv-0.1.0.dist-info/entry_points.txt,sha256=WHRQqgT39ipPU4JiEuLCzH81FlkP-T7Nk-fVC-gA05E,42
+yt_mpv-0.1.0.dist-info/licenses/LICENSE.md,sha256=7_BIuQ-veOrsF-WarH8kTkm0-xrCLvJ1PFE1C4Ebs64,146
+yt_mpv-0.1.0.dist-info/WHEEL,sha256=Dyt6SBfaasWElUrURkknVFAZDHSTwxg3PaTza7RSbkY,100
+yt_mpv-0.1.0.dist-info/METADATA,sha256=vPl1C0fx9rg3aVLxq_1JIDCXzjDeQZv21NXsZLgqf6c,1027
+yt_mpv-0.1.0.dist-info/RECORD,,

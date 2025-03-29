@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+devautomator/__init__.py
+devautomator.egg-info/PKG-INFO
+devautomator.egg-info/SOURCES.txt
+devautomator.egg-info/dependency_links.txt
+devautomator.egg-info/entry_points.txt
+devautomator.egg-info/requires.txt
+devautomator.egg-info/top_level.txt

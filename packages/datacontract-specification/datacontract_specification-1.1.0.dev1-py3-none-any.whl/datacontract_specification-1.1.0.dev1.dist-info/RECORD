@@ -1,0 +1,9 @@
+datacontract_specification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacontract_specification/model.py,sha256=eAhl1QbAqvSLxPxLJKAjM3fDAKFUhVXeLhNWiSV_wv8,9035
+datacontract_specification/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacontract_specification/schema.json,sha256=JGNNNRBGHwvqPaomyXuX7QCzB4eCmgCn0bSEgLZaeTY,62792
+datacontract_specification/test_model.py,sha256=80aDRfIpD0IRkQFwd25n5Ai5Fb9y-h7x_z8gTU2H0AA,874
+datacontract_specification-1.1.0.dev1.dist-info/METADATA,sha256=53QZyrTix1Qf71zfJhnuZW6mzdyQToel27PqxtMDnBc,2746
+datacontract_specification-1.1.0.dev1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+datacontract_specification-1.1.0.dev1.dist-info/licenses/LICENSE,sha256=23h64qnSeIZ0DKeziWAKC-zBCt328iSbRbWBrXoYRb4,2210
+datacontract_specification-1.1.0.dev1.dist-info/RECORD,,

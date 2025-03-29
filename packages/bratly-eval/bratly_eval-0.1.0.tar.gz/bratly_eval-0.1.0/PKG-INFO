@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: bratly-eval
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Requires-Dist: bratly
+Requires-Dist: bratly-io-fs
+Requires-Dist: numpy>=2.2.3
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: xlsxwriter>=3.2.2

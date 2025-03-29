@@ -1,0 +1,17 @@
+slobot/configuration.py,sha256=xEL4eziZIz9hj_WRUMYskQCjCcgRQhCOfpc85R_Ijb4,932
+slobot/feetech.py,sha256=57EEugDfqdIW-GmP71wg4lBJ2zv_PfmkbyWGlnFvwFw,3294
+slobot/fps_gauge.py,sha256=0_uVuLgIplY9G2siYS2te_27nmm28XmhTXlViMwUCY0,1059
+slobot/fps_metric.py,sha256=wO3SmRt_l6jYfTcSkC_8aeUWHn0N5E2nJLczVtJa5mc,199
+slobot/genesis.py,sha256=AjNu7zPOr9Dl5fcBOHVzRRMi_nBEymxz5cQm0C4SsOY,6652
+slobot/gradio_image_app.py,sha256=UYZE-vNFgIavClvEtMeB9pxCH95dlcDC2r58u4uMuRM,1092
+slobot/gradio_video_app.py,sha256=3tZ-GegGWNVGn_Jed-W9gqQApZWdzpi4xzCZBTQohzY,1486
+slobot/image_streams.py,sha256=leeGCrBnYfSKuNN4vvk1i0F46f4RKjKWjpYDP6wFyQc,3785
+slobot/simulation_frame.py,sha256=qkcdGdFhyoKTEbNyfFhjptxTSSsidjxm6CjGWcdYmeY,530
+slobot/simulation_frame_paths.py,sha256=b8uGS6s06xMr06U_o6wqTbvuXsp9W1_6HC0ov2pr6CQ,133
+slobot/so_arm_100.py,sha256=IAHcJaQo5_bkYicxtlMfnNiV3wY4lU7_iQ9n5JR3zE4,2921
+slobot/video_streams.py,sha256=xuB0dh354gu61rqP9xofk0Or6HY9xuSVHyT9u1ywaNU,5930
+slobot-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+slobot-0.1.0.dist-info/METADATA,sha256=Iz3aaftlIpXUrILcgxqste8NhiuHHkmCF4cr3u3BAoE,245
+slobot-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+slobot-0.1.0.dist-info/top_level.txt,sha256=dGcxtH9J_zhAKeCnzwvkl6r55q7L1k4H9gAgBeTqVKY,7
+slobot-0.1.0.dist-info/RECORD,,

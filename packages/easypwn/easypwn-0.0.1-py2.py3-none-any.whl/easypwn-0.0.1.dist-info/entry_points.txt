@@ -1,0 +1,2 @@
+[console_scripts]
+easycheck = easypwn.easycheck:main

@@ -1,0 +1,9 @@
+fxtrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fxtrade/interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fxtrade/interface/bitflyer.py,sha256=0Ymo7q5l5umXPXpiwkxDD3V7bAP4R2kc-WDE9dMZnPM,20780
+fxtrade/interface/bitflyer_utils.py,sha256=ujOf9fMxIcuCCNl2eDFqnkotZO1hr8_8u5-vhAc9PXg,21377
+fxtrade/math.py,sha256=ad-1HxHeQpSYbzSgFZPnDewKguvyPmTsMne5UcPRttg,332
+fxtrade-0.1.0.dist-info/LICENSE,sha256=Tk2br1vk9jNU2Uw6JZzVoXNn1COg-kxM-vmH5Jr3Cwg,1072
+fxtrade-0.1.0.dist-info/METADATA,sha256=zdC3XlMPjVYN229Zh7wGb3ghi6lWTTfoD0YUQuaQMEE,405
+fxtrade-0.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+fxtrade-0.1.0.dist-info/RECORD,,

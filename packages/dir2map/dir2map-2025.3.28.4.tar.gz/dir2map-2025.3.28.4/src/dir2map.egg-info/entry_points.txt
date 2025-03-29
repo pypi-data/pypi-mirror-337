@@ -1,0 +1,3 @@
+[console_scripts]
+d = dir2map.main:main
+dir2map = dir2map.main:main

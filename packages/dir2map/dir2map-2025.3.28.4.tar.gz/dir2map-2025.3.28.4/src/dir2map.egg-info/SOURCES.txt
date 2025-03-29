@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dir2map/__init__.py
+src/dir2map/main.py
+src/dir2map.egg-info/PKG-INFO
+src/dir2map.egg-info/SOURCES.txt
+src/dir2map.egg-info/dependency_links.txt
+src/dir2map.egg-info/entry_points.txt
+src/dir2map.egg-info/top_level.txt

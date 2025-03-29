@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+semidv/Device.py
+semidv/Material.py
+semidv/Solve.py
+semidv/Visual.py
+semidv/__init__.py
+semidv.egg-info/PKG-INFO
+semidv.egg-info/SOURCES.txt
+semidv.egg-info/dependency_links.txt
+semidv.egg-info/requires.txt
+semidv.egg-info/top_level.txt

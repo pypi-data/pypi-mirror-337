@@ -1,0 +1,2 @@
+[qutip.family]
+qutip_qtrl = qutip_qtrl.family

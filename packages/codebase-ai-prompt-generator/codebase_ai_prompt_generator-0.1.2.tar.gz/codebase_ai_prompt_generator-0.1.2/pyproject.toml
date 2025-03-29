@@ -1,0 +1,174 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebase-ai-prompt-generator"
+version = "0.1.2"
+description = "Generate AI prompts from Git repositories with file tree structures and content"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["ai", "prompt", "git", "code", "repository", "cursor", "ai-assistant"]
+authors = [
+    {name = "Yiping Deng", email = "yiping.deng.98@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "gitignore-parser>=0.1.11",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DengYiping/codebase-ai-prompt-generator"
+"Bug Tracker" = "https://github.com/DengYiping/codebase-ai-prompt-generator/issues"
+"Documentation" = "https://github.com/DengYiping/codebase-ai-prompt-generator#readme"
+
+[project.scripts]
+codebase-prompt = "codebase_prompt_gen.cli.main:main"
+
+[tool.setuptools]
+packages = ["codebase_prompt_gen", "codebase_prompt_gen.cli"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+# Enable preview mode
+preview = true
+
+# Define the maximum line length. 88 is common (used by Black).
+line-length = 100
+
+# Specify the Python version(s) your code supports.
+# Ruff uses this to suggest compatible syntax upgrades and check for
+# version-specific issues. Adjust this to match your project!
+# Examples: "py38", "py39", "py310", "py311", "py312"
+target-version = "py38"
+
+# List of files and directories Ruff should exclude from checks.
+# Ruff has sensible defaults (like .git, .venv, venv, __pycache__),
+# but you can add project-specific exclusions here.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "*/migrations/*", # Often useful for Django/Flask migrations
+    "*/static/*",     # Static asset files
+    "docs/*",         # Documentation files
+]
+
+# Optional: Define where your source code lives.
+# If omitted, Ruff defaults to checking the current directory and subdirectories.
+# Use this if your code is structured differently, e.g., in a 'src' directory.
+# src = ["src", "tests"] # Example: Lint both 'src' and 'tests' directories
+
+[tool.ruff.lint]
+# Select the rule codes/prefixes to enable.
+# Start with a recommended baseline and add more as needed.
+#  E: pycodestyle Errors
+#  W: pycodestyle Warnings
+#  F: Pyflakes
+#  I: isort
+#  UP: pyupgrade
+#  B: flake8-bugbear
+#  A: flake8-builtins
+#  C4: flake8-comprehensions
+#  SIM: flake8-simplify
+#  PL: pylint rules
+#  T20: flake8-print
+#  PT: flake8-pytest-style
+select = [
+    "E",    # pycodestyle errors
+    "F",    # Pyflakes
+    "W",    # pycodestyle warnings
+    "I",    # isort
+    "UP",   # pyupgrade
+    # "S",    # flake8-bandit
+    "ASYNC",# flake8-async
+    # "ANN",  # flake8-annotation
+    "B",    # flake8-bugbear
+    "A",    # flake8-builtins
+    "C4",   # flake8-comprehensions
+    "SIM",  # flake8-simplify
+    "ARG",  # flake8-unused-arguments
+    "PTH",  # flake8-use-pathlib
+    "PL",   # pylint
+    "PT",   # pytest
+    "RUF",  # ruff specific rules
+    "TRY",  # try statements
+    # "T20",# Uncomment if you want to ban 'print'
+]
+
+# Ignore specific rule codes globally.
+# Add rules here that you find too noisy or don't agree with.
+# Pylint rules (PL) can be verbose, so you might add specific ones here.
+# Example common Pylint ignores:
+# PLR0913: Too many arguments
+# PLR0915: Too many statements
+# PLW0621: Redefined outer name (can be valid in list comprehensions, etc.)
+# PLC0415: Import outside toplevel (sometimes needed for conditional imports)
+# PLR2004: Magic value used in comparison (can be overly strict)
+ignore = [
+    "E731"
+    # Add specific PL rules to ignore below if they are too noisy:
+    # "PLR0913", # Example: Ignore 'too many arguments'
+    # "PLR0915", # Example: Ignore 'too many statements'
+]
+
+# Allow autofix for all enabled rules (use with caution and review changes).
+# You can specify specific rule codes instead of "ALL".
+# fixable = ["ALL"]
+# Alternatively, specify rules that should *not* be autofixed.
+# unfixable = []
+
+# You can ignore specific rules for specific files or directories.
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["SIM117", "S101"]  # Example: Allow 'assert' and magic values in tests
+# "__init__.py" = ["F401"] # Allow unused imports in __init__.py
+
+[tool.ruff.format]
+docstring-code-format = true # Format code examples in docstrings
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "coverage>=7.7.1",
+    "pytest>=8.3.5",
+    "ruff>=0.11.2",
+]

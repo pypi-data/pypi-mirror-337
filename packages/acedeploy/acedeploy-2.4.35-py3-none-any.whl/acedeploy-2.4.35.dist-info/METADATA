@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: acedeploy
+Version: 2.4.35
+Summary: Deployment framework for Snowflake DWH
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Dist: snowflake-connector-python (==3.12.2)
+Requires-Dist: gitpython (==3.1.42)
+Requires-Dist: jsonschema (==4.23.0)
+Requires-Dist: networkx (==3.2.1)
+Requires-Dist: regex (==2024.9.11)

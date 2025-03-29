@@ -1,0 +1,13 @@
+code_analyzer_b-0.1.4.dist-info/licenses/LICENSE,sha256=rwJv4EH8_KaBdCux5Ovalb1Y8mPjK-93E3Wz2S0Ws90,1093
+codeanalyzer/__init__.py,sha256=JMD28FXYHc_TM03visyUSd3UA9FZAaJMRStnfZoq50Y,21
+codeanalyzer/analyzer.py,sha256=cqCUr40HQ5qQwGIYzk-wwKdukq7w8h0tX18QCB21QlA,2857
+codeanalyzer/app.py,sha256=UYQAQkojuWHYHnx-duouvo6GehD86-76SQ5Qt3h_dzs,75
+codeanalyzer/cli.py,sha256=0X7EHyf1Z5J3rMYcgLcSSEqsh2F0HeIirSos2gi_YAE,3201
+codeanalyzer/config.py,sha256=976oYE7qv70uVCCR8LjzPyJoDqpwOGqFvQoVVkYZBT0,626
+codeanalyzer/deepseek.py,sha256=rgmfDDBAZ1ZraDx4-yT5KaFP5eqnM_2eJ-VDD6IJBk4,2722
+codeanalyzer/utils.py,sha256=nBIY_G00d8SOkeKQqXMLPo1aDrcnfx_16BurEs9RLjk,6494
+code_analyzer_b-0.1.4.dist-info/METADATA,sha256=FacIEHoyYzJ0RJWEvzE98ORK4cQim7TE5vwkrLyRWec,4026
+code_analyzer_b-0.1.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+code_analyzer_b-0.1.4.dist-info/entry_points.txt,sha256=GvKRFQzZ4GEzqMGA-yExGblWDpRgLTWHqjA-5oHhVgI,56
+code_analyzer_b-0.1.4.dist-info/top_level.txt,sha256=mTKjqbRxzBw1jL8h-zywdCM-w64lBdMQeD7dUqg2_rg,13
+code_analyzer_b-0.1.4.dist-info/RECORD,,

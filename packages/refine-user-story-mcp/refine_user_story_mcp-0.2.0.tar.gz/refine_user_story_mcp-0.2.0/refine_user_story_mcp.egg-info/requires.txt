@@ -1,0 +1,5 @@
+requests
+python-dotenv
+fastmcp
+langchain_groq
+langchain

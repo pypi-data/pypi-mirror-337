@@ -1,0 +1,105 @@
+# CodeMie Python SDK
+
+Python SDK for CodeMie services
+
+
+## Installation
+
+```sh
+pip install codemie-sdk
+```
+
+## Usage
+
+### Basic usage
+
+```python
+from codemie_sdk import CodeMieClient
+
+# Initialize client with authentication parameters
+client = CodeMieClient(
+    auth_server_url="https://keycloak.example.com",
+    auth_client_id="your-client-id",
+    auth_client_secret="your-client-secret",
+    auth_realm_name="your-realm",
+    codemie_api_domain="https://codemie-preview.lab.epam.com/code-assistant-api"
+)
+
+# Create a new workflow
+workflow = client.workflow.create('project-id', 'workflow-name', {'param': 'value'}, token=client.token)
+
+# Execute tool
+tool_result = client.tool.execute(
+    tool_name='my-tool',
+    project='project-id',
+    tool_args={'param': 'value'},
+    token=client.token
+)
+```
+
+### Tool Operations
+
+```python
+# List available tools
+tools = client.tool.list(token=client.token)
+
+# Get tool schema
+schema = client.tool.schema('tool-name', token=client.token)
+
+# Execute tool with optional parameters
+result = client.tool.execute(
+    tool_name='my-tool',
+    project='project-id',
+    tool_args={'param': 'value'},
+    token=client.token,
+    llm_model='gpt-4',  # optional
+    tool_attributes={'attr': 'value'},  # optional
+    tool_creds={'cred': 'secret'},  # optional
+    datasource_id='ds-123',  # optional
+    params={'retry_count': 3}  # optional
+)
+```
+
+### Workflow Operations
+
+```python
+# Create workflow
+workflow = client.workflow.create('project-id', 'workflow-name', {'param': 'value'}, token=client.token)
+
+# Get workflow status
+status = client.workflow.status('workflow-id', token=client.token)
+
+# List workflows
+workflows = client.workflow.list('project-id', token=client.token)
+
+# Get workflow result
+result = client.workflow.result('workflow-id', token=client.token)
+```
+
+## Development
+
+### Setup
+
+1. Create and activate virtual environment:
+```sh
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate     # Windows
+```
+
+2. Install dependencies:
+```sh
+pip install -r requirements.txt
+```
+
+### Running Tests
+
+```sh
+make test
+```
+
+### Building Package
+
+```sh
+make build
+```

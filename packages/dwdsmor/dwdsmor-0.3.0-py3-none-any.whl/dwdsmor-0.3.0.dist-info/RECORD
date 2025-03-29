@@ -1,0 +1,16 @@
+dwdsmor/__init__.py,sha256=gYC04_1CUyZZSAcpbV62A3Bs7dzSgC9hyNQYyZJ8Ynk,130
+dwdsmor/automaton.py,sha256=CWRFtjKcefhtN4BrVXAOoo4zwG3hQUKcw82HsTjkzcc,7538
+dwdsmor/cli.py,sha256=ui3ey7fjdcnfJK3k3MrOBI1VBO3EgZBUhV0BiM32reM,5086
+dwdsmor/log.py,sha256=4-kdENVe4VOsrXs-YNmmeVk9-Z-GpHOrh_OxAaXSlG8,295
+dwdsmor/spacy.py,sha256=11JYiyExdIrDB8wdifgsbZTIXXsZ4KBt1AjeapG4a2E,1424
+dwdsmor/traversal.py,sha256=QIg-Me5xQh7_zKyasC9vetPkZuXQo3xXEEG3XdEn4WI,2318
+dwdsmor/util.py,sha256=DoxgS97SHUTe_XnemCLoNoEKSghvxu8xvb_EXMcBygM,578
+dwdsmor/version.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+dwdsmor/tag/__init__.py,sha256=M5VjJRWvE5Vyv4tz6PPAyWcfxKd3wWIHTc_Vc3AMhjY,3709
+dwdsmor/tag/hdt.py,sha256=-MO-GsAlc4_fDPlaTd1OCwSopa_mT58rO1_h3QvYkPg,2689
+dwdsmor-0.3.0.dist-info/licenses/COPYING,sha256=7a72Msu2Q-TnoiFxemxEGkwafJGObk1W3rw9hzmyM_Y,17984
+dwdsmor-0.3.0.dist-info/METADATA,sha256=sj3KUmbiVQZ7W1Hob-yMmWdGX9Ih3g6RHcBZyAhLO7M,16935
+dwdsmor-0.3.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+dwdsmor-0.3.0.dist-info/entry_points.txt,sha256=_GxfEXWgcElYNTtQkrQfQyAWHyBccgMfmj0AUp15HfE,45
+dwdsmor-0.3.0.dist-info/top_level.txt,sha256=DwHRv9pyWIXzezrpzw_AnmpaQwegfb3T4kKkYu9V37w,8
+dwdsmor-0.3.0.dist-info/RECORD,,

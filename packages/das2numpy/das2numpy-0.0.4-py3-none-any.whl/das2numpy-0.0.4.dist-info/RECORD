@@ -1,0 +1,16 @@
+example.py,sha256=BFy9qqBtAxhk1mNeBq9L2AVYFV-Sk7iMxTUFyEqxYtY,1186
+das2numpy/__init__.py,sha256=L9A_nHlQC_jpcQpTfFpHPlulpik0gr3jzZUbxETj8kM,785
+das2numpy/__main__.py,sha256=SV579bnf2uddr71fNGoSabSH0PBEMFCP6DTp1D2rmVc,2832
+das2numpy/chunk.py,sha256=gylkZJYncsBP_suOlYNG8uEMYlodBfMPwYiYjxEKUZE,11423
+das2numpy/filefinder.py,sha256=v1FXHyVp3SvXcSDZCDSSa-i5TtiXPBfqfUHqUzkxTBU,4476
+das2numpy/test.py,sha256=UZ93sWuPoIYxpjHW7FBzWUZP4wi9LKGIZ48NOKXrZvo,5812
+das2numpy/utils.py,sha256=mwx0_RPv3TkjvlagA7y1VOkBN11FHWJOF4N93jnXZ5Y,6694
+das2numpy/setups/light_tdms_reader.py,sha256=0rWl56Sb-4h_6j5CmpJqUtPrW53nhdEE4N02mpqRVIQ,20909
+das2numpy/setups/optasense_b35idefix.py,sha256=MxYxSBNy6vZMMu6Is53o0xy6d_STatPqIKlhV2ukMwI,3329
+das2numpy/setups/optasense_b35idefix_fast.py,sha256=qanSrfXRnE6txdA8XAah-UUE819t2td97rFaBt6z31k,4087
+das2numpy/setups/silixa.py,sha256=-wPaxIP8oH8gDGDXPtxcCBXUNhEo6zNcswxo0GWXwSU,2822
+das2numpy-0.0.4.dist-info/licenses/LICENSE,sha256=va7uzkBxuvq1TlSHpdrjOEqKO8RAciSGbcR9Z55LoyU,35132
+das2numpy-0.0.4.dist-info/METADATA,sha256=m2nMHFP3-87u8OAszEreUp5CQbrnKA0MMWMUqcQ_syM,3403
+das2numpy-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+das2numpy-0.0.4.dist-info/top_level.txt,sha256=uJ4_X_a22JACdRAOHOcCqCtm8ciFMlWZ9om2zFQi9h4,18
+das2numpy-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,56 @@
+# This workflow runs when a tagged release is created or it is triggered manually.
+# For more information see:
+# - Python docs: https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+# - GitHub action: https://github.com/marketplace/actions/pypi-publish
+# - GitHub docs: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
+# The source distribution (sdist) is built with the `build` package
+# (https://pypa-build.readthedocs.io/en/stable/index.html).
+# The sdist is uploaded to:
+# - TestPyPI whenever the workflow is run
+# - PyPI when the current commit is tagged
+
+name: Upload Package to PyPI
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+       # IMPORTANT: this permission is mandatory for trusted publishing
+       id-token: write
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Sets up Python 3.13
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.13
+
+    - name: Install dependencies
+      run: |
+        pip install -U pip
+        pip install build
+
+    - name: Build package
+      run: |
+        python -m build
+        
+    - name: Publish package to TestPyPI
+      run: |
+        ls dist
+        
+    - name: Publish package to TestPyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      continue-on-error: false
+      with:
+        repository-url: https://test.pypi.org/legacy/
+        attestations: false
+
+    - name: Publish package to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        attestations: false

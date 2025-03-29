@@ -1,0 +1,134 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gm3dh5"
+dynamic = ["version"]
+description = "A lightweight interface for GrainMapper3D Results Files"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = []
+authors = [
+  { name = "Florian Bachmann", email = "fbachmann@xnovotech.com" },
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Intended Audience :: Science/Research",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "h5py",
+  "numpy",
+]
+
+[project.optional-dependencies]
+numba = [ 
+    "numba",
+]
+dragonfly = [
+  "h5py==2.10.0",
+  "numpy==1.19.5",
+  "numba==0.51.2",
+]
+doc = [
+    "scikit-image",
+    "matplotlib",
+    "docstring_parser",
+    "numpydoc",
+    "pydata-sphinx-theme",
+    "sphinx",
+    "sphinx-codeautolink",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "sphinx-gallery",
+]
+tests =[
+  "pytest",
+  "pytest-rerunfailures",
+  "pytest-xdist",
+  "pytest-cov",
+  "coverage2clover",
+]
+dev = [
+    "build",
+    "tests",
+    "gm3dh5[numba,doc]",
+]
+
+[project.urls]
+Documentation = "http://xnovotech.github.io/gm3dh5/"
+Issues = "https://github.com/xnovotech/gm3dh5/issues"
+Source = "https://github.com/xnovotech/gm3dh5"
+
+[tool.hatch.version]
+path = "src/gm3dh5/__about__.py"
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.hatch.build.targets.wheel]
+include = ["src/*"]
+exclude = ["src/*.py"]
+core-metadata-version = "2.3"
+
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/gm3dh5 tests}"
+
+[tool.coverage.run]
+source_pkgs = ["gm3dh5", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/gm3dh5/__about__.py",
+]
+
+[tool.coverage.paths]
+gm3dh5 = ["src/gm3dh5", "*/gm3dh5/src/gm3dh5"]
+tests = ["tests", "*/gm3dh5/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

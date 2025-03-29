@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75mm"
+   height="60mm"
+   viewBox="0 0 75 60"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="xnovocoordinates.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="mm"
+     inkscape:zoom="3.6451109"
+     inkscape:cx="165.70141"
+     inkscape:cy="40.465162"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid63307"
+       gridanglez="30"
+       gridanglex="0"
+       spacingy="0.5"
+       visible="true"
+       snapvisiblegridlinesonly="true"
+       enabled="true"
+       empspacing="5"
+       originx="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       id="marker12974"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path12972" />
+    </marker>
+    <marker
+       id="ExperimentalArrow"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke"
+         d="M 10,3 0,6 V 0 Z"
+         id="path12874" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path12648" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker12891"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path12889" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path12642" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 8.660254,30 H 48.964927 64.951905"
+       id="path67937"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker12974)"
+       d="M 34.641016,7.5 V 8.530806 14.454977 26.303318 38.151659 50"
+       id="path1331"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.72825px;line-height:2.84192px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+       x="37.009907"
+       y="33.791199"
+       id="text1723"><tspan
+         sodipodi:role="line"
+         id="tspan1721"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.72825px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+         x="37.009907"
+         y="33.791199">Sample X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+       x="38.884441"
+       y="18.704927"
+       id="text1723-1"><tspan
+         sodipodi:role="line"
+         id="tspan1721-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+         x="38.884441"
+         y="18.704927">Sample Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+       x="19.971186"
+       y="8.3172331"
+       id="text1723-9"><tspan
+         sodipodi:role="line"
+         id="tspan1721-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none"
+         x="19.971186"
+         y="8.3172331">Sample Z</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow)"
+       d="M 17.320508,30 H 51.961524"
+       id="path13252"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:;marker-start:url(#marker12974)"
+       d="M 51.961524,20 17.320508,40"
+       id="path17015"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="33.6991"
+       y="3.7764044"
+       id="text17668"><tspan
+         sodipodi:role="line"
+         id="tspan17666"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="33.6991"
+         y="3.7764044">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41031px;line-height:2.84192px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="50.77813"
+       y="33.791199"
+       id="text17668-1"><tspan
+         sodipodi:role="line"
+         id="tspan17666-2"
+         style="font-size:3.41031px;stroke-width:0.264583"
+         x="50.77813"
+         y="33.791199">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="55.393467"
+       y="18.704927"
+       id="text17668-6"><tspan
+         sodipodi:role="line"
+         id="tspan17666-26"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="55.393467"
+         y="18.704927">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="34.037766"
+       y="53.677269"
+       id="text18844"><tspan
+         sodipodi:role="line"
+         id="tspan18842"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="34.037766"
+         y="53.677269">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="14.577646"
+       y="42.3036"
+       id="text18844-6"><tspan
+         sodipodi:role="line"
+         id="tspan18842-9"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="14.577646"
+         y="42.3036">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;display:inline;stroke-width:0.264583"
+       x="16.592426"
+       y="33.791199"
+       id="text18844-3"><tspan
+         sodipodi:role="line"
+         id="tspan18842-5"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="16.592426"
+         y="33.791199">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+       x="8.6953268"
+       y="23.355698"
+       id="text41648"><tspan
+         sodipodi:role="line"
+         id="tspan41646"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="8.6953268"
+         y="23.355698">X-ray</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="8.6953268"
+         y="26.354774"
+         id="tspan68574">Source</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.07457;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect71216"
+       width="20.00001"
+       height="20"
+       x="65.000031"
+       y="57.500057"
+       rx="7.3853694e-06"
+       ry="6.3134607e-06"
+       transform="matrix(0.86602502,-0.50000066,0,1,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:2.93981px;font-family:Aleo;-inkscape-font-specification:Aleo;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="59.560066"
+       y="14.85025"
+       id="text41938"><tspan
+         sodipodi:role="line"
+         id="tspan41936"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'TeX Gyre Heros';-inkscape-font-specification:'TeX Gyre Heros';stroke-width:0.264583"
+         x="59.560066"
+         y="14.85025">Detector</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.537285;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect67390"
+       width="20.00001"
+       height="20"
+       x="65.000031"
+       y="57.500057"
+       rx="7.3853694e-06"
+       ry="6.3134607e-06"
+       transform="matrix(0.86602502,-0.50000066,0,1,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ExperimentalArrow)"
+       d="M 17.320508,30 H 51.961524"
+       id="path67817"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.275984;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.275984, 1.10394;stroke-dashoffset:0.55197;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect70157"
+       width="2.1108153"
+       height="1.206457"
+       x="9.4986649"
+       y="35.429054"
+       rx="1.0554076"
+       ry="2"
+       transform="matrix(0.82056046,-0.57155973,0,1,0,0)" />
+  </g>
+</svg>

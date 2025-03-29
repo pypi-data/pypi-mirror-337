@@ -1,0 +1,49 @@
+name: Sphinx Documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "doc/**"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "doc/**"
+  release:
+    types: [published]
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Pulls the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Sets up Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13
+      - name: Install dependencies
+        shell: bash -l {0}
+        run: |
+          pip install -U -e ".[numba,doc]"
+      - name: Build documentation
+        shell: bash -l {0}
+        run: |
+          cd doc
+          make clean
+          make html
+      - name: Publish documentation to gh-pages branch
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: doc/build/html/

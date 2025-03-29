@@ -1,0 +1,150 @@
+#########
+Version 1
+#########
+
+
+********************
+Groups and Data Sets
+********************
+
+Entries marked with \* are optional if selected during export.
+
+File Organization
+=================
+
+The GrainMapper3D Result File contains version information and is organized into 
+the following groups:
+
+.. container::
+   :name: tab:Version
+   
+   .. table:: Version Information
+
+      ================= ============= ============= ========
+      **Dataset**       **Data Type** **Dimension** **Unit**
+      ================= ============= ============= ========
+      ``/Version``      int32         1             
+      ``/Date``         string        varlen        
+      ================= ============= ============= ========
+
+
+
+.. container::
+   :name: tab:Groups
+   
+   .. table:: Groups
+
+      ================= ==============================================
+      **Groups**        **Description**
+      ================= ==============================================
+      ``/ProjectInfo``  Project Information
+      ``/AbsorptionCT`` Absorption Data
+      ``/LabDCT``       LabDCT Reconstruction
+      ``/PhaseInfo``    Phase information of the LabDCT Reconstruction
+      ================= ==============================================
+
+Groups
+======
+
+
+The ``/ProjectInfo`` Group
+--------------------------
+
+Meta data.
+
+.. container::
+   :name: tab:Recon
+
+   .. table:: 
+
+      =============================== ============= ============= ========
+      **Dataset**                     **Data Type** **Dimension** **Unit**
+      =============================== ============= ============= ========
+      ``/ProjectInfo/AbsorptionFile`` string        varlen        
+      ``/ProjectInfo/DCTFile``        string        varlen        
+      ``/ProjectInfo/ProjectFile``    string        varlen        
+      ``/ProjectInfo/Version``        string        varlen        
+      =============================== ============= ============= ========
+
+
+
+The ``/AbsorptionCT`` Group
+---------------------------
+
+.. container::
+   :name: tab:AbsorptionCT
+   
+   .. table:: Absorption Volume, may contain Acquisition Parameters
+      
+      ======================================= ============= ============= ========
+      **Dataset**                             **Data Type** **Dimension** **Unit**
+      ======================================= ============= ============= ========
+      ``/AbsorptionCT/Center``                double        3             mm
+      ``/AbsorptionCT/Data``                  uint16        Z x Y x X     
+      ``/AbsorptionCT/Extend``                double        3             mm
+      ``/AbsorptionCT/Spacing``               double        3             mm
+      ======================================= ============= ============= ========
+
+
+The ``/LabDCT`` Group
+---------------------
+
+.. container::
+   :name: tab:LabDCT
+
+   .. table:: LabDCT Volume, may contain Acquisition Parameters
+
+      ================================ ============= ============= ========
+      **Dataset**                      **Data Type** **Dimension** **Unit**
+      ================================ ============= ============= ========
+      ``/LabDCT/Center``               double        3             mm
+      ``/LabDCT/Extend``               double        3             mm
+      ``/LabDCT/Spacing``              double        3             mm
+      ``/LabDCT/Data/Completeness``    float         Z x Y x X     
+      ``/LabDCT/Data/GrainId``         int32         Z x Y x X     
+      ``/LabDCT/Data/PhaseId``         uint8         Z x Y x X     
+      ``/LabDCT/Data/Rodrigues``       float         Z x Y x X x 3 
+      ``*/LabDCT/Data/EulerZXZ``       float         Z x Y x X x 3 rad
+      ``*/LabDCT/Data/EulerZYZ``       float         Z x Y x X x 3 rad
+      ``*/LabDCT/Data/Quaternion``     float         Z x Y x X x 4 
+      ================================ ============= ============= ========
+
+
+Color Coding
+^^^^^^^^^^^^
+
+.. container::
+   :name: tab:IPFColor
+
+   .. table:: IPF color coded orientations
+      
+      ================================ ============= ============= ========
+      **Dataset**                      **Data Type** **Dimension** **Unit**
+      ================================ ============= ============= ========
+      ``*/LabDCT/Data/IPF001``         float / uint8 Z x Y x X x 3 RGB
+      ``*/LabDCT/Data/IPF010``         float / uint8 Z x Y x X x 3 RGB
+      ``*/LabDCT/Data/IPF100``         float / uint8 Z x Y x X x 3 RGB
+      ================================ ============= ============= ========
+
+
+The ``/PhaseInfo`` Group
+------------------------
+
+Phase Information is stored in the ``/PhaseInfo`` group and is linked with 
+to the ``/LabDCT/Data/PhaseId`` data set. The number encoded in the group name,
+e.g. ``/PhaseInfo/Phase01`` refers to all voxels with PhaseId==1.
+
+.. container::
+   :name: tab:PhaseInfo
+
+   .. table:: Phase Information, XX refers to the PhaseId (e.g., 01, 02 etc.)
+      
+      ============================================== ============= ============= ========
+      **Dataset**                                    **Data Type** **Dimension** **Unit**
+      ============================================== ============= ============= ========
+      ``/PhaseInfo/PhaseXX/FileName``                string        varlen        
+      ``/PhaseInfo/PhaseXX/Name``                    string        varlen        
+      ``/PhaseInfo/PhaseXX/SpaceGroup``              int32         1             
+      ``/PhaseInfo/PhaseXX/UnitCell``                double        6             Å,°
+      ``/PhaseInfo/PhaseXX/UniversalHermannMauguin`` string        varlen        
+      ============================================== ============= ============= ========

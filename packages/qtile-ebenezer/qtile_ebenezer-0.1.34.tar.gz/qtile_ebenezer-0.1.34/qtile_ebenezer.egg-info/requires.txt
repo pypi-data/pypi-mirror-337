@@ -1,0 +1,8 @@
+requests>=2.32.3
+qtile>=0.30.0
+pillow>=11.1.0
+psutil>=6.2.0
+ruamel.yaml>=0.17.0
+cairocffi>=1.7.1
+click>=8.0.0
+colorama>=0.4.6

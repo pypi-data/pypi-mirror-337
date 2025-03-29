@@ -1,0 +1,94 @@
+Metadata-Version: 2.4
+Name: explore-df
+Version: 0.1.13
+Summary: A one-line interactive EDA tool using Streamlit
+Author: Mandla Sibanda
+Author-email: Mandla Sibanda <mandla.sibanda@gmail.com>
+Project-URL: Homepage, https://github.com/MandlaSibanda196/explore-df
+Project-URL: Bug Tracker, https://github.com/MandlaSibanda196/explore-df/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.44.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: plotly>=5.14.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: statsmodels>=0.14.0
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: ruptures>=1.1.7
+Requires-Dist: wordcloud>=1.9.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: plotly-express>=0.4.0
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
+
+# Explore-DF
+
+📊 A powerful interactive Exploratory Data Analysis tool that launches a Streamlit interface for your pandas DataFrames with just one line of code.
+
+## Installation
+
+```bash
+pip install explore-df
+```
+
+## Quick Start
+
+```python
+import pandas as pd
+from explore_df import analyze
+
+# Load your data
+df = pd.read_csv('your_data.csv')  # or any pandas DataFrame
+
+# Launch the EDA interface
+analyze(df)
+```
+
+That's it! The tool will automatically:
+1. Launch a Streamlit server
+2. Open your default web browser to the EDA interface
+3. Display interactive visualizations and analysis of your data
+
+## Features
+
+- 🚀 **One-Line Setup**: Just `analyze(df)` to start exploring
+- 📊 **Interactive Visualizations**: Dynamic charts and plots
+- 🔍 **Data Quality Analysis**:
+  - Missing values detection
+  - Outlier analysis
+  - Data type validation
+  - Consistency checks
+- 📈 **Automated Insights**:
+  - Distribution analysis
+  - Correlation detection
+  - Time series patterns
+  - Text analysis
+- 💡 **Smart Suggestions**: Get recommendations for data cleaning and transformation
+
+## Advanced Usage
+
+```python
+from explore_df import analyze
+
+# Specify a custom port
+analyze(df, port=8502)
+```
+
+## Requirements
+
+- Python 3.9+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE) 

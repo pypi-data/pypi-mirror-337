@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+searcherator/__init__.py
+searcherator/searcherator.py
+searcherator.egg-info/PKG-INFO
+searcherator.egg-info/SOURCES.txt
+searcherator.egg-info/dependency_links.txt
+searcherator.egg-info/requires.txt
+searcherator.egg-info/top_level.txt

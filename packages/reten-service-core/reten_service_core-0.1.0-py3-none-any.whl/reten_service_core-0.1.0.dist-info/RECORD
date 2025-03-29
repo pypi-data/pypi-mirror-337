@@ -1,0 +1,15 @@
+reten_service_core/__init__.py,sha256=1IkKd9NBvBZsI0rOZ2K5fFubTGf6gaYpSAPmSX1nPmU,217
+reten_service_core/auth/__init__.py,sha256=OJTMA0Md0ijZF4HjwBJCDgH0Dz0KQN8xj2U_6iyktkc,399
+reten_service_core/auth/api_key.py,sha256=w_TTE7whLSCFnzrY4CrrwJDU73S152n061JLB_AXTag,7068
+reten_service_core/auth/exceptions.py,sha256=h1h35w94sDNxJ2ohD_9QKPmrZsrQ7YTn5HJuZQKYVA8,3187
+reten_service_core/core/__init__.py,sha256=Tsuhz2UgjZwRJsgJzckXYxxnUwUQGayYZD40byayLSs,107
+reten_service_core/core/settings.py,sha256=8_Q6u7xpsXkS4uHlngSizqtYxRfVMZomwzLhvGo7FBo,1766
+reten_service_core/logging/__init__.py,sha256=exYe4gYmltIaBT-fR_bxae1J_tP-yWTsqSvN-cB2B7w,96
+reten_service_core/logging/config.py,sha256=K6TnFl8dvGpH-2VL4AlAcPO6C6r66VTE9jZA_DZgy-Y,6424
+reten_service_core/storage/bigquery/README.md,sha256=F3y0z0DeE_TrWp3lh7P7cwTpLmvJyPkT9klLziM5kek,2793
+reten_service_core/storage/bigquery/__init__.py,sha256=CLW9V-YLVwcjh4HiZok0s2JLlGxCiMmrAM4MJEBZfUs,180
+reten_service_core/storage/bigquery/client.py,sha256=FdR2yk-YrSge969Rbtc3blDVsur8rg6A-pjQWxJjJ3k,6267
+reten_service_core-0.1.0.dist-info/METADATA,sha256=4nRL7XErGa4rBxQQE-D3HE8hjImAa6IBewpd7I0Q8sk,4296
+reten_service_core-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+reten_service_core-0.1.0.dist-info/licenses/LICENSE,sha256=0j4YDoqptYXRD-Tobl3mU_Wdf_KXbkhI1VQwXXaCwOg,1065
+reten_service_core-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+README.md
+setup.py
+agentmon/__init__.py
+agentmon.egg-info/PKG-INFO
+agentmon.egg-info/SOURCES.txt
+agentmon.egg-info/dependency_links.txt
+agentmon.egg-info/top_level.txt

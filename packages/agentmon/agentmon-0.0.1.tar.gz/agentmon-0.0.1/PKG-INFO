@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: agentmon
+Version: 0.0.1
+Summary: AI Agent Monitoring SDK
+Home-page: https://github.com/Streamize-llc/agentmon
+Author: streamize
+Author-email: admin@streamize.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# agentmon 🚀

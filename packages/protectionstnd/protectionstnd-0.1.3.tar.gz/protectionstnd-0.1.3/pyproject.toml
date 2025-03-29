@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "protectionstnd"
+version = "0.1.3"
+authors = [
+    {name = "Alejandro Martinez", email = "aegloszenit@protonmail.com"}
+]
+description = "Security Protections, from sql injection to country specific protections"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+]
+url = "https://github.com/zenitaeglos/protectionstnd.git"
+license = "MIT"
+
+readme = "README.md"
+
+[metadata]
+name = "protectionstnd"
+version = "0.1.3"
+description = "Security Protections, from sql injection to country specific protections"
+authors = [{name = "Alejandro Martinez", email = "aegloszenit@protonmail.com"}]
+license = "MIT"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]

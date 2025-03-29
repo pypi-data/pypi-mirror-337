@@ -1,0 +1,18 @@
+[project]
+name = "demo_project_28_03_2025"
+version = "0.0.1"
+authors = [
+    { name="Thomas Benkenstein", email="thomas.benkenstein@experteach.de" },
+]
+description = "Demonstration PyPI Upload"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0.0",
+    "pandas",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Multimedia :: Video",
+]

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+demo_project_28_03_2025.egg-info/PKG-INFO
+demo_project_28_03_2025.egg-info/SOURCES.txt
+demo_project_28_03_2025.egg-info/dependency_links.txt
+demo_project_28_03_2025.egg-info/requires.txt
+demo_project_28_03_2025.egg-info/top_level.txt
+test_paket/__init__.py
+test_paket/modul1.py
+test_paket/modul2.py

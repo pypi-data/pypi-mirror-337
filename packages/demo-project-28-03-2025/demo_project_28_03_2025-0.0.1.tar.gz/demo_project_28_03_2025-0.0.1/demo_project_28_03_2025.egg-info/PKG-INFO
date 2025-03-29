@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: demo_project_28_03_2025
+Version: 0.0.1
+Summary: Demonstration PyPI Upload
+Author-email: Thomas Benkenstein <thomas.benkenstein@experteach.de>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: pandas
+
+# Demonstrations-Paket
+
+Eine kleine Demonstration, wie man ein Paket auf den Python-Package-Index (PyPI)
+hochlädt.

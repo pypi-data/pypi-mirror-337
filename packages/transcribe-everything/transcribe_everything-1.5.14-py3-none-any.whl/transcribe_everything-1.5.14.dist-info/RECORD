@@ -1,0 +1,9 @@
+transcribe_everything/__init__.py,sha256=esBVmVRQeyqXIK5-WSQWlxLHKAIaf-3vMk4ZZLkhTd0,50
+transcribe_everything/cli.py,sha256=dibfAZIh0kXWsBbfp3onKLjyZXo54mTzDjUdzJlDlWo,231
+transcribe_everything/assets/example.txt,sha256=lTBovRjiz0_TgtAtbA1C5hNi2ffbqnNPqkKg6UiKCT8,54
+transcribe_everything-1.5.14.dist-info/licenses/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+transcribe_everything-1.5.14.dist-info/METADATA,sha256=9jUX6BeGF67sdCdFb8YfFK-QOGVMjQKE4Cig2PVxiPE,1418
+transcribe_everything-1.5.14.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+transcribe_everything-1.5.14.dist-info/entry_points.txt,sha256=8pvmRGDQ9x8KGTs5OjVHEN8XgNFmhGBAyMuREP5uioM,73
+transcribe_everything-1.5.14.dist-info/top_level.txt,sha256=FoRja8JSyiH0DAi3aCCsBmbfx2qmXYN_hjT5WVt5Gmo,22
+transcribe_everything-1.5.14.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+pytest
+pytest-cov
+flake8
+mypy
+Sphinx
+sphinx-autodoc-typehints
+
+[testing]
+pytest
+pytest-cov

@@ -1,0 +1,142 @@
+Filgood
+-------
+
+“fil” came from the arabic transliteration (فيل) - meaning elephant!
+
+Utility to populate a database only knowing the actual schemas. This program only operate with Postgres.
+Sufficient right will be required (SCHEMA CREATE / TABLE CREATE & Inspect pg_catalog).
+
+The library require asyncio. We are bound to the asyncpg connector, and we support no other connector for the time being.
+
+## Quick start
+
+### Using the CLI
+
+FilGood come with a CLI! It is really easy to use, for your convenience.
+
+```
+$ filgood -h
+usage: filgood [-h] [-i INCREASE] [-s SCHEMA] [-t TABLE] [--no-cache] [--skip-empty] [-v] database
+
+LLM agent for filling a database with fake records
+
+positional arguments:
+  database              Postgres database DSN to be used
+
+options:
+  -h, --help            show this help message and exit
+  -i INCREASE           Percentage increase or flat row count target for data injection
+  -s SCHEMA, --schema SCHEMA
+                        Target a specific schema
+  -t TABLE, --table TABLE
+                        Target a specific table
+  --no-cache            Disable the cache (LLM)
+  --skip-empty          Skip empty table
+  -v, --verbose         Enable advanced debugging
+```
+
+For example, running: `filgood postgres://postgres:postgres@localhost:5555/postgres -i 1000`
+will increase every table by a thousand records!
+
+Or, running: `filgood postgres://postgres:postgres@localhost:5555/postgres -i 300%`
+will increase every table by adding three times more records.
+
+### Starting code
+
+Here is a minimal code snippet to get started. This will increase by 300% (or 3 times the current amount of rows) every
+detected tables in every accessible schemas.
+
+```python
+import asyncio
+
+from filgood import DatabaseFaker, GrowthStrategy
+
+async def main() -> None:
+    async with DatabaseFaker(
+        "postgres://postgres:postgres@localhost/tracktor",
+        openai_key="sk-proj-gm...",  # either provide the key here or set OPENAI_API_KEY environment variable first.
+    ) as db_faker:
+        await db_faker.load(
+            strategy=GrowthStrategy.BY_PERCENT_INCREASE,
+            increase=300,
+        )
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+### Exclude schemas
+
+Don't worry, we already excluded system schemas. Moreover, you may also exclude some schemas yourself.
+
+```python
+from filgood import DatabaseFaker
+
+async def main() -> None:
+    async with DatabaseFaker(
+        "postgres://postgres:postgres@localhost/tracktor",
+        excluded_schemas=["sensible_schema_a", "useless_schema_b",]  # you get the idea!
+    ) as db_faker:
+        ...
+```
+
+### Focusing on schema or table or both
+
+Here's how to keep focused on a target schema:
+
+```python
+from filgood import DatabaseFaker
+
+async def main() -> None:
+    async with DatabaseFaker(
+        "postgres://postgres:postgres@localhost/tracktor",
+    ) as db_faker:
+        await db_faker.load(target_schema="xyz")
+```
+
+And now a specific table without a specific schema:
+
+```python
+from filgood import DatabaseFaker
+
+async def main() -> None:
+    async with DatabaseFaker(
+        "postgres://postgres:postgres@localhost/tracktor",
+    ) as db_faker:
+        await db_faker.load(target_table="abc")
+```
+
+Of course, you may set both `schema` and `table` to ensure a really specific case.
+
+## Caching
+
+In order to avoid depleting your OpenAI API credit, we made a tiny caching layer that just works.
+You can expect the bare minimum amount of requests to OpenAI! Feel free to inspect at will the generated
+cache file that should be named `.filgood.json` in your pwd or $HOME (via CLI).
+
+## Performance
+
+You may increase at any time the database pool connection by setting the `database_pool_size` parameter.
+
+```python
+from filgood import DatabaseFaker
+
+async def main() -> None:
+    async with DatabaseFaker(
+        "postgres://postgres:postgres@localhost/tracktor",
+        database_pool_size=100,
+    ) as db_faker:
+        await db_faker.load(target_table="abc")
+```
+
+## Warnings / Disclaimers
+
+That's the tough section, unfortunately not everything "automagic" is pretty inside.
+Here is some of our warnings about this:
+
+- FilGood does not watch for the remaining disk space left on your device. Don't go south with the row insertions!
+- We rely on a LLM codegen, and we trust the given generated code blindly. It would be wise to only use a provider/model you know is guarded by a trusted third party.
+- The RAM usage may spike depending on your initial request.
+- Can often fail on really complex databases. We did our best.
+
+We think that you get the general idea. Be careful. It's a nice proof of concept, but we shouldn't expect too much out of it.

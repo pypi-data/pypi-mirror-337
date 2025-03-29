@@ -1,0 +1,10 @@
+litejesd204b/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+litejesd204b/common.py,sha256=pPOnFJ8c9YEVTFbLv978TIsaeZtZjynvjqgD6lIxX0c,6169
+litejesd204b/core.py,sha256=OMuB-X_Q6a3sIpiV82gFLIj4koZzcjuyz3ucvF3sdHM,15008
+litejesd204b/link.py,sha256=owzI7ARebN69zT8_Vgu52t4CuoGw2atFL6cmSPSbAqY,23720
+litejesd204b/transport.py,sha256=AJm8WIGdsqLdnOO8x1GJUVsy4dkNd-Cp1JaqgL8zIPA,8123
+litejesd204b-2024.12.dist-info/licenses/LICENSE,sha256=GYMjSsX7hZ8TEVlVcWmi--ywn9Ur-iuZifef-KLjaHE,1687
+litejesd204b-2024.12.dist-info/METADATA,sha256=Vhv2wgm7Ew_zD-HSUJpG5pCDXpr63p8RESqM3J8uyr0,5208
+litejesd204b-2024.12.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+litejesd204b-2024.12.dist-info/top_level.txt,sha256=AQq62icXk3ye9SnrNNqFaEXOLp8cukDRv8tdipIcpHg,13
+litejesd204b-2024.12.dist-info/RECORD,,

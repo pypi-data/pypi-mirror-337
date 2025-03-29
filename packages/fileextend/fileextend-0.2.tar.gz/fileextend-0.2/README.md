@@ -1,0 +1,77 @@
+# FileExtension
+## Stworzenie pełnej ścieżki
+
+```python
+from fileextend import mkdir_full
+
+mkdir_full('a/b/c/d/e')
+```
+
+## Pobranie liczby znaków z pliku
+Umożliwia także wyliczanie liczby znaków dla dużyc plików za pomocą chunków
+> Drugi parametr określa rozmar chunka w MB, domyślnie 5MB
+
+```python
+from fileextend import file_get_length
+
+print(file_get_length('/file/path.txt', 50))
+```
+
+## Wyliczenia hash sha256 dla pliku
+> Drugi parametr określa rozmar chunka w MB, domyślnie 5MB
+
+```python
+from fileextend import file_get_sha256
+
+print(file_get_sha256('/file/path.txt'))
+```
+
+## Tworzenie pliku
+```python
+from fileextend import touch
+
+touch('/path/to/file', 'content')
+```
+
+## Has json content
+```python
+from fileextend import has_json_content
+
+print(has_json_content('/path/to/file'))
+```
+
+# Operowanie na pliku
+```python
+from fileextend.file import File
+
+file = File('test.txt') # open file
+file.set_type('string') # content ype (string/byte), default string
+file.set_encoding('utf-8') # content encoding, default utf-8
+file.touch('content') # create file (if not exists)
+file.append('content') # append to file
+
+print(file.get_length()) # get content length
+print(file.get_hash_sha256()) # get sha256 hash
+```
+
+# Tar
+## Is valid tar file
+```python
+from fileextend.tar import is_valid_tar
+
+print(is_valid_tar('/path/to/file.tar'))
+```
+
+## Extract tar file
+```python
+from fileextend.tar import extract_tar_file
+
+print(extract_tar_file('/tar/path', '/tar/file'))
+```
+
+## List files from tar
+```python
+from fileextend.tar import list_files_from_tar
+
+print(list_files_from_tar('/path/to/file.tar'))
+```

@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+kubed/__init__.py
+kubed/cli.py
+kubed.egg-info/PKG-INFO
+kubed.egg-info/SOURCES.txt
+kubed.egg-info/dependency_links.txt
+kubed.egg-info/entry_points.txt
+kubed.egg-info/requires.txt
+kubed.egg-info/top_level.txt
+kubed/aliases/aliases.sh
+kubed/aliases/help_wrapper.sh
+kubed/completions/bash/bash_completions.sh
+kubed/completions/zsh/zsh_completions.sh

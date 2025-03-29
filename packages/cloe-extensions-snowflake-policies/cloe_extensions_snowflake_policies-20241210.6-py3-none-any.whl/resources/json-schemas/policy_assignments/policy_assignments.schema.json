@@ -1,0 +1,30 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "Policy Assignments: JSON-Schema",
+    "uniqueItems": true,
+    "additionalProperties": false,
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "title": "The json schema for this file."
+        },
+        "column_masking_policies": {
+            "additionalProperties": false,
+            "patternProperties": {
+                "^.*$": {
+                    "$ref": "column_masking_policies.schema.json"
+                }
+            }
+        },
+        "row_access_policies": {
+            "additionalProperties": false,
+            "patternProperties": {
+                "^.*$": {
+                    "$ref": "row_access_policies.schema.json"
+                }
+            }
+        }
+    }
+}

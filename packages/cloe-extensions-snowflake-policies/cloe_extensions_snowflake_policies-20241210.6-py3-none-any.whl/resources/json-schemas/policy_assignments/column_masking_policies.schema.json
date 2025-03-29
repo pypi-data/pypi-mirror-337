@@ -1,0 +1,26 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Column Masking Policies",
+    "description": "",
+    "type": "object",
+    "uniqueItems": true,
+    "additionalProperties": false,
+    "properties": {
+        "annotations": {
+            "type": "object"
+        },
+        "table_columns": {
+            "type": "object"
+        },
+        "view_columns": {
+            "type": "object"
+        },
+        "tags": {
+            "type": "array"
+        },
+        "dynamictable_columns": {
+            "type": "object"
+        }
+    }
+}

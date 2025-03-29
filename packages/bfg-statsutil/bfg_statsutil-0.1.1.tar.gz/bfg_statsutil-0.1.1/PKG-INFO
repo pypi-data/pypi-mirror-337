@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: bfg-statsutil
+Version: 0.1.1
+Summary: A simple library for sending metrics directly to Datadog without requiring an agent installation
+Author-email: Lei Zhao <8961794+leizha@users.noreply.github.com>
+Requires-Python: >=3.13
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+Typically, sending metrics to Datadog requires installing a Datadog agent on the same host as your service. This library provides a simpler alternative, allowing you to send metrics directly to Datadog without an agent installation. It offers basic support for counters and gauges.
+
+```python
+from statsutil import Stats
+
+stats = Stats(site="US3", api_key='123123123123')
+
+stats.inc("counter1")
+stats.gauge("gauge1", 10)
+```

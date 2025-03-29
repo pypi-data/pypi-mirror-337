@@ -1,0 +1,8 @@
+tg_auth/__init__.py,sha256=HXh_7LHMGwTVpzymmZUhBGNakkd1JKQAe7iywhGFwYU,903
+tg_auth/backend.py,sha256=b1KBxaF0okENVmMoXv92ZtmWa9sJfHQ-5ly1O0voM18,943
+tg_auth/models.py,sha256=cxuh-uvkFj7xZ0mfFIpj9SWJB3qKp_NvZeSAorIDqn4,1073
+tg_auth/router.py,sha256=3isayLJYaCao6Zo66Ko0pwtGrGS50TP2CyKc400oX1Y,2875
+xtg_auth-0.0.19.dist-info/METADATA,sha256=xeyO-K5XKjdSApDrKth4ACkBer06-3cOAutrHqYktYY,1942
+xtg_auth-0.0.19.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+xtg_auth-0.0.19.dist-info/top_level.txt,sha256=3olChFz3Y9lUypWmX58oOSemNFGIVNxUtf-JiGk6cas,8
+xtg_auth-0.0.19.dist-info/RECORD,,

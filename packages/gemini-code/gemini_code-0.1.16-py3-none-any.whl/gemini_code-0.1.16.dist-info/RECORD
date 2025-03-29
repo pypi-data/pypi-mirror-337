@@ -1,0 +1,16 @@
+gemini_cli/__init__.py,sha256=4nR-HQ56iWV4ZAQACG_2BvScrMA4OIUYdReJ074nlB8,110
+gemini_cli/config.py,sha256=DiQJMzUtQu5tkFtPw2pGhv1CrnFPUn9NzDbt4TpMXUI,2541
+gemini_cli/main.py,sha256=zXAh-CMpdf_pxlNj0m4gdzopGnqUIhoLt7-rqJmZt-U,7116
+gemini_cli/utils.py,sha256=fPmaS8Hi6trX8lhuqu52as-ljf3rJhXY0P6QZBmu52A,538
+gemini_cli/models/__init__.py,sha256=kAwbc5L-2gfCPfUN29gZ2BKtSnA8fPm4A-PjWRvgHGg,53
+gemini_cli/models/gemini.py,sha256=8vLuqIEaZcszXx5IzSOpYgwswXET0AIxq1PxDG2gEus,16656
+gemini_cli/tools/__init__.py,sha256=sizZKPd64tg-ol2FPFv_cy_wInKOiP5Dsvt3RTXoWf4,890
+gemini_cli/tools/base.py,sha256=sP-PyMXsEpAOo-gzCtm7tjWGcga0s7_yta_dYZ83OxE,2068
+gemini_cli/tools/file_tools.py,sha256=n-k8tDizmHdSCeypUawyMJlU7GzmS_ok4Gi9nYEAw7k,10608
+gemini_cli/tools/system_tools.py,sha256=asFTclStyoF4Ops1mItuwkkicw0gANvDOnn_OcrN_go,2213
+gemini_cli/tools/web_tools.py,sha256=K87d6fCTrLvcR8pqU1Fd-hDomtzFNm_6oSQ-k4zduOo,2487
+gemini_code-0.1.16.dist-info/METADATA,sha256=EAxNeINN3NtNdBYczeuCza2yT8l12L2RWrQ3umG0xEI,3826
+gemini_code-0.1.16.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+gemini_code-0.1.16.dist-info/entry_points.txt,sha256=8B0UlDNIge01zl1gRuKogyemHtxiBBWb8N1lSlkGsJU,47
+gemini_code-0.1.16.dist-info/top_level.txt,sha256=SRsqiKyD15llWPipzbeaivAzk2CXqZJTf1QDwaxFOgg,11
+gemini_code-0.1.16.dist-info/RECORD,,

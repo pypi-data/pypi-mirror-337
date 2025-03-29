@@ -1,0 +1,8 @@
+db_delta/__init__.py,sha256=sBBiO_dSozE0h4yXxqs5aICeABxvuswBxmMI64pO_D0,147
+db_delta/models.py,sha256=NGgqQxZoV8K35g3iMOdOSH57HpbCShHgiAP6tkHxCkE,3961
+db_delta/validate.py,sha256=rzrwc1o_j-MoefcNYVjn-_LedvHDmLYZGTJk7P5ziuw,11776
+db_delta-1.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+db_delta-1.0.3.dist-info/METADATA,sha256=MPD4FD2sgv6VubIxQ05nek2STOVgSC6HyWRMJVHH0tM,14227
+db_delta-1.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+db_delta-1.0.3.dist-info/top_level.txt,sha256=eG13fwCWFNHeqeVe4zD8FifmJMKeoE_-D1mx7YiZ8Jw,9
+db_delta-1.0.3.dist-info/RECORD,,

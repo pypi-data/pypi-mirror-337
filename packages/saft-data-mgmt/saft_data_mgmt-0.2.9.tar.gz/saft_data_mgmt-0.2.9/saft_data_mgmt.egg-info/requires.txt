@@ -1,0 +1,10 @@
+SQLAlchemy>=1.4
+PyYAML
+ib_insync
+python-dotenv>=0.21.1
+twine>=4.0.2
+build>=1.1.1
+
+[dev]
+twine>=4.0.2
+build

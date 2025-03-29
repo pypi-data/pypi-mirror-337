@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/J4useragent/J4useragent.py
+src/J4useragent/__init__.py
+src/J4useragent.egg-info/PKG-INFO
+src/J4useragent.egg-info/SOURCES.txt
+src/J4useragent.egg-info/dependency_links.txt
+src/J4useragent.egg-info/top_level.txt

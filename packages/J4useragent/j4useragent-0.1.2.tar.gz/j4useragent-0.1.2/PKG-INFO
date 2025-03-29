@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: J4useragent
+Version: 0.1.2
+Summary: Generator User-Agent untuk berbagai perangkat
+Home-page: https://github.com/Fajarrrrky/J4useragent
+Author: Saepul Fajar
+Author-email: s.fajar.id@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# J4useragent
+
+J4useragent adalah pustaka Python untuk menghasilkan User-Agent yang realistis untuk berbagai merek dan model perangkat Android.
+
+## Instalasi
+
+Gunakan pip untuk menginstal paket ini:
+```sh
+pip install J4useragent
+```
+
+## Penggunaan
+
+```python
+from J4useragent import GenerateUseragent
+
+# Inisialisasi objek GenerateUseragent
+os = GenerateUseragent()
+
+# Menghasilkan User-Agent chrome dari sistem
+ua = os.chromeuseragent(system=True)
+print(ua)
+
+# Menghasilkan User-Agent chrome dari sistem
+ua = os.chromeuseragent()
+print(ua)
+
+# Menghasilkan User-Agent Facebook dari sistem
+ua = os.facebookuseragent(system=True)
+print(ua)
+
+# Menghasilkan User-Agent Facebook secara acak
+ua = os.facebookuseragent()
+print(ua)
+
+# Menghasilkan User-Agent instagram app dari sistem
+ua = os.instagramuseragent(system=True)
+print(ua)
+
+# Menghasilkan User-Agent Instagram app secara acak
+ua = os.instagramuseragent()
+print(ua)
+```
+
+## Fitur
+- Menghasilkan User-Agent Chrome
+- Menghasilkan User-Agent Facebook
+- Menghasilkan User-Agent Instagram 
+- Mendukung berbagai merek dan model perangkat
+- Dapat mengambil informasi perangkat dari sistem
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).

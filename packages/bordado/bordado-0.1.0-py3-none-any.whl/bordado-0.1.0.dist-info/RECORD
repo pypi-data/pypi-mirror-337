@@ -1,0 +1,14 @@
+bordado/__init__.py,sha256=3pwoT_Qkgh3PNieyg0_0RVh1VtEmkyleLNMbuCcbBck,705
+bordado/_coordinates.py,sha256=a3jF8Mkth5LV8xMWJFlKK16t5xk6RAG7D3CJpCkELbI,1230
+bordado/_grid.py,sha256=8ugc_Nw0Z35IfluMJvfuBUjK8NRpuAuNbVBWbvzfowQ,11466
+bordado/_line.py,sha256=FgmWUZ3vRJsaXI68sJ40XGrHJs2eFiPE43iqZ-XUK1M,6730
+bordado/_random.py,sha256=uxHMNnFK-tNRL0YCparSpzE-XuftEJ2IrJwTvnPZne0,5007
+bordado/_region.py,sha256=pSx1mKoULJUjqTO9QQkpNhw6MJxYUhU5bbw7s2Eu7Nw,7980
+bordado/_split.py,sha256=pJzuP2sHi3Shkt6nadUNsL_SMQKNyIXheuJSN2Iqlsc,17361
+bordado/_version.py,sha256=-LyU5F1uZDjn6Q8_Z6-_FJt_8RE4Kq9zcKdg1abSSps,511
+bordado-0.1.0.dist-info/licenses/AUTHORS.md,sha256=nn9Kv0G97edR6TPyHNfhjlBTAeDfxIQsRfHcil3tMQA,321
+bordado-0.1.0.dist-info/licenses/LICENSE.txt,sha256=VrFLwIqH6SsqlnTsJ4U-qFFbgLeIFZfQGkMZaMSY8E8,1497
+bordado-0.1.0.dist-info/METADATA,sha256=aYcg_GXNPX3DVdUj0y-BjUHHmAgaCv5rhqDOGBpYwPY,5419
+bordado-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bordado-0.1.0.dist-info/top_level.txt,sha256=QAy3dX_heufspKiPSG9LkHw3us95SCc4VT45FoQzCLs,8
+bordado-0.1.0.dist-info/RECORD,,

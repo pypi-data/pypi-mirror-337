@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: J4useragent
+Version: 0.1.0
+Summary: Generator User-Agent untuk berbagai perangkat
+Home-page: https://github.com/Fajarrrrky/J4useragent
+Author: Saepul Fajar
+Author-email: s.fajar.id@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sharptools/__init__.py
+sharptools/hlavni.py
+sharptools.egg-info/PKG-INFO
+sharptools.egg-info/SOURCES.txt
+sharptools.egg-info/dependency_links.txt
+sharptools.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: jobinformation
+Version: 1.0.0
+Summary: This tool extracts useful information about scheduled jobs.
+Author-email: Mohammad Zandsalimy <mohammad.91225@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ahama92/jobinformation
+Project-URL: Bug Tracker, https://github.com/ahama92/jobinformation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cowpy>=1.1.5
+Dynamic: license-file
+
+# Goal
+- This tool extracts useful information about scheduled jobs.
+
+# Installation Method 1 (Recommended)
+```
+pip install jobinformation
+```

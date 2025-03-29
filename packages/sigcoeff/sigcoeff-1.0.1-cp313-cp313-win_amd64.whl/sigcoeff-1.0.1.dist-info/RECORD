@@ -1,0 +1,11 @@
+cython_backend.cp313-win_amd64.pyd,sha256=1huBhnJHtushLKvbHmvbSOVBDD_1RiVfAPQsq9iUp7U,164352
+sigcoeff/__init__.py,sha256=I31pmaozjI1qnGRW5sjefaLpREkcd43zudIJ3NNscwg,82
+sigcoeff/cuda_backend.py,sha256=KrxqWgUeM6TKGy6Wmobhc43hG2hOzHa7zAvEZHWxXEI,15201
+sigcoeff/cython_backend.c,sha256=Y8Bc2f22gxmCyXFNC570lH8K2bEUUIYjK2eaiasLoKQ,1101192
+sigcoeff/cython_backend.pyx,sha256=vQ2_9H08M56nF187YiEbL314TSbWYwZlweADp4lAFOA,5948
+sigcoeff/sigcoeff.py,sha256=prmr9_Ifo9_hSuW7ZZKJEua85M-CUWE9lgXjhGvCImE,7489
+sigcoeff-1.0.1.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sigcoeff-1.0.1.dist-info/METADATA,sha256=X6uz5pAHqju0Nhp0941uThObZPSp32Uj141nKjwG91Y,4166
+sigcoeff-1.0.1.dist-info/WHEEL,sha256=6WoW_bHwIgUwfRGomr3tsp2x5B1WboZF1vodYe1_93Y,101
+sigcoeff-1.0.1.dist-info/top_level.txt,sha256=JteJT7Mfy4pEWMsnyOirCXbaSZmKwUwgH1u4qLMa0NY,24
+sigcoeff-1.0.1.dist-info/RECORD,,

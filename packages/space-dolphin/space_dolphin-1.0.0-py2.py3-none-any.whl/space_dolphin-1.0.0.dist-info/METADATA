@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: space-dolphin
+Version: 1.0.0
+Summary: Automated pipeline for lens modeling based on lenstronomy
+Home-page: https://github.com/ajshajib/dolphin
+Author: Anowar Shajib
+Author-email: Anowar Shajib <ajshajib@gmail.com>
+License: MIT license
+Project-URL: Homepage, https://github.com/ajshajib/dolphin
+Keywords: dolphin,lenstronomy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python

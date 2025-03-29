@@ -1,0 +1,14 @@
+{
+    "options": {
+        "abort": {
+            "unsupported_firmware": "The radio firmware on your {model} could not be determined. Make sure that no other integration or addon is currently trying to communicate with the device."
+        },
+        "step": {
+            "main_menu": {
+                "menu_options": {
+                    "firmware_settings": "Switch between Zigbee or Thread firmware."
+                }
+            }
+        }
+    }
+}

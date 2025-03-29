@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "outlet": {
+            "name": "Socket"
+        }
+    },
+    "services": {
+        "toggle": {
+            "description": "Toggles a switch on/off."
+        },
+        "turn_off": {
+            "description": "Turns a switch off."
+        },
+        "turn_on": {
+            "description": "Turns a switch on."
+        }
+    }
+}

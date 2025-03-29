@@ -1,0 +1,12 @@
+[project]
+name = "flux-mcp-server"
+version = "0.1.0"
+description = "a demo call bailian api by sdk with flux model genetate image"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dashscope>=1.22.2",
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]

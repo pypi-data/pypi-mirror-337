@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+flux_mcp_server.egg-info/PKG-INFO
+flux_mcp_server.egg-info/SOURCES.txt
+flux_mcp_server.egg-info/dependency_links.txt
+flux_mcp_server.egg-info/requires.txt
+flux_mcp_server.egg-info/top_level.txt

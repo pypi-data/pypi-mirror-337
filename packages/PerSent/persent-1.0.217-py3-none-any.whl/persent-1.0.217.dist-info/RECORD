@@ -1,0 +1,12 @@
+PerSent/CommentAnalyzer.py,sha256=kt6_A1Lv9JO6GpRk41Cf_80hwBTMvQYQwwzo63W7lWA,15689
+PerSent/SentimentAnalyzer.py,sha256=12VJzK-AF-sfQeVF6lQp1SPdIEbhLA32R_FVPX-iDSY,15282
+PerSent/__init__.py,sha256=ip86dRg5Dv5l_ayDWxaU16O3VF-jVbviqasYE_EwRzo,178
+PerSent/dataset/emotion_dataset.csv,sha256=rMXSAKODT21AwioS6E37rnVZOL5AjXs2Wp9ugXmAPRQ,26229
+PerSent/dataset/train.csv,sha256=SPVbvcSzl7ESex_Iqn3ROIG5NLFWWxImpEAlpcyVsmk,17723356
+PerSent/model/CommentAnalyzer/classifier.joblib,sha256=bETyy0LMiN6QvnwBZqLSPsEAgcz76RCeRC3HAFNat2g,3295
+PerSent/model/CommentAnalyzer/word2vec.model,sha256=QIcSmqSWUghivruIb6cLth3zcQ6jiruUPYzf6BNGw7k,30214557
+PerSent/model/SentimentAnalyzer/sentiment_model.joblib,sha256=gvnpftGb9-Ak7yORqopf_TLftYXhhKJG3L_SYkJII7Q,51680
+persent-1.0.217.dist-info/METADATA,sha256=5zZ_zqBHPBsS1bBgEgMLZsbm_HdC6ZK2mKBA7K4DpgQ,3285
+persent-1.0.217.dist-info/WHEEL,sha256=DK49LOLCYiurdXXOXwGJm6U4DkHkg4lcxjhqwRa0CP4,91
+persent-1.0.217.dist-info/top_level.txt,sha256=D-YZBGOvL3FdEaLI9OwoTXniE26IUqE_dX3w8XEiDms,8
+persent-1.0.217.dist-info/RECORD,,

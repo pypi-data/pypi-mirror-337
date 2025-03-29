@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/graph_constructing/): LLM should read this page when constructing knowledge graphs from unstructured text, working with graph databases, using LLMs for information extraction. This page explains how to use LLM Graph Transformer to extract structured information from text and store it in a Neo4j graph database to construct a knowledge graph.
+

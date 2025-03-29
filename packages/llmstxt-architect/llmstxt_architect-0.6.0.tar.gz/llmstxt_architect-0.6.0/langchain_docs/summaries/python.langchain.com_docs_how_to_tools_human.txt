@@ -1,0 +1,2 @@
+[How to: add a human-in-the-loop for tools](https://python.langchain.com/docs/how_to/tools_human): LLM should read this page when adding human approval to tool calling, allowing human intervention in a workflow, or setting up fail-safes for sensitive operations. This page demonstrates how to add a human-in-the-loop step to approve or reject tool calls made by an LLM in a tool-calling chain using LangChain.
+

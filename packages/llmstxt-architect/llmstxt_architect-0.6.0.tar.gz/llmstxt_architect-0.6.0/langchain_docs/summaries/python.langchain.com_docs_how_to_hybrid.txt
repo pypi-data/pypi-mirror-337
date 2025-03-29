@@ -1,0 +1,2 @@
+[How to: use hybrid vector and keyword retrieval](https://python.langchain.com/docs/how_to/hybrid): LLM should read this page when: 1) It needs to perform hybrid search combining vector and other search techniques 2) It uses a vectorstore that supports hybrid search capabilities Explains how to configure and invoke LangChain chains to leverage hybrid search features of vectorstores like Astra DB, ElasticSearch, etc.
+

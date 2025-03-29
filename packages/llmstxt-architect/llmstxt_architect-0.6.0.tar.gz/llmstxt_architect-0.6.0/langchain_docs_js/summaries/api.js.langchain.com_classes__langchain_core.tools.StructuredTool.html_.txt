@@ -1,0 +1,2 @@
+[StructuredTool | LangChain.js](https://api.js.langchain.com/classes/_langchain_core.tools.StructuredTool.html/): LLM should read this page when trying to understand how to use structured tools in the LangChain.js library or when integrating structured tools into an application. This page describes the StructuredTool class, which is an abstract base class for tools that accept input of any shape defined by a Zod schema. It provides information on the class properties, methods, and how to create and use structured tools.
+

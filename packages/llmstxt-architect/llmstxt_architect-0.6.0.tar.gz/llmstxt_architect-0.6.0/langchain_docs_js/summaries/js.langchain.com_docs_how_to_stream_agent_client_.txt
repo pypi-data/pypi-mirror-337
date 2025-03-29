@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/stream_agent_client/): LLM should read this page when: 1) Streaming agent data to the client-side in a web application 2) Building a web interface for a LangChain agent with streaming capabilities This page demonstrates how to use LangChain and the 'ai' package to create a server-side agent that streams its execution steps and outputs to the client-side of a web application in real-time using React Server Components.
+

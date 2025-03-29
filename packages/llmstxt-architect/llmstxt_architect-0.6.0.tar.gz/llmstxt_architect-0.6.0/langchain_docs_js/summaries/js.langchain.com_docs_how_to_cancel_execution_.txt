@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/cancel_execution/): LLM should read this page when interrupting long-running chains, aborting agent execution, or canceling streaming responses. Explains how to use AbortController to cancel chain and stream execution, including code examples for both scenarios.
+

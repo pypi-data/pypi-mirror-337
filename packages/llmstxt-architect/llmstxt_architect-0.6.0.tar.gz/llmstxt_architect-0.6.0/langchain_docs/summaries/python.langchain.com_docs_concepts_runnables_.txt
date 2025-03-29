@@ -1,0 +1,2 @@
+[RunnableConfig](https://python.langchain.com/docs/concepts/runnables/#runnableconfig): LLM should read this page when needing to understand the Runnable interface, invoking and configuring Runnables, and creating custom Runnables. The page covers the Runnable interface's core concepts, methods like invoke, batch, and stream, input/output types, configuring Runnables with RunnableConfig, creating custom Runnables from functions, and using configurable Runnables.
+

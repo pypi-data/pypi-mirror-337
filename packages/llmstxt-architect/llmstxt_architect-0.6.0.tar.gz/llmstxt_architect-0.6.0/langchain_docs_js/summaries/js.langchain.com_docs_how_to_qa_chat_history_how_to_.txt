@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/qa_chat_history_how_to/): LLM should read this page when developing a conversational Q&A application, incorporating chat history into an LLM, or building a retrieval-augmented generation system. Covers how to incorporate chat history into a Q&A system using chains or agents, including techniques like task decomposition and prompting strategies. Explains setting up retrievers, creating agents/chains, managing state, and tying components together.
+

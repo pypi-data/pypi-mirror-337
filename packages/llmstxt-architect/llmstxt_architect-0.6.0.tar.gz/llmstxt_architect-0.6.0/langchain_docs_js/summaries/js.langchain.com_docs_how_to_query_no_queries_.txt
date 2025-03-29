@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/query_no_queries/): LLM should read this page when: 1) Building a question answering system that needs to handle cases where no queries are generated 2) Integrating a retrieval system with query analysis that may not generate queries in some cases This page explains how to handle scenarios where query analysis techniques do not generate any queries, by inspecting the output of the query analysis step and conditionally executing retrieval based on that.
+

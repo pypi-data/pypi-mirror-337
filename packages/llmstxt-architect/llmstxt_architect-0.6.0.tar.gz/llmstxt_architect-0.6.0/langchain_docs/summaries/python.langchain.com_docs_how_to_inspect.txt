@@ -1,0 +1,2 @@
+[How to: inspect runnables](https://python.langchain.com/docs/how_to/inspect): LLM should read this page when inspecting internals of an LCEL chain, debugging chain logic, or retrieving chain prompts. Provides methods to visualize chain graphs, print prompts used in chains, and inspect chain steps programmatically.
+

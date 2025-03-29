@@ -1,0 +1,2 @@
+[How to: create custom callback handlers](https://python.langchain.com/docs/how_to/custom_callbacks): LLM should read this page when creating custom behavior for LangChain components, customizing callback events, implementing event handlers This page explains how to create custom callback handlers by implementing callback methods and attaching the handler to LangChain components
+

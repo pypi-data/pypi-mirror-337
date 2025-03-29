@@ -1,0 +1,2 @@
+[How to: install LangChain packages](https://python.langchain.com/docs/how_to/installation/): LLM should read this page when installing LangChain packages, learning about the LangChain ecosystem packages, installing specific ecosystem packages This page explains how to install the main LangChain package, as well as different ecosystem packages like langchain-core, langchain-community, langchain-openai, langchain-experimental, langgraph, langserve, langchain-cli, and langsmith SDK.
+

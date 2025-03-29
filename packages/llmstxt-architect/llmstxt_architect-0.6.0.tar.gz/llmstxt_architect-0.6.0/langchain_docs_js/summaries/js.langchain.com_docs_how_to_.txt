@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/): LLM should read this page when building an application with LangChain, troubleshooting issues, or understanding key LangChain components and concepts. This page provides how-to guides covering installation, key features like structured output and tool calling, LangChain components like prompt templates and document loaders, usage scenarios like Q&A and chatbots, and integrations with LangGraph.js and LangSmith.
+

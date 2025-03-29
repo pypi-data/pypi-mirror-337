@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/output_parser_xml/): LLM should read this page when [needing to parse XML output from an LLM, looking to format LLM responses as XML, seeking examples of prompting an LLM for structured XML data] [Guide on using LangChain's XMLOutputParser to instruct language models to generate output formatted as XML, with examples of parsing and customizing the XML tags]
+

@@ -1,0 +1,2 @@
+[How to: chain runnables](https://python.langchain.com/docs/how_to/sequence): LLM should read this page when chaining multiple LangChain components together, composing prompt templates with models, or combining runnables in a sequence. This page explains how to chain runnables (LangChain components) together using the pipe operator '|' or the .pipe() method, including chaining prompt templates with models and parsers, and how input/output formats are coerced during chaining.
+

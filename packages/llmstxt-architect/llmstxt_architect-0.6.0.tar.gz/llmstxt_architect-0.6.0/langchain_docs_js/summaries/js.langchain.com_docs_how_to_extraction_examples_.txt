@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/extraction_examples/): LLM should read this page when needing to improve information extraction quality, needing to use few-shot examples to improve LLM performance, or needing to work with reference examples. The page explains how to use reference examples in the form of example input-output pairs to enhance an LLM's information extraction capabilities, including defining the schema, creating examples in the expected format, and creating an extractor to invoke with or without examples.
+

@@ -1,0 +1,2 @@
+[Retrievers](https://python.langchain.com/docs/concepts/retrievers): LLM should read this page when building a retrieval system, integrating different retrieval sources, or linking retrieved information to source documents. This page outlines the retriever interface in LangChain, common types of retrievers such as vector stores and search APIs, and advanced retrieval patterns like ensembling and retaining source document information.
+

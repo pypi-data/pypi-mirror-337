@@ -1,0 +1,2 @@
+[How to: create a custom chat model class](https://python.langchain.com/docs/how_to/custom_chat_model): LLM should read this page when creating a custom chat model class, integrating a new language model as a chat model, or implementing streaming for a chat model. This page explains how to create a custom chat model class by inheriting from BaseChatModel, and implementing methods like _generate and _stream. It covers handling inputs, messages, streaming, identifying parameters, and contributing custom chat models.
+

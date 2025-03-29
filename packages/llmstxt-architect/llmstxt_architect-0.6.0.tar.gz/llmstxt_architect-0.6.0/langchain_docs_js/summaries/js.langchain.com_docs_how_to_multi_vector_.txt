@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/multi_vector/): LLM should read this page when building a question-answering system, improving retrieval performance, or experimenting with multiple embeddings for a document. This page covers methods to generate multiple vector embeddings for a single document, including using smaller text chunks, creating summaries, and generating hypothetical questions. It provides code examples for each method using the MultiVectorRetriever.
+

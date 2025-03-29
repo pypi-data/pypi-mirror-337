@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/togetherai/): LLM should read this page when seeking to use the Together AI LLM service, wanting to use a wide range of open source models, or wanting to leverage advanced LLM features like streaming This page covers setup and usage of the ChatTogetherAI model class, which allows accessing over 50 open-source models from Together AI with advanced capabilities like streaming, tool calling, and structured output
+

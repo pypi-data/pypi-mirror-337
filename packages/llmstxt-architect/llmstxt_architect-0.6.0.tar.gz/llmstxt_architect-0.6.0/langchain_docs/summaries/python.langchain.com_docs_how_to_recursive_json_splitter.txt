@@ -1,0 +1,2 @@
+[How to: recursively split JSON](https://python.langchain.com/docs/how_to/recursive_json_splitter): LLM should read this page when splitting JSON data into smaller chunks, managing chunk sizes from list content within JSON data. Explains how to split JSON data into smaller chunks while keeping nested objects intact, control chunk sizes, and handle JSON lists by converting them to dictionaries before splitting.
+

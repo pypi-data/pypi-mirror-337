@@ -1,0 +1,2 @@
+[](https://docs.smith.langchain.com/): LLM should read this page when looking to build production-ready LLM applications, when seeking tools for observability and evaluation of LLM applications, or when aiming to iterate on prompts effectively. This page provides an overview of LangSmith, a platform that offers observability features to monitor LLM applications, tools for evaluating application performance and collecting human feedback, and prompt engineering capabilities for iterating on prompts.
+

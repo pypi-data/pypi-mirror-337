@@ -1,0 +1,2 @@
+[How to: add similarity scores to retriever results](https://python.langchain.com/docs/how_to/add_scores_retriever): LLM should read this page when needing to incorporate similarity/relevance scores from retrievers, using vector or multi-vector retrievers, or propagating scores through custom retriever subclasses Shows how to add similarity scores from retrievers like Vector Store Retrievers, SelfQueryRetriever, and MultiVectorRetriever to the metadata of retrieved documents
+

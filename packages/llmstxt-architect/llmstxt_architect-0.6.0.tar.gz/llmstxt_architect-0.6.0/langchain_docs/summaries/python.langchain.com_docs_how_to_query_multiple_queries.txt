@@ -1,0 +1,2 @@
+[How to: handle multiple queries](https://python.langchain.com/docs/how_to/query_multiple_queries): LLM should read this page when handling queries that generate multiple potential queries, combining retrieval results from multiple queries, and integrating query analysis with retrieval pipelines. Explains how to handle scenarios where a query analysis step produces multiple potential queries by running retrievals for each query and combining the results. Demonstrates this approach with code examples using LangChain components.
+

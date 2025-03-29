@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/retrieval/): LLM should read this page when developing a retrieval system for unstructured or structured data, when building an application that needs to interface with vector stores or databases, when integrating natural language queries with specialized retrieval systems. Covers retrieval concepts like query analysis (rewriting and construction), retrieval systems (vector indexes, relational/graph databases), and LangChain's retriever abstraction for unified querying across different data sources.
+

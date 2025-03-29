@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/qa_per_user/): LLM should read this page when building a retrieval app that needs to handle data from multiple users, when building a question-answering system that needs to retrieve user-specific data This page explains how to configure a retrieval chain to only retrieve information for a specific user by setting up the retriever to support multiple users and passing the user identifier as a configurable field to the chain.
+

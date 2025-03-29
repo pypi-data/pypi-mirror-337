@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/convert_runnable_to_tool/): LLM should read this page when converting a Runnable to a Tool, using converted Tools in an Agent, using a RAG chain as a Tool This page explains how to convert LangChain Runnables to Tools that can be used by Agents and Chat Models, including examples of converting a document retriever and a RAG chain to Tools.
+

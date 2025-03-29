@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_artifacts/): LLM should read this page when needing to return artifacts or metadata from a tool call, needing to pass additional data through a tool that shouldn't be seen by the LLM Tool outputs can include a content portion meant for the LLM and an artifact portion meant for downstream components. This page shows how to define tools that distinguish between content and artifacts, and how to access those artifacts when calling the tool from an LLM.
+

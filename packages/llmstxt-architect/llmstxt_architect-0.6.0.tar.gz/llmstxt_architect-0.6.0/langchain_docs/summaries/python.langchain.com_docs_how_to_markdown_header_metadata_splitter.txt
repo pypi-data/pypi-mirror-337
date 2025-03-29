@@ -1,0 +1,2 @@
+[How to: split Markdown by headers](https://python.langchain.com/docs/how_to/markdown_header_metadata_splitter): LLM should read this page when splitting markdown files into chunks, handling headers and metadata in markdown files, constraining chunk sizes in markdown files. This page covers how to split markdown files by headers into chunks, handle metadata associated with headers, and constrain chunk sizes using other text splitters like RecursiveCharacterTextSplitter.
+

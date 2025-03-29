@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/custom_tools/): LLM should read this page when creating custom tools for agents, understanding how to return artifacts from tool execution, creating tools with structured or single inputs. Explains how to create custom tools using StructuredToolParams, tool wrapper function, DynamicStructuredTool, and DynamicTool classes. Covers returning artifacts in addition to text from tools.
+

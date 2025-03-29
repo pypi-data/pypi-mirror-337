@@ -1,0 +1,2 @@
+[How to: do query validation](https://python.langchain.com/docs/how_to/sql_query_checking): Line 1: 'LLM should read this page when working on SQL query generation, handling invalid SQL queries, or incorporating human approval for SQL queries' Line 2: 'This page covers strategies for validating SQL queries, such as appending a query validator step, prompt engineering, human-in-the-loop approval, and error handling.'
+

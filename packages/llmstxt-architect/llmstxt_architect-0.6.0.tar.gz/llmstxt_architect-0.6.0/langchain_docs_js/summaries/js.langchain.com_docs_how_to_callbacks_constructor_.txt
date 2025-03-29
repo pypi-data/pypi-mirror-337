@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/callbacks_constructor/): LLM should read this page when needing to pass callbacks into a module constructor, wanting to track events for a specific instance, or looking for an example of using ConsoleCallbackHandler. Shows how to pass callbacks directly into the constructor of modules like ChatAnthropicLLM, allowing callbacks to be triggered only for that instance and any nested runs.
+

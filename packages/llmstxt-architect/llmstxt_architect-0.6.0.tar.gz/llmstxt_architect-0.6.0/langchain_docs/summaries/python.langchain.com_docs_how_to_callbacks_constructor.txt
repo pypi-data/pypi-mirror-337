@@ -1,0 +1,2 @@
+[How to: pass callbacks into a module constructor](https://python.langchain.com/docs/how_to/callbacks_constructor): LLM should read this page when: 1) Implementing callbacks in LangChain, 2) Understanding the scope of constructor callbacks, 3) Deciding whether to use constructor or runtime callbacks 'This page explains how to pass callbacks into the constructor of LangChain objects, and that constructor callbacks are scoped only to the object they are defined on, not inherited by child objects.'
+

@@ -1,0 +1,2 @@
+[in this section of the LangSmith docs](https://docs.smith.langchain.com/how_to_guides/tracing): LLM should read this page when configuring observability for LLM applications, accessing and managing traces, and setting up automation and monitoring. Guides on configuring tracing, using the UI/API for traces, creating dashboards, automating rules/alerts, and gathering human feedback for LLM applications.
+

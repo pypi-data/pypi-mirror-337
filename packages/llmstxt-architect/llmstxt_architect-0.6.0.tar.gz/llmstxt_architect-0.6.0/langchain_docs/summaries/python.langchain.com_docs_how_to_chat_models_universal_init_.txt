@@ -1,0 +1,2 @@
+[How to: init any model in one line](https://python.langchain.com/docs/how_to/chat_models_universal_init/): LLM should read this page when initializing chat models for different model providers, creating a configurable chat model, inferring the model provider from the model name. The page explains how to initialize any LLM chat model integration in one line using the init_chat_model() helper, create a configurable chat model with default or custom parameters, and infer the model provider based on the model name.
+

@@ -1,0 +1,2 @@
+[How to: reorder retrieved results to mitigate the "lost in the middle" effect](https://python.langchain.com/docs/how_to/long_context_reorder): LLM should read this page when looking to improve performance of RAG applications, mitigating the "lost in the middle" effect, reordering retrieved results for longer contexts. Explains how to reorder retrieved documents to position the most relevant at the beginning and end, with less relevant in the middle, helping surface important information for language models.
+

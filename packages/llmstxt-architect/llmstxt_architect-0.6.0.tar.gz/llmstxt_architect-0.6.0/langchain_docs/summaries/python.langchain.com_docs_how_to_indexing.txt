@@ -1,0 +1,2 @@
+[How to: reindex data to keep your vectorstore in-sync with the underlying data source](https://python.langchain.com/docs/how_to/indexing): LLM should read this page when needing to index documents into a vector store, handling content deduplication and document mutations over time, or cleaning up old/deleted documents from the store. Covers the LangChain indexing API workflow, including deletion modes, using document loaders, and setting source metadata for documents to handle mutations and deletions properly.
+

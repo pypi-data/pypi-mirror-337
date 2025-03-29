@@ -1,0 +1,2 @@
+[How to: pass through inputs from one chain step to the next](https://python.langchain.com/docs/how_to/passthrough): LLM should read this page when needing to pass data from one step to the next in a chain, when formatting inputs for prompts, when retrieving and preparing context for prompts. This page explains how to use RunnablePassthrough and RunnableParallel to pass data unchanged through chains, covering examples like formatting retrieval results and user inputs into prompts.
+

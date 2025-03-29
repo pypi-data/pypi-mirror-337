@@ -1,0 +1,2 @@
+[JSON mode](https://python.langchain.com/docs/concepts/structured_outputs#json-mode): LLM should read this page when: 1) It needs to return structured output that conforms to a specific schema, 2) It needs to store model output in a database, 3) It needs to ensure model output matches a predefined format. This page covers how to define an output schema, and techniques like tool calling and JSON mode that allow models to return structured output conforming to that schema, as well as a helper method to streamline the process.
+

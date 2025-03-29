@@ -1,0 +1,2 @@
+[here](https://python.langchain.com/docs/integrations/chat/): LLM should read this page when integrating chat models into an application, using chat models for conversational AI tasks, or choosing between different chat model providers. Provides an overview of chat models integrated with LangChain, including OpenAI, Anthropic, Google, and others. Covers key features like tool calling, structured output, JSON mode, local usage, and multimodal support.
+

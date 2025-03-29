@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/xai/): LLM should read this page when integrating with xAI language models, when looking for chat models that support specific features like tool calling and streaming, when learning how to set up authentication for xAI models This page covers integrating and using the ChatXAI language model from xAI, including setup/installation steps, model instantiation, making chat completions, chaining with prompts, and an overview of supported features like tool calling and streaming.
+

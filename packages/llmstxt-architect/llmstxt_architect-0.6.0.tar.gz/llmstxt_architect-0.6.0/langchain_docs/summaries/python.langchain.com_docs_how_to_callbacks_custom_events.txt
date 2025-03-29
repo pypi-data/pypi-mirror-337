@@ -1,0 +1,2 @@
+[How to: dispatch custom callback events](https://python.langchain.com/docs/how_to/callbacks_custom_events): LLM should read this page when dispatching custom callback events, handling async or sync custom callback events, or consuming custom events via the astream events API. This page covers how to dispatch custom callback events from within a Runnable, consume these events via async/sync callback handlers, and access custom events through the astream events API.
+

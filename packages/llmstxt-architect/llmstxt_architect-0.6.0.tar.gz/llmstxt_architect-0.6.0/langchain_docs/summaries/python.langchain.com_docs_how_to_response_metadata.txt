@@ -1,0 +1,2 @@
+[How to: track response metadata across providers](https://python.langchain.com/docs/how_to/response_metadata): LLM should read this page when needing to access metadata from model responses, wanting to get information like token usage or log probabilities, or checking safety ratings Explains how to access response metadata from various chat model providers like OpenAI, Anthropic, Vertex AI, etc. Shows code examples of retrieving metadata like token usage, log probabilities, and safety ratings.
+

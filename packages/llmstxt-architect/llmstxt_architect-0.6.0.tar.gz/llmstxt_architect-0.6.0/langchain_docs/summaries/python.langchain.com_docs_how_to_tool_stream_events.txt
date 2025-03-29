@@ -1,0 +1,2 @@
+[How to: stream events from a tool](https://python.langchain.com/docs/how_to/tool_stream_events): Line 1: 'LLM should read this page when it needs to stream events from a tool, when it needs to configure tools to access internal runnables, or when it needs to propagate configurations to child runnables in async environments' Line 2: 'Guide on how to stream events from tools that call chat models, retrievers, or other runnables, by accessing internal events and propagating configurations, with examples and explanations for compatibility across Python versions'
+

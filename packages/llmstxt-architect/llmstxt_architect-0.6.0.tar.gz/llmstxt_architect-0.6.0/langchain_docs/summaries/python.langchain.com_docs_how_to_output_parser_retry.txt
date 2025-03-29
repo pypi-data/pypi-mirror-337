@@ -1,0 +1,2 @@
+[How to: retry when output parsing errors occur](https://python.langchain.com/docs/how_to/output_parser_retry): LLM should read this page when [attempting to parse and handle partial or error LLM outputs, troubleshooting output parsing failures, implementing retry logic for parsing] [Explains how to use the RetryOutputParser to handle parsing errors by reprompting the LLM, provides examples for using it with OpenAI models and chaining it with other runnables.]
+

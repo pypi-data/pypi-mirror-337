@@ -1,0 +1,2 @@
+[How to: filter messages](https://python.langchain.com/docs/how_to/filter_messages/): LLM should read this page when needing to filter messages by type, id, or name when working with message histories, when using chains/agents that pass message histories between components. Provides instructions and examples for filtering message lists (e.g. to only include human messages) using the filter_messages utility, including basic usage, chaining with models, and API reference.
+

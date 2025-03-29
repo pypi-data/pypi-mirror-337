@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/fireworks/): LLM should read this page when looking to integrate with Fireworks AI models, exploring chat model options, or implementing a language translation task. This page provides instructions for setting up and using the ChatFireworks chat model integration, including obtaining credentials, installation, instantiation, invocation examples, chaining with prompts, and an overview of supported features.
+

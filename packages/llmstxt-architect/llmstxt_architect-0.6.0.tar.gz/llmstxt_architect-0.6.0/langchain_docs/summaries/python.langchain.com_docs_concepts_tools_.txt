@@ -1,0 +1,2 @@
+[@tool](https://python.langchain.com/docs/concepts/tools/#create-tools-using-the-tool-decorator): LLM should read this page when needing to understand tools in LangChain, when creating custom tools, or when integrating tools into LangChain applications. Provides an overview of tools, how to create and configure tools using the @tool decorator, different tool types (e.g. with artifacts, injected arguments), and best practices for designing tools.
+

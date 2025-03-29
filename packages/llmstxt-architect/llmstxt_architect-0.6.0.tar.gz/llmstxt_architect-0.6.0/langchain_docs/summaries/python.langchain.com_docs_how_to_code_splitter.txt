@@ -1,0 +1,2 @@
+[How to: split code](https://python.langchain.com/docs/how_to/code_splitter): LLM should read this page when needing to split code into logical chunks, working with code from specific programming languages, or creating language-specific text splitters. Provides examples of using the RecursiveCharacterTextSplitter to split code from various programming languages like Python, JavaScript, Markdown, and others into document chunks based on language-specific separators.
+

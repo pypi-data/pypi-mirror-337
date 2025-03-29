@@ -1,0 +1,2 @@
+[How to: split HTML](https://python.langchain.com/docs/how_to/split_html): LLM should read this page when needing to split HTML content into chunks, preserving semantic structure for better context during processing Explains different techniques to split HTML pages like HTMLHeaderTextSplitter, HTMLSectionSplitter, HTMLSemanticPreservingSplitter; covers preserving tables, lists, custom handlers
+

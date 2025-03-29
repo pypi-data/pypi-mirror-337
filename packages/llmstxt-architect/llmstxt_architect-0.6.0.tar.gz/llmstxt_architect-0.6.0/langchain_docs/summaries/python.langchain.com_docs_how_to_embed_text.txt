@@ -1,0 +1,2 @@
+[How to: embed text data](https://python.langchain.com/docs/how_to/embed_text): LLM should read this page when it needs to embed text into vectors, when it needs to use text embeddings for tasks like semantic search, and when it needs to understand the interface for text embedding models. This page explains how to use LangChain's Embeddings class to interface with various text embedding model providers, embed documents and queries, and work with the resulting vector representations of text.
+

@@ -1,0 +1,2 @@
+[How to: write a custom retriever class](https://python.langchain.com/docs/how_to/custom_retriever): LLM should read this page when learning how to create a custom retriever, when implementing custom retrieval logic, when adding retrieval capabilities to an application. Explains how to implement a custom Retriever class by extending BaseRetriever, including providing examples and guidelines for contributing custom retrievers.
+

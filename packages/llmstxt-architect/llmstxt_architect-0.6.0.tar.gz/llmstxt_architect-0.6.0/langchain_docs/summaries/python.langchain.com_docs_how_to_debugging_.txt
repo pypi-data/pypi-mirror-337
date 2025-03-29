@@ -1,0 +1,2 @@
+[How to: debug your LLM apps](https://python.langchain.com/docs/how_to/debugging/): LLM should read this page when debugging LLM applications, adding print statements, or logging events for tracing. Covers setting verbose mode to print important events, debug mode to print all events, and using LangSmith for visualizing event traces.
+

@@ -1,0 +1,2 @@
+[How to: access the `RunnableConfig` from a tool](https://python.langchain.com/docs/how_to/tool_configure): LLM should read this page when accessing or configuring runtime behavior of sub-runnables from a custom tool, streaming events from child runnables within a tool This page explains how to access the RunnableConfig from within a custom tool to configure sub-invocations and stream events from those sub-invocations
+

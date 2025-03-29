@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_stream_events/): LLM should read this page when configuring custom tools to stream events, accessing child runnables inside a custom tool, or enabling automatic configuration passing in certain environments. Explains how to manually pass RunnableConfig to child runnables within a custom tool to enable event streaming, provides an example of streaming chat model token generation, and shows how to enable automatic config passing using AsyncLocalStorage.
+

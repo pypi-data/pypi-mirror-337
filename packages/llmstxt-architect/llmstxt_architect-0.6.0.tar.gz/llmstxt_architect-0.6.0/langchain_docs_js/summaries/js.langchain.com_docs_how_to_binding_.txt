@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/binding/): LLM should read this page when binding runtime arguments to a Runnable, setting stop sequences for LLM responses, or attaching OpenAI tools to an LLM. This page explains how to use the .bind() method to pass runtime arguments to a Runnable, including setting stop sequences for LLM responses and attaching OpenAI tools to an LLM model.
+

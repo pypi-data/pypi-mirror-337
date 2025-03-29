@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/bedrock/): LLM should read this page when needing an overview of the Bedrock chat model integration, setting up credentials, or using tool calling with the model. Covers setup steps like installing packages and configuring AWS credentials, instantiating BedrockChat with different models, invoking the model, chaining with prompt templates, and enabling tool calling functionality.
+

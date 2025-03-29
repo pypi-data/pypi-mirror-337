@@ -1,0 +1,2 @@
+[How to: pass in callbacks at runtime](https://python.langchain.com/docs/how_to/callbacks_runtime): LLM should read this page when needing to pass callback handlers at runtime to capture events, needing to attach handlers to nested objects This page explains how to pass callback handlers at runtime when invoking a runnable, which allows capturing events from all nested objects without manually attaching handlers.
+

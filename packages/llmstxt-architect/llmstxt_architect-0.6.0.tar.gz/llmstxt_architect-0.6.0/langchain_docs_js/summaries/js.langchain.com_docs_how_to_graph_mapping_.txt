@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/graph_mapping/): LLM should read this page when querying graph databases, mapping user inputs to database values, and generating database queries from natural language. This page explains how to detect entities like people and movies in user input, map those entities to values in a Neo4j database, and generate a Cypher query to answer the user's question based on the mapped entities and database schema.
+

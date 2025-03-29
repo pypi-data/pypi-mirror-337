@@ -1,0 +1,2 @@
+[How to: turn any function into a runnable](https://python.langchain.com/docs/how_to/functions): LLM should read this page when needing to use custom functions, needing to implement streaming, needing to pass metadata to runnables Covers how to use custom functions as Runnables, including constructors, decorators, coercion, passing metadata, and implementing streaming.
+

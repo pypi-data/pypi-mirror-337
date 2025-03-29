@@ -1,0 +1,2 @@
+[How to: stream a response back](https://python.langchain.com/docs/how_to/streaming_llm): LLM should read this page when it needs to stream responses from an LLM, when it needs to work with async streaming from LLMs, when it needs to stream events from an LLM. This page shows how to stream responses token-by-token from LLMs using both sync and async methods, as well as how to stream events from LLMs asynchronously.
+

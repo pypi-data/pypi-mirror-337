@@ -1,0 +1,2 @@
+[Document](https://python.langchain.com/api_reference/core/documents/langchain_core.documents.base.Document.html): LLM should read this page when working with document data, retrieving and processing text documents, integrating with text embedding and vector storage systems This page provides details on the Document class and its associated methods and properties, as well as examples of how to use it in various scenarios such as document loading, retrieval, and transformation
+

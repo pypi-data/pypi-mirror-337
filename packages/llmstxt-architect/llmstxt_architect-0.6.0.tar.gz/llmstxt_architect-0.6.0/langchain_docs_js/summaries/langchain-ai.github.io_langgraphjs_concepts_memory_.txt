@@ -1,0 +1,2 @@
+[Memory](https://langchain-ai.github.io/langgraphjs/concepts/memory/): LLM should read this page when building a memory component for an AI agent, implementing short-term or long-term memory, or managing conversation history. The page covers memory concepts including short-term conversational memory and long-term persistent memory, techniques for managing long message histories, writing and updating memory profiles or collections, and representing memories as instructions or examples.
+

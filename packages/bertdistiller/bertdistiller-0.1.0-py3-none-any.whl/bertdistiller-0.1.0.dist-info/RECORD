@@ -1,0 +1,16 @@
+bertdistiller/__init__.py,sha256=U1fZYY-iEKBdOwjnBQnr9pUQd6pfab0IwOCSlHlGcII,242
+bertdistiller/data/__init__.py,sha256=Soar7G-YFb1v5wopD0cfyr6cdzUfEZlfzZv8AYvzOec,68
+bertdistiller/data/dataset.py,sha256=DsEKXqn0X3ZQiaUqhtz_Ae31h_IPlo3kPrzzacBwT0c,2479
+bertdistiller/distillation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bertdistiller/distillation/minilm/__init__.py,sha256=u45LVfxNFFy9LfEBS0fdEqpxKx8EX1Y10RqEAVbFpYg,188
+bertdistiller/distillation/minilm/args.py,sha256=FHZTcMkjt8EZ3EJ9_OgQFrWqimM2HMKgFeoyagffgAg,832
+bertdistiller/distillation/minilm/modeling.py,sha256=F_35SNR19IpRcG3pc_qBYw_NN3lO5WqDZbSmkKtbSXE,7920
+bertdistiller/distillation/minilm/trainer.py,sha256=CWxG_rbV9YbB7vnp2TZZ-wDM1xe3bbpwP5FQ3QkRBVE,10056
+bertdistiller/evaluation/__init__.py,sha256=mhzcNW7OtOjCnsbUFyPspEDYk_t4-LdI_5mhrHsKJtY,107
+bertdistiller/evaluation/evaluation.py,sha256=Vr_lm7o7flqO1rOzy7yO8E-wE3cd5EC7e0UYZpFZgdk,7899
+bertdistiller/evaluation/run_glue.py,sha256=xDhXdIadrHoBXB7VtilcGFXvYDElWDTEjFnknwdBEkw,29462
+bertdistiller/models/minilmv2_old.py,sha256=LYAeCLtw4KGOx2mtJJmZTLR5rovamOqdIHqGUQIvi84,9589
+bertdistiller-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bertdistiller-0.1.0.dist-info/METADATA,sha256=6_-8pQLIacOM-ctBJ8lk4I57BFAPq_qOvtofGpLwm3s,11189
+bertdistiller-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bertdistiller-0.1.0.dist-info/RECORD,,

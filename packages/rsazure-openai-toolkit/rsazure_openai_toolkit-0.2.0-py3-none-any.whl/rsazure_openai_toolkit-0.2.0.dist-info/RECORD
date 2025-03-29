@@ -1,0 +1,10 @@
+rsazure_openai_toolkit/__init__.py,sha256=aSNjypcDKSNVEVuzyStEbDSOykoFx662XJNPBgjjdrI,314
+rsazure_openai_toolkit/cli.py,sha256=eTrUk5K5h7MSTrB_FO0uTMZVj61l5TDr-KMV3ExaYZk,1659
+rsazure_openai_toolkit/handler.py,sha256=7VKAXBieHsjn0wJM0maZXGhFJaNTVUPILX5wXipUjkQ,395
+rsazure_openai_toolkit/integration.py,sha256=V5G-2MImNJNO0CyAKU42pya-G9H4ueKOCQheveSvQWU,1359
+rsazure_openai_toolkit-0.2.0.dist-info/licenses/LICENSE,sha256=qojRbhj1s-sySj1KFjbRw9QBBHJAtUeBx7nCkTWFTeg,1092
+rsazure_openai_toolkit-0.2.0.dist-info/METADATA,sha256=OZ0KQXGk8WT3WVwCAYsa09hOkgyepw9BbW6wfYoh6sQ,9488
+rsazure_openai_toolkit-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+rsazure_openai_toolkit-0.2.0.dist-info/entry_points.txt,sha256=0J8R4X8VaiNkkdlqBiCJBuvIpU0UyXcRYExhRyPUkzQ,58
+rsazure_openai_toolkit-0.2.0.dist-info/top_level.txt,sha256=o1f3gIh86WDv4dDh0c2jO-mVWBA8Jo2wKTReksnBcv0,23
+rsazure_openai_toolkit-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+rschat = rsazure_openai_toolkit.cli:cli

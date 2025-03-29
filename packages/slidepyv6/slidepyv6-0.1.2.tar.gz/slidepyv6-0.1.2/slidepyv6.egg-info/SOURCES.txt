@@ -1,0 +1,20 @@
+LICENSE .txt
+README.md
+setup.py
+slidepyv6/__init__.py
+slidepyv6/core.py
+slidepyv6.egg-info/PKG-INFO
+slidepyv6.egg-info/SOURCES.txt
+slidepyv6.egg-info/dependency_links.txt
+slidepyv6.egg-info/top_level.txt
+slidepyv6/io/__init__.py
+slidepyv6/io/io.py
+slidepyv6/models/__init__.py
+slidepyv6/models/geometries.py
+slidepyv6/models/loads.py
+slidepyv6/models/metadata.py
+slidepyv6/models/properties.py
+slidepyv6/models/results.py
+slidepyv6/utils/__init__.py
+slidepyv6/utils/exceptions.py
+slidepyv6/utils/utils.py

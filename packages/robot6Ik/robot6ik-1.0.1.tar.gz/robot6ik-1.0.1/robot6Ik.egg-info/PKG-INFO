@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: robot6Ik
+Version: 1.0.1
+Summary: robot6Ik Package with dynamic libraries for both Linux and Windows
+Home-page: https://github.com/Frank/robot6Ik
+Author: Frank
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+closeformik is an analytical inverse kinematics calculation library for a 6-DOF robotic arm. When solving for inverse kinematics, please call the CIK function. The input to the function is eeTform (end-effector flange position), MdhParams (DH parameter table: d, a, alpha, theta), jointlimits (joint angle limits), joint_ref (reference joint angles): A typical application example is: 
+
+from cik import CIK
+
+MdhParams = np.array([
+    [a1,    alpha1,     d1,     theta1],
+    [a2,    alpha2,     d2,     theta2],
+    [a3,    alpha3,     d3,     theta3],
+    [a4,    alpha4,     d4,     theta4],
+    [a5,    alpha5,     d5,     theta5],
+    [a6,    alpha6,     d6,     theta6]
+])
+
+Jointlimits = [
+    [limit_n_j1, limit_p_j1],  # Joint 1
+    [limit_n_j2, limit_p_j2],  # Joint 2
+    [limit_n_j3, limit_p_j3],   # Joint 3
+    [limit_n_j4, limit_p_j4],  # Joint 4
+    [limit_n_j5, limit_p_j5],   # Joint 5
+    [limit_n_j6, limit_p_j6]   # Joint 6
+]
+
+sol = CIK(eeTform, MdhParams, Jointlimits, joint_ref=joint_ref)

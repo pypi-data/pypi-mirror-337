@@ -1,0 +1,14 @@
+README.md
+pypi_readme.md
+pyproject.toml
+samtts/__init__.py
+samtts/__main__.py
+samtts/processor.py
+samtts/reciter.py
+samtts/renderer.py
+samtts/samtts.py
+samtts.egg-info/PKG-INFO
+samtts.egg-info/SOURCES.txt
+samtts.egg-info/dependency_links.txt
+samtts.egg-info/requires.txt
+samtts.egg-info/top_level.txt

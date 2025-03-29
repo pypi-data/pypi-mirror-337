@@ -1,0 +1,10 @@
+simpleaudio
+typer
+
+[dev]
+simpleaudio
+typer
+pytest
+mkdocs
+mkdocstrings-python
+black

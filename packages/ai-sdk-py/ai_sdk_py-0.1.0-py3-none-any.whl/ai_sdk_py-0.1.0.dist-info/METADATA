@@ -1,0 +1,90 @@
+Metadata-Version: 2.3
+Name: ai-sdk-py
+Version: 0.1.0
+Summary: A unified interface for working with different AI language model providers
+License: MIT
+Keywords: ai,sdk,language-models,machine-learning,nlp
+Author: Jacques
+Author-email: jverre@gmail.com
+Requires-Python: >=3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: anthropic (>=0.49.0,<0.50.0)
+Requires-Dist: httpx (>=0.28.1,<0.29.0)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: validators (>=0.34.0,<0.35.0)
+Project-URL: Homepage, https://github.com/jverre/genaix
+Project-URL: Repository, https://github.com/jverre/ai-sdk
+Description-Content-Type: text/markdown
+
+```ascii
+ █████╗ ██╗    ███████╗██████╗ ██╗  ██╗
+██╔══██╗██║    ██╔════╝██╔══██╗██║ ██╔╝
+███████║██║    ███████╗██║  ██║█████╔╝ 
+██╔══██║██║    ╚════██║██║  ██║██╔═██╗ 
+██║  ██║██║    ███████║██████╔╝██║  ██╗
+╚═╝  ╚═╝╚═╝    ╚══════╝╚═════╝ ╚═╝  ╚═╝
+```
+
+# AI SDK
+
+A unified interface for working with different AI language model providers. Built with clean architecture and support for many providers
+
+## Installation
+
+```bash
+pip install ai-sdk
+```
+
+## Quick Start
+
+```python
+from llmclient import generate_text
+from llmclient.openai import openai
+
+# Generate text
+response = generate_text(
+    model=openai("gpt-4o"),
+    system="You are a helpful assistant.",
+    prompt="What is the meaning of life?"
+)
+
+print(response.text)
+```
+
+## Features
+
+- 🤖 Unified interface for multiple AI providers
+- 🌟 Clean, modular architecture
+- 🚀 Easy to extend with new providers
+- 🛠️ Built-in support for function calling and tools
+- 🖼️ Image generation and analysis capabilities
+- 📋 Structured output generation with type validation
+
+## Supported Providers
+
+- Anthropic (Claude)
+- OpenAI (GPT-4, GPT-3.5)
+- More coming soon!
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+## Authors
+
+Created and maintained by @jverre.
+

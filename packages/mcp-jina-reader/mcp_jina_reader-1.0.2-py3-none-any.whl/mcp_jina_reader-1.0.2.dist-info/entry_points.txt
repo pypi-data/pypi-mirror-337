@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-jina-reader = mcp_jina_reader:main

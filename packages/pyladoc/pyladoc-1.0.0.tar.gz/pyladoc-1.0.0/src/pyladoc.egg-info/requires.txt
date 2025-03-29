@@ -1,0 +1,13 @@
+markdown>=3.3.0
+beautifulsoup4>=4.9.1
+
+[dev]
+pytest
+flake8
+mypy
+lxml
+types-lxml
+requests
+matplotlib>=3.1.1
+pandas>=2.0.0
+Jinja2

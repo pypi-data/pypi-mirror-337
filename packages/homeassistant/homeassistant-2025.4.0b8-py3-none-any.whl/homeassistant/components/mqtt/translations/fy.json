@@ -1,0 +1,110 @@
+{
+    "config_subentries": {
+        "device": {
+            "entry_type": "MQTT apparaat",
+            "error": {
+                "invalid_input": "Unjildige wearde",
+                "invalid_subscribe_topic": "Unjildich topic om op te abonnearjen",
+                "invalid_template": "Unjildich sjabloan",
+                "invalid_url": "Unjildige URL",
+                "options_device_class_enum": "De 'Opsjes' ynstelling moat br\u00fbkt wurde mei de apparaatklasse Opsomming. As jo trochgean, dan wurde de besteande opsjes reset",
+                "uom_required_for_device_class": "De selektearre apparaatklasse easket in meitienheid."
+            },
+            "initiate_flow": {
+                "reconfigure": "Werkonfigurearje MQTT apparaat",
+                "user": "Tafoegje MQTT apparaat"
+            },
+            "step": {
+                "delete_entity": {
+                    "data": {
+                        "component": "Entiteit"
+                    },
+                    "data_description": {
+                        "component": "Selektearje in entiteit om fuort te smitten. Op syn minst ien entiteit is fereaske."
+                    },
+                    "description": "Smyt in entiteit fourt. De entiteit sil fuorthelle wurde fan it apparaat. It fourtsmitten fan in entiteit sil automatisearrings of skripts brekke dy't fan'e entiteit \u00f4fhinklik binne.",
+                    "title": "Entiteit fourtsmitte"
+                },
+                "device": {
+                    "data": {
+                        "configuration_url": "Konfiguraasje URL",
+                        "model": "Model",
+                        "model_id": "Model ID",
+                        "name": "Namme",
+                        "sw_version": "Software ferzje"
+                    },
+                    "data_description": {
+                        "configuration_url": "In link nei in webside d\u00ear't de konfiguraasje fan dit apparaat mei beheard wurde kin. Kin in 'http://', 'https://' of ynterne 'homeassistant://' URL w\u00eaze.",
+                        "hw_version": "De hurdwareferzje fan it apparaat. Bygelyks 'v 1.0 rev a'.",
+                        "model": "Bgl. 'Cleanmaster Pro'.",
+                        "model_id": "Bgl. '123NK2PRO'",
+                        "name": "De namme fan it h\u00e2nmjittich tafoege MQTT apparaat.",
+                        "sw_version": "De software ferzje fan it apparaat. bgl. '2025.1.0'."
+                    },
+                    "title": "Konfigurearje MQTT apparaatdetails"
+                },
+                "entity": {
+                    "data": {
+                        "entity_picture": "Entiteit \u00f4fbylding",
+                        "name": "Entiteitsnamme",
+                        "platform": "Entiteitstype"
+                    },
+                    "data_description": {
+                        "entity_picture": "In URL nei in \u00f4fbylding om ta te wizen.",
+                        "name": "Namme fan de entiteit. Lit dy leech om 'None' yn te stellen om dy te [markerjen as hoofdfunksje fan it MQTT apparaat] (https://www.home-assistant.io/integrations/mqtt/#naming-of-mqtt-entities)."
+                    }
+                },
+                "mqtt_platform_config": {
+                    "sections": {
+                        "advanced_settings": {
+                            "data_description": {
+                                "expire_after": "Wannear't dat ynsteld is, definiearret dat it oantal sekonden w\u00earnei't de steat fan de sensor ferrint. Nei it ferrinnen, krijt de sensor in \u00fbnbeskikbere status. Wannear't dat net ynsteld is, sil de status net ferrinne. [Leer meer.] ({url}#expire_after)"
+                            }
+                        }
+                    }
+                },
+                "summary_menu": {
+                    "menu_options": {
+                        "device": "Bywurkje apparaat opsjes",
+                        "update_entity": "Eigenskippen entiteit bywurkje"
+                    }
+                },
+                "update_entity": {
+                    "data": {
+                        "component": "Entiteit"
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "mqtt_broker_error": {
+            "message": "Flater yn kommunikaasje mei MQTT broker: {error_message}."
+        }
+    },
+    "options": {
+        "step": {
+            "broker": {
+                "title": "Broker opsjes"
+            },
+            "options": {
+                "title": "MQTT-opsjes"
+            }
+        }
+    },
+    "selector": {
+        "device_class_sensor": {
+            "options": {
+                "area": "Oerflakte",
+                "volatile_organic_compounds": "Flechtige organyske stoffen",
+                "volatile_organic_compounds_parts": "Flechtige organyske stoffen ratio",
+                "volume_flow_rate": "Folumesnelheid"
+            }
+        },
+        "platform": {
+            "options": {
+                "notify": "Notifikaasje"
+            }
+        }
+    }
+}

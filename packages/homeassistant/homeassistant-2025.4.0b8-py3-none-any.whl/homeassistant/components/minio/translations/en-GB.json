@@ -1,0 +1,33 @@
+{
+    "services": {
+        "get": {
+            "fields": {
+                "key": {
+                    "name": "Key"
+                }
+            },
+            "name": "Get"
+        },
+        "put": {
+            "description": "Uploads file to Minio.",
+            "fields": {
+                "file_path": {
+                    "name": "File path"
+                },
+                "key": {
+                    "name": "Key"
+                }
+            },
+            "name": "Put"
+        },
+        "remove": {
+            "description": "Deletes file from Minio.",
+            "fields": {
+                "key": {
+                    "name": "Key"
+                }
+            },
+            "name": "Remove"
+        }
+    }
+}

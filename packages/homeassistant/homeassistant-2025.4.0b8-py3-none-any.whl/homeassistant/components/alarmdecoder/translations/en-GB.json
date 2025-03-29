@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "protocol": {
+                "data_description": {
+                    "host": "The hostname or IP address of the AlarmDecoder device that is connected to your alarm panel.",
+                    "port": "The port on which AlarmDecoder is accessible (for example, 10,000)"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "edit_selection": "Edit"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "solar_rising": {
+                "name": "Solar rising"
+            }
+        }
+    }
+}

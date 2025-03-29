@@ -1,0 +1,49 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of your Snapcast server."
+                }
+            }
+        }
+    },
+    "services": {
+        "join": {
+            "description": "Groups players together in a single group.",
+            "fields": {
+                "entity_id": {
+                    "description": "The players to join to the \"master\".",
+                    "name": "Entity"
+                },
+                "master": {
+                    "description": "Entity ID of the player to synchronise to.",
+                    "name": "Master"
+                }
+            },
+            "name": "Join"
+        },
+        "restore": {
+            "description": "Restores a previously taken snapshot of a media player.",
+            "name": "Restore"
+        },
+        "set_latency": {
+            "description": "Sets the latency of a speaker.",
+            "fields": {
+                "latency": {
+                    "description": "Latency in milliseconds.",
+                    "name": "Latency"
+                }
+            },
+            "name": "Set latency"
+        },
+        "snapshot": {
+            "description": "Takes a snapshot of what is currently playing on a media player.",
+            "name": "Snapshot"
+        },
+        "unjoin": {
+            "description": "Removes one or more players from a group.",
+            "name": "Unjoin"
+        }
+    }
+}

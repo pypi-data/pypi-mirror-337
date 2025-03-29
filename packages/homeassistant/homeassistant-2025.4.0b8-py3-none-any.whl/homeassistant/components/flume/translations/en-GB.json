@@ -1,0 +1,14 @@
+{
+    "services": {
+        "list_notifications": {
+            "description": "Returns a list of fetched user notifications.",
+            "fields": {
+                "config_entry": {
+                    "description": "The Flume config entry for which to return notifications.",
+                    "name": "Flume"
+                }
+            },
+            "name": "List notifications"
+        }
+    }
+}

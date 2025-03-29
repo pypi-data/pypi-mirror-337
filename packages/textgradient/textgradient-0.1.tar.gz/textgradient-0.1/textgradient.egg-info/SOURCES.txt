@@ -1,0 +1,10 @@
+setup.py
+textgradient/__init__.py
+textgradient/config.json
+textgradient/gradient.py
+textgradient.egg-info/PKG-INFO
+textgradient.egg-info/SOURCES.txt
+textgradient.egg-info/dependency_links.txt
+textgradient.egg-info/entry_points.txt
+textgradient.egg-info/requires.txt
+textgradient.egg-info/top_level.txt

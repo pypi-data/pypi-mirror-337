@@ -1,0 +1,2 @@
+[console_scripts]
+textgradient = textgradient.gradient:main

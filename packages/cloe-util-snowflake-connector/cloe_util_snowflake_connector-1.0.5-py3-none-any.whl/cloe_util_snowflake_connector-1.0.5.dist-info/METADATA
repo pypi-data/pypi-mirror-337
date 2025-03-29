@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: cloe-util-snowflake-connector
+Version: 1.0.5
+Summary: Provides basic interface for connecting to and interacting with a Snowflake instance.
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: >=3.11,<3.12
+Requires-Dist: pydantic (>=2.7.0,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.7.1,<3.0.0)
+Requires-Dist: snowflake-connector-python (>=3.12.4,<4.0.0)
+Requires-Dist: snowflake-core (>=1.0.2,<2.0.0)

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+easy_mcp_server/__init__.py
+easy_mcp_server/server.py
+easy_mcp_server/settings.py
+easy_mcp_server.egg-info/PKG-INFO
+easy_mcp_server.egg-info/SOURCES.txt
+easy_mcp_server.egg-info/dependency_links.txt
+easy_mcp_server.egg-info/requires.txt
+easy_mcp_server.egg-info/top_level.txt
+tests/test_integration.py
+tests/test_server.py
+tests/test_settings.py

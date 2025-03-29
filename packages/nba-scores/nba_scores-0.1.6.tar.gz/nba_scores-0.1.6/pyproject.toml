@@ -1,0 +1,30 @@
+[project]
+name = "nba-scores"
+version = "0.1.6"
+authors = [
+  { name="Christian Cleberg", email="hello@cmc.pub" },
+]
+description = "A CLI interface to get current NBA scores and standings."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "nba_api",
+    "tabulate",
+    "argparse"
+]
+
+[project.urls]
+Homepage = "https://github.com/ccleberg/nba-scores"
+Issues = "https://github.com/ccleberg/nba-scores/issues"
+
+[project.scripts]
+nba = "nba.cli:nba"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nba"]

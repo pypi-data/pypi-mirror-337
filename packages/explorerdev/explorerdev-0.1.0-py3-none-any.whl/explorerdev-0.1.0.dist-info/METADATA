@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: explorerdev
+Version: 0.1.0
+Summary: Remote file explorer tool
+Author-email: qDephelinTeq <secret@email.com>
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: license-file

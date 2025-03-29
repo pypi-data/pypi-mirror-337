@@ -1,0 +1,2 @@
+[console_scripts]
+explorerdev = explorerdev.client:main

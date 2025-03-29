@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: gkbus
+Version: 0.3.0
+Summary: GKBus: High level automotive protocol library
+Author-email: Dante <dante383@protonmail.com>
+License-File: LICENSE

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: playpyo3
+Version: 0.4.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: A simple Rust Python module
+Keywords: rust,python
+Requires-Python: >=3.8

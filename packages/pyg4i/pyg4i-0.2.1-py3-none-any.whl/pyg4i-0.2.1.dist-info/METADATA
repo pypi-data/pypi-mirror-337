@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: pyg4i
+Version: 0.2.1
+Summary: Более удобное использование g4f
+Author: pyg4i
+Author-email: kigzobadi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: g4f
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pyg4i
+
+pyg4i — это мощная библиотека, предоставляющая удобный интерфейс для работы с библиотекой g4f. Она значительно упрощает взаимодействие с g4f и делает его более доступным для разработчиков. С помощью pyg4i вы можете бесплатно общаться с моделями GPT-4 и DeepSeek, что открывает новые возможности для создания интеллектуальных приложений.
+
+## Возможности
+
+* Бесплатное общение с моделью GPT-4. 
+* Интеграция с DeepSeek для эффективного поиска информации. 
+* Удобные функции для управления контекстом, позволяющие адаптировать взаимодействие с моделью под ваши нужды.
+
+## Установка
+
+Для установки pyg4i используйте пакетный менеджер pip:
+
+```bash
+
+pip install pyg4i
+```
+
+## Примеры использования
+
+После успешной установки библиотеки, вы можете начать использовать её следующим образом:
+
+```python
+from pyg4i import g4i
+
+# Получение ответа от модели
+
+response = g4i.answer("Ваш запрос здесь")
+
+print(response)
+```
+
+## Управление контекстом
+### Очистка контекста
+
+Чтобы очистить текущий контекст, используйте следующую функцию:
+
+```python
+g4i.clearContext()
+```
+
+### Отключение контекста
+
+Если вам необходимо, чтобы модель не запоминала предыдущие сообщения, вы можете отключить контекст:
+
+```python
+g4i.contextDisable()
+```
+
+### Включение контекста
+
+Для повторного включения контекста используйте следующую команду:
+
+```python
+g4i.contextActivate()
+```
+

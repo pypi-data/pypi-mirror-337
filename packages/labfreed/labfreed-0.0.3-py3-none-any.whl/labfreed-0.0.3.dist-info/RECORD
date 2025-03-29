@@ -1,0 +1,17 @@
+labfreed/__init__.py,sha256=ToYkbhG_8yX4YOS9mieyjvGLG2M8raraqRFDbU71d3A,87
+labfreed/DisplayNameExtension/DisplayNameExtension.py,sha256=FlT53u1EntpsLmho6GZtgIWBZBNWkl9STxzJBvojR6M,1033
+labfreed/DisplayNameExtension/base36.py,sha256=2lwmEMWm8qrFJkcrP-nMPwS0eCm2THhCJ3Vk-TdGQg0,2455
+labfreed/PAC_CAT/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+labfreed/PAC_CAT/data_model.py,sha256=y1cTFZknObi5XOk4aqfgeJv6_G8Rjd9mxTRwNCQR0M4,4311
+labfreed/PAC_ID/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labfreed/PAC_ID/data_model.py,sha256=oVVqspdZ4B_C4V1rOmcde2_EqWUpDJc6vDUnX4Z1ZPw,3123
+labfreed/PAC_ID/parse.py,sha256=ZmCpuht7o6RgDZCweF7Y0k7QFTd0gLtUpmjFsIlz_wA,4668
+labfreed/PAC_ID/serialize.py,sha256=ujI4SFs-TsFb4FVU2hzwardEWu8-2MYjewE0IyC1yok,1871
+labfreed/TREXExtension/data_model.py,sha256=eT4KyQklTO6m-wA28KyJ8wzT8ONhG3fOB3JU6b19ScY,8011
+labfreed/TREXExtension/parse.py,sha256=Y04UK1KlMLG9tE_d7cQOiAJpm8Zh49UoJYjY7Lfqa4Y,1812
+labfreed/TREXExtension/uncertainty.py,sha256=l3WxrLnWTQYfX28gFisXwDcVPvT8bCAd4q6Xl02dRdE,1117
+labfreed/TREXExtension/unit_utilities.py,sha256=ZhivJnEXMvz7HxLJjI1oJ8y_pcPxW2abKkouiqTo4I4,3775
+labfreed-0.0.3.dist-info/licenses/LICENSE,sha256=gHFOv9FRKHxO8cInP3YXyPoJnuNeqrvcHjaE_wPSsQ8,1100
+labfreed-0.0.3.dist-info/WHEEL,sha256=_2ozNFCLWc93bK4WKHCO-eDUENDlo-dgc9cU3qokYO4,82
+labfreed-0.0.3.dist-info/METADATA,sha256=EAt_IEv09C97i4lu65HHBCaWCdF6y4gnmZDbp7H7TaM,449
+labfreed-0.0.3.dist-info/RECORD,,

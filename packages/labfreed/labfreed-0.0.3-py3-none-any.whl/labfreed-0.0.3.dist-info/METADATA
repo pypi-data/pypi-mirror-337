@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: labfreed
+Version: 0.0.3
+Summary: Python implementation of LabFREED building blocks
+Author-email: Reto Thürer <reto.thuerer@gmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# LabFREED for Python
+
+A python implementation of [LabFREED](www.labfreed.com).

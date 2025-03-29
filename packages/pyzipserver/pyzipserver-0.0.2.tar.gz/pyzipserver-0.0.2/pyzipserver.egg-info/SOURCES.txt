@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pyzipserver/__init__.py
+pyzipserver/_version.py
+pyzipserver/server.py
+pyzipserver.egg-info/PKG-INFO
+pyzipserver.egg-info/SOURCES.txt
+pyzipserver.egg-info/dependency_links.txt
+pyzipserver.egg-info/entry_points.txt
+pyzipserver.egg-info/not-zip-safe
+pyzipserver.egg-info/top_level.txt

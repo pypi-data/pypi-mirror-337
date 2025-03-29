@@ -1,0 +1,9 @@
+pyladoc/__init__.py,sha256=uQxUB5Ai3o8ivgCrls2N_z8-OAY466n7rXJ6JkS-cq4,21846
+pyladoc/latex.py,sha256=UZtNRt3Z_lCxuy2m07bZtobe9So8FoyetOpYGrnWX0U,11546
+pyladoc/latex_escaping.py,sha256=_sX2MKPzhZHbw-1Tenm2sxQB1RHjPyIGdEKvXCCMZQA,2567
+pyladoc/templates/default_template.tex,sha256=jogVcBxTQa-N7BZVmwQbprw4O0XlurPKtACs-NJHXDs,1071
+pyladoc/templates/test_template.html,sha256=0nNoJ0UNCTzVOStm-700wqlkGsAaEFWzEH2VO1ljA9c,2276
+pyladoc-1.0.0.dist-info/METADATA,sha256=p9QG9mkwwjxS9zguazpr4Dd2S_zi7TFO81WyKt2gXVs,4298
+pyladoc-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pyladoc-1.0.0.dist-info/top_level.txt,sha256=Q4HzXhnLbJM11focbW94wZdM2yd5cs5VGIJbdz5cWts,8
+pyladoc-1.0.0.dist-info/RECORD,,

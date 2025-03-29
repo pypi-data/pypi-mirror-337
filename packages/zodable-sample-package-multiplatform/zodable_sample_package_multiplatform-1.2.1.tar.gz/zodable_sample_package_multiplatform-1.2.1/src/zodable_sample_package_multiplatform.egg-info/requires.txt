@@ -1,0 +1,7 @@
+annotated-types
+pydantic
+pydantic_core
+toml
+typing-inspection
+typing_extensions
+uuid

@@ -1,0 +1,68 @@
+/* Symbols in Navigation and ToC. */
+:root,
+[data-md-color-scheme="default"] {
+  --doc-symbol-c-function-fg-color: #8250df;
+  --doc-symbol-c-var-fg-color: #953800;
+  --doc-symbol-c-macro-fg-color: #5cad0f;
+  --doc-symbol-c-typedef-fg-color: #0550ae;
+
+  --doc-symbol-c-function-bg-color: #8250df1a;
+  --doc-symbol-c-var-bg-color: #9538001a;
+  --doc-symbol-c-macro-bg-color: #5cad0f1a;
+  --doc-symbol-c-typedef-bg-color: #0550ae1a;
+}
+
+[data-md-color-scheme="slate"] {
+  --doc-symbol-c-function-fg-color: #d2a8ff;
+  --doc-symbol-c-var-fg-color: #ffa657;
+  --doc-symbol-c-macro-fg-color: #baff79;
+  --doc-symbol-c-typedef-fg-color: #79c0ff;
+
+  --doc-symbol-c-function-bg-color: #d2a8ff1a;
+  --doc-symbol-c-var-bg-color: #ffa6571a;
+  --doc-symbol-c-macro-bg-color: #baff791a;
+  --doc-symbol-c-typedef-bg-color: #79c0ff1a;
+}
+
+code.doc-symbol {
+  border-radius: .1rem;
+  font-size: .85em;
+  padding: 0 .3em;
+  font-weight: bold;
+}
+
+code.doc-symbol-c-var {
+  color: var(--doc-symbol-c-var-fg-color);
+  background-color: var(--doc-symbol-c-var-bg-color);
+}
+
+code.doc-symbol-c-var::after {
+  content: "var";
+}
+
+code.doc-symbol-c-function {
+  color: var(--doc-symbol-c-function-fg-color);
+  background-color: var(--doc-symbol-c-function-bg-color);
+}
+
+code.doc-symbol-c-function::after {
+  content: "func";
+}
+
+code.doc-symbol-c-typedef {
+  color: var(--doc-symbol-c-typedef-fg-color);
+  background-color: var(--doc-symbol-c-typedef-bg-color);
+}
+
+code.doc-symbol-c-typedef::after {
+  content: "typedef";
+}
+
+code.doc-symbol-c-macro {
+  color: var(--doc-symbol-c-macro-fg-color);
+  background-color: var(--doc-symbol-c-macro-bg-color);
+}
+
+code.doc-symbol-c-macro::after {
+  content: "macro";
+}

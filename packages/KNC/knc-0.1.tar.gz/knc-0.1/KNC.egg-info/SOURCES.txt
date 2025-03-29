@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+KNC/__init__.py
+KNC/hh.py
+KNC.egg-info/PKG-INFO
+KNC.egg-info/SOURCES.txt
+KNC.egg-info/dependency_links.txt
+KNC.egg-info/top_level.txt

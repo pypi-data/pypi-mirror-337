@@ -1,0 +1,116 @@
+﻿{
+    "SQLLoaderMapping": {
+        "name": "Turnover parameters",
+        "fetch_sql": "
+            SELECT DISTINCT
+                e_tr.name AS EcoBoundaryName,
+                hw_genus.GenusName AS GenusName,
+                hw_foliage AS foliage,
+                stem_turnover AS stem,
+                hw_branch AS branch,
+                hw_stem_snag AS stem_snag,
+                hw_branch_snag AS branch_snag,
+                coarse_root,
+                fine_root,
+                branch_snag_split,
+                coarse_ag_split,
+                fine_ag_split
+            FROM (
+                eco_boundary e
+                INNER JOIN eco_boundary_tr e_tr
+                    ON e.id = e_tr.eco_boundary_id
+                INNER JOIN turnover_parameter p
+                    ON e.turnover_parameter_id = p.id
+            ), (
+                SELECT
+                    CASE WHEN f_tr.name LIKE 'Mixedwood' THEN 'Hardwood' ELSE f_tr.name END AS ForestTypeName,
+                    CASE
+                        WHEN g_tr.name IN ('Missing Value', 'Not applicable')
+                            THEN CASE
+                                WHEN f_tr.name IN ('Mixedwood', 'Hardwood')
+                                    THEN 'Unspecified broad-leaved species'
+                                ELSE 'Unspecified conifirs'
+                            END
+                        ELSE g_tr.name
+                    END AS GenusName
+                FROM genus g
+                INNER JOIN genus_tr g_tr
+                    ON g.id = g_tr.genus_id
+                INNER JOIN species s
+                    ON s.genus_id = g.id
+                INNER JOIN forest_type f
+                    ON s.forest_type_id = f.id
+                INNER JOIN forest_type_tr f_tr
+                    ON f.id = f_tr.forest_type_id
+                WHERE f_tr.name IN ('Hardwood', 'Mixedwood')
+                    AND g_tr.locale_id = 1
+                    AND f_tr.locale_id = 1
+            ) AS hw_genus
+            WHERE e_tr.locale_id = 1
+            UNION
+            SELECT DISTINCT
+                e_tr.name AS EcoBoundaryName,
+                sw_genus.GenusName AS GenusName,
+                sw_foliage AS foliage,
+                stem_turnover AS stem,
+                sw_branch AS branch,
+                sw_stem_snag AS stem_snag,
+                sw_branch_snag AS branch_snag,
+                coarse_root,
+                fine_root,
+                branch_snag_split,
+                coarse_ag_split,
+                fine_ag_split
+            FROM (
+                eco_boundary e
+                INNER JOIN eco_boundary_tr e_tr
+                    ON e.id = e_tr.eco_boundary_id
+                INNER JOIN turnover_parameter p
+                    ON e.turnover_parameter_id = p.id
+            ), (
+                SELECT
+                    f_tr.name AS ForestTypeName,
+                    CASE
+                        WHEN g_tr.name IN ('Missing Value', 'Not applicable')
+                            THEN CASE
+                                WHEN f_tr.name IN ('Mixedwood', 'Hardwood')
+                                    THEN 'Unspecified broad-leaved species'
+                                ELSE 'Unspecified conifirs'
+                            END
+                        ELSE g_tr.name
+                    END AS GenusName
+                FROM genus g
+                INNER JOIN genus_tr g_tr
+                    ON g.id = g_tr.genus_id
+                INNER JOIN species s
+                    ON s.genus_id = g.id
+                INNER JOIN forest_type f
+                    ON s.forest_type_id = f.id
+                INNER JOIN forest_type_tr f_tr
+                    ON f.id = f_tr.forest_type_id
+                WHERE f_tr.name = 'Softwood'
+                    AND g_tr.locale_id = 1
+                    AND f_tr.locale_id = 1
+            ) AS sw_genus
+            WHERE e_tr.locale_id = 1",
+        "load_sql": "
+            INSERT INTO turnover_parameter_association (genus_id, eco_boundary_id, turnover_parameter_id)
+            SELECT
+                g.id AS genus_id,
+                e.id AS eco_boundary_id,
+                p.id AS turnover_parameter_id
+            FROM genus g, eco_boundary e, turnover_parameter p
+            WHERE g.name = @GenusName
+                AND e.name = @EcoBoundaryName
+                AND p.foliage = @foliage
+                AND p.stem = @stem
+                AND p.branch = @branch
+                AND p.stem_snag = @stem_snag
+                AND p.branch_snag = @branch_snag
+                AND p.coarse_root = @coarse_root
+                AND p.fine_root = @fine_root
+                AND p.branch_snag_split = @branch_snag_split
+                AND p.coarse_ag_split = @coarse_ag_split
+                AND p.fine_ag_split = @fine_ag_split"
+    }
+}

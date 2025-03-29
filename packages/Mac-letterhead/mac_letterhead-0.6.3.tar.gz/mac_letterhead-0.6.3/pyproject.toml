@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Mac-letterhead"
+dynamic = ["version"]
+description = "A macOS utility to merge letterhead with PDF documents using a drag-and-drop interface"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+authors = [
+    { name = "Erik", email = "" }
+]
+dependencies = [
+    "pyobjc-framework-Quartz",
+    "pyobjc-framework-Cocoa",
+    "importlib-resources; python_version < '3.9'",  # For accessing package resources in installed packages
+    "weasyprint>=59.0",  # For converting markdown/HTML to PDF
+    "markdown>=3.4.0",   # For parsing markdown to HTML
+    "pymupdf>=1.22.0",   # For PDF analysis and margin detection
+    "cffi>=1.17.1",     # Required by WeasyPrint
+    "pydyf>=0.11.0",    # Required by WeasyPrint
+    "cssselect2>=0.8.0", # Required by WeasyPrint
+    "tinycss2>=1.4.0",  # Required by WeasyPrint
+    "tinyhtml5>=2.0.0", # Required by WeasyPrint
+    "pillow>=11.1.0",   # Required by WeasyPrint
+    "fonttools>=4.56.0", # Required by WeasyPrint
+    "pyphen>=0.17.2",   # Required by WeasyPrint
+]
+
+[project.scripts]
+mac-letterhead = "letterhead_pdf.main:main"
+
+[tool.hatch.version]
+path = "letterhead_pdf/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["letterhead_pdf"]
+include = ["letterhead_pdf/resources/**/*"]
+
+# We're moving to using only in-package resources
+# to follow Python best practices for package resources

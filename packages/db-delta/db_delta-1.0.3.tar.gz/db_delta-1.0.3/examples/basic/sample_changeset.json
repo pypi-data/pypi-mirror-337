@@ -1,0 +1,41 @@
+[
+    {
+        "change_type": "put_item",
+        "key": {
+            "PK": "ITEM_ID#6",
+            "SK": "ITEM#6"
+        },
+        "item": {
+            "PK": "ITEM_ID#6",
+            "SK": "ITEM#6",
+            "id": 4,
+            "name": "Test 4",
+            "description": "Description 4"
+        }
+    },
+    {
+        "change_type": "updated_item",
+        "key": {
+            "PK": "ITEM_ID#2",
+            "SK": "ITEM#2"
+        },
+        "updated_fields": [
+            {
+                "field": "name",
+                "new_value": "Test 2 Updated",
+                "update_type": "updated"
+            },
+            {
+                "field": "description",
+                "update_type": "removed"
+            }
+        ]
+    },
+    {
+        "change_type": "deleted_item",
+        "key": {
+            "PK": "ITEM_ID#3",
+            "SK": "ITEM#3"
+        }
+    }
+]

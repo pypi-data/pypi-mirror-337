@@ -1,0 +1,32 @@
+[project]
+name = "db_delta"
+description = "Python library to evaluate DynamoDB changesets when running database unittests."
+readme = "README.md"
+
+dynamic = ["version"]
+
+
+authors = [
+    { name = "Pascal Sauerborn", email = "pascal.sauerborn@gmail.com" }
+]
+
+dependencies = [
+	"pydantic",
+	"moto",
+	"boto3"
+]
+
+[project.urls]
+Repository = "https://github.com/alpinesoftwareltd/db-delta.git"
+Homepage = "https://github.com/alpinesoftwareltd/db-delta"
+Documentation = "https://github.com/alpinesoftwareltd/db-delta/blob/main/README.md"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+local_scheme   = "no-local-version"
+tag_regex      = "^(?:v)?(?P<version>\\d+\\.\\d+\\.\\d+)$"
+fallback_version = "0.0.0"

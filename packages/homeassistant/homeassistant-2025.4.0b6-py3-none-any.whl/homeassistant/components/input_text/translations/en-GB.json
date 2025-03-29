@@ -1,0 +1,17 @@
+{
+    "services": {
+        "reload": {
+            "description": "Reloads helpers from the YAML-configuration."
+        },
+        "set_value": {
+            "description": "Sets the value.",
+            "fields": {
+                "value": {
+                    "description": "The target value.",
+                    "name": "Value"
+                }
+            },
+            "name": "Set"
+        }
+    }
+}

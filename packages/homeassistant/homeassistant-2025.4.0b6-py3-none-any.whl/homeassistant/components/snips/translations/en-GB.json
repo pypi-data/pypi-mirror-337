@@ -1,0 +1,42 @@
+{
+    "services": {
+        "feedback_off": {
+            "description": "Turns feedback sounds off.",
+            "fields": {
+                "site_id": {
+                    "description": "Site to turn sounds on, defaults to all sites.",
+                    "name": "Site ID"
+                }
+            },
+            "name": "Feedback off"
+        },
+        "feedback_on": {
+            "description": "Turns feedback sounds on.",
+            "fields": {
+                "site_id": {
+                    "description": "Site to turn sounds on, defaults to all sites.",
+                    "name": "Site ID"
+                }
+            }
+        },
+        "say_action": {
+            "fields": {
+                "can_be_enqueued": {
+                    "description": "Whether the session should wait for an open session to end. Otherwise it is dropped if another session is already running.",
+                    "name": "Can be enqueued"
+                },
+                "intent_filter": {
+                    "description": "Optional Array of Strings - A list of intents names to restrict the NLU resolution to on the first query.",
+                    "name": "Intent filter"
+                },
+                "site_id": {
+                    "name": "Site ID"
+                },
+                "text": {
+                    "name": "Text"
+                }
+            },
+            "name": "Say action"
+        }
+    }
+}

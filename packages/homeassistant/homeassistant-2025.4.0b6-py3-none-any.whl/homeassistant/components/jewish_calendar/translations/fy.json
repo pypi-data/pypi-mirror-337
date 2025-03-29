@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "time_zone": "Ast in lokaasje opjoust, moatst de tiids\u00f4ne opjaan foar de krekte berekkeningen fan de kalindertiden"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "havdalah_minutes_after_sunset": "Minuten nei sinne-\u00fbndergong foar Havdalah"
+                },
+                "data_description": {
+                    "candle_lighting_minutes_before_sunset": "Standert stiet dy op 18 minuten. Yn Israel wolst nei alle gedachten 20/30/40 br\u00fbke, \u00f4fhinklik fan dyn lokaasje. B\u00fbten Israel wolst nei alle gedachten 18/24 br\u00fbke."
+                }
+            }
+        }
+    }
+}

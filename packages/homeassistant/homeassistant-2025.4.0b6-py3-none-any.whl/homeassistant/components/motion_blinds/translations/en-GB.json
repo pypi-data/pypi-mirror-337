@@ -1,0 +1,31 @@
+{
+    "entity": {
+        "button": {
+            "go_favorite": {
+                "name": "Go to favourite position"
+            },
+            "set_favorite": {
+                "name": "Set current position as favourite"
+            }
+        },
+        "cover": {
+            "bottom": {
+                "name": "Bottom"
+            },
+            "combined": {
+                "name": "Combined"
+            },
+            "top": {
+                "name": "Top"
+            }
+        },
+        "sensor": {
+            "bottom_battery": {
+                "name": "Bottom battery"
+            },
+            "top_battery": {
+                "name": "Top battery"
+            }
+        }
+    }
+}

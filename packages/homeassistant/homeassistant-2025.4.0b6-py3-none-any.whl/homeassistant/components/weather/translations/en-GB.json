@@ -1,0 +1,47 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "uv_index": {
+                    "name": "UV index"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_service_weather_get_forecast": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "Use `weather.get_forecasts` instead which supports multiple entities.\n\nPlease replace this action and adjust your automations and scripts and select **Submit** to close this issue."
+                    }
+                }
+            },
+            "title": "Detected use of deprecated action weather.get_forecast"
+        }
+    },
+    "selector": {
+        "forecast_type": {
+            "options": {
+                "daily": "Daily",
+                "hourly": "Hourly",
+                "twice_daily": "Twice daily"
+            }
+        }
+    },
+    "services": {
+        "get_forecast": {
+            "name": "Get forecast"
+        },
+        "get_forecasts": {
+            "description": "Retrieves the forecast from selected weather services.",
+            "fields": {
+                "type": {
+                    "description": "The scope of the weather forecast.",
+                    "name": "Forecast type"
+                }
+            },
+            "name": "Get forecasts"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "config": {
+        "abort": {
+            "unknown": "Unexpected error"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "energy_usage": {
+                "name": "Energy usage"
+            }
+        }
+    }
+}

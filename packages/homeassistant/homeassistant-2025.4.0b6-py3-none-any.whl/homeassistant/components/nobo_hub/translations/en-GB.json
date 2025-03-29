@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "select": {
+            "global_override": {
+                "name": "Global override"
+            }
+        }
+    }
+}

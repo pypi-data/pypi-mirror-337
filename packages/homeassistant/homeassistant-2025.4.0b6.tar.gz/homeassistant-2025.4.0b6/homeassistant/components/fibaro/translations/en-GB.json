@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "import_plugins": "Select if entities from Fibaro plugins / quickapps should be imported.",
+                    "password": "The password of the Fibaro hub user.",
+                    "url": "The URL of the Fibaro hub in the format `http(s)://IP`.",
+                    "username": "The username of the Fibaro hub user."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "config": {
+        "error": {
+            "another_device": "The IP address or hostname of another Brother printer was used."
+        },
+        "step": {
+            "reconfigure": {
+                "description": "Update configuration for {printer_name}."
+            },
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of the Brother printer to control."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "color_pages": {
+                "name": "Colour pages"
+            },
+            "page_counter": {
+                "unit_of_measurement": "pages"
+            }
+        }
+    },
+    "exceptions": {
+        "cannot_connect": {
+            "message": "An error occurred while connecting to the {device} printer: {error}"
+        },
+        "update_error": {
+            "message": "An error occurred while retrieving data from the {device} printer: {error}"
+        }
+    }
+}

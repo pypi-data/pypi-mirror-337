@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "no_subscriptions": "You need to be subscribed to YouTube channels in order to add them.",
+            "wrong_account": "Wrong account: please authenticate with the right account."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "latest_upload": {
+                "state_attributes": {
+                    "published_at": {
+                        "name": "Published at"
+                    },
+                    "video_id": {
+                        "name": "Video ID"
+                    }
+                }
+            },
+            "views": {
+                "name": "Views"
+            }
+        }
+    }
+}

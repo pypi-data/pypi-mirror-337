@@ -1,0 +1,77 @@
+{
+    "config": {
+        "abort": {
+            "not_the_same_smile": "The configured Smile ID does not match the Smile ID on the requested IP address."
+        },
+        "step": {
+            "reconfigure": {
+                "description": "Update configuration for {title}."
+            },
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP-address of your Smile. You can find it in your router or the Plugwise App.",
+                    "password": "The Smile ID printed on the label on the back of your Adam, Smile-T, or P1.",
+                    "port": "By default, your Smile uses port 80, normally you should not have to change this.",
+                    "username": "Default is `smile`, or `stretch` for the legacy Stretch."
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "secondary_boiler_state": {
+                "name": "Secondary boiler state"
+            }
+        },
+        "button": {
+            "reboot": {
+                "name": "Reboot"
+            }
+        },
+        "climate": {
+            "plugwise": {
+                "state_attributes": {
+                    "preset_mode": {
+                        "state": {
+                            "vacation": "Holiday"
+                        }
+                    }
+                }
+            }
+        },
+        "number": {
+            "max_dhw_temperature": {
+                "name": "Domestic hot water setpoint"
+            },
+            "temperature_offset": {
+                "name": "Temperature offset"
+            }
+        },
+        "select": {
+            "gateway_mode": {
+                "name": "Gateway mode",
+                "state": {
+                    "away": "Pause",
+                    "full": "Normal",
+                    "vacation": "Holiday"
+                }
+            },
+            "select_schedule": {
+                "state": {
+                    "off": "Off"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "data_incomplete_or_missing": {
+            "message": "Data incomplete or missing."
+        },
+        "error_communicating_with_api": {
+            "message": "Error communicating with API: {error}."
+        },
+        "unsupported_hvac_mode_requested": {
+            "message": "Unsupported mode {hvac_mode} requested, valid modes are: {hvac_modes}."
+        }
+    }
+}

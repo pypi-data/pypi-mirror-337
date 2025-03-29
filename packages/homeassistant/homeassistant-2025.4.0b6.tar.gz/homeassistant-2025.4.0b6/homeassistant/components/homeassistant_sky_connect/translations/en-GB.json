@@ -1,0 +1,15 @@
+{
+    "config": {
+        "flow_title": "{model}"
+    },
+    "options": {
+        "abort": {
+            "addon_already_running": "Failed to start the {addon_name} add-on because it is already running."
+        },
+        "step": {
+            "configure_flasher_addon": {
+                "title": "The Silicon Labs Flasher add-on installation has started"
+            }
+        }
+    }
+}

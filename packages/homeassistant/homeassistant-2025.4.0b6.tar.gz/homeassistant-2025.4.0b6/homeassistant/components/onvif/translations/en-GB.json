@@ -1,0 +1,62 @@
+{
+    "config": {
+        "step": {
+            "configure": {
+                "data_description": {
+                    "host": "The hostname or IP address of your ONVIF device."
+                }
+            }
+        }
+    },
+    "entity": {
+        "switch": {
+            "autofocus": {
+                "name": "Autofocus"
+            },
+            "ir_lamp": {
+                "name": "IR lamp"
+            },
+            "wiper": {
+                "name": "Wiper"
+            }
+        }
+    },
+    "services": {
+        "ptz": {
+            "fields": {
+                "continuous_duration": {
+                    "name": "Continuous duration"
+                },
+                "distance": {
+                    "description": "Distance coefficient. Sets how much PTZ should be executed in one request.",
+                    "name": "Distance"
+                },
+                "move_mode": {
+                    "description": "PTZ moving mode.",
+                    "name": "Move Mode"
+                },
+                "pan": {
+                    "description": "Pan direction.",
+                    "name": "Pan"
+                },
+                "preset": {
+                    "description": "PTZ preset profile token. Sets the preset profile token which is executed with GotoPreset.",
+                    "name": "Preset"
+                },
+                "speed": {
+                    "description": "Speed coefficient. Sets how fast PTZ will be executed.",
+                    "name": "Speed"
+                },
+                "tilt": {
+                    "description": "Tilt direction.",
+                    "name": "Tilt"
+                },
+                "zoom": {
+                    "description": "Zoom.",
+                    "name": "Zoom"
+                }
+            },
+            "name": "PTZ"
+        }
+    }
+}

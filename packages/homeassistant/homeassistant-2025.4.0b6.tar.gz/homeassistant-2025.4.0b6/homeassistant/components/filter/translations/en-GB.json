@@ -1,0 +1,75 @@
+{
+    "config": {
+        "step": {
+            "lowpass": {
+                "data": {
+                    "time_constant": "Time constant"
+                },
+                "data_description": {
+                    "time_constant": "Loosely relates to the amount of time it takes for a state to influence the output."
+                }
+            },
+            "outlier": {
+                "data": {
+                    "precision": "Precision",
+                    "radius": "Radius",
+                    "window_size": "Window size"
+                },
+                "data_description": {
+                    "precision": "Defines the number of decimal places of the calculated sensor value.",
+                    "radius": "Band radius from median of previous states.",
+                    "window_size": "Size of the window of previous states."
+                },
+                "description": "Read the documentation for further details on how to configure the filter sensor using these options."
+            },
+            "range": {
+                "data": {
+                    "lower_bound": "Lower bound",
+                    "upper_bound": "Upper bound"
+                },
+                "data_description": {
+                    "lower_bound": "Lower bound for filter range.",
+                    "upper_bound": "Upper bound for filter range."
+                }
+            },
+            "time_simple_moving_average": {
+                "data": {
+                    "type": "Type"
+                },
+                "data_description": {
+                    "type": "Defines the type of Simple Moving Average."
+                }
+            },
+            "user": {
+                "data": {
+                    "entity_id": "Entity",
+                    "filter": "Filter"
+                },
+                "data_description": {
+                    "entity_id": "Entity to filter from.",
+                    "filter": "Select filter to configure.",
+                    "name": "Name for the created entity."
+                },
+                "description": "Add a filter sensor. UI configuration is limited to a single filter, use YAML for filter chain."
+            }
+        }
+    },
+    "selector": {
+        "filter": {
+            "options": {
+                "lowpass": "Low-pass",
+                "outlier": "Outlier",
+                "range": "Range",
+                "throttle": "Throttle",
+                "time_simple_moving_average": "Moving Average (Time based)",
+                "time_throttle": "Time throttle"
+            }
+        },
+        "type": {
+            "options": {
+                "last": "Last"
+            }
+        }
+    },
+    "title": "Filter"
+}

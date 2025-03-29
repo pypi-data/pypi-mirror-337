@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "current_uv_level": {
+                "state": {
+                    "extreme": "Extreme",
+                    "high": "High",
+                    "low": "Low",
+                    "moderate": "Moderate",
+                    "very_high": "Very high"
+                }
+            }
+        }
+    }
+}

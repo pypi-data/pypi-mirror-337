@@ -1,0 +1,13 @@
+paperxtract/__init__.py,sha256=Fa4ePqk6U0WmQzlaJf46BeHttWOSYBYDVbPiEERfy4g,417
+paperxtract/__main__.py,sha256=XOul5rEoy-NURAUNz9QbClyRSlbXzGXUb58fDGsJgqs,160
+paperxtract/cli.py,sha256=04w6ogMEK1A4gDJQh59q2a82icAgkDPtcRvz_TfBAWI,6808
+paperxtract/extractors/__init__.py,sha256=IufMapz6IdzotdtugRaEVa0xEQvQ_9LWOdLppA8l_oI,229
+paperxtract/extractors/openreview.py,sha256=3G1wC05QlHL_COk48ed0RojMjWTPlD8UbsVdj2vSAcA,9946
+paperxtract/formatters/__init__.py,sha256=mg4r53MocZg1eM5tIX_vlKPMj0qOZbosZlwaQVk62D4,260
+paperxtract/formatters/text_formatter.py,sha256=RibcQp6Tw3HAYv2qn7V8rRf_9g_AFeHonYi2HjHP3cI,8271
+paperxtract-0.1.0.dist-info/LICENSE,sha256=NG9cqPtkSy807ripBebdNT78XeN3jEIu9gLE20hi-so,1071
+paperxtract-0.1.0.dist-info/METADATA,sha256=hwdRc0zoAgn7Gu25zZnafXkDpqWuSi_OpooI9JCL4mk,4727
+paperxtract-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+paperxtract-0.1.0.dist-info/entry_points.txt,sha256=P55jLAh10yKzhj_yJr-R6hNBjRP4X2rzmYf3NH7iDcc,53
+paperxtract-0.1.0.dist-info/top_level.txt,sha256=zVKTXpYMWHq0r75PGlpC_UnpQJEXt9TT31VfPPhYFAU,12
+paperxtract-0.1.0.dist-info/RECORD,,

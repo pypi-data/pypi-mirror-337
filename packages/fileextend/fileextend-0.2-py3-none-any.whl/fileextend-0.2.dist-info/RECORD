@@ -1,0 +1,7 @@
+fileextend/__init__.py,sha256=4kO05BgTO7_HoCb7N-A7MA95Rj6eU2vwpSGdhTnqFlk,3991
+fileextend/file.py,sha256=BT941ZzPg0Afm4IwuDkBUGJ2_mIuRioHsOqFtWfWaLU,1661
+fileextend/tar.py,sha256=piMhve1C8NpBmGU6dY3FkzG_1zMERBmDVTgnIkXUzYM,2431
+fileextend-0.2.dist-info/METADATA,sha256=BPjig_JidsamcdUZatLrN6iXNjUcLqHvRSzhds0Ac3Y,1958
+fileextend-0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+fileextend-0.2.dist-info/top_level.txt,sha256=HGr9wkuqLDNfK7AFWczF6FwInvDMTpwGxczhMNslODs,11
+fileextend-0.2.dist-info/RECORD,,

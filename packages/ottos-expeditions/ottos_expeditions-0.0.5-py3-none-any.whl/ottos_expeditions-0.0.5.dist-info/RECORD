@@ -1,0 +1,10 @@
+ottos_expeditions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ottos_expeditions/lib/seed.py,sha256=h3vfFKceD8Bpey9SA5u2VU7ZhM5iFdGkvu1-EYUxPGM,12707
+ottos_expeditions/lib/synthetic.py,sha256=mp97mavoPr5bDnjuAgTihN4whE6gB6eNic5i8ORnk1g,37843
+ottos_expeditions/lib/transform.py,sha256=IWCTMyaoiwsvuB0pXiSfOsXxQkqSUZ5c0gKZWKT3z6k,121
+ottos_expeditions/ui/cli.py,sha256=TC0ib9UmahpiMUVD3db_Oxf9R99150e3jEHheOeyIqo,1230
+ottos_expeditions/ui/gui.py,sha256=vSwIbax2SxbvN0dd2rTzNrJ1rkN4QkHQSIjKWI89Tk4,595
+ottos_expeditions-0.0.5.dist-info/METADATA,sha256=g1YxO9xMWoUga9dOuyRJygUlOOzqsMDat-NxaOSRrH4,2506
+ottos_expeditions-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ottos_expeditions-0.0.5.dist-info/entry_points.txt,sha256=xp0EFahvBKdYkZnNSnET_ai7fPIXcP9ORDPHKeq54iE,67
+ottos_expeditions-0.0.5.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+ottos-expeditions = ottos_expeditions.ui.cli:app

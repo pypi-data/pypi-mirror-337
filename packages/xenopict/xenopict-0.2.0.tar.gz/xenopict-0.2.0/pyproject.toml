@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xenopict"
+dynamic = ["version"]
+authors = [
+  { name="S. Joshua Swamidass", email="swamidass@gmail.com" },
+]
+description = "A Python library for drawing chemical structures"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "rdkit>=2023.9.1",
+    "ruff>=0.3.4",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/swamidass/xenopict"
+"Bug Tracker" = "https://github.com/swamidass/xenopict/issues"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build]
+include = [
+    "xenopict/**/*.py",
+    "xenopict/layout/js/*.js",  # Include JavaScript files
+]
+
+[tool.hatch.envs.default]
+installer = "uv"
+extra-scripts.pip = "{env:HATCH_UV} pip {args}"
+
+[tool.hatch.envs.test]
+installer = "uv"
+extra-scripts.pip = "{env:HATCH_UV} pip {args}"
+dependencies = [
+  "pytest>=7.0.0",
+  "pytest-asyncio>=0.21.0",
+  "ruff>=0.3.4",
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest {args:tests}"
+
+[tool.ruff]
+# Enable pycodestyle (`E`), Pyflakes (`F`), and import sorting (`I`)
+lint.select = ["E", "F", "I"]
+
+# Same as Black.
+line-length = 100
+indent-width = 4
+
+# Assume Python 3.10
+target-version = "py310"
+
+[tool.ruff.format]
+# Use double quotes for strings.
+quote-style = "double"
+
+# Indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules" 
+pythonpath = "./"
+testpaths = "xenopict"
+doctest_optionflags = ["NORMALIZE_WHITESPACE", "IGNORE_EXCEPTION_DETAIL", "ELLIPSIS"]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"

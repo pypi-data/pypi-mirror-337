@@ -1,0 +1,14 @@
+bandit
+black
+build
+flake8
+mypy
+pylint
+pytest
+pytest-cov
+setuptools
+setuptools_scm
+tox
+twine
+types-PyYAML
+types-requests

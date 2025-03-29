@@ -1,0 +1,12 @@
+pybmx-0.1.1.dist-info/METADATA,sha256=yjEHvgQhmfN9rCHvzh-1vxFndmCd1K5ZJpnzR0HGhQ0,1974
+pybmx-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+pybmx-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+pybmx-0.1.1.dist-info/licenses/LICENSE,sha256=WJxXotDZ22TKE6q3HBLiBldeNLvbxtYDZzxH5-Bjv-s,1092
+pybmx/__init__.py,sha256=C-RuxTGHnv9HXI6VYmGlphaLwPtbMrVSqdKqYkW3cOw,331
+pybmx/bme.py,sha256=z-HSPf6f7LqxaJhkcJ89POW4vWY15GkYl8KT6aei9yM,10609
+pybmx/calibration.py,sha256=UF9nrkcdENUum4fBXuc_4UB4p_EhKMLqqkKq8_EhTCI,8153
+pybmx/configuration.py,sha256=iiYNYayH7M0Xv1ltInloHYx8pRNPaqSCYwZ-OhGkAAc,3597
+pybmx/enums.py,sha256=iB4Uq6Gq8tuHS6p7pO95KJ3JD-tUY8ZUX1gm8UO5KWw,1266
+pybmx/example.py,sha256=FZx2ebuK7-6tCR15YgGuPW1asT5aPfoIWC5fn-WEOU4,1132
+pybmx/utils.py,sha256=F7WVO-sjdcBeeLdIR2s1kWzjsYMIxdNQupnyMfQpWPs,1472
+pybmx-0.1.1.dist-info/RECORD,,

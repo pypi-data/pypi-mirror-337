@@ -1,0 +1,10 @@
+DTALite/DTALite.py,sha256=CLPelOuSiIBTiEJptQoU34E1wKm0YeQYYGs9dwi3Y4Q,1426
+DTALite/__init__.py,sha256=yRtzDgMEUE2UP2UBLIVhVdZam2X6uHu92igUqBcN6O4,148
+DTALite/bin/DTALite.dll,sha256=dPhYgZKwXeFgo2OW8TNMVsLe7Ec2zgI1CUDHujkU0v8,225280
+DTALite/bin/DTALite.so,sha256=ROHqO5kwh73qRzkezD83nOOLB8OFf4h6Yt716_oJapA,357440
+DTALite/bin/DTALite_arm.dylib,sha256=U2FhUXpX38lUHJFgsmONrs_-0fb7JmgoN8056C78KPc,316224
+DTALite/bin/DTALite_x86.dylib,sha256=OQKFIS0hGdRAqhffxuJ02CbGBq8-Nig5A_6lAQS6XNA,351504
+dtalite-0.8.dist-info/METADATA,sha256=mB5tHcZVUdxyaOzQZLalFgEIYRHt98aEhvGEYd6m1nc,7668
+dtalite-0.8.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+dtalite-0.8.dist-info/top_level.txt,sha256=ma8Kj6N-hUAqTHuRegK2jD42bv4m6LbWuJqzYY283Lo,8
+dtalite-0.8.dist-info/RECORD,,

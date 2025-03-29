@@ -1,0 +1,2 @@
+[withStructuredOutput](https://js.langchain.com/docs/concepts/structured_outputs/#structured-output-method): LLM should read this page when needing to implement structured outputs with LLMs, understanding schema definition methods, or configuring models to return data in specific formats. (Comprehensive guide to structured outputs in LangChain, covering schema definition using Zod or JSONSchema, implementation methods including tool calling and JSON mode, and the recommended .withStructuredOutput() method that simplifies binding schemas to models and parsing responses.)
+

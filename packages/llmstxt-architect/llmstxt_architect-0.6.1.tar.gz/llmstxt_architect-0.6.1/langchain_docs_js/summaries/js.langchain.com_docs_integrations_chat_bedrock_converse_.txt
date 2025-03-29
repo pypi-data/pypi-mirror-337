@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/bedrock_converse/): LLM should read this page when configuring Amazon Bedrock Converse models for use with LangChain, integrating chat-based language models with tool calling capabilities, checking model features and setup requirements. Provides overview of Amazon Bedrock Converse chat models, covering integration details, supported features, setup instructions with installation steps, instantiation and invocation examples, chaining with prompts, tool calling support, and links to API reference.
+

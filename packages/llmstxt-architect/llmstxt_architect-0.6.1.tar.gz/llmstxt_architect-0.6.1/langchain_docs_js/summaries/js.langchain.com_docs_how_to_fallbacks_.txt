@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/fallbacks/): LLM should read this page when handling API errors from LLMs, handling long inputs that exceed context window, or fallback to better models for specific tasks. This page discusses how to set up fallback models or chains when the primary model or chain fails due to API errors, input length exceeding context window, or inability to generate desired output format.
+

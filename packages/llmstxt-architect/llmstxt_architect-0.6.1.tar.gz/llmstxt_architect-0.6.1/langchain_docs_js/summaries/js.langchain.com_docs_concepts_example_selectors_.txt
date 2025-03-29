@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/example_selectors/): LLM should read this page when: - It needs to use few-shot prompting examples with chat models - It needs to dynamically select and format examples for prompts Example selectors are classes responsible for selecting and formatting examples into prompts for few-shot prompting with language models.
+

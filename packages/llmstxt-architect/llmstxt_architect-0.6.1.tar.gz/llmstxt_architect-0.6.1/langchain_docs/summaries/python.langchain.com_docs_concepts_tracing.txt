@@ -1,0 +1,2 @@
+[Tracing](https://python.langchain.com/docs/concepts/tracing): LLM should read this page when tracing the steps of a chain/agent for debugging, understanding the chain's flow, or inspecting intermediary outputs. Discusses the concept of tracing in LangChain, including that traces contain runs which are individual steps, and that tracing provides observability into chains/agents.
+

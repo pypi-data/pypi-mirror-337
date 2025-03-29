@@ -1,0 +1,2 @@
+[#evaluation](https://docs.smith.langchain.com/how_to_guides/#evaluation): LLM should read this page when getting started with LangSmith, understanding LangSmith's core features, or deciding if LangSmith is a good fit for their LLM application. LangSmith is a platform for building, monitoring, and evaluating production LLM applications, with observability, evaluation, and prompt engineering capabilities.
+

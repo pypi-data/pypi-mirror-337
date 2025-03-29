@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/rag/): LLM should read this page when building a question answering system with external data, incorporating up-to-date or domain-specific knowledge, or addressing hallucination issues. Explains retrieval augmented generation (RAG), a technique that combines language models with external knowledge bases to enhance model capabilities, covering key concepts of retrieval systems and adding retrieved data to model prompts.
+

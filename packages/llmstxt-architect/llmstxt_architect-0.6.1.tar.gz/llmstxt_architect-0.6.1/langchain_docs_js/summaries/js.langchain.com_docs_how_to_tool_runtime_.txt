@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_runtime/): LLM should read this page when needing to pass runtime values like user ID to tools, needing to bind runtime values to a tool This page covers how to pass runtime values like user IDs to tools, either by using context variables or by dynamically generating tools at runtime and binding values to them
+

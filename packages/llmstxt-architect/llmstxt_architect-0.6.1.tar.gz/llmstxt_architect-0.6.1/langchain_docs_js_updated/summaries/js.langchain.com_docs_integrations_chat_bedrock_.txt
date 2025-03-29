@@ -1,0 +1,2 @@
+[BedrockChat](https://js.langchain.com/docs/integrations/chat/bedrock/): LLM should read this page when (looking for information about Amazon Bedrock Chat integration in LangChain, setting up AWS Bedrock credentials, or implementing tool calling with Bedrock models) (Documentation for BedrockChat integration in LangChain covering installation, authentication with AWS, model instantiation, invocation methods, chaining with prompt templates, tool calling capabilities, and supported model features including token-level streaming and image input)
+

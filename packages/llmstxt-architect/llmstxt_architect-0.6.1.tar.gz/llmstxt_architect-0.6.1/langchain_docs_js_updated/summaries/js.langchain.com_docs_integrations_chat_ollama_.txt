@@ -1,0 +1,2 @@
+[ChatOllama](https://js.langchain.com/docs/integrations/chat/ollama/): LLM should read this page when (looking to integrate Ollama's open-source LLMs locally, implementing tool calling with Ollama models, or working with multimodal capabilities in Ollama) (ChatOllama integration documentation covering installation, model instantiation, invocation, chaining with prompt templates, tool calling functionality, JSON mode, structured output, and multimodal image input capabilities for local LLM deployment)
+

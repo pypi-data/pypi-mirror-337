@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tool_calling/): LLM should read this page when [learning how to pass tools to chat models for the models to call, understanding what tool calls are, learning how to bind model-specific tool formats] This page explains how to pass tools to chat models that support tool calling, describes the tool call data structure, and demonstrates binding model-specific tool formats.
+

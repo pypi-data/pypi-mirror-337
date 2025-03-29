@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/qa_sources/): LLM should read this page when developing question-answering applications, building retrieval-augmented generation systems, or working with document retrieval and sourcing. Provides guidance on returning source documents used to generate a response, alongside implementation examples using LangChain and vector stores.
+

@@ -1,0 +1,2 @@
+[How to: use multimodal prompts](https://python.langchain.com/docs/how_to/multimodal_prompts/): LLM should read this page when wanting to pass multimodal data like images to an LLM, when wanting to send multiple pieces of multimodal data to an LLM, when wanting instructions on how to format multimodal prompts. This shows how to use prompt templates to format multimodal inputs like images to models that support it, including sending multiple images, and comparing images.
+

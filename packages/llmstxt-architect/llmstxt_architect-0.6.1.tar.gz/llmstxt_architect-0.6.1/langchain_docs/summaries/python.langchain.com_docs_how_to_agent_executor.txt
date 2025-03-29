@@ -1,0 +1,2 @@
+[How to: use legacy LangChain Agents (AgentExecutor)](https://python.langchain.com/docs/how_to/agent_executor): LLM should read this page when building agents with specific tools, when working with chat history, when using language models for tool calling. This page explains how to build agents with AgentExecutor that can call tools like search engines and retrievers, how to add chat history to agents, and how to use language models to determine which tools to call.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/debugging/): LLM should read this page when debugging LLM applications, when investigating the reasoning behind an LLM's response, or when trying to understand the internal steps of an LLM pipeline. This page discusses techniques for debugging LLM applications, including tracing, enabling verbose logging, and using custom callbacks for additional functionality.
+

@@ -1,0 +1,2 @@
+[Example Selectors](https://python.langchain.com/docs/concepts/example_selectors): LLM should read this page when selecting examples for few-shot prompting, dynamically choosing examples for prompts, or understanding different example selection techniques. The page covers example selectors, which are classes responsible for selecting and formatting examples to include as part of prompts for improved performance with few-shot learning.
+

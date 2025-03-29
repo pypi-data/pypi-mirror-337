@@ -1,0 +1,2 @@
+[ChatFireworks](https://js.langchain.com/docs/integrations/chat/fireworks/): LLM should read this page when needing to integrate with Fireworks AI chat models, when implementing token-level streaming with Fireworks, or when setting up tool calling with Fireworks models. (Documentation for ChatFireworks integration in LangChain, including model features, setup instructions, API credentials, installation, basic usage examples, chaining with prompt templates, and references to advanced features like tool calling, structured output, and token usage tracking)
+

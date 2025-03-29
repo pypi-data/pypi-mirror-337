@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/chat_model_caching/): LLM should read this page when needing to cache responses from chat models, setting up caching with different storage solutions, or understanding the benefits of caching. This page covers how to enable caching for chat models, both with an in-memory cache and various external caching solutions like Redis, Upstash Redis, Vercel KV, and Cloudflare KV, to improve performance and reduce costs by avoiding redundant API calls.
+

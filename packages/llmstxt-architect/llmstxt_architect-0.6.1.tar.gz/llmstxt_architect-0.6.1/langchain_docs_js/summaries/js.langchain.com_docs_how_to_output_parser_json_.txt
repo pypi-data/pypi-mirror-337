@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/output_parser_json/): LLM should read this page when [parsing JSON output from a language model, prompting a language model to return JSON structured data, streaming partial JSON chunks from a language model] [This page explains how to use the JsonOutputParser class to prompt a language model to generate JSON structured output conforming to a specified schema, and how to handle streaming of partial JSON chunks until the full output is received.]
+

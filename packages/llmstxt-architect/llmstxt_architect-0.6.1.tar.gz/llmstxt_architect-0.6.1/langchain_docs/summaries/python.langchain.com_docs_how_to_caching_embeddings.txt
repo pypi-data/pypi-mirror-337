@@ -1,0 +1,2 @@
+[How to: cache embedding results](https://python.langchain.com/docs/how_to/caching_embeddings): LLM should read this page when caching document embeddings to improve performance, caching query embeddings to improve performance, or choosing a data store for caching embeddings. This page covers how to use the CacheBackedEmbeddings class to cache document and query embeddings in a ByteStore, demonstrating its usage with a local file store and an in-memory store. It also explains how to specify the cache namespace to avoid collisions.
+

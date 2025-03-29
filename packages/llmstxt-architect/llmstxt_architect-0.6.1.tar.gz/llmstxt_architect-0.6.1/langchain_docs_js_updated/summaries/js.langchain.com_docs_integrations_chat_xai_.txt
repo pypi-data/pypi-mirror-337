@@ -1,0 +1,2 @@
+[ChatXAI](https://js.langchain.com/docs/integrations/chat/xai/): LLM should read this page when needing integration details for xAI's Grok model, implementing ChatXAI in JavaScript/TypeScript, or configuring tool calling with xAI. (Documentation for the ChatXAI integration in LangChain JS, covering model features, setup, credentials, installation, instantiation, invocation, chaining functionality, and API references for the xAI Grok model)
+

@@ -1,0 +1,2 @@
+[with_types](https://python.langchain.com/docs/concepts/runnables#with_types): LLM should read this page when learning about the Runnable interface in LangChain, understanding how to work with Runnables, and customizing or configuring Runnables. The page covers the Runnable interface, optimized parallel execution, streaming APIs, input/output types, inspecting schemas, RunnableConfig options, creating custom Runnables from functions, and configurable Runnables.
+

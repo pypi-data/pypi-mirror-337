@@ -1,0 +1,2 @@
+[ChatGoogleGenerativeAI](https://js.langchain.com/docs/integrations/chat/google_generativeai/): LLM should read this page when (working with Google Generative AI/Gemini models, implementing tool calling with Google AI, setting up multimodal inputs or search retrieval tools) (Detailed guide to ChatGoogleGenerativeAI integration in LangChain, covering setup, authentication, instantiation, calling methods, safety settings, tool calling, built-in Google Search retrieval, code execution capabilities, context caching, and model limitations)
+

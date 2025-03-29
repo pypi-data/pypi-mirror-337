@@ -1,0 +1,2 @@
+[Tutorials](https://js.langchain.com/docs/tutorials/): LLM should read this page when looking for LangChain tutorial resources, needing to get started with LLM application development, or searching for structured learning paths in LangChain. (The page contains a comprehensive collection of tutorials organized into three main sections: "Get started" tutorials covering basic components like chat models and prompts, "Orchestration" tutorials for building complex applications with LangGraph, and "LangSmith" tutorials for evaluation and monitoring of LLM applications.)
+

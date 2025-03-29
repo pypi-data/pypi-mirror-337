@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/tools_error/): LLM should read this page when [handling tool errors in LangChain, implementing error handling and fallbacks for tool calls, catching and reporting errors during tool invocation] [This page explains how to handle errors when calling tools with an LLM, including using try/except blocks to catch errors, providing fallback chains with different models, and summarizing tool invocation errors.]
+

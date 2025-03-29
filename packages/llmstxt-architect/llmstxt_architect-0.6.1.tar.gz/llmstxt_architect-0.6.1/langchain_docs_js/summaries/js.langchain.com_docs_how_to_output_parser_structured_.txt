@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/output_parser_structured/): LLM should read this page when 1) it needs to parse structured output from a model response, 2) it wants to validate the structured output against a schema, 3) it wants to stream partial structured output. The page covers how to use LangChain's StructuredOutputParser to parse model responses into structured data formats like JSON, validate against a schema, and stream partial outputs.
+

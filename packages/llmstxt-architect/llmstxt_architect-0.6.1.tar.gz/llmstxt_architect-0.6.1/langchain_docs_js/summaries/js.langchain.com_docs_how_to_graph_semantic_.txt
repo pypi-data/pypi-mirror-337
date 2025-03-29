@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/graph_semantic/): LLM should read this page when: - Needing to interact with a graph database like Neo4j using LLMs - Wanting to create a semantic layer over a database using tools 'The page covers how to set up Neo4j with example data, define custom tools with Cypher templates as a semantic layer, and use an OpenAI LLM agent to interact with the graph database through those tools.'
+

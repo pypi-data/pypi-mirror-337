@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/embedding_models/): LLM should read this page when determining how to embed text for semantic similarity tasks, when selecting an embedding model for a retrieval system, when measuring document similarity through embeddings. Covers embedding text into vector representations that capture meaning, selecting and using embedding models from different providers, measuring vector similarity through mathematical operations like cosine similarity.
+

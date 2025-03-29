@@ -1,0 +1,2 @@
+[Tokens](https://js.langchain.com/docs/concepts/tokens/): LLM should read this page when needing to understand how language models process text, explaining tokenization to users, or working with token-related code and limitations. (Explains what tokens are in LLMs - the basic processing units that can represent words, word parts, or other linguistic elements. Covers tokenization process, how tokens enable better language understanding than character-level processing, token counting metrics, and notes that tokens can also represent non-text modalities like images or audio.)
+

@@ -1,0 +1,2 @@
+[How to: get models to return structured output](https://python.langchain.com/docs/how_to/structured_output): LLM should read this page when wanting to obtain structured output from an LLM, needing to parse JSON/XML/YAML output from an LLM, or looking to use few-shot examples with structured outputs. This page covers using the `.with_structured_output()` method to obtain structured data from LLMs, prompting techniques to elicit structured outputs, and parsing structured outputs.
+

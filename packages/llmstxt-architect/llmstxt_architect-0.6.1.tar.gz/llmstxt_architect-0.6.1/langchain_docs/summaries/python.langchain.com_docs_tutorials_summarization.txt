@@ -1,0 +1,2 @@
+[this guide](https://python.langchain.com/docs/tutorials/summarization): LLM should read this page when needing to summarize long texts or documents, when building question-answering systems, when creating text analysis applications. This page covers summarizing texts using LangChain, including the "stuff" method (concatenating into single prompt), the "map-reduce" method (splitting into chunks for parallel summarization), and orchestrating these methods using LangGraph.
+

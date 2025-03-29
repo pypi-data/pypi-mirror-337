@@ -1,0 +1,2 @@
+[How to: write a custom output parser class](https://python.langchain.com/docs/how_to/output_parser_custom): Line 1: 'LLM should read this page when creating a custom output parser, implementing a custom parser by inheriting from base classes, or parsing raw model outputs' Line 2: 'Covers how to create custom output parsers using runnable lambdas/generators (recommended) or by inheriting from base parser classes like BaseOutputParser and BaseGenerationOutputParser. Includes examples for simple and more complex parsing scenarios.'
+

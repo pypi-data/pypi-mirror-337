@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/passthrough/): LLM should read this page when needing to pass data through a chain of runnables, needing to format input data for a prompt, or when working with retrieval and formatting the context. This page explains how to use RunnablePassthrough to pass data through chains, often in conjunction with RunnableParallel, to properly format inputs for prompts. It provides an example using retrieval to get context and pass through the question for a prompt.
+

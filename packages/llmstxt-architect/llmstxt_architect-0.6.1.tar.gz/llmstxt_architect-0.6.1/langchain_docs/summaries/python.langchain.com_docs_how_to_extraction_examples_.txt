@@ -1,0 +1,2 @@
+[How to: use reference examples](https://python.langchain.com/docs/how_to/extraction_examples/): LLM should read this page when wanting to use reference examples to improve extraction quality, wanting to structure example inputs and outputs for extraction, wanting to test an extraction model with and without examples. This page explains how to define reference examples in the format expected for the LangChain tool calling API, how to incorporate these examples into prompts, and how using examples can improve extraction performance compared to not using examples.
+

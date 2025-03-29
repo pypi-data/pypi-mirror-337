@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/tokens/): LLM should read this page when trying to understand how language models process and generate text, when working with token counts or quotas, and when handling multimodal inputs like images or audio. The page explains what tokens are, how language models use them to process text and other sequential data, why tokens are used instead of characters, how tokens correspond to text, and that tokens can represent multimodal data beyond just text.
+

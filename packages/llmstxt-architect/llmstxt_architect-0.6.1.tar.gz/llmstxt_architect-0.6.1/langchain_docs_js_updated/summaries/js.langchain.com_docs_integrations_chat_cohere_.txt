@@ -1,0 +1,2 @@
+[ChatCohere](https://js.langchain.com/docs/integrations/chat/cohere/): LLM should read this page when (looking for information about using Cohere's chat models in LangChain.js, implementing RAG with Cohere, or using Cohere's web search connector) (Documentation for ChatCohere integration with LangChain.js including setup, credentials, model instantiation, basic invocation, chaining, RAG capabilities with documents as context, and web search connector functionality)
+

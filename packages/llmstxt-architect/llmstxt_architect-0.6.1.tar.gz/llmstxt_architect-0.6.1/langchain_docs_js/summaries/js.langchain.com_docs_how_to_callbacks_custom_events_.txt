@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/callbacks_custom_events/): LLM should read this page when: 1) Trying to dispatch custom events from within a Runnable 2) Wanting to surface custom events via the Stream Events API or custom callback handlers 'This page explains how to dispatch custom callback events with a name and data payload from within a Runnable, which can then be consumed via the Stream Events API or custom callback handlers. It provides code examples for both methods.'
+

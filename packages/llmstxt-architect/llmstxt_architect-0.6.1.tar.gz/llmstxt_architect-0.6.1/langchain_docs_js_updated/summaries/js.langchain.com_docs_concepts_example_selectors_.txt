@@ -1,0 +1,2 @@
+[Example Selectors](https://js.langchain.com/docs/concepts/example_selectors/): LLM should read this page when (learning about dynamic example selection for few-shot prompting, needing to understand example selector concepts, implementing context-aware example selection) (Overview of Example Selectors which dynamically choose and format examples for prompts, improving LLM performance through few-shot prompting rather than using hardcoded examples, with links to related how-to guides and API reference)
+

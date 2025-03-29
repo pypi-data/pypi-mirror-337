@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/anthropic/): LLM should read this page when integrating with Anthropic's ChatAnthropic model, using features like citations or prompt caching, or configuring custom clients. Covers setup, instantiation, chaining, content blocks, caching, custom headers/clients, and citation handling for ChatAnthropic model.
+

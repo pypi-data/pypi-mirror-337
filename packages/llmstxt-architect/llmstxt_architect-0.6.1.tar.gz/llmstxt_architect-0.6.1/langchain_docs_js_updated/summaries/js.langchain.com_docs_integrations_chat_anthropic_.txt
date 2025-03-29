@@ -1,0 +1,2 @@
+[ChatAnthropic](https://js.langchain.com/docs/integrations/chat/anthropic/): LLM should read this page when (integrating Anthropic Claude models with LangChain, using citations with Anthropic models, or implementing prompt caching) (Documentation for the ChatAnthropic integration in LangChain.js, covering model setup, credentials, installation, invocation, content blocks, tool calling, custom headers, prompt caching, custom clients, and citation features)
+

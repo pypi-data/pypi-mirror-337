@@ -1,0 +1,2 @@
+[How to: load web pages](https://python.langchain.com/docs/how_to/document_loader_web): LLM should read this page when: - It needs to load and process web pages for question answering or other applications - It needs guidance on using web page content with LangChain 'The page covers how to load web pages into LangChain's Document format, including simple text extraction and advanced parsing of page structure. It demonstrates tools like WebBaseLoader and UnstructuredLoader, and shows how to perform operations like vector search over loaded web content.'
+

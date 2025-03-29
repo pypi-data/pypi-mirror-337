@@ -1,0 +1,2 @@
+[Agents](https://js.langchain.com/docs/concepts/agents/): LLM should read this page when (needing to understand agent capabilities in LangChain, migrating from AgentExecutor to LangGraph, or seeking resources about agent implementation) (Explains that agents are systems that use LLMs as reasoning engines to take actions, recommends using LangGraph for building agents instead of the legacy AgentExecutor, and provides links to migration guides and documentation resources for both approaches)
+

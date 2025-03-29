@@ -1,0 +1,2 @@
+[Memory](https://langchain-ai.github.io/langgraph/concepts/memory/): LLM should read this page when developing agents with memory capabilities, implementing memory management strategies, or learning about different types of memory for AI agents. Covers topics related to short-term and long-term memory for agents, techniques for managing conversation history and summarizing past conversations, different types of memory (semantic, episodic, procedural), and approaches for writing memories in the hot path or in the background.
+

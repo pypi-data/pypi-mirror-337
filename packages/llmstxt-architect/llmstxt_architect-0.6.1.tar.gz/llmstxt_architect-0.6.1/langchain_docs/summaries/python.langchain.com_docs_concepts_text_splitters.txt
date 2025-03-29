@@ -1,0 +1,2 @@
+[Text Splitters](https://python.langchain.com/docs/concepts/text_splitters): LLM should read this page when working with long documents, handling limited model input sizes, or optimizing retrieval systems This page discusses different strategies for splitting large texts into smaller chunks, including length-based, text structure-based, document structure-based, and semantic meaning-based approaches.
+

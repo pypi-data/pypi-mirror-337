@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/text_llms/): LLM should read this page when learning about older language models, implementing string-in/string-out models, or understanding the difference between chat models and traditional language models. This page explains that LangChain has implementations for older language models that take a string as input and return a string as output, referred to as string-in, string-out LLMs. It recommends using the newer chat models instead.
+

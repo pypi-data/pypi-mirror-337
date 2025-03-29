@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/prompt_templates/): LLM should read this page when building a language model application that needs to construct prompts, utilize conditional prompting, or insert message history into prompts This page covers Prompt Templates, which help translate user input and parameters into instructions for language models by formatting strings, messages, and placeholders
+

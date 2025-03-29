@@ -1,0 +1,2 @@
+[ToolMessage](https://js.langchain.com/docs/concepts/messages/#toolmessage): LLM should read this page when (needing to understand message types in LangChain, implementing chat interfaces, or working with different message roles) (Comprehensive guide to Messages in LangChain, covering message roles (system, user, assistant, tool), message content types, standardized message structure, conversation formats, and how different message types like SystemMessage, HumanMessage, AIMessage, ToolMessage and AIMessageChunk are implemented)
+

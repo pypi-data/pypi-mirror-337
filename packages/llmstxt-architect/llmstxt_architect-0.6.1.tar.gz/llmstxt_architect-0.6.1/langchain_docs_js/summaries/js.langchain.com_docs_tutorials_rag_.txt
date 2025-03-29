@@ -1,0 +1,2 @@
+[#query-analysis](https://js.langchain.com/docs/tutorials/rag/#query-analysis): LLM should read this page when building a question-answering application over textual data, implementing retrieval-based generation, or integrating query analysis into a retrieval pipeline. This page covers indexing textual data, implementing retrieval and generation steps for a retrieval-augmented generation (RAG) application, incorporating query analysis to optimize retrieval queries, and orchestrating the overall application using LangGraph.
+

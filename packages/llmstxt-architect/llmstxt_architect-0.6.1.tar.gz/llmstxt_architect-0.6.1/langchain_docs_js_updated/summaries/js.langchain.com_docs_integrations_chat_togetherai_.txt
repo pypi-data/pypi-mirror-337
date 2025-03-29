@@ -1,0 +1,2 @@
+[ChatTogetherAI](https://js.langchain.com/docs/integrations/chat/togetherai/): LLM should read this page when (implementing TogetherAI chat models in LangChain, using open-source models via Together API, or adding multimodal capabilities to LangChain projects) (Documentation for ChatTogetherAI integration in LangChain, covering installation, API key setup, model instantiation, invocation, chaining, and supported features including tool calling, structured output, JSON mode, and multimodal inputs)
+

@@ -1,0 +1,2 @@
+[Conceptual Guides](https://js.langchain.com/docs/concepts/): LLM should read this page when needing to understand LangChain's conceptual framework, learning about key components, or finding definitions of LangChain terminology. (A comprehensive guide to LangChain concepts including chat models, messages, tools, tool calling, structured output, runnables, streaming, LCEL, retrieval, embedding models, vector stores, agents, and more with a detailed glossary of LangChain terms and components.)
+

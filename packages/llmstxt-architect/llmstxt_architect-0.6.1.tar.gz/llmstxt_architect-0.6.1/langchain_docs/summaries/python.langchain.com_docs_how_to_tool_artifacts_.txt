@@ -1,0 +1,2 @@
+[How to: return artifacts from a tool](https://python.langchain.com/docs/how_to/tool_artifacts/): LLM should read this page when returning structured data from a tool, passing artifacts to downstream components, handling custom data types from tools This page explains how tools can return artifacts separate from model input, allowing custom objects, dataframes, or images to be passed to downstream components while limiting model exposure.
+

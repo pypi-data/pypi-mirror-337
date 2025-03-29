@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/mistral/): LLM should read this page when needing to integrate with MistralAI chat models, use tool calling with MistralAI, or customize MistralAI with hooks Provides overview of MistralAI chat model integration, covers setup/installation, instantiation examples, using tool calling, and customizing with hooks like beforeRequest/requestError/response
+

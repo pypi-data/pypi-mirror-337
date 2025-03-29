@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/self_query/): LLM should read this page when building applications with retrieval augmented generation functionality, when needing to filter data based on metadata attributes, or when working with structured queries on vector stores. The page explains how to use the SelfQueryRetriever class to generate structured queries from natural language queries, and apply those structured queries to a vector store to retrieve relevant documents based on both semantic similarity and metadata attribute filters.
+

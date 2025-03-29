@@ -1,0 +1,2 @@
+[How to: create a dynamic (self-constructing) chain](https://python.langchain.com/docs/how_to/dynamic_chain/): LLM should read this page when developing dynamic chains, implementing conditional routing, returning runnables dynamically The page explains how to create a dynamic chain that constructs parts of itself at runtime by having Runnable Lambdas return other Runnables.
+

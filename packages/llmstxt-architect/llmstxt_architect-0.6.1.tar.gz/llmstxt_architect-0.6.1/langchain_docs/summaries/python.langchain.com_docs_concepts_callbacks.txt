@@ -1,0 +1,2 @@
+[Callbacks](https://python.langchain.com/docs/concepts/callbacks): LLM should read this page when [needing to log, monitor, or stream events in an LLM application] [This page covers LangChain's callback system, which allows hooking into various stages of an LLM application for logging, monitoring, streaming, and other purposes. It explains the different callback events, callback handlers, and how to pass callbacks.]
+

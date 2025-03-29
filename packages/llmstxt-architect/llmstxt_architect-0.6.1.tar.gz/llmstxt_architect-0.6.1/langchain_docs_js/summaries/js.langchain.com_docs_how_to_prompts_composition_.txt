@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/prompts_composition/): LLM should read this page when needing to compose prompts from multiple parts, wanting to reuse prompt components across prompts, or working with chat prompts. This page covers how to compose string prompts and chat prompts from multiple templates or messages, as well as how to use the PipelinePromptTemplate for more complex prompt composition.
+

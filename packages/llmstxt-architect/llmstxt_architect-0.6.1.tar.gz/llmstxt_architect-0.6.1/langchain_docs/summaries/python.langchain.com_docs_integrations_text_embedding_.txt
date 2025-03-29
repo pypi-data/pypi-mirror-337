@@ -1,0 +1,2 @@
+[supported integrations](https://python.langchain.com/docs/integrations/text_embedding/): LLM should read this page when looking for integrations with embedding models, wanting to compare embedding providers, needing guidance on selecting an embedding model This page documents integrations with various model providers that allow using embeddings in LangChain, covering OpenAI, Azure, Google, AWS, HuggingFace, and other embedding services.
+

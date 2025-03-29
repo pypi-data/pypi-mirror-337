@@ -1,0 +1,2 @@
+[How to: deal with high cardinality categorical variables](https://python.langchain.com/docs/how_to/query_high_cardinality): LLM should read this page when dealing with categorical data with high cardinality, handling potential misspellings of categorical values, and filtering based on categorical values. The page discusses techniques for handling high-cardinality categorical data in query analysis, such as adding all possible values to the prompt, using a vector store to find relevant values, and correcting user input to the closest valid categorical value.
+

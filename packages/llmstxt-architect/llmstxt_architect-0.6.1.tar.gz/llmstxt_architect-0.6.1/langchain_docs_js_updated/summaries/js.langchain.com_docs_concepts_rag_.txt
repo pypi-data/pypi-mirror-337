@@ -1,0 +1,2 @@
+[Retrieval Augmented Generation (RAG)](https://js.langchain.com/docs/concepts/rag/): LLM should read this page when needing to understand RAG concepts, implementing a retrieval system for LLMs, or designing knowledge augmentation solutions. (Conceptual overview of Retrieval Augmented Generation (RAG), explaining how it enhances language models by retrieving and incorporating external knowledge into prompts, with details on retrieval systems, benefits of RAG including up-to-date information access and reduced hallucinations, and implementation patterns with code examples.)
+

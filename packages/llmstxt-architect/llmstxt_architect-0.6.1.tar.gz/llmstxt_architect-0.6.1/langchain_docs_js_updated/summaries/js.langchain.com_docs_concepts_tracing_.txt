@@ -1,0 +1,2 @@
+[Tracing](https://js.langchain.com/docs/concepts/tracing/): LLM should read this page when needing to understand tracing capabilities in LangChain or when troubleshooting observability issues in LangChain applications. (Tracing in LangChain records the series of steps from input to output, capturing individual runs from models, retrievers, tools, or sub-chains to provide observability for diagnosing issues in chains and agents.)
+

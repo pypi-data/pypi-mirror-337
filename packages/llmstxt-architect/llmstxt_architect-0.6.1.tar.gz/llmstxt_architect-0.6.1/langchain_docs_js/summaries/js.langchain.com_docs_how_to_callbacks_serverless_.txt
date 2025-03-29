@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/callbacks_serverless/): LLM should read this page when needing to await callbacks in serverless environments, needing to make callbacks blocking, and needing to use the awaitAllCallbacks method. This page explains how to make callbacks blocking in serverless environments by setting the LANGCHAIN_CALLBACKS_BACKGROUND environment variable to false or using the awaitAllCallbacks method, and provides examples showing the difference in timing between blocking and non-blocking callbacks.
+

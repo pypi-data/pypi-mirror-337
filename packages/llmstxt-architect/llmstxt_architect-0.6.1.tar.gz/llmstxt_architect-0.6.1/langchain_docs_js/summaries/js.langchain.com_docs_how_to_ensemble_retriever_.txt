@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/ensemble_retriever/): LLM should read this page when needing to combine results from multiple retrievers, when ensembling retriever results for better performance, when doing hybrid search combining different retrieval approaches. This page explains how to use the EnsembleRetriever to combine and rerank results from multiple retrievers, demonstrating how combining different retriever types like keyword matching and vector similarity can improve performance.
+

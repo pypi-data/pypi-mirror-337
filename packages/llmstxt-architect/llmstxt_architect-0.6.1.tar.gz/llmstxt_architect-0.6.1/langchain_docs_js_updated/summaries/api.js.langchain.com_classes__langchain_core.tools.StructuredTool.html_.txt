@@ -1,0 +1,2 @@
+[StructuredTool](https://api.js.langchain.com/classes/_langchain_core.tools.StructuredTool.html/): LLM should read this page when (needing to create structured tools for LangChain, understanding StructuredTool implementation details, examining tool input validation patterns) (Core documentation for the abstract StructuredTool class, which is the base class for LangChain tools accepting input defined by Zod schemas, including properties like name, description, schema, methods for invoking tools, and configuration options)
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/integrations/chat/google_vertex_ai/): LLM should read this page when needing to use Google's Vertex AI LLM models, integrate search and data retrieval with Vertex AI models, or leverage context caching functionality with Vertex AI models. Provides overview, setup instructions, code examples for instantiating ChatVertexAI, making invocations, integrating search/retrieval tools, enabling context caching, chaining with prompts.
+

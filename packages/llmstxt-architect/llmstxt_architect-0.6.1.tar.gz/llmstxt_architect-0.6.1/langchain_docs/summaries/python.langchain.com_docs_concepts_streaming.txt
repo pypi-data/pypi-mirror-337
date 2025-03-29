@@ -1,0 +1,2 @@
+[stream](https://python.langchain.com/docs/concepts/streaming): LLM should read this page when [building applications that use streaming, building applications that need to display partial results in real-time, building applications that need to provide updates on pipeline or workflow progress] 'This page covers streaming in LangChain, including what can be streamed in LLM applications, the streaming APIs available, how to write custom data to the stream, and how LangChain automatically enables streaming for chat models in certain cases.'
+

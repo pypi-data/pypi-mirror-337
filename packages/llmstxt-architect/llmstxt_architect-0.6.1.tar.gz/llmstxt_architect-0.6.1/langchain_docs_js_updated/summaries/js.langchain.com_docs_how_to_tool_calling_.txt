@@ -1,0 +1,2 @@
+[How to: use chat models to call tools](https://js.langchain.com/docs/how_to/tool_calling/): LLM should read this page when (needing to implement tool calling with chat models, integrating LLM-powered tools into applications, troubleshooting tool call formats) (Guide explaining how to use chat models to call tools, including binding LangChain tool objects to models, handling tool call responses, supporting different model providers like Anthropic/OpenAI/Mistral, and formatting model-specific tool schemas)
+

@@ -1,0 +1,2 @@
+[Multimodality](https://js.langchain.com/docs/concepts/multimodality/): LLM should read this page when (seeking to understand multimodal capabilities in LangChain, implementing models that process both text and image inputs, or developing applications that need to handle various data types) (Conceptual guide to multimodality in LangChain covering how chat models can accept and process multiple data formats like text and images, current limitations of multimodal outputs and tool use, and the future potential for multimodal embedding models and vector stores)
+

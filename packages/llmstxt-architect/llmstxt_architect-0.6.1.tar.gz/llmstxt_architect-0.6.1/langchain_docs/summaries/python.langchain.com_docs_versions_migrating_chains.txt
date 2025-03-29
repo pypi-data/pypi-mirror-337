@@ -1,0 +1,2 @@
+[**Migration guide**](https://python.langchain.com/docs/versions/migrating_chains): LLM should read this page when migrating older chains from LangChain v0.0, reimplementing legacy chains, or upgrading to use LCEL and LangGraph This page provides guidance on migrating from deprecated v0.0 chain implementations to using LCEL and LangGraph, including specific guides for various legacy chains like LLMChain, ConversationChain, RetrievalQA, and others.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/time_weighted_vectorstore/): LLM should read this page when: 1) Building a retriever that weighs documents by both semantic similarity and time decay 2) Implementing a "forgetful" vector store that prioritizes recently accessed documents This page covers the TimeWeightedVectorStoreRetriever, which scores documents by a combination of their semantic similarity to the query and a time decay factor that decreases scores for less recently accessed documents.
+

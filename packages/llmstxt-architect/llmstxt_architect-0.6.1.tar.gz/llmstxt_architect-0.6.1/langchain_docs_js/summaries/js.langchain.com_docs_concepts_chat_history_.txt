@@ -1,0 +1,2 @@
+[#managing-chat-history](https://js.langchain.com/docs/concepts/chat_history/#managing-chat-history): LLM should read this page when managing the chat history in a conversational AI system, implementing memory for chat models, and understanding the structure of chat conversations. This page explains the concept of chat history, which is a record of the conversation between the user and a chat model. It covers conversation patterns, guidelines for managing chat history, and related resources for trimming messages and implementing memory.
+

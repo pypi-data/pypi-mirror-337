@@ -1,0 +1,2 @@
+[ChatMistralAI](https://js.langchain.com/docs/integrations/chat/mistral/): LLM should read this page when (finding documentation about integrating with MistralAI chat models in LangChain, troubleshooting MistralAI implementation, or exploring tool calling capabilities with MistralAI) (This page documents the ChatMistralAI integration in LangChain, covering setup requirements, instantiation, invocation methods, chaining with templates, tool calling implementation, custom hooks, and model features including token usage tracking and image input support)
+

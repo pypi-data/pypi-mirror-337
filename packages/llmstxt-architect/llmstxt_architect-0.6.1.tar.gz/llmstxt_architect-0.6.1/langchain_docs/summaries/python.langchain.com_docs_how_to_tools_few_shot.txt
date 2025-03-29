@@ -1,0 +1,2 @@
+[How to: few shot prompt tool behavior](https://python.langchain.com/docs/how_to/tools_few_shot): LLM should read this page when using few-shot examples to improve tool calling, demonstrating how to incorporate example queries and responses into the prompt. The page explains how to create few-shot prompts including examples of tool usage, allowing the model to learn from these demonstrations to improve its ability to correctly call tools for math operations or other tasks.
+

@@ -1,0 +1,2 @@
+[How to: stream tool calls](https://python.langchain.com/docs/how_to/tool_streaming): Line 1: 'LLM should read this page when wanting to stream tool calls, when needing to handle partial tool call data, or when needing to accumulate tool call chunks' Line 2: 'This page explains how to stream tool calls, merge message chunks to accumulate tool call chunks, and parse tool calls from accumulated chunks, with code examples.'
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/custom_retriever/): LLM should read this page when it needs to create a custom retriever class, it wants to understand how to implement the _getRelevantDocuments method, or it needs an example of a custom retriever class. This page provides instructions and an example for creating a custom retriever class that extends the BaseRetriever class by implementing the _getRelevantDocuments method to fetch and return relevant documents from a data source.
+

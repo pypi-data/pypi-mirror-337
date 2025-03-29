@@ -1,0 +1,2 @@
+[How to: handle cases where no queries are generated](https://python.langchain.com/docs/how_to/query_no_queries): LLM should read this page when querying for information, handling cases where no queries are generated, integrating query analysis with retrieval. Provides guidance on handling scenarios where query analysis techniques allow for no queries to be generated, including code examples for structuring the output, performing query analysis with an LLM, and integrating query analysis with a retriever in a chain.
+

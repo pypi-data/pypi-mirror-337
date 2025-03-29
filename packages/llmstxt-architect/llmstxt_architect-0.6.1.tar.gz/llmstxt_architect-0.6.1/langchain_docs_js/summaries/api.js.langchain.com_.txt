@@ -1,0 +1,2 @@
+[LangChain.js](https://api.js.langchain.com/): LLM should read this page when looking for an open-source framework for building applications with LLMs, seeking documentation or guidance on contributing to LangChain.js, or understanding the relationship between LangChain.js and the Python LangChain package. Provides an overview of LangChain.js, a framework for developing applications powered by language models, including its key components, supported environments, documentation, contributing guidelines, and its relationship with the Python LangChain package.
+

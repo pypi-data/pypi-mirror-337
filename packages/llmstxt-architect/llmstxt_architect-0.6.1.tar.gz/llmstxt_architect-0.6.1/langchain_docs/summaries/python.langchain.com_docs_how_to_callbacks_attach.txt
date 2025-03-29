@@ -1,0 +1,2 @@
+[How to: attach callbacks to a module](https://python.langchain.com/docs/how_to/callbacks_attach): LLM should read this page when attaching callbacks to a runnable, reusing callbacks across multiple executions, composing a chain of runnables This page explains how to attach callbacks to a runnable using the .with_config() method, allowing callbacks to be reused across multiple executions and propagated to child components in a chain of runnables.
+

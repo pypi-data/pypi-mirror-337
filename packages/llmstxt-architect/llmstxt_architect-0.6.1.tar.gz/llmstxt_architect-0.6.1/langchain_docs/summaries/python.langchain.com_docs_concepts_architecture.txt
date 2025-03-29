@@ -1,0 +1,2 @@
+[langgraph](https://python.langchain.com/docs/concepts/architecture#langgraph): LLM should read this page when developing applications with LangChain, seeking to understand the overall architecture of LangChain, planning to contribute to or integrate with LangChain The page outlines the layered architecture of LangChain, describing the core abstraction layer, the main LangChain package, integration packages, community integrations, LangGraph for stateful agents, LangServe for deployment, and LangSmith developer tools
+

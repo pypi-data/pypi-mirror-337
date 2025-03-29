@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/example_selectors_similarity/): LLM should read this page when: 1) Selecting examples for few-shot prompting based on similarity to the input. 2) Using a pre-initialized vector store for example selection. 3) Applying custom filters or retrievers for example selection. This page covers how to use the SemanticSimilarityExampleSelector to select examples based on similarity to the input, including loading from an existing vector store, applying metadata filters, and using custom vector store retrievers.
+

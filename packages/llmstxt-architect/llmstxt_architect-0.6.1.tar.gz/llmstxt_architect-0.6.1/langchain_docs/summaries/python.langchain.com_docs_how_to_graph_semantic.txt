@@ -1,0 +1,2 @@
+[How to: add a semantic layer over the database](https://python.langchain.com/docs/how_to/graph_semantic): LLM should read this page when needing to add a semantic layer over a graph database, needing to use tools representing Cypher templates with an LLM, or needing to build a LangGraph Agent to interact with a Neo4j database. This page covers how to create custom tools with Cypher templates for a Neo4j graph database, bind those tools to an LLM, and build a LangGraph Agent that can invoke the tools to retrieve information from the graph database.
+

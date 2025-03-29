@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/agents/): LLM should read this page when creating an agent system, transitioning from AgentExecutor to LangGraph, or understanding LangChain's approach to agents. This page introduces the concept of agents in LangChain, which enable language models to take actions beyond text output. It recommends using LangGraph for building agents and provides resources on LangGraph agent architectures and pre-built agents. The page also discusses the legacy AgentExecutor concept and guides for migrating from it to LangGraph.
+

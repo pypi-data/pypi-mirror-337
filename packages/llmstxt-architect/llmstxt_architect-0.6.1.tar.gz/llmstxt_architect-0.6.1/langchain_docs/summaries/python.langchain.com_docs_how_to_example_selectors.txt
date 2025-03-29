@@ -1,0 +1,2 @@
+[How to: use example selectors](https://python.langchain.com/docs/how_to/example_selectors): LLM should read this page when needing to select example prompts for few-shot learning, when having many examples to choose from, or when creating a custom example selector. Explains how to use example selectors in LangChain to select which examples to include in a prompt, covering built-in selectors like similarity and providing a custom example selector.
+

@@ -1,0 +1,2 @@
+[supported integrations](https://python.langchain.com/docs/integrations/vectorstores/): Line 1: 'LLM should read this page when integrating vector stores into applications, deciding which vector store to use, or understanding the capabilities of different vector stores' Line 2: 'This page provides an overview of vector stores, which are used to store embedded data and perform similarity search. It lists the different vector stores integrated with LangChain, along with their key features and capabilities.'
+

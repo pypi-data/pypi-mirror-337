@@ -1,0 +1,2 @@
+[Embedding Models](https://js.langchain.com/docs/concepts/embedding_models/): LLM should read this page when (needing to understand embedding models for vector search, implementing retrieval systems, or comparing similarity between text samples) (Conceptual overview of embedding models explaining how they transform text into numerical vectors, their historical evolution from BERT to modern implementations, how to use LangChain's embedding interface methods, and common similarity metrics like cosine similarity for comparing embeddings)
+

@@ -1,0 +1,2 @@
+[How to: load Microsoft Office data](https://python.langchain.com/docs/how_to/document_loader_office_file): LLM should read this page when loading Microsoft Office files (DOCX, XLSX, PPTX) into LangChain, when working with Azure AI Document Intelligence. It covers how to use the AzureAIDocumentIntelligenceLoader to load Office documents into LangChain Documents for further processing.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/agent_executor/): LLM should read this page when: 1) Learning how to build agents with LangChain 2) Integrating external tools and data sources into an LLM application 3) Adding memory capabilities to an LLM agent 'Guide covering how to create agents (AI systems that use LLM reasoning to call external tools) with LangChain, including defining tools like web search and vector databases, binding tools to LLM, creating agents, running agents, and adding memory.'
+

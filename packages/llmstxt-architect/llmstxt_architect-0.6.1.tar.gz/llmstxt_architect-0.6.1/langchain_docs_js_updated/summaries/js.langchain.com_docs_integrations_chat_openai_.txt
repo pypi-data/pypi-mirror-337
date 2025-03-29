@@ -1,0 +1,2 @@
+[ChatOpenAI](https://js.langchain.com/docs/integrations/chat/openai/): LLM should read this page when (looking for details on ChatOpenAI integration, setting up OpenAI chat models, or implementing advanced OpenAI features like tool calling) (Comprehensive guide to using OpenAI chat models in LangChain, covering installation, authentication, basic usage, advanced features like tool calling, structured output, custom URLs, headers, audio capabilities, and the Responses API for built-in web/file search and conversation state management)
+

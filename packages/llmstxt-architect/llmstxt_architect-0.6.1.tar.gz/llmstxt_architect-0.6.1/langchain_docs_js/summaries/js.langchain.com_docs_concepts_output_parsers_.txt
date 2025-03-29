@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/concepts/output_parsers/): LLM should read this page when learning how to parse unstructured LLM outputs into structured data formats, wanting to fix/correct errors in LLM outputs, or needing to handle structured data like JSON/XML/CSV. This page covers different types of output parsers in LangChain for parsing model outputs into structured formats like JSON, XML, CSV, as well as parsers for datetime, fixing outputs, and returning generic structured data.
+

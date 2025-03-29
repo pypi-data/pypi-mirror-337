@@ -1,0 +1,2 @@
+[How to: use chat models to call tools](https://python.langchain.com/docs/how_to/tool_calling): LLM should read this page when needing to call tools from chat models, wanting to use chat models to generate structured output, or doing extraction from text using chat models. Explains how to define tool schemas as Python functions, Pydantic/TypedDict classes, or LangChain Tools; bind them to chat models; retrieve tool calls from LLM responses; and optionally parse tool calls into structured objects.
+

@@ -1,0 +1,2 @@
+[](https://js.langchain.com/docs/how_to/few_shot_examples/): LLM should read this page when needing to provide few-shot examples to guide an LLM's response, when using an example selector to dynamically select relevant examples, or when creating a FewShotPromptTemplate. This page explains how to create a formatter for few-shot examples, generate an example set, pass examples to a FewShotPromptTemplate, and use an example selector like SemanticSimilarityExampleSelector to dynamically select relevant examples based on similarity.
+

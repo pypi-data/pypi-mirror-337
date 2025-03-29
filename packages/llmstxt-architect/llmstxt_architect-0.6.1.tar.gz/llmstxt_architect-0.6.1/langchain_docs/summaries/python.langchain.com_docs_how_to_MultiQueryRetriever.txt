@@ -1,0 +1,2 @@
+[How to: generate multiple queries to retrieve data for](https://python.langchain.com/docs/how_to/MultiQueryRetriever): Line 1: 'LLM should read this page when improving retrieval results for search queries, retrieving documents from a vector database, or using an LLM to generate multiple queries for a given input' Line 2: 'Explains how to use MultiQueryRetriever to automatically generate multiple queries from an input question using an LLM, retrieve documents for each query, and take the unique union of results to improve retrieval performance.'
+

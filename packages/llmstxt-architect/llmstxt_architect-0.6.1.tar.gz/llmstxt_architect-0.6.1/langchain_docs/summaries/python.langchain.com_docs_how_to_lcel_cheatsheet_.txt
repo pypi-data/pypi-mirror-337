@@ -1,0 +1,2 @@
+[**LCEL cheatsheet**](https://python.langchain.com/docs/how_to/lcel_cheatsheet/): 'LLM should read this page when needing a reference for interacting with Runnables in LangChain or building custom runnables and chains' 'This page provides a comprehensive cheatsheet with examples for key operations with Runnables such as invoking, batching, streaming, composing, configuring, and dynamically building runnables and chains'
+

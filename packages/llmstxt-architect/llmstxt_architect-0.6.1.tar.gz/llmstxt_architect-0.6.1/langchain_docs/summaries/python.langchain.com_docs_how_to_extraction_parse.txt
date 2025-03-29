@@ -1,0 +1,2 @@
+[How to: do extraction without using function calling](https://python.langchain.com/docs/how_to/extraction_parse): LLM should read this page when looking to extract structured data from text, when needing to parse model outputs into objects, or when wanting to avoid using tool calling methods for extraction tasks. This page explains how to use prompting instructions to get LLMs to generate outputs in a structured format like JSON, and then use output parsers to convert the model responses into Python objects.
+

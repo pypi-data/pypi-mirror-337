@@ -1,0 +1,2 @@
+[#runnableconfig](https://js.langchain.com/docs/concepts/runnables/#runnableconfig): LLM should read this page when learning about the Runnable interface in LangChain, creating custom Runnables, or configuring Runnables at runtime. Explains the Runnable interface, batching/parallelization, streaming APIs, input/output types, RunnableConfig options (runName, tags, metadata, callbacks, etc.), and creating Runnables from functions.
+

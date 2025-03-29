@@ -1,0 +1,2 @@
+[Toolkits](https://js.langchain.com/docs/concepts/tools/#toolkits): LLM should read this page when learning about tool creation in LangChain, implementing function calling with LLMs, or building agents that use external functions. (Comprehensive guide to LangChain's tool abstraction which associates TypeScript functions with schemas, allowing models to call functions with specific inputs. Covers tool creation with the 'tool' function, tool interfaces, schemas, tool artifacts, runtime configurations, best practices, and toolkits.)
+

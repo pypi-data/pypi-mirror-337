@@ -1,0 +1,2 @@
+[Document Loaders](https://js.langchain.com/docs/concepts/document_loaders/): LLM should read this page when needing to load documents from external sources, understanding document loader concepts, or implementing data ingestion pipelines. (Document loaders are components that load data from various sources into Document objects for LLM processing. The page explains the loader interface with .load() and .lazy_load() methods, provides code examples, and points to numerous integrations with services like Slack, Notion, and Google Drive.)
+

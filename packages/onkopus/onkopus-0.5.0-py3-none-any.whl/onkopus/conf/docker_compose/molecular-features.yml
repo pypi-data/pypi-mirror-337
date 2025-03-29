@@ -1,0 +1,16 @@
+## YAML Template.
+---
+version: "2.1"
+
+services:
+
+  molecular-features:
+    container_name: molecular_features
+    image: docker.gitlab.gwdg.de/medbioinf/mtb/onkopus/modules/molecular-features:main
+    expose:
+      - "10174"
+    ports:
+      - "10174:10174"
+    environment:
+      - MODULE_SERVER=localhost
+    restart: "always"

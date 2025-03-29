@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: indently-decorators
+Version: 1.0.0
+Summary: These code by indently.
+Author: xystudio
+Author-email: 173288240@qq.com
+License: MIT
+Requires-Python: >=3.6,<=3.14
+License-File: LICENSE
+Requires-Dist: deprecated
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# indently-decorators
+
+These code by [indently](https://github.com/indently/five_decorators)

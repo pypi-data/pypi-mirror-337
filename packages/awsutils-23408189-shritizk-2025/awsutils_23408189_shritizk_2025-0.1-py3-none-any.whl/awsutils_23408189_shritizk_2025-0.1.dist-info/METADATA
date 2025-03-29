@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: awsutils-23408189-shritizk-2025
+Version: 0.1
+Summary: AWS utilities for my project
+Home-page: https://github.com/pypa/sampleproject
+Author: Example Author
+Author-email: ShritizK <shritizk@gmail.com>
+Requires-Python: >=3.13.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python

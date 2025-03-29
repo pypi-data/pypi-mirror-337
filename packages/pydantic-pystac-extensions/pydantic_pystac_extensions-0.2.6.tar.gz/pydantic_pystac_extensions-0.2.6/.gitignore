@@ -1,0 +1,9 @@
+.idea/
+__pycache__/
+build/
+*.egg-info/
+.mypy_cache
+.vscode/
+*venv/
+.coverage
+*.xml

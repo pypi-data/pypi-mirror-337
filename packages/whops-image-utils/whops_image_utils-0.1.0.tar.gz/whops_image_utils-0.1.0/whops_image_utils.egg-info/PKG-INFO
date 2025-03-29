@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: whops-image-utils
+Version: 0.1.0
+Summary: Image utilities for WHOPs Lost and Found project
+Author: Piyush patil
+Author-email: piyushpatil911@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow>=8.0.0
+Dynamic: license-file
+
+# WHOPs Image Utilities
+
+Provides image processing functions for the WHOPs Lost and Found project.
+
+## Installation
+
+```bash
+pip install whops-image-utils

@@ -1,0 +1,13 @@
+minion_works-0.0.1.dist-info/licenses/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+src/__init__.py,sha256=v_fNgRPHmOKlc9D-Mzs9BUWiacpjXQr-m76J_uG8PEs,56
+src/config/__init__.py,sha256=19hFs3psBF2NX6ddDgKfvpE8T0HpSWR7ZNZXHtpBgOs,66
+src/config/settings.py,sha256=pYJwAHnQXJPmowct9QyTEQdJZqTX3682gnCAIYMvisM,127
+tests/__init__.py,sha256=wwzI0HWMz0FUp4V66XGRfzeaK3gaQUnIjDstG8ZUpFI,40
+tests/test_content_extraction.py,sha256=FnghL6hdyfnB7gMN9eCBHPwo1YCbToGVcUoHe2Ao92k,1154
+tests/test_google_search.py,sha256=gL7pt1GVS3CNQV8kX7iVDiBjxXiD1iLFT7hICT0_FhY,1055
+tests/test_navigation.py,sha256=PW3fdFs-VRreKfJAhNOwVIeRcezInzZIhSdPP3kLAuU,707
+tests/test_orchestrator.py,sha256=EFgSH-N0iWjjykqQGrrbC46XDAM8dRo5RfNHeknau9Y,1356
+minion_works-0.0.1.dist-info/METADATA,sha256=L35ypMZn1GcPdm70g431QgRkNoSyby3YOjv2x6qjT54,3236
+minion_works-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+minion_works-0.0.1.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+minion_works-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pnne-search
+Version: 0.1.0
+Summary: A package for search model estimation
+Home-page: https://pnnehome.github.io/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow>=2.0.0
+Requires-Dist: numpy>=1.15
+Requires-Dist: scipy>=1.0.0
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: joblib>=0.14.0
+Requires-Dist: absl-py>=0.13.0
+

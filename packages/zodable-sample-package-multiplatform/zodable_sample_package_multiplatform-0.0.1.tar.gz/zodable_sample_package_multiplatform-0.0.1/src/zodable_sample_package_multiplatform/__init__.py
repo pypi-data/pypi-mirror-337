@@ -1,0 +1,2 @@
+from digital.guimauve.example import MultiplatformTypeSchema
+from digital.guimauve.example import MultiplatformUserSchema

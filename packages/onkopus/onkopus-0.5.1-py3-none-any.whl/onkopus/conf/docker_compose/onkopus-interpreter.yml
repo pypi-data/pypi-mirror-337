@@ -1,0 +1,17 @@
+## YAML Template.
+---
+version: "2.1"
+
+services:
+
+  onkopus-interpreter:
+    container_name: onkopus-interpreter
+    image: docker.gitlab.gwdg.de/medbioinf/mtb/onkopus/modules/onkopus-interpreter:main
+    expose:
+      - "10114"
+    ports:
+      - "10114:10114"
+    environment:
+      - MODULE_SERVER=localhost
+      - AGGREGATED_EVIDENCE_KEY=aggregated_evidence_key
+    restart: "always"

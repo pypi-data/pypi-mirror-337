@@ -1,0 +1,14 @@
+## YAML Template.
+---
+version: "2.1"
+
+services:
+
+  metakb:
+    container_name: metakb-adapter
+    image: docker.gitlab.gwdg.de/medbioinf/mtb/onkopus/modules/treatments/metakb-adapter:main
+    ports:
+      - "8100:8100"
+    expose:
+      - "8100"
+    restart: "always"

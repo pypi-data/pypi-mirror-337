@@ -1,0 +1,3 @@
+{% if owner is not none -%}
+{{ 'GRANT' if owner else "REVOKE" }} ROLE R_T_{{ database_name }}_OWNER {{ 'TO' if owner else 'FROM' }} ROLE {{ '"' ~ role_name ~ '"' if use_doublequotes_for_name else  role_name }};
+{% endif -%}

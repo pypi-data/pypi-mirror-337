@@ -1,0 +1,8 @@
+setup.py
+src/main/python/kognic/studio/proto/messages_pb2.py
+src/main/python/kognic/studio/proto/messages_pb2.pyi
+src/main/python/kognic_studio_proto.egg-info/PKG-INFO
+src/main/python/kognic_studio_proto.egg-info/SOURCES.txt
+src/main/python/kognic_studio_proto.egg-info/dependency_links.txt
+src/main/python/kognic_studio_proto.egg-info/requires.txt
+src/main/python/kognic_studio_proto.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+env-key-manager = env_key_manager.cli:main

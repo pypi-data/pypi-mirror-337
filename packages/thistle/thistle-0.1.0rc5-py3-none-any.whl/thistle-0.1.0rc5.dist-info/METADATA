@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: thistle
+Version: 0.1.0rc5
+Summary: A wrapper for sgp4 that handles TLE switching
+Author-email: Jonathan Olsten <jonathan.olsten@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.22
+Requires-Dist: pydantic-settings>=2.8.1
+Requires-Dist: sgp4>=2.23
+Requires-Dist: tqdm>=4.67.1

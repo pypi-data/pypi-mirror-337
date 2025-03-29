@@ -1,0 +1,12 @@
+thistle/__init__.py,sha256=kMGu9zzAfZ07bu1YWyVW_D759K385qEQEHUUPqqmu6E,278
+thistle/__main__.py,sha256=81iRuRqwnrAwkZHedUy5HTjb5ju2S1SUY7H_WoTHL-o,1043
+thistle/alpha5.py,sha256=6vLxYC5sPjcx2gSuYSZsUDWlncdZvn_2Tff9ZWqnHcw,1184
+thistle/config.py,sha256=TVD5oCGV59SYEPNIjfBIOzRVF4l5Lczh843lB64q6W0,771
+thistle/io.py,sha256=9W5uUidnZ5x7B_I6irbAZPSbY6Hh1xwPnglk089JFhk,3261
+thistle/propagator.py,sha256=BjShFk4rc4jhnAYLpnCSxK8utRM9KDhsxtM4aA0VB2k,3131
+thistle/switcher.py,sha256=HOOltfz0ARmVLrS3omUa7jcfXqOPX5R87dRVnfHtLp0,2841
+thistle/typing.py,sha256=-guGK-sKpogzAJlk4vfj4mfdCaZvg_CDKBDZSfOKtao,257
+thistle/utils.py,sha256=M9JflSa0Cd6kyzL81g_y2W88DNHJ_ojycMctzdLUPWE,3258
+thistle-0.1.0rc5.dist-info/METADATA,sha256=mEOy_69dgu0zYx5EwmtYx8IGAbx9t6NRohLwhpK_A78,311
+thistle-0.1.0rc5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+thistle-0.1.0rc5.dist-info/RECORD,,

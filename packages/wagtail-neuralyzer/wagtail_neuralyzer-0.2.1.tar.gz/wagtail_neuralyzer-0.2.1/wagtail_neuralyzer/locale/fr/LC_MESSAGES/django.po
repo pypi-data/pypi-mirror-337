@@ -1,0 +1,90 @@
+# Copyright (C) 2025 Webu
+# This file is distributed under the same license as the wagtail_neuralyzer package.
+# Samuel Weber <s.weber@webu.coop>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wagtail_neuralyzer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 06:24-0500\n"
+"PO-Revision-Date: 2025-03-14 09:24-0500\n"
+"Last-Translator: samuel weber <s.weber@webu.coop>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: action.py:84 action.py:85
+#: templates/wagtailadmin/generic/confirm_neuralyze.html:5 wagtail_hooks.py:8
+msgid "Neuralyze"
+msgstr "Anonymiser"
+
+#: action.py:107
+#, python-format
+msgid "%(num_parent_objects)d object has been neuralyzed"
+msgid_plural "%(num_parent_objects)d objects have been neuralyzed"
+msgstr[0] "%(num_parent_objects)d objet a été anonymisé"
+msgstr[1] "%(num_parent_objects)d objets ont été anonymisés"
+
+#: templates/wagtailadmin/generic/confirm_neuralyze.html:3
+#, python-format
+msgid "Neuralyze %(title)s"
+msgstr "Anonymiser %(title)s"
+
+#: templates/wagtailadmin/generic/confirm_neuralyze.html:14
+#, python-format
+msgid "Are you sure you want to neuralyze this %(model_name)s?"
+msgstr "Êtes-vous sûr de vouloir anonymiser ce %(model_name)s ?"
+
+#: templates/wagtailadmin/generic/confirm_neuralyze.html:27
+msgid "Yes, neuralyze it"
+msgstr "Oui, anonymiser"
+
+#: templates/wagtailadmin/generic/confirm_neuralyze.html:28
+msgid "No, don't neuralyze"
+msgstr "Non, ne pas anonymiser"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:6
+#, python-format
+msgid "Anonymize 1 object"
+msgid_plural "Anonymize %(counter)s objects"
+msgstr[0] "Anonymiser 1 object"
+msgstr[1] "Anonymiser %(counter)s objects"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:11
+msgid "Anonymize"
+msgstr "Anonymiser"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:16
+msgid "Are you sure you want to anonymize these objects?"
+msgstr "Êtes-vous sûr de vouloir anonymiser ces objets ?"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:27
+msgid "You don't have permission to anonymize this object"
+msgid_plural "You don't have permission to anonymize these objects"
+msgstr[0] "Vous n'avez pas la permission pour anonymiser cet objet"
+msgstr[1] "Vous n'avez pas la permission pour anonymiser ces objets"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:34
+msgid "Yes, anonymize"
+msgstr "Oui, anonymiser"
+
+#: templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html:35
+msgid "No, don't anonymize"
+msgstr "Non, ne pas anonymiser"
+
+#: views.py:41
+#, python-format
+msgid "'%(object)s' neuralyzed."
+msgstr "'%(object)s' anonymisé(s)."
+
+#: views.py:79
+msgid "Edit"
+msgstr "Modifier"
+
+#: wagtail_hooks.py:8
+msgid "Was anonymize"
+msgstr "À été anonymisé(e)"

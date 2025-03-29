@@ -1,0 +1,2 @@
+[console_scripts]
+sputter = sputter.sputter:app

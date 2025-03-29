@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dir2map"
+version = "2025.3.28.6"
+authors = [
+    { name = "YanChengxin", email = "yan.cheng.xin@foxmail.com" },
+]
+description = "得到目录结构.Obtain the directory structure."
+readme = "README.md"
+requires-python = ">=3.8.20"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/yanchengxin2018/dirtree"
+Issues = "https://github.com/yanchengxin2018/dirtree/issues"
+
+[project.scripts]
+dir2map = "dir2map.main:main"
+d = "dir2map.main:main"

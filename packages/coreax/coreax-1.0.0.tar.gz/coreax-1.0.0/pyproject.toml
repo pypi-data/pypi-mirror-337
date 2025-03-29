@@ -1,0 +1,217 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coreax"
+dynamic = ["version"]
+description = "Jax coreset algorithms."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "coreset",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+license = {file = "LICENSE"}
+authors = [
+    {name = "GCHQ", email = "oss@gchq.gov.uk"},
+]
+dependencies = [
+    # Unless explicitly noted, lower bounds on these dependencies are guesses, and
+    # should not be taken to imply that Coreax is *known* to be incompatible with
+    # earlier versions; they are just there to prevent extremely out-of-date versions
+    # of dependencies being used (which would almost certainly have incompatibilities).
+    "equinox>=0.11.5",  # Earlier versions are incompatible.
+    "flax>=0.8",
+    "jax>=0.4",
+    "jaxopt>=0.8",
+    "jaxtyping>0.2.31",  # Earlier versions are incompatible.
+    "optax>=0.2",
+    "scikit-learn>=1",
+    "tqdm>=4",
+    "typing-extensions>=4.12",
+]
+
+[project.optional-dependencies]
+# Example scripts
+example = [
+    "imageio>=2",
+    "matplotlib>=3",
+    "numpy>=2",
+    "opencv-python-headless>=4",  # WARNING: Incompatible with other versions of opencv
+]
+# Benchmarking - runs very similar code to examples with same dependencies plus more
+benchmark = [
+    "coreax[example]",
+    "torch>=2.5",
+    "torchvision>=0.20",
+    "umap-learn>=0.5.7",  # Earlier versions are incompatible.
+    # Required for umap-learn - we constrain this so dependency solvers don't
+    # erroneously backtrack.
+    "llvmlite>=0.40.0",
+]
+# Run unit tests with coverage assessment
+test = [
+    "coreax[benchmark]",
+    "beartype>=0.19, !=0.20.1, !=0.20.2",
+    "pytest>=8",
+    "pytest-cov>=6",
+    "pytest-rerunfailures>=15",
+    "pytest-xdist>=3",
+    "scipy>=1.13",
+]
+# Compile documentation
+doc = [
+    "furo>=2024",
+    "sphinx>=7",
+    "sphinx-autodoc-typehints>=2",
+    "sphinx-toolbox>=3",
+    "sphinxcontrib-bibtex>=2",
+    "sphobjinv>=2",
+]
+
+[dependency-groups]
+# All tools for a developer including those for running pylint
+dev = [
+    # These dependencies are constrained more tightly as they're only used by package
+    # developers, so compatibility is less of a concern
+    "coreax[example, benchmark, test, doc]",
+    "jupyter>=1.1.1",  # Include as developers may wish to write their own notebooks
+    "ruff>=0.8.6",
+    "pre-commit>=4.0.1",
+    "pylint>=3.3.3",
+    "pyright>=1.1.391",
+    "pyroma>=4.2",
+]
+
+[tool.uv]
+# Ensure we get the latest package versions available for each Python version
+environments = [
+    "python_version>='3.13'",
+    "python_version=='3.12.*'",
+    "python_version=='3.11.*'",
+    "python_version=='3.10.*'",
+    "python_version=='3.9.*'",
+]
+
+[project.urls]
+Documentation = "https://coreax.readthedocs.io/en/latest/"
+Repository = "https://github.com/gchq/coreax"
+Issues = "https://github.com/gchq/coreax/issues"
+Changelog = "https://github.com/gchq/coreax/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = [
+    "coreax",
+    "coreax.kernels",
+    "coreax.solvers",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "coreax.__version__"}
+
+[tool.pyright]
+exclude = [
+    # Exclude snippets for documentation as most variables not properly defined
+    "documentation/source/snippets",
+    # Exclusions that would have been generated automatically if this section weren't
+    # specified
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+]
+
+[tool.ruff]
+src = [".", "examples"]
+
+[tool.ruff.lint]
+preview = true
+select = [
+    "B",      # flake8-bugbear
+    "C90",    # McCabe
+    "D",      # pydocstyle
+    "E",      # pycodestyle [error]
+    "F",      # pyflakes
+    "G010",   # logging-warn
+    "I",      # isort
+    "N",      # pep8-naming
+    "PGH005", # invalid-mock-access
+    "PL",     # pylint
+    "S102",   # exec-builtin
+    "S307",   # suspicious-eval-usage
+    "UP",     # pyupgrade
+    "W",      # pycodestyle [warning]
+]
+
+ignore = [
+    # Incompatible with ruff format
+    "D206",   # indent-with-spaces
+    "E111",   # indentation-with-invalid-multiple
+    "E114",   # indentation-with-invalid-multiple-comment
+    "E117",   # over-indented
+    "W191",   # tab-indentation
+    # Incompatible with other pydocstyle rules
+    "D203",   # one-blank-line-before-class
+    "D212",   # multi-line-summary-first-line
+    # Incompatible with jaxtyping
+    "F722",   # forward-annotation-syntax-error
+    # Opinionated ignores
+    "PLR6301", # no-self-use (opinionated)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"documentation/source/conf.py" = [
+    "E402",  # Allow module imports not at the top of the file - conf.py does weird
+             # things with imports that necessitate this
+]
+"documentation/source/snippets/*" = [
+    "D100",  # Allow missing module docstring - these are snippets, not full modules
+    "F821",  # Allow undefined names - the snippets are *snippets*, not complete code
+]
+"examples/*" = [
+    "PLR0914",  # Ignore "too many locals"
+    "PLR0915",  # Ignore "too many statements"
+    # In both cases, the example code is meant to be more verbose so it's easier to
+    # understand and can serve as its own documentation.
+]
+"tests/*" = [
+    "D200",  # Allow "one-line docstring not on one line" - test docstrings can be
+             # quite long, so sometimes the extra six characters are really needed
+    "PLR0904",  # Ignore "too many public methods" - test classes are really just
+                # namespaces, so the usual concerns here don't apply
+]
+
+[tool.ruff.lint.pylint]
+max-args = 10
+max-locals = 20
+allow-dunder-method-names = ["__check_init__", "__jax_array__"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-wrap-aliases = true
+
+[tool.coverage.run]
+command_line = "-m pytest tests/unit --cov"
+branch = true
+relative_files = true
+source = ["coreax"]
+
+[tool.coverage.report]
+show_missing = true
+sort = "Cover"
+exclude_also = [
+    "pass",
+    "raise RuntimeError",
+    "if TYPE_CHECKING:",
+    "raise$",
+    "\\.\\.\\.",
+]

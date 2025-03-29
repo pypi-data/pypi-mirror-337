@@ -1,0 +1,8 @@
+mylib/__init__.py,sha256=3g8hO8cIV7fl01Lgw7XiM5GlMJXsrNLIYBVPa1n6CBY,93
+mylib/mymodule12222221112222.py,sha256=L1zkIthjZsp9_a_L1R9iWHl741m722N2e-r1jErcE48,539
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mymodule.py,sha256=dWT91KyOKFhm3y6NKhf_T5s2qowD64LP5AUcpXkJKKs,661
+mylibrary122222111222-0.1.dist-info/METADATA,sha256=yxl_o4KHbWl_zl7bi4nRhh7jpKYMHFwX1A2kF9fDcl0,285
+mylibrary122222111222-0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+mylibrary122222111222-0.1.dist-info/top_level.txt,sha256=YimWpAHpKEoet3WuguYNsd3IGuD-QTxCYTBbKDn5Tyg,12
+mylibrary122222111222-0.1.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+armpit/__init__.py,sha256=JroVijBOkpnGR4pxZicRalC4pwSdwlBqAFwnpIh2G6o,49
+armpit/armpit.py,sha256=aBUHAcyssL_v1Y8ojwMIkBgYmeGzwPYhbFVBexEIOF4,872
+armpit/cli.py,sha256=oTW11z8vkab7Z2bTvwMiuLbn8VaAiAAHwuBXOsOyD4E,3774
+armpit/update.py,sha256=PlOZ53rvRwOZs2e70GciIeAJ6jnVqJ-172oMrar9pyw,7651
+armpit-1.2.0.dist-info/METADATA,sha256=qHEris0MERGOamojYB3Ug_SttQpz7t6aw-WsutejECM,407
+armpit-1.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+armpit-1.2.0.dist-info/entry_points.txt,sha256=VigQHtzcUaRV_lxV-YQI35rEhcMtUOW8hYIAhdmlGHQ,39
+armpit-1.2.0.dist-info/top_level.txt,sha256=CkkEpQ3IDhV2oAZk9gzMARpvYRP0v9Nr9qRpc7fJauM,7
+armpit-1.2.0.dist-info/RECORD,,

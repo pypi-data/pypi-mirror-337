@@ -1,0 +1,46 @@
+{
+    "config": {
+        "step": {
+            "credentials": {
+                "data_description": {
+                    "password": "Password of the Smart Home Controller"
+                }
+            },
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of your Bosch Smart Home Controller."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "air_quality": {
+                "name": "Air quality"
+            },
+            "communication_quality": {
+                "name": "Communication quality"
+            },
+            "humidity_rating": {
+                "name": "Humidity rating"
+            },
+            "purity": {
+                "name": "Purity"
+            },
+            "purity_rating": {
+                "name": "Purity rating"
+            },
+            "temperature_rating": {
+                "name": "Temperature rating"
+            },
+            "valvetappet": {
+                "name": "Valvetappet"
+            }
+        },
+        "switch": {
+            "routing": {
+                "name": "Routing"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "config": {
+        "step": {
+            "sensor": {
+                "data": {
+                    "availability": "Availability template"
+                },
+                "data_description": {
+                    "availability": "Defines a template to get the availability of the sensor."
+                }
+            },
+            "user": {
+                "data": {
+                    "payload": "Payload"
+                },
+                "data_description": {
+                    "payload": "Payload to use when method is POST."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "resource": {
+                "data": {
+                    "payload": "Payload"
+                },
+                "data_description": {
+                    "payload": "Payload to use when method is POST."
+                }
+            }
+        }
+    }
+}

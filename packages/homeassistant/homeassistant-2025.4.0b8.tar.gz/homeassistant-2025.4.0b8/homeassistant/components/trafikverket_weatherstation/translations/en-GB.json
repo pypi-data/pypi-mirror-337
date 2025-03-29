@@ -1,0 +1,37 @@
+{
+    "entity": {
+        "sensor": {
+            "dew_point": {
+                "name": "Dew point"
+            },
+            "modified_time": {
+                "name": "Data modified time"
+            },
+            "precipitation": {
+                "state": {
+                    "no": "None",
+                    "sleet": "Sleet",
+                    "yes": "Yes (unknown)"
+                }
+            },
+            "road_ice_depth": {
+                "name": "Ice depth on road"
+            },
+            "road_snow_depth": {
+                "name": "Snow depth on road"
+            },
+            "road_water_depth": {
+                "name": "Water depth on road"
+            },
+            "road_water_equivalent_depth": {
+                "name": "Water equivalent depth on road"
+            },
+            "visible_distance": {
+                "name": "Visible distance"
+            },
+            "wind_height": {
+                "name": "Wind measurement height"
+            }
+        }
+    }
+}

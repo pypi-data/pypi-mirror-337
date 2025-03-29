@@ -1,0 +1,3 @@
+[console_scripts]
+journal-to-fedora-messaging=journal_to_fedora_messaging.cli:main
+

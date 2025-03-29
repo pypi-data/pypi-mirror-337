@@ -1,0 +1,9 @@
+journal_to_fedora_messaging/__init__.py,sha256=qX0yswuBZDAZ1s4u5Cumo-o6xLRtvvsfFMNGcibBcPE,208
+journal_to_fedora_messaging/cli.py,sha256=JqJ36tJILhE-y0LMTM5oZq9H76BJttoEnvm9N8WRzOQ,1979
+journal_to_fedora_messaging/journal.py,sha256=Ar0RZ_YxIKOPzQjJ_afTiSCbRvjjslDs6iZqJPT-GEg,2153
+journal_to_fedora_messaging/sender.py,sha256=CKFd1OFnMBRcUtVk8xzgS_hgr3bJWevz2VaJe9YuZDM,3833
+journal_to_fedora_messaging-1.0.0.dist-info/LICENSES/GPL-3.0-or-later.txt,sha256=-5gWaMGKJ54oX8TYP7oeg2zITdTapzyWl9PP0tispuA,34674
+journal_to_fedora_messaging-1.0.0.dist-info/METADATA,sha256=BlVExPOBEZMpV_UMUDK-T2q8VwmOoBtwjlMa4d4Dzyk,1842
+journal_to_fedora_messaging-1.0.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+journal_to_fedora_messaging-1.0.0.dist-info/entry_points.txt,sha256=WCT800hGeVumW02Vi3JaonvSW8d0J0_gSMXRGedMW8k,84
+journal_to_fedora_messaging-1.0.0.dist-info/RECORD,,

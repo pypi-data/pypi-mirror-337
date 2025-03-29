@@ -1,0 +1,5 @@
+ogb
+patool
+faiss-cpu
+rouge-score
+gradio

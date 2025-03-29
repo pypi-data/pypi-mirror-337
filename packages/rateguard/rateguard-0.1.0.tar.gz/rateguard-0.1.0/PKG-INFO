@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: rateguard
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Subhranil Sarkar <subhranil2605@gmail.com>
+Requires-Python: >=3.11
+Requires-Dist: pytest>=8.3.5

@@ -1,0 +1,3 @@
+funcnodes-opencv>=0.2.17
+funcnodes>=0.5.36
+funcnodes-worker>=0.3.1

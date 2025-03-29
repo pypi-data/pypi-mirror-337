@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+bworker.py
+pyproject.toml
+bworker.egg-info/PKG-INFO
+bworker.egg-info/SOURCES.txt
+bworker.egg-info/dependency_links.txt
+bworker.egg-info/entry_points.txt
+bworker.egg-info/requires.txt
+bworker.egg-info/top_level.txt

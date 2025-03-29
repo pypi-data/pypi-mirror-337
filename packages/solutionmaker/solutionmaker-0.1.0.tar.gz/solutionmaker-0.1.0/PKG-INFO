@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: solutionmaker
+Version: 0.1.0
+Summary: A tool to create a standardized Python project structure
+Home-page: https://github.com/lavr2004/solutionmaker
+Author: Andrus Ihnatovicz
+Author-email: lavr2004@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# SolutionMaker
+
+A simple tool to generate a standardized Python project structure.
+
+## Installation
+```bash
+cd ../solutionmaker
+
+pip install .
+```
+
+## Usage
+```bash
+solutionmaker MyProject
+```
+
+## Generated Structure
+
+```bash
+MyProject/
+├── bin/
+│   └── settings/
+│       ├── __init__.py
+│       └── settings.py
+├── results/
+├── source/
+└── main.py
+```
+
+## MIT License

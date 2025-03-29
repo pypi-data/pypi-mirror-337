@@ -1,0 +1,2 @@
+[console_scripts]
+solutionmaker = solutionmaker.cli:main

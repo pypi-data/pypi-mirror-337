@@ -1,0 +1,5 @@
+include solutionmaker/templates/*.py
+recursive-include solutionmaker/templates/bin *.py
+recursive-include solutionmaker/templates/results *
+recursive-include solutionmaker/templates/source *
+recursive-include solutionmaker/templates/bin/settings *.py

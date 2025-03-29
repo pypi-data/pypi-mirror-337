@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+fastapi-users[sqlalchemy]
+aiosqlite
+tifffile
+numpy
+scikit-image
+opencv-contrib-python-headless
+imantics
+geojson
+jinja2
+pyyaml
+dash
+dash-bootstrap-components
+a2wsgi
+pytest

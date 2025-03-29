@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloe-metadata-to-ddl
+Version: 1.1.1
+Summary: Package read CLOE metadata and creates DDLs from it.
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: >=3.11,<4.0
+Requires-Dist: cloe-metadata (>=2.2.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)

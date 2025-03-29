@@ -1,0 +1,14 @@
+snailz/__init__.py,sha256=BGKWmNOmlLlnjUc5yFK8Xj4SldX72O9Q-Z_lLNYAtSw,432
+snailz/assays.py,sha256=0E7kuw7RM7KaaibIRK5DptX72TZSwHUj0MjKZ2_J1jE,8867
+snailz/clui.py,sha256=TMCgPEwrCDXnZ9Ciug076U3vfZ_pM7VMO1Tcf3NlVaI,12502
+snailz/defaults.py,sha256=2cGvqwvQTvIUbUwEW0YZ14wtqZo19FVgHTGaRNpoTNw,756
+snailz/grid.py,sha256=LeoNrzjlVG0lGIFkAszyaMSt74ibiHtDouiQjcJtiS8,7021
+snailz/mangle.py,sha256=CA8b3mPBhi7sAP75XP7mmuECvZFiBa8BPjWDT0DXAXQ,2398
+snailz/people.py,sha256=c39dS99nVa_-bq1aF8sA9PvxQPnr0Gpvh3H4fpy35dw,2532
+snailz/specimens.py,sha256=1LOEFj5xvJkHMRkJefrvD1YTt7CIJswpDiuDdM3pXcI,10073
+snailz/utils.py,sha256=a9hWrKzVYYj9ynBsOTDRKsYVa3Uq3rsfoz63TlNeLD4,3899
+snailz-0.2.3.dist-info/METADATA,sha256=q4zVZ8HqqHgmBtYKzij7TTVSuBy67fSTadqgUVQwAsU,6992
+snailz-0.2.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+snailz-0.2.3.dist-info/entry_points.txt,sha256=bWu5_1BNOycZLmvqG7Dfsa3ccABMWJ09MkEuxoptbiY,43
+snailz-0.2.3.dist-info/licenses/LICENSE.md,sha256=6J0AxOPbMj6mu_nbxYXfTN4X1xdHz6YBYMiZyfNnEYQ,1071
+snailz-0.2.3.dist-info/RECORD,,

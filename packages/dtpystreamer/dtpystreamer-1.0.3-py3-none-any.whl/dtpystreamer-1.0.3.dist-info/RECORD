@@ -1,0 +1,6 @@
+dtpystreamer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtpystreamer/consumer.py,sha256=Jtj9fZGWp0uHkG6TJWuvV527-sl3L8ybMUIg3C-WMmc,9296
+dtpystreamer/sender.py,sha256=H9blL2_MFzh4zX4E9BUzpfhDJfyi5yZ_bd3JeBr_2Bc,800
+dtpystreamer-1.0.3.dist-info/METADATA,sha256=H2GO5_x-oPVjnztE-Y6bI8CAakzTYdtwpjlUs_Ww0W4,1304
+dtpystreamer-1.0.3.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+dtpystreamer-1.0.3.dist-info/RECORD,,

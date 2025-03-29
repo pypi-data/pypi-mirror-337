@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: deelink
+Version: 2.0.0
+Summary: Конвертер коротких Deezer-ссылок в чистые URL
+Home-page: https://x.com/Lanaev0li
+Author: Avinion
+Author-email: shizofrin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Deelink - Конвертер Deezer-ссылок
+
+Утилита для преобразования коротких ссылок Deezer (dzr.page.link) в чистые URL треков.
+
+## Установка
+
+```bash
+pip install deelink
+
+
+Использование
+После установки запустите утилиту командой:
+
+deelink
+
+
+Затем вставьте короткую ссылку Deezer и нажмите Enter. Программа покажет:
+
+1. Оригинальную ссылку
+
+2. URL после редиректа
+
+3. Чистую ссылку на трек
+
+Для выхода введите exit или нажмите Ctrl+C.
+
+Контакты автора
+
+Email: shizofrin@gmail.com
+
+Twitter (X): @Lanaev0li
+
+elegram: @akrim
+
+
+
+Лицензия
+MIT License © 2025 Avinion

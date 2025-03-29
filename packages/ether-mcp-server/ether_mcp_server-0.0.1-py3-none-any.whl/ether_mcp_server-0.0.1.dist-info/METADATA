@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: ether-mcp-server
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/ming-der wang/ether-mcp-server#readme
+Project-URL: Issues, https://github.com/ming-der wang/ether-mcp-server/issues
+Project-URL: Source, https://github.com/ming-der wang/ether-mcp-server
+Author-email: ming-der wang <mingderwang@me.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ether-mcp-server
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ether-mcp-server.svg)](https://pypi.org/project/ether-mcp-server)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ether-mcp-server.svg)](https://pypi.org/project/ether-mcp-server)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ether-mcp-server
+```
+
+## License
+
+`ether-mcp-server` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

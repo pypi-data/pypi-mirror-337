@@ -1,0 +1,2 @@
+[console_scripts]
+kamiwaza = kamiwaza_client.cli.main:cli

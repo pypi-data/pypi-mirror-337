@@ -1,0 +1,2 @@
+[console_scripts]
+devautomator = devautomator:cli

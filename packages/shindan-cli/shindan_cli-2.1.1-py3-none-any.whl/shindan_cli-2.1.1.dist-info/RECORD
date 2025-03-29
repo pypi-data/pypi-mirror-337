@@ -1,0 +1,13 @@
+shindan_cli/__init__.py,sha256=VVQcPi4WXorP6Td97fAIBwu37egKlibl6xzGJAmkO7s,365
+shindan_cli/constants.py,sha256=-Fn29bLbYhEuPup7cFykToAMQ8MImHz043S9YBW56Hg,634
+shindan_cli/get_results.py,sha256=PYhSkpGzNJM4RMBC6Li4T6QpwEel3FaV3NfWi5RUm5Y,4866
+shindan_cli/interactive.py,sha256=-QrHkBkybNCbSSNx3k0tKOUDfSsad1BG8TTejsLuZ-M,5263
+shindan_cli/main.py,sha256=YQCKThS3Ohv2YWpyvKckL_rkfalI7RQBRN5_5EIY9Sw,2116
+shindan_cli/models.py,sha256=n-I5zs7mb5y4YLPYJoXDc1aIbCnnFqR0NvlQ0y6KdXM,938
+shindan_cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shindan_cli/shindan.py,sha256=Olv9NZW9R_jo9O524gOw_jzyFH9gTHtLLmuIviaXcu4,3368
+shindan_cli-2.1.1.dist-info/METADATA,sha256=vK5X6sbKXbDjDnAdPEd86PLhGkD08XZIYD5Gebga3SM,5276
+shindan_cli-2.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+shindan_cli-2.1.1.dist-info/entry_points.txt,sha256=aYx11YQSbrocyTWA7r4Em13sHLtOnS3_bS3a5OTgcHU,50
+shindan_cli-2.1.1.dist-info/licenses/LICENSE,sha256=3GXiVdXRqpaby1jRaUXDaXFSjq4DmeGD67WACE1Wh5g,1066
+shindan_cli-2.1.1.dist-info/RECORD,,

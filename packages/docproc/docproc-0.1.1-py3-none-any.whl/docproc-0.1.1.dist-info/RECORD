@@ -1,0 +1,17 @@
+docproc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docproc/bin/cli.py,sha256=EorIu-vT3rtIEIpReabxkIKPGFmbXY8DHrUGU1KMGOo,7531
+docproc/doc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docproc/doc/analyzer.py,sha256=unNCIz1m-uPYb5E-n1cotSdUOsL-qjniUlS2U5rmXEU,22152
+docproc/doc/equations.py,sha256=K4hF1tjXhqIFel3OtY9QJMQEc4uGTaxGXOuXpWCeXf4,8751
+docproc/doc/handwriting.py,sha256=g2RYiYgqnJdzR2uJOZHu1k71hFfmsOODJbXasyb1ls4,5631
+docproc/doc/regions.py,sha256=hZiJfpmsp7YV8YoeuVwAmCX2s_FjDFzRd6AaGxKYuQY,2800
+docproc/writer/__init__.py,sha256=IuWqNOeCiZtJq3yvlyPd3Ag5jt8NHzEhTJQ8dYU66hE,124
+docproc/writer/csv.py,sha256=Fxb5OPh_c6TA4xwRHWhliAwMiS0uQHKf8yl_ZiMB61M,4291
+docproc/writer/filewriter.py,sha256=2R_KiUw9pcUZdi6IkYaH5oqy3LDm58MTPU3PxPLBNkc,4617
+docproc/writer/json.py,sha256=wLagu002EJx3aYBTr4ZBrXBvWjRwxSlS99zfhZiL13Q,3048
+docproc/writer/sqlite.py,sha256=6LVa3k1ui9HW0Li7vOrtKu-dck4XNKIm7ERbmwBPdkE,6553
+docproc-0.1.1.dist-info/METADATA,sha256=vhqLhE3Q5LVmJ4VrTdkdl5wgj9FPDdzHT0a19eP1aRE,2363
+docproc-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+docproc-0.1.1.dist-info/entry_points.txt,sha256=gniJxIgcLqIMyoAFdOfgpULEFO2VOHt8SViMi5bFqE4,50
+docproc-0.1.1.dist-info/licenses/LICENSE.md,sha256=847GvDU9m9L6jFTfbyhOg3PVq9hP1iGG_GfJv9_3-y8,1096
+docproc-0.1.1.dist-info/RECORD,,

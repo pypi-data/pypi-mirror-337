@@ -1,0 +1,9 @@
+polars>=0.19.0
+typing-extensions>=4.0.0
+
+[db-postgres]
+psycopg2-binary>=2.9.3
+
+[fastapi]
+fastapi>=0.68.0
+uvicorn>=0.15.0

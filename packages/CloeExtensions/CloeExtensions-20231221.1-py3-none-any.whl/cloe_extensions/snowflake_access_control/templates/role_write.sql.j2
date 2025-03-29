@@ -1,0 +1,13 @@
+{% set role_name = 'R_T_' ~ database_name ~ '_' ~ schema_name ~ '_WRITE' -%}
+{% if delete_role -%}
+DROP ROLE IF EXISTS {{ role_name }};
+{% elif create_role -%}
+CREATE ROLE IF NOT EXISTS {{ role_name }};
+{% elif grant_role -%}
+GRANT ROLE {{ role_name }} TO ROLE SYSADMIN;
+GRANT USAGE ON DATABASE {{ database_name }} TO ROLE {{ role_name }};
+GRANT USAGE ON SCHEMA {{ database_name }}.{{ schema_name }}  TO ROLE {{ role_name }};
+GRANT ROLE R_T_{{ database_name }}_{{ schema_name }}_READ TO ROLE {{ role_name }};
+GRANT INSERT, DELETE, UPDATE, TRUNCATE ON ALL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }}  TO ROLE {{ role_name }};
+GRANT INSERT, DELETE, UPDATE, TRUNCATE ON FUTURE TABLES IN SCHEMA {{ database_name }}.{{ schema_name }}  TO ROLE {{ role_name }};
+{% endif -%}

@@ -1,0 +1,20 @@
+{% set role_name = 'R_T_' ~ database_name ~ '_' ~ schema_name ~ '_READ' -%}
+{% if delete_role -%}
+DROP ROLE IF EXISTS {{ role_name }};
+{% elif create_role -%}
+CREATE ROLE IF NOT EXISTS {{ role_name }};
+{% elif grant_role -%}
+GRANT ROLE {{ role_name }} TO ROLE SYSADMIN;
+GRANT USAGE ON DATABASE {{ database_name }} TO ROLE {{ role_name }};
+GRANT USAGE ON SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON FUTURE TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON ALL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON FUTURE VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON ALL VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON FUTURE MATERIALIZED VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON ALL MATERIALIZED VIEWS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT USAGE ON FUTURE FUNCTIONS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT USAGE ON ALL FUNCTIONS IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON ALL EXTERNAL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+GRANT SELECT ON FUTURE EXTERNAL TABLES IN SCHEMA {{ database_name }}.{{ schema_name }} TO ROLE {{ role_name }};
+{% endif -%}

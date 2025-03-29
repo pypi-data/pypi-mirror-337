@@ -1,0 +1,4 @@
+[console_scripts]
+cloextcrawl = cloe_extensions.utils.cli.crawler:crawler_cli
+cloextdeploy = cloe_extensions.utils.cli.deploy:deploy_cli
+cloextgen = cloe_extensions.utils.cli.generator:generator_cli

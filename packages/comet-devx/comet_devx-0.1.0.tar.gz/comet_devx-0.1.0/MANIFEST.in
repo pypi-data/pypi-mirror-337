@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include src/comet_devx/abis *.json
+recursive-include examples *.py

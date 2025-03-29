@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: comet-devx
+Version: 0.1.0
+Summary: Python SDK for Compound V3 (Comet)
+Home-page: https://github.com/compound-finance/comet
+Author: Compound Labs
+Author-email: dev@compound.finance
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: web3>=6.0.0
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.20.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Compound V3 Python SDK
+
+Python SDK for interacting with Compound V3 (Comet).
+
+## Installation
+
+```bash
+pip install comet-devx
+```
+
+For development installation:
+```bash
+pip install -e ".[dev]"
+```
+
+## Documentation
+
+See the [documentation](docs/README.md) for detailed usage instructions.
+
+## Examples
+
+Check out the [examples](examples/) directory for usage examples.
+
+## Development
+
+1. Clone the repository
+2. Install development dependencies:
+   ```bash
+   pip install -e ".[dev]"
+   ```
+3. Run tests:
+   ```bash
+   pytest
+   ```
+
+## License
+
+MIT License

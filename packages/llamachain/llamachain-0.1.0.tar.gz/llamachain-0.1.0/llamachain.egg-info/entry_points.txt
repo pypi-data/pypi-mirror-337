@@ -1,0 +1,4 @@
+[console_scripts]
+llamachain = llamachain.cli.main:run_cli
+llamachain-install-spacy = scripts.install_spacy_models:main
+llamachain-nlp = llamachain.nlp.cli:main

@@ -1,0 +1,9 @@
+sentimentx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentimentx/deep_learning.py,sha256=OvgD3au3wRYBUAROUGeL_FmnrKaCOYD0qGZ9YxmgNQk,509
+sentimentx/emotions.py,sha256=WdBzi7_tMegHNM_bSkLzVPPTvTqKv0h_5MUYTul2ljU,125
+sentimentx/lexicon.py,sha256=EIke7zJxH2qTcAGNHUkAl2HRi1ENjWXHQaJWsvpG4Hc,502
+sentimentx/sentiment.py,sha256=Mx0M_xa5F41lG4K1ymmiF4sSj2NPbzBFa0tN50Rp_YE,549
+sentimentx-0.0.2.dist-info/METADATA,sha256=tiCvmvLGk6u3srNvC8buJ8ZktPdOj-iIyS6t48t6qC0,479
+sentimentx-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sentimentx-0.0.2.dist-info/top_level.txt,sha256=73OGHF8zhtl214Uncddwsm-bjSXQiY_R0CcM6LQmapo,11
+sentimentx-0.0.2.dist-info/RECORD,,

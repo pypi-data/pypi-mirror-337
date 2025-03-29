@@ -1,0 +1,9 @@
+anilibria/__init__.py,sha256=gIEcExYitBbWqkhX6pAQuYQYcHUcGKb0Vii_bGODnIU,361
+anilibria/client.py,sha256=BRaPUoMoZyTXfV6wrfRfTZQ-eYsUtCQnYYbNzCDcuv8,2947
+anilibria/exceptions.py,sha256=feytYNg8MAIE9ysCxIjUVLoijki-v-5EsUJClpWHexA,116
+anilibria/models.py,sha256=18DkSK-gzn68CHlqTlBicXrSrXn6iH5tGEsx6xnznMY,5938
+anilibria/rest_adapter.py,sha256=ZpBgE4fuYWx7OTJUK7FnvOnEKYQBwRAp5xW07kT68Co,1677
+anilibria-0.1.5.dist-info/LICENSE,sha256=rDmSXlLDTyTvlC9lHL9u4dNraLUgUebeI7Slff3fZ_U,1086
+anilibria-0.1.5.dist-info/METADATA,sha256=_Qv3sGhLl4eOWyMXLhb_nB749WzSDHNX_WOhDyzB51U,2051
+anilibria-0.1.5.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+anilibria-0.1.5.dist-info/RECORD,,

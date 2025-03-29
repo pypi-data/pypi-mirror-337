@@ -1,0 +1,13 @@
+kuhl_haus/bedrock/api/__init__.py,sha256=B-91K0ui3tR82Jzfa8rdeDF64ivCJnT3Zmt7VXd0QDU,344
+kuhl_haus/bedrock/api/app.py,sha256=C4nS0S2li4YfiHj3rxMeYHiIZ5D49cgBaqRLmzZZURo,4985
+kuhl_haus/bedrock/api/env.py,sha256=LcLpsEU5nWNfWFxi8Ur07ctNz_efyrx2O2-yuAdhqhE,474
+kuhl_haus/bedrock/api/routers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kuhl_haus/bedrock/api/routers/chat.py,sha256=8vOP6lCK6InO0Lht_oT5eyqMWV5GcA2sofPG_Ua1te0,1593
+kuhl_haus/bedrock/api/routers/embeddings.py,sha256=KQK6MT7-op5sE5hbQsSfsbkD5OJ496hxpXmqpIe74kM,1176
+kuhl_haus/bedrock/api/routers/model.py,sha256=RghdiF3e7H1UPChEwvd3K_5nxA2PZLbLYOzZwHuSRHw,1090
+kuhl_haus/bedrock/api/skeleton.py,sha256=U8XsklE7aA3ULLA4uyqpz_X9CIilYoOHnI9Dycc-9cs,4264
+kuhl_haus_bedrock_api-0.2.3.dist-info/METADATA,sha256=kyC19TBHMjMiAfQ6A85IKR4V8sj6UMWPxaxX2LRzcdY,1406
+kuhl_haus_bedrock_api-0.2.3.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+kuhl_haus_bedrock_api-0.2.3.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+kuhl_haus_bedrock_api-0.2.3.dist-info/licenses/LICENSE.txt,sha256=DRkJftAJcMqoTkQ_Y6-HtKj3nm4pZah_p8XBZiYnw-c,1079
+kuhl_haus_bedrock_api-0.2.3.dist-info/RECORD,,

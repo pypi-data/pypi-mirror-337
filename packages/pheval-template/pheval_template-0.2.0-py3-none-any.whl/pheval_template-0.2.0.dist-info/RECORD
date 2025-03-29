@@ -1,0 +1,14 @@
+pheval_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_template/post_process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_template/post_process/post_process.py,sha256=LYA_Juc2iyuSo0ykGVN8Thgs3EXQ4AKYf2ssoquT4zg,658
+pheval_template/post_process/post_process_results_format.py,sha256=yfrgR_AFpcFAZRiVWsx777uhTX3FUPrFgjgo9J5ZmBo,2243
+pheval_template/prepare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_template/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pheval_template/run/fake_predictor.py,sha256=zyUjUFrsWydRA4IValE-LR5XbzGWqKPwbRcRISnX1ks,2989
+pheval_template/run/run.py,sha256=om5BD_CltCaCENv5Hqyayx3Q164zvM5bAHjyYEDEXSo,420
+pheval_template/run/run_tool.py,sha256=3KkAXR_eHkZH7H0M7va8zf1gaDFiJ_wLWapEUYVLJyE,755
+pheval_template/runner.py,sha256=7scbclrC0N5janNCkYuKrrSBLjyfT7JdrxPZXPgwhQU,1119
+pheval_template-0.2.0.dist-info/METADATA,sha256=Vk62X1dll8kZGo7Mh9X33FtMS4a7FYLxCnZxnaA1BIE,3902
+pheval_template-0.2.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+pheval_template-0.2.0.dist-info/entry_points.txt,sha256=U3UwQbizvGtyxXKNOwF8jYVn01ZM5Fds5jbYyTCghZU,71
+pheval_template-0.2.0.dist-info/RECORD,,

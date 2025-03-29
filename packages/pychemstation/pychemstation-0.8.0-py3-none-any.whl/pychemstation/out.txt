@@ -1,0 +1,145 @@
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Sleep 0.1
+Print Rows
+response$ = _MethFile$
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "FlowFlow")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "SolventCompositionPumpChannel2_Percentage")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PumpChannel2_CompositionPercentage")
+response_num = ObjHdrVal("RCPMP1Method[1]", "Flow")
+response_num = ObjHdrVal("RCPMP1Method[1]", "StopTime_Time")
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-22-32-44"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-22-36-41"
+response$ = AcqStatus$
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-22-37-41"
+response$ = AcqStatus$
+response$ = AcqStatus$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-46-39"
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-46-52"
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-47-43"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Sleep 0.1
+Print Rows
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-48-45"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Sleep 0.1
+Print Rows
+response$ = _MethFile$
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "FlowFlow")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "SolventCompositionPumpChannel2_Percentage")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PumpChannel2_CompositionPercentage")
+response_num = ObjHdrVal("RCPMP1Method[1]", "Flow")
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-50-02"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Sleep 0.1
+Print Rows
+response$ = _MethFile$
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "FlowFlow")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "SolventCompositionPumpChannel2_Percentage")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PumpChannel2_CompositionPercentage")
+response_num = ObjHdrVal("RCPMP1Method[1]", "Flow")
+response_num = ObjHdrVal("RCPMP1Method[1]", "StopTime_Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PostTime_Time")
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-27-23-59-41"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+Local Rows
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-28-00-01-48"
+Local Rows
+Local Rows
+Local Rows
+LoadMethod "C:\\Users\\Public\\Documents\\ChemStation\\1\\Methods\\", "testing.M"
+response$ = _MethFile$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-28-00-02-04"
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-28-00-02-22"
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Local Rows
+Local Rows
+Local Rows
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-28-00-13-10"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+Rows = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+response_num = TabHdrVal(RCPMP1Method[1], "Timetable", "NumberOfRows")
+Sleep 0.1
+Print Rows
+response$ = _MethFile$
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "FlowFlow")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "SolventCompositionPumpChannel2_Percentage")
+response_num = TabVal("RCPMP1Method[1]", "Timetable", 1, "Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PumpChannel2_CompositionPercentage")
+response_num = ObjHdrVal("RCPMP1Method[1]", "Flow")
+response_num = ObjHdrVal("RCPMP1Method[1]", "StopTime_Time")
+response_num = ObjHdrVal("RCPMP1Method[1]", "PostTime_Time")
+response$ = AcqStatus$
+RunMethod "C:\Users\Public\Documents\ChemStation\1\data\",, "run_test_2025-03-28-00-14-53"
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$
+response$ = AcqStatus$

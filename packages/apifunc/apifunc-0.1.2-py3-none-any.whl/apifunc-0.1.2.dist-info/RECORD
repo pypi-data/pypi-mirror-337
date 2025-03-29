@@ -1,0 +1,11 @@
+apifunc/__init__.py,sha256=J7Y09CCY5AlGOqBO5BEGMOg8zAgHbI-B3LSAGXld8RY,17079
+apifunc/_version.py,sha256=sev6RG7UdLFQhSKohzkvlKKEfcUF4SQK_uaYIF8o6-s,465
+apifunc/apifunc.py,sha256=FSrixDXqqwXAEkPJMJJK-ohqbWiflCuXufVyYbVHiLA,6215
+apifunc/cli.py,sha256=44dfphQMPLePc3fHirXeeIQNevBmFXc9pgLUyeUcr28,2737
+apifunc/new.py,sha256=LHSuf7T2NkcxeSEfOghmjvlsDGSn9A-eZ9HX_SnMKqY,6099
+apifunc-0.1.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+apifunc-0.1.2.dist-info/METADATA,sha256=68FuKjlW6gJXd2tpa1UQIGQpdlT_TNtW_up48vYB9qo,4777
+apifunc-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+apifunc-0.1.2.dist-info/entry_points.txt,sha256=-V1KfYRhS0eZ7gOOH-V-n28fVtAHzeRhIW1Vs5gN5R0,45
+apifunc-0.1.2.dist-info/top_level.txt,sha256=iAROSIQVbuIjLqGHtpgCTdn_wfdKn0cWTWWoK6YqZ0Y,8
+apifunc-0.1.2.dist-info/RECORD,,

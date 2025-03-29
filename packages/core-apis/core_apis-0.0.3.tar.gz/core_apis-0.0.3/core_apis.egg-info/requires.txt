@@ -1,0 +1,27 @@
+core-https>=1.1.0
+core-tests>=1.1.0
+
+[:python_version >= "3.7"]
+uvicorn>=0.20.0
+
+[:python_version >= "3.7" and python_version < "3.8"]
+fastapi>=0.100.1
+
+[:python_version >= "3.8"]
+fastapi>=0.115.6
+uvicorn>=0.30.0
+
+[:python_version >= "3.9"]
+uvicorn>=0.34.0
+
+[docs]
+pydata-sphinx-theme==0.16.1
+Sphinx==8.2.3
+
+[test]
+
+[test:python_version >= "3.7"]
+httpx>=0.24.1
+
+[test:python_version >= "3.8"]
+httpx>=0.28.1

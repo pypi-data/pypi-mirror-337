@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: PyAutomataTheory
+Version: 0.0.1
+Summary: A simple library for working with Mealy and Moore machines.
+Author-email: remr2005 <morpeh2005ka@gmail.com>

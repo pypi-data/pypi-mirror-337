@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+PyAutomataTheory.egg-info/PKG-INFO
+PyAutomataTheory.egg-info/SOURCES.txt
+PyAutomataTheory.egg-info/dependency_links.txt
+PyAutomataTheory.egg-info/top_level.txt
+automatas/__init__.py
+automatas/base_automata.py
+automatas/mealy_automata.py
+automatas/moor_automata.py
+jflap/__init__.py
+jflap/to_jflap_mealy.py
+jflap/to_jflap_moor.py
+minimization/__init__.py
+minimization/pi_minimization.py
+transformations/__init__.py
+transformations/from_mealy_to_moor.py

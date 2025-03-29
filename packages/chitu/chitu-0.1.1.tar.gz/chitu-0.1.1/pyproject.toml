@@ -1,0 +1,51 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "torch>=2.0.0",
+    "Cython>=0.29.0",
+    "tiktoken>=0.7.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chitu"
+version = "0.1.1"
+description = "A high-performance inference framework for large language models, focusing on efficiency, flexibility, and availability."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "setuptools",
+    "wheel",
+    "cmake",
+    "ninja",
+    "protobuf",
+    "sentencepiece",
+    "cython",
+    "packaging",
+    "accelerate",
+    "transformers",
+    "fire",
+    "tiktoken>=0.7.0",
+    "blobfile",
+    "faker",
+    "hydra-core",
+    "fastapi",
+    "uvicorn",
+    "tqdm",
+    "bitsandbytes",
+    "einops",
+    "flashinfer-python"
+]
+
+[project.urls]
+Homepage = "https://github.com/thu-pacman/chitu"
+Issues = "https://github.com/thu-pacman/chitu/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["benchmarks", "csrc", "docs", "examples", "tests*"]
+namespaces = false

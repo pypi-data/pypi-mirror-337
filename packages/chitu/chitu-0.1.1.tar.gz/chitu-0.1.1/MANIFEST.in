@@ -1,0 +1,6 @@
+include LICENSE
+include requirements-build.txt
+
+recursive-include csrc *
+
+global-exclude *.pyc *.pyo *.pyd __pycache__/*

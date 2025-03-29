@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: HumanTone
+Version: 0.0.2
+Summary: A human-like sentiment analysis library with paraphrasing and speech capabilities.
+Author: Vansh Gautam
+Author-email: vanshgautam2005@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: transformers
+Requires-Dist: textblob
+Requires-Dist: nltk
+Requires-Dist: sentence-transformers
+Requires-Dist: pyttsx3
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: pandas
+

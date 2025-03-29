@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-pyautogui = mcp_pyautogui.main:main

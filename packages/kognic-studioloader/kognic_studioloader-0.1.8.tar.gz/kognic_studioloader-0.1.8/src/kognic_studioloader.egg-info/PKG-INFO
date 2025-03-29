@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: kognic-studioloader
+Version: 0.1.8
+Summary: Serve local data to drawing tool
+Author: Kognic
+License: MIT
+Keywords: Kognic,API
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: websockets
+Requires-Dist: kognic-studio-proto>=0.0.21
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: kognic-io[wasm]
+Requires-Dist: pandas
+Provides-Extra: zod
+Requires-Dist: zod[cli]; extra == "zod"

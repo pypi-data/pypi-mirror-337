@@ -1,0 +1,57 @@
+[build-system]
+requires = [
+  "setuptools>45",
+  "setuptools_scm[toml]>=6.2",
+  "build>=1.2.2"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kognic-studioloader"
+dynamic = ["version"]
+requires-python = ">=3.10"
+description = "Serve local data to drawing tool"
+dependencies = [
+    "websockets",
+    "kognic-studio-proto>=0.0.21",
+    "Pillow",
+    "numpy",
+    "kognic-io[wasm]",
+    "pandas"
+]
+authors = [
+    { name = "Kognic"},
+]
+keywords = ["Kognic", "API"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "W", "I001"]
+
+[tool.black]
+line-length = 100
+
+[tool.setuptools]
+script-files = [
+    "bin/zod-server",
+]
+
+[project.scripts]
+studioloader = "kognic.studioloader.app:main"
+
+[tool.setuptools_scm]
+write_to = "src/kognic/studioloader/_version.py"
+
+[project.optional-dependencies]
+zod = [
+    "zod[cli]"
+]

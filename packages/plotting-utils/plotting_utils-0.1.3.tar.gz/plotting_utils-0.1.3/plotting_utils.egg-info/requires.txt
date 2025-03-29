@@ -1,0 +1,6 @@
+seaborn
+matplotlib
+statannotations
+textalloc
+joblib
+scikit-learn

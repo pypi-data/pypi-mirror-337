@@ -1,0 +1,16 @@
+autodla/__init__.py,sha256=jtpvnW4M-bN9jatI9WaFRYTopR_iJlmXDj6Ktf2xf1o,133
+autodla/dbs/__init__.py,sha256=oV-VfOQv2GcoDW1cu-MGQVwZt3_23BWMcBn95lnf-_8,60
+autodla/dbs/postgresdb.py,sha256=IlI_-hCITrSX0fCBLBw3z6GAdHKwSUN5JzC4CoRPFFs,6325
+autodla/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodla/engine/data_conversion.py,sha256=9Mfm-n1J3Tn0mPUL8fSLLGqb5WKL3shuOHyOsvJul9s,7055
+autodla/engine/db.py,sha256=fytT9z5B5dfAaIvH0XOCm-qwH3PwYiRzW5q2ZlzmhZk,2418
+autodla/engine/lambda_conversion.py,sha256=oPnQtxA5Wm-TR8K9XN5P_Vvw_QESgrrnnR3jqaAn1Xk,12056
+autodla/engine/object.py,sha256=SY6dJwowkkjZCsdpazQrT88-AUGAuXxqZ_9FLhxuUF4,13395
+autodla/engine/query_builder.py,sha256=0-YPiVmthgkBXHsJkQwCbbLlVrQk4Rbha5m0NL3VOhQ,837
+autodla/utils/__init__.py,sha256=ZPi2E0KZRS7V3N01B38VMzzKRP75DttdGW5SB56ux-I,71
+autodla/utils/data_generation.py,sha256=VSZPGS2OA0wtGmclL3nlRGJ_rR8Z_e7LDMkopEjIizI,1342
+autodla-0.0.4.dist-info/licenses/LICENSE,sha256=SOqQ9fycYzJ1ru8OwGKGdr8hdL2tAQClr4D0hsLIAGU,1082
+autodla-0.0.4.dist-info/METADATA,sha256=mef5K7q_xdb50tRg9syofdmxPKVvRLK7tTuHTRhlmeE,1207
+autodla-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+autodla-0.0.4.dist-info/top_level.txt,sha256=9hUvayDU4tE7fgssB1GCyjVSWBCrfBjxPA2xxXkziLU,8
+autodla-0.0.4.dist-info/RECORD,,

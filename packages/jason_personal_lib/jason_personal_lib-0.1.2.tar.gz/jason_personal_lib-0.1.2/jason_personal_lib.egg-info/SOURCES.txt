@@ -1,0 +1,13 @@
+.gitignore
+.python-version
+README.md
+pyproject.toml
+test.py
+uv.lock
+jason_personal_lib.egg-info/PKG-INFO
+jason_personal_lib.egg-info/SOURCES.txt
+jason_personal_lib.egg-info/dependency_links.txt
+jason_personal_lib.egg-info/requires.txt
+jason_personal_lib.egg-info/top_level.txt
+printer/__init__.py
+printer/printer.py

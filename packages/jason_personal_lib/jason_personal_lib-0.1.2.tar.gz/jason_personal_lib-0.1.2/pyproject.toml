@@ -1,0 +1,12 @@
+[project]
+name = "jason_personal_lib"
+version = "0.1.2"
+description = "jason's python lib"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = ["wcwidth"]
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

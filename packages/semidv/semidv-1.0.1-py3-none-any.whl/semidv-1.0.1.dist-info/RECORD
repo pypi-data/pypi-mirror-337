@@ -1,0 +1,10 @@
+semidv/device.py,sha256=ZCa02l1nMuAKNB3i9Tvee3m867RUfGAX355O3mUQJWo,55878
+semidv/material.py,sha256=SKSLdLOQbUJHSX0nLcb9VbrTWQIPYRwFFWDwFfx00nI,10451
+semidv/semidv.py,sha256=l-KufR1biVBs_CjUKFCTtNu7ISoZJB8BxnWDLWC97zk,1221
+semidv/solve.py,sha256=mo5B3tPwdsRlflDPrN4NmISBfvWlYW8h3YBzZU9IXG0,14258
+semidv/visual.py,sha256=iAm9MbUlcqdXOOEWGbkfUgjybf6X_tsySAWR-8ZB0Tw,28352
+semidv-1.0.1.dist-info/licenses/LICENSE,sha256=YrQ4Ocav5VXfSgQJB5lEqF5MMBmidjquYDB6m0-ltDg,1072
+semidv-1.0.1.dist-info/METADATA,sha256=oEkkxbrbyBoVSjJ3b2uCRtc2zQXqYJ2kq8shWKWtrfw,2339
+semidv-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+semidv-1.0.1.dist-info/top_level.txt,sha256=m8Abiz7roYCLH8XmRzi_RwCQ4TIeQBEBR_aPS6vCgGI,7
+semidv-1.0.1.dist-info/RECORD,,

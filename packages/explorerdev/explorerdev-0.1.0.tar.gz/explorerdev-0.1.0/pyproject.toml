@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explorerdev"
+version = "0.1.0"
+description = "Remote file explorer tool"
+authors = [{name = "qDephelinTeq", email = "secret@email.com"}]
+requires-python = ">=3.6"
+dependencies = ["requests"]  # Исправлено: "requests" в кавычках
+
+[project.scripts]
+explorerdev = "explorerdev.client:main"

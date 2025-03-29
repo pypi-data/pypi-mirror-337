@@ -1,0 +1,8 @@
+README.md
+setup.py
+cartel/__init__.py
+cartel/cartel.py
+cartel.egg-info/PKG-INFO
+cartel.egg-info/SOURCES.txt
+cartel.egg-info/dependency_links.txt
+cartel.egg-info/top_level.txt

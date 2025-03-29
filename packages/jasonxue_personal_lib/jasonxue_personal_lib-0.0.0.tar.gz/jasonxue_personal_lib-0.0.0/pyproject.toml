@@ -1,0 +1,7 @@
+[project]
+name = "jasonxue_personal_lib"
+dynamic = ["version"]
+description = "jason's python lib"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []

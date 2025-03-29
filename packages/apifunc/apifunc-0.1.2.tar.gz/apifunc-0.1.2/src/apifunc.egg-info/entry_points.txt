@@ -1,0 +1,2 @@
+[console_scripts]
+apifunc = apifunc.cli:main

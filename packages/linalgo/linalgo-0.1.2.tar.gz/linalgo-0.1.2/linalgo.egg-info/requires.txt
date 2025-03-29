@@ -1,0 +1,6 @@
+ipython
+google-cloud
+numpy
+pillow
+python-dateutil
+requests

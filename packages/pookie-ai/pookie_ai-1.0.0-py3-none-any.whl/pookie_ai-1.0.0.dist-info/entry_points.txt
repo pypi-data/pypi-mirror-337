@@ -1,0 +1,2 @@
+[console_scripts]
+pookie = pookie.cli:main

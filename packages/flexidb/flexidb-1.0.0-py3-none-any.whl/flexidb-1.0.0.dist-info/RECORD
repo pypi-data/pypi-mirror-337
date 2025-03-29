@@ -1,0 +1,12 @@
+flexidb/__init__.py,sha256=NzhNqjHfquUzkqiSXJFrVDaRaCF0dX9QNQS716oXDwA,163
+flexidb/factory.py,sha256=aU5gWGZVAaisdPi-9JLflQmp88NbxFpBbDV_-l8iqsM,1363
+flexidb/interface.py,sha256=102IHm5wh7Xur_xC2yjnq5BBGgMQSUlLJd7Cd4NA79I,3493
+flexidb/mongodb.py,sha256=fAQ56pzxG15RermNSvFrF_sYWMZLQNQqlwyLpYWb7t4,5398
+flexidb/mysql.py,sha256=4T3rhu7nBbU0DTeFO0UIx2cSvql9wXh2Fk2QknYDw_s,7760
+flexidb/postgresql.py,sha256=aOiGrQcL13FmuDmB5f-VjJyMAFn1UnMw9cWl5L6udX8,7994
+flexidb/redis.py,sha256=D0AJEd_6HoIScdPZpVa4pz8a_WO4q-b-PE2-QMhXD6M,10741
+flexidb/sqlite.py,sha256=gYLzDG7XNKJpb7j3NCWWMhxmiuZHPjPSpEESyjFF-tY,7437
+flexidb-1.0.0.dist-info/METADATA,sha256=a5HavNy5w3OaIiEdxkf9vo5bOoRdGsxeq6-uK3tqqcs,1396
+flexidb-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+flexidb-1.0.0.dist-info/top_level.txt,sha256=Ei8qbhPtlkSrUOqHU9c0T2FD0zPdCdYavJ3Llk6Px1U,8
+flexidb-1.0.0.dist-info/RECORD,,

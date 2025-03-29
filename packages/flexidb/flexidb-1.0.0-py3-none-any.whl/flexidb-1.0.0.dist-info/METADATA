@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: flexidb
+Version: 1.0.0
+Summary: A flexible Python database connector with a consistent API across multiple database types
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: pymongo>=4.0.0
+Requires-Dist: psycopg2-binary>=2.9.0
+Requires-Dist: mysql-connector-python>=8.0.0
+Requires-Dist: redis>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0.0; extra == "dev"
+Requires-Dist: black>=21.0.0; extra == "dev"
+Requires-Dist: flake8>=3.9.0; extra == "dev"
+Provides-Extra: mongodb
+Requires-Dist: pymongo>=4.0.0; extra == "mongodb"
+Provides-Extra: postgresql
+Requires-Dist: psycopg2-binary>=2.9.0; extra == "postgresql"
+Provides-Extra: mysql
+Requires-Dist: mysql-connector-python>=8.0.0; extra == "mysql"
+Provides-Extra: sqlite
+Provides-Extra: redis
+Requires-Dist: redis>=4.0.0; extra == "redis"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

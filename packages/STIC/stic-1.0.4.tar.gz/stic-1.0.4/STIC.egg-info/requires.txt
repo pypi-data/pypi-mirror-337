@@ -1,0 +1,7 @@
+colored-logging
+ECOv002-CMR
+ECOv002-granules
+GEOS5FP>=1.1.1
+numpy
+pandas
+rasters

@@ -1,0 +1,13 @@
+openai
+vllm
+transformers
+datasets
+stanza
+sentencex
+lingua-language-detector
+FlagEmbedding
+anthropic
+google-generativeai
+cohere
+choix
+sklearn

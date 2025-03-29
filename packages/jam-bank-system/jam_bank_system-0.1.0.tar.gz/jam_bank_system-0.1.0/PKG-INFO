@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: jam-bank-system
+Version: 0.1.0
+Summary: A simple CLI bank management system
+Author-email: JamilaYDhedhi <nurjamila1@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Bank System
+A CLI bank management system.
+
+## Install
+pip install jam-bank-system
+
+## Run
+bank

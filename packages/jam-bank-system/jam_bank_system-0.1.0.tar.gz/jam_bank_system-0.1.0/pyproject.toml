@@ -1,0 +1,15 @@
+[project]
+name = "jam-bank-system"           # Unique package name
+version = "0.1.0"
+description = "A simple CLI bank management system"
+authors = [{name = "JamilaYDhedhi", email = "nurjamila1@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+bank = "main:main"                 # 'bank' command runs main() from main.py
+
+[build-system]
+requires = ["setuptools>=61.0"]    # Use setuptools instead of hatchling
+build-backend = "setuptools.build_meta"

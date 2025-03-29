@@ -1,0 +1,10 @@
+README.md
+setup.py
+mylib/__init__.py
+mylib/mymodule12222221112222.py
+mylibrary122222111222.egg-info/PKG-INFO
+mylibrary122222111222.egg-info/SOURCES.txt
+mylibrary122222111222.egg-info/dependency_links.txt
+mylibrary122222111222.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mymodule.py

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: smkml
+Version: 1.0.0
+Summary: A hybrid ML algorithm combining SVM and K-Means for classification and clustering.
+Home-page: https://github.com/yourgithub/smkml
+Author: Vansh Gautam
+Author-email: vanshgautam2005@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SMKML - Hybrid Machine Learning Algorithm
+
+SMKML is a Python library that merges Support Vector Machines (SVM) and K-Means clustering, allowing both supervised and unsupervised learning.
+
+## Features
+- **Automatic Mode Selection:** Handles both labeled and unlabeled data.
+- **High Accuracy (>99.6%)** using optimized algorithms.
+- **Simple API** for easy integration.
+
+## Installation
+```bash
+pip install smkml

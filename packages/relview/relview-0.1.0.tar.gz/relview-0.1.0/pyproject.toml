@@ -1,0 +1,31 @@
+[project]
+name = "relview"
+authors = [
+    {name = "David Aguilar", email = "davvid@gmail.com"},
+    {name = "Ryan Kawahara", email = "ryan.kawahara@gmail.com"},
+]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: End Users/Desktop",
+	"Programming Language :: Python :: 3",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+]
+description = "A viewer for USD relationships"
+dynamic = ["dependencies", "optional-dependencies", "version"]
+license = {file = "LICENSE.txt"}
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.scripts]
+relview = "relview.main:main"
+
+[build-system]
+requires = ["setuptools>=42", "setuptools_scm[toml]>=3.4.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.cercis]
+function-definition-extra-indent = false
+line-length = 88
+
+[tool.setuptools_scm]
+fallback_version = "0.1.0"

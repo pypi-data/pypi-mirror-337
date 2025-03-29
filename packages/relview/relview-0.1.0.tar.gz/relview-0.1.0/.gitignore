@@ -1,0 +1,6 @@
+/Linux-*
+/build
+/.coverage
+/dist
+/env*
+/relview.egg-info

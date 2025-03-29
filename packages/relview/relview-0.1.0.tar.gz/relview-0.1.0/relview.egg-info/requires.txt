@@ -1,0 +1,24 @@
+Qt.py>=1.1.0
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[build]
+build
+twine
+wheel
+
+[dev]
+cercis
+pylint>=2.14.0
+
+[docs]
+furo
+sphinx
+rst.linker>=1.9
+
+[testing]
+pytest!=3.7.3,>=3.5
+pytest-checkdocs>=1.2.3
+pytest-cov
+pytest-enabler>=1.0.1

@@ -1,0 +1,8 @@
+README.md
+setup.py
+PassCrypt/__init__.py
+PassCrypt/main.py
+PassCrypt.egg-info/PKG-INFO
+PassCrypt.egg-info/SOURCES.txt
+PassCrypt.egg-info/dependency_links.txt
+PassCrypt.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: cloe-logging
+Version: 0.3.7
+Summary: A Standardized Solution for logging to various targets.
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: <3.12,>=3.11
+Requires-Dist: pydantic<3.0.0,>=2.7.0
+Requires-Dist: typing-extensions<5.0.0,>=4.12.2
+Requires-Dist: databricks-sdk>=0.39.0; extra == 'databricks'
+Requires-Dist: requests<3.0.0,>=2.31.0; extra == 'log-analytics'
+Requires-Dist: cloe-util-snowflake-connector<2.0.0,>=1.0.2; extra == 'snowflake'

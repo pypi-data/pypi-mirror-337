@@ -1,0 +1,17 @@
+
+{
+    "Plugins": [
+        {
+            "Type": "python",
+            "Name": "relview.usdview",
+            "Info": {
+                "Types": {
+                    "relview.usdview.RelviewPluginContainer": {
+                        "bases": ["pxr.Usdviewq.plugin.PluginContainer"],
+                        "displayName": "Relationship Viewer"
+                    }
+                }
+            }
+        }
+    ]
+}

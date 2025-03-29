@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: echopylang
+Version: 1.10.0
+Summary: Язык программирования внутри Python. Встраивается в скрипты Python и при помощи этой библиотеки можно программировать на этом языке внутри Python IDE.
+Author: mistertayodimon
+Requires-Python: >=3.8
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,10 @@
+README.md
+setup.py
+echopylang/__init__.py
+echopylang/echomath.py
+echopylang/echoprint.py
+echopylang/echovar.py
+echopylang.egg-info/PKG-INFO
+echopylang.egg-info/SOURCES.txt
+echopylang.egg-info/dependency_links.txt
+echopylang.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+trata/__init__.py,sha256=zqhme7hjDuLLa7SHDOSh6VyBv5fCFp1LzlCWkHqTU8o,78
+trata/adaptive_sampler.py,sha256=jxeJ4C8CzhCtMtrTPXi-ox0Ak8KhyzgjxSqQIztz9aI,18671
+trata/composite_samples.py,sha256=ZdRIo6XOilhryDqB-k_ZWrA5aDCNdU9xCW_OjueEBt8,24531
+trata/kosh_sampler.py,sha256=yN_coAxGYJ_Y5hMm7YpxmL_9ZT5MdscQlQjlcQcpmvM,7140
+trata/sampler.py,sha256=JJAZaXDz2GnoT8kmhShgQfAv4avDw6RMbAPh9vegNgs,65001
+trata-1.1.1.dist-info/LICENSE,sha256=TA341cnSXRWW7gOUDq22Lvo57HLjqBvy_Prmsup4l58,1098
+trata-1.1.1.dist-info/METADATA,sha256=S8UcjRikvqXKCG_1Th1v3lCEvVj6XusmT95hVstnOe4,5856
+trata-1.1.1.dist-info/NOTICE,sha256=9CR93geVKl_4ZrJORbXN0fzkEM2y4DglWhY1hn9ZwQw,1167
+trata-1.1.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+trata-1.1.1.dist-info/entry_points.txt,sha256=IEZBIMYeRTDLic5w9m-yVKAL5_XGHrxyzbiUi9kROMY,46
+trata-1.1.1.dist-info/RECORD,,

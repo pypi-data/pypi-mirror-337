@@ -1,0 +1,10 @@
+koppla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koppla/cli.py,sha256=XDvRcJt5QSUwTF61xGzR1LSPf_wGigrMRHnG_ToSyGQ,358
+koppla/config_manager.py,sha256=FCSDZxNba-psH1hCpbpAEwB5Dd0L7vsvtyEc9kDSwFU,11450
+koppla/server.py,sha256=AFcmR3YwvqUHv0q7VWIATkiDAzB2zoMON3b5vp5BuN0,32543
+koppla-0.16.dist-info/licenses/LICENSE,sha256=iVyR9nbfUUCejeWh9dkwklFklLBV_xa0JMDoI4EB0RU,1085
+koppla-0.16.dist-info/METADATA,sha256=rJfTfQQXsRn8r3h4fa00ptYVFDKvtimESpVF3MUjdHw,5562
+koppla-0.16.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+koppla-0.16.dist-info/entry_points.txt,sha256=H5TfhDPSRfHjCXJdhvpS-fWVA1V0HGZb4_YzjXC8emU,91
+koppla-0.16.dist-info/top_level.txt,sha256=ZqOjxbHij_adFNSsiVYbRszM-Jzszx-gu3OJ4B4UQps,7
+koppla-0.16.dist-info/RECORD,,

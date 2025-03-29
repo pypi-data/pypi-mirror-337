@@ -1,0 +1,3 @@
+[console_scripts]
+koppla = koppla.server:mcp.run
+koppla-config = koppla.cli:config_command

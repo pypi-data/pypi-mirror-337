@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+pyqtgen/__init__.py
+pyqtgen/__main__.py
+pyqtgen.egg-info/PKG-INFO
+pyqtgen.egg-info/SOURCES.txt
+pyqtgen.egg-info/dependency_links.txt
+pyqtgen.egg-info/entry_points.txt
+pyqtgen.egg-info/top_level.txt

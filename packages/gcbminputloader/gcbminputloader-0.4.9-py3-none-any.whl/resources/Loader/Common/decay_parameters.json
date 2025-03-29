@@ -1,0 +1,71 @@
+﻿{
+    "SQLLoaderMapping": {
+        "name": "Decay (DOM) parameters",
+        "fetch_sql": "
+            SELECT
+                p_tr.gcbm_pool_name AS SoilPoolName,
+                d.base_decay_rate AS OrganicMatterDecayRate,
+                d.reference_temp AS ReferenceTemp,
+                d.q10 AS Q10,
+                d.prop_to_atmosphere AS PropToAtmosphere,
+                d.max_rate AS MaxDecayRate
+            FROM decay_parameter d
+            INNER JOIN dom_pool dp
+                ON d.dom_pool_id = dp.id
+            INNER JOIN pool p
+                ON dp.pool_id = p.id
+            INNER JOIN (
+                SELECT
+                    p.id AS pool_id,
+                    p_tr.name AS cbm_defaults_pool_name,
+                    CASE
+                        WHEN p_tr.name = 'Softwood Merchantable' THEN 'SoftwoodMerch'
+                        WHEN p_tr.name = 'Softwood Foliage' THEN 'SoftwoodFoliage'
+                        WHEN p_tr.name = 'Softwood Other' THEN 'SoftwoodOther'
+                        WHEN p_tr.name = 'Softwood Coarse Roots' THEN 'SoftwoodCoarseRoots'
+                        WHEN p_tr.name = 'Softwood Fine Roots' THEN 'SoftwoodFineRoots'
+                        WHEN p_tr.name = 'Hardwood Merchantable' THEN 'HardwoodMerch'
+                        WHEN p_tr.name = 'Hardwood Foliage' THEN 'HardwoodFoliage'
+                        WHEN p_tr.name = 'Hardwood Other' THEN 'HardwoodOther'
+                        WHEN p_tr.name = 'Hardwood Coarse roots' THEN 'HardwoodCoarseRoots'
+                        WHEN p_tr.name = 'Hardwood Fine Roots' THEN 'HardwoodFineRoots'
+                        WHEN p_tr.name = 'Aboveground Very Fast DOM' THEN 'AboveGroundVeryFastSoil'
+                        WHEN p_tr.name = 'Belowground Very Fast DOM' THEN 'BelowGroundVeryFastSoil'
+                        WHEN p_tr.name = 'Aboveground Fast DOM' THEN 'AboveGroundFastSoil'
+                        WHEN p_tr.name = 'Belowground Fast DOM' THEN 'BelowGroundFastSoil'
+                        WHEN p_tr.name = 'Medium DOM' THEN 'MediumSoil'
+                        WHEN p_tr.name = 'Aboveground Slow DOM' THEN 'AboveGroundSlowSoil'
+                        WHEN p_tr.name = 'Belowground Slow DOM' THEN 'BelowGroundSlowSoil'
+                        WHEN p_tr.name = 'Softwood Stem Snag' THEN 'SoftwoodStemSnag'
+                        WHEN p_tr.name = 'Softwood Branch Snag' THEN 'SoftwoodBranchSnag'
+                        WHEN p_tr.name = 'Hardwood Stem Snag' THEN 'HardwoodStemSnag'
+                        WHEN p_tr.name = 'Hardwood Branch Snag' THEN 'HardwoodBranchSnag'
+                        ELSE p_tr.name
+                    END AS gcbm_pool_name
+                FROM pool p
+                INNER JOIN pool_tr p_tr
+                    ON p.id = p_tr.pool_id
+                WHERE p_tr.locale_id = 1
+            ) AS p_tr
+                ON p.id = p_tr.pool_id",
+        "load_sql": "
+            INSERT INTO decay_parameter (
+                dom_pool_id,
+                base_decay_rate,
+                reference_temp,
+                q10,
+                prop_to_atmosphere,
+                max_rate)
+            SELECT
+                dp.id,
+                @OrganicMatterDecayRate AS OrganicMatterDecayRate,
+                @ReferenceTemp AS ReferenceTemp,
+                @Q10 AS Q10,
+                @PropToAtmosphere AS PropToAtmosphere,
+                @MaxDecayRate AS MaxDecayRate
+            FROM dom_pool dp
+            INNER JOIN pool p
+                ON dp.pool_id = p.id
+            WHERE p.name = @SoilPoolName"
+    }
+}

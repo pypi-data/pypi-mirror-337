@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: zodable-sample-package
+Version: 1.1.2
+Summary: Auto-generated Pydantic project
+Requires-Dist: annotated-types
+Requires-Dist: DateTime
+Requires-Dist: pydantic
+Requires-Dist: pydantic_core
+Requires-Dist: pytz
+Requires-Dist: setuptools
+Requires-Dist: toml
+Requires-Dist: typing-inspection
+Requires-Dist: typing_extensions
+Requires-Dist: uuid
+Requires-Dist: zodable-sample-package-multiplatform
+Requires-Dist: zodable_idschema
+Requires-Dist: zope.interface

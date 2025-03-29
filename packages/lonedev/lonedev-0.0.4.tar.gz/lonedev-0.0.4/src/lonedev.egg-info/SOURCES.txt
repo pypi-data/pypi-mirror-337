@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/lonedev/__init__.py
+src/lonedev.egg-info/PKG-INFO
+src/lonedev.egg-info/SOURCES.txt
+src/lonedev.egg-info/dependency_links.txt
+src/lonedev.egg-info/requires.txt
+src/lonedev.egg-info/top_level.txt
+src/lonedev/globalargs/__init__.py
+src/lonedev/globalargs/global_args.py
+src/lonedev/logger/__init__.py
+src/lonedev/logger/__main__.py

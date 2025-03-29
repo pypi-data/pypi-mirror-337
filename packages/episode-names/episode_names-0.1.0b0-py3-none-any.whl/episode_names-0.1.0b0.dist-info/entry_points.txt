@@ -1,0 +1,2 @@
+[console_scripts]
+episode-names = episode_names.app:run_main

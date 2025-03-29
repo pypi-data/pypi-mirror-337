@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cloe-sql-transformations
+Version: 1.0.6
+Summary: Generates ready to use SQL DMLs based on metadata
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: >=3.11,<4.0
+Requires-Dist: cloe-metadata (>=2.2.2,<3.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: typer[all] (>=0.12.3,<0.13.0)

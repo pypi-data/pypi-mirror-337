@@ -1,0 +1,12 @@
+alpha/datasets/__init__.py,sha256=vkottWT16hOVfd2oJ7uzjlEsP14FEmD0JeTXZ_q2dqQ,147
+alpha/datasets/enums.py,sha256=2pLqsxVTnq82N3z3Rttx8ZmyDUSC8TPrh3v8d1GXbpo,213
+alpha/datasets/loader.py,sha256=PFon-ohqZkPhYpwCSudytI629F4bjZ8lA3tsYKuifLg,5932
+alpha/datasets/storage.py,sha256=m6ZoWoAa2oUUNlDNr_gxGzmeIMLKSiXlhV2v2V1VdJA,3682
+alpha_isnow-0.1.1.data/data/CHANGELOG.md,sha256=IGPNYC8qVEoeDjsXQVtxaAOGlhTtm6p8qsmtJxZC_7E,1773
+alpha_isnow-0.1.1.data/data/LICENSE,sha256=mXeZelKpv2sYUiJKW_YFyPlGI87xOJuJYtenSyWuaqc,1068
+alpha_isnow-0.1.1.data/data/README.md,sha256=4s-8s_-lwfYOtcyXMmZ4HFPbWHTQlpD1Jkh5IT1pzEs,3184
+alpha_isnow-0.1.1.dist-info/licenses/LICENSE,sha256=mXeZelKpv2sYUiJKW_YFyPlGI87xOJuJYtenSyWuaqc,1068
+alpha_isnow-0.1.1.dist-info/METADATA,sha256=jMjIj9mRY87fk7pkmkxACSUqF0GFBlje_bMLEAmo2NY,4453
+alpha_isnow-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+alpha_isnow-0.1.1.dist-info/top_level.txt,sha256=tqmNnOmi2RSSiPo99C03fD5Cc3r9za9xTjPAoQC1EGA,6
+alpha_isnow-0.1.1.dist-info/RECORD,,

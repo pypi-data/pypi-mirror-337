@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-architect = mcp_server_architect.__main__:main

@@ -1,0 +1,2 @@
+[markitdown.plugin]
+rtf_plugin = markitdown_rtf_plugin

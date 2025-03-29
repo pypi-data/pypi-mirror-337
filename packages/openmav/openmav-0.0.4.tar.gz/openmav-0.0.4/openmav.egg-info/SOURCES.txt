@@ -1,0 +1,10 @@
+LICENSE
+README.md
+openmav.py
+setup.py
+openmav.egg-info/PKG-INFO
+openmav.egg-info/SOURCES.txt
+openmav.egg-info/dependency_links.txt
+openmav.egg-info/entry_points.txt
+openmav.egg-info/requires.txt
+openmav.egg-info/top_level.txt

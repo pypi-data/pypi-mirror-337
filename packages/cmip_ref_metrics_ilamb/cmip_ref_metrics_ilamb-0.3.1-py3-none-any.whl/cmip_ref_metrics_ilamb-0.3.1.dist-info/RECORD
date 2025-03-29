@@ -1,0 +1,14 @@
+cmip_ref_metrics_ilamb/__init__.py,sha256=rG4sn0EN2ubjm9yZFULPYMWifKIZ2soS3GOKh1MTkyg,722
+cmip_ref_metrics_ilamb/datasets.py,sha256=-HhLBV8hjxNcWegMqxqljQ9pQ0qUMGSlH0lFQSAc9Ak,2266
+cmip_ref_metrics_ilamb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmip_ref_metrics_ilamb/standard.py,sha256=eSxBkvkoIh1ev1AKzaS1P2fu69deQ-cYs8GX6mkuKyI,6760
+cmip_ref_metrics_ilamb/configure/ilamb.yaml,sha256=IPub3x9baJrkfa25B5Ikm9OuZtM2669Nnm8hXopjo_s,251
+cmip_ref_metrics_ilamb/configure/iomb.yaml,sha256=i-tD01y9q3-dMNB9BUiBLs2CWKbEaL5BNQTv9f60qjk,215
+cmip_ref_metrics_ilamb/registry/ilamb.txt,sha256=n6byGbJULscCoO-Bcmm5VkA9drx9-uLGDn9UbyDZ8gA,1310
+cmip_ref_metrics_ilamb/registry/iomb.txt,sha256=UoL0G9rqsmGy8ZnzUmXGgLJAuLOPaXOVSTfEuuxKUrY,133
+cmip_ref_metrics_ilamb/registry/test.txt,sha256=FiEQbUzeUi5Ww6akNXKoHmcuYkJae5G4n4rRisY7-pg,188
+cmip_ref_metrics_ilamb-0.3.1.dist-info/METADATA,sha256=2Aqv03U8SqCAn6wfeICfv6qYwqU1yh7WOPsiAJNplDQ,1273
+cmip_ref_metrics_ilamb-0.3.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cmip_ref_metrics_ilamb-0.3.1.dist-info/licenses/LICENCE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cmip_ref_metrics_ilamb-0.3.1.dist-info/licenses/NOTICE,sha256=FVLtsq3L9eLCzrjXnZClepAe9uFPnjPnGJIyyPNcp3Y,98
+cmip_ref_metrics_ilamb-0.3.1.dist-info/RECORD,,

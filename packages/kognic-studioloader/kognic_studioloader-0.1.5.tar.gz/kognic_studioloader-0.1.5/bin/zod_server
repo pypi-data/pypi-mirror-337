@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+# Run zod server
+
+import asyncio
+from kognic.studioloader.server import run
+from kognic.studioloader.warehouse.zod_warehouse import ZodWarehouse
+
+warehouse = ZodWarehouse(bootstrap=True)
+asyncio.run(run(warehouse))

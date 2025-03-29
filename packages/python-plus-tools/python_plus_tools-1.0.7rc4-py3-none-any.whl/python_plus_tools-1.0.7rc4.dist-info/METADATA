@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: python-plus-tools
+Version: 1.0.7rc4
+Summary: For the expansion of python content, it covers science, debugging and other fields.
+Home-page: https://github.com/xystudio889/pyplus
+Author: xystudio
+Author-email: 173288240@qq.com
+License: MIT
+Requires-Python: >=3.9,<=3.14
+License-File: LICENSE
+Requires-Dist: toml
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/blend2stl/__init__.py
+src/blend2stl/__main__.py
+src/blend2stl.egg-info/PKG-INFO
+src/blend2stl.egg-info/SOURCES.txt
+src/blend2stl.egg-info/dependency_links.txt
+src/blend2stl.egg-info/entry_points.txt
+src/blend2stl.egg-info/requires.txt
+src/blend2stl.egg-info/top_level.txt

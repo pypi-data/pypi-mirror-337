@@ -1,0 +1,16 @@
+[project]
+name = "blend2stl"
+version = "0.0.1"
+description = "Export .blend files to .stl with scale"
+authors = [{ name = "Koziołek", email = "bjkuczynski@gmail.com" }]
+dependencies = [
+    "bpy"
+]
+readme = "README.md"
+
+[project.scripts]
+blend2stl = "blend2stl.__main__:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

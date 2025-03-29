@@ -1,0 +1,6 @@
+dagster==1.10.7
+dagster-sling==0.26.7
+dagster-dlt==0.26.7
+
+[test]
+duckdb

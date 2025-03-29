@@ -1,0 +1,2 @@
+[console_scripts]
+pycantoether = pycantoether.server:main

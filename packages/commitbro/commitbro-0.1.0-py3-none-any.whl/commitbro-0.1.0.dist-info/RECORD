@@ -1,0 +1,9 @@
+commitbro/__init__.py,sha256=vZGUo2ZZj5B6XM-3ftT2cB__fQWYTLh7FkIn2MJTD5M,60
+commitbro/cli.py,sha256=ZzueQbgdOCmHcEsneuTwtbCu6nlnS3zBp7hOPi208Gg,1318
+commitbro/core.py,sha256=J3zdm0k1jfA8SmVdsxh_Y-qc9pv3_sG3WRSFuOl0ENI,1350
+commitbro/setup_config.py,sha256=BOe3LMbr7d0rrPLMzuzNe52v54i0IQyqdsMPD5g4oDc,2045
+commitbro/train.py,sha256=CQcXJLCVLmq6lyx9816zNUMmpph6hY8C_RRXw2jP9dI,2541
+commitbro-0.1.0.dist-info/METADATA,sha256=ANqhAiVD_9LcjwSd6ak1ab8B8pelhfnRvWomz4IKwdM,4836
+commitbro-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+commitbro-0.1.0.dist-info/entry_points.txt,sha256=9qKibVJkaJUYOwyfiDU8dCshi0JHP__mP1qoDJZC7_0,135
+commitbro-0.1.0.dist-info/RECORD,,

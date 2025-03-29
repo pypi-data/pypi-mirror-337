@@ -1,0 +1,4 @@
+[console_scripts]
+commitbro = commitbro.cli:main
+commitbro-setup = commitbro.setup_config:setup
+commitbro-train = commitbro.train:main

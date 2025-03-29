@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mydotenv/.env
+mydotenv/__init__.py
+mydotenv/__init__.pyi
+mydotenv/config.py
+mydotenv/symlink.py
+mydotenv.egg-info/PKG-INFO
+mydotenv.egg-info/SOURCES.txt
+mydotenv.egg-info/dependency_links.txt
+mydotenv.egg-info/entry_points.txt
+mydotenv.egg-info/requires.txt
+mydotenv.egg-info/top_level.txt

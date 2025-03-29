@@ -1,0 +1,85 @@
+# CodeAnalyzer Pro 🔍 | AI-Powered Code Security Analysis
+
+[![PyPI Version](https://img.shields.io/pypi/v/code-analyzer-b.svg)](https://pypi.org/project/code-analyzer-b/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/code-analyzer-b.svg)](https://pypi.org/project/code-analyzer-b/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+**CodeAnalyzer Pro** is an enterprise-grade static analysis tool that combines AI-powered security scanning with traditional SAST techniques to identify vulnerabilities, code smells, and compliance issues in software repositories.
+
+```bash
+pip install code-analyzer-b
+```
+
+## 🚀 Features
+
+- **AI-Powered Analysis** - DeepSeek integration for contextual vulnerability detection
+- **Multi-Language Support** - Python, JavaScript, Java, C/C++, Go, Rust, and more
+- **Smart Reporting** - CLI, HTML, Markdown, and JSON output formats
+- **CI/CD Ready** - Easy integration with GitHub Actions and other pipelines
+- **Enterprise Security** - Zero data retention, encrypted communications
+
+## 📦 Installation
+
+```bash
+# Install from PyPI
+pip install code-analyzer-b
+
+# Verify installation
+code_analyzer --version
+```
+
+## 🛠 Basic Usage
+
+### Initial Setup
+```bash
+code_analyzer setup
+🔑 Enter your DeepSeek API key: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### Analyze Repository
+```bash
+code_analyzer analyze https://github.com/yourusername/repo
+
+code_analyzer analyze https://github.com/yourusername/repo --output report.html
+```
+
+### Sample Output
+```text
+✅ Configuration saved to ~/.code_analyzer/config.ini
+🔍 Analyzing: https://github.com/yourusername/repo
+📦 Repository cloned (142 files, 2.8MB)
+🛡️ Found 3 critical issues, 7 warnings
+📊 Generated HTML report: report.html
+```
+
+### Configuration Options
+| Environment Variable     | Default | Description                |
+|--------------------------|---------|----------------------------|
+| `DEEPSEEK_API_KEY`       | -       | Required API key           |
+| `MAX_FILE_SIZE`          | 5MB     | File size limit            |
+| `ANALYSIS_TIMEOUT`       | 30s     | Per-file timeout           |
+
+## 🌐 Supported Languages
+
+| Language       | Extensions           | Security Checks               |
+|----------------|----------------------|--------------------------------|
+| Python         | `.py`                | 38 checks incl. SQLi, XSS     |
+| JavaScript/TS  | `.js`, `.ts`         | 45 checks incl. XSS, CSRF     |
+| Java           | `.java`              | 32 checks incl. deserialization |
+| C/C++          | `.c`, `.cpp`         | 41 checks incl. buffer overflows |
+| Go             | `.go`                | 28 checks incl. race conditions |
+| Rust           | `.rs`                | 25 checks incl. unsafe code   |
+
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contribution Guidelines](CONTRIBUTING.md) for:
+- Feature requests
+- Bug reports
+- Documentation improvements
+- Code contributions
+
+## 📜 License
+
+MIT Licensed - See [LICENSE](LICENSE) for full text
+

@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/laywill/gimmie/refs/heads/main/README.md
+https://raw.githubusercontent.com/laywill/gimmie/refs/heads/main/LICENSE
+https://williamlay.co.uk/not_found.txt

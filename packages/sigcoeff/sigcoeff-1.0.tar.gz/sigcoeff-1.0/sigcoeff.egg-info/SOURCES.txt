@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sigcoeff/__init__.py
+sigcoeff/cuda_backend.py
+sigcoeff/cython_backend.c
+sigcoeff/sigcoeff.py
+sigcoeff.egg-info/PKG-INFO
+sigcoeff.egg-info/SOURCES.txt
+sigcoeff.egg-info/dependency_links.txt
+sigcoeff.egg-info/requires.txt
+sigcoeff.egg-info/top_level.txt

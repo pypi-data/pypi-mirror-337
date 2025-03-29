@@ -1,0 +1,146 @@
+Metadata-Version: 2.4
+Name: quick-scheduler
+Version: 1.0.5
+Summary: A quick task scheduling library
+Author-email: Yes DrX <yes.drx@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/YesDrX/QuickScheduler
+Project-URL: Bug Tracker, https://github.com/YesDrX/QuickScheduler/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: psutil>=5.9.4
+Requires-Dist: pathvalidate>=3.2.3
+Requires-Dist: pytz>=2023.3
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: tzlocal
+Dynamic: license-file
+
+# Quick Scheduler
+
+A Python-based task scheduler for running automated tasks efficiently. It provides a flexible and user-friendly way to schedule and manage tasks through both YAML configuration and programmatic API.
+
+## Features
+
+- Task scheduling with multiple trigger types (daily, interval)
+- YAML-based task configuration
+- Programmatic task creation through Python API
+- Web-based interface for task management
+- Real-time task monitoring and logging
+- System resource monitoring
+- Timezone support
+- Calendar-based scheduling
+
+## Installation
+
+```bash
+git clone https://github.com/YesDrX/QuickScheduler.git
+cd QuickScheduler
+pip install -r requirements.txt
+pip install .
+```
+
+or 
+```bash
+pip install quick-scheduler
+```
+
+## Usage
+
+Quick Scheduler can be configured using YAML files or programmatically through Python code. Here's a basic example:
+
+```bash
+./run.sh python ./examples/main.py
+```
+
+This will start the scheduler with example tasks defined in `examples/tasks/` directory. The web interface will be available for task management.
+
+You can define tasks in YAML format:
+
+```yaml
+name: Service Health Check
+description: Monitors critical services and endpoints
+schedule_type: interval
+schedule_config:
+  start_time: 9:00
+  end_time: 17:00
+  interval: 60
+  timezone: America/New_York
+command: curl -f http://localhost:8000/health
+```
+
+Or create tasks programmatically:
+
+```python
+from quickScheduler.backend.models import TaskModel, createTaskModel
+from quickScheduler.utils.triggers import TriggerType
+
+task1 = createTaskModel(
+    name="Memory Monitor",
+    description="Monitor system memory usage",
+    schedule_type=TriggerType.DAILY,
+    schedule_config={
+        "run_time": "12:00",
+        "timezone": "America/New_York"
+    },
+    command="free -h"
+)
+
+"""
+A task could be a python callable
+"""
+def example_worker():
+    print("Hello World!")
+
+task2 = createTaskModel(
+            name="Job to fail",
+            description="Print 'Hello World!' to the console",
+            schedule_type=TriggerType.IMMEDIATE,
+            callable_func = example_worker
+        )
+
+
+from quickScheduler import QuickScheduler
+scheduler = QuickScheduler(
+    config_file = PATH_TO_YAML_CONFIG_FILE # see examples/config.yml
+    tasks=[task1, task2]
+)
+scheduler.run()
+```
+
+## Screenshots
+![Main Page](examples/images/main_page.png)
+![Tasks Page](examples/images/tasks.png)
+![Task Details Page](examples/images/task.png)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+This project was built with the help of [Trae AI Editor](https://www.trae.ai).

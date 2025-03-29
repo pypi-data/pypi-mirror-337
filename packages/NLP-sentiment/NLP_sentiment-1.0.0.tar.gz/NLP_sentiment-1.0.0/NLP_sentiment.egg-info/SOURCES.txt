@@ -1,0 +1,9 @@
+README.md
+setup.py
+NLP_sentiment.egg-info/PKG-INFO
+NLP_sentiment.egg-info/SOURCES.txt
+NLP_sentiment.egg-info/dependency_links.txt
+NLP_sentiment.egg-info/requires.txt
+NLP_sentiment.egg-info/top_level.txt
+nlp_sentiment/__init__.py
+nlp_sentiment/main.py

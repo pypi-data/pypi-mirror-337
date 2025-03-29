@@ -1,0 +1,13 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "Configs: JSON-Schema",
+    "additionalProperties": true,
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "title": "The json schema for this file."
+        }
+    }
+}

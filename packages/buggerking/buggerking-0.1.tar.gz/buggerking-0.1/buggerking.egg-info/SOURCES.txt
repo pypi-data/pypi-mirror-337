@@ -1,0 +1,9 @@
+README.md
+setup.py
+buggerking/__init__.py
+buggerking/core.py
+buggerking.egg-info/PKG-INFO
+buggerking.egg-info/SOURCES.txt
+buggerking.egg-info/dependency_links.txt
+buggerking.egg-info/not-zip-safe
+buggerking.egg-info/top_level.txt

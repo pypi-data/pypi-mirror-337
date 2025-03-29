@@ -1,0 +1,45 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tamilocrx"
+version = "0.1.0"
+description = "Tamil OCR engine using PARSeq and CRAFT"
+readme = "README.md"
+authors = [{ name = "Aro Barath Chandru B", email = "chandru2021007@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ocr", "tamilocr", "tamil ocr", "ocr engine", "indian ocr", "craft", "parseq"]
+dependencies = [
+    "torch>=2",
+    "torchvision>=0.15.1",
+    "Pillow>=10.0.0",
+    "opencv-python",
+    "numpy",
+    "gdown",
+    "pytorch-lightning==1.9.5",
+    "matplotlib",
+    "scikit-image",
+    "timm",
+    "gradio",
+    "pyyaml",
+    "requests"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/cyber-bytezz/tamilocrx"
+
+[project.scripts]
+tamilocrx = "tamilocrx.ocr:main"

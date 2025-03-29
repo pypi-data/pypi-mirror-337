@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+
+recursive-include tamilocrx/configs *
+recursive-include tamilocrx/craft_text_detector *
+recursive-include tamilocrx/strhub *

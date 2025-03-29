@@ -1,0 +1,26 @@
+# Deep learning core
+torch
+torchvision
+pytorch-lightning
+timm
+
+# Image processing
+opencv-python
+pillow
+scikit-image
+numpy
+
+# Model utils
+gdown
+tqdm
+requests
+
+# Web UI
+gradio
+
+# Logging/debugging
+matplotlib
+scipy
+
+# File handling
+pyyaml

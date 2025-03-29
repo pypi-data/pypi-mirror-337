@@ -1,0 +1,6 @@
+UPDATE orc_dwh.FileCatalog
+{% if file_status == 1 %}SET FileStatus = 1, lock_uuid = '{{ file_lock_uuid }}'
+WHERE FileStatus = 0 AND FilePath LIKE '{{ source_file_path_pattern }}' AND FileName LIKE '{{ source_file_name_pattern }}';
+{% elif file_status == 2 %}SET FileStatus = 2, Message = '{{ error_message | tojson }}'
+{% else %}SET FileStatus = 3{% endif %}
+{% if file_status in (2,3) %}WHERE ID = {{ file_id }};{% endif %}

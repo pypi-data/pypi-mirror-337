@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: airflow-provider-cloe
+Version: 20221202.13
+Summary: An Apache Airflow provider for CLOE
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: >3.10
+Requires-Dist: apache-airflow (>=2.3.0)
+Requires-Dist: apache-airflow-providers-odbc (>=3.2.1)
+Requires-Dist: apache-airflow-providers-microsoft-azure (>=5.0.0)
+Requires-Dist: apache-airflow-providers-snowflake (>=4.0.1)
+Requires-Dist: jinja2
+Requires-Dist: pyarrow (>=7.0.0)
+Requires-Dist: adlfs (>=2022.11.2)
+Requires-Dist: turbodbc (>=4.5.0)

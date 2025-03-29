@@ -1,0 +1,9 @@
+LICENSE.MD
+README.md
+setup.py
+pyapidocs.egg-info/PKG-INFO
+pyapidocs.egg-info/SOURCES.txt
+pyapidocs.egg-info/dependency_links.txt
+pyapidocs.egg-info/entry_points.txt
+pyapidocs.egg-info/requires.txt
+pyapidocs.egg-info/top_level.txt

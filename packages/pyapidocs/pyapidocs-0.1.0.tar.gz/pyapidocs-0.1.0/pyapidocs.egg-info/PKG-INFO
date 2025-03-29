@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: pyapidocs
+Version: 0.1.0
+Summary: A cli tool to generate api docs
+Home-page: https://github.com/ai-adam-dev/pydoc
+Author: ai-adam-dev
+License-File: LICENSE.MD
+Requires-Dist: click
+Requires-Dist: ollama
+Requires-Dist: pathspec
+Requires-Dist: yaspin
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

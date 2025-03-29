@@ -1,0 +1,5 @@
+setup.py
+livesession_oauth.egg-info/PKG-INFO
+livesession_oauth.egg-info/SOURCES.txt
+livesession_oauth.egg-info/dependency_links.txt
+livesession_oauth.egg-info/top_level.txt

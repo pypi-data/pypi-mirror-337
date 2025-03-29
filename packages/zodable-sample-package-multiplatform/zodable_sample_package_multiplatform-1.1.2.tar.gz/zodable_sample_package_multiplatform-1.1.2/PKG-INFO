@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: zodable-sample-package-multiplatform
+Version: 1.1.2
+Summary: Auto-generated Pydantic project
+Requires-Dist: annotated-types
+Requires-Dist: pydantic
+Requires-Dist: pydantic_core
+Requires-Dist: toml
+Requires-Dist: typing-inspection
+Requires-Dist: typing_extensions
+Requires-Dist: uuid

@@ -1,0 +1,16 @@
+wagtail_neuralyzer/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+wagtail_neuralyzer/action.py,sha256=VbbjHyCyUvo5WgQH-RIxnakeTcZUWDagEmm9s2qkz1E,3406
+wagtail_neuralyzer/apps.py,sha256=ZfYjftznORiIEXJQU3Gj_6RJuswrKRfYAM3ar6jEOPs,200
+wagtail_neuralyzer/menu_item.py,sha256=WXhIx0nR7Tg1dY3irv0vBrmK4w8AjVQm7S9ZiiCukAw,452
+wagtail_neuralyzer/views.py,sha256=MpwqGQhVZUkxsaVtO4NQJtdc0V3pHllY6VAMvq825Qg,6174
+wagtail_neuralyzer/wagtail_hooks.py,sha256=3rLZf4IBCgNjKt6VnMJjKBB3B8rKuLdviDE4sxrHZbw,414
+wagtail_neuralyzer/locale/fr/LC_MESSAGES/django.mo,sha256=4kvKE5fLmkiD6Amp2EHlKWcD8H7vHPjsNYjGVIYiqk0,1767
+wagtail_neuralyzer/locale/fr/LC_MESSAGES/django.po,sha256=W2p_39ieRN8O5nEPPtmJg5cFq-_tSBryxkav8eztwEU,3050
+wagtail_neuralyzer/templates/wagtailadmin/generic/confirm_neuralyze.html,sha256=wMi7CB3NQPpzqNpydTr-7yptuN1QQBI9dMnZwaHDyMU,1266
+wagtail_neuralyzer/templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/confirm_bulk_neuralyze.html,sha256=r3q2xzeFwrQtc1DbsxdrfKOBhyw4sq6Hh4VxdjgbODo,1603
+wagtail_neuralyzer/templates/wagtailadmin/wagtail_neuralyzer/bulk_actions/list_items_with_no_access.html,sha256=Y-8F4i-oiE6ao0XcSlCbVwwRejexIrcpL1FRzHf2O9s,166
+wagtail_neuralyzer-0.2.1.dist-info/licenses/LICENCE,sha256=56UTBx31jVhpbYapLi5W1BK7rIv74T6X872xXTsLKUc,1061
+wagtail_neuralyzer-0.2.1.dist-info/METADATA,sha256=-SeyS-qFxDmuozey23T032PffuvoJRRnWhXxQiF5G9w,2625
+wagtail_neuralyzer-0.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+wagtail_neuralyzer-0.2.1.dist-info/top_level.txt,sha256=2Eu9pK1WwY5Rt2C9uAZqhel0_Z1h0IEULLn7Q-wI94I,19
+wagtail_neuralyzer-0.2.1.dist-info/RECORD,,

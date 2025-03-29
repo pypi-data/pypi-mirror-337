@@ -1,0 +1,70 @@
+[project]
+name = "stactools-glad-global-forest-change"
+version = "0.1.2"
+description = "stactools package for the GLAD Global Forest Change dataset"
+readme = "README.md"
+authors = [{ name = "Henry Rodman", email = "henry@developmentseed.org" }]
+maintainers = [{ name = "Henry Rodman", email = "henry@developmentseed.org" }]
+keywords = ["stactools", "pystac", "catalog", "STAC"]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "rasterio",
+    "parse>=1.20.2",
+    "pystac>=1.11.0,<2.0.0",
+    "rio-stac>=0.10.0",
+    "stactools>=0.5.0",
+    "semver>=3.0.4",
+]
+
+[dependency-groups]
+dev = [
+    "codespell~=2.3",
+    "mypy~=1.10",
+    "pre-commit~=4.0",
+    "pytest-cov~=6.0",
+    "pytest~=8.2",
+    "requests~=2.32",
+    "ruff==0.8.3",
+    "ipython>=8.18.1",
+    "jupyterlab>=4.3.5",
+]
+docs = ["ipykernel~=6.29", "jinja2~=3.1"]
+
+[project.urls]
+Github = "https://github.com/stactools-packages/glad-global-forest-change"
+Issues = "https://github.com/stactools-packages/glad-global-forest-change/issues"
+
+[project.optional-dependencies]
+cogs = [
+    "boto3>=1.37.1",
+    "httpx>=0.28.1",
+    "obstore>=0.4.0",
+    "rio-cogeo>=5.4.1",
+    "tqdm>=4.67.1",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+explicit_package_bases = true
+namespace_packages = true
+show_error_codes = true
+strict = true
+mypy_path = "src"
+
+[tool.ruff]
+lint.select = ["E", "F", "I"]

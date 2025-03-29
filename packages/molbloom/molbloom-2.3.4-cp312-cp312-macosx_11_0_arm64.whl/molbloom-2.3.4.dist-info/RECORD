@@ -1,0 +1,10 @@
+molbloom/version.py,sha256=FQdlrQHDEY86aDbLLgF2S4vLl88q-B3VGjK7Q5ZhSh0,23
+molbloom/__init__.py,sha256=SrDU3zneQycX7Z75IvFmvOXGRGt62VNNqvbigZLjN9c,4055
+molbloom/common.py,sha256=yVddTL-G-xHERpp2bbw0xMjQDd6HI4E4KTOlIOv7KWM,8197
+molbloom/bloom.cpython-312-darwin.so,sha256=ZX93uUlhyBUfsBumo0sJHwboEOBdaLdJcU69AuqcGdM,103096
+molbloom/data/zinc-instock-mini.bloom,sha256=mVtpBTMcZsQQs9f9nhkSsO5mQvtm3WmGU-fqmjYBN9I,10485778
+molbloom-2.3.4.dist-info/RECORD,,
+molbloom-2.3.4.dist-info/WHEEL,sha256=KHOVnc2vWrx65VXrDDCaawSLNQgekLqYoXzctjltp_U,136
+molbloom-2.3.4.dist-info/top_level.txt,sha256=8a2FHMeKrmb4K6uhxJUbJEdq-tdkzzpau_wXTdhTl-0,9
+molbloom-2.3.4.dist-info/METADATA,sha256=B70EKH9EHMVLgIEfw3pB5oPvmp6Rc0SQQYv0_FvsHV8,3936
+molbloom-2.3.4.dist-info/licenses/LICENSE,sha256=HshyiRa0wzxxYNTffnRoLrJFVMlPa0Ck0onGKPZ2Q7Q,1069

@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-template = mcp_server_template.cli:main

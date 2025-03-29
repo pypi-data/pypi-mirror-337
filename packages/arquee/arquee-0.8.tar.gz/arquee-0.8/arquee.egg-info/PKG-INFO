@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: arquee
+Version: 0.8
+Summary: Add your description here
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: dask[dataframe]>=2024.8.0
+Requires-Dist: flask>=3.1.0
+Requires-Dist: pymssql>=2.3.2
+Requires-Dist: pyodbc>=5.2.0
+Requires-Dist: pyspark>=3.5.4
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sqlalchemy>=2.0.38
+Requires-Dist: vaex>=4.17.0
+Requires-Dist: waitress>=3.0.2
+
+# arquee
+# arquee

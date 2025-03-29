@@ -1,0 +1,5 @@
+[console_scripts]
+arquee-clean-logs = arquee.cli:clean_logs
+arquee-create-datalake = arquee.utils:create_datalake
+arquee-init-server = arquee.cli:start_server
+arquee-init-utils = arquee.cli:set_environment_utils

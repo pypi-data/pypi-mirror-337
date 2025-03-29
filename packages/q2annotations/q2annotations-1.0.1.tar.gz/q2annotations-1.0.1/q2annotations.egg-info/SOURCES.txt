@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+q2annotations/__init__.py
+q2annotations/container_manipulations.py
+q2annotations/local_storage.py
+q2annotations/upload_images.py
+q2annotations.egg-info/PKG-INFO
+q2annotations.egg-info/SOURCES.txt
+q2annotations.egg-info/dependency_links.txt
+q2annotations.egg-info/requires.txt
+q2annotations.egg-info/top_level.txt

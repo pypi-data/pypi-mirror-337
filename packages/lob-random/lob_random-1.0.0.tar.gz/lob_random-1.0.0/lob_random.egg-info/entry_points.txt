@@ -1,0 +1,2 @@
+[console_scripts]
+lob-random = lob_random.lob:main

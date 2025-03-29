@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: deformops
+Version: 1.0.0
+Summary: A library for deformable sampling operations for PyTorch.
+Author-email: Kurt Stolle <kurt@khws.io>
+Keywords: perception,computer vision,deep learning,object detection,instance segmentation,semantic segmentation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: torch>=2.6
+Requires-Dist: ninja

@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: xivuniversalis
+Version: 0.1.0a1
+Summary: An unofficial asynchronous Python library for the Universalis API.
+Project-URL: Homepage, https://github.com/RikuPy/xivuniversalis
+Project-URL: Issues, https://github.com/RikuPy/xivuniversalis/issues
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Requires-Dist: aiohttp>=3.11.14

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0", "setuptools", "wheel>=0.36.2", "tomli>=1.1.0 ; python_version<'3.10'", "setuptools-rust>=1.4.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protectionstnd"
+version = "0.1.4"
+authors = [
+    {name = "Alejandro Martinez", email = "aegloszenit@protonmail.com"}
+]
+description = "Security Protections, from sql injection to country specific protections"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+]
+license = "MIT OR Apache-2.0"
+
+readme = "README.md"
+dependencies = ["tomli>=1.1.0 ; python_version<'3.10'"]
+
+[metadata]
+name = "protectionstnd"
+version = "0.1.4"
+description = "Security Protections, from sql injection to country specific protections"
+authors = [{name = "Alejandro Martinez", email = "aegloszenit@protonmail.com"}]
+
+
+[tool.maturin]
+binding = "bin"
+features = ["pyo3/extension-module"]

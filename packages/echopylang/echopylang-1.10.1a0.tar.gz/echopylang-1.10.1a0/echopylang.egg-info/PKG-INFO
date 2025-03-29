@@ -1,0 +1,92 @@
+Metadata-Version: 2.2
+Name: echopylang
+Version: 1.10.1a0
+Summary: Язык программирования внутри Python. Встраивается в скрипты Python и при помощи этой библиотеки можно программировать на этом языке внутри Python IDE.
+Home-page: https://github.com/yourusername/echopylang
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Keywords: embedded language scripting
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# EchoPyLang - что это?
+Echopylang - это библиотека которая позволяет встроить типо язык программирования под названием Echo. Позволяет программировать скрипты echo внутри Python IDE и выполняются эти скрипты при помощи интерпретатора Python что позволяет сохранять эти скрипты в .py файлах
+
+# Установка
+Установить библиотеку можно этой командой:
+pip install echopylang
+
+# Импорты
+from echopylang import var - для переменных
+from echopylang import echoprint - для вывода данных 
+from echopylang import ECHOMATH - для математических операций
+
+# Примеры использования 
+
+Взаимодействие с переменными:
+var.username = "Alex"
+var.balance = 100.50
+var.is_active = True
+
+var.balance += 20.25
+
+echoprint(f"User: {var.username}, Balance: ${var.balance}")
+
+Описание:
+var.username = "Alex"
+var.balance = 100.50
+var.is_active = True - Задаёт нужные значения переменных
+var.balance += 20.25 - Добавляет 20.25 в значение
+echoprint(f"User: {var.username}, Balance: ${var.balance}") - Выводит значения переменных
+
+Математические операции:
+ECHOMATH.mathoperation = "2 * (3 + 4)"  
+
+var.x = 5
+var.y = 3
+ECHOMATH.mathoperation = "var.x ** var.y" 
+
+ECHOMATH.mathoperation = "math.sqrt(var.x)"  
+
+Описание: 
+ECHOMATH.mathoperation = "2 * (3 + 4)"  - Простое вычисление 
+var.x = 5
+var.y = 3
+ECHOMATH.mathoperation = "var.x ** var.y" - Вычисление с переменными
+ECHOMATH.mathoperation = "math.sqrt(var.x)" - Выведет два и степень
+
+Вывод данных:
+echoprint("Hello World!") 
+
+echoprint(f"Remaining balance: ${var.balance:.2f}")
+
+echoprint("""
+Transaction Details:
+- Amount: $20.25
+- New Balance: ${0}
+""".format(var.balance))
+
+Описание:
+echoprint("Hello World!") - Простой вывод
+echoprint(f"Remaining balance: ${var.balance:.2f}") - Вывод с переменными
+echoprint("""
+Transaction Details:
+- Amount: $20.25
+- New Balance: ${0}
+""".format(var.balance)) - Многострочный вывод 
+
+Это пока что все функции библиотеки но с обновлениями библиотеки этой функции будут пополнятся!

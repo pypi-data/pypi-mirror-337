@@ -1,0 +1,478 @@
+Metadata-Version: 2.4
+Name: formless
+Version: 0.9.0
+Summary: Handwritten + image OCR.
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: accelerate>=1.2.1
+Requires-Dist: alembic>=1.14.0
+Requires-Dist: autoawq>=0.2.7.post3
+Requires-Dist: bitsandbytes>=0.45.1
+Requires-Dist: blobfile>=3.0.0
+Requires-Dist: boto>=2.49.0
+Requires-Dist: datasketch>=1.6.5
+Requires-Dist: deepspeed>=0.16.3
+Requires-Dist: editables>=0.5
+Requires-Dist: fastapi>=0.115.6
+Requires-Dist: flash-attn>=2.7.4.post1
+Requires-Dist: hatchling>=1.22.5
+Requires-Dist: hf-transfer>=0.1.8
+Requires-Dist: huggingface-hub[hf-transfer]>=0.27.1
+Requires-Dist: imagehash>=4.3.2
+Requires-Dist: jiwer>=3.1.0
+Requires-Dist: lark-parser>=0.12.0
+Requires-Dist: modal>=0.64.178
+Requires-Dist: more-itertools>=10.6.0
+Requires-Dist: ninja>=1.11.1
+Requires-Dist: outlines>=0.1.11
+Requires-Dist: packaging>=23.1
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pillow>=10.4.0
+Requires-Dist: pre-commit>=4.0.1
+Requires-Dist: psycopg2-binary>=2.9.10
+Requires-Dist: psycopg2>=2.9.10
+Requires-Dist: pycairo>=1.27.0
+Requires-Dist: pydantic>=2.10.4
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: python-fasthtml>=0.12.1
+Requires-Dist: python-magic>=0.4.27
+Requires-Dist: requests>=2.32.3
+Requires-Dist: s3fs>=2024.9.0
+Requires-Dist: safetensors>=0.5.1
+Requires-Dist: sentencepiece>=0.2.0
+Requires-Dist: simpleicons>=7.21.0
+Requires-Dist: sqlite-minutils>=4.0.3
+Requires-Dist: sqlmodel>=0.0.22
+Requires-Dist: starlette>=0.46.1
+Requires-Dist: stripe>=11.5.0
+Requires-Dist: term-image>=0.7.2
+Requires-Dist: tiktoken>=0.7.0
+Requires-Dist: timm>=1.0.14
+Requires-Dist: torch>=2.5.1
+Requires-Dist: torchao>=0.7.0
+Requires-Dist: torchvision>=0.20.1
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: transformers>=4.48.2
+Requires-Dist: validators>=0.34.0
+Requires-Dist: vllm>=0.7.1
+Requires-Dist: wandb>=0.19.4
+Requires-Dist: wheel>=0.45.1
+Description-Content-Type: text/markdown
+
+# formless
+
+A hard handwriting image OCR system via a public API, website, and PyPI package, utilizing a fine-tuned Qwen2.5-VL-7B-Instruct. Utilizes FineWeb-inspired data quality filtering and stratified deduplication alongside SFT and DPO on worst-performing samples to reduce character error rate by 8.18% compared to the base model.
+
+## Usage
+
+Use the web app:
+
+```bash
+https://bit.ly/formless-fe
+```
+
+Or hit the API:
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"image_url": "<image-url>"}' https://andrewhinh--formless-api-modal-get.modal.run
+```
+
+Or use the CLI:
+
+```bash
+uv run formless -i <image-url> [-v]
+or
+uv run formless -p <local-image-path> [-v]
+```
+
+Or use in Python:
+
+```python
+from formless import scan
+scan(image_url="<image-url>", verbose=1)
+scan(image_path="<local-image-path>", verbose=1)
+```
+
+## Training results
+
+Base model:
+
+```bash
+train CER: 0.9216
+valid CER: 0.9276
+test CER: 0.9430
+```
+
+Base quant model:
+
+```bash
+train CER: 0.9192
+valid CER: 0.9232
+test CER: 0.9452
+```
+
+SFT model:
+
+```bash
+train CER: 0.7965
+valid CER: 0.8601
+test CER: 0.8659
+```
+
+SFT quant model:
+
+```bash
+train CER: 0.8380
+valid CER: 1.0214
+test CER: 0.8228
+```
+
+DPO model:
+
+```bash
+train CER: 0.7827
+valid CER: 0.8518
+test CER: 0.9757
+```
+
+DPO quant model:
+
+```bash
+train CER: 0.7979
+valid CER: 1.0352
+test CER: 0.9868
+```
+
+## Development
+
+### Set Up
+
+Set up the environment:
+
+```bash
+make setup
+```
+
+Create a `.env` (+ `.env.dev`):
+
+```bash
+HF_TOKEN=
+OPENAI_API_KEY=
+
+POSTGRES_URL=
+POSTGRES_PRISMA_URL=
+SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_URL=
+POSTGRES_URL_NON_POOLING=
+SUPABASE_JWT_SECRET=
+POSTGRES_USER=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+POSTGRES_PASSWORD=
+POSTGRES_DATABASE=
+SUPABASE_SERVICE_ROLE_KEY=
+POSTGRES_HOST=
+SUPABASE_ANON_KEY=
+
+STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+DOMAIN=
+API_URL=
+
+WANDB_API_KEY=
+WANDB_PROJECT=
+WANDB_ENTITY=
+```
+
+### Useful Tips
+
+Migrate db (do before running the frontend/api):
+
+```bash
+make migrate ENV=<env> MSG=<message>
+```
+
+Visit `http://localhost:4040/` to see the Spark UI when running `training/etl.py`.
+
+### Repository Structure
+
+```bash
+.
+├── api                 # API.
+├── db                  # database.
+├── frontend            # frontend.
+├── src/formless        # python bindings.
+├── training            # training.
+```
+
+### API
+
+Test the API with an example input:
+
+```bash
+modal run api/app.py
+```
+
+Serve the API locally:
+
+```bash
+uv run api/app.py
+```
+
+Serve the API on Modal:
+
+```bash
+modal serve api/app.py
+```
+
+Deploy on dev:
+
+```bash
+modal deploy api/app.py
+```
+
+Deploy on main:
+
+```bash
+modal deploy --env=main api/app.py
+```
+
+### Frontend
+
+Serve the web app locally:
+
+```bash
+uv run frontend/app.py
+stripe listen --forward-to <url>/webhook
+# update API_URL, STRIPE_WEBHOOK_SECRET, and DOMAIN in .env.dev
+```
+
+Serve the web app on Modal:
+
+```bash
+modal serve frontend/app.py
+stripe listen --forward-to <url>/webhook
+# update API_URL, STRIPE_WEBHOOK_SECRET, and DOMAIN in .env.dev
+```
+
+Deploy on dev:
+
+```bash
+modal deploy frontend/app.py
+# update API_URL, STRIPE_WEBHOOK_SECRET, and DOMAIN in .env.dev
+```
+
+Deploy on main:
+
+```bash
+modal deploy --env=main frontend/app.py
+```
+
+### PyPI
+
+Run the package:
+
+```bash
+uv run formless -v
+# update API_URL in src/formless/__init__.py
+```
+
+Build the package:
+
+```bash
+uvx --from build pyproject-build --installer uv
+```
+
+Upload the package:
+
+```bash
+uvx twine upload dist/*
+```
+
+Test the uploaded package:
+
+```bash
+uv run --with formless --no-project -- formless -v
+```
+
+### Training
+
+Download data:
+
+```bash
+make data
+```
+
+Optionally upload to a Modal volume:
+
+```bash
+make upload
+```
+
+Label subset of data to train writing quality classifier:
+
+```bash
+uv run training/etl.py --cls
+```
+
+or
+
+```bash
+modal run training/etl.py --cls
+```
+
+Run classifier training:
+
+```bash
+uv run training/train.py --cls
+```
+
+or
+
+```bash
+modal run training/train.py --cls
+```
+
+Use trained classifier to filter train/val/test data to train VLM using SFT:
+
+```bash
+uv run training/etl.py --sft
+```
+
+or
+
+```bash
+modal run training/etl.py --sft
+```
+
+Eval base model:
+
+```bash
+uv run training/eval.py --base
+```
+
+or
+
+```bash
+modal run training/eval.py --base
+```
+
+Eval quantized base model:
+
+```bash
+uv run training/eval.py --base --quant
+```
+
+or
+
+```bash
+modal run training/eval.py --base --quant
+```
+
+Run SFT:
+
+```bash
+cd training && uv sync && cd LLaMA-Factory && uv pip install -e ".[torch,metrics]" && cd .. && FORCE_TORCHRUN=1 uv run train.py --sft && cd ..
+```
+
+or
+
+```bash
+modal run training/train.py --sft
+```
+
+Eval SFT model:
+
+```bash
+uv run training/eval.py --sft
+```
+
+or
+
+```bash
+modal run training/eval.py --sft
+```
+
+Quantize the SFT model:
+
+```bash
+uv run training/quantize.py --sft
+```
+
+or
+
+```bash
+modal run training/quantize.py --sft
+```
+
+Eval quantized SFT model:
+
+```bash
+uv run training/eval.py --sft --quant
+```
+
+or
+
+```bash
+modal run training/eval.py --sft --quant
+```
+
+Run trained VLM on train data and construct new dataset with only relabelled incorrect examples for DPO training:
+
+```bash
+uv run training/etl.py --dpo
+```
+
+or
+
+```bash
+modal run training/etl.py --dpo
+```
+
+Run DPO:
+
+```bash
+cd training && uv sync && cd LLaMA-Factory && uv pip install -e ".[torch,metrics]" && cd .. && FORCE_TORCHRUN=1 uv run train.py --dpo && cd ..
+```
+
+or
+
+```bash
+modal run training/train.py --dpo
+```
+
+Eval DPO model:
+
+```bash
+uv run training/eval.py --dpo
+```
+
+or
+
+```bash
+modal run training/eval.py --dpo
+```
+
+Quantize the DPO model:
+
+```bash
+uv run training/quantize.py --dpo
+```
+
+or
+
+```bash
+modal run training/quantize.py --dpo
+```
+
+Eval quantized DPO model:
+
+```bash
+uv run training/eval.py --dpo --quant
+```
+
+or
+
+```bash
+modal run training/eval.py --dpo --quant
+```

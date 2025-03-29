@@ -1,0 +1,10 @@
+python_frank_energie/__init__.py,sha256=NrEDQjPE5DaBn6dYGZvex_FPxr-JzIowC0KbGF34Oic,446
+python_frank_energie/authentication.py,sha256=X5KSr83iYc1v5dpxtUOiXII6Pdj6vFCj3Qq9YGFt9fE,2823
+python_frank_energie/exceptions.py,sha256=arL7Xh-dAr0zFkeiNQsbqCjBQ2FPQfAxuXziPmNaovQ,1031
+python_frank_energie/frank_energie.py,sha256=48BQDkgryaJDOF-Hd61YhOOqWLkZhawFIlrXcYoqp-U,48992
+python_frank_energie/models.py,sha256=uokDC4wLbECB72L1v0gHudtk7Qd1Ra9HjBq02G6qVJw,104976
+python_frank_energie/time_periods.py,sha256=ErFySsJzWUFpHDui-PwG3TIWgy7Uc_fD4iUUJFRIjGk,3014
+python_frank_energie-2025.3.28b1.dist-info/LICENSE,sha256=omXTJaxdkJDs_9vgGYwVI3wjSc8W-ECd5-Na48W3ab8,11346
+python_frank_energie-2025.3.28b1.dist-info/METADATA,sha256=66zMX4tBMCgf6__alA_0nhN7qDBuAE9lZho0E_EZCeU,2512
+python_frank_energie-2025.3.28b1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+python_frank_energie-2025.3.28b1.dist-info/RECORD,,

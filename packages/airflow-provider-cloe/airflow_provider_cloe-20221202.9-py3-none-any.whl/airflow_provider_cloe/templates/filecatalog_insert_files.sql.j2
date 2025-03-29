@@ -1,0 +1,15 @@
+INSERT INTO orc_dwh.FileCatalog
+(FilePath, FileName, FileStatus, FileParts, FK_DatasourceInfo_ID, FK_DatasetType_ID, FK_CN_FileStorage_ID, SequenceColumnName, LastSequence, Message)
+VALUES
+{% for file_attr in sink_file_names -%}
+({{ "'" ~ file_attr.sink_folder_path ~ "'" if file_attr.sink_folder_path else "NULL" }},
+{{ "'" ~ file_attr.sink_file_name ~ "'" if file_attr.sink_file_name else "NULL" }},
+{{ file_status if file_status else "0" }},
+{{ file_attr.sink_file_parts if file_attr.sink_file_parts else "NULL" }},
+{{ "'" ~ datasourceinfo_id ~ "'" if datasourceinfo_id else "NULL" }},
+{{ "'" ~ datasettype_id ~ "'" if datasettype_id else "NULL" }},
+{{ "'" ~ sink_conn_id ~ "'" if sink_conn_id else "NULL" }},
+NULL,
+NULL,
+NULL
+){{ "," if not loop.last else ";"}}{% endfor %}

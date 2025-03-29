@@ -1,0 +1,1 @@
+COPY INTO {{ sink_table }} FROM @orc_dwh.{{ stage_name }}{% if not use_pattern %}{{ file_path_full }}{% else %} pattern='{{ file_path_full }}.*'{% endif %} file_format = (format_name = orc_dwh.{{ source_file_format }})

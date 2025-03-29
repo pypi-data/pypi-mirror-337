@@ -1,0 +1,6 @@
+{% if file_status == 1 %}SELECT ID, FilePath, FileName, FileParts
+{% elif file_status in (2, 3) %}SELECT CONCAT(FilePath, FileName) AS name
+{% endif %}FROM orc_dwh.FileCatalog
+{% if file_status == 1 %}WHERE FileStatus = 1 AND lock_uuid = '{{ file_lock_uuid }}'
+ORDER BY ID;
+{% elif file_status in (2, 3) %}WHERE FileStatus IN (2, 3) AND FilePath LIKE '{{ source_file_path_pattern }}' AND FileName LIKE '{{ source_file_name_pattern }}';{% endif %}

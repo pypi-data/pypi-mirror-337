@@ -1,0 +1,10 @@
+numerai_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerai_tools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerai_tools/scoring.py,sha256=CI6NDcDQcGd5rBNd6ZxRL1O_N-guUa9X04ymSezqCNw,18610
+numerai_tools/signals.py,sha256=QKFmBQhl7cURp6eTptWXptzouHvn8N2NewivgX4PVTU,1716
+numerai_tools/submissions.py,sha256=84nClK3PRpplzKSCMq8eChgbxm5v-kyLVStKtKvtXa0,6414
+numerai_tools-0.2.5.dist-info/LICENSE,sha256=5GaPaG8D6JPMIFh32ux8ZcURhf9mUgjcMxriwBgPdZY,1064
+numerai_tools-0.2.5.dist-info/METADATA,sha256=qmHZWHTJhiZD9T8i6YWdbIIUhI4bjBmyqbKjIKBuy7E,1007
+numerai_tools-0.2.5.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+numerai_tools-0.2.5.dist-info/top_level.txt,sha256=QKdtgNVARMZdDuypEmRzAhai8XPzCHfK_xH4nQZ46gU,14
+numerai_tools-0.2.5.dist-info/RECORD,,

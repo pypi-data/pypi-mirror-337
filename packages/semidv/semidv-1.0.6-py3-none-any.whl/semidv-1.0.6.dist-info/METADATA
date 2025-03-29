@@ -1,0 +1,74 @@
+Metadata-Version: 2.4
+Name: semidv
+Version: 1.0.6
+Summary: This is SEMIDV: a semiconductor device simulator
+Author-email: Chien-Ting Tung <cttung@berkeley.edu>
+License: MIT License
+        
+        Copyright (c) 2025 Chien-Ting Tung
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: cython
+Requires-Dist: fdint
+Dynamic: license-file
+
+# SEMIDV
+SEMIDV is a semiconductor device simulator that solves finite-difference 2D Poisson-Drift-Diffusion equations with quantum effects.
+
+## Installation
+
+Install SEMIDV using pip:
+
+```bash
+pip install semidv
+```
+
+## Usage
+
+```python
+import semidv
+```
+
+For more details, please read the SEMIDV User Manual.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+Clone the repository:
+
+git clone https://github.com/chientingtung/SEMIDV.git
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+GitHub: github.com/chientingtung/SEMIDV
+
+Email: cttung@berkeley.edu

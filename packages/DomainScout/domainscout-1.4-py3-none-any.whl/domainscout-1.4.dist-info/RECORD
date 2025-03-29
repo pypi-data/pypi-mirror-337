@@ -1,0 +1,12 @@
+domainscout/GUI.py,sha256=mLi2ixHxi3Fes5ivyTNS8EkF6z7oNU60CeBl7rdHr0M,44280
+domainscout/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domainscout/appicon.ico,sha256=RnogqWKZAT7srJjijZpm8NImrRedKsrqsyjUjbz0Eks,134449
+domainscout/export.py,sha256=lw_K7Qa66O6hgmF8QaMz7KrqRG3aegtd5vERSETeqbY,2834
+domainscout/import.py,sha256=Mr-OShCN9qb4NHKz-6QJXrj--828XtyNrsmSnAUs7pU,3274
+domainscout/whoisQuery.py,sha256=l2OKGA9IbrWW7dKZbbgZ87ubzF4Gdzsdfi7g7gog8fk,3872
+domainscout-1.4.data/data/icons/appicon.ico,sha256=RnogqWKZAT7srJjijZpm8NImrRedKsrqsyjUjbz0Eks,134449
+domainscout-1.4.dist-info/METADATA,sha256=SXJMAdKks9pYwD8aSRDSX5m9xaCoYt2-Wfq2GYVJ5UE,1373
+domainscout-1.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+domainscout-1.4.dist-info/entry_points.txt,sha256=PLhC-2CWfMGh5FAkg6hpIiHsq3Br8uoEtEDvHn5i1ZA,53
+domainscout-1.4.dist-info/top_level.txt,sha256=fIf4a2OEMZmM_IvWm1OA7-iWC5Lz1NKUbz1GYqcxDVs,12
+domainscout-1.4.dist-info/RECORD,,

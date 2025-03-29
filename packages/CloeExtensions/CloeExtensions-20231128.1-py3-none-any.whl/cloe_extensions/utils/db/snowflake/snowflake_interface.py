@@ -1,0 +1,128 @@
+import logging
+from typing import Any
+
+import snowflake.connector
+
+logger = logging.getLogger(__name__)
+snf_logger = logging.getLogger("snowflake")
+snf_logger.setLevel(logging.WARNING)
+
+
+class SnowflakeInterface:
+    """Wraps Snowflake connector and adds
+    functionality to it.
+    """
+
+    def __init__(self, connection_uri_params: dict[str, str]) -> None:
+        self._snowflake_connection = snowflake.connector.connect(
+            **connection_uri_params, autocommit=True
+        )
+
+    def test_connections(self) -> None:
+        """Tests the connection.
+
+        Raises:
+            e: _description_
+        """
+        cur = self._snowflake_connection.cursor()
+        try:
+            cur.execute("SELECT current_version()")
+            cur.fetchone()
+        except Exception as error:
+            logger.error("Connection could not be established.")
+            raise error
+        finally:
+            cur.close()
+
+    def run_one_with_return(self, query: str) -> list[dict[str, str]]:
+        with self._snowflake_connection.cursor() as cur:
+            try:
+                cur.execute(query)
+            except Exception as e:
+                logger.error("There was an error executing the script.")
+                raise e
+            result = cur.fetchall()
+            column_names = [row[0] for row in cur.description]
+            result_w_names = [dict(zip(column_names, row)) for row in result]
+        return result_w_names
+
+    def _retrieve_query_queue(
+        self, query_queue: list[str], continue_on_error: bool = True
+    ) -> None:
+        """Retrieves status of all query ids in a queue list.
+
+        Args:
+            query_queue (list): _description_
+            continue_on_error (bool, optional): _description_. Defaults to True.
+
+        Raises:
+            error: _description_
+        """
+        for sfqid in query_queue:
+            try:
+                if self._snowflake_connection.is_still_running(
+                    self._snowflake_connection.get_query_status_throw_if_error(sfqid)
+                ):
+                    query_queue.append(sfqid)
+            except snowflake.connector.ProgrammingError as error:
+                logger.error("Programming Error after retrieval: %s", error)
+                if not continue_on_error:
+                    raise error
+
+    def run_many(self, queries: list[str], continue_on_error: bool = True) -> None:
+        """Execute multiple queries without return values.
+
+        Args:
+            queries (list[str]): _description_
+            continue_on_error (bool, optional): _description_. Defaults to True.
+
+        Raises:
+            error: _description_
+        """
+        query_queue: list[str] = []
+        with self._snowflake_connection.cursor() as cur:
+            for query in queries:
+                try:
+                    cur.execute_async(query)
+                    if cur.sfqid:
+                        query_queue.append(cur.sfqid)
+                except snowflake.connector.ProgrammingError as error:
+                    logger.error("Programming Error while executing: %s", error)
+                    raise error
+        self._retrieve_query_queue(query_queue, continue_on_error)
+
+    def run_many_with_return(
+        self, queries: dict[Any, str], continue_on_error: bool = True
+    ) -> dict[Any, list[dict[str, str]] | None]:
+        cur = self._snowflake_connection.cursor()
+        query_queue = []
+        query_results: dict[str, list[dict[str, str]] | None] = {}
+        for q_id, query in queries.items():
+            cur.execute_async(query)
+            query_queue.append({"q_id": q_id, "sfqid": cur.sfqid})
+        while query_queue:
+            query_info = query_queue.pop(0)
+            try:
+                if self._snowflake_connection.is_still_running(
+                    self._snowflake_connection.get_query_status_throw_if_error(
+                        query_info["sfqid"]
+                    )
+                ):
+                    query_queue.append(query_info)
+                else:
+                    cur.get_results_from_sfqid(query_info["sfqid"])
+                    result = cur.fetchall()
+                    column_names = [row[0] for row in cur.description]
+                    query_results[query_info["q_id"]] = [
+                        dict(zip(column_names, row)) for row in result
+                    ]
+            except snowflake.connector.ProgrammingError as e:
+                logger.error("Programming Error: %s", e)
+                if continue_on_error:
+                    query_results[query_info["q_id"]] = None
+                else:
+                    raise e
+        return query_results
+
+    def close(self) -> None:
+        self._snowflake_connection.close()

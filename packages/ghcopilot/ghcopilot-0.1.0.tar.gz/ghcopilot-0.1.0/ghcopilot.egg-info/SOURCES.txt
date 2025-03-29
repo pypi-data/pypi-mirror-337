@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ghcopilot/__init__.py
+ghcopilot/api.py
+ghcopilot/cli.py
+ghcopilot.egg-info/PKG-INFO
+ghcopilot.egg-info/SOURCES.txt
+ghcopilot.egg-info/dependency_links.txt
+ghcopilot.egg-info/entry_points.txt
+ghcopilot.egg-info/requires.txt
+ghcopilot.egg-info/top_level.txt
+tests/test_api.py
+tests/test_setup.py

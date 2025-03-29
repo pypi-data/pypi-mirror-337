@@ -1,0 +1,10 @@
+requests
+selenium
+rich
+inquirer
+
+[dev]
+pytest
+pytest-cov
+black
+flake8

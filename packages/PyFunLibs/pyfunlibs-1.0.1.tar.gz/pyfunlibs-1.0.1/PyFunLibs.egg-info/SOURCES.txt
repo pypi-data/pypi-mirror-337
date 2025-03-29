@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyFunLibs.egg-info/PKG-INFO
+PyFunLibs.egg-info/SOURCES.txt
+PyFunLibs.egg-info/dependency_links.txt
+PyFunLibs.egg-info/top_level.txt

@@ -1,0 +1,255 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vanguard-gp"
+dynamic = ["version"]
+description = "Various easy-to-use extensions for Gaussian process models and a framework for composition of extensions."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "gaussian-process",
+    "pytorch",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+license = {file = "LICENSE.md"}
+authors = [
+    {name = "GCHQ", email = "oss@gchq.gov.uk"},
+]
+dependencies = [
+    "bibtexparser>=1.1",  # 1.0 fails on import (?)
+    "gpytorch>=1.11",  # LinearOperator support added in 1.9;
+                       #   our SoftmaxLMC performance is improved in 1.9.1 (a unit test fails due to bad predictions
+                       #   on 1.9.0);
+                       #   one of our multitask tests fails on 1.10.
+    "kmedoids>=0.3.3",  # first version with prebuilt wheels; earlier versions require a rust toolchain to build
+    "kmedoids>=0.4; python_version>='3.11'",  # earlier versions don't have prebuilt wheels for python 3.11
+    "kmedoids>=0.4.4; python_version>='3.12'",  # earlier versions don't have prebuilt wheels for python 3.12
+    "kmedoids>=0.5.3; python_version>='3.13'",  # earlier versions don't have prebuilt wheels for python 3.13
+    "matplotlib>=3.8.4",  # first version to support numpy 2
+    "numpy>=2",  # modern versions of packages are incompatible with numpy<2
+    "numpy>=2.1.0; python_version>='3.13'",  # first version to support python 3.13
+    "pandas>=2",
+    "pandas>=2.2.3; python_version>='3.13'",  # earlier versions don't provide prebuilt wheels for python 3.13
+    "scikit-learn>=1.5.0",  # CVE-2024-5206 affects versions earlier than 1.5.0
+    "scikit-learn>=1.6.0; python_version>='3.13'",  # earlier versions don't provide prebuilt wheels for python 3.13
+    "scipy>=1.13",  # first version to support numpy 2
+    "scipy>=1.14.1; python_version>='3.13'",  # earlier versions don't provide prebuilt wheels for python 3.13
+    "torch>=2.6",  # earlier versions have issues in CI in lower-bound tests
+    "typing_extensions>=4.12",  # ParamSpec behaviour improved in 4.12
+    "urllib3>=2.0.4",  # BaseHttpResponse added to urllib3.__all__ in 2.0.4
+]
+
+[project.optional-dependencies]
+# These match the suffixes on the various requirements-*.txt files
+# Run tests
+test = [
+    "ipykernel>=6",  # for notebook tests
+    "nbconvert>=7",  # for notebook tests
+    "nbformat>=5",  # for notebook tests
+    "tqdm>=4",  # for notebook tests
+    "pytest-beartype>=0.1",
+    "pytest-cov>=5",
+    "pytest>=8.3.3",
+    "beartype>=0.19",
+]
+# Compile documentation
+doc = [
+    "furo>=2024",
+    "ipykernel>=6",
+    "ipython>=8",
+    "nbconvert>=7",
+    "nbconvert>=7.1; python_version>='3.11'",
+    "nbformat>=5",
+    "nbsphinx>=0.9",
+    "pillow>=10",
+    "pybtex>=0.24",
+    "setuptools>=75; python_version>='3.12'",  # TODO: Remove once pybtex releases > 0.24.0
+    # https://github.com/gchq/Vanguard/issues/246
+    "sphinx>=8, !=8.2.*; python_version>='3.10'",
+    "sphinx>=7, !=8.2.*; python_version<'3.10'",
+    "sphinx-autodoc-typehints>=2",
+    "sphinxcontrib-bibtex>=2",
+    "tqdm>=4",
+]
+# Run notebooks in the jupyter interface
+notebook = [
+    "jupyterlab>=4",
+    "tqdm>=4",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "vanguard-gp[test, doc, notebook]",
+    "isort>=5",
+    "jupyterlab>=4",
+    "pre-commit>=3",
+    "pylint>=3",
+    "pyright>=1",
+    "pyroma>=4",
+    "ruff>=0.6",
+]
+
+# Constraints on dependencies. These do *not* select a package to be installed, but if *another* package requires
+# one of these packages, then uv will respect these constraints. Note that pip does *not* respect these constraints,
+# however - they are only for ensuring that `--resolution lowest` only picks packages compatible with modern Python.
+# Only include *transitive* dependencies in this list - to apply a constraint on a direct dependency, do so at the
+# actual dependency specification!
+constraint-dependencies = [
+    "networkx>=2",
+    "sympy>=1.5",
+    "appnope>=0.1",
+    "wcwidth>=0.2",
+    "cmdln>=2",
+    "distribute>=1",
+    "python-json-logger>=1",
+    "py>=1",
+    "fsspec>=2024",
+    "six>=1.16; python_version>='3.10'",  # earlier versions don't work on 3.10+
+    "pyzmq>=26",
+    "contourpy>=1.1; python_version>='3.11'",
+    "lxml>=4.7.1",  # earlier versions fail to build to missing libxml2
+    "argon2-cffi>=19", # earlier versions have issues building on Linux
+    "bleach>=1",  # some pre-1.0 versions fail to build
+    "webencodings>=0.5",  # older versions fail to build
+    "kiwisolver>=1.3.0",
+    "defusedxml>=0.5",  # older versions are incompatible with modern Python versions
+    "pywin32>=302; python_version>='3.10'",  # first version to support 3.10
+    "pywin32>=303; python_version>='3.11'",  # first version to support 3.11
+    "pywin32>=306; python_version>='3.12'",  # first version to support 3.12
+    "pywin32>=307; python_version>='3.13'",  # first version to support 3.13
+    "wheel>=0.30",  # picking a too-low version of this was causing CI failures that couldn't be replicated locally,
+                    # so this is a guessed lower bound
+    "cffi>=1.17; python_version>='3.13'",
+    "pywinpty>=2.0.14; python_version>='3.13'",
+    "pillow>=11; python_version>='3.13'",
+    "html5lib>=1",
+]
+
+# force the lockfile to be split by Python version, ensuring we get the latest dependencies for each version
+environments = [
+    "python_version>='3.13'",
+    "python_version=='3.12.*'",
+    "python_version=='3.11.*'",
+    "python_version=='3.10.*'",
+    "python_version=='3.9.*'",
+]
+
+[project.urls]
+Documentation = "https://vanguard.readthedocs.io/en/latest/"
+Repository = "https://github.com/gchq/Vanguard"
+Issues = "https://github.com/gchq/Vanguard/issues"
+Changelog = "https://github.com/gchq/Vanguard/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = [
+    "vanguard",
+    "vanguard.base",
+    "vanguard.base.posteriors",
+    "vanguard.classification",
+    "vanguard.datasets",
+    "vanguard.datasets.data",
+    "vanguard.decoratorutils",
+    "vanguard.distribute",
+    "vanguard.hierarchical",
+    "vanguard.multitask",
+    "vanguard.optimise",
+    "vanguard.variational",
+    "vanguard.warps",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "vanguard.__version__"}
+
+[tool.setuptools.package-data]
+vanguard = ["references.bib"]
+"vanguard.datasets.data" = ["*.csv", "*.rst"]
+
+[tool.ruff]
+line-length = 120
+extend-include = ["*.ipynb"]  # Handle Jupyter Notebook files as well.
+
+[tool.ruff.lint]
+extend-select = [
+    "D102",  # Public methods must have docstrings
+    "D201",  # No blank lines allowed before function docstring
+    "D202",  # No blank lines allowed after function docstring
+    "D211",  # No blank lines allowed before class docstring
+    "E501",  # Docstring line lengths
+    # TODO: We should enable more of the pydocstyle lints!
+    # https://github.com/gchq/Vanguard/issues/256
+    "S102",  # use of `exec` builtin
+    "S307",  # Suspicious `eval` usage
+    "I",     # isort rules
+    "UP",    # pyupgrade rules
+    "NPY",   # numpy linting rules
+    "TID252",# ban relative imports
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**.py" = [ "TID252" ]  # allow relative imports within tests
+
+[tool.ruff.lint.isort]
+known-local-folder = ["confutils","refstyle"]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.coverage.run]
+command_line = "-m pytest tests/units --cov"
+branch = true
+relative_files = true
+source = ["vanguard"]
+
+[tool.coverage.report]
+show_missing = true
+sort = "Cover"
+exclude_also = [
+    "pass",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "raise$",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "no_beartype: for tests incompatible with beartype (e.g. checking for TypeErrors)",
+]
+
+# TODO: fix as many of these as possible, and for those we can't fix, suppress as many as possible at the point that
+#  they're emitted using the catch_warnings context manager. Suppress globally here only as a last resort.
+# https://github.com/gchq/Vanguard/issues/281
+filterwarnings = [
+    # Numerical error warnings
+    "ignore::linear_operator.utils.warnings.NumericalWarning",
+    "ignore:Hit a numerical error:UserWarning",
+    "ignore:A regression problem with no warping",
+
+    # Other warnings
+    "ignore::pytest.PytestCollectionWarning",
+    "ignore::vanguard.warnings.ExperimentalFeatureWarning",  # we already know what parts of the code are experimental!
+    "ignore:The input matches the stored training data. Did you forget to call model.train\\(\\)\\?:gpytorch.utils.warnings.GPInputWarning",
+    "ignore:To copy construct from a tensor, it is recommended to use sourceTensor.clone\\(\\).detach\\(\\):UserWarning",
+    "ignore:Pass auto_restart=True to the controller to automatically restart training up to the last stable iterations:UserWarning",
+    "ignore:std\\(\\). degrees of freedom is <= 0:UserWarning",
+    "ignore:You have passed data through a FixedNoiseGaussianLikelihood that did not match the size of the fixed noise:gpytorch.utils.warnings.GPInputWarning",
+    "ignore:To get the last learning rate computed by the scheduler, please use `get_last_lr\\(\\)`:UserWarning",
+
+    # -- Deprecations --
+    # TODO: replace with sparse_coo_tensor
+    # https://github.com/gchq/Vanguard/issues/278
+    "ignore:torch.sparse.SparseTensor\\(indices, values, shape, \\*, device=\\) is deprecated:UserWarning",
+    # TODO: replace with some alternative (e.g. beartype.typing.*)
+    "ignore::beartype.roar.BeartypeDecorHintPep585DeprecationWarning"
+]

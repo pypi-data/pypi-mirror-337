@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloe-util-git-client
+Version: 2.0.1
+Summary: This package contains a git client which can be used to retrieve files from git history and interact with it.
+Home-page: https://initions.com/
+Author: initions
+Author-email: ICSMC_EXT_PYPIORG@accenture.com
+License: MIT
+Requires-Python: >=3.11,<4.0
+Requires-Dist: gitpython (>=3.1.41,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)

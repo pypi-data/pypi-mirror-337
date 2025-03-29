@@ -1,0 +1,9 @@
+colorlog==6.4.0
+requests==2.32.3
+selenium==4.29.0
+pyyaml==6.0.1
+toml==0.10.2
+pywin32==306;sys_platform == 'win32'
+simplejson==3.20.1
+boto3==1.37.22
+

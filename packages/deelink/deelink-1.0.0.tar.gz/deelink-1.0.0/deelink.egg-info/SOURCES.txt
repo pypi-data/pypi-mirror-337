@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+deelink/__init__.py
+deelink/dez.py.py
+deelink.egg-info/PKG-INFO
+deelink.egg-info/SOURCES.txt
+deelink.egg-info/dependency_links.txt
+deelink.egg-info/entry_points.txt
+deelink.egg-info/requires.txt
+deelink.egg-info/top_level.txt

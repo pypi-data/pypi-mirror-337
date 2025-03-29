@@ -1,0 +1,15 @@
+dlib
+setuptools
+google-cloud-vision
+opencv-python-headless
+Pillow
+scikit-image
+numpy
+pandas
+cmake
+face-recognition
+googletrans
+rapidfuzz
+pycountry
+hijri_converter
+pytesseract

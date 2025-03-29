@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+VidToScr/__init__.py
+VidToScr/ver1.py
+VidToScr.egg-info/PKG-INFO
+VidToScr.egg-info/SOURCES.txt
+VidToScr.egg-info/dependency_links.txt
+VidToScr.egg-info/top_level.txt

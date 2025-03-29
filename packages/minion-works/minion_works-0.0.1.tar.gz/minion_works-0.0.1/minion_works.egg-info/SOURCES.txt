@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+minion_works.egg-info/PKG-INFO
+minion_works.egg-info/SOURCES.txt
+minion_works.egg-info/dependency_links.txt
+minion_works.egg-info/requires.txt
+minion_works.egg-info/top_level.txt
+src/__init__.py
+src/config/__init__.py
+src/config/settings.py
+tests/__init__.py
+tests/test_content_extraction.py
+tests/test_google_search.py
+tests/test_navigation.py
+tests/test_orchestrator.py

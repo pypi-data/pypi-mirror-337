@@ -1,0 +1,17 @@
+idna
+h11
+pyasn1-modules
+
+[dev]
+coverage
+furo
+isort==5.13.2
+freezegun
+parameterized
+pre-commit
+ruff==0.8.5
+sphinx
+sphinx-design
+
+[openssl]
+cryptography>=44

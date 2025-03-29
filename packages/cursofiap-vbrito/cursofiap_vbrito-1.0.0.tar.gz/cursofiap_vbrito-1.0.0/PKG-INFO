@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cursofiap-vbrito
+Version: 1.0.0
+Summary: Descricao da sua lib cursofiap
+Home-page: https://github.com/Valmisonds/PT_FIAP_ML
+Author: Valmison Brito
+Author-email: valmisonbrito@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary

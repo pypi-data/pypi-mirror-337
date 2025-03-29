@@ -1,0 +1,10 @@
+nonebot_plugin_error_report/__init__.py,sha256=m2r7AnSMrN8626KFUmmjYEtJI0hzOyhI-a59e1WRzHE,18647
+nonebot_plugin_error_report/config.py,sha256=MX4DkS4dhtxpaN_nNRCGTKLVn51Gg_B8hdlf4AxGd2M,3633
+nonebot_plugin_error_report/email.py,sha256=UYXLYqAI3IidOdUYBCGMBkW0_SNYTIUT2-7iuJ2V6h8,5411
+nonebot_plugin_error_report/model.py,sha256=oWj7uFG3NfX43CxEjVfdtsQD1niLW5EzcMy4rX3ZU3o,8961
+nonebot_plugin_error_report/toimg.py,sha256=bkRAoNStvzegLatBzNaJrx1eAXMsAs-BUsUxjTqXhig,13253
+nonebot_plugin_error_report-0.0.7.dist-info/LICENSE,sha256=Zt-M7kXrrNe-7DRSqZOxoOnnyA5C8fT_L0lbwAP51yI,1085
+nonebot_plugin_error_report-0.0.7.dist-info/METADATA,sha256=Tf9ou2QTCtCt-kFpdNXWmVXXN_DXkuqXApv3r1r-j5w,8376
+nonebot_plugin_error_report-0.0.7.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+nonebot_plugin_error_report-0.0.7.dist-info/top_level.txt,sha256=FKAeuLb9k79IWgjAbigWC9aX-fJihQW4py08hOaQLh4,28
+nonebot_plugin_error_report-0.0.7.dist-info/RECORD,,

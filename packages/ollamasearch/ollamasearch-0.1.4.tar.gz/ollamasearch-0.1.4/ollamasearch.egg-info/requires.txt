@@ -1,0 +1,5 @@
+requests
+platformdirs
+sentence-transformers
+faiss-cpu
+numpy

@@ -1,0 +1,2 @@
+[console_scripts]
+user-story-invest = refine_user_story_mcp.server:main

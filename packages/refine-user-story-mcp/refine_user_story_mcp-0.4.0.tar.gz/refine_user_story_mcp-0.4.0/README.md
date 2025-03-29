@@ -1,0 +1,67 @@
+# User Story INVEST Analyzer
+
+A tool for analyzing user stories using the INVEST criteria and providing improvement recommendations.
+
+## Installation
+
+```bash
+pip install refine-user-story-mcp
+```
+
+## Setup
+
+1. Create a `.env` file with your Groq API credentials:
+
+```
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=mixtral-8x7b-32768
+```
+
+2. Import and use the tool in your Python code:
+
+```python
+from refine_user_story_mcp import invest_analyze
+
+# Sample user story
+user_story = {
+    "UserStory": {
+        "Title": "User Registration",
+        "Description": "As a website visitor, I want to register an account so that I can access member features.",
+        "AcceptanceCriteria": [
+            "User can enter email and password",
+            "System validates email format",
+            "User receives confirmation email"
+        ],
+        "AdditionalInformation": "Registration should be quick and intuitive."
+    }
+}
+
+# Analyze the user story
+result = invest_analyze(user_story=user_story, format_output=True)
+print(result["content"][0]["text"])
+```
+
+## Features
+
+- Analyzes user stories based on the INVEST criteria (Independent, Negotiable, Valuable, Estimable, Small, Testable)
+- Scores each criterion on a scale of 1-5
+- Provides detailed explanations and recommendations
+- Suggests improvements to the original user story
+- Returns results in either formatted text or raw JSON
+
+## Usage as MCP Tool
+
+You can also use this as an MCP (Multi-Agent Conversational Protocol) tool:
+
+```python
+from mcp.client import MCPClient
+
+client = MCPClient()
+client.register_tool("refine_user_story_mcp")
+
+result = client.call_tool("invest_analyze", {"user_story": user_story})
+```
+
+## License
+
+MIT

@@ -1,0 +1,2 @@
+[console_scripts]
+bfun = bfun.bfun:main

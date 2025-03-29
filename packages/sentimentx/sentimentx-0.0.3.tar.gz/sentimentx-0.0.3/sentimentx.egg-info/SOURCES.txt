@@ -1,0 +1,11 @@
+setup.py
+sentimentx/__init__.py
+sentimentx/deep_learning.py
+sentimentx/emotions.py
+sentimentx/lexicon.py
+sentimentx/sentiment.py
+sentimentx.egg-info/PKG-INFO
+sentimentx.egg-info/SOURCES.txt
+sentimentx.egg-info/dependency_links.txt
+sentimentx.egg-info/requires.txt
+sentimentx.egg-info/top_level.txt

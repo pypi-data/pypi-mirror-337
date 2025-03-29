@@ -1,0 +1,13 @@
+annotated-types
+DateTime
+pydantic
+pydantic_core
+pytz
+setuptools
+toml
+typing-inspection
+typing_extensions
+uuid
+zodable-sample-package-multiplatform
+zodable_idschema
+zope.interface

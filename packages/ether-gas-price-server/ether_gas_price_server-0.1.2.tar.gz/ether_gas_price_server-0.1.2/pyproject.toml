@@ -1,0 +1,21 @@
+[project]
+name = "ether-gas-price-server"
+version = "0.1.2"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+]
+
+[tool.uvx]
+name = "ether-gas-price-server"
+version = "0.1.0"
+description = "CLI for Ethereum gas prices"
+license = "MIT"
+
+[tool.uvx.scripts]
+ether-gas-price-server = "ether_gas_price_server:main"
+
+[tool.uvx.dependencies]
+requests = ">=2.28.0"

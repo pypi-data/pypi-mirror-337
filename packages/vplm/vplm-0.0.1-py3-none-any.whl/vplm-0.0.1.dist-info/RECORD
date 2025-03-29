@@ -1,0 +1,14 @@
+vplm/__init__.py,sha256=STOWr_LtHxBE82Q07a3c1TTIIVlYzOVLpiVoOjGfFNA,344
+vplm/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vplm/models/vplm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vplm/models/vplm/configuration_transformer.py,sha256=VhGtsFF-j-N1fCSbBDDl6yADe-b_M_ThIdMr1Ntc8dU,1994
+vplm/models/vplm/modeling_transformer.py,sha256=TlQ5dRIUwE38yBF90gLyCgrqU_YYuFkj-od3FJNLunU,23811
+vplm/models/vplm/tokenization_transformer.py,sha256=cLB8Lxl9uww5Yd-dUTyQ8H9s3OQjC3fQGGJ7KlfS2mk,4599
+vplm/models/vplm/vocab.txt,sha256=6DRFZdOL7TW5WytvsvOKmT7jxDhZRvREdUn9rPdHNEg,162
+vplm/utils/__init__.py,sha256=w3fjFt8hTbsaz5sPV3Ydqd11dc2Iuv0BbtDNq2U1qVQ,72
+vplm/utils/pack_utils.py,sha256=sZw4m483V8jOV5rReBxtEpuS5_QqgMQrIsj7cl_q-5g,1098
+vplm-0.0.1.dist-info/LICENSE,sha256=Me71v5J6YFemXaBIXNfj8n-zgwtHnGqqcs0MrlpfrQ0,1067
+vplm-0.0.1.dist-info/METADATA,sha256=PiWABNRkv853vj95QbIiyjL3ZLnURUEg3t_3Rhnegjc,15057
+vplm-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+vplm-0.0.1.dist-info/top_level.txt,sha256=kmhHhjj6z6cWbtJkqsu1RnQJy-Ftkgeh_fkvf0YQGcQ,5
+vplm-0.0.1.dist-info/RECORD,,

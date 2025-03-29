@@ -1,0 +1,5 @@
+setup.py
+livesession_agents.egg-info/PKG-INFO
+livesession_agents.egg-info/SOURCES.txt
+livesession_agents.egg-info/dependency_links.txt
+livesession_agents.egg-info/top_level.txt

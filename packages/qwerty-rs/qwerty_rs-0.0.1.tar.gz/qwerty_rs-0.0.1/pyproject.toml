@@ -1,0 +1,18 @@
+[project]
+name = "qwerty_rs"
+version = "0.0.1"
+authors = [
+  { name="qwerty", email="demonangelsveta@gmail.com" },
+]
+description = "A small example package"
+
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+license = {file = "LICENSE.txt"}
+dependencies = [
+
+]

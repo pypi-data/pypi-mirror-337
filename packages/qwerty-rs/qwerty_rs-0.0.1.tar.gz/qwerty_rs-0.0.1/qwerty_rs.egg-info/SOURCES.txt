@@ -1,0 +1,6 @@
+LICENSE.txt
+pyproject.toml
+qwerty_rs.egg-info/PKG-INFO
+qwerty_rs.egg-info/SOURCES.txt
+qwerty_rs.egg-info/dependency_links.txt
+qwerty_rs.egg-info/top_level.txt

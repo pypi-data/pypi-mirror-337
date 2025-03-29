@@ -1,0 +1,44 @@
+# Input file configurations
+input:
+  default: "myTree"
+  files:
+    myTree:
+      path: "/path/to/myTree.root"
+
+# Output settings
+output:
+  h5_directory_prefix: "output/jet_plots_"
+  h5_file_name: "jet_images.h5"
+
+# Jet branches configuration example
+branches: 
+  tree_name: "FatJetAnalyzer_AOD"
+  pf_pt: "pf_pt"
+  pf_eta: "pf_eta"
+  pf_phi: "pf_phi"
+  pf_IdxFatJet: "pf_IdxFatJet"
+  fatjet_pt: "FatJet_pt"
+  fatjet_eta: "FatJet_eta"
+  fatjet_phi: "FatJet_phi"
+  fatjet_mass: "FatJet_mass"
+  fatjet_Idx: "FatJet_Idx"
+
+# Histogram parameters
+histogram:
+  transformed_x_edges: [-1, 1, 51]  # [min, max, num_bins]
+  transformed_y_edges: [-1, 1, 51]
+  eta_edges: [-4.5, 4.5, 51]
+  phi_edges: [-3.14, 3.14, 51]
+
+# Jet selection criteria
+selection:
+  pt_min: 100
+  eta_max: 2.5
+  mass_min: 60
+
+
+# Transformation parameters for Lorentz boost
+transform: 
+  mB: 1.0
+  EB: 2.0 # remember gamma = EB/mB
+

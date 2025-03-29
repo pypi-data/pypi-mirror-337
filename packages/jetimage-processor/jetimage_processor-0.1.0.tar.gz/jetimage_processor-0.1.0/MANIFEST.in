@@ -1,0 +1,2 @@
+# filepath: MANIFEST.in
+include jetimage_processor/default_config.yaml

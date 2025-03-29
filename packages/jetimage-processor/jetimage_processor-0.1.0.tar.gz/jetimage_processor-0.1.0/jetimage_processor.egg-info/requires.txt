@@ -1,0 +1,8 @@
+numpy
+matplotlib
+uproot
+h5py
+scipy
+PyYAML
+pyarrow
+pandas

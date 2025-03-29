@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: jetimage-processor
+Version: 0.1.0
+Summary: A tool for processing jet images from ROOT files
+Author: Fabrizio Napolitano
+License: MIT
+Keywords: jet images,ROOT,high-energy physics,jet substructure,machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jet Image Processor
+
+[![PyPI version](https://badge.fury.io/py/jetimage-processor.svg)](https://pypi.org/project/jetimage-processor/)
+[![Python versions](https://img.shields.io/pypi/pyversions/jetimage-processor.svg)](https://pypi.org/project/jetimage-processor/)
+[![License](https://img.shields.io/pypi/l/jetimage-processor.svg)](https://opensource.org/licenses/MIT)
+
+
+Author: Fabrizio Napolitano
+
+This is a Python package to process jet images for jet polarization analysis. It input files and transforms the jet constituents into 2D histograms using a Gram-Schmidt transformation, applying a boost to the constituents. The package is designed for high-energy physics research in jet substructure analysis. Behavior is controlled through a configuration file (`config.yaml`). It currently supports ROOT TTree objects and Parquet files as input formats. The parquet files are expected to have a specific structure, following the [JetClass-II](https://huggingface.co/datasets/jet-universe/jetclass2) repo (they are fully compatible).
+
+---
+
+## Requirements
+- Python 3.11  
+- Dependencies listed in `requirements.txt`
+
+---
+
+## Virtual Environment Setup
+To create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+(To deactivate the virtual environment, use `deactivate`)
+
+---
+
+## Installation
+
+### Installing the Package
+To install the package in editable mode (for development):
+```bash
+pip install -e .
+```
+This will make the `process-jets` command available globally in your environment.
+
+### Installing Dependencies
+To install dependencies separately, use:
+```bash
+pip install -r requirements.txt
+```
+(To freeze the requirements, use `python3.11 -m pip freeze > requirements.txt`)
+
+---
+
+## Configuration
+Configuration is handled through a YAML file (`config.yaml`) and the `Config` class in `config.py`.  A verbose explanation of the configuration parameters is provided in the `CONFIGURATION.md` file. 
+
+The configuration file contains parameters for:
+- Input files (now supports one or more files per dataset)
+- Output directory for plots and the HDF5 file
+- Jet image parameters (e.g., resolution, histogram bins)
+- Transformation parameters (e.g., settings for the Gram-Schmidt transformation and boost)
+- Plotting parameters (e.g., color maps, axis labels)
+- Analysis parameters (e.g., jet selection criteria)
+
+**New Feature:**  
+You can now specify multiple input files for a dataset. In the `config.yaml`, the `files` section accepts either a single file (with a `path` field) or multiple files (with a `paths` list). When processing, the package aggregates the histogram data from all input files so that your output plots and HDF5 file represent the combined dataset.
+
+Example excerpt from `config.yaml`:
+```yaml
+input:
+  default: "myDataset"
+  files:
+    myDataset:
+      paths: 
+        - "/path/to/file1.root"
+        - "/path/to/file2.root"
+```
+
+---
+
+## Usage
+
+### Command Line Interface
+The package provides a CLI command `process-jets` for processing jet images. To run it:
+```bash
+process-jets
+```
+You can also override specific configurations using command-line arguments:
+```bash
+process-jets --dataset DATASET --output-dir /path/to/custom/output
+```
+
+### Processing Jet Images
+The `process-jets` command reads jet constituent data from a ROOT or Parquet file(s), applies a Gram-Schmidt transformation (see [arxiv:2408.08701v1](https://arxiv.org/pdf/2408.08701v1)), and generates 2D histograms of the jet images. The output includes:
+- A set of plots saved in the specified output directory (with filenames like `accumulated_constituents_all_events.png` and `accumulated_transformed_constituents_all_events.png`)
+- An HDF5 file containing the processed jet images for machine learning applications. When multiple input files are specified, the data is merged into a single output file.
+
+The input is either a ROOT TTree or a Parquet file with the following branch structure:
+- **ROOT files:** branches such as `pf_pt`, `pf_eta`, `pf_phi`, etc.
+- **Parquet files:** columns such as `jet_pt`, `jet_eta`, `jet_phi`, plus constituent offsets `part_deta`, `part_dphi`, `part_energy` and an optional `jet_label` for filtering.
+
+---
+
+## How This Package Was Created
+
+### 1. Organizing the Code
+The repository is structured into a Python package with the following layout:
+```
+jetimage_processor/
+├── __init__.py
+├── config.py
+├── processor.py
+├── transform_helper.py
+├── default_config.yaml
+tests/
+├── test_processing.py
+setup.py
+README.md
+```
+
+### 2. Adding a Default Configuration
+A default configuration file (`default_config.yaml`) is bundled with the package. If no external `config.yaml` is provided, the package falls back to this default.
+
+### 3. Creating a CLI
+A CLI entry point was added using the `entry_points` section in `setup.py`. This allows users to run the pipeline with the `process-jets` command.
+
+### 4. Packaging the Code
+The `setup.py` file defines the package metadata, dependencies, and entry points. To install the package in editable mode:
+```bash
+pip install -e .
+```
+
+### 5. Including Non-Code Files
+The `default_config.yaml` file is included in the package using the `package_data` option in `setup.py` and a `MANIFEST.in` file:
+```
+include jetimage_processor/default_config.yaml
+```
+
+### 6. Building the Package
+To build the package for distribution:
+```bash
+python setup.py sdist bdist_wheel
+```
+The resulting files in the `dist/` directory can be used to distribute or publish the package.
+
+---
+
+## Analyzing Processed Jet Images
+
+The output includes aggregated histograms and an HDF5 file containing processed jet images, making it ready for further analysis or machine learning applications.
+
+---
+
+## TODO
+- Validate against existing scripts
+- Add more unit tests for the package.
+- Improve CLI options for more flexibility.

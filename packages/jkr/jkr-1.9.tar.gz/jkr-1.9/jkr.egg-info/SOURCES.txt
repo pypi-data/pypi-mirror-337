@@ -1,0 +1,7 @@
+setup.py
+jkr/__init__.py
+jkr/jkr.py
+jkr.egg-info/PKG-INFO
+jkr.egg-info/SOURCES.txt
+jkr.egg-info/dependency_links.txt
+jkr.egg-info/top_level.txt

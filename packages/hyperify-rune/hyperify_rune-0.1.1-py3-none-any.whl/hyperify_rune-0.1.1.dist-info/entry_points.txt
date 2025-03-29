@@ -1,0 +1,2 @@
+[console_scripts]
+rune = hyperify_rune.__init__:main

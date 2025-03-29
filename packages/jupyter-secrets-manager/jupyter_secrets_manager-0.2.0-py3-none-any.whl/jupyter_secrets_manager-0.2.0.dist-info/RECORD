@@ -1,0 +1,13 @@
+jupyter_secrets_manager/__init__.py,sha256=YlUZRrU92YHFdELA-UzJ0JzOJjzcGoVBrZ99bgTZCyo,604
+jupyter_secrets_manager/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/package.json,sha256=hnJgUN1aaG3pQRXsJRjhb3XlNyGcYgo8FDzcETCPNg4,5958
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/static/728.69cdb8043c4eb7a36084.js,sha256=ac24BDxOt6NghEtArfUxb7Z-_HmgI5FNwQ2FtEEh4SI,4017
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/static/810.5ac1286046f2270c26c4.js,sha256=WsEoYEbyJwwmxPh1PXTAT-p7f8Nb0uSi8WZMzAisZGo,3733
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/static/remoteEntry.27308fd9eff0dad9790c.js,sha256=JzCP2e_w2tl5DPxXaC6Zt_GH-kmTJykIVG34IVqJFuc,6664
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/static/style.js,sha256=bgMBLOqON7lxVnjIzcHYWeUfgmt2tZdaPr4MK9CFI4c,166
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+jupyter_secrets_manager-0.2.0.data/data/share/jupyter/labextensions/jupyter-secrets-manager/install.json,sha256=4aidGLvkR2KbwGmTCD8tkwRLS2rPNgMz-3CnPcOBdjs,207
+jupyter_secrets_manager-0.2.0.dist-info/METADATA,sha256=ZyJovDW1-yt7K6MxniEPcI-xi6C1N1M1ZtqwuMaRAk8,6060
+jupyter_secrets_manager-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jupyter_secrets_manager-0.2.0.dist-info/licenses/LICENSE,sha256=fr-HmFi0CgCe8A3csGUj1g4aQOUaqVi4XFd71S6LWEw,1532
+jupyter_secrets_manager-0.2.0.dist-info/RECORD,,

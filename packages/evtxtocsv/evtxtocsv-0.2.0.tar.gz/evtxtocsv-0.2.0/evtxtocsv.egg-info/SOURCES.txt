@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+evtxtocsv/__init__.py
+evtxtocsv/evtxtocsv.py
+evtxtocsv.egg-info/PKG-INFO
+evtxtocsv.egg-info/SOURCES.txt
+evtxtocsv.egg-info/dependency_links.txt
+evtxtocsv.egg-info/top_level.txt

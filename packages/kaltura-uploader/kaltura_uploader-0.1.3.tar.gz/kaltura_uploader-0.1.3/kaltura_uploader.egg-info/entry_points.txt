@@ -1,0 +1,2 @@
+[console_scripts]
+kaltura_uploader = kaltura_uploader.cli:main

@@ -1,0 +1,10 @@
+python-dotenv
+python-magic
+colorlog
+requests
+requests-toolbelt
+KalturaApiClient
+lxml
+
+[test]
+pytest

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datamorphers"
+version = "1.0.3"
+description = "Flexible framework for transforming Pandas DataFrames using a modular pipeline approach."
+authors = [
+    { name = "Davide Ganna", email = "ganna.davide@hotmail.it" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["datamorphers"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

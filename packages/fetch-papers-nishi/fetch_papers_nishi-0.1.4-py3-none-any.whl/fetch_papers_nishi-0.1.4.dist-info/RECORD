@@ -1,0 +1,13 @@
+fetch_papers/__init__.py,sha256=h1udDPD5o_mD_vGCesIkPQeSsk9cxJ25CnhyvSJNQaA,360
+fetch_papers/affiliation.py,sha256=rH-ywMFDBDVSgb8AWOijAHkfRrG12uMusI7Ia3-NJXg,9240
+fetch_papers/cli.py,sha256=O8EPFUDvWYXDSNPnNhzE68ntb5v1sG6uEYLU7OuuXN4,4733
+fetch_papers/data/query_corpus.json,sha256=QQeg25Uau7me3CNzzVOJi3zlHpy69CxRaPtaG1R-ZBY,11403
+fetch_papers/data/tfidf_model.pkl,sha256=FObH3yABCavI6MozQPLg3BEgfKd-0tIE9BShDi3EHnE,24188
+fetch_papers/main.py,sha256=Yf2-LrJ9sKrvL8D8W371r1FKQRndO2FMLuF6A_HBEBE,202
+fetch_papers/pubmed.py,sha256=CIiUcAjpM5AVAGVcctUjTctXTE3kBC0_lS97rxo92hE,12017
+fetch_papers/query_suggestions.py,sha256=vjuH4vmB6YBxrG1qSqT3mgZPFCXyjUXHXH4CyuE6bmU,11761
+fetch_papers_nishi-0.1.4.dist-info/entry_points.txt,sha256=UJszJDnq1rvFP1P4H3E_coM9meqWOHpYcI1K0lM4jEU,58
+fetch_papers_nishi-0.1.4.dist-info/LICENSE,sha256=FGSbIP9ARZO5xWeC8cW_SvnGsnaO3rXdHq6CdAWvE8E,1071
+fetch_papers_nishi-0.1.4.dist-info/METADATA,sha256=QNT3PWimZdqEnHLpvz1qNnV_oF1KYhgavkCvEJjLOFs,6068
+fetch_papers_nishi-0.1.4.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+fetch_papers_nishi-0.1.4.dist-info/RECORD,,

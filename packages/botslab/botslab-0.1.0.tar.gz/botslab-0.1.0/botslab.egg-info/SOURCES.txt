@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+botslab.egg-info/PKG-INFO
+botslab.egg-info/SOURCES.txt
+botslab.egg-info/dependency_links.txt
+botslab.egg-info/requires.txt
+botslab.egg-info/top_level.txt
+session_manager/__init__.py
+session_manager/session_manager.py
+session_manager/browser/__init__.py

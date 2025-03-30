@@ -1,0 +1,5 @@
+setup.py
+NumSense.egg-info/PKG-INFO
+NumSense.egg-info/SOURCES.txt
+NumSense.egg-info/dependency_links.txt
+NumSense.egg-info/top_level.txt

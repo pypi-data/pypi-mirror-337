@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lddya
+Version: 5.2.0
+Summary: 统一了算法的公共输出参数，并通过抽象类定义了参数。
+Home-page: https://github.com/not_define/please_wait
+Author: lidongdong
+Author-email: 927052521@qq.com
+License: MIT Licence
+Keywords: pip,licensetool,gm,tool,license
+Platform: any
+
+具体功能，请自行挖掘。

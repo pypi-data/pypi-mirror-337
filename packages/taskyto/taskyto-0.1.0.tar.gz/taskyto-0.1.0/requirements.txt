@@ -1,0 +1,17 @@
+langchain==0.3.10
+langchain_community==0.3.10
+langchain-openai==0.2.2
+langchain_chroma
+networkx==3.1
+pydantic==2.9.2
+pytest==7.4.2
+PyYAML==6.0.1
+pydot==1.4.2
+colorama==0.4.6
+duckling==1.8.0
+ctparse==0.3.6
+alignment==1.0.10
+
+python-dateutil~=2.8.2
+
+flask

@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: taskyto
+Version: 0.1.0
+Summary: A tool to build chatbots
+Author-email: Jesús Sánchez Cuadrado <jesusc@um.es>, Juan de Lara <juan.delara@uam.es>, Esther Guerra <esther.guerra@uam.es>
+Keywords: chatbots,AI,tasks
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: langchain==0.3.10
+Requires-Dist: langchain_community==0.3.10
+Requires-Dist: langchain-openai==0.2.2
+Requires-Dist: langchain_chroma
+Requires-Dist: networkx==3.1
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: pytest==7.4.2
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: pydot==1.4.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: duckling==1.8.0
+Requires-Dist: ctparse==0.3.6
+Requires-Dist: alignment==1.0.10
+Requires-Dist: python-dateutil~=2.8.2
+Requires-Dist: flask
+
+1# Language and library for chatbot development
+
+## Usage
+
+To run a specific chatbot there is a script (`main.py`) which is in charge of loading the chatbot and interpret the contents of the yaml files. The yaml files must be located in some folder. For example, `examples/yaml/bike-shop`. Then:
+
+```
+python -m taskyto.main --chatbot examples/yaml/bike-shop/
+```
+
+## Configuration
+
+API keys can be set as environment variables or in a `keys.properties` files.
+The most important API key is `OPENAI_API_KEY`.
+
+The `keys.properties` has the following form:
+
+```
+[keys]
+SERPAPI_API_KEY=anapiforgooglesearch
+OPENAI_API_KEY=theopenaikey
+```

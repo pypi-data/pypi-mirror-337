@@ -1,0 +1,14 @@
+fairops/__init__.py,sha256=YgXMLpjy6yJmxpYt5NaUNNAkkIolivwrm0Kp7rLP3ek,294
+fairops/version.py,sha256=Y4jy4bEMmwl_qNPCmiMFnlQ2ofMoqyG37hp8uwI3m10,511
+fairops/devops/container.py,sha256=igh27RUEzxdHu46f7NXXsy0lqdaG_32OC7Zy7ugRyvE,1019
+fairops/mlops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairops/mlops/autolog.py,sha256=kMZOuLnK6rhq1XrNQnoOxWRZ9ZfZCX4SJdwyITpjfNo,12091
+fairops/mlops/models.py,sha256=fZPD4vHUGMCv3LdXlLpv9aY4YFuavRvunOFcA9F0PNY,7963
+fairops/repositories/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairops/repositories/figshare.py,sha256=w9r6dX6Yf4Uy7uBrRhSx8-OVniNqlqMe96W_4H0aDxA,9886
+fairops/repositories/zenodo.py,sha256=YAOUkFQL0quSFnZDf_h22ng7dIyl33LTTMFJ7Z1J1tU,6402
+fairops-0.1.5.dist-info/licenses/LICENSE,sha256=VZxitsVdEogJik90SDIIHNt-ABUTljbLutGtbL5V_-o,1076
+fairops-0.1.5.dist-info/METADATA,sha256=-AVlRUDTikLvMZVBcu7VO7LUA_7CKErB19CXJESQdFk,590
+fairops-0.1.5.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+fairops-0.1.5.dist-info/top_level.txt,sha256=hvpwYqzULd9_oSbzA2pidE5wbVHXt3BJQ6lhW_SYEMM,8
+fairops-0.1.5.dist-info/RECORD,,

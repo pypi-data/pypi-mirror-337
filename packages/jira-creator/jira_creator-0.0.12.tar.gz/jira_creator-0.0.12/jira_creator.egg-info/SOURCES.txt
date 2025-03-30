@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jira_creator/__init__.py
+jira_creator/rh-issue-wrapper.sh
+jira_creator/rh_jira.py
+jira_creator.egg-info/PKG-INFO
+jira_creator.egg-info/SOURCES.txt
+jira_creator.egg-info/dependency_links.txt
+jira_creator.egg-info/entry_points.txt
+jira_creator.egg-info/top_level.txt

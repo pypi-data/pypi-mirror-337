@@ -1,0 +1,891 @@
+Metadata-Version: 2.4
+Name: wave-dave
+Version: 2025.0.3
+Summary: Practical marine waves and wave response calculations.
+Author-email: Ruben de Bruin <ruben@davelab.nl>
+License-Expression: LicenseRef-Proprietary
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fpdf2>=2.8.2
+Requires-Dist: matplotlib>=3.9.4
+Requires-Dist: numpy<2.0
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pywavelets>=1.6.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: scipy>=1.13.1
+Requires-Dist: wavespectra>=4.3.0
+Provides-Extra: build
+Requires-Dist: setuptools>=75.8.0; extra == "build"
+Requires-Dist: cython>=3.0.11; extra == "build"
+Requires-Dist: wheel>=0.45.1; extra == "build"
+Requires-Dist: setuptools-scm>=8.1.0; extra == "build"
+Requires-Dist: build>=1.2.2; extra == "build"
+Dynamic: license-file
+
+# ~dave [wave-dave] 
+Practical marine waves and wave response calculations and comparisons.
+
+
+![image-20240424090220531](./images/image-20240424090220531.png)
+
+
+## Introduction
+
+wave-dave is a Python package for practical marine waves and wave response calculations. It can be used to
+provide offshore decision support, tune models to measurement data and weather donwtime analysis.
+
+It heavily relies on, and combines the functionality of the following packages:
+- [wavespectra](https://wavespectra.readthedocs.io/en/latest/) for reading wave-spectra from real-life sources such as model forecasts or buoys
+- [fpdf2](https://github.com/py-pdf/fpdf2) for generating PDFs
+
+It contains a private fork of [waveresponse](https://docs.4insight.io/waveresponse/python/latest/index.html) which is included in the wave_response subdirectory.
+This was done because waveresponse did not merge or respond to pull requests. As a benifit it allows us to make some breaking improvements.
+
+RAOs can be produced using dave_dynamics and exported to wave-dave using the .yml format. Alternatively they can be 
+created from scratch using the waveresponse package.
+
+WaveSpectra is used for importing wave-spectra from real-life sources such as forecasts, models or measurements buoys.
+WaveResponse is used for plotting and combining the wave-spectra with RAOs.
+
+This package adds:
+- a comprehensible API for creating wave-spectra from external sources (completely wrapping all required wavespectra calls)
+- conversion of binned wave-spectra to smooth spectra
+- a Spectra object that contains a series of wave-response wave-spectra and corresponding time-stamps.
+- Timeseries objects that can be used to store measurement data from motion sensors such as Tarka and convert them to spectra.
+
+Example:
+
+```python
+from wave-dave import Spectra
+import matplotlib.pyplot as plt
+
+forecast = Spectra.from_octopus('forecastfile.csv')
+plt.plot(forecast.time, forecast.Hs, label = "Forecast")
+```
+
+- a few traditional plots as standard report sections (binned source comparison, energy evolution)
+- a object-oriented system for creating and reporting custom graphs.
+- a pdf report template with header, footer, page numbers and a logo.
+
+## Features
+
+Compare spectral energy from different sources. 
+
+Calculate responses using externally created RAOs
+
+Read Time-series, for example for sensors
+
+Compare measurement to model data; both waves and responses.
+
+Export of 2D spectra to orcaflex. Making it easier to tune the models.
+
+Example comparison of wave-buoy and wave-forecasts:
+
+![image-20240411161505726](./images/image-20240411161505726.png)
+
+
+
+
+
+# Conventions
+
+
+
+### Waves
+
+frequency is in Hz
+
+Direction is in degrees using coming-from convention
+
+For **wave**-spectra the directions are compass directions
+
+- 0 = coming from North, 
+- 90= coming from East, 
+- 180= coming from South, 
+- 270= coming from West
+
+### RAOs
+
+frequency is in Hz
+
+For heading definition the RAOs can be "global" or "vessel bound".
+
+#### Global
+
+Global RAOs follow the same heading definition as waves.
+
+#### Vessel bound
+
+Vessel bound RAOs are, as the name implies, bound to a vessel.
+
+For **RAOs** the directions are coming from using a mathematical direction: 
+
+- 0 = progressing along x-axis ("stern incoming) , 
+- 90 = progressing along y ("from sb)", 
+- 180 = progressing against x ("bow waves")
+- 270 = progressing against y ("from ps")
+
+![!rao_headings](./docs/rao_headings.svg)
+
+#### Forward speed
+
+Vessel speed (if any) uses the same direction convention is waves:
+
+- in vessel bound: forward_speed_direction = 0 means sailing in the direction of the x-axis
+
+- in global: forward_speed_direction =  0 means sailing towards the north
+
+
+
+### Time
+
+times are datetime objects
+time is in UTC
+
+#### Timezones
+
+Internally all data is stored as UTC.
+
+When reading data  from an external source that is not in UTC then first of all try to convince the supplier to deliver the data in UTC. If that doesn't work try harder. If that still doesn't work then switch to a different supplier. If all this fails then supply the conversion to utc to the method that creates the datasource.
+
+The timezone is only applied at the end of the pipeline when the date is converted to something immutable such as a table or a graph. At that time the time-zone is applied by shifting with the amount of hours specified in `LOCAL_TIMEZONE` which can be defined at `Settings` level (global) or per Report.
+
+Where to define the local timezone:
+
+| To apply          | Where                                                        |
+| ----------------- | ------------------------------------------------------------ |
+| Globally          | `import wave-dave.settings as Settings`<br>`Settings.LOCAL_TIMEZONE` |
+| For a report only | `report = wave-davePDF()`<br>`report.timezone = 7`            |
+| For a figure only | when rendering the figure: <br>`figure.render(local_timezone=7)` |
+
+The following figure presents the same wave-data presented in local timezone 0 as well as local timezone +6. In local timezone +6 the line is shifted 6 hours forward in time relative to UTC=0.
+
+![image-20240829100529636](./images/image-20240829100529636.png)
+
+#### Exception
+
+`Events` are defined in the local timezone.
+
+#### Date formats
+
+Converting dates can be a real 😠.  Especially when forecasts are delivered in a text format with a different language setting than the computer that wave-dave is run on. wave-dave does not control your computer or your forecast. Sometimes opening the file in excel and saving it again will also change the date format. This can use used to your benefit or frustration, use with care. 
+
+Whenever dates or times need to be converted from text to numbers wave-dave allows you to explicitly specify the date-format to be used. For example:
+
+```python
+yesterdays_forecast = IntegratedForecast(filename2, dateformat="%m/%d/%Y %H:%M")
+```
+
+tells wave-dave to expect a timestamp like "07/26/2024 12:00"
+
+A timestamp like `11-Mar-2024 13:00` can be formatted using `dateformat = "%d-%b-%Y %H:%M"`
+
+This is done using so called "formatter strings". For a full list see [cheatsheet](https://strftime.org/).
+
+
+
+# Project wide settings
+
+Some settings such as the time-zone and colors are likely to be applicable for a whole project. To avoid having to explicitly define them over and over again, the `Settings` module allows setting of the  default values for these settings. Use as follows:
+
+```python
+import wave-dave.settings as Settings
+
+Settings.LOCAL_TIMEZONE = 1 # report in UTC+1
+Settings.COLOR_MAIN = (40,159,168)  # define a different main color (R,G,B)
+```
+
+
+
+# Sources
+
+"Sources" are objects containing data. Available sources are:
+
+| Source                                                       | Object               |
+| ------------------------------------------------------------ | -------------------- |
+| 2d spectra such as buoy measurement, forecasts or synthetic spectra. | `Spectra`            |
+| Integrated forecasts. These are time-series of Hs, Tp, wind, temperature etc. | `IntegratedForecast` |
+| RAO. Response Amplitude Operators                            | `RAO`                |
+| Measured time-series such as MRU data.                       | `Timeseries`         |
+| Calculated response spectra. These are 1D spectra created from either combining RAOs and waves OR performing a spectral analysis on a measure time series. | `Spectra`            |
+| A line in a graph, having a value and optionally a direction defined over time. Typically produced from other sources. | `LineSource`         |
+
+
+
+# Spectra
+
+`Spectra` is a thin layer wrapping a series of `DirectionalSpectrum` objects and adding a time vector.
+
+Spectra can hold both wave and response spectra.
+
+## Creation
+
+The `Spectra` class features some static method to conveniently create spectra objects from typical data sources.
+
+| use             | to                                                           |
+| --------------- | ------------------------------------------------------------ |
+| from_octopus    | read an "octopus" file. Spectral forecasts with a `.csv` extension are often in this format. |
+| from_obscape    | read a series of OBScape buoy files                          |
+| create_jonswaps | creates one or more jonswap spectra.                         |
+
+## Cutting and merging
+
+Spectra can be cut to a specific time-range using the `between` method. This method returns a new Spectra object.
+
+Spectra can be merged using the `append` method. This method adds the spectra of one object to another. Note that,
+by default, the data of the appended object is not copied but referenced. You may want to use `copy` if the data needs to be independent.
+
+```python
+spectra1.append(spectra2.copy())
+
+```
+
+## Properties
+
+Spectra.time : time-series
+
+.Hs : significant wave height
+.Tp : peak period
+
+.Tz
+
+.dirs [degrees]
+
+.freq [Hz]
+
+
+
+Period bands
+
+.Hs_bands(split_periods)
+
+
+
+### Squashed properties
+
+.dir_over_time
+
+.freq_over_time
+
+
+
+## Plotting
+
+For convenience there are some quick plotting functions:
+
+| Use                                 | To                                                        |
+|-------------------------------------|-----------------------------------------------------------|
+| plot_spectrum_frequencies_over_time | ![image-20240424085324444](./images/image-20240424085324444.png) |
+| plot_direction_over_time            | ![image-20240424085210406](./images/image-20240424085210406.png) |
+| plot_spectrum_2d                    | ![image-20240424085412931](./images/image-20240424085412931.png) |
+| plot_1d_spectra                     | ![image-20240424085444862](./images/image-20240424085444862.png) |
+| plot_spectrum_bands                 | ![image-20240424085623090](./images/image-20240424085623090.png) |
+| plot                                | plots the Hs (or SDA) over time                           |
+
+For plotting integrated properties it is easiest to use the LineSource as intermediate.
+
+```python
+# waves is a Specta object
+line = waves.give_Hs_LineSource()
+line.show()
+plt.show() 
+```
+
+![image-20240424085700187](./images/image-20240424085700187.png)
+
+
+## Modification
+
+Adding white noise
+White noise can be added to a spectrum using `add_white_noise`
+
+```python
+spec = Spectra.create_jonswaps()  # just to have something to look at
+
+f, S = spec.spectra[0].spectrum1d()
+
+spec.add_white_noise(abs=1.0)
+
+f1, S1 = spec.spectra[0].spectrum1d()
+
+plt.plot(f,S, label="Original")
+plt.plot(f1,S1, label="With noise added")
+plt.legend()
+plt.show()
+```
+
+
+
+## GUI
+
+The `.GUI()` method of `Spectra` can be used to display an interactive gui to examinate the spectra.
+
+
+
+# Conversion from binned to smooth
+
+wave-dave.to_smooth contains some magic to convert binned wave-spectra to smooth wave-spectra. This is needed to reliably interpolate the spectra to a different frequency grid.
+
+
+
+# RAOs
+
+wave-dave `RAOs` are an extension of the waveresponse RAO objects. 
+
+```python
+class RAO(waveresponse.RAO):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        
+```
+
+They extend them by adding the following:
+
+- save (save to yml)
+- from_file (load from yml)
+- plot, plot1d
+- Added fields
+  - heading_definition (RAOHeadingDefinition)
+  - mode (RAOMode)
+  - description [str]
+  - response_unit [str]
+- test_rao() : method to quickly create a rao for testing purposes
+
+For creating RAOs from scratch see [waveresponse](https://docs.4insight.io/waveresponse/python/latest/user_guide/concepts_utils/rao.html).
+
+Or export them from DAVE:Dynamics
+
+
+
+## Creating a RAO
+
+Easiest done from DAVE:Dynamics:
+
+```python
+ER = calculate_elemental_RAOs(s, directions = 36, velocity=3, velocity_direction=0, omegas=omegas)
+```
+
+or
+
+```python
+from DAVE_dynamics.frequency_domain import prepare_for_fd, calculate_elemental_RAOs
+from DAVE_dynamics.derived_raos import derived_rao
+
+prepare_for_fd(s)
+
+s.solve_statics()
+
+
+omegas = np.linspace(1/80, 0.5, num=20)
+omegas = 2*np.pi*omegas
+
+ER = calculate_elemental_RAOs(s, directions = [45], scaleF=(1,1,1,1,1,1), omegas=omegas)
+
+node = s['SW2/Grommet2/_grommet']
+property = 'tension'
+
+
+r = derived_rao(ER, target_node=node, property=property)
+```
+
+
+
+Note that
+
+- velocity and velocity_direction are optional
+- the omega grid should be carefully chosen such that any peaks in the calculated RAO have sufficient resolution
+
+
+
+## Calculating responses
+
+Frequency domain responses can be obtained by combining a RAO with a Wave-Spectrum.
+
+If the RAO is vessel-bound, then the vessel heading is needed to calculate the RAO headings.
+
+
+
+### Grid
+
+For this calculation the headings and frequencies of the RAO and wave-spectrum need to match. 
+
+Ideally that is the case, but often it is not. In that case the grids can be made to match by interpolating the RAO and Wave-Spectrum to the same target grid. This target grid can be the determined as follows:
+
+- waves: Use wave grid, interpolate RAO if needed
+- rao: Use rao grid, interpolate Waves if needed
+- both : Use combined grid: interpolates waves and RAO where needed.
+
+The frequency range is limited to the frequencies that are within the frequency range defined for both the wave-spectrum and the RAO (intersection). This avoids having to extrapolate.
+
+![image-20240415115741173](./images/image-20240415115741173.png)
+
+### Result
+
+The result is a response-spectrum.
+
+The statistical characteristics of the response spectrum can be fully described by a spectrum without headings (a 1D spectrum).
+
+If we want to use the results for calculation of a motion or response in time (an animation) then the phase-angles, headings and phase-origin information is needed.
+
+
+
+### Heading
+
+The RAO is expected to contain the full range of headings. If RAO is only partially defined due to symmetry then it should be expanded before calculating the response.
+
+To accommodate changing the vessel heading wave-dave there are two heading conventions for RAOs. Refer to the "conventions" chapter for details.
+
+To calculate responses the the RAO is required to be in "global" definition. A RAO can be converted from vessel-bound to global using the .to_global method:
+
+```python
+r = RAO.test_rao()
+r.plot()
+
+g = r.to_global(vessel_heading=45)  # creates a copy
+g.plot()							# this produces the plot on the right
+```
+
+![image-20240415171921242](./images/image-20240415171921242.png)
+
+
+
+
+
+
+
+## Getting the response
+
+This is the easy part:
+
+```python
+global_rao = my_rao.to_global(vessel_heading = 90)  # bow to east
+response = global_rao.wave_response(waves, do_plot = True)
+```
+
+`Response` is a `Spectra` object just like for waves and can be treated similarly, for example:
+
+```python
+SDA_line = response.give_SDA_LineSource()
+SDA_line.show()
+```
+
+### Descriptions and metadata
+
+A typical vessel-bound RAO has the following data
+
+- description  [string]
+- mode [enum]
+- response_unit [string]
+- metadata [dict]
+
+When converting a RAO from vessel-bound to global (using `to_global`) the used vessel-heading is added to `vessel_heading`
+
+- vessel_heading
+
+When calculating responses the description, vessel_heading and unit are  transferred to the metadata dictionary of the response-spectra.
+
+When creating a LineSource from the responses, then the metadata is copied to the linesource as `metadata` and the statistics-type is added
+
+
+
+So at the end we have in the line-source:
+
+- metadata : 
+  - description (from the RAO)
+  - unit (from the RAO)
+  - vessel_heading (from RAO)
+- datasource_description (from the waves)
+- statistics_type (set when getting_source)
+
+
+
+### Statistics type
+
+To book-keep what response or measured data statistics represent it is required to record the type of statistics. This is done using the `StatisticsType`  class.
+
+Objects of this class can be constructed by specifying the amplitude (single/double), statistics type and optionally a factor. Some defaults are already present:
+
+```python
+# Some commonly used statistics types
+SSA = StatisticsType("Single", "SIG", 0)
+SDA = StatisticsType("Double", "SIG", 0)
+MSA100 = StatisticsType("Single", "MPM", 100)
+MSA1000 = StatisticsType("Single", "MPM", 1000)
+MDA100 = StatisticsType("Double", "MPM", 100)
+MDA1000 = StatisticsType("Double", "MPM", 1000)
+DA_STF2 = StatisticsType("Double", "STF", 2)
+```
+
+StatisticsType.description returns a long description.
+
+StatisticsType.STD_factor returns the factor between the value and the standard deviation. 
+
+For example:
+
+```python
+SDA.STD_factor --> 4.0
+```
+
+because the Significant Double Amplitude is 4x the STD
+
+
+
+## Example response plot
+
+This is an example of how to calculate and plot a response
+
+```python
+rao = RAO.test_rao()
+g = rao.to_global(vessel_heading=123)
+
+response = g.wave_response(waves, do_plot=True)
+
+STF173 = StatisticsType("Single", "STF", 1.73)
+
+response_source = response.give_response_source(statistics_type=STF173)
+
+response_source.show()
+```
+
+
+
+![image-20240423165559544](./images/image-20240423165559544.png)
+
+
+
+# Vessel heading optimization
+
+An optimum, or worst, vessel heading can de determined by calculating the responses for a range of headings.
+
+Calculations of this type are aided by the `MultiHeadingResponse` class.
+
+It calculates the responses for all vessel headings in the grid. 
+
+### Creation
+
+This class takes as input:
+
+- waves
+- a single RAO (vessel-bound)
+- a heading grid
+
+`MultiHeadingResponse(waves, RAO, heading-grid or n_headings)`
+
+Heading grid can be specified explicitly or via n_headings. 
+
+Specifying heading-grid directly can be used if the heading range is limited.
+
+### Getting output
+
+Output is available as line-sources:
+
+- lowest_response 
+- highest_response 
+- lowest_response_heading
+- highest_response_heading
+- response_for_heading (linesource without heading)
+
+The responses are supplied using the given statistics-type, defaulting to SDA.
+
+
+
+### Example
+
+Consider that not all people can clearly distinguish green and red. It is advised to use plotspecs of the lines to format them differently.
+
+```python
+rao = RAO.test_rao()
+mhr = MultiHeadingResponse(waves, rao, n_headings=72)
+
+pdf = wave-davePDF()
+pdf.add(Header("Multi Heading Response"))
+
+best = mhr.lowest_response()
+worst = mhr.highest_response()
+
+# some formatting
+best.plotspec = {"linewidth": 4}
+worst.plotspec = {"linestyle": "--"}
+
+g_response = Graph([best, worst])
+
+# separate graph for best heading
+best_heading = mhr.lowest_response_heading()
+g_heading = Graph([best_heading])
+
+
+# both graphs need a legend, so make two figures
+pdf.add(Figure([g_response], legend=True))
+pdf.add(Figure([g_heading], legend=True))
+
+pdf.open()
+```
+
+### Settings
+
+The colors for highest and lowest response are `Settings.COLOR_BEST` and `Settings.COLOR_WORST`
+
+### Plots
+
+The .plot() function produces a graph like the following:
+
+![image-20240424112832821](./images/image-20240424112832821.png)
+
+
+
+
+
+
+
+# Plotting
+
+plot_spectrum: plots a topview of the 2d spectrum
+
+plot_spectrum_bands
+
+plot_direction_over_time
+
+plot_spectrum_frequencies_over_time
+
+
+
+### helpers
+
+sync_yscales
+
+sync_xscales
+
+apply_default_style
+
+
+
+# Making reports
+
+wave-dave can be used to generate PDF reports.
+
+PDF reports can be defined flexibly using report elements. This following is an example of a pdf without any real data:
+
+```python
+d = wave-davePDF()
+
+# define the report metadata
+d.author = "Ping-pong tafel"
+d.title = "Simple report"
+d.project = "wave-dave example project"
+d.date = "2024-03-11"
+
+# add some elements using the convenience methods
+d.add_header("Hello")
+d.add_text("This is a very simple report")
+d.add_text("Add more content by defining Graphs and adding them to the report")
+
+# or, using the add method
+# this enables some additional options such as margins
+# and is also use for adding elements for which no convenience method exists
+# such as graphs or standard report sections
+text_element = Text("<p>This text is added by first defining a Text object"
+                    " and then adding it to the report."
+                    "<br>Note that some basic HTML tags are supported,"
+                    " like <b>bold</b> and <i>italic</i>."
+                    "<br>Also, line breaks are supported.<br>Like this."
+                    "<br>And this.</p>"
+                    "<a href='https://youtu.be/CTDov_uGLss'>This is a link</a><br>"
+                    "The `margin` argument is used to increase the margin"
+                    , margin=20)
+d.add(text_element)
+
+# We can also use the HTML to add images from the internet
+d.add(Text("<p>Images from the internet can also be added using HTML:</p>"))
+d.add(Text("<img src = 'https://usedave.nl/_images/welcome_image.jpg' width=400>"))
+
+# but local is also an option
+d.add(Image("logo.png"))
+
+d.open()
+```
+
+## Making figures
+
+wave-dave contains `Elements` to construct custom standardized figures from custom data-sources. 
+
+The flow is as follows:
+
+- create data-sources by loading forecasts, measurements, etc
+- create `LineSource`s from the data-sources
+- create `Graphs` from on or more `LineSources`
+- create `Figures` from one of more `Graphs`
+- plot the figures directly to screen or add them to a report.
+
+![image-20240315142750637](./images/image-20240315142750637.png)
+
+Figure has some settings to adjust to overall appearance:
+
+- The x and y axes of the individuals graphs may be synchronized.
+- The overall figure size may be specified. 
+- Legends can be included below the lowest subplot.
+
+![image-20240315142824853](./images/image-20240315142824853.png)
+
+![image-20240315142849316](./images/image-20240315142849316.png)
+
+![image-20240315142907011](./images/image-20240315142907011.png)
+
+
+
+Limits can be added per Graph. Events can be added per Figure:
+
+![image-20240315143417053](./images/image-20240315143417053.png)
+
+## Figure
+
+A `Figure` contains one or more `Graphs` (subplots). Optionally it contains `limits` and `events`. 
+
+Legends are by default based on the .label properties of the LineSources. If all labels are the same then these are replaced by the datasource_description property of the LineSources.
+
+When rendering a figure, a time-zone can be provided. 
+
+## Graph
+
+Every `Graph` contains one or mode `LineSources`.  If units or statistics-types are specified on the line-sources then these shall be identical for all lines sources.
+
+Graph title default to the name of the datasource
+
+## LineSource
+
+A `LineSource` can be created from Spectra, Responses, IntegratedForecasts, Measurements, or manually. A linesource can have plot-options specified and may have a directions which will then be plotted as quivers.
+
+
+
+**Further guidance as well as examples for formatting plots is given in the following  [notebook](https://github.com/RubendeBruin/wave-dave/blob/main/examples/Formatting_the_graphs.ipynb)**
+
+
+
+### Getting LineSources
+
+`LineSources` can be obtained from
+
+- Integrated forecasts
+  - using the column names
+  - the filename is added as datasource_description
+  
+- Wave or Response-Spectra
+  
+  - Directional (waves):
+    - give_Hs_LineSource
+    - give_Tp_LineSource
+  
+  - Non-directional (responses)
+  
+    - give_SDA_LineSource
+  
+    - give_SSA_LineSource
+  
+    - give_response_source (for custom factors)
+  
+      
+
+## BreakdownSection
+
+
+
+Example:
+
+```python
+breakdown_section = BreakdownSection()
+breakdown_section.add_source(forecast)
+breakdown_section.add_source(buoy)
+
+# All these settingsg are optional
+breakdown_section.split_periods_s=[5.0, 7.0]
+breakdown_section.header_text=""
+breakdown_section.figsize=[11, 11]
+breakdown_section.y_synced=False
+breakdown_section.color_buoy_quiver=[0, 0, 0]
+breakdown_section.color_accent=[0, 0, 0]
+breakdown_section.directions_buoy_spacing = 5
+breakdown_section.directions_forecast_spacing = 5
+breakdown_section.y_lim = (10,1,2,3)                   # explicitly set the y-limits for the plots
+breakdown_section.events = [Now]
+
+
+report.add(breakdown_section)
+```
+
+
+
+![image-20240416115352996](./images/image-20240416115352996.png)
+
+
+
+## Energy Section
+
+```python
+energy_section = EnergySection(forecast2D1)
+
+# optinal
+energy_section.events = [Now]
+energy_section.max_period = 20  # seconds
+energy_section.n_cols = 3
+energy_section.header_text = "Energy distribution and 2d spectra"
+
+report.add(energy_section)
+```
+
+
+
+![image-20240416115643452](./images/image-20240416115643452.png)
+
+# TimeSeries
+
+A `TimeSeries` is a series of measurements (or calculated values) over time. A timeseries is typically obtained from a motion (acceleration, inclination) sensor and has multiple samples per second and may have multiple channels.
+
+The time-vector of a time-series is stored in [seconds] since the start of the signal. The start of the signal (T0) is stored as datetime. The signals are stored in a dictionary where the keys are strings representing the signal names and each value is a vector with the same length as `time`.
+
+Finally `metadata` is an optional dictionary with metadata.
+
+## Creation
+
+```
+from_tarka_stick
+from_tarka_stick_file
+from_tarka_gui
+from_canbus_trace
+```
+
+### Properties
+
+is_equidistant
+
+dt
+
+specdens
+
+## Modification
+
+make-equidistant
+
+## Line-sources
+
+Line-sources can be used to plot the STATISTICS of a time-series together with other statistics.
+
+The standard deviation of a time-series is calculated per fixed length block. The blocks start at fixed offsets. If the offset is smaller than the block size then the blocks partially overlap.
+
+If the end of the last block does not correspond to the end of the signal then an additional block is created with the block-size measured from Tend-block to T-end.
+
+## Plotting
+
+The Time-series object has methods to calculate and plot the energy and the energy over time using wavelets and spectral density.
+
+
+# Putting it all together
+
+response_comparison : plots a spectral comparison between a calculated response based on RAOs and waves and a measured response from a time-series.
+
+# References
+
+Response calculation, rao interpolation, encounter frequencies, etc: https://cradpdf.drdc-rddc.gc.ca/PDFS/unc341/p811241_A1b.pdf
+

@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-bauplan = mcp_bauplan.main:main

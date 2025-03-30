@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_package_updater"
+version = "0.1.1"
+description = "A smart Python package updater that safely upgrades dependencies while verifying tests pass."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = [
+    "package-manager",
+    "dependency-management",
+    "testing",
+    "automation",
+    "requirements",
+    "pipfile"
+]
+authors = [
+    { name = "Harmanpreet Bhatti", email = "data2k18@gmail.com" }
+]
+dependencies = [
+    "requests==2.32.3",
+    "packaging==24.2",
+    "virtualenv==20.29.3",
+    "pytest==8.3.5"
+]
+
+[project.scripts]
+package_updater = "py_package_updater.__main__:main"
+
+[tool.setuptools]
+packages = ["py_package_updater"]

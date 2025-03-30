@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+pyssq/__init__.py
+pyssq/doublecolor.py
+pyssq/utils.py
+pyssq.egg-info/PKG-INFO
+pyssq.egg-info/SOURCES.txt
+pyssq.egg-info/dependency_links.txt
+pyssq.egg-info/not-zip-safe
+pyssq.egg-info/top_level.txt
+tests/test_doublecolor.py
+tests/test_utils.py

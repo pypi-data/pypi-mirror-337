@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+img3d/__init__.py
+img3d/image_transformer.py
+img3d.egg-info/PKG-INFO
+img3d.egg-info/SOURCES.txt
+img3d.egg-info/dependency_links.txt
+img3d.egg-info/top_level.txt

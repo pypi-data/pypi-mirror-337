@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: mcpo
+Version: 0.0.1
+Summary: A simple, secure MCP-to-OpenAPI proxy server
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown

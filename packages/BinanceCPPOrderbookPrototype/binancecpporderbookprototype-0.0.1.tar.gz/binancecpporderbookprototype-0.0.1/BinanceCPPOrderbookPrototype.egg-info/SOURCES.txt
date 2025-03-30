@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+BinanceCPPOrderbookPrototype.egg-info/PKG-INFO
+BinanceCPPOrderbookPrototype.egg-info/SOURCES.txt
+BinanceCPPOrderbookPrototype.egg-info/dependency_links.txt
+BinanceCPPOrderbookPrototype.egg-info/not-zip-safe
+BinanceCPPOrderbookPrototype.egg-info/requires.txt
+BinanceCPPOrderbookPrototype.egg-info/top_level.txt
+bindings/orderbook_module.cpp
+include/CSVParser.h
+include/OrderBook.h
+include/OrderBookEntry.h
+src/CSVParser.cpp
+src/OrderBook.cpp
+src/main.cpp

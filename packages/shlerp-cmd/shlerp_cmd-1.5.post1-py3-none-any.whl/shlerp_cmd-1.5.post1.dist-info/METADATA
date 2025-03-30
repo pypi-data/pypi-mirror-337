@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: shlerp-cmd
+Version: 1.5.post1
+Summary: Swift & Smart Backups for Any Code Flavor!
+License: AGPL-3.0-or-later
+Author: Mathieu Barbe-Gayet
+Author-email: m.barbegayet@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (==8.1.7)
+Requires-Dist: pytz (==2024.2)
+Requires-Dist: requests (==2.32.3)
+Project-URL: Homepage, https://github.com/synka777/shlerp-cmd

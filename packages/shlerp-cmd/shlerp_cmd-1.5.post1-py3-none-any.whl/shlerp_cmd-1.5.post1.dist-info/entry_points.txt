@@ -1,0 +1,3 @@
+[console_scripts]
+shlerp=shlerp.bin.shlerp:main
+

@@ -1,0 +1,12 @@
+plasmid_assessor/Assessment.py,sha256=s1rFeW7S_4HTO02Nfm_utkHyK_KiZ6ca-iwNnV5MXp8,14314
+plasmid_assessor/__init__.py,sha256=m64eaUfXGBoGv2iYtwGBU3WC4TQ02ws9Q7SWZXqLu2M,73
+plasmid_assessor/reports.py,sha256=PzWBT9Mv5t2PImANFLlQ4Qza8kj3s7QpmOPCXjdWB8E,1763
+plasmid_assessor/report_assets/assessment_report.pug,sha256=QbG3FBYHRBMbw8eMHWOBv27tlqkJDfgdKEcKqHDtvxs,2346
+plasmid_assessor/report_assets/report_style.css,sha256=sqR-TBmmk-p-zX3vqD6-vbhsnxM23wTk0Ysh5-Ahs9w,303
+plasmid_assessor/report_assets/imgs/plasma_logo.png,sha256=iQCTSOfHjNIw3AXB_naDPoSoSyTX-Cnfa5xBfiY2KY4,25522
+plasmid_assessor-0.2.1.dist-info/licenses/LICENSE,sha256=NWkcKOSOo2ApAxkNBeaTJZmPe1h9L5VmJsyJjqJ-KtQ,1106
+tests/test_Assessment.py,sha256=f5vmYg9MfFSOMm1ZDcHQXFYMzXCGuC1T9dwf-c6NKrA,2984
+plasmid_assessor-0.2.1.dist-info/METADATA,sha256=VO_ofj6PGI_TXSJeLyspSveh3P1VNFejyXmicU8QScI,1418
+plasmid_assessor-0.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+plasmid_assessor-0.2.1.dist-info/top_level.txt,sha256=bRfaXQLuY0XMf7E7Owr3Dqbm2e9sQxRYBCN6Jdwy0V8,23
+plasmid_assessor-0.2.1.dist-info/RECORD,,

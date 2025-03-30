@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sentimentx
+Version: 0.0.4
+Summary: A powerful sentiment analysis library combining lexicon and deep learning methods.
+Author: Vansh Gautam
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: textblob
+Requires-Dist: nltk
+Requires-Dist: text2emotion
+Requires-Dist: stanza
+Requires-Dist: transformers
+Requires-Dist: torch
+

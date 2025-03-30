@@ -1,0 +1,9 @@
+spice2sch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spice2sch/cli_def.py,sha256=xkYovoIVlTx-mGJxaaU-1Q9jshAbU9VnWwYlgfb930E,1239
+spice2sch/constants.py,sha256=dl7hH1q9QpbOOIG2ovETEJoX9poS16eQujio16VALno,404
+spice2sch/main.py,sha256=DkqwYAmY4EMDvFH_aSA3K83rMfuDWx0c3kfVp_spFfY,14856
+spice2sch/models.py,sha256=qpGpm-cFJzdnv24t0M8T0Q0Rn3So9AE0Q3mdhMGuL08,2595
+spice2sch-0.1.0.dist-info/METADATA,sha256=jvEcnb6C03teVLSXdQZj1ciDS-AZ9Bd5GZ69p7mZ4zU,2038
+spice2sch-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+spice2sch-0.1.0.dist-info/entry_points.txt,sha256=80CNv3hNIOmNNPhwV49JLCCcs_rZb5ZaQ83EIuOttwo,50
+spice2sch-0.1.0.dist-info/RECORD,,

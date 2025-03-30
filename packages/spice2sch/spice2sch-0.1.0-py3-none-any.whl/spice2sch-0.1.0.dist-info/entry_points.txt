@@ -1,0 +1,2 @@
+[console_scripts]
+spice2sch = spice2sch.main:main

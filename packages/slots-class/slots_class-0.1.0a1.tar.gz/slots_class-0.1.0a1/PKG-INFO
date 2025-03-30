@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: slots-class
+Version: 0.1.0a1
+Summary: A modern object model that uses __slots__
+Author-email: Marckie Zeender <mkzeender@gmail.com>
+Requires-Python: >=3.13

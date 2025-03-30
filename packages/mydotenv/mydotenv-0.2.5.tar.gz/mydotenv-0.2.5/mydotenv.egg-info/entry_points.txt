@@ -1,0 +1,5 @@
+[console_scripts]
+mydotenv = mydotenv.__init__:main
+
+[mydotenv.commands]
+set_command = mydotenv.config:set_command_name

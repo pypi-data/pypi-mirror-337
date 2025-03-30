@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: abuseipdb_mcp
+Version: 0.0.2
+Summary: A MCP for AbuseIPDB API
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/gogela/abuseipdb_mcp
+Project-URL: Issues, https://github.com/gogela/abuseipdb_mcp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# abuseipdb_mcp
+MCP server for AbuseIPDB API
+
+provides simple wrapper for abuseipdb.com API
+requires own API token
+
+for use with smolagents check example.py

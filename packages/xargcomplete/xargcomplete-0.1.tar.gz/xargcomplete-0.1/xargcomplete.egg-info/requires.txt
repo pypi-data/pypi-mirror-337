@@ -1,0 +1,3 @@
+xkits-command>=0.2
+tabulate
+pip

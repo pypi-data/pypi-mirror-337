@@ -1,0 +1,3 @@
+[console_scripts]
+temporal-boost=temporal_boost.cli.runner:cli_app
+

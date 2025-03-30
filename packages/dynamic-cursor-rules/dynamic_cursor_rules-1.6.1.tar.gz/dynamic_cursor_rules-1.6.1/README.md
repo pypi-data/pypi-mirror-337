@@ -1,0 +1,257 @@
+# Cursor Rules
+
+A high-performance framework for managing custom instructions for AI assistants.
+
+## Installation
+
+```bash
+pip install dynamic-cursor-rules
+```
+
+For LLM integration features:
+
+```bash
+pip install dynamic-cursor-rules[llm]
+```
+
+## Usage
+
+```python
+from cursor_rules import RuleSet, Rule, parse_file, RuleExecutor
+
+# Create a rule set
+ruleset = RuleSet(name="My Rules", description="Custom rules for my assistant")
+
+# Add some rules
+ruleset.add_rule(Rule(
+    content="Always respond in a friendly tone.",
+    id="tone_friendly",
+    priority=10,
+    tags=["tone"]
+))
+
+# Save rules to a file
+ruleset.save("my_rules.json")
+
+# Load rules from different formats
+markdown_ruleset = parse_file("rules.md")
+
+# Apply rules in a production environment
+executor = RuleExecutor(ruleset)
+context = {
+    "user_input": "Tell me about Python",
+    "tags": ["programming"]
+}
+result = executor.apply_rules(context)
+print(result["instructions"])
+```
+
+## Features
+
+- Parse rules from Markdown, YAML, and JSON formats
+- Prioritize and tag rules for contextual application
+- Validate rule sets to ensure correctness
+- Apply rules within AI assistant workflows
+- Generate `.cursorrules` files for Cursor IDE integration
+- Extract and track tasks from project initialization documents
+- Generate complete documentation suites from initialization documents
+- Beautiful, interactive CLI with progress indicators and visual feedback
+- Simple and elegant API
+- Integration with LLM providers (OpenAI, Anthropic)
+
+## Rule Management
+
+### Markdown Format
+
+```markdown
+# My Rules
+
+Rules for my AI assistant
+
+## Be Concise
+
+Keep responses short and to the point.
+
+## Use Examples
+
+Provide concrete examples when explaining concepts.
+```
+
+### YAML
+
+```yaml
+name: My Rules
+description: Rules for my AI assistant
+rules:
+  - id: be_concise
+    content: Keep responses short and to the point.
+    priority: 10
+    tags: [style]
+  - id: use_examples
+    content: Provide concrete examples when explaining concepts.
+    priority: 5
+    tags: [teaching]
+```
+
+## Task Tracking
+
+Cursor Rules can extract and manage tasks from project initialization documents:
+
+```python
+from cursor_rules import extract_action_plan_from_doc, synchronize_with_cursorrules
+
+# Extract tasks from a markdown project document
+action_plan = extract_action_plan_from_doc("project_init.md")
+
+# List tasks by phase
+for phase in action_plan.phases:
+    print(f"Phase: {phase.title}")
+    for task in phase.tasks:
+        print(f"- {task.title} [Status: {task.status.name}]")
+
+# Update task status
+task = action_plan.get_task_by_id("task_id")
+if task:
+    task.status = TaskStatus.COMPLETED
+
+# Save the action plan to a file
+action_plan.save_to_file("project_tasks.json")
+
+# Load an action plan from a file
+loaded_plan = ActionPlan.load_from_file("project_tasks.json")
+
+# Sync with a ruleset
+ruleset = RuleSet.load("project_rules.json")
+synchronize_with_cursorrules(action_plan, ruleset)
+```
+
+### Command Line Interface
+
+You can also manage tasks from the command line:
+
+```bash
+# Generate an action plan from a markdown file
+cursor-tasks generate project_init.md -o project_tasks.json
+
+# List all tasks
+cursor-tasks list -f project_tasks.json
+
+# List tasks by phase
+cursor-tasks list -f project_tasks.json -p "Backend Development"
+
+# Update task status
+cursor-tasks update -f project_tasks.json -t task_id -s completed
+
+# Sync with a ruleset
+cursor-tasks sync -f project_tasks.json -r project_rules.json
+```
+
+## Document Generation
+
+Cursor Rules can generate a complete set of project documentation from a single initialization document:
+
+```python
+from cursor_rules import DocumentGenerator
+
+# Create a document generator
+generator = DocumentGenerator("project_init.md")
+
+# Generate all documents
+generated_files = generator.generate_all_documents()
+
+# Print the paths to generated files
+for doc_name, file_path in generated_files.items():
+    print(f"{doc_name}: {file_path}")
+```
+
+The generated documentation includes:
+
+- **Product Requirements Document (PRD)**: Contains project vision, target users, user stories, and requirements
+- **Technical Stack Document**: Details the technology stack, architecture, and development environment based on the PRD
+- **.cursorrules file**: Provides project-specific rules for Cursor IDE derived from the PRD
+- **Action Items**: Actual development tasks and subtasks organized by implementation phases
+
+### Document Generation Architecture
+
+Cursor Rules uses a centralized document generation approach:
+
+1. The initialization document is first used to create a comprehensive PRD
+2. The PRD then serves as the source of truth for all other documents
+3. This ensures consistency across all generated documentation
+4. Task lists represent actual development work, organized by implementation phases
+
+### Command Line Interface
+
+Generate documents with a beautiful, interactive interface:
+
+```bash
+# Generate all documentation from an initialization document
+cursor-rules documents project_init.md
+```
+
+This creates:
+- A `.cursor` directory at the root with the `.cursorrules` file
+- A `documentation` directory with all project documents (PRD, Technical Stack, Tasks)
+- A `development-log.md` file to track changes
+
+## License
+
+MIT
+
+## Examples
+
+The package includes several example scripts to demonstrate its functionality:
+
+```bash
+# Complete workflow example demonstrating all features
+python examples/complete_workflow_example.py
+
+# Document generation from initialization document
+python examples/document_generation_example.py
+
+# Task manager example
+python examples/task_manager_example.py
+
+# Rule generation example
+python examples/rule_generation_example.py
+```
+
+These examples demonstrate key features like:
+- Generating `.cursorrules` files from markdown documents
+- Creating complete documentation suites (PRD, Technical Stack, Tasks)
+- Extracting and managing tasks
+- Versioning `.cursorrules` files
+- Monitoring codebase changes
+- Working with LLM providers 
+
+## API Key Configuration
+
+For features that use LLM integration, you need to configure your API keys:
+
+```bash
+# Set up OpenAI API key
+cursor-rules llm config --provider openai --api-key your_key_here
+
+# Set up Anthropic API key
+cursor-rules llm config --provider anthropic --api-key your_key_here
+
+# List configured providers
+cursor-rules llm list
+
+# Test your configuration
+cursor-rules llm test
+```
+
+You can also use environment variables:
+
+```bash
+# Linux/macOS
+export OPENAI_API_KEY=your_key_here
+export ANTHROPIC_API_KEY=your_key_here
+
+# Windows PowerShell
+$env:OPENAI_API_KEY = "your_key_here"
+$env:ANTHROPIC_API_KEY = "your_key_here"
+```
+
+For detailed instructions, see the [API Key Setup Guide](docs/api_key_setup.md). 

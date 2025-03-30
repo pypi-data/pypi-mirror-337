@@ -1,0 +1,8 @@
+{
+    "services": {
+        "restore": {
+            "description": "Restores a snapshot of the media player zone.",
+            "name": "Restore"
+        }
+    }
+}

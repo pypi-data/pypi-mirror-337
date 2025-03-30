@@ -1,0 +1,49 @@
+{
+    "services": {
+        "delete_group": {
+            "fields": {
+                "name": {
+                    "description": "Name of the group."
+                }
+            },
+            "name": "Delete group"
+        },
+        "delete_person": {
+            "description": "Deletes a person in the group.",
+            "fields": {
+                "group": {
+                    "description": "Name of the group.",
+                    "name": "Group"
+                }
+            },
+            "name": "Delete person"
+        },
+        "face_person": {
+            "description": "Adds a new picture to a person.",
+            "fields": {
+                "camera_entity": {
+                    "description": "Camera to take a picture.",
+                    "name": "Camera entity"
+                },
+                "group": {
+                    "description": "Name of the group.",
+                    "name": "Group"
+                },
+                "person": {
+                    "name": "Person"
+                }
+            },
+            "name": "Face person"
+        },
+        "train_group": {
+            "description": "Trains a person group.",
+            "fields": {
+                "group": {
+                    "description": "Name of the group.",
+                    "name": "Group"
+                }
+            },
+            "name": "Train group"
+        }
+    }
+}

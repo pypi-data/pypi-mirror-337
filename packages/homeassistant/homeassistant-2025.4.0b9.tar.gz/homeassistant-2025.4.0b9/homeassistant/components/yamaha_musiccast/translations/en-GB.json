@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "Hostname or IP address of your Yamaha MusicCast receiver."
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "zone_surr_decoder_type": {
+                "state": {
+                    "dolby_pl2x_movie": "Dolby ProLogic 2x Film"
+                }
+            }
+        }
+    }
+}

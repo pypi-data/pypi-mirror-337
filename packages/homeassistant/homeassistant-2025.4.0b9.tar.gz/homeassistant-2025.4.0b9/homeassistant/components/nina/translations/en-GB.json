@@ -1,0 +1,11 @@
+{
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "area_filter": "Whitelist regex to filter warnings based on affected areas"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "entity_component": {
+        "power": {
+            "name": "Power"
+        },
+        "tamper": {
+            "name": "Tamper",
+            "state": {
+                "on": "Tampering detected"
+            }
+        }
+    }
+}

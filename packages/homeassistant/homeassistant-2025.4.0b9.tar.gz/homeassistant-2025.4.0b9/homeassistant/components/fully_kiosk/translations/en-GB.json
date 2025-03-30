@@ -1,0 +1,50 @@
+{
+    "common": {
+        "data_description_ssl": "Is the Fully Kiosk app configured to require SSL for the connection?",
+        "data_description_verify_ssl": "Should SSL certificates be verified? This should be off for self-signed certificates."
+    },
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of the device running your Fully Kiosk Browser application."
+                }
+            }
+        }
+    },
+    "entity": {
+        "image": {
+            "screenshot": {
+                "name": "Screenshot"
+            }
+        },
+        "notify": {
+            "overlay_message": {
+                "name": "Overlay message"
+            },
+            "tts": {
+                "name": "Text to speech"
+            }
+        }
+    },
+    "services": {
+        "set_config": {
+            "fields": {
+                "value": {
+                    "name": "Value"
+                }
+            },
+            "name": "Set configuration"
+        },
+        "start_application": {
+            "description": "Starts an application on the device running Fully Kiosk Browser.",
+            "fields": {
+                "application": {
+                    "description": "Package name of the application to start.",
+                    "name": "Application"
+                }
+            },
+            "name": "Start application"
+        }
+    }
+}

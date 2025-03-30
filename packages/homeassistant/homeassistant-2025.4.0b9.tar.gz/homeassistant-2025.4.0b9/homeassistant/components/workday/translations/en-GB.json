@@ -1,0 +1,112 @@
+{
+    "config": {
+        "error": {
+            "add_holiday_range_error": "Incorrect format on date range (YYYY-MM-DD,YYYY-MM-DD)",
+            "remove_holiday_range_error": "Incorrect format on date range (YYYY-MM-DD,YYYY-MM-DD)"
+        },
+        "step": {
+            "options": {
+                "data": {
+                    "category": "Additional category as holiday",
+                    "language": "Language for named holidays"
+                },
+                "data_description": {
+                    "category": "Select additional categories to include as holidays",
+                    "language": "Language to use when configuring named holiday exclusions",
+                    "province": "State, territory, province or region of country"
+                }
+            },
+            "user": {
+                "data": {
+                    "country": "Country"
+                }
+            }
+        }
+    },
+    "issues": {
+        "bad_country": {
+            "fix_flow": {
+                "step": {
+                    "country": {
+                        "data": {
+                            "country": "Country"
+                        },
+                        "description": "Select a country to use for your Workday sensor.",
+                        "title": "Select country for {title}"
+                    },
+                    "province": {
+                        "data_description": {
+                            "province": "State, territory, province or region of country"
+                        },
+                        "description": "Select a province in country {country} to use for your Workday sensor.",
+                        "title": "Select province for {title}"
+                    }
+                }
+            }
+        },
+        "bad_date_holiday": {
+            "fix_flow": {
+                "step": {
+                    "fix_remove_holiday": {
+                        "description": "Remove holiday date `{remove_holidays}` as it can't be found in country {country}."
+                    }
+                }
+            },
+            "title": "Configured holiday date {remove_holidays} for {title} does not exist"
+        },
+        "bad_named_holiday": {
+            "fix_flow": {
+                "step": {
+                    "fix_remove_holiday": {
+                        "description": "Remove named holiday `{remove_holidays}` as it can't be found in country {country}."
+                    }
+                }
+            },
+            "title": "Configured named holiday {remove_holidays} for {title} does not exist"
+        },
+        "bad_province": {
+            "fix_flow": {
+                "step": {
+                    "province": {
+                        "data_description": {
+                            "province": "State, territory, province or region of country"
+                        }
+                    }
+                }
+            },
+            "title": "Configured province in country {country} for {title} does not exist"
+        }
+    },
+    "selector": {
+        "category": {
+            "options": {
+                "armed_forces": "Armed forces",
+                "bank": "Bank",
+                "catholic": "Catholic",
+                "chinese": "Chinese",
+                "christian": "Christian",
+                "government": "Government",
+                "half_day": "Half-day",
+                "hebrew": "Hebrew",
+                "hindu": "Hindu",
+                "islamic": "Islamic",
+                "optional": "Optional",
+                "public": "Public",
+                "school": "School",
+                "unofficial": "Unofficial",
+                "workday": "Workday"
+            }
+        }
+    },
+    "services": {
+        "check_date": {
+            "fields": {
+                "check_date": {
+                    "description": "Date to check if workday.",
+                    "name": "Date"
+                }
+            },
+            "name": "Check date"
+        }
+    }
+}

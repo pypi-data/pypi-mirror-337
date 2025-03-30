@@ -1,0 +1,39 @@
+{
+    "config": {
+        "abort": {
+            "authorize_url_timeout": "Timeout generating authorise URL."
+        }
+    },
+    "entity": {
+        "button": {
+            "dismiss_alert": {
+                "name": "Dismiss alert"
+            }
+        },
+        "camera": {
+            "cleaning_map": {
+                "name": "Cleaning map"
+            }
+        },
+        "switch": {
+            "schedule": {
+                "name": "Schedule"
+            }
+        }
+    },
+    "services": {
+        "custom_cleaning": {
+            "fields": {
+                "navigation": {
+                    "description": "Sets the navigation mode: 1 for normal, 2 for extra care, 3 for deep. Defaults to normal if not set.",
+                    "name": "Navigation mode"
+                },
+                "zone": {
+                    "description": "Name of the zone to clean (only supported on the Botvac D7). Defaults to no zone i.e. complete house cleanup.",
+                    "name": "Zone"
+                }
+            },
+            "name": "Custom cleaning"
+        }
+    }
+}

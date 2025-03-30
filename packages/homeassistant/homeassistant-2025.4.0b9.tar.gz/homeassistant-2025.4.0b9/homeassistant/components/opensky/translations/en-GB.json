@@ -1,0 +1,29 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "altitude": "Altitude",
+                    "radius": "Radius"
+                },
+                "description": "Fill in the location to track."
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "no_authentication": "You need to authenticate to be contributing",
+            "password_missing": "Password is missing",
+            "username_missing": "Username is missing"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "altitude": "Altitude",
+                    "contributing_user": "I'm contributing to OpenSky",
+                    "radius": "Radius"
+                }
+            }
+        }
+    }
+}

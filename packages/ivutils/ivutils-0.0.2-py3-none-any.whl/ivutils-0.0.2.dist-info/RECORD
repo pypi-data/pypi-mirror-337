@@ -1,0 +1,13 @@
+ivutils/__init__.py,sha256=QRd_P25PkE-56toUVTZr0LDF458ol87hhJe1LwOxIpk,42
+ivutils/image.py,sha256=vBf5PHSjakqwThbHMlkFAcJlyAfeNeqizQ3vNFfU5X0,8906
+ivutils/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ivutils/video.py,sha256=Q1VRVw0l8pPMH3VQf0z8_PEQIaGxWckf2OlBM-QoJII,5173
+ivutils-0.0.2.dist-info/licenses/LICENSE,sha256=HX9Xp4HAeTX2yqa1bmYvZqeurICgtHs9BDiaxbwqyDY,1086
+viutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viutils/image.py,sha256=vBf5PHSjakqwThbHMlkFAcJlyAfeNeqizQ3vNFfU5X0,8906
+viutils/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viutils/video.py,sha256=Q1VRVw0l8pPMH3VQf0z8_PEQIaGxWckf2OlBM-QoJII,5173
+ivutils-0.0.2.dist-info/METADATA,sha256=lmteafCaqdJvxNE_-_6lcz0gS8hOnVZ3P8oLhU7MgRU,482
+ivutils-0.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ivutils-0.0.2.dist-info/top_level.txt,sha256=VWnI7nHZZnL66fdgArFC9sG1-2BiPZc81vqtqSTRVNQ,8
+ivutils-0.0.2.dist-info/RECORD,,

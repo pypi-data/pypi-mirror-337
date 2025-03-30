@@ -1,0 +1,12 @@
+numpy
+pyproj
+matplotlib
+cartopy
+shapely
+scipy
+netCDF4
+pyyaml
+appdirs
+aiohttp
+asyncio
+pytest

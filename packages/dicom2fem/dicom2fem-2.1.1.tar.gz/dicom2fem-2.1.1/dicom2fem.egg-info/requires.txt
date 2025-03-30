@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+pyvista
+io3d
+loguru
+imma
+imcut
+pygco
+seededitorqt
+pydicom<3.0.0,>=2.0.0

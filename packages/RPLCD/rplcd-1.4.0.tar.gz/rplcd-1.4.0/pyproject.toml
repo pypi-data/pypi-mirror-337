@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 99
+target-version = "py38"
+
+[tool.ruff.format]
+exclude = ["RPLCD/codecs/*.py", "docs/conf.py"]
+quote-style = "single"

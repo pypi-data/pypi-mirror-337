@@ -1,0 +1,6 @@
+setup.py
+qnaapp_models.egg-info/PKG-INFO
+qnaapp_models.egg-info/SOURCES.txt
+qnaapp_models.egg-info/dependency_links.txt
+qnaapp_models.egg-info/requires.txt
+qnaapp_models.egg-info/top_level.txt

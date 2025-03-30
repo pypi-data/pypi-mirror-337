@@ -1,0 +1,12 @@
+ngsfetch/__init__.py,sha256=fIHe-MVZm9tFrfIA8hejvAYWXoS2d9TiQefpHLE5t9g,72
+ngsfetch/download.py,sha256=Ir3v0A-xx7n4wM8tyeuVBixswzzrWlfbropV6dA0ITc,3249
+ngsfetch/ffq.py,sha256=JYBdYmiQ_z6AybAAhma9yVqzX2fA1URiPsbrGeaBsVM,788
+ngsfetch/general.py,sha256=LowYPYtFQR31uFEw82UHqTBB9n7xeSwkKGlylYZFZPk,391
+ngsfetch/main.py,sha256=5MsPVTrjXSxw84qMJaJm-aTCvWW5ACt6s1kcEUMO0Ac,2568
+ngsfetch/md5sum.py,sha256=D7u2PJdmlocNh51AlrmQSFJBk0VkA0uU9mEpeCnToqQ,79
+ngsfetch-0.1.1.dist-info/licenses/LICENSE,sha256=2VH1buWnNvkD3Q_HoGRsB1OJKmsd3cnzR1ZtXbciG0s,1069
+ngsfetch-0.1.1.dist-info/METADATA,sha256=dIqhAaeQ4IV2AdVTgEwK6uvXPrzpcRjWGp0Nk7FGuJk,4573
+ngsfetch-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ngsfetch-0.1.1.dist-info/entry_points.txt,sha256=ZQQgaH4-eDLYm7vsLYLFuQHR7KcyBocFfOS7e0c8s-o,48
+ngsfetch-0.1.1.dist-info/top_level.txt,sha256=ypLlHAtg-6-zG6hkzbgXYfSTQE1JbjRxF4b6Al_Wd3A,9
+ngsfetch-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+beatpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beatpy/youtube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beatpy/youtube/download_audio.py,sha256=zWE8_Ql-2IbZGiCb48bVnj7lMirKE8Gv5HH7VHu18u4,3344
+beatpy-0.0.1.dist-info/licenses/LICENCE,sha256=NqXgRdyrAdHIjhGGHXiZSzrOYfZJg8M9eMJllUzG-58,1074
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/audio_librosa.py,sha256=6yCjt4xyJO1zIQ1BFVPrUnl2q-gxNkwQwrt76DIY8-Q,2275
+src/path_download.py,sha256=eOaaqML2MSct1XlCdA3bvxwjviCmCpdk9_Py6nXvbiQ,631
+src/spleeter_utils.py,sha256=Rec_1nOWe_1hPZFnFUxnS5v2_LjZNbBPmo-69WjBdk4,1505
+beatpy-0.0.1.dist-info/METADATA,sha256=njflcTq7bajvMTF8zkvAUQ1NVYBvKTYdfkyqybOnXFU,1666
+beatpy-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+beatpy-0.0.1.dist-info/top_level.txt,sha256=x9AxaRhjviQLlBwveprEuyBN0crPDN4IYXlayHdFUSs,11
+beatpy-0.0.1.dist-info/RECORD,,

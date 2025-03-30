@@ -1,0 +1,72 @@
+Metadata-Version: 2.4
+Name: garden
+Version: 1.0.0b1
+Summary: Garden is a simple asynchronous task management library for Python.
+Project-URL: Homepage, https://github.com/pulsgarney/garden
+Project-URL: Documentation, https://pulsgarney.github.io/garden
+Project-URL: Repository, https://github.com/pulsgarney/garden
+Project-URL: Changelog, https://pulsgarney.github.io/garden/changelog
+Author-email: Puls Garney <me@pulsgarney.com>
+Maintainer-email: Puls Garney <me@pulsgarney.com>
+License-Expression: GPL-3.0
+License-File: LICENSE
+Keywords: asynchronous,asyncio compatible,background tasks,concurrency,job queue,parallel processing,productivity tools,python library,task management
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: packaging>=21.0
+Provides-Extra: all
+Provides-Extra: db
+Description-Content-Type: text/markdown
+
+![garden](assets/banner.min.jpg)
+
+Garden
+====
+
+## Overview
+
+**Garden** is a straightforward asynchronous task management library for Python. It is ideal for all uncomplicated tasks that do not require a task dependency system. It performs exceptionally well for tasks that are simple and small in nature, asynchronous, require repetition or dispatching, and can pause when certain conditions are met. For instance, tasks such as data crawling and extractions.
+
+## Todo
+
+- [x] Basic middleware feature
+- [x] Add more middleware components
+- [ ] All the docs & readme
+- [ ] Demo examples
+- [ ] Tests
+- [ ] Hooks for types & requirements
+- [x] Github profiles
+- [ ] CI/CD actions on GitHub
+
+## Requiremtns
+  * Python 3.10+
+  * No OS specific features required, should be working on all systems that supports Python.
+
+## Install
+
+```sh
+pip install garden
+```
+
+Beta now.
+
+## Documentation
+
+https://pulsgarney.github.io/garden/
+
+Work in Progress.

@@ -1,0 +1,29 @@
+
+### 4. **Add Unit Tests**
+It’s a good practice to add some tests for your code. You can use a framework like `unittest` or `pytest` to test key parts of your model. Create a `tests` folder with a test file like `test_brain.py`:
+
+```python
+import unittest
+import torch
+from parallel_brain import ParallelBrainWithStabilizedThreshold
+
+class TestParallelBrain(unittest.TestCase):
+
+    def test_stimulation(self):
+        brain = ParallelBrainWithStabilizedThreshold(num_neurons=100)
+        initial_potential = brain.potentials[0].item()
+
+        # Stimulate neuron 0
+        brain.stimulate_neurons([0], signal_strength=10)
+        self.assertGreater(brain.potentials[0].item(), initial_potential)
+
+    def test_propagation(self):
+        brain = ParallelBrainWithStabilizedThreshold(num_neurons=100)
+        initial_potential = brain.potentials[0].item()
+
+        # Propagate signals for a few steps
+        brain.propagate_signals(steps=5)
+        self.assertNotEqual(brain.potentials[0].item(), initial_potential)
+
+if __name__ == '__main__':
+    unittest.main()

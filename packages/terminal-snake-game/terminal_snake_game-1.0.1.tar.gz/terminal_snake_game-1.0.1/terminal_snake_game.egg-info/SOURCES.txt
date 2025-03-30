@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+snake_game.py
+demo/snake-game-demo.gif
+terminal_snake_game.egg-info/PKG-INFO
+terminal_snake_game.egg-info/SOURCES.txt
+terminal_snake_game.egg-info/dependency_links.txt
+terminal_snake_game.egg-info/entry_points.txt
+terminal_snake_game.egg-info/requires.txt
+terminal_snake_game.egg-info/top_level.txt

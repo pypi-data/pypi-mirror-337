@@ -1,0 +1,8 @@
+deflate/__init__.py,sha256=GtkMdTUjvdibSG51993iOVWkO9YhguvfhH6lyU8SxJc,431
+deflate/_deflate.cpython-39-x86_64-linux-gnu.so,sha256=YTIejBb_A1eP3KHMmmYQ9RcACzbRZADdAcMqXDMXhmo,96664
+deflate/_deflate.pyi,sha256=_Z-83OgEAn2y6ztmoam0FcPQTJNJ06GpjZbgaobVgis,1791
+deflate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deflate-0.8.0.dist-info/METADATA,sha256=r6Qj2Br5x_mwIiLaKKRI4sO-n8GNAiYKa2liBmZ8meQ,2899
+deflate-0.8.0.dist-info/WHEEL,sha256=BWcS-y-HMCyJVXvwPsXkC3A8CnR5r1Wc9YsegsiZzS8,115
+deflate-0.8.0.dist-info/RECORD,,
+deflate-0.8.0.dist-info/licenses/LICENSE,sha256=KjCadNFiCaHtKQ7tZCKJ5y-f0cyPcnWMR5OWqD9VaYU,1067

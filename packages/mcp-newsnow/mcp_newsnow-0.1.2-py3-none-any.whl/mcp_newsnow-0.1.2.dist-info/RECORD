@@ -1,0 +1,9 @@
+mcp_newsnow_server/__init__.py,sha256=27ekuDgCIWhGfdQdMuoEz8JD5Q_13uRaxSC7RCkn2eo,79
+mcp_newsnow_server/__main__.py,sha256=KWBRBdlKv5vld2wIQg6-JS8FnwsBWoHliuMVeraq__Y,136
+mcp_newsnow_server/cli.py,sha256=Jb0bS_XGFVWDkEcA0CTerkhu4t_p3QsEDjnsrp5VmZI,675
+mcp_newsnow_server/server.py,sha256=Y08cFmUxzWO3itQt3XF0P0neKV_32AVcENO40tIjMkI,14874
+mcp_newsnow-0.1.2.dist-info/METADATA,sha256=omckeUuVXP7ZMT-qdbgGYPBA-_g8vH_VH96d32tPKOQ,4269
+mcp_newsnow-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_newsnow-0.1.2.dist-info/entry_points.txt,sha256=CbZMVey-z0slstrKHqdF1MpZgv4Pvtvb6t2OJxO2Fyw,60
+mcp_newsnow-0.1.2.dist-info/top_level.txt,sha256=rvMdtChq70LQ-14k5qOq-GNVvK8aHY2BR26llan7J3c,19
+mcp_newsnow-0.1.2.dist-info/RECORD,,

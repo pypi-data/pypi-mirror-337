@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/chuk_mcp.egg-info/PKG-INFO
+src/chuk_mcp.egg-info/SOURCES.txt
+src/chuk_mcp.egg-info/dependency_links.txt
+src/chuk_mcp.egg-info/requires.txt
+src/chuk_mcp.egg-info/top_level.txt
+src/mcp_client/__init__.py
+src/mcp_client/main.py
+src/mcp_client/mcp_pydantic_base.py

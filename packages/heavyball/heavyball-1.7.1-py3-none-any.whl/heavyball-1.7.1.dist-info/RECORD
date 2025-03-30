@@ -1,0 +1,11 @@
+heavyball/__init__.py,sha256=tt0QMvIbU6IRDexpjSWmWdNEVfYvsPT6-hAWfKrbDQc,20379
+heavyball/chainable.py,sha256=jkiTzaXFjEMJztN3TRGkBV7s0-deCakmR1QGIZHb54o,32635
+heavyball/utils.py,sha256=UoY9XxFD8G0n56Dg7gSIQrt4pfvUAmQDU1Wc6tG5aiM,72135
+heavyball/optimizations/__init__.py,sha256=RZTs49nVN1XURYKchAG6D0V2fNNhq6td8eQ-9waK2OQ,1021
+heavyball/optimizations/integrator.py,sha256=HSkuLldED6Q1krc5oB9gL3ZcsEls7D8wI5GWgXRff5U,5923
+heavyball/optimizations/optimizations.py,sha256=CeGtYenW5lEQzPVMGQ5g6ls1-RRmpYsLVITzVC7vWCM,11541
+heavyball-1.7.1.dist-info/licenses/LICENSE,sha256=G9fFZcNIVWjU7o6Pr_4sJBRCNDU5X-zelSxIJ2D48ms,1323
+heavyball-1.7.1.dist-info/METADATA,sha256=IMsUAVKx3e7JWFWKqj2A78x8nHUQO7CIa3Hh9j3LW88,43718
+heavyball-1.7.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+heavyball-1.7.1.dist-info/top_level.txt,sha256=SzCxSVg_qCUPA4kZObW3Zyo4v-d_mMOD-p7a-WXTl2E,10
+heavyball-1.7.1.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+azure_datalake_logging/__init__.py,sha256=o3CuPuZF-kzLcaUadKOmX7JdyZRwV1OEKfJ2_n4_6qc,1857
+azure_datalake_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_datalake_logging/formatters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_datalake_logging/handlers/__init__.py,sha256=pLfrsO_2kR6PppcTs_IiE4c75tvp9IaSO0dtFMIVeIY,240
+azure_datalake_logging/handlers/base_handler.py,sha256=WeI1XaSduYGVSt6992zSw-NZjGKCajvyljxrxs3PICY,3828
+azure_datalake_logging/handlers/blob_handler.py,sha256=bex2rmw401BBsSQDTQKgcdQr7lJN8aRZJBOqWp6CHTo,89
+azure_datalake_logging/handlers/queue_handler.py,sha256=RAc-3keBq2NbbGWZrUFloQB3rxTYCNrd9UVLWQxnogY,90
+azure_datalake_logging/handlers/table_handler.py,sha256=TQ1hzS2nufgS8TxrltNKe_0yaQhT0AS-njipNNRXNic,90
+azure_datalake_logging-0.0.1.dist-info/METADATA,sha256=Y0ciAHS0ugU4rCNgEtp6N4VtNYS_lweYn_TiRpn5oRI,593
+azure_datalake_logging-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+azure_datalake_logging-0.0.1.dist-info/licenses/LICENSE,sha256=rCitXQP3XjGG002dPbYyIVK5u4Z9whpQdS2tkkVf1Lo,1063
+azure_datalake_logging-0.0.1.dist-info/RECORD,,

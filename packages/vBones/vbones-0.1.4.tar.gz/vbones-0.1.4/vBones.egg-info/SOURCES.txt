@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+.github/workflows/publish-pypi.yml
+vBones.egg-info/PKG-INFO
+vBones.egg-info/SOURCES.txt
+vBones.egg-info/dependency_links.txt
+vBones.egg-info/top_level.txt
+vbones/__init__.py
+vbones/_version.py
+vbones/hello.py

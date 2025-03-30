@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: amiquizvoucher
+Version: 0.1
+Summary: A library to generate vouchers for quiz exams
+Home-page: https://github.com/Amit-NCI/amitquiz.git
+Author: Amit yadav
+Author-email: amitky1508@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary

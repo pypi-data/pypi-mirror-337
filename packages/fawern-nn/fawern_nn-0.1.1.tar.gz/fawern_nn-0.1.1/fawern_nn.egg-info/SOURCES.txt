@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+fawern_nn/__init__.py
+fawern_nn/nn.py
+fawern_nn.egg-info/PKG-INFO
+fawern_nn.egg-info/SOURCES.txt
+fawern_nn.egg-info/dependency_links.txt
+fawern_nn.egg-info/requires.txt
+fawern_nn.egg-info/top_level.txt

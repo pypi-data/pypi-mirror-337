@@ -1,0 +1,15 @@
+mcp_server_max/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcp_server_max/client.py,sha256=IPmiDb9ZLIykrHyJ4oYB9wNTx8cF1tc8i-im5CfgAvw,7926
+mcp_server_max/exchange.py,sha256=DK0W26n0LXUHlyzBMNb4nzZ4-B0Cu78ifaZ8hlSlm8U,3368
+mcp_server_max/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mcp_server_max/server.py,sha256=tKmfB5XuJgjkPl36VQfuLNY-aR4Q6mbuxIAsQQ8KmyQ,2308
+mcp_server_max/types/__init__.py,sha256=xCfG7Bcw40n2_GPvZIPAcF8DEcuJKm7t4Pz25e2Ij3s,284
+mcp_server_max/types/currency.py,sha256=6UULrCMDYhODGbYUxmnYgKj8ZePPkTPmGXA8TKAXPg4,1048
+mcp_server_max/types/market.py,sha256=22MY4qFQJaS7A6ikC5kwQJ40X2F9iK6Am-NPaqcDhzw,724
+mcp_server_max/types/order.py,sha256=M8D1tPrxw4n43AVhLR3MZzaWEcyrAjoby1MfRv06z7g,1422
+mcp_server_max/types/ticker.py,sha256=5p9VcICzW2VYutrM3bWQ9llmTaz12oG9o9JQCyQ_IXI,1278
+mcp_server_max-0.2.0.dist-info/METADATA,sha256=SarxD-dPHuMiNFV3ere3IHILimtanCUrJPyy3ZYl_6I,1219
+mcp_server_max-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_server_max-0.2.0.dist-info/entry_points.txt,sha256=ENag6tZIAX3cncFYdRCEMtolN2V4fzwJ_OKc8O8lojE,62
+mcp_server_max-0.2.0.dist-info/licenses/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+mcp_server_max-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/weather/__init__.py
+src/weather/__main__.py
+src/weather/server.py
+src/weather_muxian.egg-info/PKG-INFO
+src/weather_muxian.egg-info/SOURCES.txt
+src/weather_muxian.egg-info/dependency_links.txt
+src/weather_muxian.egg-info/entry_points.txt
+src/weather_muxian.egg-info/requires.txt
+src/weather_muxian.egg-info/top_level.txt

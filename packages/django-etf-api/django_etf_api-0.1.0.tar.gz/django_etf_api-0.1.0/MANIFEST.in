@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include django_etf_api/static *
+recursive-include django_etf_api/templates *

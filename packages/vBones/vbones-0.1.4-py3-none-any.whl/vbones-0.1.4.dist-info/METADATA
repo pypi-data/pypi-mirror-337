@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: vBones
+Version: 0.1.4
+Summary: A simple Hello World package
+Home-page: https://github.com/Bequeller/vBones
+Author: Bequeller
+Author-email: example@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# vBones
+
+간단한 Hello World 패키지입니다.
+
+## 설치 방법
+
+```bash
+pip install vbones
+```
+
+## 사용 방법
+
+```python
+from vbones import hello
+
+# 기본 인사말 출력
+hello.say_hello()
+
+# 이름을 지정하여 인사말 출력
+hello.say_hello("Voramae")
+```

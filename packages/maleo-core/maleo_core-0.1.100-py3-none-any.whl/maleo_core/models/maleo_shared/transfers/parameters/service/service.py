@@ -1,0 +1,5 @@
+from maleo_core.models.base.transfers.parameters.service import BaseServiceParameters
+
+class MaleoSharedServiceServiceParameters:
+    GetQuery = BaseServiceParameters.GetQuery
+    Get = BaseServiceParameters.Get

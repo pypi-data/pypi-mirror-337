@@ -1,0 +1,43 @@
+[project]
+name = "kana2p"
+version = "0.1.1"
+description = "Japanese Katakana-Phonemes Conversion"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Haruhisa Enomoto", email = "73296681+haruhisa-enomoto@users.noreply.github.com" },
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+
+    # Pick your license as you wish
+    "License :: OSI Approved :: MIT License",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+
+[project.urls]
+repository = "https://github.com/haruhisa-enomoto/kana2p"
+homepage = "https://github.com/haruhisa-enomoto/kana2p"
+
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = []

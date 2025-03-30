@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: reicore-sdk
+Version: 0.1.0
+Summary: A Python SDK for interacting with the Reigent API.
+Author: reinetwork
+Author-email: rei.analoglabs@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+
+# Rei Agent SDK (Python)
+
+A Python SDK for interacting with the Reigent API.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install reicore_sdk
+```
+
+---
+
+## Usage
+
+```python
+from reicore_sdk import ReiCoreSdk
+
+# Initialize the SDK
+api_key = "your-api-key"
+rei_agent = ReiCoreSdk(api_key)
+
+# Get Agent Details
+agent = rei_agent.get_agent()
+print("Agent Details:", agent)
+
+# Chat Completion
+message = "Hello, Rei! How are you?"
+response = rei_agent.chat_completions(message)
+print("Chat Completion:", response)
+```
+
+---

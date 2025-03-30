@@ -1,0 +1,19 @@
+[project]
+name = "muzzy"
+version = "0.1.3"
+description = "A python function library"
+authors = [
+    {name = "wangshangwen",email = "shangwenwang20@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "validators (>=0.34.0,<0.35.0)",
+    "base32-tiny (>=0.1.3,<0.2.0)",
+    "setuptools (>=78.1.0,<79.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

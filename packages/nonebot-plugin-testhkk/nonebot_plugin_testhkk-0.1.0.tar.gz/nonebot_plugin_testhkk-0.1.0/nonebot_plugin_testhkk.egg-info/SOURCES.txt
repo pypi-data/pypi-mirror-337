@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+nonebot_plugin_testhkk/__init__.py
+nonebot_plugin_testhkk/ai_chat.py
+nonebot_plugin_testhkk/config.py
+nonebot_plugin_testhkk.egg-info/PKG-INFO
+nonebot_plugin_testhkk.egg-info/SOURCES.txt
+nonebot_plugin_testhkk.egg-info/dependency_links.txt
+nonebot_plugin_testhkk.egg-info/requires.txt
+nonebot_plugin_testhkk.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+google-generativeai
+colorpaws
+gradio
+markdown-pdf

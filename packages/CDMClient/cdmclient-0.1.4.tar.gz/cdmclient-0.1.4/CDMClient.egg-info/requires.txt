@@ -1,0 +1,10 @@
+requests
+transmission_rpc
+cryptography
+
+[dev]
+types-requests
+twine
+pylint
+black
+mypy

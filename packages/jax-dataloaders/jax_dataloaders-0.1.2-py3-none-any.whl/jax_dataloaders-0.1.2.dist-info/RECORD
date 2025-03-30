@@ -1,0 +1,9 @@
+jax_dataloader/__init__.py,sha256=9PGqCN6aEZP5JOdSq_AzemqzVWpOz7H6OoOwda-_8bk,168
+jax_dataloader/jax_dataloader.py,sha256=Z-R0aGoImz4z0T0hYe_RstXIt8EkPqKN7rcxStnlUpQ,14254
+jax_dataloaders-0.1.2.data/data/examples/README.md,sha256=iGMuphbXwTTj8es8znvrw4FFpIymSCJREKIFksMnwOM,1542
+jax_dataloaders-0.1.2.data/data/examples/requirements.txt,sha256=oyyUXOZlDnWnKqM6nM7rpBPI93_Nbeo8DBJgdZeIMSM,69
+jax_dataloaders-0.1.2.dist-info/licenses/LICENSE,sha256=pzq5sZ4oZwY7ZS5qbCaCrOrkQeQG6cGOUP-mzNt-Pl4,1071
+jax_dataloaders-0.1.2.dist-info/METADATA,sha256=zMmFycO938g3mSVmJE7YIYhWSZH7e5mZ2Ek-5KdcemE,3221
+jax_dataloaders-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+jax_dataloaders-0.1.2.dist-info/top_level.txt,sha256=bJmRLvBM2ZsagEfYGBI_1zsEPSvyvAKXkvXi7MkZGts,15
+jax_dataloaders-0.1.2.dist-info/RECORD,,

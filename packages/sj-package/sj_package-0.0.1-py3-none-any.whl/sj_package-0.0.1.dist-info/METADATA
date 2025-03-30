@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: sj_package
+Version: 0.0.1
+Summary: A sample test package
+Home-page: 
+Author: satish kumar paliwal
+Author-email: satishpaliwal7172@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+#This is test package

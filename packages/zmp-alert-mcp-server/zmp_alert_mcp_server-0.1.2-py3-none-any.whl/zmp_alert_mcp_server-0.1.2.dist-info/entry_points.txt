@@ -1,0 +1,3 @@
+[console_scripts]
+zmp-alert-tool=zmp_alert_mcp_server.server:main
+

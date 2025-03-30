@@ -1,0 +1,2 @@
+[console_scripts]
+jobinfo = jobinfo.main:main

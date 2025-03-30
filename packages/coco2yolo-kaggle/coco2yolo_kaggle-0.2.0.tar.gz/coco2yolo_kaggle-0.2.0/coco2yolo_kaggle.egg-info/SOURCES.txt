@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+coco2yolo_kaggle/__init__.py
+coco2yolo_kaggle/cli.py
+coco2yolo_kaggle/file_utils.py
+coco2yolo_kaggle/general_json2yolo.py
+coco2yolo_kaggle.egg-info/PKG-INFO
+coco2yolo_kaggle.egg-info/SOURCES.txt
+coco2yolo_kaggle.egg-info/dependency_links.txt
+coco2yolo_kaggle.egg-info/entry_points.txt
+coco2yolo_kaggle.egg-info/requires.txt
+coco2yolo_kaggle.egg-info/top_level.txt

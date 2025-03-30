@@ -1,0 +1,13 @@
+recallrai/__init__.py,sha256=lw4pmQKtKkfTZ50xY3Z3J9IRxaG1XMrvEsN-jSazeHY,385
+recallrai/client.py,sha256=lzD4DYL8kedr6P-9zJbf93CCt9PxmmHcSE2HzKBIU0w,6976
+recallrai/models/__init__.py,sha256=2wwbyVAY4IgBn1a7YcbA4i1_pXJpYPYuQo80N8PVTlI,361
+recallrai/models/session.py,sha256=Okn2tMmnl0UPL9q-Bl4cBaUcgs_U_nnvmKj3CHWavGY,3701
+recallrai/models/user.py,sha256=yu7HzceZ-U2Hp6lbRjA31SQsyfD3dmuBoQ9dVGvfZ14,2190
+recallrai/session.py,sha256=r045TL3a4_g0JjbCJ7VyRdhMX4JsUpVTDmMeeVwpGtY,5690
+recallrai/user.py,sha256=VwQhKSJrwEEV7LgGDHOIRbIfwRi7OE5V-F146CGD8kY,4035
+recallrai/utils/__init__.py,sha256=p_RBdfNvgBWQ62psiokCPCmZI5H7AQm8EJiRLxfHUjA,212
+recallrai/utils/exceptions.py,sha256=b-8ONmtUgcjJxUg68pXwnana-5zt4C0cR2rTliFBGBE,1581
+recallrai/utils/http.py,sha256=dGd4uUWtRDRBLZctNDNfdDr5njekMjCPBYSWcvKRpJM,5513
+recallrai-0.1.0.dist-info/METADATA,sha256=WU87emxQgZ4t5p8k9ipp8MwbbwDLWDmzrWyYzY_-TJg,7801
+recallrai-0.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+recallrai-0.1.0.dist-info/RECORD,,

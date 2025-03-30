@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: torch-things
+Version: 0.0.4
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.6.0

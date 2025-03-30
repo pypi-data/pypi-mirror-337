@@ -1,0 +1,3 @@
+[console_scripts]
+py2lambda = iluvatar_build_cli.cli:main
+

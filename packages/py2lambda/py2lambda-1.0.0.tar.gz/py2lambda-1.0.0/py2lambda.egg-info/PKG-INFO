@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py2lambda
+Version: 1.0.0
+Summary: CLI tool to build and publish Docker images for Iluvatar FaaS
+Home-page: UNKNOWN
+Author: Saket Bhatt
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

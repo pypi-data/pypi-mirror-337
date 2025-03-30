@@ -1,0 +1,2 @@
+intervaltree>=3.1.0
+pycdlib>=1.14.0

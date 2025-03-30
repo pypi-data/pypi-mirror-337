@@ -1,0 +1,14 @@
+LICENSE.AGPLv3
+README.md
+pyproject.toml
+ddrescue/__init__.py
+ddrescue/bad_files/__init__.py
+ddrescue/bad_files/backend.py
+ddrescue/bad_files/file.py
+ddrescue/bad_files/backends/pycdlib.py
+ddrescue_bad_files.egg-info/PKG-INFO
+ddrescue_bad_files.egg-info/SOURCES.txt
+ddrescue_bad_files.egg-info/dependency_links.txt
+ddrescue_bad_files.egg-info/entry_points.txt
+ddrescue_bad_files.egg-info/requires.txt
+ddrescue_bad_files.egg-info/top_level.txt

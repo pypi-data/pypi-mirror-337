@@ -1,0 +1,9 @@
+README.md
+setup.py
+discord-webhooktool/__init__.py
+discord-webhooktool/main.py
+discord_webhook_tool.egg-info/PKG-INFO
+discord_webhook_tool.egg-info/SOURCES.txt
+discord_webhook_tool.egg-info/dependency_links.txt
+discord_webhook_tool.egg-info/requires.txt
+discord_webhook_tool.egg-info/top_level.txt

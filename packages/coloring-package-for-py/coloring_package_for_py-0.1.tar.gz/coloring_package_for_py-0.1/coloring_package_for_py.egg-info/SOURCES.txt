@@ -1,0 +1,8 @@
+README.md
+setup.py
+ansi_coloring/__init__.py
+ansi_coloring/main.py
+coloring_package_for_py.egg-info/PKG-INFO
+coloring_package_for_py.egg-info/SOURCES.txt
+coloring_package_for_py.egg-info/dependency_links.txt
+coloring_package_for_py.egg-info/top_level.txt

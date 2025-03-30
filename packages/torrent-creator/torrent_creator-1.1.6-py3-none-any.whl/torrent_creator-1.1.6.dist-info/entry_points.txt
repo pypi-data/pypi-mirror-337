@@ -1,0 +1,2 @@
+[console_scripts]
+torrent-creator = torrent_creator.torrent_creator:main

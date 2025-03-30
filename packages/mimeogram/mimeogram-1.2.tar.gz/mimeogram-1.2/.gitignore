@@ -1,0 +1,7 @@
+.aider*
+.env
+.*.swp
+__pycache__/
+bugs/
+build/
+dist/

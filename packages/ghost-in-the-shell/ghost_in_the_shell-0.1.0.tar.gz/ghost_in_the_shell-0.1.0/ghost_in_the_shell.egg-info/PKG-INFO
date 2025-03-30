@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: ghost-in-the-shell
+Version: 0.1.0
+Summary: CLI with OpenAI integration
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.69.0
+Requires-Dist: prompt_toolkit

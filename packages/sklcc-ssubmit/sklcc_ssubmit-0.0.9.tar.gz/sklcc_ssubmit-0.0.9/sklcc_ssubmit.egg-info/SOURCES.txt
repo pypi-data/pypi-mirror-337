@@ -1,0 +1,8 @@
+setup.py
+sklcc_ssubmit/__init__.py
+sklcc_ssubmit/__main__.py
+sklcc_ssubmit.egg-info/PKG-INFO
+sklcc_ssubmit.egg-info/SOURCES.txt
+sklcc_ssubmit.egg-info/dependency_links.txt
+sklcc_ssubmit.egg-info/requires.txt
+sklcc_ssubmit.egg-info/top_level.txt

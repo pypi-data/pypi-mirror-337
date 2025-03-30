@@ -1,0 +1,16 @@
+torch==2.5.1
+setuptools
+numba
+performer_pytorch
+peft
+seaborn
+sympy
+bitsandbytes
+cupy-cuda12x
+nvtx
+
+[sglang]
+sgl-kernel
+flashinfer-python
+flash-attn
+sglang[all]

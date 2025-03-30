@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/ngsfetch/__init__.py
+src/ngsfetch/download.py
+src/ngsfetch/ffq.py
+src/ngsfetch/general.py
+src/ngsfetch/main.py
+src/ngsfetch/md5sum.py
+src/ngsfetch.egg-info/PKG-INFO
+src/ngsfetch.egg-info/SOURCES.txt
+src/ngsfetch.egg-info/dependency_links.txt
+src/ngsfetch.egg-info/entry_points.txt
+src/ngsfetch.egg-info/requires.txt
+src/ngsfetch.egg-info/top_level.txt

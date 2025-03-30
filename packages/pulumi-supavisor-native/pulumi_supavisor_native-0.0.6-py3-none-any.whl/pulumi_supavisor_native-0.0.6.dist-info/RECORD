@@ -1,0 +1,17 @@
+pulumi_supavisor_native/__init__.py,sha256=Dbnm-K_C-Exxx5ChuBk0otnf5P-AX-cPCfkzax96Tgg,1019
+pulumi_supavisor_native/_utilities.py,sha256=geGD7X_2Jduw2_FBMASq_sFZrsj8pmol2MyKdWrmrLo,10836
+pulumi_supavisor_native/provider.py,sha256=wqFRoaNbN038WnnG_HDRflDPmlpJo0vzIsksoTin5XE,3977
+pulumi_supavisor_native/pulumi-plugin.json,sha256=puLbKKL3bPamb-rlcQ8Qx9IUBTSLO96UCRj_Nyv9DQI,131
+pulumi_supavisor_native/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_supavisor_native/config/__init__.py,sha256=wvSgVaEQV1zygrBTAL5xYBUDQU2uGCQPU9-U6YmBZ2Q,254
+pulumi_supavisor_native/config/__init__.pyi,sha256=pi7fQPAiR3LGC7bmncOReYfybIUvtPrWAK1L50byOXw,537
+pulumi_supavisor_native/config/vars.py,sha256=0WlQM31I4OTS7Aokd4o5BGfzZN9QwC_mCPnb2_H7fYU,742
+pulumi_supavisor_native/tenants/__init__.py,sha256=8Q8hrKZdTI39-A3pNMhOSCLkBwgMeENTKqWW5HF6aMc,331
+pulumi_supavisor_native/tenants/_inputs.py,sha256=ieKMo8YUSNbRV67jEfr5SDD9bysG-xV7A_CVWAgKvzU,17820
+pulumi_supavisor_native/tenants/get_tenant.py,sha256=QmajrjdEQZRSu8koBw5gysPOIpO3mSO6ml-6-7SVHTI,9864
+pulumi_supavisor_native/tenants/outputs.py,sha256=B2dt9hOVEUSqMsQilr2a0o69N2czLYzq8NSdjW-7XKs,13132
+pulumi_supavisor_native/tenants/tenant.py,sha256=zN-2KdAci_XjEovUxp2nzFqX5HjJ54BOQsE0F_oA5_g,9402
+pulumi_supavisor_native-0.0.6.dist-info/METADATA,sha256=S0U54URGRF4zHgFUfJxOZleS3FL9Ua_OiI76EaeGOIA,6057
+pulumi_supavisor_native-0.0.6.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pulumi_supavisor_native-0.0.6.dist-info/top_level.txt,sha256=3MN9m7lHS5nPl0rCnOCz4rb6MzsEU_xqyAX-COWpcJI,24
+pulumi_supavisor_native-0.0.6.dist-info/RECORD,,

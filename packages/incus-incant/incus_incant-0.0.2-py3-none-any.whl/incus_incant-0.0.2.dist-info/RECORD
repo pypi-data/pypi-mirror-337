@@ -1,0 +1,9 @@
+incant/__init__.py,sha256=_rTr7HKAZFrOjQ5gJzWakbzo1a4qPtIJLnPyefg6P2I,87
+incant/cli.py,sha256=8o02xuen_fOOswyf80gGpljwUzzecaOgK1RnHJX-2WY,1636
+incant/incant.py,sha256=oXopal5hruckuvxkA6uMf-uBnXubB9WvRawvJLsozYQ,9508
+incant/incus_cli.py,sha256=HoFQFngQuvG0bKIhrBOFfPdODVL_wPKL-eZIGAsOCwA,7292
+incus_incant-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+incus_incant-0.0.2.dist-info/METADATA,sha256=OVeBWtF-CLZ2HvQtR0zWB2fUYM_TUu4sH0hjS7pU4ZM,2454
+incus_incant-0.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+incus_incant-0.0.2.dist-info/entry_points.txt,sha256=gSytPDLZjk0A1dN-CXV1vIDLjII05GdJPGp4oQ8IqHA,41
+incus_incant-0.0.2.dist-info/RECORD,,

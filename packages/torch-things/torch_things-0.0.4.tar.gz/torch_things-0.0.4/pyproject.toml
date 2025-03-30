@@ -1,0 +1,17 @@
+[project]
+name = "torch-things"
+version = "0.0.4"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "pytest>=8.3.5",
+    "setuptools>=78.1.0",
+    "wheel>=0.45.1",
+]

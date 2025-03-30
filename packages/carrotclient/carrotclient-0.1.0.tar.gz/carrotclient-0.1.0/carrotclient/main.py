@@ -1,0 +1,3 @@
+
+def printcarrot():
+    print("Carrot🥕")

@@ -1,0 +1,71 @@
+[project]
+name = "nlpprepkit"
+dynamic = ["version"]
+description = "Text Preprocessing Library"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "setuptools-scm>=8.2.0",
+    "tqdm>=4.67.1",
+]
+authors = [
+    { name = "vnniciusg", email = "vnniciusg@gmail.com" }
+]
+
+[project.urls]
+repository = 'https://github.com/vnniciusg/nlpprepkit'
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+    "setuptools>=76.0.0",
+    "setuptools-scm>=8.0.0,<8.2.1",
+]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+version_scheme = "only-version"
+
+[build-system]
+requires = ["setuptools>=76.0.0", "setuptools-scm>=8.0.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+
+
+[tool.ruff]
+
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+line-length = 300
+indent-width = 4

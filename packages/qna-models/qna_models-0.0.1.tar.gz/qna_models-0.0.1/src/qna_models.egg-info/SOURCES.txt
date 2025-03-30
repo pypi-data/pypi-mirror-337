@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/document_model.py
+src/qna_models.egg-info/PKG-INFO
+src/qna_models.egg-info/SOURCES.txt
+src/qna_models.egg-info/dependency_links.txt
+src/qna_models.egg-info/top_level.txt

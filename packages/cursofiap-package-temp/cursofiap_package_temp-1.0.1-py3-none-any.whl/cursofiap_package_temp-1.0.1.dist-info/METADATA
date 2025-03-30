@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: cursofiap-package-temp
+Version: 1.0.1
+Summary: Lib de teste Hello World
+Home-page: https://github.com/ManoelSa/cursofiap2025
+Author: manoel
+Author-email: seu.email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# cursofiap-package-temp
+
+A simple example library.
+
+## Installation
+
+```sh
+pip install cursofiap-package-temp
+```
+
+## Usage
+
+```python
+from cursofiap import hello_world
+
+print(hello_world())
+```

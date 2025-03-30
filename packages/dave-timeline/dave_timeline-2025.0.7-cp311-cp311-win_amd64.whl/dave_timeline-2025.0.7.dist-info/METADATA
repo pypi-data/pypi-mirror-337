@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: dave-timeline
+Version: 2025.0.7
+Summary: The timeline extension for DAVE
+Author-email: Ruben de Bruin <ruben@davelab.nl>
+License-Expression: LicenseRef-Proprietary
+Project-URL: Homepage, https://usedave.nl
+Project-URL: Issues, https://github.com/dave-Lab-and-Engineering/dave/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: usedave>=2025.0.7
+Dynamic: license-file
+
+# dave-timeline
+
+    Add timeline to your dave models
+
+This module allows to add timelines to your models.

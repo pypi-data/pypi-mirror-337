@@ -1,0 +1,23 @@
+# Changelog for 1.2.1
+* removed previous example files
+* added a way simpler example.py
+# VID-to-SCR-Lib
+Python library for converting video files (currently .mp4) to .scr screensavers and back from .scr to video.
+# Original Author 
+Development was started on March 28th, 2025, by Marcin Jacek Chmiel.
+# Contributors 
+As of now, there are no more contributors than the original author.
+If you have any problems or suggestions, contact me: martingonn-dev@outlook.com
+# Requirements
+To use scripts with the library, make sure you have ffmpeg installed. If not, install it from here: https://ffmpeg.org/download.html
+# How to install
+* Simply install it via "pip install vidToScr".
+  # Manually:
+  * install source code from .zip file (or other from repo)
+  * run "python -m build"
+# Future Additions
+* add more formats
+* Simply update for later Python versions
+* (maybe) compile for older versions
+# Downloads
+![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/MP4-to-SCR-lib/total)

@@ -1,0 +1,13 @@
+py_package_updater/__init__.py,sha256=NMWX9LyyoLBZ_rxrS9b_EDrRVBv3tWYNnX1dY7XjVYM,126
+py_package_updater/__main__.py,sha256=9iQKpD7CYXiF1QlhlrcffvrUssgY-9sbtCtdEAb5LVk,6588
+py_package_updater/environment_manager.py,sha256=gQX1-a4JNFdyq3dc1XNIKf6727o8zW34yM52peXx8to,5891
+py_package_updater/file_updater.py,sha256=6XgcXSwooavM0pGa1-GSXNv7Hi_tr8dtDZdC81TNVNI,5858
+py_package_updater/package_manager.py,sha256=jK3qPTGcBquaawRx7Dkc3Cykgv9A7BQJFbICEFbQMyQ,7802
+py_package_updater/test_discovery.py,sha256=ELHvqybaMaNZAlklC4m57Bb53eKVsPLgm4YwIzGrVwI,5644
+py_package_updater/update_tester.py,sha256=oxTCeiYdaHMPIO4O3QL1Nu6XtJknI-AhFsD8Rw8zQhg,7303
+py_package_updater-0.1.1.dist-info/licenses/LICENSE,sha256=_aRqpc-wm25bH_Qkcn6guwvgIMXwtQJVjY-y3SOdqm8,1075
+py_package_updater-0.1.1.dist-info/METADATA,sha256=buZeimN34bGOxMrWyA_YZ2JLsjFuW9e54w0TyDAVqe0,4233
+py_package_updater-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+py_package_updater-0.1.1.dist-info/entry_points.txt,sha256=5t0tQOAWK1uFELc6o8ox-rWdTpgBlkaqK9CPcm7PohU,69
+py_package_updater-0.1.1.dist-info/top_level.txt,sha256=Kk1Hrsyey1jSewDK3AWbMLIqvEJayZZHKjGAC_zKYJU,19
+py_package_updater-0.1.1.dist-info/RECORD,,

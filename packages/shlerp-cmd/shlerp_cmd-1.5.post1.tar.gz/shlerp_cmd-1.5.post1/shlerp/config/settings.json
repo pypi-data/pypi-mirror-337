@@ -1,0 +1,18 @@
+{
+    "rel_logs_path": ".local/logs",
+    "verbose": false,
+    "debug_scan": false,
+    "headless": false,
+    "logging": {
+        "prune": {
+            "enabled": true,
+            "max_days": 30
+        },
+        "no_prune": {
+            "max_log_size": 50000
+        }
+    },
+    "upload_default": {
+        "expiration": "1Q"
+    }
+}

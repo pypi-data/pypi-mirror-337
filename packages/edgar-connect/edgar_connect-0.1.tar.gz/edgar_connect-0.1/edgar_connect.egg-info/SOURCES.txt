@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+edgar_connect/__init__.py
+edgar_connect/_version.py
+edgar_connect/edgar_connect.py
+edgar_connect/exceptions.py
+edgar_connect/utilities.py
+edgar_connect.egg-info/PKG-INFO
+edgar_connect.egg-info/SOURCES.txt
+edgar_connect.egg-info/dependency_links.txt
+edgar_connect.egg-info/requires.txt
+edgar_connect.egg-info/top_level.txt

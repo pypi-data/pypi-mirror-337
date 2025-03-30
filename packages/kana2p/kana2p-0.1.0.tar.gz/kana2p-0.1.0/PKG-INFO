@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: kana2p
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Haruhisa Enomoto <73296681+haruhisa-enomoto@users.noreply.github.com>
+Requires-Python: >=3.8
+Requires-Dist: pytest>=8.3.5

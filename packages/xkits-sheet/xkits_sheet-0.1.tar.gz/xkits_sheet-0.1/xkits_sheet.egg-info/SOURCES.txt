@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xkits_sheet/__init__.py
+xkits_sheet/attribute.py
+xkits_sheet/csv.py
+xkits_sheet/table.py
+xkits_sheet/xls.py
+xkits_sheet/xlsx.py
+xkits_sheet.egg-info/PKG-INFO
+xkits_sheet.egg-info/SOURCES.txt
+xkits_sheet.egg-info/dependency_links.txt
+xkits_sheet.egg-info/requires.txt
+xkits_sheet.egg-info/top_level.txt
+xkits_sheet.egg-info/zip-safe

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xkits-sheet
+Version: 0.1
+Summary: Form module
+Home-page: https://github.com/bondbox/xsheet/
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: GPLv2
+Project-URL: Source Code, https://github.com/bondbox/xsheet/
+Project-URL: Bug Tracker, https://github.com/bondbox/xsheet/issues
+Project-URL: Documentation, https://github.com/bondbox/xsheet/
+Keywords: command-line,argparse,argcomplete
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xkits-file>=0.2
+Requires-Dist: openpyxl
+Requires-Dist: tabulate
+Requires-Dist: wcwidth
+Requires-Dist: xlrd
+Requires-Dist: xlwt
+
+# xsheet
+
+Form module

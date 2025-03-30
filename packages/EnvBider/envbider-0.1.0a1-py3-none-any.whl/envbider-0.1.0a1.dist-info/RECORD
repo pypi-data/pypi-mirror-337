@@ -1,0 +1,11 @@
+envbider/__init__.py,sha256=v0n7Hu3_bVJG4TlTuMRCBUHGw1_NroGQMXrZvC2LbG8,86
+envbider/core.py,sha256=BozxVok8R1M6b91KK0m6EfzbqQ8pnNnsEx355XmHBME,8219
+envbider-0.1.0a1.dist-info/licenses/LICENSE,sha256=XfPafM-lmkwqYX4HXaDAl0ngjiArAFQPjUs17gOjZPQ,1075
+tests/__init__.py,sha256=8SrL-xibGvb3S0oq6-WzGGT_v_RmhAoG0j5z-I8DZio,29
+tests/test_core.py,sha256=DOWHhBy2UCnCTINrZm1fd5Y6_e2hdZUN76xYAodJFQo,4314
+tests/test_custom_prefixes.py,sha256=63stzqMmvyGlB1fPWd3jm_5o960NALNKVjteuNL1Y8s,4755
+tests/test_envbider.py,sha256=Ew59aK4ZZi2mGTFMtfxmmYjTQ5J524ccAjkwl62tAUw,349
+envbider-0.1.0a1.dist-info/METADATA,sha256=YS8d-ZY2T8jjgLPuuiC05pmoY5r6bf_8TtOoarrwMv0,3671
+envbider-0.1.0a1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+envbider-0.1.0a1.dist-info/top_level.txt,sha256=HT_aYnqdnB85lG4Ijk_PPFCiSs13FfBcioNpjXukBbw,15
+envbider-0.1.0a1.dist-info/RECORD,,

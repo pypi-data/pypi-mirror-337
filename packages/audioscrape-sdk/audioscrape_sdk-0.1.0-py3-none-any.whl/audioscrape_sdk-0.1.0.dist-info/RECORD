@@ -1,0 +1,10 @@
+audioscrape/__init__.py,sha256=ohIHW-njffK5eFUvANUWHICUhJZkabnQnjN5qqzzVBY,50
+audioscrape/client.py,sha256=KvWIh3Uv5GXWjs0MYelpwAKloJl0L8QJoZFVuwa4Pd0,2049
+audioscrape/notifications/__init__.py,sha256=Kdxmsv70SQ1k_NMKC2-4b0WnIjCmbTl47jTd-lQxxNA,66
+audioscrape/notifications/api.py,sha256=MsZ_wTaB7ZZxpF0BTS0fvCufp0aq4_WAu5ZU3sqfpj0,1858
+audioscrape/search/__init__.py,sha256=CG_qm9wF0vR9_04znfzSdG7ai90IGQemGDoX7WoukqM,52
+audioscrape/search/api.py,sha256=MH-EmDHHhQCq935br5sg8uE5CeV24gAT0_jAddvLfzM,894
+audioscrape_sdk-0.1.0.dist-info/METADATA,sha256=zgKNp4o3Xt3sjE--tYtHGUJmQO4SV7cKvYwaHmIh8gA,3257
+audioscrape_sdk-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+audioscrape_sdk-0.1.0.dist-info/top_level.txt,sha256=RwhTI_XbFRwIzPSAFUQc2XkPMSgBevCoLIPgjwbl5C0,12
+audioscrape_sdk-0.1.0.dist-info/RECORD,,

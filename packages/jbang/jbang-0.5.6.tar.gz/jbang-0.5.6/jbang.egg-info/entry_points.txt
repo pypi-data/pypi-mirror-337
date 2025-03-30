@@ -1,0 +1,2 @@
+[console_scripts]
+jbang-python = jbang:main

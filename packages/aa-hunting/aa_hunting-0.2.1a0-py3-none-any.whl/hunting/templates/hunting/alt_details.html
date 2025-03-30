@@ -1,0 +1,213 @@
+{% extends "hunting/base-bs5.html" %}
+{% load i18n %}
+{% load humanize %}
+{% load evelinks %}
+{% load hunting %}
+{% load static %}
+{% block page_title %}
+{% translate "Alt Details" %} - {{ targetalt.character.character_name }}
+{% endblock page_title %}
+{% block content %}
+<div class="row">
+    {% include "hunting/target_details/locate_history.html" %}
+    <div class="col-lg-4">
+        <div class="card card-info">
+            <div class="card-header">
+                <div class="card-header">{% translate "Notes" %}</div>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    {% for note in targetalt.note_set.all %}
+                    <tr>
+                        <td>{{ note.author }} - {{ note.created_at|naturaltime }}</td>
+                        <td>{{ note.text }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-info">
+            <div class="card-header">
+                <div class="card-header">{% translate "Killmails WIP" %}</div>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    {% for kill in killmails %}{% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    {% for target in targetalt.target_set.all %}
+    <div class="col-lg-3">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-header">{{ target.character.character_name }}</div>
+            </div>
+            <div class="card-body">
+                <img src="{{ target.character.portrait_url }}"
+                alt="{{ target.character.character_name }}"
+                width="64"
+                height="64"/>
+                <img src="{{ target.character.corporation_logo_url }}"
+                alt="{{ target.character.corporation_name }}"
+                width="64"
+                height="64"/>
+                <img src="{{ target.character.alliance_logo_url }}"
+                alt="{{ target.character.alliance_name }}"
+                width="64"
+                height="64"/>
+                <img src="{{ target.ship.icon_url }}"
+                alt="{{ target.ship.name }}"
+                width="64"
+                height="64"/>
+                <br/>
+                {% translate "Location" %}:
+                {% if target.last_locatecharmsg %}
+                {% if target.last_locatecharmsg.solar_system.is_high_sec %}
+                <a class="badge badge-danger"
+                href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-danger">{{ target.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-danger">{{ target.last_locatecharmsg.region }}</span>
+                {% elif target.last_locatecharmsg.solar_system.is_low_sec %}
+                <a class="badge badge-warning"
+                href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-warning">{{ target.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-warning">{{ target.last_locatecharmsg.region }}</span>
+                {% elif target.last_locatecharmsg.solar_system.is_null_sec %}
+                <a class="badge badge-success"
+                href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-success">{{ target.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-success">{{ target.last_locatecharmsg.region }}</span>
+                {% endif %}
+                {% if target.last_locatecharmsg.station %}
+                <span class="badge badge-default">{{ target.last_locatecharmsg.station }}</span>
+                {% endif %}
+                {% endif %}
+                <br/>
+                {% translate "Timestamp" %}:
+                {% if target.last_locatecharmsg_oneday %}
+                <span class="badge badge-danger">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% elif target.last_locatecharmsg_onehour %}
+                <span class="badge badge-warning">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% else %}
+                <span class="badge badge-default">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% endif %}
+                <br/>
+                {% translate "Alts" %}:
+                {% for alt in target.alts.all %}<span class="badge badge-default">{{ alt.character.character_name }}</span>{% endfor %}
+                <br/>
+                <a class="btn btn-default"
+                href="{% url 'hunting:target_details' target.id %}"
+                role="button">{% translate "Details" %}</a>
+            </div>
+        </div>
+    </div>
+    {% for alt in target.alts.all %}
+    <div class="col-lg-3">
+        <div class="card card-info">
+            <div class="card-header">
+                <div class="card-header">{% translate "Alt" %} - {{ alt.character.character_name }}</div>
+            </div>
+            <div class="card-body">
+                {% translate "Location" %}:
+                {% if alt.last_locatecharmsg %}
+                {% if alt.last_locatecharmsg.solar_system.is_high_sec %}
+                <a class="badge badge-danger"
+                href="{{ char.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ alt.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-danger">{{ alt.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-danger">{{ alt.last_locatecharmsg.region }}</span>
+                {% elif alt.last_locatecharmsg.solar_system.is_low_sec %}
+                <a class="badge badge-warning"
+                href="{{ char.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ alt.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-warning">{{ alt.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-warning">{{ alt.last_locatecharmsg.region }}</span>
+                {% elif char.last_locatecharmsg.solar_system.is_null_sec %}
+                <a alt="{% translate "label badge-success" %}"
+                href="{{ char.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ alt.last_locatecharmsg.solar_system }}</a>
+                <span class="badge badge-success">{{ alt.last_locatecharmsg.constellation }}</span>
+                <span class="badge badge-success">{{ alt.last_locatecharmsg.region }}</span>
+                {% endif %}
+                {% if alt.last_locatecharmsg.station %}
+                <span class="badge badge-default">{{ alt.last_locatecharmsg.station }}</span>
+                {% endif %}
+                {% endif %}
+                <br/>
+                {% translate "Timestamp" %}:
+                {% if alt.last_locatecharmsg_oneday %}
+                <span class="badge badge-danger">{{ alt.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% elif alt.last_locatecharmsg_onehour %}
+                <span class="badge badge-warning">{{ alt.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% else %}
+                <span class="badge badge-default">{{ alt.last_locatecharmsg.timestamp|naturaltime }}</span>
+                {% endif %}
+                <br/>
+                {% if alt.hard_cyno %}
+                <span class="badge badge-success">{% translate "Hard Cyno" %}</span>
+                {% endif %}
+                {% if alt.pilot %}
+                <span class="badge badge-success">{% translate "Pilot" %}</span>
+                {% endif %}
+                {% if alt.hard_cyno %}
+                <span class="badge badge-info">{% translate "Beacon Cyno" %}</span>
+                {% endif %}
+                {% if alt.hard_cyno %}
+                <span class="badge badge-default">{% translate "Scout" %}</span>
+                {% endif %}
+                <br/>
+                <a class="btn btn-default"
+                href="{% url 'hunting:alt_details' alt.id %}"
+                role="button">{% translate "Details" %}</a>
+            </div>
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block extra_javascript %}
+    {% include "bundles/datatables-js-bs5.html" %}
+    {% include "bundles/moment-js.html" %}
+{% endblock extra_javascript %}
+
+{% block extra_css %}
+    {% include "bundles/datatables-css-bs5.html" %}
+{% endblock extra_css %}
+
+{% block extra_script %}
+$(document).ready(function(){
+    $('#table-locate-history').DataTable({
+        "ajax": {
+            "url": "{% url 'hunting:locate_history' %}",
+            "dataSrc": "locate_history",
+            "data": {
+                "character_id": {{ alt.character.character_id }},
+            }
+        },
+        columns: [
+        {
+            data: "timestamp"
+        },
+        {
+            data: "solar_system__name"
+        },
+        {
+            data: 'constellation__name'
+        },
+        {
+            data: "region__name"
+        },
+        {
+            data: "station__name"
+        },
+        ],
+        "processing": true,
+        "stateSave": true,
+        "stateDuration": 0
+    } );
+});
+{% endblock extra_script %}

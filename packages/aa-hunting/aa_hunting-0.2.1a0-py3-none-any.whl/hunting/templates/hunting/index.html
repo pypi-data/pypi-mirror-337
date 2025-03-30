@@ -1,0 +1,72 @@
+{% extends "hunting/base-bs5.html" %}
+{% load i18n %}
+{% load humanize %}
+{% load evelinks %}
+{% load hunting %}
+{% load static %}
+{% block page_title %}
+    {% translate "Hunting" %}
+{% endblock page_title %}
+
+{% block content %}
+    <div class="row">
+        {% for target in targets %}
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-header">{{ target.character.character_name }}</div>
+                    </div>
+                    <div class="card-body">
+                        <img src="{{ target.character.portrait_url }}" alt="{{ target.character.character_name }}" width="64" height="64" />
+                        <img src="{{ target.character.corporation_logo_url }}" alt="{{ target.character.corporation_name }}" width="64" height="64" />
+                        <img src="{{ target.character.alliance_logo_url }}" alt="{{ target.character.alliance_name }}" width="64" height="64" />
+                        <img src="{{ target.ship.icon_url }}" alt="{{ target.ship.name }}" width="64" height="64" />
+                        <br />
+                        {% translate "Location" %}:
+                        {% if target.last_locatecharmsg %}
+                            {% if target.last_locatecharmsg.solar_system.is_high_sec %}
+                                <a class="badge badge-danger" href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                                <span class="badge badge-danger">{{ target.last_locatecharmsg.constellation }}</span>
+                                <span class="badge badge-danger">{{ target.last_locatecharmsg.region }}</span>
+                            {% elif target.last_locatecharmsg.solar_system.is_low_sec %}
+                                <a class="badge badge-warning" href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                                <span class="badge badge-warning">{{ target.last_locatecharmsg.constellation }}</span>
+                                <span class="badge badge-warning">{{ target.last_locatecharmsg.region }}</span>
+                            {% elif target.last_locatecharmsg.solar_system.is_null_sec %}
+                                <a class="badge badge-success" href="{{ target.last_locatecharmsg.solar_system|dotlan_jump_range:'Super Capital' }}">{{ target.last_locatecharmsg.solar_system }}</a>
+                                <span class="badge badge-success">{{ target.last_locatecharmsg.constellation }}</span>
+                                <span class="badge badge-success">{{ target.last_locatecharmsg.region }}</span>
+                            {% endif %}
+                            {% if target.last_locatecharmsg.station %}
+                                <span class="badge badge-default">{{ target.last_locatecharmsg.station }}</span>
+                            {% endif %}
+                        {% endif %}
+                        <br />
+                        {% translate "Timestamp" %}:
+                        {% if target.last_locatecharmsg_oneday %}
+                            <span class="badge badge-danger">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                        {% elif target.last_locatecharmsg_onehour %}
+                            <span class="badge badge-warning">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                        {% else %}
+                            <span class="badge badge-default">{{ target.last_locatecharmsg.timestamp|naturaltime }}</span>
+                        {% endif %}
+                        <br />
+                        {% translate "Alts" %}:
+                        {% for alt in target.alts.all %}
+                            <span class="badge badge-default">{{ alt.character.character_name }}</span>
+                        {% endfor %}
+                        <br />
+                        <a class="btn btn-secondary" href="{% url 'hunting:target_details' target.id %}" role="button">{% translate "Details" %}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}
+
+{% block extra_javascript %}
+{% endblock extra_javascript %}
+{% block extra_css %}
+{% endblock extra_css %}
+{% block extra_script %}
+{% endblock extra_script %}

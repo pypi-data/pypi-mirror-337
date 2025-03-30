@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+bandit_log.egg-info/PKG-INFO
+bandit_log.egg-info/SOURCES.txt
+bandit_log.egg-info/dependency_links.txt
+bandit_log.egg-info/top_level.txt

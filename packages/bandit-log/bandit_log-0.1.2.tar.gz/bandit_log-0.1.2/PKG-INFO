@@ -1,0 +1,136 @@
+Metadata-Version: 2.4
+Name: bandit-log
+Version: 0.1.2
+Summary: A simple debugging tool for printing script and function names
+Author-email: somke <majesticsomke@yahoo.com>
+License: MIT License
+        
+        Copyright (c) 2025 somke
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/somke/bandit-log
+Project-URL: Bug Tracker, https://github.com/somke/bandit-log/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+
+# Bandit
+
+A lightweight Python library for debugging and logging, providing tools to retrieve script and function names dynamically. Ideal for quick insights into code execution without heavy dependencies.
+
+## Installation
+
+Install `bandit-log` from PyPI:
+
+```bash
+pip install bandit-log
+```
+
+## Features
+
+- Retrieve the current script name and function name with simple static methods.
+- Use a decorator to log execution details automatically.
+- No external dependencies, pure Python.
+
+## Usage
+
+Here’s a quick example to get you started:
+
+```python
+from bandit_log.bandit import Bandit
+
+# Decorate a function to log its name
+@Bandit.universal_print(show_script=False)
+def power_of_five(n):
+    return 5 ** n
+
+# Call the function
+print(power_of_five(3))  # Outputs: "Func: power_of_five" followed by 125
+
+# Get script and function names manually
+script, func = Bandit.names()
+print(f"Running in {script}, called from {func}")
+```
+
+### API Reference
+
+#### `Bandit.universal_print(show_script=True, show_func=True)`
+A decorator that prints the script name and/or function name before executing the function.
+
+- **Arguments:**
+  - `show_script` (bool): If `True`, prints the script name. Default: `True`.
+  - `show_func` (bool): If `True`, prints the function name. Default: `True`.
+- **Example:**
+  ```python
+  @Bandit.universal_print(show_script=False)
+  def my_func():
+      print("Hello!")
+  my_func()  # Outputs: "Func: my_func" then "Hello!"
+  ```
+
+#### `Bandit.names()`
+Returns a tuple of the current script name and the calling function name.
+
+- **Returns:** `(script_name, function_name)`
+- **Example:**
+  ```python
+  script, func = Bandit.names()
+  print(script, func)  # e.g., "example.py some_function"
+  ```
+
+#### `Bandit.func_name()`
+Returns the name of the calling function.
+
+- **Returns:** `str`
+- **Example:**
+  ```python
+  def test():
+      print(Bandit.func_name())  # Outputs: "test"
+  test()
+  ```
+
+#### `Bandit.script_name()`
+Returns the name of the current script.
+
+- **Returns:** `str`
+- **Example:**
+  ```python
+  print(Bandit.script_name())  # e.g., "example.py"
+  ```
+
+## Requirements
+
+- Python 3.7 or higher
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Feel free to open issues or submit pull requests on [GitHub](https://github.com/somke/bandit-log).
+
+---
+Made with ❤️ by somke
+```

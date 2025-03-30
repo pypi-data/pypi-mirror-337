@@ -1,0 +1,17 @@
+reddit_flair_analyzer-1.0.1.dist-info/licenses/LICENSE,sha256=dgjw5fuigwlKUmcZ6_bu0BGSiAvOt62etv-ZyLan5Jk,1067
+redditflairanalyzer/__init__.py,sha256=l86dpyQgFCZNr0en2fVQgWqnTeoGZpAL936pOzxhGQM,4854
+redditflairanalyzer/analyzer.py,sha256=-2G-cbWdXJaVRrRPUCy-UgsMLl5_VKCVsLahqubotCw,15069
+redditflairanalyzer/cli.py,sha256=kkGZ6M6aEdenVLOcTTUceUeMvu9f7ys2gLf2zUErq7s,10869
+redditflairanalyzer/logger.py,sha256=QmpQoBOEILIrP7XB0GDnUGNnb9klZy_uUISF5F-nM8E,4359
+redditflairanalyzer/scraper.py,sha256=j0afoIKVC1L5Y7vCBMH4AiMvIWuVs7LrAI4HBAgnlR8,10705
+redditflairanalyzer/utils.py,sha256=93dkFWwdcD9ifsRHAVA7Qyy2fdUmheyHtY07MrOC_9c,9001
+redditflairanalyzer/visualizer.py,sha256=YLxKv_1ot3gXOLRNKNYB0UA80VaFfp-1S_K4GJalgmI,59234
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_analyzer.py,sha256=3O0o17P9KTE8rg5FE8q5R25uK_yA6JQLlT63JAdlEdc,1327
+tests/test_scraper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_visualizer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reddit_flair_analyzer-1.0.1.dist-info/METADATA,sha256=ESTQ8XWrjYos0STw3i4ng6H4PVBkKO8S8sL0G5gjbUA,11042
+reddit_flair_analyzer-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+reddit_flair_analyzer-1.0.1.dist-info/entry_points.txt,sha256=wbrvnIT4uONKDUkYW64pFv45NrEBCPT4OmcSI-UkfIw,64
+reddit_flair_analyzer-1.0.1.dist-info/top_level.txt,sha256=huoknrnzmzvUe350Y2rTl8BYyMEhksNyQagGfsBWCH4,26
+reddit_flair_analyzer-1.0.1.dist-info/RECORD,,

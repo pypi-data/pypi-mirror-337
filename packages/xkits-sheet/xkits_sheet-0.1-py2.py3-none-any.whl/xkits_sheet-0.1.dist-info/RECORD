@@ -1,0 +1,12 @@
+xkits_sheet/__init__.py,sha256=jue8x9Ud6fTXuJo9ql18SmJmkaH_RcI7jlxsQO_2epU,425
+xkits_sheet/attribute.py,sha256=IuYs688T-A6aKjUpV19or2AzX0tiYv_X2_USCyXYWlg,228
+xkits_sheet/csv.py,sha256=eHdmq7ObmjDrRAKq6NxG_ySPsToti4EPhnRV3c0WEN8,1902
+xkits_sheet/table.py,sha256=bccz0iwuYW7aHReSwx0fAGOSNnuixgBj_fFIz3M7kMo,6277
+xkits_sheet/xls.py,sha256=RoaaA9L6fueRbqjAvDeXbu9EZPkgAIhvuVdJO2dlq0U,3048
+xkits_sheet/xlsx.py,sha256=iKf1tsXOsg9Jahk49cLS5cZxxewCn4VvqZrKKw1Y_vY,1508
+xkits_sheet-0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xkits_sheet-0.1.dist-info/METADATA,sha256=6i4OtdEYvcZRY-55_MFVEkQ6bGap0S82LQdBKjpL0ck,783
+xkits_sheet-0.1.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+xkits_sheet-0.1.dist-info/top_level.txt,sha256=6Tbp6MmlvCxwOWYf3CmSjUA7sKviOA5mUTFOTc0RRrY,12
+xkits_sheet-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xkits_sheet-0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/emoji_sentiment/Emoji_Sentiment_Data_v1.0.csv
+src/emoji_sentiment/__init__.py
+src/emoji_sentiment/emoji.py
+src/emoji_sentiment.egg-info/PKG-INFO
+src/emoji_sentiment.egg-info/SOURCES.txt
+src/emoji_sentiment.egg-info/dependency_links.txt
+src/emoji_sentiment.egg-info/requires.txt
+src/emoji_sentiment.egg-info/top_level.txt
+tests/test_emoji_sentiment.py

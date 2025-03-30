@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: nervos
+Version: 0.0.1
+Summary: Tool to simulate Spiking Neural Networks
+Author: Jaskirat Singh Maskeen
+Author-email: <jsmaskeen@gmail.com>
+Keywords: python,spiking neural network,simulation,stdp,snn,neuromorphic computing,mnist,iris
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: keras
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+
+# Nervos
+## Jaskirat Singh Maskeen

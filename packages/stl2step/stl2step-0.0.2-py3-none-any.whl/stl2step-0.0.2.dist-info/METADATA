@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: stl2step
+Version: 0.0.2
+Summary: Non-trivial conversion of STL files into STEP files.
+License: AGPLv3
+Author: Stefan Helmert
+Author-email: stefan@entroserv.de
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cadquery (>=2.4.0,<3.0.0)
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: numpy-stl (>=3.1.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Intelligent conversion from STL to STEP
+
+This cli program converts STL files into STEP file in a non-trivial way. It segments the mesh into basic shapes. That means, the generated STEP file isn't only a bunch of triangles, it has planes, cylinders, spheres etc. resulting in less memory usage and it is friendlier to CAD and CAM. 
+
+Experimental state: Only planes are implemented! Holes are not supported!
+
+![screenshot of the output screw.step imported into FreeCAD](screw_step.png)
+
+
+## Usage
+
+```bash
+python3 stl2step myfile.stl
+```
+
+The out file is named similar to the input file: `myfile.step`, because it only replaces `.stl` with `.step`.
+
+## Autor
+
+Stefan Helmert <stefan@entroserv.de>
+
+## License
+
+AGPL v3
+
+
+
+

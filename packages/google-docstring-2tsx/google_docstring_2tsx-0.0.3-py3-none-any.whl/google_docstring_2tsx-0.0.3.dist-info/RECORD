@@ -1,0 +1,13 @@
+docstring_2tsx/__init__.py,sha256=vcXxn_PSNf6Zo-0xKa1_f84u-vnIp4Lj2sG04O6KSTg,133
+docstring_2tsx/cli.py,sha256=qPJp2TMFoMfVPtLI43wqdv3qIm7kYKbVcsgMIGklMQc,1061
+docstring_2tsx/converter.py,sha256=X-z-81JxwhKCLk-kfQCBjb2X1oWFOwg_F_J86G57RW0,6995
+docstring_2tsx/processor.py,sha256=y2_RXSklXYgd-P5X4HRXNrHwqc_6WSzO2-WmGD3cjTE,3864
+google_docstring_2tsx-0.0.3.dist-info/licenses/LICENSE,sha256=9X6j1qMuBsJLAgOXuAWG8THuRiIWlbfqGvxJOVLbHqY,3018
+utils/__init__.py,sha256=5CRfAao96xni-sIQaTwmP32O1rRreJxn_W-CE5U-UGE,117
+utils/shared.py,sha256=iiCNp65tbzzmABOYp9IkG0J-wwWzPbCkG9NE6d43tg8,8312
+utils/signature_formatter.py,sha256=5nmYqtZunEfk_L_pXdfbXC9AzvsiHnNy198TB85EdGU,4767
+google_docstring_2tsx-0.0.3.dist-info/METADATA,sha256=BDARKkl5mz-HSuAz76Ofiw4YQQsHI2DCjcKCtpoI2Fw,3914
+google_docstring_2tsx-0.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+google_docstring_2tsx-0.0.3.dist-info/entry_points.txt,sha256=X9vR51vchsYMGLkov6uaz0Id6bhOfZCkg4eShNeEjZ0,52
+google_docstring_2tsx-0.0.3.dist-info/top_level.txt,sha256=Qs1otJWXOt_8W1lPsra3Cbynth80bEC43DQ5-Iwc4IE,21
+google_docstring_2tsx-0.0.3.dist-info/RECORD,,

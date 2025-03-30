@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: selenium-print-external
+Version: 0.1.1
+Summary: 
+Author: Teddy Xinyuan Chen
+Author-email: 45612704+tddschn@users.noreply.github.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: selenium (>=4.30.0,<5.0.0)
+Requires-Dist: undetected-chromedriver (>=3.5.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# selenium-print-external
+
+Like https://github.com/bubblegumsoldier/selenium-print but you can bring your own driver, like undetected-chromedriver.
+
+
+`selenium-print-external` is a lightweight Python package that enables printing the current page of an *existing* Selenium WebDriver instance to PDF.
+
+This package is designed for users who manage their own Selenium WebDriver lifecycle (e.g., using `selenium`, `undetected-chromedriver`, or other WebDriver managers) and simply need a utility to trigger the browser's "Print to PDF" functionality on the currently loaded page.
+
+It differs from libraries like `selenium-print` because it **does not** create or manage the WebDriver instance itself. You provide the driver, you navigate it, and then you use this library to print.
+
+## Features
+
+- Uses an existing, user-provided Selenium WebDriver instance.
+- Leverages the browser's built-in "Print to PDF" via Chrome DevTools Protocol (CDP).
+- Minimal dependencies (primarily `selenium`).
+- Avoids internal driver initialization, preventing common setup issues.
+- Returns PDF as raw bytes or saves directly to a file.
+
+## Installation
+
+```bash
+pip install selenium-print-external
+```
+
+You also need `selenium` installed, and whichever WebDriver package you are using (like `selenium` itself, `undetected-chromedriver`, etc.).
+
+```bash
+pip install selenium
+# Optional, if using undetected-chromedriver
+pip install undetected-chromedriver
+```
+
+## Usage
+
+1.  **Initialize your WebDriver** using your preferred method (e.g., `selenium`, `undetected-chromedriver`).
+2.  **Navigate** the driver to the desired web page.
+3.  **Wait** for any dynamic content to load if necessary.
+4.  **Instantiate `ExternalSeleniumPrinter`** with your driver.
+5.  **Call `print_current_page_to_pdf()`** to get the PDF bytes or save to a file.
+6.  **Manage your driver's lifecycle** (e.g., `driver.quit()`) yourself.
+
+```python
+import undetected_chromedriver as uc
+from selenium_print_external import ExternalSeleniumPrinter
+import time
+import os
+
+# --- User manages driver ---
+options = uc.ChromeOptions()
+# options.add_argument('--headless') # Headless often needed for servers
+driver = uc.Chrome(options=options, use_subprocess=False)
+
+try:
+    # Navigate to the desired page
+    url = "https://www.example.com"
+    print(f"Navigating to {url}...")
+    driver.get(url)
+
+    # Optional: Wait for page elements or a specific condition
+    print("Waiting for page to potentially load...")
+    time.sleep(3) # Simple wait, replace with explicit waits if needed
+
+    # --- Use the library to print ---
+    print("Initializing printer...")
+    printer = ExternalSeleniumPrinter(driver)
+
+    # Option 1: Save to file
+    output_pdf_path = "example_uc.pdf"
+    print(f"Printing current page to {output_pdf_path}...")
+    printer.print_current_page_to_pdf(output_path=output_pdf_path)
+    print(f"PDF saved: {os.path.exists(output_pdf_path)}")
+
+    # Option 2: Get raw bytes
+    # print("Printing current page to bytes...")
+    # pdf_bytes = printer.print_current_page_to_pdf()
+    # print(f"Received {len(pdf_bytes)} bytes.")
+    # with open("example_uc_bytes.pdf", "wb") as f:
+    #     f.write(pdf_bytes)
+    # print("PDF from bytes saved.")
+
+finally:
+    # --- User manages driver ---
+    print("Quitting driver...")
+    driver.quit()
+
+```
+
+## Notes
+
+- This library relies on the `Page.printToPDF` Chrome DevTools Protocol command. Ensure your WebDriver instance supports CDP commands (most modern Chrome/Chromium drivers do).
+- The user is responsible for all driver setup, navigation, waiting strategies, and teardown (`driver.quit()`). This library *only* performs the print action.
+

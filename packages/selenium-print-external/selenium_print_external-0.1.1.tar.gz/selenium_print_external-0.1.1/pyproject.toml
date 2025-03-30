@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "selenium-print-external"
+version = "0.1.1"
+description = ""
+authors = ["Teddy Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+undetected-chromedriver = "^3.5.5"
+selenium = "^4.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

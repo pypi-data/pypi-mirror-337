@@ -1,0 +1,2 @@
+[console_scripts]
+dyad_app = dyad_app.cli.cli:main

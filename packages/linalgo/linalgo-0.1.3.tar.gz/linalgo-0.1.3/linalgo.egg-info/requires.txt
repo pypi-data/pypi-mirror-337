@@ -1,0 +1,7 @@
+ipython
+google-cloud
+google-cloud-bigquery
+numpy
+pillow
+python-dateutil
+requests

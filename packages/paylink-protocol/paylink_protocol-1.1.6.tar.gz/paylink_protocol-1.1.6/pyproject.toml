@@ -1,0 +1,18 @@
+[project]
+name = "paylink_protocol"
+version = "1.1.6"
+description = "A Python library for managing the PayLink Protocol on Ethereum."
+authors = [
+    { name="Paylink Protocol", email="mail@paylinkprotocol.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

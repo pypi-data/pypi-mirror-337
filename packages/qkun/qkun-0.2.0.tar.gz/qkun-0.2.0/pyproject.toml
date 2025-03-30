@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qkun"
+version = "0.2.0"
+description = "Tools for Satellite observation"
+authors = [
+  { name="Cheng Li", email="chengcli@umich.edu" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pyproj",
+  "matplotlib",
+  "cartopy",
+  "shapely",
+  "scipy",
+  "netCDF4",
+  "pyyaml",
+  "appdirs",
+  "aiohttp",
+  "asyncio",
+  "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/chengcli/qkun"
+Documentation = "https://github.com/chengcli/qkun"
+
+[project.scripts]
+search_granule = "qkun.api.search_granule:main"

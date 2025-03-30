@@ -1,0 +1,811 @@
+{
+    "questions": [
+      {
+        "question": "Which type of correlation must be used to find correlation between Study hours and Rank a student got (1-5)?",
+        "options": ["Pearson", "Kendall's", "Spearman", "Phi coefficient"],
+        "answer": "Spearman"
+      },
+      {
+        "question": "What is the main difference between descriptive and inferential statistics?",
+        "options": [
+          "Descriptive statistics summarize data, while inferential statistics make predictions based on data.",
+          "Descriptive statistics use probabilities, while inferential statistics do not.",
+          "Inferential statistics are used for qualitative data, while descriptive statistics are used for quantitative data.",
+          "Descriptive statistics require hypothesis testing, while inferential statistics do not."
+        ],
+        "answer": "Descriptive statistics summarize data, while inferential statistics make predictions based on data."
+      },
+      {
+        "question": "What does the Central Limit Theorem state about the distribution of sample means?",
+        "options": [
+          "Sample means always follow a normal distribution regardless of sample size.",
+          "The distribution of sample means approaches normality as the sample size increases.",
+          "The population distribution must be normal for sample means to be normally distributed.",
+          "Sample means are always equal to the population mean."
+        ],
+        "answer": "The distribution of sample means approaches normality as the sample size increases."
+      },
+      {
+        "question": "Which measure of central tendency is least affected by extreme values?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Median"
+      },
+      {
+        "question": "What is the primary purpose of hypothesis testing in statistics?",
+        "options": [
+          "To establish causation between variables",
+          "To determine whether a statement about a population parameter is true",
+          "To summarize data using measures of central tendency",
+          "To calculate probabilities for random events"
+        ],
+        "answer": "To determine whether a statement about a population parameter is true"
+      },
+      {
+        "question": "Which probability distribution is used to model the number of successes in a fixed number of independent trials?",
+        "options": ["Normal distribution", "Binomial distribution", "Poisson distribution", "Exponential distribution"],
+        "answer": "Binomial distribution"
+      },
+      {
+        "question": "What does it mean if two events are mutually exclusive in probability theory?",
+        "options": [
+          "They can occur at the same time.",
+          "The occurrence of one event affects the probability of the other.",
+          "They cannot occur simultaneously.",
+          "They have equal probabilities."
+        ],
+        "answer": "They cannot occur simultaneously."
+      },
+      {
+        "question": "In probability, what is the difference between independent and dependent events?",
+        "options": [
+          "Independent events have equal probabilities, while dependent events do not.",
+          "Independent events occur simultaneously, while dependent events occur sequentially.",
+          "Independent events do not affect each other's probabilities, while dependent events do.",
+          "Independent events are mutually exclusive, while dependent events are not."
+        ],
+        "answer": "Independent events do not affect each other's probabilities, while dependent events do."
+      },
+      {
+        "question": "What is the significance level (α) in hypothesis testing?",
+        "options": [
+          "The probability of rejecting a true null hypothesis",
+          "The probability of accepting a false null hypothesis",
+          "The threshold for determining statistical significance",
+          "The mean value of the test statistic"
+        ],
+        "answer": "The threshold for determining statistical significance"
+      },
+      {
+        "question": "\"If A and B are independent events, then P(A ∩ B) = ?\"",
+        "options": [
+          "\"P(A) + P(B)\"",
+          "\"P(A) × P(B)\"",
+          "\"P(A | B)\"",
+          "\"P(A) - P(B)\""
+        ],
+        "answer": "\"P(A) × P(B)\""
+      },
+      {
+        "question": "\"What is the purpose of Bayes' Theorem in probability?\"",
+         "options": [
+           "\"To calculate conditional probabilities\"",
+           "\"To calculate joint probabilities\"",
+           "\"To determine independence between two events\"",
+           "\"To model random variables\""
+         ],
+         "answer": "\"To calculate conditional probabilities\""
+       },
+    
+      {
+      "question": "Which of the following is NOT a measure of central tendency?",
+      "options": ["Mean", "Median", "Mode", "Variance"],
+      "answer": "Variance"
+    },
+    {
+      "question": "What is the primary purpose of Chebyshev’s Inequality?",
+      "options": [
+        "To determine the probability distribution of a dataset",
+        "To estimate the minimum proportion of values within k standard deviations from the mean",
+        "To compare two datasets",
+        "To calculate the mean of a dataset"
+      ],
+      "answer": "To estimate the minimum proportion of values within k standard deviations from the mean"
+    },
+    {
+      "question": "Which correlation method is best suited for ordinal data?",
+      "options": ["Pearson", "Spearman", "Kendall’s", "Chi-square"],
+      "answer": "Spearman"
+    },
+    {
+      "question": "The sum of deviations of all values from the mean in a dataset is always:",
+      "options": ["Zero", "Positive", "Negative", "Equal to variance"],
+      "answer": "Zero"
+    },
+    {
+      "question": "In a symmetric distribution, which measures of central tendency are equal?",
+      "options": ["Mean and Mode", "Mean and Median", "Mode and Median", "All three are equal"],
+      "answer": "All three are equal"
+    },
+    {
+      "question": "Which visualization technique is best suited for comparing the spread of multiple datasets?",
+      "options": ["Histogram", "Scatter Plot", "Box Plot", "Pie Chart"],
+      "answer": "Box Plot"
+    },
+    {
+      "question": "What does a high standard deviation indicate about a dataset?",
+      "options": [
+        "The data points are closely packed around the mean",
+        "The data points are widely spread from the mean",
+        "The dataset is skewed",
+        "There is a strong correlation"
+      ],
+      "answer": "The data points are widely spread from the mean"
+    },
+    {
+      "question": "What is the interquartile range (IQR) used for?",
+      "options": [
+        "Measuring the spread of the middle 50% of data",
+        "Finding the average of a dataset",
+        "Determining the variance",
+        "Calculating correlation coefficients"
+      ],
+      "answer": "Measuring the spread of the middle 50% of data"
+    },
+    {
+      "question": "Which of the following is true about a normal distribution?",
+      "options": [
+        "Mean > Median > Mode",
+        "It is always skewed",
+        "The area under the curve is 1",
+        "It is bimodal"
+      ],
+      "answer": "The area under the curve is 1"
+    },
+    {
+      "question": "Which dataset is best visualized using a scatter plot?",
+      "options": [
+        "Categorical data",
+        "Numerical data showing relationships",
+        "Single-variable distributions",
+        "Data with percentiles"
+      ],
+      "answer": "Numerical data showing relationships"
+    },
+    {
+      "question": "What is the difference between population variance and sample variance?",
+      "options": [
+        "Sample variance uses n-1 in the denominator, while population variance uses n",
+        "Population variance is always greater",
+        "Sample variance includes all possible values",
+        "There is no difference"
+      ],
+      "answer": "Sample variance uses n-1 in the denominator, while population variance uses n"
+    },
+    {
+      "question": "Which of the following correlation values indicates the strongest relationship?",
+      "options": ["-0.95", "0.80", "-0.50", "0.30"],
+      "answer": "-0.95"
+    },
+    {
+      "question": "A box plot does NOT show which of the following?",
+      "options": ["Median", "Outliers", "Mean", "Interquartile Range"],
+      "answer": "Mean"
+    },
+    {
+      "question": "What is the primary advantage of using percentiles?",
+      "options": [
+        "They provide a measure of central tendency",
+        "They help compare values across different distributions",
+        "They show the correlation between variables",
+        "They replace standard deviation"
+      ],
+      "answer": "They help compare values across different distributions"
+    },
+    {
+      "question": "Which measure of dispersion is least affected by outliers?",
+      "options": ["Variance", "Range", "Standard Deviation", "Interquartile Range"],
+      "answer": "Interquartile Range"
+    },
+    {
+      "question": "Which type of dataset is best suited for paired t-tests?",
+      "options": ["Independent datasets", "Normal datasets", "Paired datasets", "Categorical datasets"],
+      "answer": "Paired datasets"
+    },
+    {
+      "question": "Which method is used to estimate missing data points in a dataset?",
+      "options": ["Chebyshev's Inequality", "Interpolation", "Histogram", "Box Plot"],
+      "answer": "Interpolation"
+    },
+    {
+      "question": "What does a negatively skewed distribution indicate?",
+      "options": [
+        "Most values are concentrated on the right",
+        "The mean is greater than the median",
+        "Most values are concentrated on the left",
+        "It is bimodal"
+      ],
+      "answer": "Most values are concentrated on the right"
+    },
+    {
+      "question": "Which of the following indicates that two variables have no correlation?",
+      "options": ["r = 0", "r = 1", "r = -1", "r = 0.5"],
+      "answer": "r = 0"
+    },
+    {
+      "question": "In a dataset, the 75th percentile means that:",
+      "options": [
+        "75% of values are below this point",
+        "75% of values are above this point",
+        "It is equal to the mean",
+        "It represents the most frequent value"
+      ],
+      "answer": "75% of values are below this point"
+    },
+    {
+        "question": "Which type of correlation must be used to find correlation between Study hours and Rank a student got (1-5)?",
+        "options": ["Pearson", "Kendall's", "Spearman", "Phi coefficient"],
+        "answer": "Spearman"
+      },
+      {
+        "question": "Which measure of central tendency is most affected by extreme values?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Mean"
+      },
+      {
+        "question": "What percentage of data lies within one standard deviation from the mean in a normal distribution?",
+        "options": ["50%", "68%", "95%", "99.7%"],
+        "answer": "68%"
+      },
+      {
+        "question": "According to Chebyshev's inequality, at least what percentage of data lies within 2 standard deviations of the mean for any distribution?",
+        "options": ["50%", "75%", "89%", "95%"],
+        "answer": "75%"
+      },
+      {
+        "question": "Which component of a box plot represents the middle 50% of the data?",
+        "options": ["Whiskers", "Box", "Median line", "Outliers"],
+        "answer": "Box"
+      },
+      {
+        "question": "If two regression lines intersect at a right angle, what is the value of the correlation coefficient?",
+        "options": ["0", "1", "-1", "0.5"],
+        "answer": "0"
+      },
+      {
+        "question": "Which data type is appropriate for recording student grades as A, B, C, D, or F?",
+        "options": ["Nominal", "Ordinal", "Interval", "Ratio"],
+        "answer": "Ordinal"
+      },
+      {
+        "question": "The sum of deviations from which measure of central tendency is always zero?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Mean"
+      },
+      {
+        "question": "Which measure of dispersion uses only two observations?",
+        "options": ["Range", "Variance", "Standard Deviation", "Quartile Deviation"],
+        "answer": "Range"
+      },
+      {
+        "question": "What is the shape of a normal distribution curve?",
+        "options": ["Bell-shaped", "U-shaped", "J-shaped", "Flat"],
+        "answer": "Bell-shaped"
+      },
+      {
+        "question": "If the coefficient of variation for dataset A is 15% and for dataset B is 20%, which dataset has more relative variability?",
+        "options": ["Dataset A", "Dataset B", "Both have equal variability", "Cannot be determined"],
+        "answer": "Dataset B"
+      },
+      {
+        "question": "Which correlation coefficient is most appropriate when dealing with tied ranks?",
+        "options": ["Pearson", "Spearman", "Kendall's Tau", "Phi coefficient"],
+        "answer": "Kendall's Tau"
+      },
+      {
+        "question": "What does the interquartile range (IQR) measure?",
+        "options": ["Difference between maximum and minimum values", "Difference between Q3 and Q1", "Difference between mean and median", "Difference between mode and mean"],
+        "answer": "Difference between Q3 and Q1"
+      },
+      {
+        "question": "Which of the following is not a measure of central tendency?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Range"
+      },
+      {
+        "question": "In a normal distribution, where are the mean, median, and mode located?",
+        "options": ["At different positions", "At the same position", "Mean at center, others at tails", "Cannot be determined"],
+        "answer": "At the same position"
+      },
+      {
+        "question": "What happens to the variance if all data points are multiplied by a constant k?",
+        "options": ["Remains unchanged", "Multiplied by k", "Multiplied by k²", "Multiplied by √k"],
+        "answer": "Multiplied by k²"
+      },
+      {
+        "question": "Which of the following is true about outliers in a box plot?",
+        "options": ["They are always included in the whiskers", "They are represented by dots beyond the whiskers", "They are never shown in box plots", "They are part of the box"],
+        "answer": "They are represented by dots beyond the whiskers"
+      },
+      {
+        "question": "If two variables have a correlation coefficient of -0.9, what does this indicate?",
+        "options": ["Weak negative relationship", "Strong negative relationship", "Weak positive relationship", "Strong positive relationship"],
+        "answer": "Strong negative relationship"
+      },
+      {
+        "question": "Which of the following is an assumption for Pearson correlation?",
+        "options": ["Data must be normally distributed", "Variables must be measured on ordinal scale", "Sample size must be at least 100", "Variables must be categorical"],
+        "answer": "Data must be normally distributed"
+      },
+      {
+        "question": "What is the primary purpose of regression analysis?",
+        "options": ["To find correlation between variables", "To predict values of dependent variable", "To test for normality", "To identify outliers"],
+        "answer": "To predict values of dependent variable"
+      },
+      {
+        "question": "If the mean of a dataset is 50 and the standard deviation is 10, what is the coefficient of variation?",
+        "options": ["5%", "10%", "20%", "50%"],
+        "answer": "20%"
+      },
+      {
+        "question": "Which measure of dispersion is dimensionless?",
+        "options": ["Standard Deviation", "Variance", "Range", "Coefficient of Variation"],
+        "answer": "Coefficient of Variation"
+      },
+      {
+        "question": "What does a standard normal distribution have as its mean and standard deviation?",
+        "options": ["Mean=0, SD=1", "Mean=1, SD=0", "Mean=0, SD=0", "Mean=1, SD=1"],
+        "answer": "Mean=0, SD=1"
+      },
+      {
+        "question": "Which of the following is not affected by extreme values?",
+        "options": ["Mean", "Variance", "Standard Deviation", "Median"],
+        "answer": "Median"
+      },
+      {
+        "question": "What is the relationship between the mean, median, and mode in a right-skewed distribution?",
+        "options": ["Mean > Median > Mode", "Mode > Median > Mean", "Mean = Median = Mode", "Mean < Median < Mode"],
+        "answer": "Mean > Median > Mode"
+      },
+      {
+        "question": "Which graphical representation is best for comparing the distribution of multiple datasets?",
+        "options": ["Histogram", "Pie chart", "Multiple box plots", "Scatter plot"],
+        "answer": "Multiple box plots"
+      },
+      {
+        "question": "If P(A) = 0.3 and P(B) = 0.4 and the events are independent, what is P(A ∩ B)?",
+        "options": ["0.12", "0.7", "0.1", "0.58"],
+        "answer": "0.12"
+      },
+      {
+        "question": "What does the mode represent in a dataset?",
+        "options": ["Middle value", "Average value", "Most frequent value", "Least frequent value"],
+        "answer": "Most frequent value"
+      },
+      {
+        "question": "Which of the following is true about the standard deviation?",
+        "options": ["It is always positive or zero", "It can be negative", "It equals the square of variance", "It is always less than the mean"],
+        "answer": "It is always positive or zero"
+      },
+      {
+        "question": "What are quartiles used to divide a dataset into?",
+        "options": ["Two equal parts", "Three equal parts", "Four equal parts", "Five equal parts"],
+        "answer": "Four equal parts"
+      },
+      {
+        "question": "If a dataset has a bimodal distribution, how many modes does it have?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+      },
+      {
+        "question": "What is the formula for calculating the z-score of a data point?",
+        "options": ["(x - mean) / standard deviation", "(x - median) / range", "(x - mode) / variance", "(x - mean) / variance"],
+        "answer": "(x - mean) / standard deviation"
+      },
+      {
+        "question": "Which of the following is not a property of the normal distribution?",
+        "options": ["Symmetrical about the mean", "Bell-shaped curve", "Total area under the curve equals 1", "Skewed to the right"],
+        "answer": "Skewed to the right"
+      },
+      {
+        "question": "What does a box plot's whiskers typically represent?",
+        "options": ["Minimum and maximum values", "First and third quartiles", "Data within 1.5 IQR from quartiles", "Mean ± standard deviation"],
+        "answer": "Data within 1.5 IQR from quartiles"
+      },
+      {
+        "question": "Which correlation coefficient is appropriate for non-linear monotonic relationships?",
+        "options": ["Pearson", "Spearman", "Multiple R", "Partial correlation"],
+        "answer": "Spearman"
+      },
+      {
+        "question": "What is the formula for calculating the range of a dataset?",
+        "options": ["Maximum - Minimum", "Q3 - Q1", "Standard Deviation × 2", "Variance / Mean"],
+        "answer": "Maximum - Minimum"
+      },
+      {
+        "question": "If the correlation coefficient between two variables is zero, what can be concluded?",
+        "options": ["The variables are independent", "No linear relationship exists", "The variables are negatively related", "The relationship is non-linear"],
+        "answer": "No linear relationship exists"
+      },
+      {
+        "question": "What is the relationship between variance and standard deviation?",
+        "options": ["Variance = Standard Deviation", "Variance = Standard Deviation²", "Variance = √Standard Deviation", "Standard Deviation = Variance²"],
+        "answer": "Variance = Standard Deviation²"
+      },
+      {
+        "question": "Which measure of central tendency should be used for ordinal data?",
+        "options": ["Mean", "Median", "Mode", "Geometric mean"],
+        "answer": "Median"
+      },
+      {
+        "question": "What percentage of data lies within two standard deviations from the mean in a normal distribution?",
+        "options": ["68%", "95%", "99.7%", "50%"],
+        "answer": "95%"
+      },
+      {
+        "question": "What is the value of R² in a perfect linear relationship?",
+        "options": ["0", "0.5", "1", "-1"],
+        "answer": "1"
+      },
+      {
+        "question": "Which of the following is true about the mean of a dataset?",
+        "options": ["It is always one of the values in the dataset", "It minimizes the sum of squared deviations", "It is not affected by extreme values", "It equals the mode in all distributions"],
+        "answer": "It minimizes the sum of squared deviations"
+      },
+      {
+        "question": "What is the primary difference between Pearson and Spearman correlation?",
+        "options": ["Pearson measures linear relationships, Spearman measures monotonic relationships", "Pearson is for continuous data, Spearman is for categorical data", "Pearson requires large samples, Spearman works with small samples", "Pearson is parametric, Spearman is non-parametric"],
+        "answer": "Pearson is parametric, Spearman is non-parametric"
+      },
+      {
+        "question": "If the mean of a dataset is 75 and each value is increased by 5, what is the new mean?",
+        "options": ["70", "75", "80", "Cannot be determined"],
+        "answer": "80"
+      },
+      {
+        "question": "What does a histogram primarily display?",
+        "options": ["Relationship between two variables", "Frequency distribution of a single variable", "Central tendency measures", "Correlation coefficients"],
+        "answer": "Frequency distribution of a single variable"
+      },
+      {
+        "question": "Which of the following is a relative measure of dispersion?",
+        "options": ["Range", "Variance", "Standard Deviation", "Coefficient of Variation"],
+        "answer": "Coefficient of Variation"
+      },
+      {
+        "question": "In a perfectly symmetrical distribution, what is the relationship between mean and median?",
+        "options": ["Mean > Median", "Mean < Median", "Mean = Median", "No relationship"],
+        "answer": "Mean = Median"
+      },
+      {
+        "question": "What does a low standard deviation indicate about a dataset?",
+        "options": ["High variability", "Low variability", "Presence of outliers", "Skewed distribution"],
+        "answer": "Low variability"
+      },
+      {
+        "question": "Which of the following is true about the median?",
+        "options": ["It is the arithmetic average of all values", "It divides the dataset into two equal halves", "It is the most frequently occurring value", "It is always equal to the mean"],
+        "answer": "It divides the dataset into two equal halves"
+      },
+      {
+        "question": "What is the formula for calculating the weighted mean?",
+        "options": ["Sum of values / Number of values", "Sum of (values × weights) / Sum of weights", "Middle value when arranged in order", "Most frequently occurring value"],
+        "answer": "Sum of (values × weights) / Sum of weights"
+      },
+      {
+        "question": "If the standard deviation of a dataset is zero, what does this indicate?",
+        "options": ["The dataset contains only one unique value", "The dataset has negative values", "The mean is zero", "The dataset is normally distributed"],
+        "answer": "The dataset contains only one unique value"
+      },
+      {
+        "question": "Which of the following is not an assumption of simple linear regression?",
+        "options": ["Linearity", "Independence of errors", "Homoscedasticity", "Categorical dependent variable"],
+        "answer": "Categorical dependent variable"
+      },
+      {
+        "question": "What is the primary purpose of a Q-Q plot?",
+        "options": ["To check for outliers", "To assess normality of data", "To compare two datasets", "To visualize correlation"],
+        "answer": "To assess normality of data"
+      },
+      {
+        "question": "A researcher wants to study the relationship between hours of sleep and exam performance. Which correlation coefficient is most appropriate if the relationship appears non-linear but consistently trending?",
+        "options": ["Pearson", "Spearman", "Kendall's Tau", "Phi coefficient"],
+        "answer": "Spearman"
+      },
+      {
+        "question": "A dataset of house prices in a neighborhood has a few extremely expensive mansions. Which measure of central tendency would best represent the typical house price?",
+        "options": ["Mean", "Median", "Mode", "Geometric mean"],
+        "answer": "Median"
+      },
+      {
+        "question": "A quality control manager wants to monitor the consistency of product weights. Which measure of dispersion would be most useful for comparing batches with different average weights?",
+        "options": ["Range", "Variance", "Standard deviation", "Coefficient of variation"],
+        "answer": "Coefficient of variation"
+      },
+      {
+        "question": "When analyzing student test scores, what does a left-skewed distribution indicate about the test?",
+        "options": ["Most students scored poorly", "Most students scored well", "Equal number of high and low scores", "The test was of average difficulty"],
+        "answer": "Most students scored well"
+      },
+      {
+        "question": "A marketing researcher wants to compare customer satisfaction ratings (1-5 stars) across different product categories. Which visualization would be most appropriate?",
+        "options": ["Scatter plot", "Side-by-side box plots", "Pie chart", "Line graph"],
+        "answer": "Side-by-side box plots"
+      },
+      {
+        "question": "In a study of medication effectiveness, what does it mean if the p-value is 0.03?",
+        "options": ["The medication is effective for 3% of patients", "There's a 3% chance the results occurred by random chance", "The medication is 97% effective", "The sample size was too small"],
+        "answer": "There's a 3% chance the results occurred by random chance"
+      },
+      {
+        "question": "A fitness app tracks users' daily step counts. What would a bimodal distribution of step counts likely indicate?",
+        "options": ["Most users are either very active or very inactive", "Users typically walk the same amount each day", "The step counter is malfunctioning", "Users are gradually increasing their activity"],
+        "answer": "Most users are either very active or very inactive"
+      },
+      {
+        "question": "When analyzing the relationship between advertising spending and sales, what does an R² value of 0.75 indicate?",
+        "options": ["75% of the variation in sales can be explained by advertising spending", "The correlation coefficient is 0.75", "Sales increased by 75% due to advertising", "There is a 75% chance the relationship is significant"],
+        "answer": "75% of the variation in sales can be explained by advertising spending"
+      },
+      {
+        "question": "A teacher wants to normalize test scores with a mean of 75 and standard deviation of 10. If a student scores 2 standard deviations above the mean, what is their score?",
+        "options": ["85", "95", "55", "65"],
+        "answer": "95"
+      },
+      {
+        "question": "When comparing the heights of male and female athletes, which visualization best shows both the central tendency and spread of each group?",
+        "options": ["Histograms", "Pie charts", "Box plots", "Line graphs"],
+        "answer": "Box plots"
+      },
+      {
+        "question": "A company measures customer wait times, which follow a right-skewed distribution. What is the likely relationship between mean and median wait times?",
+        "options": ["Mean > Median", "Mean < Median", "Mean = Median", "Cannot be determined"],
+        "answer": "Mean > Median"
+      },
+      {
+        "question": "In a study of income distribution, which measure best represents the typical household income when there are many millionaires in the dataset?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Median"
+      },
+      {
+        "question": "A quality assurance team measures the diameter of manufactured bearings. What does a small standard deviation indicate about the manufacturing process?",
+        "options": ["High consistency", "Low accuracy", "High defect rate", "Slow production speed"],
+        "answer": "High consistency"
+      },
+      {
+        "question": "When analyzing the effectiveness of two different teaching methods, what is the primary advantage of using paired data?",
+        "options": ["Larger sample size", "Controls for individual differences", "Faster data collection", "Simpler statistical analysis"],
+        "answer": "Controls for individual differences"
+      },
+      {
+        "question": "A meteorologist records daily temperatures. What does a high positive kurtosis value indicate about the temperature distribution?",
+        "options": ["More extreme values than a normal distribution", "More values near the mean than a normal distribution", "A skewed distribution", "A bimodal distribution"],
+        "answer": "More extreme values than a normal distribution"
+      },
+      {
+        "question": "When studying the relationship between age and reaction time, what would a negative correlation coefficient indicate?",
+        "options": ["As age increases, reaction time decreases", "As age increases, reaction time increases", "Age and reaction time are unrelated", "The data is insufficient"],
+        "answer": "As age increases, reaction time decreases"
+      },
+      {
+        "question": "A researcher studying the heights of adult males finds that the data follows a normal distribution. What percentage of men would be expected to have heights within 1.96 standard deviations of the mean?",
+        "options": ["68%", "95%", "99.7%", "50%"],
+        "answer": "95%"
+      },
+      {
+        "question": "When analyzing customer satisfaction scores (1-10), what is the key advantage of using the median over the mean?",
+        "options": ["It's easier to calculate", "It's not affected by extreme ratings", "It provides more precise results", "It can be used with categorical data"],
+        "answer": "It's not affected by extreme ratings"
+      },
+      {
+        "question": "In a clinical trial comparing two treatments, what is the main purpose of randomization?",
+        "options": ["Increase sample size", "Reduce bias", "Simplify data analysis", "Ensure equal group sizes"],
+        "answer": "Reduce bias"
+      },
+      {
+        "question": "A retail store tracks daily sales. What would a seasonal time series pattern indicate?",
+        "options": ["Sales are gradually increasing", "Sales fluctuate randomly", "Sales follow a consistent cyclic pattern", "Sales are decreasing over time"],
+        "answer": "Sales follow a consistent cyclic pattern"
+      },
+      {
+        "question": "When comparing the effectiveness of three different fertilizers on plant growth, which statistical test would be most appropriate?",
+        "options": ["t-test", "Chi-square test", "ANOVA", "Correlation analysis"],
+        "answer": "ANOVA"
+      },
+      {
+        "question": "A company surveys employees about job satisfaction using a scale of 1-5. What type of data is this?",
+        "options": ["Nominal", "Ordinal", "Interval", "Ratio"],
+        "answer": "Ordinal"
+      },
+      {
+        "question": "In a study of the relationship between exercise and blood pressure, what role does blood pressure play?",
+        "options": ["Independent variable", "Dependent variable", "Confounding variable", "Control variable"],
+        "answer": "Dependent variable"
+      },
+      {
+        "question": "A university wants to predict student GPA based on high school GPA, SAT scores, and study hours. What type of analysis would be most appropriate?",
+        "options": ["Simple linear regression", "Multiple linear regression", "Logistic regression", "Factor analysis"],
+        "answer": "Multiple linear regression"
+      },
+      {
+        "question": "When analyzing the effectiveness of a weight loss program, what is the key advantage of using a control group?",
+        "options": ["Increases sample size", "Allows for comparison with no intervention", "Reduces cost of the study", "Simplifies data collection"],
+        "answer": "Allows for comparison with no intervention"
+      },
+      {
+        "question": "A manufacturing process produces items with weights that follow a normal distribution. If 2.5% of items are too heavy, how many standard deviations above the mean is the upper weight limit?",
+        "options": ["1", "1.96", "2", "2.33"],
+        "answer": "1.96"
+      },
+      {
+        "question": "What is the key difference between Spearman and Kendall's Tau correlation coefficients?",
+        "options": ["Spearman works with categorical data, Kendall's with numerical", "Spearman uses ranks, Kendall's uses actual values", "Spearman measures strength, Kendall's measures only direction", "Kendall's handles tied ranks better than Spearman"],
+        "answer": "Kendall's handles tied ranks better than Spearman"
+      },
+      {
+        "question": "In a study of factors affecting house prices, what does multicollinearity among predictor variables cause?",
+        "options": ["Increased prediction accuracy", "Difficulty determining individual variable effects", "Simplified model interpretation", "Reduced computing requirements"],
+        "answer": "Difficulty determining individual variable effects"
+      },
+      {
+        "question": "A researcher collects data on student performance before and after an intervention. What is this type of data called?",
+        "options": ["Cross-sectional data", "Time series data", "Paired data", "Categorical data"],
+        "answer": "Paired data"
+      },
+      {
+        "question": "When analyzing the relationship between income and education level, what does heteroscedasticity in the data indicate?",
+        "options": ["Strong correlation", "Unequal variance across education levels", "Normal distribution", "Linear relationship"],
+        "answer": "Unequal variance across education levels"
+      },
+      {
+        "question": "What is the primary purpose of standardizing variables in statistical analysis?",
+        "options": ["Make data normally distributed", "Remove outliers", "Make variables comparable", "Simplify calculations"],
+        "answer": "Make variables comparable"
+      },
+      {
+        "question": "In a study of disease prevalence, what does a relative risk of 2.5 indicate?",
+        "options": ["The disease is rare", "The exposed group has 2.5 times higher risk than the unexposed group", "The disease affects 2.5% of the population", "The sample size was 2.5 times larger than needed"],
+        "answer": "The exposed group has 2.5 times higher risk than the unexposed group"
+      },
+      {
+        "question": "When analyzing customer purchase data, what would a high standard deviation in purchase amounts indicate?",
+        "options": ["Most customers spend similar amounts", "Customer spending varies widely", "The average purchase amount is high", "The data contains errors"],
+        "answer": "Customer spending varies widely"
+      },
+      {
+        "question": "A researcher wants to determine if there's a relationship between smoking status and lung cancer. Which statistical test is most appropriate?",
+        "options": ["t-test", "ANOVA", "Chi-square test", "Regression analysis"],
+        "answer": "Chi-square test"
+      },
+      {
+        "question": "What is the main limitation of using the range as a measure of dispersion?",
+        "options": ["Difficult to calculate", "Only uses two data points", "Cannot be used with large datasets", "Always equals zero for constant data"],
+        "answer": "Only uses two data points"
+      },
+      {
+        "question": "When analyzing the effectiveness of a new medication, what does statistical significance indicate?",
+        "options": ["The medication has a large effect", "The results are unlikely due to chance", "The sample size was adequate", "The medication is clinically important"],
+        "answer": "The results are unlikely due to chance"
+      },
+      {
+        "question": "In a normal distribution, what is the relationship between the mean, median, and mode?",
+        "options": ["Mean > Median > Mode", "Mode > Median > Mean", "Mean = Median = Mode", "No consistent relationship"],
+        "answer": "Mean = Median = Mode"
+      },
+      {
+        "question": "A company tracks customer complaints. What would a Poisson distribution of complaints indicate?",
+        "options": ["Complaints occur at a constant average rate", "Complaints are normally distributed", "Complaints are increasing over time", "Complaints are related to customer demographics"],
+        "answer": "Complaints occur at a constant average rate"
+      },
+      {
+        "question": "When comparing the effectiveness of four different teaching methods, what is the main advantage of using a factorial design?",
+        "options": ["Requires fewer participants", "Allows study of interaction effects", "Simplifies statistical analysis", "Eliminates confounding variables"],
+        "answer": "Allows study of interaction effects"
+      },
+      {
+        "question": "A researcher wants to predict whether a student will pass or fail a course based on attendance, previous GPA, and study hours. Which analysis is most appropriate?",
+        "options": ["Multiple linear regression", "ANOVA", "Logistic regression", "Factor analysis"],
+        "answer": "Logistic regression"
+      },
+      {
+        "question": "What is the key difference between a parameter and a statistic?",
+        "options": ["Parameters are calculated from samples, statistics from populations", "Statistics are calculated from samples, parameters from populations", "Parameters are always normally distributed, statistics are not", "Statistics are always more accurate than parameters"],
+        "answer": "Statistics are calculated from samples, parameters from populations"
+      },
+      {
+        "question": "In a study of the relationship between exercise and weight loss, what role does a confounding variable play?",
+        "options": ["Strengthens the observed relationship", "Affects both the independent and dependent variables", "Increases statistical power", "Simplifies data analysis"],
+        "answer": "Affects both the independent and dependent variables"
+      },
+      {
+        "question": "When analyzing data from a Likert scale survey (1-5 agreement ratings), which measure of central tendency is most appropriate?",
+        "options": ["Mean", "Median", "Mode", "Geometric mean"],
+        "answer": "Median"
+      },
+      {
+        "question": "What does a high standard error of the mean indicate about a sample?",
+        "options": ["The sample mean is accurate", "The sample mean varies little from the population mean", "The sample mean may not represent the population mean well", "The sample is normally distributed"],
+        "answer": "The sample mean may not represent the population mean well"
+      },
+      {
+        "question": "A researcher wants to compare income distributions in three different countries. Which visualization would be most effective?",
+        "options": ["Pie charts", "Bar graphs", "Box plots", "Line graphs"],
+        "answer": "Box plots"
+      },
+      {
+        "question": "In a study of factors affecting crop yield, what does a significant interaction effect indicate?",
+        "options": ["The factors are correlated", "The effect of one factor depends on the level of another factor", "The model has good predictive power", "The factors should be analyzed separately"],
+        "answer": "The effect of one factor depends on the level of another factor"
+      },
+      {
+        "question": "What is the key advantage of non-parametric statistical tests?",
+        "options": ["They always provide more accurate results", "They require smaller sample sizes", "They don't require assumptions about data distribution", "They are easier to calculate"],
+        "answer": "They don't require assumptions about data distribution"
+      },
+      {
+        "question": "A company wants to determine if a new website design increases time spent on the site. What type of hypothesis test should they use?",
+        "options": ["One-tailed test", "Two-tailed test", "Chi-square test", "ANOVA"],
+        "answer": "One-tailed test"
+      },
+      {
+        "question": "When analyzing the relationship between advertising expenditure and sales, what does autocorrelation in the residuals indicate?",
+        "options": ["Strong predictive relationship", "Time-dependent patterns not captured by the model", "Heteroscedasticity in the data", "Multicollinearity among predictors"],
+        "answer": "Time-dependent patterns not captured by the model"
+      },
+      {
+        "question": "What is the primary purpose of stratified sampling?",
+        "options": ["Increase sample size", "Ensure representation of all subgroups", "Simplify data collection", "Reduce cost"],
+        "answer": "Ensure representation of all subgroups"
+      },
+      {
+        "question": "In a study comparing treatment effects, what is the main purpose of calculating effect size?",
+        "options": ["Determine statistical significance", "Assess practical significance", "Control for confounding variables", "Test model assumptions"],
+        "answer": "Assess practical significance"
+      },
+      {
+        "question": "When analyzing customer satisfaction data, what does a high kurtosis value indicate?",
+        "options": ["Most customers are very satisfied", "Most customers are very dissatisfied", "Customer ratings are clustered around the mean with some extreme ratings", "Customer ratings are uniformly distributed"],
+        "answer": "Customer ratings are clustered around the mean with some extreme ratings"
+      },
+      {
+        "question": "What is the key difference between interpolation and extrapolation?",
+        "options": ["Interpolation uses means, extrapolation uses medians", "Interpolation estimates within the range of observed data, extrapolation estimates beyond it", "Interpolation works with categorical data, extrapolation with numerical", "Interpolation requires larger sample sizes than extrapolation"],
+        "answer": "Interpolation estimates within the range of observed data, extrapolation estimates beyond it"
+      },
+      {
+        "question": "A researcher wants to determine if there's a relationship between education level and income. What type of data would education level be?",
+        "options": ["Nominal", "Ordinal", "Interval", "Ratio"],
+        "answer": "Ordinal"
+      },
+      {
+        "question": "When analyzing the effectiveness of a weight loss program, what does a Type II error represent?",
+        "options": ["Concluding the program works when it doesn't", "Concluding the program doesn't work when it does", "Correctly identifying that the program works", "Correctly identifying that the program doesn't work"],
+        "answer": "Concluding the program doesn't work when it does"
+      },
+      {
+        "question": "In a study of factors affecting house prices, what does multicollinearity make difficult?",
+        "options": ["Data collection", "Determining the individual effect of each factor", "Calculating the mean price", "Visualizing the data"],
+        "answer": "Determining the individual effect of each factor"
+      },
+      {
+        "question": "What is the key difference between a histogram and a bar chart?",
+        "options": ["Histograms are for numerical data, bar charts for categorical data", "Histograms show frequencies, bar charts show percentages", "Histograms have gaps between bars, bar charts don't", "Histograms are always vertical, bar charts can be horizontal"],
+        "answer": "Histograms are for numerical data, bar charts for categorical data"
+      },
+      {
+        "question": "When analyzing the relationship between study time and test scores, what would homoscedasticity indicate?",
+        "options": ["Strong correlation", "Equal variance of test scores across all study times", "Normal distribution of scores", "Linear relationship"],
+        "answer": "Equal variance of test scores across all study times"
+      },
+      {
+        "question": "What is the primary purpose of a residual plot in regression analysis?",
+        "options": ["Show the strength of correlation", "Check model assumptions", "Identify outliers only", "Calculate prediction intervals"],
+        "answer": "Check model assumptions"
+      },
+      {
+        "question": "A researcher wants to compare the effectiveness of three different teaching methods across four different subjects. What type of design is this?",
+        "options": ["Single factor design", "Repeated measures design", "Factorial design", "Time series design"],
+        "answer": "Factorial design"
+      }
+    ]
+  }
+  

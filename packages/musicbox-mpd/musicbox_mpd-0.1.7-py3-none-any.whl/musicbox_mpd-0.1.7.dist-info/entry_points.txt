@@ -1,0 +1,2 @@
+[console_scripts]
+musicbox-mpd = musicbox_mpd.server:main

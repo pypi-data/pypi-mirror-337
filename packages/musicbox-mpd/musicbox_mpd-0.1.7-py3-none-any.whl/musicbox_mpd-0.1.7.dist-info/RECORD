@@ -1,0 +1,17 @@
+musicbox_mpd/__about__.py,sha256=Jan0AxiCXikK3gY3BKb_t1KeJY4ntRI8m6frN4HvQ0s,109
+musicbox_mpd/__init__.py,sha256=fMZLA0R_n-zNrd1Bm6FjEYaGAEqskrtBO5ox9Vs-HPg,82
+musicbox_mpd/__main__.py,sha256=GsVTAdBbvbvLXYuz5t5Le1KIXs_noenEPEt7yYxmmK8,97
+musicbox_mpd/data.py,sha256=KkUJMI1_sbWYdI8GNWVCnL7noCiJh89M2G7f6aGfXRs,2830
+musicbox_mpd/musicplayer.py,sha256=W9tokHwzPshSbQXea2DSGOFblV4Kj6s6I3-7bdETOOI,10086
+musicbox_mpd/server.py,sha256=8xSK-svpWA7soA_FQUgSduK7nVelMzipvmEk_5iV4TQ,9596
+musicbox_mpd/ui/default.gif,sha256=7cUoXmRj8rhAT6Ce60bJpWN6XemVxM3CyjPjwTqhoy4,211813
+musicbox_mpd/ui/favicon.ico,sha256=APwN2ojXkUuPBQP6DlVWcxDQzQwnXyQqgYtj1VLmtY0,15406
+musicbox_mpd/ui/settings.html,sha256=CWT9YILB6t6Csz8GZOSnlBOukCVH7yRHTV3-vohQ_ZM,2002
+musicbox_mpd/ui/ui.css,sha256=wuOwBFoqFVSsRHv5A1ZrU_p_VT3yoW0hgJVdFgWeRw0,4087
+musicbox_mpd/ui/ui.html,sha256=AG00yrJDcGghSe4CvXYKWUyvPLyxHu1AjaU6F68Czxk,1260
+musicbox_mpd/ui/ui.js,sha256=gwSE218fpVZvSPDsY-NfnXiM9eR6e5ffD_kj3D9U2s8,16517
+musicbox_mpd-0.1.7.dist-info/METADATA,sha256=kJd7I6NKJ_jM8Bl9LgizvAittKj89FRcXcQQOdRCf9I,5219
+musicbox_mpd-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+musicbox_mpd-0.1.7.dist-info/entry_points.txt,sha256=MyqfiIWV2I4WZa_DQU9fUeWj0NvHaRrCEsJ97T-UthQ,58
+musicbox_mpd-0.1.7.dist-info/licenses/LICENSE.txt,sha256=TAUTKP3NSuNqRn4_zgEJoQxpCWbNtxethtYDYsXMzeo,1079
+musicbox_mpd-0.1.7.dist-info/RECORD,,

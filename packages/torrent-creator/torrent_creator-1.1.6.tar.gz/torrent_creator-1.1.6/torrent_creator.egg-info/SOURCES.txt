@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+torrent_creator/__init__.py
+torrent_creator/torrent_creator.py
+torrent_creator.egg-info/PKG-INFO
+torrent_creator.egg-info/SOURCES.txt
+torrent_creator.egg-info/dependency_links.txt
+torrent_creator.egg-info/entry_points.txt
+torrent_creator.egg-info/requires.txt
+torrent_creator.egg-info/top_level.txt

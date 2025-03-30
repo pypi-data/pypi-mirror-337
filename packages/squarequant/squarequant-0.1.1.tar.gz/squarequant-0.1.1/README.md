@@ -1,0 +1,162 @@
+# SquareQuant
+
+SquareQuant is a comprehensive Python package for financial risk metrics and stock data analysis. It provides a suite of tools for quantitative finance, including risk metrics calculation, data retrieval, and visualization.
+
+## Features
+
+- **Financial Data Access**: Easy-to-use interface for downloading historical price data
+- **Extensive Risk Metrics**: Comprehensive set of traditional and advanced risk measures
+- **Performance Analysis**: Tools for evaluating investment performance
+- **Visualization**: Built-in plotting functions for visual analysis
+- **Flexible API**: Consistent function-based and object-oriented interfaces
+
+## Installation
+
+```bash
+pip install squarequant
+```
+
+## Quick Start
+
+```python
+import squarequant as sq
+import matplotlib.pyplot as plt
+
+# Configure data download
+config = sq.DownloadConfig(
+    start_date="2020-01-01",
+    end_date="2023-12-31",
+    interval='1d',
+    columns=['Close']
+)
+
+# Download data
+data = sq.download_tickers(['AAPL', 'MSFT', 'GOOGL'], config)
+
+# Calculate volatility
+vol = sq.vol(data=data, assets=['AAPL', 'MSFT', 'GOOGL'], window=21)
+
+# Calculate Sharpe ratio
+sharpe = sq.sharpe(data=data, assets=['AAPL', 'MSFT', 'GOOGL'], window=252)
+
+# Visualize results
+plt.figure(figsize=(12, 6))
+plt.plot(vol)
+plt.title('21-Day Rolling Volatility')
+plt.legend(vol.columns)
+plt.show()
+```
+
+## Available Risk Metrics
+
+SquareQuant provides a comprehensive set of risk metrics, including:
+
+| Metric | Function | Description |
+|--------|----------|-------------|
+| Sharpe Ratio | `sq.sharpe()` | Risk-adjusted return using standard deviation |
+| Sortino Ratio | `sq.sortino()` | Risk-adjusted return using downside deviation |
+| Volatility | `sq.vol()` | Standard deviation of returns |
+| Maximum Drawdown | `sq.mdd()` | Largest peak-to-trough decline |
+| Value at Risk | `sq.var()` | Maximum expected loss at given confidence level |
+| Conditional Value at Risk | `sq.cvar()` | Expected loss beyond the VaR threshold |
+| Semi-Deviation | `sq.semidev()` | Downside volatility below target return |
+| Average Drawdown | `sq.avgdd()` | Mean of all drawdowns in a period |
+| Ulcer Index | `sq.ulcer()` | Square root of mean squared drawdown percentage |
+| Mean Absolute Deviation | `sq.mad()` | Average absolute deviation from mean |
+| Entropic Risk Measure | `sq.erm()` | Risk measure based on information theory |
+| Entropic Value at Risk | `sq.evar()` | VAR using entropy concepts |
+| Conditional Drawdown at Risk | `sq.cdar()` | Expected drawdown beyond threshold |
+| Entropic Drawdown at Risk | `sq.edar()` | Drawdown risk using entropy concepts |
+
+## Advanced Usage Examples
+
+### Analyzing Multiple Risk Metrics
+
+```python
+import squarequant as sq
+import matplotlib.pyplot as plt
+
+# Download data
+config = sq.DownloadConfig(
+    start_date="2018-01-01",
+    end_date="2023-12-31",
+    interval='1d'
+)
+data = sq.download_tickers(['SPY', 'QQQ'], config)
+
+# Calculate multiple risk metrics
+vol = sq.vol(data=data, assets=['SPY', 'QQQ'], window=21)
+mad = sq.mad(data=data, assets=['SPY', 'QQQ'], window=252)
+mdd = sq.mdd(data=data, assets=['SPY', 'QQQ'], window=252)
+ulcer = sq.ulcer(data=data, assets=['SPY', 'QQQ'], window=252)
+
+# Visualize comparison
+sq.plot_risk_comparison(
+    metrics=[vol, mdd, ulcer],
+    labels=['Volatility', 'Max Drawdown', 'Ulcer Index'],
+    asset='SPY'
+)
+```
+
+### Portfolio Risk Analysis
+
+```python
+import squarequant as sq
+import pandas as pd
+
+# Example portfolio weights
+weights = pd.Series({'AAPL': 0.3, 'MSFT': 0.3, 'AMZN': 0.2, 'GOOGL': 0.2})
+
+# Download data
+config = sq.DownloadConfig(start_date="2020-01-01", end_date="2023-12-31")
+data = sq.download_tickers(weights.index.tolist(), config)
+
+# Calculate portfolio risk measures
+portfolio_var = sq.var(
+    data=data,
+    assets=weights.index.tolist(),
+    confidence=0.95,
+    window=252,
+    holding_period=10
+)
+
+# Visualize weight allocation
+sq.plot_weight_allocation(weights)
+```
+
+### Using Advanced Risk Measures
+
+```python
+import squarequant as sq
+
+# Download data
+config = sq.DownloadConfig(start_date="2018-01-01", end_date="2023-12-31")
+data = sq.download_tickers(['SPY'], config)
+
+# Calculate Entropic Risk Measure with different risk aversion parameters
+erm1 = sq.erm(data=data, assets=['SPY'], z=0.5, confidence=0.95)
+erm2 = sq.erm(data=data, assets=['SPY'], z=1.0, confidence=0.95)
+erm3 = sq.erm(data=data, assets=['SPY'], z=2.0, confidence=0.95)
+
+# Compare with traditional VaR and CVaR
+var = sq.var(data=data, assets=['SPY'], confidence=0.95)
+cvar = sq.cvar(data=data, assets=['SPY'], confidence=0.95)
+
+print(f"Latest ERM (z=0.5): {erm1.iloc[-1, 0]:.4f}")
+print(f"Latest ERM (z=1.0): {erm2.iloc[-1, 0]:.4f}")
+print(f"Latest ERM (z=2.0): {erm3.iloc[-1, 0]:.4f}")
+print(f"Latest VaR (95%): {var.iloc[-1, 0]:.4f}")
+print(f"Latest CVaR (95%): {cvar.iloc[-1, 0]:.4f}")
+```
+
+## Documentation
+
+For detailed documentation on each function and class, please see the [official documentation](https://www.squarequant.org).
+
+## License
+
+MIT License
+
+## Credits
+
+SquareQuant was developed to provide financial analysts, quantitative researchers, and portfolio managers with a comprehensive toolkit for risk assessment and performance analysis.

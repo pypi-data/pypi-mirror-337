@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+asos_analysis.egg-info/PKG-INFO
+asos_analysis.egg-info/SOURCES.txt
+asos_analysis.egg-info/dependency_links.txt
+asos_analysis.egg-info/requires.txt
+asos_analysis.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+package_updater = py_package_updater.__main__:main

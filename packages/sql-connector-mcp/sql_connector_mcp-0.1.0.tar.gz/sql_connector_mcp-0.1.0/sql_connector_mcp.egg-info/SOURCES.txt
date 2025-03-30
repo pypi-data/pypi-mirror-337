@@ -1,0 +1,9 @@
+README.md
+setup.py
+sql_connector_mcp/__init__.py
+sql_connector_mcp/server.py
+sql_connector_mcp.egg-info/PKG-INFO
+sql_connector_mcp.egg-info/SOURCES.txt
+sql_connector_mcp.egg-info/dependency_links.txt
+sql_connector_mcp.egg-info/requires.txt
+sql_connector_mcp.egg-info/top_level.txt

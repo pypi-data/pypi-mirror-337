@@ -1,0 +1,11 @@
+inventree_zebra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inventree_zebra/request_wrappers.py,sha256=QYlEA4YeqlvuDuMzb7jS8ueNW5Qlf6JLbcJ0moz36cM,1685
+inventree_zebra/server.py,sha256=_eo4HHbgoe5Y0_ORWZRREgI9ehlPBuoG6TYMXvzG0ro,585
+inventree_zebra/version.py,sha256=_HVbh0rGHL4cqVLmsHnZ3FwVM8IfjwE5AuvLMpcoWV8,31
+inventree_zebra/zebra_plugin.py,sha256=y3RJ6ytDJ7BI73FHQ0iLQzBIL5Gy7kfEm_MK2DhqpQY,14554
+inventree_zebra_plugin-0.8.1.dist-info/licenses/LICENSE,sha256=rSmDy0Q7PuYqGvkR82SEqvRo4ROztfTgZy5o09LcL2M,1064
+inventree_zebra_plugin-0.8.1.dist-info/METADATA,sha256=OXuDIuYrOhjCUbs4-btx13TLMoMzMyDFqP0bIb5-_BQ,12823
+inventree_zebra_plugin-0.8.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+inventree_zebra_plugin-0.8.1.dist-info/entry_points.txt,sha256=Z02yukxx7UXQvmWiN_lxjkljrNI-aZYt7o0hNmqn9QA,85
+inventree_zebra_plugin-0.8.1.dist-info/top_level.txt,sha256=Cc_zXQq4yi1yT0e9JfPwc52qhtei4m-s2XrU4xN6KvY,16
+inventree_zebra_plugin-0.8.1.dist-info/RECORD,,

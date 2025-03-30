@@ -1,0 +1,14 @@
+pydub>=0.25.1
+setuptools>=44.0.0
+
+# Platform-specific dependencies - the package will automatically 
+# install the correct ones for the current platform
+# For Windows: pywin32>=223
+# For macOS: pyobjc-framework-Cocoa>=8.0
+# For Linux: python-dbus>=1.2.0
+
+# Note: ffmpeg is required for audio processing
+# It should be installed separately using the system package manager:
+# - Windows: Download from https://ffmpeg.org/download.html
+# - macOS: brew install ffmpeg
+# - Linux: apt-get install ffmpeg or yum install ffmpeg

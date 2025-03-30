@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "refcheck"
+version = "0.3.0"
+description = "Tool for finding broken references and links in Markdown files."
+authors = ["Sebastian Flum <sebastian.flum.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+commitizen = "^4.2.2"
+python-semantic-release = "^9.20.0"
+ruff = ">=0.9.7,<0.12.0"
+
+[tool.poetry.scripts]
+refcheck = "refcheck.main:main"
+
+[tool.semantic_release]
+major_on_zero = false
+build_command = "pip install poetry && poetry build"
+version_toml = ["pyproject.toml:tool.poetry.version"]
+version_variables = [
+    "pyproject.toml:tool.poetry.version",
+    "README.md:rev:tf"
+]
+tag_format = "v{version}"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

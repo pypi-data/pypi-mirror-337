@@ -1,0 +1,8 @@
+README.md
+setup.py
+aimlab/__init__.py
+aimlab/main.py
+aimlab.egg-info/PKG-INFO
+aimlab.egg-info/SOURCES.txt
+aimlab.egg-info/dependency_links.txt
+aimlab.egg-info/top_level.txt

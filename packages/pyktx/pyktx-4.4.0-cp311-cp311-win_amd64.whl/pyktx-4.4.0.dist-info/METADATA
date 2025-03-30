@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: pyktx
+Version: 4.4.0
+Summary: A Python interface to the libktx library
+Home-page: https://github.com/KhronosGroup/KTX-Software
+Author: Shukant Pal, Mark Callow
+Author-email: ktx-sw-maintainer@khronosgroup.org
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: cffi>=1.15.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+This Python package provides a Pythonic interface to libktx. It uses CFFI to generate the C bindings.

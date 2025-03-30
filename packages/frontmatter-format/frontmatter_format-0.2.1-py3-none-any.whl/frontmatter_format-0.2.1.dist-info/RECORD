@@ -1,0 +1,10 @@
+frontmatter_format/__init__.py,sha256=FdElBXS45SixlZHwJQz0Ip-29cJDYr4ULzs7u2qo1W0,993
+frontmatter_format/frontmatter_format.py,sha256=lbe2m2WUPEyYzDQ4njD8_tEna-1R7W23Zdy1qwOHkc4,10899
+frontmatter_format/key_sort.py,sha256=mKJ5KVpSTXeEod5gdAcrQqXsduWQJPhcbWgoP3hRY8M,529
+frontmatter_format/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frontmatter_format/yaml_util.py,sha256=kX-oEsvsgCVFBxdPrkjKZKk_pnx7Z8ADjIdPyzkWDKY,4187
+frontmatter_format-0.2.1.dist-info/METADATA,sha256=FHiBSaqpKw37__HsdSSqBNzRkQBFm_1SKxrSelQbeiY,14312
+frontmatter_format-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+frontmatter_format-0.2.1.dist-info/entry_points.txt,sha256=L6oBqzEWdVh_mdGVrMyS95IKByfvHk-HgDUkpfgfqEE,63
+frontmatter_format-0.2.1.dist-info/licenses/LICENSE,sha256=lY0wTmiU16V1mJlOOzG_CmYANRodFzl3C3KnIBBE5vc,1073
+frontmatter_format-0.2.1.dist-info/RECORD,,

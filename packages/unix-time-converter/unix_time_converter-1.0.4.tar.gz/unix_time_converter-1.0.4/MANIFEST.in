@@ -1,0 +1,9 @@
+include README.md
+include license.html
+include pyproject.toml
+include changes.rst
+include ux_logo_white_16.png
+include ux_logo_white_32.png
+include ux_logo_white_64.png
+include uxconverter.png
+include res/help.html

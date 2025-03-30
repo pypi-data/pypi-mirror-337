@@ -1,0 +1,7 @@
+# --index-url https://pypi.python.org/simple
+# the line above can be changed if another package should be used
+# python uses it by default - let it commentet out!
+
+datetime
+pytz
+tkhtmlview

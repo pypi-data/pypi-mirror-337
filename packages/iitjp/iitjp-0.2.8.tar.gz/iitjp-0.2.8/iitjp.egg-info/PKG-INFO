@@ -1,0 +1,197 @@
+Metadata-Version: 2.4
+Name: iitjp
+Version: 0.2.8
+Summary: Interactive Teacher for Statistics featuring RajLaxmi
+Home-page: https://iitj.ac.in
+Author: IIT Jodhpur Team
+Author-email: IIT Jodhpur Team <info@iitjp.ac.in>
+License: Proprietary
+Project-URL: Homepage, https://iitj.ac.in
+Project-URL: Documentation, https://iitj.ac.in/docs
+Project-URL: Source, https://github.com/iitj/iitjp
+Project-URL: Issue Tracker, https://github.com/iitj/iitjp/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=44.0.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# IITJP - Interactive Teacher for Statistics
+
+A Python package that provides an interactive virtual teacher named RajLaxmi for learning foundations of statistics. This package includes audio-visual interactions to enhance the learning experience.
+
+## Features
+
+- Interactive virtual teacher with voice
+- Quiz functionality with randomized questions
+- Clean, text-based interface with audio support
+- Cross-platform compatibility (Windows, macOS, Linux)
+- No external dependencies required
+
+## Installation
+
+You can install the package directly from PyPI:
+
+```bash
+pip install iitjp
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+import iitjp
+
+# Start with a greeting
+iitjp.mam.greetings()
+
+# Take a quiz
+iitjp.mam.quiz()
+
+# Say goodbye
+iitjp.mam.thanks()
+```
+
+### Command-line Interface
+
+You can also use the package from the command line:
+
+```bash
+# Show greeting
+iitjp greetings
+
+# Start a quiz
+iitjp quiz
+
+# Show farewell message
+iitjp thanks
+```
+
+### Silent Mode
+
+If you want to disable audio playback:
+
+```python
+import iitjp
+
+# Enable silent mode (no audio)
+iitjp.enable_silent_mode(True)
+
+# Now use the package as usual
+iitjp.mam.greetings()
+```
+
+### Faster Text Display
+
+To disable the typing effect and show text instantly:
+
+```python
+import iitjp
+
+# Disable typing effect
+iitjp.enable_typing_effect(False)
+
+# Now text will appear instantly
+iitjp.mam.greetings()
+```
+
+## Troubleshooting
+
+If you encounter audio playback issues:
+
+1. Check your system's audio settings to ensure it's properly configured.
+2. Try using silent mode if audio is not essential:
+   ```python
+   import iitjp
+   iitjp.enable_silent_mode(True)
+   ```
+
+## Changelog
+
+### Version 0.2.8
+- Optimized audio playback system for improved reliability
+- Enhanced audio file discovery across all platforms
+- Improved Windows audio playback with multiple optimized fallbacks
+- Added additional audio players support for Linux systems
+- More robust file path handling for cross-platform usage
+
+### Version 0.2.7
+- Complete silent operation with no debug output during import or execution
+- Bulletproof Windows-first audio playback system with multiple fallbacks
+- Audio files embedded as base64 strings directly in the package
+- Multiple audio cache locations for maximum reliability
+- Automatic self-healing capabilities via `fix_iitjp.py` and `iitjp_repair.py`
+- No external dependencies required
+
+### Version 0.2.6
+- Added bulletproof audio file handling that works in any environment
+- Included automatic fix scripts (fix_iitjp.py and iitjp_repair.py) to resolve path issues
+- Improved audio path resolution across all platforms and installation methods
+- Enhanced package with self-healing capabilities
+- Fixed package structure to ensure all required files are included
+
+### Version 0.2.5
+- Embedded audio files directly in the package for guaranteed availability
+- Added robust resource manager for fail-proof audio playback
+- Improved path detection system to find resources in any installation method
+- Enhanced audio file availability across all platforms and installation methods
+
+### Version 0.2.4
+- Fixed audio file path resolution for different installation environments
+- Added standalone fix_audio_paths.py utility for resolving audio path issues
+- Improved multi-platform compatibility with better path detection
+- Enhanced recognition of audio files in site-packages locations
+
+### Version 0.2.3
+- Fixed audio file path resolution issues
+- Added automatic audio file repair functionality
+- Added `repair` command to fix missing audio files
+- Added `--fast-text` flag for instant text display
+- Improved package data file handling
+
+### Version 0.2.2
+- Completely removed dependency on pydub and ffmpeg for better compatibility
+- Added native audio playback that works across all platforms without external dependencies
+- Fixed synchronization between text display and audio playback
+- Added option to disable typing effect for instant text display
+
+### Version 0.2.1
+- Improved cross-platform compatibility
+- Added automatic installation of platform-specific dependencies
+- Fixed timing issues between voiceover and text display
+
+### Version 0.2.0
+- Initial public release
+
+## Project Structure
+
+- `iitjp/`: Main package directory
+  - `__init__.py`: Package initialization with exposed functions
+  - `rajlaxmi.py`: Core functionality for the virtual teacher
+  - `audio.py`: Audio playback system
+  - `__main__.py`: Command-line interface
+- `data/`: Contains audio files and quiz questions
+  - `greeting.mp3`: Welcome message
+  - `start_quiz.mp3`: Quiz introduction
+  - `end_quiz.mp3`: Quiz conclusion
+  - `farewell.mp3`: Goodbye message
+  - `questions.json`: Quiz questions and answers
+
+## License
+
+This package is distributed under the Proprietary License. See the LICENSE file for more details.

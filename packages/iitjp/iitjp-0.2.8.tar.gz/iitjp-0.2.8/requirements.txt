@@ -1,0 +1,11 @@
+# pydub>=0.25.1  # Removed - no longer needed
+setuptools>=44.0.0
+
+# Platform-specific dependencies - the package will automatically 
+# install the correct ones for the current platform
+# For Windows: pywin32>=223
+# For macOS: pyobjc-framework-Cocoa>=8.0
+# For Linux: python-dbus>=1.2.0
+
+# Note: This version (0.2.2) no longer requires ffmpeg!
+# Audio playback now uses native system commands for better compatibility.

@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: mygoogleAuth_fastAPI
+Version: 1.1.1
+Summary: A simple OpenAI function package
+Home-page: https://github.com/lupin-oomura/mygoogleAuth_fastAPI.git
+Author: Shin Oomura
+Author-email: shin.oomura@gmail.com
+Requires-Dist: requests
+Requires-Dist: oauthlib
+Requires-Dist: starlette
+Requires-Dist: itsdangerous
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

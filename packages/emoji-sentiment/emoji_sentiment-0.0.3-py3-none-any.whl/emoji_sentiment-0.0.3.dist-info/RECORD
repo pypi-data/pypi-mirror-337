@@ -1,0 +1,8 @@
+emoji_sentiment/Emoji_Sentiment_Data_v1.0.csv,sha256=gQxTU9h9Z-zPjOxicPh8q5BS9o2Hqw2g0fs8CQhEQc0,77909
+emoji_sentiment/__init__.py,sha256=3kTFUEBO1bcMbigngcuR4Cd-QFL3DDH703S42fXBFys,64
+emoji_sentiment/emoji.py,sha256=j1XQ0NgGvRMALrP0WkN4MFytL5dr0KsJ5KaZi96uBOY,2125
+emoji_sentiment-0.0.3.dist-info/licenses/LICENSE,sha256=1CmA8DVV_UizxAkOgcVU88ndw4Wn2QWZPtJQsFW7gRQ,1060
+emoji_sentiment-0.0.3.dist-info/METADATA,sha256=cx0Gow5Un_zK9WlB_4MKK89aNVxFU4PUNFqddo1mpXc,1091
+emoji_sentiment-0.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+emoji_sentiment-0.0.3.dist-info/top_level.txt,sha256=gjfEy6Fo9Xo74LVTxK0KnWKw_rMGTCixWO0JVUC3Svk,16
+emoji_sentiment-0.0.3.dist-info/RECORD,,

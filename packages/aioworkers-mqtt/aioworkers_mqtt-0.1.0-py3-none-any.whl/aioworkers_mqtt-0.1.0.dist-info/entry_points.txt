@@ -1,0 +1,2 @@
+[aioworkers]
+mqtt = aioworkers_mqtt

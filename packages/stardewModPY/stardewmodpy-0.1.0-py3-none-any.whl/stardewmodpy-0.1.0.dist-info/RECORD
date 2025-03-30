@@ -1,0 +1,13 @@
+StardewValley/__init__.py,sha256=u6CcPedNMqD_HYqe6MVRmIT0b7zY5ydslThkPrTa59c,128
+StardewValley/contentpatcher.py,sha256=-GlE-Rg3zX7gbNvAHuonW8MNSSXi0sDDfdSmYZe0TNk,2098
+StardewValley/helper.py,sha256=spcAdXSotzjFCiiEnkJRLXGRjaOjrtCMIf836N6x0Gs,1291
+StardewValley/jsonreader.py,sha256=Qk1fh8QzQmIjM4tAGXQyhrhSB4qtvnirTD0C0p_OnGA,2272
+StardewValley/manifest.py,sha256=JHjo_UN2pDiyN8m_PPr58jx-EqE4oyNSRRhGIA9NhnU,893
+StardewValley/verification.py,sha256=18QOw_rmbR9XcyHqtE1VMKR72VXSGeC2hl_106j4KxU,2155
+StardewValley/Data/Objects.py,sha256=j5psingUf7PJrm2jvGZbQmWgW3bGQ48vsrJWC-iRbP4,3282
+StardewValley/Data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stardewmodpy-0.1.0.dist-info/licenses/LICENSE,sha256=IUaNA-QZGAvkC8Zel-5LfKLsywus-V2W-QbWfq5nYBQ,531
+stardewmodpy-0.1.0.dist-info/METADATA,sha256=Gh4rvIDlQ3sDLYSIi9iY3qCRPVz9oAhPwYKNzWfwZbg,991
+stardewmodpy-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+stardewmodpy-0.1.0.dist-info/top_level.txt,sha256=dYZQ5U4D9uKyNcIwU8fWcyHHC0YtwI1MG6o8S8CPI3c,14
+stardewmodpy-0.1.0.dist-info/RECORD,,

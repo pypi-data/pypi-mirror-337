@@ -1,0 +1,184 @@
+Metadata-Version: 2.4
+Name: colortype
+Version: 5.0
+Summary: A simple ANSI color formatting library for Python.
+Author: k_noob
+Author-email: k.noob1517@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# colortype
+
+**colortype** is a simple ANSI color formatting library for Python. It helps you easily apply colors, styles, and cursor controls in terminal applications.
+
+## Installation
+
+You can install colortype via pip:
+```sh
+pip install colortype
+```
+
+## Features
+
+### **1. Foreground Colors**
+- Standard colors: `red`, `green`, `blue`, `yellow`, `purple`, `black`, `white`
+- Light colors: `light_red`, `light_green`, `light_blue`, `light_yellow`, `light_magenta`, `light_black`, `light_white`
+
+### **2. Background Colors**
+- Standard and light background colors available with `b_` prefix.
+
+### **3. Text Styles**
+- `bold`, `dim`, `underline`, `blink`, `reverse`
+
+### **4. Cursor Control**
+- `[up]`, `[down]`, `[left]`, `[right]`
+- `[delete_line]` (New in v5.0a1!)
+- `[down_to_first_character]` or `[dtfc]`
+
+### **5. RGB Support**
+Use custom RGB colors:
+```python
+from colortype import rgbcolor
+print(rgbcolor(255, 0, 0) + "Red Text" + "\033[0m")
+```
+
+## Usage
+```python
+from colortype import fore, back, style, goto, console
+
+print(fore.red + "This is red text" + style.reset)
+print(back.yellow + "This has a yellow background" + style.reset)
+print(style.bold + "This is bold text" + style.reset)
+```
+
+Or use `[tags]` with `console()`:
+```python
+print(console("[red]This is red text[reset]"))
+print(console("[b_yellow]Yellow background[reset]"))
+```
+
+## Changelog (v5.0a1)
+- **New Features:**
+  - `[delete_line]` for clearing current line.
+  - `[dtfc]` moves down to the first character.
+  - `[dim]` text style re-added.
+- **Fixes:**
+  - `console()` issue resolved.
+  - `dim` was missing and now restored.
+
+## Contact
+- Email 1: [himnnha23@gmail.com](mailto:himnnha23@gmail.com)
+- Email 2: [k.noob1517@gmail.com](mailto:k.noob1517@gmail.com)
+
+_Thank you for using colortype!_
+
+# Changelog
+
+## [5.0] - Stable
+### Added
+- **More SGR options**: Now you can control your cursor with a new thing name 'cursor'.
+- **256-color**: Add an options for 256-color (color256).
+
+---
+
+## [5.0a1] - Pre-Release
+### Added
+- **[delete_line]**: Deletes the entire current line.
+- **[down_to_first_character] / [dtfc]**: Moves cursor to the first character of the next line.
+- **[dim]**: Re-added dim text style (previously removed by accident).
+- **RGB support** for custom foreground and background colors.
+
+### Fixed
+- **console()**: Fixed an issue causing incorrect replacements.
+- **dim missing**: `dim` style was accidentally removed and has been restored.
+- **Remove duplicate regular**: We accidentally add 2 reset (regular and reset).
+
+---
+
+## [4.0] - Previous Release
+### Added
+- Support for **light colors** (e.g., `light_red`, `light_blue`).
+- Background colors with the `b_` prefix (e.g., `b_red`).
+- **console()** function for easy text formatting.
+
+### Fixed
+- Improved performance of ANSI code replacements.
+
+---
+
+## [3.0] - Major Update
+### Added
+- **More refined color controls** for text formatting.
+- **Enhanced compatibility** with different terminal emulators.
+
+### Fixed
+- Optimized performance for better rendering speed.
+
+---
+
+## [3.0a1] - Major Improvements
+### Added
+- **Cursor movement controls**: `[up]`, `[down]`, `[left]`, `[right]`.
+- **Text styles**: `bold`, `underline`, `blink`, `reverse`, `dim`.
+
+### Fixed
+- Standardized ANSI codes to avoid compatibility issues.
+
+---
+
+## [2.5]
+### Added
+- Additional text styling options.
+- More control over color formatting.
+
+---
+
+## [2.0a1]
+### Added
+- Introduced basic ANSI styling features.
+- Implemented initial support for foreground colors.
+
+---
+
+## [1.2]
+### Fixed
+- Addressed minor compatibility issues.
+- Improved handling of ANSI escape sequences.
+
+---
+
+## [1.0]
+### Added
+- First stable release with core ANSI formatting features.
+
+---
+
+## [1.0a1]
+### Added
+- Initial alpha release with basic color formatting.
+
+---
+
+## [0.1a2]
+### Fixed
+- Early bug fixes and refinements.
+
+---
+
+## [0.1a1]
+### Added
+- Prototype implementation of color formatting.
+
+---
+
+_Thank you for using colortype!_ 🚀

@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: pgbenchmark
+Version: 0.0.1
+Summary: [PLACEHOLDER] A Python package to benchmark Query performance and Comparison on PostgreSQL Database
+Home-page: https://github.com/GujaLomsadze/pgbenchmark
+Author: Elguja Lomsadze
+Author-email: lomsadze.guja@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# pgbenchamrk
+
+For now it's under development. Polishing up legacy code to publish the package
+
+## Installation
+
+```sh
+pip install pgbenchmark

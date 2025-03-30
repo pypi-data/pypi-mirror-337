@@ -1,0 +1,9 @@
+keepdelta/__init__.py,sha256=sXejaz5H6CQEx0C5JWzYKmKz_Kdu6_MV1ULOB7IpDbM,32
+keepdelta/check.py,sha256=XdYhnJAx2Xvju0ewxhAOHEtHfkMW8BGSdv7uXfg-mJs,1758
+keepdelta/config.py,sha256=ghx-Nn4axJtosNj_9i88bZXzMoWFHJDEnjJ7Fa7FMyk,503
+keepdelta/main.py,sha256=4a9ThrIzA-pC0D6JASHzsVUYlU2WJ7ELAAOusCXn_5M,2007
+keepdelta-0.1.3.dist-info/licenses/LICENSE,sha256=tAIN76Wcb841V_AXtI8fWynQ2ZFh6B2CziNjRLqvbbQ,1074
+keepdelta-0.1.3.dist-info/METADATA,sha256=2F80Vkrj803s0wbypB2Gpegu1ksMTshZcDSisdp1vyo,6164
+keepdelta-0.1.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+keepdelta-0.1.3.dist-info/top_level.txt,sha256=MgvCR2UYxH8R2yPG4ohkMYrqVcbqnra6vuU9hpwe4R4,10
+keepdelta-0.1.3.dist-info/RECORD,,

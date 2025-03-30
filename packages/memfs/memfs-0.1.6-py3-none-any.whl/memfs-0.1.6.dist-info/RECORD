@@ -1,0 +1,11 @@
+memfs/__init__.py,sha256=TOXdA9p5p0OXIYq5gOItzpIFxUqj53WwBWyxJz6i1UQ,517
+memfs/_version.py,sha256=tgc_bMAWBpGGljJD3189tcdWuwE0DunnMqmMKgtP2wk,478
+memfs/api.py,sha256=_pWiKqs8r1BAUhe_3sLYzlxJrgibJcdWYa7dcV00Z8c,17209
+memfs/cli.py,sha256=y4iQozKI5PRrHgciCky5xRRNEzDjNn5lT_g98ryMrc0,4119
+memfs/memfs.py,sha256=2VnzSoCvMQAKGWI-ZIhtRXadmC7ZCWDrNFXFE6umaIY,14872
+memfs-0.1.6.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+memfs-0.1.6.dist-info/METADATA,sha256=vA4AOaXFhRxsaCPfIod6P0rOcWHOivWWNu9k0bo5Bh4,9715
+memfs-0.1.6.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+memfs-0.1.6.dist-info/entry_points.txt,sha256=LS1m91ke6-R3Pn93AR5AcSfSXAhp1tMqMIbnxLD-Az0,41
+memfs-0.1.6.dist-info/top_level.txt,sha256=HNd9r66pmHzx46kcLeIz67NQ95dRQVV185iwHCULHN0,6
+memfs-0.1.6.dist-info/RECORD,,

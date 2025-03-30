@@ -1,0 +1,13 @@
+examples/__init__.py,sha256=r6x6APdiEVCjcAIj6yzV4dd3-aYHtuW0bWaPJU911jw,117
+examples/beets_config.example.yaml,sha256=MiM7r2umNd4fMi0GnM_8AFO-iYyATYKTOTldgtRD810,2317
+examples/magapy.example.ini,sha256=uSvZ5ihMsucP01zgZg9U1IaHWMsQKHVI6KTFRgjOHFw,424
+examples/setup_beets.example.py,sha256=yIB1FVnELpL9PulYAkK98mPRrGZgbPw2qa_B4yQMPAs,2088
+magapy-0.1.2.dist-info/licenses/LICENSE,sha256=s-gBMEpHCSC2zaxGfcjzHCDRVJz5cbljTTpL8yU0woo,1071
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_audio_utils.py,sha256=0TaKabD8l7hnx_xIKAlyFyYMICel8xEWWUNmDhHRop8,2261
+tests/test_utils.py,sha256=Ts_JfzuASvpwPzqFZ_1odpaDGaYClKtUudurfbxV10M,4576
+magapy-0.1.2.dist-info/METADATA,sha256=Ldxhk3QVvOQGvpZxiNqZ2Akn4MJqMxDBtStmgd41ZwE,7320
+magapy-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+magapy-0.1.2.dist-info/entry_points.txt,sha256=HuEpQSt69nnGcP6Zoto61J9E_ADsIu2ia7_vZR9Da2M,43
+magapy-0.1.2.dist-info/top_level.txt,sha256=0M_q4z1rcVnxMaWpKYLpD8k_V871rRuE8__boDbZHKI,15
+magapy-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+beatpy/__init__.py
+beatpy.egg-info/PKG-INFO
+beatpy.egg-info/SOURCES.txt
+beatpy.egg-info/dependency_links.txt
+beatpy.egg-info/requires.txt
+beatpy.egg-info/top_level.txt
+beatpy/youtube/__init__.py
+beatpy/youtube/download_audio.py
+src/__init__.py
+src/audio_librosa.py
+src/path_download.py
+src/spleeter_utils.py

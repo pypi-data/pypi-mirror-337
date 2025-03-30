@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+checkmarks/__init__.py
+checkmarks/cli.py
+checkmarks.egg-info/PKG-INFO
+checkmarks.egg-info/SOURCES.txt
+checkmarks.egg-info/dependency_links.txt
+checkmarks.egg-info/entry_points.txt
+checkmarks.egg-info/top_level.txt
+tests/test_cli.py

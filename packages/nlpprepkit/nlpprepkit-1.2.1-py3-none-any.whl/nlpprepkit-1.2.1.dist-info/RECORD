@@ -1,0 +1,14 @@
+nlpprepkit/__init__.py,sha256=Kc_ohQAr-N5lcQYzYGLZMBLen8IL617Jfwm449uTVSE,348
+nlpprepkit/core/exceptions.py,sha256=GXtF7Fa7UxuErUEIrYhhKVZrIgTWeZJ7lrDR5GMYY8g,842
+nlpprepkit/core/utils.py,sha256=qFA_9f4YOhf3YxOK_gOrsZlSmNcRpTFsay5ukHlY5rI,2907
+nlpprepkit/functions/__init__.py,sha256=wrq-8ZZzQL48H-T656ikngOe93FotzW8PYaPSFlbjcM,554
+nlpprepkit/functions/contractions.py,sha256=dnrfbFqKy3zifU220XZpsW6ObK64NsCneBsCl_Lgyw8,4508
+nlpprepkit/functions/normalization.py,sha256=PEsssLlWonb5Th9d4DA87L76-MvF1jGnVr_POpUxu_g,445
+nlpprepkit/functions/text_cleaning.py,sha256=fmFpbksvVYFx2EXDXp3s_eaaQl5sJhMYNulsMXFfmb8,2674
+nlpprepkit/pipeline/__init__.py,sha256=6vFYiIZHGHlRwgteRK9QDTtBenXenC5lR-cozvUYu5Q,55
+nlpprepkit/pipeline/pipeline.py,sha256=NOQJsRMNYN8niANGEEYNfoCTO-pGQeFipAik-tNSK5U,4654
+nlpprepkit-1.2.1.dist-info/licenses/LICENSE,sha256=nhFhDCjQ-IlKrUS-8wzGDbmYgnVnfzBlidB7PSxOORw,1066
+nlpprepkit-1.2.1.dist-info/METADATA,sha256=WI_IFG5IIBUEXuR5KfDb8w27sMA4glKHdNyJtHCWulM,2674
+nlpprepkit-1.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+nlpprepkit-1.2.1.dist-info/top_level.txt,sha256=miAAX-HDpGeZKK6AnPSahP0gkBZeJbK4XZ6Nyg_mmgA,11
+nlpprepkit-1.2.1.dist-info/RECORD,,

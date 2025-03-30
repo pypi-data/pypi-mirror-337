@@ -1,0 +1,6 @@
+onnxruntime
+
+[dev]
+nbdev>2
+matplotlib
+h5py

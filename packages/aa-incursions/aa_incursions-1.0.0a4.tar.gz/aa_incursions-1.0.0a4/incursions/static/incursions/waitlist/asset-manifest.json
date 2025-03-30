@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5efd662a.css",
+    "main.js": "/static/js/main.82bcc2b6.js",
+    "static/media/examplediscord.png": "/static/media/examplediscord.776af7222f9efbdaf435.png",
+    "static/media/banner.png": "/static/media/banner.f150fbfee33249ba016c.png",
+    "static/media/dead.jpg": "/static/media/dead.778b8dc379c7aced2169.jpg",
+    "static/media/skillqueue.png": "/static/media/skillqueue.ce8ec083c939a6669bbd.png",
+    "static/media/bell-ringing-04.mp3": "/static/media/bell-ringing-04.71ad8cf2d07826bd0471.mp3",
+    "static/media/modules.png": "/static/media/modules.a012d39720ccf3cb4e0f.png",
+    "static/media/notification-icon.png": "/static/media/notification-icon.3ca5cd5daff329150ca0.png",
+    "static/media/gunlayout.png": "/static/media/gunlayout.b707546b31b83ae079d0.png",
+    "static/media/mindflood.png": "/static/media/mindflood.59d95ee04529820ceddb.png",
+    "static/media/drop.png": "/static/media/drop.822b9c9138fba36670fe.png",
+    "static/media/frentix.png": "/static/media/frentix.336da9a4f5e685ae5dfa.png",
+    "static/media/bluepill.png": "/static/media/bluepill.ef43161eae27133a7b02.png",
+    "static/media/bastionmodule.png": "/static/media/bastionmodule.8868bd41b5d063f2a5d1.png",
+    "static/media/pyrolancea.png": "/static/media/pyrolancea.5d7a5eca2ce468342676.png",
+    "static/media/w.png": "/static/media/w.49177d36a77f95a08eae.png",
+    "static/media/fleetcomp.png": "/static/media/fleetcomp.f962719ca9bb5c64e523.png",
+    "static/media/guide.md": "/static/media/guide.64e75c1be2a044cd1583.md",
+    "index.html": "/index.html",
+    "main.5efd662a.css.map": "/static/css/main.5efd662a.css.map",
+    "main.82bcc2b6.js.map": "/static/js/main.82bcc2b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5efd662a.css",
+    "static/js/main.82bcc2b6.js"
+  ]
+}

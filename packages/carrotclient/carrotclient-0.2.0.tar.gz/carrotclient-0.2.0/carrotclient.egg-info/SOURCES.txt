@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+carrotclient/__init__.py
+carrotclient/main.py
+carrotclient.egg-info/PKG-INFO
+carrotclient.egg-info/SOURCES.txt
+carrotclient.egg-info/dependency_links.txt
+carrotclient.egg-info/top_level.txt

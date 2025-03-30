@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+permutation_feature_selector/__init__.py
+permutation_feature_selector/permutation_feature_selector.py
+permutation_feature_selector.egg-info/PKG-INFO
+permutation_feature_selector.egg-info/SOURCES.txt
+permutation_feature_selector.egg-info/dependency_links.txt
+permutation_feature_selector.egg-info/requires.txt
+permutation_feature_selector.egg-info/top_level.txt
+tests/test_permutation_feature_selector.py

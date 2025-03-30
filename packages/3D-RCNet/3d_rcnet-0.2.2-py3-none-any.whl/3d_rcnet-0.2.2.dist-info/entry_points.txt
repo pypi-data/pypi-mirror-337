@@ -1,0 +1,6 @@
+[console_scripts]
+3drcnet = 3D_RCNet.inference:main
+3drcnet-api = 3D_RCNet.API_server:main
+
+[gui_scripts]
+3drcnet-gui = 3D_RCNet.GUI_app:main

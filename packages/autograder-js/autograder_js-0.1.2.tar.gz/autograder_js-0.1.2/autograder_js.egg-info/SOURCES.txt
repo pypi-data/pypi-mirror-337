@@ -1,0 +1,10 @@
+README.md
+setup.py
+autograder/__init__.py
+autograder/core.py
+autograder/interactive.py
+autograder_js.egg-info/PKG-INFO
+autograder_js.egg-info/SOURCES.txt
+autograder_js.egg-info/dependency_links.txt
+autograder_js.egg-info/requires.txt
+autograder_js.egg-info/top_level.txt

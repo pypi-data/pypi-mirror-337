@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: autograder-js
+Version: 0.1.3
+Summary: Autograder para código JavaScript com feedback interativo usando a API do OpenAI.
+Author: Seu Nome
+Author-email: seu.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

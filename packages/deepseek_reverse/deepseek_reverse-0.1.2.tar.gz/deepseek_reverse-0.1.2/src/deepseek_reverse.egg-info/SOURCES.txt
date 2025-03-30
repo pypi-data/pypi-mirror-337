@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/deepseek_reverse/__init__.py
+src/deepseek_reverse/_internal.py
+src/deepseek_reverse/api.py
+src/deepseek_reverse/sha3.wasm
+src/deepseek_reverse.egg-info/PKG-INFO
+src/deepseek_reverse.egg-info/SOURCES.txt
+src/deepseek_reverse.egg-info/dependency_links.txt
+src/deepseek_reverse.egg-info/requires.txt
+src/deepseek_reverse.egg-info/top_level.txt

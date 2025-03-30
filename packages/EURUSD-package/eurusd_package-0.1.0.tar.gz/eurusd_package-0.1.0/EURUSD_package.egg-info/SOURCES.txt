@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+EURUSD_package/__init__.py
+EURUSD_package/analyzeForecast.py
+EURUSD_package/dataAnalyzer.py
+EURUSD_package/dataLoader.py
+EURUSD_package/dataVisualizer.py
+EURUSD_package/main.py
+EURUSD_package.egg-info/PKG-INFO
+EURUSD_package.egg-info/SOURCES.txt
+EURUSD_package.egg-info/dependency_links.txt
+EURUSD_package.egg-info/requires.txt
+EURUSD_package.egg-info/top_level.txt

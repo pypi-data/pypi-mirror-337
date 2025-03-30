@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EURUSD_package"
+version = "0.1.0"
+description = "A package for analyzing and visualizing EUR/USD forex data"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "statsmodels",
+    "plotly",
+    "prophet"
+]
+
+[tool.setuptools]
+packages = ["EURUSD_package"]

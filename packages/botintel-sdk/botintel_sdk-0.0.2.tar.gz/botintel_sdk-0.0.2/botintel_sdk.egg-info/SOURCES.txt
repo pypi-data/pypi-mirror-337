@@ -1,0 +1,12 @@
+README.md
+setup.py
+botintel/__init__.py
+botintel/client.py
+botintel/exceptions.py
+botintel/image_client.py
+botintel/models.py
+botintel_sdk.egg-info/PKG-INFO
+botintel_sdk.egg-info/SOURCES.txt
+botintel_sdk.egg-info/dependency_links.txt
+botintel_sdk.egg-info/requires.txt
+botintel_sdk.egg-info/top_level.txt

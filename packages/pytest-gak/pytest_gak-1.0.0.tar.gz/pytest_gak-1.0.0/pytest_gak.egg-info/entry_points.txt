@@ -1,0 +1,5 @@
+[console_scripts]
+gaktest = gak:main
+
+[pytest11]
+pytest-gak = gak.plugin

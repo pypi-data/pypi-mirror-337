@@ -1,0 +1,3 @@
+[console_scripts]
+morphius=morphius.cli.cli:main
+

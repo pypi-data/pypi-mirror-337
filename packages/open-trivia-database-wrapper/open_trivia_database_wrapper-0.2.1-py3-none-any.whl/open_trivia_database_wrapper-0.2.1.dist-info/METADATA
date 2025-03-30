@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: open-trivia-database-wrapper
+Version: 0.2.1
+Summary: Python wrapper for the Open Trivia Database
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: requests>=2.32.3
+Requires-Dist: setuptools>=78.1.0
+Dynamic: license-file
+
+# python-open-trivia-database-wrapper

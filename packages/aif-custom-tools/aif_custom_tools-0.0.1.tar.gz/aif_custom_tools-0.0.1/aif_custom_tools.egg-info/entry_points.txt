@@ -1,0 +1,2 @@
+[package_tools]
+custom_llm_tool = aif_custom_tools.tools.utils:list_package_tools

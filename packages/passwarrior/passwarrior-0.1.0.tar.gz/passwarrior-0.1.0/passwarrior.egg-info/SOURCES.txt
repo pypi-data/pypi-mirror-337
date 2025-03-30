@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+passwarrior/__init__.py
+passwarrior.egg-info/PKG-INFO
+passwarrior.egg-info/SOURCES.txt
+passwarrior.egg-info/dependency_links.txt
+passwarrior.egg-info/top_level.txt

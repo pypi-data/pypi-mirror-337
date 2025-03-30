@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_pandas_summarize.py
+tests/test_spark_summarize.py
+tests/test_summarize.py
+textsage/__init__.py
+textsage/pandas_summarize.py
+textsage/setup_ollama.py
+textsage/spark_summarize.py
+textsage/summarize.py
+textsage.egg-info/PKG-INFO
+textsage.egg-info/SOURCES.txt
+textsage.egg-info/dependency_links.txt
+textsage.egg-info/requires.txt
+textsage.egg-info/top_level.txt

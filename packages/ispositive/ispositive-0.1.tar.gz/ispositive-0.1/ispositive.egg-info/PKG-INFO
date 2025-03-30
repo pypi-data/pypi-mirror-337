@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: ispositive
+Version: 0.1
+Summary: A simple package to check if a number is positive.
+Home-page: https://github.com/keshav-code-tech/ispositive.git
+Author: keshav sharma
+Author-email: 12345keshav.sharma@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# ispositive
+
+A simple Python package to check if a number is positive.
+
+## Installation
+```sh
+pip install ispositive
+```
+
+## Usage
+```python
+import ispositive
+
+print(ispositive.is_positive(5))  # True
+print(ispositive.is_positive(-3)) # False
+```
+
+## Author
+Created by Keshav Sharma
+
+## License
+MIT License - Free for everyone
+
+### ðŸš€ Final Summary
+1. **`LICENSE`** (MIT License - Free for everyone)  
+2. **`README.md`** (Documentation with usage example)

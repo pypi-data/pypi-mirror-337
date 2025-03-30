@@ -1,0 +1,1 @@
+pulumi_supavisor_native

@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+bpy_meshbuilder.egg-info/PKG-INFO
+bpy_meshbuilder.egg-info/SOURCES.txt
+bpy_meshbuilder.egg-info/dependency_links.txt
+bpy_meshbuilder.egg-info/requires.txt
+bpy_meshbuilder.egg-info/top_level.txt
+examples/gaussian.py
+meshbuilder/__init__.py

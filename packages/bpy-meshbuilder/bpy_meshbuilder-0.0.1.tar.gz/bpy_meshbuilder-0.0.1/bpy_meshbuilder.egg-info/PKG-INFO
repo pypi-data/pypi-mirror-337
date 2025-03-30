@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: bpy-meshbuilder
+Version: 0.0.1
+Summary: Mesh manipulation utilities for Blender Python scripting
+Author-email: Sachchit Kunichetty <skunich@umich.edu>
+Keywords: blender,mesh
+Requires-Python: ~=3.11
+License-File: LICENSE
+Requires-Dist: bpy==4.4.0
+Dynamic: license-file

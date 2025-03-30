@@ -1,0 +1,308 @@
+#: hunting/auth_hooks.py:16 hunting/templates/hunting/base.html:6
+#: hunting/templates/hunting/base.html:23
+#: hunting/templates/hunting/index.html:8
+msgid "Hunting"
+msgstr ""
+
+#: hunting/models.py:39
+msgid "Eve Character"
+msgstr ""
+
+#: hunting/models.py:41
+msgid "R&D"
+msgstr ""
+
+#: hunting/models.py:42
+msgid "Distribution"
+msgstr ""
+
+#: hunting/models.py:43
+msgid "Mining"
+msgstr ""
+
+#: hunting/models.py:44
+msgid "Security"
+msgstr ""
+
+#: hunting/models.py:45
+msgid "Business"
+msgstr ""
+
+#: hunting/models.py:46
+msgid "Exploration"
+msgstr ""
+
+#: hunting/models.py:47
+msgid "Industry"
+msgstr ""
+
+#: hunting/models.py:48
+msgid "Military"
+msgstr ""
+
+#: hunting/models.py:49
+msgid "Advanced Military"
+msgstr ""
+
+#: hunting/models.py:50
+msgid "Paragon"
+msgstr ""
+
+#: hunting/models.py:52
+msgid "Division"
+msgstr ""
+
+#: hunting/models.py:56
+msgid "Corporation"
+msgstr ""
+
+#: hunting/models.py:58 hunting/models.py:202
+#: hunting/templates/hunting/target_details/locate_history.html:16
+msgid "Station"
+msgstr ""
+
+#: hunting/models.py:60
+msgid "Level 1"
+msgstr ""
+
+#: hunting/models.py:61
+msgid "Level 2"
+msgstr ""
+
+#: hunting/models.py:62
+msgid "Level 3"
+msgstr ""
+
+#: hunting/models.py:63
+msgid "Level 4"
+msgstr ""
+
+#: hunting/models.py:64
+msgid "Level 5"
+msgstr ""
+
+#: hunting/models.py:66
+msgid "Level 1<>5"
+msgstr ""
+
+#: hunting/models.py:70
+msgid "NonAgent"
+msgstr ""
+
+#: hunting/models.py:71
+msgid "BasicAgent"
+msgstr ""
+
+#: hunting/models.py:72
+msgid "TutorialAgent"
+msgstr ""
+
+#: hunting/models.py:73
+msgid "ResearchAgent"
+msgstr ""
+
+#: hunting/models.py:74
+msgid "CONCORDAgent"
+msgstr ""
+
+#: hunting/models.py:75
+msgid "GenericStorylineMissionAgent"
+msgstr ""
+
+#: hunting/models.py:76
+msgid "StorylineMissionAgent"
+msgstr ""
+
+#: hunting/models.py:77
+msgid "EventMissionAgent"
+msgstr ""
+
+#: hunting/models.py:78
+msgid "FactionalWarfareAgent"
+msgstr ""
+
+#: hunting/models.py:79
+msgid "EpicArcAgent"
+msgstr ""
+
+#: hunting/models.py:80
+msgid "AuraAgent"
+msgstr ""
+
+#: hunting/models.py:81
+msgid "CareerAgent"
+msgstr ""
+
+#: hunting/models.py:82
+msgid "HeraldryAgent"
+msgstr ""
+
+#: hunting/models.py:85
+msgid "Type"
+msgstr ""
+
+#: hunting/models.py:87
+msgid "Agent Type"
+msgstr ""
+
+#: hunting/models.py:88 hunting/models.py:116 hunting/models.py:124
+msgid "Locator Agent"
+msgstr ""
+
+#: hunting/models.py:126 hunting/models.py:162 hunting/models.py:179
+#: hunting/models.py:194 hunting/models.py:222 hunting/models.py:279
+msgid "Character"
+msgstr ""
+
+#: hunting/models.py:137
+msgid "Character - Locator Agent"
+msgstr ""
+
+#: hunting/models.py:165
+msgid "Valid Locator Agents"
+msgstr ""
+
+#: hunting/models.py:188
+msgid "Locator Character"
+msgstr ""
+
+#: hunting/models.py:190
+msgid "Sender Agent ID"
+msgstr ""
+
+#: hunting/models.py:192 hunting/templates/hunting/alt_details.html:91
+#: hunting/templates/hunting/alt_details.html:139
+#: hunting/templates/hunting/index.html:59
+#: hunting/templates/hunting/target_details.html:78
+#: hunting/templates/hunting/target_details/locate_history.html:12
+msgid "Timestamp"
+msgstr ""
+
+#: hunting/models.py:196
+#: hunting/templates/hunting/target_details/locate_history.html:13
+msgid "Solar Systen"
+msgstr ""
+
+#: hunting/models.py:198
+#: hunting/templates/hunting/target_details/locate_history.html:14
+msgid "Constellation"
+msgstr ""
+
+#: hunting/models.py:200
+#: hunting/templates/hunting/target_details/locate_history.html:15
+msgid "Region"
+msgstr ""
+
+#: hunting/models.py:209
+msgid "LocateCharMsg Notification"
+msgstr ""
+
+#: hunting/models.py:223 hunting/templates/hunting/alt_details.html:149
+#: hunting/templates/hunting/target_details.html:88
+msgid "Hard Cyno"
+msgstr ""
+
+#: hunting/models.py:224
+msgid "Anchored Cyno Beacon"
+msgstr ""
+
+#: hunting/models.py:225 hunting/templates/hunting/alt_details.html:158
+#: hunting/templates/hunting/target_details.html:97
+msgid "Scout"
+msgstr ""
+
+#: hunting/models.py:226
+msgid "Can Pilot the Target Ship"
+msgstr ""
+
+#: hunting/models.py:268
+msgid "Target Alt"
+msgstr ""
+
+#: hunting/models.py:281
+msgid "Ship"
+msgstr ""
+
+#: hunting/models.py:283 hunting/templates/hunting/alt_details.html:100
+#: hunting/templates/hunting/index.html:68
+msgid "Alts"
+msgstr ""
+
+#: hunting/models.py:285
+msgid "Last Known Ship Location"
+msgstr ""
+
+#: hunting/models.py:330
+msgid "Target"
+msgstr ""
+
+#: hunting/models.py:341
+msgid "Hunting Target"
+msgstr ""
+
+#: hunting/models.py:343
+msgid "Author"
+msgstr ""
+
+#: hunting/models.py:344
+msgid "Note Text"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:8
+msgid "Alt Details"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:16
+#: hunting/templates/hunting/target_details.html:19
+msgid "Notes"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:33
+#: hunting/templates/hunting/target_details.html:39
+msgid "Killmails WIP"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:68
+#: hunting/templates/hunting/alt_details.html:116
+#: hunting/templates/hunting/index.html:36
+#: hunting/templates/hunting/target_details.html:57
+msgid "Location"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:105
+#: hunting/templates/hunting/alt_details.html:163
+#: hunting/templates/hunting/index.html:73
+#: hunting/templates/hunting/target_details.html:100
+msgid "Details"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:113
+#: hunting/templates/hunting/target_details.html:54
+msgid "Alt"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:129
+msgid "label label-success"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:152
+#: hunting/templates/hunting/target_details.html:91
+msgid "Pilot"
+msgstr ""
+
+#: hunting/templates/hunting/alt_details.html:155
+#: hunting/templates/hunting/target_details.html:94
+msgid "Beacon Cyno"
+msgstr ""
+
+#: hunting/templates/hunting/base.html:18
+msgid "Toggle navigation"
+msgstr ""
+
+#: hunting/templates/hunting/base.html:28
+msgid "Add Character Token"
+msgstr ""
+
+#: hunting/templates/hunting/target_details/locate_history.html:6
+msgid "Locate History"
+msgstr ""

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+BaseKit/BaseBridge.py
+BaseKit/__init__.py
+BaseKit/tests.py
+BaseKit.egg-info/PKG-INFO
+BaseKit.egg-info/SOURCES.txt
+BaseKit.egg-info/dependency_links.txt
+BaseKit.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+tailwindcss=tailwind_py.cli:main
+

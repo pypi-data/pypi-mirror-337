@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: blue_south
+Version: 4.3.1
+Summary: 🌀 AI for the Global South.
+Home-page: https://github.com/kamangir/blue-south
+Author: Arash Abadpour (Kamangir)
+Author-email: arash@kamangir.net
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Unix Shell
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: abcli
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# 🌀 blue-south
+
+AI with no Big Tech dependency for the Global South.
+
+```bash
+pip install blue-south
+```
+
+|   |   |   |
+| --- | --- | --- |
+| [`feature 1`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-south/marquee.png?raw=true)](#) description of feature 1 ... | [`feature 2`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-south/marquee.png?raw=true)](#) description of feature 2 ... | [`feature 3`](#) [![image](https://github.com/kamangir/assets/raw/main/blue-south/marquee.png?raw=true)](#) description of feature 3 ... |
+
+---
+
+
+[![pylint](https://github.com/kamangir/blue-south/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/blue-south/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/blue-south/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/blue-south/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/blue-south/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/blue-south/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/blue-south.svg)](https://pypi.org/project/blue-south/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/blue-south)](https://pypistats.org/packages/blue-south)
+
+built by 🌀 [`blue_options-4.240.1`](https://github.com/kamangir/awesome-bash-cli), based on 🌀 [`blue_south-4.3.1`](https://github.com/kamangir/blue-south).
+
+built by 🌀 [`blueness-3.96.1`](https://github.com/kamangir/blueness).

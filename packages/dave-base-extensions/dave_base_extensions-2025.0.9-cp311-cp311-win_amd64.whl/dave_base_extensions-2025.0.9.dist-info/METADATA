@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: dave-base-extensions
+Version: 2025.0.9
+Summary: The Base Extensions for DAVE
+Author-email: Ruben de Bruin <ruben@davelab.nl>
+License-Expression: LicenseRef-Proprietary
+Project-URL: Homepage, https://usedave.nl
+Project-URL: Issues, https://github.com/dave-Lab-and-Engineering/dave/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: usedave>=2025.1.7
+Dynamic: license-file
+
+# dave-base-extensions
+
+This module contains the base extensions of DAVE

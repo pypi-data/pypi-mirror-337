@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock_watch"
+version = "0.1"
+authors = [
+  { name="Drake Wiggins", email="drakewiggins2@gmail.com" },
+]
+license = "MIT"
+description = "Deliver live data for your portfolio in your terminal"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "yfinance>=0.2.55",
+]
+
+[project.urls]
+Homepage = "https://github.com/Drake14W/stock-watcher"
+Issues = "https://github.com/Drake14W/stock-watcher/issues"
+
+[project.scripts]
+stock-watcher = "stock_watcher.__main__:main"

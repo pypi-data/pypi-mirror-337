@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: stock_watch
+Version: 0.1
+Summary: Deliver live data for your portfolio in your terminal
+Author-email: Drake Wiggins <drakewiggins2@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/Drake14W/stock-watcher
+Project-URL: Issues, https://github.com/Drake14W/stock-watcher/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yfinance>=0.2.55
+Dynamic: license-file
+
+# stock-watcher
+Deliver live data for your portfolio in your terminal
+
+## Build
+Install using pip:
+```
+pip install stock_watcher
+```
+
+## Usage
+The interface is overall very simple:
+```
+usage: stock-watcher [-h] [-f FROM] config_csv
+
+Deliver live data for your portfolio in your terminal
+
+positional arguments:
+  config_csv       config csv with your portfolio
+
+options:
+  -h, --help       show this help message and exit
+  -f, --from FROM  currency to display USD exchange rate for (default: CAD)
+```
+
+Here's an example configuration csv:
+
+| Ticker | Buy Price | Num Stocks |
+| ------ | --------- | ---------- |
+| SCHH | 19.98 | 59 |
+| VTC | 75.77 | 18 |
+| SPTM | 64.02 | 50 |
+| SPDW | 35.68 | 75 |
+| VWO | 41.94 | 55 |
+| MMKT | 100.03 | 7 |
+| 6758.T | 2618.00 | 51 |
+
+In text it might look like this:
+```
+Ticker,Buy Price,Num Stocks
+SCHH,19.98,59
+VTC,75.77,18
+SPTM,64.02,50
+SPDW,35.68,75
+VWO,41.94,55
+MMKT,100.03,7
+6758.T,2618.00,51
+```
+The seperator will be automatically detected by pandas, so you can use pretty much whatever you want. The ticker in the first column must be availible on yahoo finance. Any securities that use a currency other than USD should have their buy price entered in the local currency.
+
+## Features
+[Put a screenshot here]
+The program gives 4 data points for each ticker, The % and absolute daily and total change. The daily changes are calculated from the last price point before today. It also shows whether US markets are currently open or closed. Fianlly, a currency exchange rate is displayed at the bottom. Absolute data for foreign securities is always converted to USD when displayed (though calculations are done in local currency). However percent changes are done in local currencies.
+
+`q` is used to exit the program.

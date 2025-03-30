@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: kana2p
+Version: 0.1.2
+Summary: Japanese Katakana-Phonemes Conversion
+Project-URL: repository, https://github.com/haruhisa-enomoto/kana2p
+Project-URL: homepage, https://github.com/haruhisa-enomoto/kana2p
+Author-email: Haruhisa Enomoto <73296681+haruhisa-enomoto@users.noreply.github.com>
+License: MIT License
+        
+        Copyright (c) 2025 Haruhisa Enomoto
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Japanese Katakana-Phonemes Conversion
+
+## Installation
+
+```bash
+pip install kana2p
+```
+
+## Usage
+
+```python
+from kana2p import katakana2phonemes
+
+# Convert Katakana to Phonemes
+katakana = "ハロー、ワールデョ！"
+phonemes = katakana2phonemes(katakana)
+print(phonemes)
+# Output: ["h", "a", "r", "o", ":", "、", "w", "a", ":", "r", "u", "dy", "o", "！"]
+print(katakana2phonemes(katakana, normalize=True))
+# Output: ["h", "a", "r", "o", ":", "w", "a", ":", "r", "u", "dy", "o"]
+```
+
+```python
+from kana2p import phonemes2katakana
+
+# Convert Phonemes to Katakana
+phonemes = ["s", "i", ":", "kw", "a", ":", "s", "a", ":"]
+katakana = phonemes2katakana(phonemes)
+print(katakana)
+# Output: "スィークァーサー"
+```
+
+## Note
+
+
+### General Notes
+- Only full-width Katakana are processed.
+- If a character is not found in the mapping and normalize is False, the character is passed through unchanged.
+- If normalize is True, characters not present in the mapping (e.g., non-Katakana characters) are excluded.
+
+### Special Characters
+- The sokuon `ッ` is converted to the phoneme `q`.
+- The prolonged sound mark `ー` is converted to the phoneme `:`.
+- The syllabic nasal `ン` is converted to the phoneme `N`.
+- `ヲ` is converted to `["o"]` rather than `["w", "o"]`.
+- `ヶ` is converted to `["k", "a"]` rather than `["k", "e"]`.
+
+### Rare Consonants
+- Some rare consonants like `shw`, `dy`, `tsy`, `bw`, ... are included (e.g. `シュェ` -> `["shw", "e"]`, `デョ` -> `["dy", "o"]`).
+- See `src/kana2p/const.py` for the full list of phoneme mappings.
+- See also: https://ja.wikipedia.org/wiki/%E6%8D%A8%E3%81%A6%E4%BB%AE%E5%90%8D
+

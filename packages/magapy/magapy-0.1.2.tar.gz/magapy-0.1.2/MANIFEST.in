@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+include PUBLISHING.md
+include requirements.txt
+recursive-include tests *.py
+recursive-include examples *.yaml *.ini
+recursive-include magapy/data *.json *.yaml
+global-exclude *.py[cod] __pycache__ *.so
+exclude .config/MusicBrainz/Picard.ini
+exclude **/Picard.ini

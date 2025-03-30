@@ -1,0 +1,70 @@
+directory: /Volumes/sad/MUSIC  # Use your actual music library path
+library: /Users/georgeskhawam/PP/Magapy/musiclibrary.db
+
+import:
+    write: yes_missing  # Changed from no to yes_missing - only writes missing tags
+    move: yes    # Move instead of copy
+    copy: no     # Ensure copying is disabled
+    resume: ask
+    incremental: yes
+    quiet_fallback: skip
+    none_rec_action: skip  # Skip unrecognized albums
+    timid: yes   # Ask before making changes
+    # Add supported additional file extensions
+    extras: ['*.jpg', '*.png', '*.pdf', '*.lrc', '*.txt', '*.json']
+    art_filename: cover    # Name for cover art files
+
+paths:
+    default: $albumartist_safe/$year $album_safe/$albumartist_safe - $year $album_safe - $track. $title_safe
+    singleton: [standalone recordings]/$artist_safe/$title_safe
+    comp: Various Artists/$year $album_safe/$track. $title_safe
+
+path_sep_replace:
+    ':': '꞉'
+
+replace:
+    '[\\/]': ''  # Remove slashes
+    '^\.': ''    # Remove leading dots
+    '[\x00-\x1f]': ''  # Remove control characters
+    '[<>:"\?\*\|]': ''  # Remove Windows-unfriendly characters
+
+# Function to clean up formatting
+item_fields:
+    year: $if2($left($date,4),$left($originalyear,4),$left($originaldate,4),$left($acousticID,4),X)
+    albumartist_safe: $replace($if2(%albumartist%,%artist%,$copyright,[Unknown Artist]),':','꞉')
+    album_safe: $replace($if2(%album%,[Unknown Album]),':','꞉')
+    title_safe: $replace($title,':','꞉')
+    track: |
+        $if($gt(%totaldiscs%,1),
+            $num(%discnumber%,2)-)$num(%tracknumber%,2)
+
+plugins:
+    - chroma      # Audio fingerprinting
+    - fetchart    # Fetch album art
+    - lyrics      # Fetch lyrics
+    - discogs     # Use Discogs as metadata source
+    - edit        # Edit metadata before importing
+    - info        # Show file metadata
+
+# Plugin-specific settings
+acoustid:
+    apikey: <YOUR_ACOUSTID_API_KEY>  # AcoustID API key for audio fingerprinting
+
+fetchart:
+    auto: yes
+    maxwidth: 1000
+    sources: coverart itunes amazon filesystem
+
+match:
+    preferred:
+        countries: ['US', 'GB|UK', 'FR']
+        media: ['CD', 'Digital Media']
+    max_rec:
+        missing_tracks: medium
+        unmatched_tracks: medium
+
+ui:
+    color: yes
+    terminal_width: 80
+
+# Check for sensitive info, remove or mask if present.

@@ -1,0 +1,2 @@
+[console_scripts]
+magapy = magapy.cli:main

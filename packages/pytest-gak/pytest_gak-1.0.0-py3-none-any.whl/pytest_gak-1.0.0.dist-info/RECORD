@@ -1,0 +1,8 @@
+gak/__init__.py,sha256=W522eBZ0ftsPnm0O5a-M-fbM4z-PEdpUHhL93Y3BNVg,1441
+gak/plugin.py,sha256=YxHgLTj4IJp4PhXYrUeYZtwEYYfBWkbaBzEhcd4fi6k,1218
+gak/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_gak-1.0.0.dist-info/METADATA,sha256=AXaFqRxafGdeZlSlRuoN3ouj-3KwIVaCC94TcKwP_Os,4085
+pytest_gak-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pytest_gak-1.0.0.dist-info/entry_points.txt,sha256=wG99xjtrrxAwihxYvvZxuLfwlFrD2CoZrJL7aRK5H_Q,73
+pytest_gak-1.0.0.dist-info/top_level.txt,sha256=ivO-dfN9RTTYyHcPCSlZ2I2OgEXRxI8ZY0aOAOdJ8VI,4
+pytest_gak-1.0.0.dist-info/RECORD,,

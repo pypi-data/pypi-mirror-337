@@ -1,0 +1,13 @@
+[project]
+name = "mcpo"
+version = "0.0.1.dev1"
+description = "A simple, secure MCP-to-OpenAPI proxy server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.8",
+    "fastapi>=0.115.12",
+    "mcp>=1.6.0",
+    "typer>=0.15.2",
+    "uvicorn>=0.34.0",
+]

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/mcpo/__init__.py
+src/mcpo/main.py
+src/mcpo.egg-info/PKG-INFO
+src/mcpo.egg-info/SOURCES.txt
+src/mcpo.egg-info/dependency_links.txt
+src/mcpo.egg-info/requires.txt
+src/mcpo.egg-info/top_level.txt

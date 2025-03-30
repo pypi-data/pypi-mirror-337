@@ -1,0 +1,3 @@
+[console_scripts]
+taskyto = taskyto.main:main
+taskyto-serve = taskyto.serve:execute_server

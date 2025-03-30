@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/docstring_2tsx/__init__.py
+src/docstring_2tsx/cli.py
+src/docstring_2tsx/converter.py
+src/docstring_2tsx/processor.py
+src/google_docstring_2tsx.egg-info/PKG-INFO
+src/google_docstring_2tsx.egg-info/SOURCES.txt
+src/google_docstring_2tsx.egg-info/dependency_links.txt
+src/google_docstring_2tsx.egg-info/entry_points.txt
+src/google_docstring_2tsx.egg-info/requires.txt
+src/google_docstring_2tsx.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/shared.py
+src/utils/signature_formatter.py

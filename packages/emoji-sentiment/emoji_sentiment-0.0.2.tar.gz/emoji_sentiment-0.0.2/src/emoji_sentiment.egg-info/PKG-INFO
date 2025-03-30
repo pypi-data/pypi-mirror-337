@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: emoji-sentiment
+Version: 0.0.2
+Summary: A Python package for emoji sentiment analysis.
+Home-page: https://github.com/wei840222/emoji-sentiment
+Author: Wan, Jiun-Wei
+Author-email: wei840222@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: emoji-data-python>=1.6.0
+Requires-Dist: pydantic>=2.11.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# Emoji Sentiment
+
+A Python package for emoji sentiment analysis.
+
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/5b53da6f-be97-4ec2-a2d5-dc09bd6f9917" />
+
+## Installation
+
+```bash
+pip install emoji-sentiment
+```
+
+## Usage
+
+```python
+from emoji_sentiment import EmojiSentiment
+
+emoji_sentiment = EmojiSentiment()
+smile_emoji = emoji_sentiment.get("smile")
+print(smile_emoji.sentiment)
+```
+
+## Run demo local
+
+```sh
+streamlit run src/demo.py
+```
+
+## Run tests
+
+```sh
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+pytest --cov=./src/emoji_sentiment -v --cov-report=term ./tests
+```

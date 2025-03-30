@@ -1,0 +1,10 @@
+seqreport/SeqCollection.py,sha256=3QuBiwCCRqJfQYKAXB-GHy5i8vDOPgyzz39Inc4Ro48,7888
+seqreport/__init__.py,sha256=En967991s9bV81PKjeIf3Kx5Fm1ozi0zoczpk6Nklzs,115
+seqreport/reports.py,sha256=RWVqdl_e1O3jaiPv7smg41YBlo9XgAN2jgxa5t_kBdA,1292
+seqreport-0.1.1.dist-info/licenses/LICENSE,sha256=NWkcKOSOo2ApAxkNBeaTJZmPe1h9L5VmJsyJjqJ-KtQ,1106
+tests/test_SeqCollection.py,sha256=Nijznyy2EWtOntHJezTFO1pIa6WEspdYHjuC4gN9IX8,1376
+tests/test_reports.py,sha256=Mi92IwKVUmX4hhAcbSsCjYrmtXy06UqDbPQsaKkvxYg,497
+seqreport-0.1.1.dist-info/METADATA,sha256=XyMPI5NAd9pGYFFMQDeXkZMdXhHF92ZcTOJlik4h4D8,1224
+seqreport-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+seqreport-0.1.1.dist-info/top_level.txt,sha256=L_S7StouQtNlyU8v5p3HeTR9ruMB6IdlNqEh2SXkmLE,16
+seqreport-0.1.1.dist-info/RECORD,,

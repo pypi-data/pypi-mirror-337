@@ -1,0 +1,10 @@
+effect/__init__.py,sha256=QQu2c3VlkLZP1S_o5TcMf_bKRFqIv2MhEuvy2SxsWwo,977
+effect/effect.py,sha256=98xVLod9ESNVP0etWDcJ5IhUzDWf_yjO7d8zoEtqTp8,8098
+effect/identity.py,sha256=ReHMVBtdZgFEjL8ezDOFZR86oJ1pZCN3WWkVLhDi3L8,1826
+effect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+effect/state_transition.py,sha256=2Zf07gZdx8tyEyUGjCFPWp0AyQmbm0TXOY2QXmbAjTo,3635
+effect/sugar.py,sha256=i0mti14FtXhmiNrubWd-JLrOCfkQi8fWjRE8fhIU9gk,2276
+effectt-0.2.0.dist-info/METADATA,sha256=yTrmYifO15cJxHNcvo2cUf9qQgMSHzMilSxVBbxD_rg,14448
+effectt-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+effectt-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+effectt-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: imt-benchmark
+Version: 0.0.2
+Summary: High-level Interface to Inertial Motion Tracking
+Author-email: Simon Bachhuber <simon.bachhuber@fau.de>
+Project-URL: Homepage, https://github.com/SimiPixel/imt_benchmark
+Project-URL: Issues, https://github.com/SimiPixel/imt_benchmark/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: imt-diodem
+Requires-Dist: jax
+Requires-Dist: numpy
+Requires-Dist: imt-ring

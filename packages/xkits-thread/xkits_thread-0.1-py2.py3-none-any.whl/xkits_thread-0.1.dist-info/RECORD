@@ -1,0 +1,11 @@
+xkits_thread/__init__.py,sha256=Et9WvVEzbk5IvG0yEFYRHG9tgtvK6NJJNppPmwGTkW4,400
+xkits_thread/attribute.py,sha256=dVF_gPZYA96GW9M-v9xoqm1EGzY4KivTizlrEcwzfGw,233
+xkits_thread/executor.py,sha256=jgSScI1RvI8wD8EjolDAvDZXWw198mXdkH_SdDQO3Wo,2431
+xkits_thread/lock.py,sha256=z7U9iM9AUAECaRhS_vVQEoKn5F17rPfqoSg2qLUH7oc,1585
+xkits_thread/task.py,sha256=nSp1DcNIEK_ihAy-U-C--NBa-N88a3zq9SRyxmJ4P74,11472
+xkits_thread-0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xkits_thread-0.1.dist-info/METADATA,sha256=tLf5LPiTvMco5WmRM94-3wZ3veY764Vfqu63B8QwqGU,753
+xkits_thread-0.1.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+xkits_thread-0.1.dist-info/top_level.txt,sha256=UOlif_ZkYGzXneb_8HvKQC7kPdMtgo3DZiaJIloYfcU,13
+xkits_thread-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xkits_thread-0.1.dist-info/RECORD,,

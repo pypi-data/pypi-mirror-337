@@ -1,0 +1,2 @@
+[console_scripts]
+ngsfetch = ngsfetch.main:main

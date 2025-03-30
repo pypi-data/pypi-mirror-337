@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+schemic/__init__.py
+schemic.egg-info/PKG-INFO
+schemic.egg-info/SOURCES.txt
+schemic.egg-info/dependency_links.txt
+schemic.egg-info/requires.txt
+schemic.egg-info/top_level.txt

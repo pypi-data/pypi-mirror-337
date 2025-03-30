@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: prompits
+Version: 0.0.1
+Summary: A multi-agent system
+Project-URL: Homepage, https://github.com/alvincho/prompits
+Project-URL: Issues, https://github.com/alvincho/prompits/issues
+Author-email: Alvin Cho <alvincho@jumbosoft.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8

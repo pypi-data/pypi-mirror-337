@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+django_invoice_library.egg-info/PKG-INFO
+django_invoice_library.egg-info/SOURCES.txt
+django_invoice_library.egg-info/dependency_links.txt
+django_invoice_library.egg-info/requires.txt
+django_invoice_library.egg-info/top_level.txt
+invoice/__init__.py
+invoice/invoice.py

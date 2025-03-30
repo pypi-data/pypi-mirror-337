@@ -1,0 +1,16 @@
+squarequant/__init__.py,sha256=zcFD0RCLIDh9BihenZVr2aaHuQfSueMHmldk0mfFI30,1119
+squarequant/api.py,sha256=VX3fvl6NFpYtTwDrJmJFnOL7CPPdY_0j0l32HU3MipY,20006
+squarequant/constants.py,sha256=cc9cDfCRAbrW52ysSPQdYcFnd-FLEyXIM24nYUHdcmk,1111
+squarequant/core/__init__.py,sha256=S5kzmibOiKEE44LbANkbHZMUaNp-8e78IExdtAzFpbE,169
+squarequant/core/base.py,sha256=4uul9wqhWtsAwwbxP-JgVv4RBYym3C29xPWO9cmVlME,5898
+squarequant/core/data.py,sha256=fFrd5AuxLuIz-VCgRshdaEE6mF6wpEOaWueQ3tP7pWU,3817
+squarequant/core/metrics.py,sha256=KFPWqWaoB0UDgpNuVs_T7NrxLrLoFQpGtEz79RtRHw8,59122
+squarequant/plot/__init__.py,sha256=uyUyAmsA01Pp3Bhj_fhb30mBa4BAVGSYvbg5noNiU9M,255
+squarequant/plot/plot.py,sha256=6_ahWvat-8NcVmageTI5By9wkorvTSofKH4eDq7TO2k,35879
+squarequant/utils/__init__.py,sha256=omrBiivLaFGhjxaPIWYAbpHsVusqa-QX116nAfmfkbg,173
+squarequant/utils/helpers.py,sha256=63IWoKgAKVlYUiGn6XisOxkq_RjxEltCY_HI-FyY9DQ,2450
+squarequant-0.1.1.dist-info/licenses/LICENSE,sha256=S23qLSIZQYabXVhEHp9-9JPMVVI3zucYrSwZsIxudn4,1089
+squarequant-0.1.1.dist-info/METADATA,sha256=spIiYWxDJH5tZFqY9eOPyEzH956N2LfA5LmoDA42mMo,7750
+squarequant-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+squarequant-0.1.1.dist-info/top_level.txt,sha256=di0xxA-ZWI-TpfQcA6CxZmIy-EyZI23N2DD0w9z-_hQ,12
+squarequant-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+pydub>=0.25.1
+ffmpeg
+setuptools>=44.0.0

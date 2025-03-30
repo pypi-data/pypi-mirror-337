@@ -1,0 +1,15 @@
+include LICENSE
+include README.md
+include requirements.txt
+
+# Include data files
+recursive-include data *.mp3
+recursive-include data *.json
+
+# Include example files
+include example.py
+include simple_demo.py
+include enhanced_demo.py
+
+# Create directories if needed
+prune temp 

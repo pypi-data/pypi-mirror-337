@@ -1,0 +1,11 @@
+README.md
+setup.py
+pdefinder/__init__.py
+pdefinder/core.py
+pdefinder/main.py
+pdefinder.egg-info/PKG-INFO
+pdefinder.egg-info/SOURCES.txt
+pdefinder.egg-info/dependency_links.txt
+pdefinder.egg-info/entry_points.txt
+pdefinder.egg-info/requires.txt
+pdefinder.egg-info/top_level.txt

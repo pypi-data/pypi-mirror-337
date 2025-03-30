@@ -1,0 +1,2 @@
+[console_scripts]
+pdefinder = pdefinder.main:main

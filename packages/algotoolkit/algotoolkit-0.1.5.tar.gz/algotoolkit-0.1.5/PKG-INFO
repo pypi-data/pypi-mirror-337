@@ -1,0 +1,87 @@
+Metadata-Version: 2.4
+Name: algotoolkit
+Version: 0.1.5
+Summary: A Python package for sorting and searching algorithms.
+Author-email: Alok Kumar <alokkumarjipura9973@gmail.com>
+License: Copyright (c) 2025 ALOK KUMAR
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/alok1304/AlgoToolkit
+Project-URL: Repository, https://github.com/alok1304/AlgoToolkit
+Keywords: sorting,searching,algorithms,python,data structures
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# AlgoToolkit
+
+A Python package for sorting and searching algorithms.
+
+## 📦 Features
+- **Sorting Algorithms:** 
+     - Bubble Sort 
+     - Merge Sort 
+     - Selection Sort 
+     - Quick Sort 
+     - Insertion Sort
+- **Searching Algorithms:** 
+     - Binary Search
+     - Linear Search
+
+## 📚 Installation
+You can install the package directly from PyPI:
+
+```bash
+pip install algotoolkit
+```
+
+## 🚀 Usage
+```python
+from AlgoToolkit import algo
+
+# Test the bubble sort function
+arr = [5, 2, 9, 1, 5, 6]
+sorted_arr = algo.bubble_sort(arr)
+print(f"Sorted array using Bubble Sort: {sorted_arr}")
+
+# Test the binary search function
+sorted_arr = [1, 2, 5, 5, 6, 9]
+target = 5
+index = algo.binary_search(sorted_arr, target)
+print(f"Index of {target} using Binary Search: {index}")
+
+# Test the shortest path using Dijkstra Algorithm
+graph = {
+     'A': {'B': 4, 'C': 2},
+     'B': {'A': 4, 'C': 5, 'D': 10},
+     'C': {'A': 2, 'B': 5, 'D': 3},
+     'D': {'B': 10, 'C': 3}
+}
+distances, previous = dijkstra(graph, 'A')
+print(distances)
+print(previous)
+```
+
+##  Expected Output:
+- For Bubble Sort:
+```bash
+Sorted array using Bubble Sort: [1, 2, 5, 5, 6, 9]
+```
+- For Binary Search:
+```bash
+Index of 5 using Binary Search: 2
+```
+- For Shortest Path:
+```bash
+{'A': 0, 'B': 4, 'C': 2, 'D': 5}
+{'A': None, 'B': 'A', 'C': 'A', 'D': 'C'}
+```
+

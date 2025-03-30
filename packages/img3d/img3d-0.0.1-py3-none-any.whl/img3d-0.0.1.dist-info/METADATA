@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: img3d
+Version: 0.0.1
+Summary: A Python Library for 3D Image Transformation.
+Home-page: https://github.com/OmidAlekasir/image_transformer
+Author: Majid Alekasir
+Author-email: <majid.alekasir@gmail.com>
+Keywords: python,image,transformation,translation,rotation,homography,3D,spherical,roll,pitch,yaw,stabilization,coordinates
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: summary
+
+
+# Img3D
+## Abstract
+This repository provides a tool for 3D image transformations, including rotations and translations in spherical coordinates. The transformations operate in three-dimensional space using sequential logic through the main class.
+
+## Description
+Image transformation is an integral part of image processing, particularly for data fusion in real-time applications. This class enables users to rotate and translate images in 3D space in any desired configuration.

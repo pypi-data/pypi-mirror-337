@@ -1,0 +1,6 @@
+gamest_plugins/retroarch_identifier/__init__.py,sha256=WmT_4eD6QumiHVjsK_ZnzSvkBrIH8DN2PWdwhYl_rKo,82
+gamest_plugins/retroarch_identifier/module.py,sha256=C6wr2fboFyRFM6w4v35SbbwLNckA_Jg7ZDv6PB9axA8,4783
+gamest_retroarch_identifier_plugin-1.0.1.dist-info/METADATA,sha256=fEWHI0Bkvk44JUxpqE96jZ35uj4M53kP4oJ0yMRvBQg,1421
+gamest_retroarch_identifier_plugin-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gamest_retroarch_identifier_plugin-1.0.1.dist-info/top_level.txt,sha256=8XUX_vpkYyc6bjcmwHPgH3e_KBbjVdGrN73RfayV8sg,15
+gamest_retroarch_identifier_plugin-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+setup.py
+mygoogleAuth_fastAPI/__init__.py
+mygoogleAuth_fastAPI/auth_router.py
+mygoogleAuth_fastAPI/mygoogleAuth_fastAPI_core.py
+mygoogleAuth_fastAPI.egg-info/PKG-INFO
+mygoogleAuth_fastAPI.egg-info/SOURCES.txt
+mygoogleAuth_fastAPI.egg-info/dependency_links.txt
+mygoogleAuth_fastAPI.egg-info/requires.txt
+mygoogleAuth_fastAPI.egg-info/top_level.txt

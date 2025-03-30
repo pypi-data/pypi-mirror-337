@@ -1,0 +1,10 @@
+parallel_brain/__init__.py,sha256=l6KwFzMI9AHEswQdPN_6icwWGoRG3P-BRYGVM8Os-L0,166
+parallel_brain/brain.py,sha256=fPG9bSIA2pQy-8CdiBBFFYxx1jvgYF5oMqjC9hxMiSs,2367
+parallel_brain/learning.py,sha256=EIqYf6ohvjyYzhONibBTG10zBjJZKdemoNzBlFWm3Ik,410
+parallel_brain/neuron.py,sha256=BkVaW8D5BBlU8lnPL6Dm_wzFfg7sHOzughERoeu9mg4,399
+parallel_brain/synapse.py,sha256=Pwc5XNkBL2qKVQdMMmB0KdqzDk6p9d2hYBwSfcNQScw,405
+parallel_brain/utils.py,sha256=2bw5ozMiUlREre50sghVl2sUqpGZkI7CqkQ00nEOlfY,164
+parallel_brain-1.0.3.dist-info/METADATA,sha256=nzQDfLN2qVz29NHdai-TuKbBjPWtCABZvuH2aUvO1cI,163
+parallel_brain-1.0.3.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+parallel_brain-1.0.3.dist-info/top_level.txt,sha256=TZtXgLplIRrWkfZHBw3zsmh1Or7hjidTcspO-PFAI8c,15
+parallel_brain-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+rb-heightfield=riverborn.heightfield:main
+rb-ripples=riverborn.ripples:main
+riverborn=riverborn.mgl_terrain:main
+

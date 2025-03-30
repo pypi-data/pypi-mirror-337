@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+homebak/__init__.py
+homebak/cli.py
+homebak/config.py
+homebak/core.py
+homebak/utils.py
+homebak.egg-info/PKG-INFO
+homebak.egg-info/SOURCES.txt
+homebak.egg-info/dependency_links.txt
+homebak.egg-info/entry_points.txt
+homebak.egg-info/requires.txt
+homebak.egg-info/top_level.txt
+tests/test_core.py

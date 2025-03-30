@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/soundpython/__init__.py
+src/soundpython/audio.py
+src/soundpython/py.typed
+src/soundpython.egg-info/PKG-INFO
+src/soundpython.egg-info/SOURCES.txt
+src/soundpython.egg-info/dependency_links.txt
+src/soundpython.egg-info/requires.txt
+src/soundpython.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_audio.py

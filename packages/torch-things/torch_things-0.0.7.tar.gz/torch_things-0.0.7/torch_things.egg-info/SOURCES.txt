@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+tests/test_dataset.py
+torch_things/dataset.py
+torch_things.egg-info/PKG-INFO
+torch_things.egg-info/SOURCES.txt
+torch_things.egg-info/dependency_links.txt
+torch_things.egg-info/requires.txt
+torch_things.egg-info/top_level.txt

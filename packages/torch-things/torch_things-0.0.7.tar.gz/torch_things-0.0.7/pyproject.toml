@@ -1,0 +1,22 @@
+[project]
+name = "torch-things"
+version = "0.0.7"
+description = "Helpful utilities for working with PyTorch."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2",
+]
+
+[project.urls]
+Homepage = "https://github.com/dwahdany/torch-things"
+Repository = "https://github.com/dwahdany/torch-things.git"
+Issues = "https://github.com/dwahdany/torch-things/issues"
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "pytest>=8.3.5",
+    "setuptools>=78.1.0",
+    "wheel>=0.45.1",
+]

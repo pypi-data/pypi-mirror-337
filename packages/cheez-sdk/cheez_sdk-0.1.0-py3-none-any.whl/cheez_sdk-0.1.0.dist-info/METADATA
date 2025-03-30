@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: cheez-sdk
+Version: 0.1.0
+Summary: SDK for Cheez USB/BLE Devices
+Home-page: https://github.com/ewecan/cheez-sdk
+Author: Cheez
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Requires-Dist: aioserial
+
+
+# Cheez SDK
+
+## Installation
+
+```bash
+pip install cheez-sdk
+```
+
+## Quick Start
+
+```python
+from cheez_sdk import CheezSDK
+
+# Initialize the SDK
+sdk = CheezSDK()
+
+# List available ports
+ports = sdk.list_ports(verbose=True)
+
+# Find specific devices
+device_ports = sdk.find_devices("CheezUSB_VCP", "CheezBLE_VCP")
+
+# Connect to a device
+if device_ports:
+    decoder = sdk.connect(device_ports[0])
+
+    # Async data reading example
+    import asyncio
+    
+    async def read_data():
+        while True:
+            data = await decoder.read_data()
+            if data:
+                print(f"Received data: {data}")
+                print(f"Current packet rate: {decoder.get_packet_rate()} packets/sec")
+            await asyncio.sleep(0.1)
+
+    asyncio.run(read_data())
+```
+
+## Features
+
+- Easy device port discovery
+- Simple serial connection management
+- Async data reading
+- Configurable logging
+- Error handling and validation
+
+## Configuration
+
+Customize device VID/PID mappings in the `config.json` file.
+
+## License
+
+[Your License Here]
+```

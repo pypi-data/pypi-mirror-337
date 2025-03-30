@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+rgp/Joker.py
+rgp/__init__.py
+rgp.egg-info/PKG-INFO
+rgp.egg-info/SOURCES.txt
+rgp.egg-info/dependency_links.txt
+rgp.egg-info/top_level.txt

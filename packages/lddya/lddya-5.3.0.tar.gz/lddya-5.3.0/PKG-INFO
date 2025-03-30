@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lddya
+Version: 5.3.0
+Summary: 修复了GA的初始化依赖ACO实例化的问题，完成解耦。
+Home-page: https://github.com/not_define/please_wait
+Author: lidongdong
+Author-email: 927052521@qq.com
+License: MIT Licence
+Keywords: pip,tool,licensetool,gm,license
+Platform: any
+
+具体功能，请自行挖掘。

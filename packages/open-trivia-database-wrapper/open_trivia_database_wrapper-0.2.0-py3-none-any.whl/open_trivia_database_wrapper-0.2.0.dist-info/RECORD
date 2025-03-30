@@ -1,0 +1,10 @@
+open_trivia_database_wrapper-0.2.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+opentdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentdb/enums.py,sha256=9kQlyhJd7ss7kHzS-g3ATBocbvG8xLPvo9SS_rzz9rE,1195
+opentdb/models.py,sha256=eIGdg68Ur3zBVviCl39YsKecNLerBzv0eB9v9PztgDc,665
+opentdb/opentdb.py,sha256=sYupE-NVuCv6km-6peGyWn8N19zuYdGBkF5xTLsFRbU,2344
+opentdb/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_trivia_database_wrapper-0.2.0.dist-info/METADATA,sha256=OK6TS9mj0g1LE6BEpgU8atEDQmhbLACjoU227Mozr8g,383
+open_trivia_database_wrapper-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+open_trivia_database_wrapper-0.2.0.dist-info/top_level.txt,sha256=NR6ccsdeJtrEk5t2H36O4UKNhIioKQ3_WI_CzieIQ5w,8
+open_trivia_database_wrapper-0.2.0.dist-info/RECORD,,

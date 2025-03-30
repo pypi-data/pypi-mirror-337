@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/validator_princeokeke/__init__.py
+src/validator_princeokeke/validator.py
+src/x24109487_validator.egg-info/PKG-INFO
+src/x24109487_validator.egg-info/SOURCES.txt
+src/x24109487_validator.egg-info/dependency_links.txt
+src/x24109487_validator.egg-info/top_level.txt

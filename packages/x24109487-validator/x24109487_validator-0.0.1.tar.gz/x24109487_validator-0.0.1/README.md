@@ -1,0 +1,47 @@
+# Validator Library
+
+## Overview
+
+This `Validator` library is a lightweight Python library with key focus to handle data validation on primitive and non primitive data types in python. It provides a short, simple, easy to use syntax to validate a common data types e.g string, int, Date etc. through a collection of reusable and intuitive validation methods e.g less than, greather than, equals to etc on these common data types.
+
+---
+
+## Motivation
+
+In modern application development, data validation is an important aspect of data processing and storage. This ensures the reliability of and security of data in an applications. With this library, implementing validation logic becomes easier, reduce code duplication, and inconsistencies. 
+
+The motivation behind creating this library stems from the following challenges:
+
+1. **Reusability**: Less repetitive validation logic for common data types like strings, integers, and emails. This library provides a centralized and reusable solution for such validations.
+
+2. **Readability**: Validation logic can clutter the main application code, making it harder to read and maintain. Using this library, the code becomes cleaner and more readable because it allows focus on main appliaction.
+
+3. **Flexibility**: Applications often require custom validation rules that are specific to their domain. 
+
+---
+
+## Features
+
+- Includes common validators for strings, numbers, booleans, dates, emails, phone numbers etc.
+- Combine multiple or chained validation rules for a single field.
+- Provides error messages for invalid fields.
+
+---
+
+## Example Usage
+
+```python
+from ... import Valid, validate
+
+validations = {
+    "email": ("JohnDoe@email.com", [Valid.Email, Valid.NotEmpty]),
+    "age": (25, [Valid.Int, Valid.GT(18)]),
+    "username": ("johndoe", [Valid.String, Valid.Length(3, 15)]),
+}
+
+errors = validate(validations)
+
+if errors:
+    print( errors)
+else:
+    print("Valid!")

@@ -1,0 +1,16 @@
+[project]
+name = "x24109487_validator"
+version = "0.0.1"
+authors = [
+  { name="Okeke Chidiebube", email="x24109487@student.ncirl.ie" },
+]
+description = "A library is a lightweight Python package with key focus to handle data validation on primitive and non primitive data types in python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]

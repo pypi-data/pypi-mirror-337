@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: economy
+Version: 0.0.1
+Summary: Utility library for Apache Arrow Flight & Flight SQL servers
+Author-email: Alex Kwiatkowski <alex+pypi@fremantle.io>
+License: MIT License
+Project-URL: Homepage, https://github.com/rupurt/economy
+Project-URL: Issues, https://github.com/rupurt/economy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pyarrow[flight]==19.0.*
+
+# economy
+![pypi](https://img.shields.io/pypi/v/economy.svg)
+![versions](https://img.shields.io/pypi/pyversions/economy.svg)
+
+Utility library for Apache Arrow Flight &amp; Flight SQL servers
+
+## Usage
+
+```console
+> pip install economy
+```
+
+## Getting Started
+
+- [Development](./docs/DEVELOPMENT.md)
+  - [setup](./docs/DEVELOPMENT.md#setup)
+  - [check](./docs/DEVELOPMENT.md#check)
+  - [dream2nix](./docs/DEVELOPMENT.md#dream2nix)
+  - [pypi](./docs/DEVELOPMENT.md#pypi)
+
+## License
+
+`economy` is released under the [MIT license](./LICENSE)

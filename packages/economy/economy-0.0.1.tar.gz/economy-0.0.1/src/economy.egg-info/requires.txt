@@ -1,0 +1,1 @@
+pyarrow[flight]==19.0.*

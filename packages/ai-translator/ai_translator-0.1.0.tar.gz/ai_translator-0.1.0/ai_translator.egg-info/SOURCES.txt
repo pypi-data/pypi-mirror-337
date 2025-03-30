@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ai_translator.egg-info/PKG-INFO
+ai_translator.egg-info/SOURCES.txt
+ai_translator.egg-info/dependency_links.txt
+ai_translator.egg-info/requires.txt
+ai_translator.egg-info/top_level.txt
+translator/__init__.py
+translator/translator.py

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nspdf/__init__.py
+nspdf/pdf2image.py
+nspdf/pdf2text.py
+nspdf.egg-info/PKG-INFO
+nspdf.egg-info/SOURCES.txt
+nspdf.egg-info/dependency_links.txt
+nspdf.egg-info/top_level.txt

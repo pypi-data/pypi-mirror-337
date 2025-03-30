@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+src/assets/snake-game-demo.gif
+src/docs/CONTRIBUTING.md
+src/docs/README.md
+src/terminal_snake_game/__init__.py
+src/terminal_snake_game.egg-info/PKG-INFO
+src/terminal_snake_game.egg-info/SOURCES.txt
+src/terminal_snake_game.egg-info/dependency_links.txt
+src/terminal_snake_game.egg-info/entry_points.txt
+src/terminal_snake_game.egg-info/requires.txt
+src/terminal_snake_game.egg-info/top_level.txt

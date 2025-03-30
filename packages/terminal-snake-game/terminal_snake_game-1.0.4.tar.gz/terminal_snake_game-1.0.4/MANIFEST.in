@@ -1,0 +1,4 @@
+include LICENSE
+include src/docs/README.md
+include src/docs/CONTRIBUTING.md
+include src/assets/snake-game-demo.gif 

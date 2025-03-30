@@ -1,0 +1,167 @@
+Metadata-Version: 2.4
+Name: mydotenv
+Version: 0.2.4
+Summary: A simple package to manage environment variables with command-line interface
+Author-email: Mike Shaffer <mikejshaffer@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv>=1.0.0
+Dynamic: license-file
+
+# mydotenv
+rrr
+A simple Python package to manage environment variables in your `.env` file with command-line interface.
+
+## Installation
+
+### Using pipx (Recommended)
+```bash
+pipx install mydotenv
+```
+
+### Using pip
+```bash
+pip install mydotenv
+```
+
+### From Source
+```bash
+git clone https://github.com/banddude/mydotenv.git
+cd mydotenv
+pip install -e .
+```
+
+## Usage
+
+### Basic Command Line Interface
+
+1. Print a variable's value:
+```bash
+mydotenv API_KEY
+```
+
+2. Add or update a variable:
+```bash
+mydotenv NEW_KEY=value
+mydotenv "KEY_WITH_SPACES=value with spaces"
+```
+
+3. Delete a variable:
+```bash
+mydotenv delete VARIABLE_NAME
+```
+
+4. View all variables:
+```bash
+mydotenv
+```
+
+### Custom Command Name
+
+You can set a custom command name to use instead of `mydotenv`:
+
+```bash
+mydotenv --set-command dotman
+```
+
+Now you can use either `mydotenv` or `dotman` to run commands:
+```bash
+dotman NEW_KEY=value
+dotman delete NEW_KEY
+```
+
+When you set a new command name, it replaces any previous custom command name.
+
+### Advanced Features (New)
+
+#### Scanning for Environment Variables
+
+The new CLI functionality lets you scan your codebase for `env.VARIABLE_NAME` references and manage your `.env` file based on what it finds:
+
+1. Replace existing `.env` with newly discovered variables (empty values):
+```bash
+mydotenv --replace env [<path>]
+```
+
+2. Add newly discovered variables as empty placeholders (preserving existing ones):
+```bash
+mydotenv --add-empty env [<path>]
+```
+
+3. Add newly discovered variables (same as --add-empty in current implementation):
+```bash
+mydotenv --add env [<path>]
+```
+
+#### Import Statement Rewriting
+
+You can rewrite Python files to directly access environment variables without needing to use the `env` object:
+
+```bash
+# Rewrite imports for a specific file or directory
+mydotenv --add imports [<path>]
+
+# Rewrite imports for all Python files in the current directory
+mydotenv --add imports
+```
+
+This will:
+1. Remove any `import mydotenv` or `from mydotenv import ...` statements
+2. Add code to automatically find and load the `.env` file from your project
+3. Make environment variables directly accessible as Python variables
+
+For example, if your `.env` contains `API_KEY=123`, you can simply do:
+```python
+# This works after running mydotenv --add imports on your file
+print(API_KEY)  # Prints: 123
+```
+
+No more need for: `from mydotenv import env` and `print(env.API_KEY)`!
+
+#### Optional Parameters
+
+- `--ignore`: Specify paths to ignore when scanning
+```bash
+mydotenv --add env . --ignore tests venv
+```
+
+- `--env-file`: Specify which .env file to use (default: `.env`)
+```bash
+mydotenv --replace env . --env-file .env.dev
+```
+
+## Features
+
+- Manage environment variables from the command line
+- Set custom command names for easier use
+- Preserves comments and formatting in `.env` file
+- Handles values with spaces and special characters
+- Works from any directory
+- Creates and manages `.env` file in your current directory
+- **NEW:** Scan codebase for environment variable references
+- **NEW:** Replace or update `.env` files based on discovered variables
+- **NEW:** Rewrite imports to allow direct environment variable access
+
+## Dependencies
+
+- python-dotenv >= 1.0.0
+
+## Configuration
+
+- The package stores its configuration in `~/.config/mydotenv/config.env`
+- Custom command names are managed through symlinks in `~/.local/bin`
+
+## License
+
+MIT License - feel free to use this package in your projects! 

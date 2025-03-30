@@ -1,0 +1,33 @@
+include LICENSE
+include README.md
+include requirements.txt
+include pyproject.toml
+
+# Include all data files
+include data/*.json
+include data/*.mp3
+include data/*.wav
+
+# Also include data files in the package directory
+include iitjp/data/*.json
+include iitjp/data/*.mp3
+include iitjp/data/*.wav
+
+# Include the temp directory structure
+graft temp
+prune temp/*
+
+# Include Python source files
+recursive-include iitjp *.py
+
+# Exclude build artifacts and git files
+global-exclude *.py[cod] *.so *.dylib *.dll __pycache__/ *.egg-info/ *.egg
+global-exclude .git* .coverage .tox/ .pytest_cache/
+
+# Include example files
+include example.py
+include simple_demo.py
+include enhanced_demo.py
+
+# Create directories if needed
+prune temp 

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neoflow"
+version = "0.0.1"
+description = "A Python package for build angent."
+authors = [
+    { name="YiShen", email="shenyibox@gmail.com" }
+]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/neoagent"
+Repository = "https://github.com/yourusername/neoagent"

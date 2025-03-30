@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mercuryFramework/__init__.py
+mercuryFramework/class_calculation.py
+mercuryFramework/trader.py
+mercuryFramework.egg-info/PKG-INFO
+mercuryFramework.egg-info/SOURCES.txt
+mercuryFramework.egg-info/dependency_links.txt
+mercuryFramework.egg-info/requires.txt
+mercuryFramework.egg-info/top_level.txt

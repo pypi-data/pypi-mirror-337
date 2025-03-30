@@ -1,0 +1,5 @@
+numpy
+pandas
+binance-connector
+dataclasses
+hermesConnector==0.0.9

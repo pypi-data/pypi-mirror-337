@@ -1,0 +1,9 @@
+htcdaskgateway/__init__.py,sha256=UlrDVlb41GtCE87LZ7VyZbeLSct7AyA498iPsi2AKKE,187
+htcdaskgateway/_version.py,sha256=2Cl9kcQGg7NiH_eHRcv8wDYSW0X4uS5J0mGdZFO9-h0,511
+htcdaskgateway/cluster.py,sha256=zXeI8_zKECGYjqkhBXPbQEj-h1YvyHcjkmz3qEACqyE,8114
+htcdaskgateway/gateway.py,sha256=0nGZZRcBRTR17ac8JuF8DVqHPiLGmfXTVc__2miKTQQ,2975
+htcdaskgateway/setup_condor.py,sha256=oGTZQ0Av4Jy4GXVkh_aHXauAaVIPocGVkdd35RktKDw,4579
+ncsa_htcdaskgateway-1.0.1.dist-info/METADATA,sha256=cI7tPRT1DZfa3hKwvpjxTv7G1auwKg6tremmTgYP3yQ,7298
+ncsa_htcdaskgateway-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ncsa_htcdaskgateway-1.0.1.dist-info/entry_points.txt,sha256=vqbtyZr6wl8EpMs9PeiNKatuOTlc9wr4u36j1mmht_M,66
+ncsa_htcdaskgateway-1.0.1.dist-info/RECORD,,

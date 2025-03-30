@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: azure-datalake-logging
+Version: 0.0.1
+Summary: Write your logs to Azure Storage (e.g., Blob, Queue, and Table)
+Author-email: Markus Feiks <pypi.packages@feyx.de>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: azure-data-tables>=12.6.0
+Requires-Dist: azure-identity>=1.21.0
+Requires-Dist: azure-storage-blob>=12.25.1
+Requires-Dist: azure-storage-queue>=12.12.0
+Description-Content-Type: text/markdown
+
+# azure-datalake-logging
+
+**Write your logs to Azure Storage (Blob, Queue, and Table)**
+
+
+:warning: Under active development, please come back later!

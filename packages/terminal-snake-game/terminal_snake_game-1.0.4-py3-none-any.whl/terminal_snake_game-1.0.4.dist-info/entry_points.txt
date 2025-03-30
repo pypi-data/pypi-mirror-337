@@ -1,0 +1,2 @@
+[console_scripts]
+snake-game = terminal_snake_game:main

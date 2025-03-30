@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: infinityapi
+Version: 0.0.1
+Summary: InfinityAPI
+Home-page: https://itsrealawi.github.io/awisite/
+Author: AWIMatvey
+Author-email: kmatvij71@gmail.com
+License: MIT (MODIFIED)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary

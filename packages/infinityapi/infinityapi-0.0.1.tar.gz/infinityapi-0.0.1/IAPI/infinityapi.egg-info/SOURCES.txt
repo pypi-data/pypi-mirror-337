@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+IAPI/infinityapi.egg-info/PKG-INFO
+IAPI/infinityapi.egg-info/SOURCES.txt
+IAPI/infinityapi.egg-info/dependency_links.txt
+IAPI/infinityapi.egg-info/top_level.txt

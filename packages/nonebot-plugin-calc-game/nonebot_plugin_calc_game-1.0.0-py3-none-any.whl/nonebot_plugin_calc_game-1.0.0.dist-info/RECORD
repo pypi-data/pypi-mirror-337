@@ -1,0 +1,10 @@
+nonebot_plugin_calc_game/__init__.py,sha256=VisGIIFMcg1IkuUmM5lHBqrGkgYonr5xBGCrbEuVouM,5127
+nonebot_plugin_calc_game/config.py,sha256=HKzmSWkdAw2xR9JX4hO8h-tpJ2yuzVylIBjWHgKQVAQ,92
+nonebot_plugin_calc_game/gamedata.py,sha256=Nq0SDhkKYYzCkoQqOukUafpeF9rM9k_Tr4vifX3KEqM,22878
+nonebot_plugin_calc_game/gameplay.py,sha256=nquQY9QBgJ9CKvANZNXJHlaJXZ1b3u9zdjg4BCfLO_A,21337
+nonebot_plugin_calc_game/gamerror.py,sha256=bZt5Jk-nwap2ZwpViZWjsfF8JjqY9EnsF7SJW60yTM0,538
+nonebot_plugin_calc_game/tools.py,sha256=6FL3hu5h4E-x1FzkwE9LFo2xFHUEny7H9_8vb9G83iU,683
+nonebot_plugin_calc_game-1.0.0.dist-info/LICENSE,sha256=0UFjR-ZWhtaTQXEPvXrGyP_EFXBVELuuFQZ_q2W3RJU,1063
+nonebot_plugin_calc_game-1.0.0.dist-info/METADATA,sha256=DxIiUAwfUXGket4rKQQ2F923NRSX07tCYwoiQOsGVmg,4211
+nonebot_plugin_calc_game-1.0.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+nonebot_plugin_calc_game-1.0.0.dist-info/RECORD,,

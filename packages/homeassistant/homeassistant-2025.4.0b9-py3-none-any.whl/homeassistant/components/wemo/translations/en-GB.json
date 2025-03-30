@@ -1,0 +1,13 @@
+{
+    "services": {
+        "set_humidity": {
+            "fields": {
+                "target_humidity": {
+                    "description": "Target humidity.",
+                    "name": "Target humidity"
+                }
+            },
+            "name": "Set humidity"
+        }
+    }
+}

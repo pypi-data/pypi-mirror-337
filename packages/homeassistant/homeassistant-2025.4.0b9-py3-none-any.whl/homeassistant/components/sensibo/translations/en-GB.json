@@ -1,0 +1,253 @@
+{
+    "entity": {
+        "climate": {
+            "climate_device": {
+                "state_attributes": {
+                    "fan_mode": {
+                        "state": {
+                            "medium_high": "Medium high",
+                            "quiet": "Quiet"
+                        }
+                    },
+                    "swing_mode": {
+                        "state": {
+                            "fixedbottom": "Fixed bottom",
+                            "fixedmiddle": "Fixed middle",
+                            "fixedmiddlebottom": "Fixed middle bottom",
+                            "fixedmiddletop": "Fixed middle top",
+                            "fixedtop": "Fixed top",
+                            "horizontal": "Horizontal",
+                            "rangebottom": "Range bottom",
+                            "rangemiddle": "Range middle",
+                            "rangetop": "Range top"
+                        }
+                    }
+                }
+            }
+        },
+        "select": {
+            "horizontalswing": {
+                "state": {
+                    "fixedcenter": "Fixed centre",
+                    "fixedcenterleft": "Fixed centre left",
+                    "fixedcenterright": "Fixed centre right",
+                    "rangecenter": "Range centre",
+                    "rangeleft": "Range left",
+                    "rangeright": "Range right"
+                }
+            }
+        },
+        "sensor": {
+            "climate_react_high": {
+                "state_attributes": {
+                    "horizontalswing": {
+                        "state": {
+                            "fixedcenter": "Fixed centre",
+                            "fixedcenterleft": "Fixed centre left",
+                            "fixedcenterright": "Fixed centre right",
+                            "rangecenter": "Range centre"
+                        }
+                    }
+                }
+            },
+            "climate_react_low": {
+                "state_attributes": {
+                    "fanlevel": {
+                        "state": {
+                            "medium_high": "Medium high",
+                            "medium_low": "Medium low",
+                            "quiet": "Quiet",
+                            "strong": "Strong"
+                        }
+                    },
+                    "horizontalswing": {
+                        "name": "Horizontal swing",
+                        "state": {
+                            "rangecenter": "Range centre"
+                        }
+                    },
+                    "mode": {
+                        "name": "Mode"
+                    },
+                    "swing": {
+                        "state": {
+                            "fixedbottom": "Fixed bottom",
+                            "fixedmiddle": "Fixed middle",
+                            "fixedmiddlebottom": "Fixed middle bottom",
+                            "fixedmiddletop": "Fixed middle top",
+                            "fixedtop": "Fixed top",
+                            "horizontal": "Horizontal",
+                            "rangebottom": "Range bottom",
+                            "rangefull": "Range full",
+                            "rangemiddle": "Range middle",
+                            "rangetop": "Range top"
+                        }
+                    },
+                    "temperatureunit": {
+                        "name": "Temperature unit",
+                        "state": {
+                            "c": "Celsius",
+                            "f": "Fahrenheit"
+                        }
+                    }
+                }
+            },
+            "pm25_pure": {
+                "name": "Pure AQI",
+                "state": {
+                    "bad": "Bad",
+                    "good": "Good",
+                    "moderate": "Moderate"
+                }
+            }
+        },
+        "switch": {
+            "climate_react_switch": {
+                "state_attributes": {
+                    "type": {
+                        "name": "Type",
+                        "state": {
+                            "feelslike": "Feels like"
+                        }
+                    }
+                }
+            },
+            "timer_on_switch": {
+                "state_attributes": {
+                    "turn_on": {
+                        "name": "Turns on"
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "auth_error": {
+            "message": "Authentication failed, please update your API key"
+        },
+        "climate_react_not_available": {
+            "message": "Use the Sensibo 'Enable Climate React' action once to enable the switch, or use the Sensibo app"
+        },
+        "fan_mode_not_supported": {
+            "message": "Climate fan mode {fan_mode} is not supported by the integration, please open an issue"
+        },
+        "horizontal_swing_not_supported": {
+            "message": "Climate horizontal swing mode {horizontal_swing_mode} is not supported by the integration, please open an issue"
+        },
+        "mode_not_exist": {
+            "message": "The entity does not support the chosen mode"
+        },
+        "service_raised": {
+            "message": "Could not perform action for {name} with error {error}"
+        },
+        "service_result_not_true": {
+            "message": "Could not perform action for {name}"
+        },
+        "swing_not_supported": {
+            "message": "Climate swing mode {swing_mode} is not supported by the integration, please open an issue"
+        },
+        "update_error": {
+            "message": "There was an error updating from the Sensibo API with the error: {error}"
+        }
+    },
+    "issues": {
+        "deprecated_entity_horizontalswing": {
+            "title": "The Sensibo {name} entity is deprecated"
+        }
+    },
+    "services": {
+        "assume_state": {
+            "description": "Sets Sensibo device to external state.",
+            "fields": {
+                "state": {
+                    "description": "State to set.",
+                    "name": "State"
+                }
+            },
+            "name": "Assume state"
+        },
+        "enable_climate_react": {
+            "description": "Enables and configures Climate React.",
+            "fields": {
+                "high_temperature_state": {
+                    "description": "What should happen at high threshold. Requires full state.",
+                    "name": "State high threshold"
+                },
+                "high_temperature_threshold": {
+                    "description": "When temp/humidity goes above.",
+                    "name": "Threshold high"
+                },
+                "low_temperature_state": {
+                    "description": "What should happen at low threshold. Requires full state.",
+                    "name": "State low threshold"
+                },
+                "low_temperature_threshold": {
+                    "description": "When temp/humidity goes below.",
+                    "name": "Threshold low"
+                },
+                "smart_type": {
+                    "description": "Choose between temperature/feels like/humidity.",
+                    "name": "Trigger type"
+                }
+            },
+            "name": "Enable Climate React"
+        },
+        "enable_pure_boost": {
+            "description": "Enables and configures Pure Boost settings.",
+            "fields": {
+                "ac_integration": {
+                    "description": "Integrate with air conditioner.",
+                    "name": "AC integration"
+                },
+                "geo_integration": {
+                    "description": "Integrate with presence.",
+                    "name": "Geo integration"
+                },
+                "indoor_integration": {
+                    "description": "Integrate with checking indoor air quality.",
+                    "name": "Indoor air quality"
+                },
+                "outdoor_integration": {
+                    "description": "Integrate with checking outdoor air quality.",
+                    "name": "Outdoor air quality"
+                },
+                "sensitivity": {
+                    "description": "Set the sensitivity for Pure Boost.",
+                    "name": "Sensitivity"
+                }
+            },
+            "name": "Enable Pure Boost"
+        },
+        "enable_timer": {
+            "description": "Enables the timer with custom time.",
+            "fields": {
+                "minutes": {
+                    "description": "Countdown for timer (for timer state on).",
+                    "name": "Minutes"
+                }
+            },
+            "name": "Enable timer"
+        },
+        "full_state": {
+            "description": "Sets full state for Sensibo device.",
+            "fields": {
+                "fan_mode": {
+                    "description": "Set fan mode.",
+                    "name": "Fan mode"
+                },
+                "horizontal_swing_mode": {
+                    "description": "Set horizontal swing mode.",
+                    "name": "Horizontal swing mode"
+                },
+                "light": {
+                    "description": "Set light on or off.",
+                    "name": "Light"
+                }
+            }
+        },
+        "get_device_capabilities": {
+            "description": "Retrieves the device capabilities for a specific device according to API requirements.",
+            "name": "Get device mode capabilities"
+        }
+    }
+}

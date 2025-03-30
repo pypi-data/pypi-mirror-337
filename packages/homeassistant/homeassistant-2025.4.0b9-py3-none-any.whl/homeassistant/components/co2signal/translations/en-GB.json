@@ -1,0 +1,27 @@
+{
+    "config": {
+        "error": {
+            "no_data": "No data is available for the location you have selected."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "carbon_intensity": {
+                "state_attributes": {
+                    "country_code": {
+                        "name": "Country code"
+                    }
+                }
+            }
+        }
+    },
+    "selector": {
+        "location": {
+            "options": {
+                "specify_coordinates": "Specify coordinates",
+                "specify_country_code": "Specify country code",
+                "use_home_location": "Use home location"
+            }
+        }
+    }
+}

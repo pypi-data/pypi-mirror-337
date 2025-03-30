@@ -1,0 +1,30 @@
+{
+    "entity": {
+        "sensor": {
+            "ads_blocked_today": {
+                "unit_of_measurement": "ads"
+            },
+            "clients_ever_seen": {
+                "unit_of_measurement": "clients"
+            },
+            "dns_queries_today": {
+                "unit_of_measurement": "queries"
+            },
+            "domains_being_blocked": {
+                "unit_of_measurement": "domains"
+            }
+        }
+    },
+    "services": {
+        "disable": {
+            "description": "Disables configured Pi-hole(s) for an amount of time.",
+            "fields": {
+                "duration": {
+                    "description": "Time that the Pi-hole should be disabled for.",
+                    "name": "Duration"
+                }
+            },
+            "name": "Disable"
+        }
+    }
+}

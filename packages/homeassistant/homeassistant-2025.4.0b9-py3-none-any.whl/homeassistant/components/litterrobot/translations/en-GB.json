@@ -1,0 +1,34 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "password": "The password of your Whisker account.",
+                    "username": "The email address of your Whisker account."
+                }
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "reset": {
+                "name": "Reset"
+            }
+        }
+    },
+    "services": {
+        "set_sleep_mode": {
+            "description": "Sets the sleep mode and start time.",
+            "fields": {
+                "enabled": {
+                    "description": "Whether sleep mode should be enabled."
+                },
+                "start_time": {
+                    "description": "The start time at which the Litter-Robot will enter sleep mode and prevent an automatic clean cycle for 8 hours.",
+                    "name": "Start time"
+                }
+            },
+            "name": "Set sleep mode"
+        }
+    }
+}

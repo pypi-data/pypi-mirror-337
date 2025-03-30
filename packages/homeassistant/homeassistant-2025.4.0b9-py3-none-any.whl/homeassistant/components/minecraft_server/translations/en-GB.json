@@ -1,0 +1,27 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "address": "Server address"
+                },
+                "data_description": {
+                    "address": "The hostname, IP address or SRV record of your Minecraft server, optionally including the port."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "edition": {
+                "name": "Edition"
+            },
+            "game_mode": {
+                "name": "Game mode"
+            },
+            "map_name": {
+                "name": "Map name"
+            }
+        }
+    }
+}

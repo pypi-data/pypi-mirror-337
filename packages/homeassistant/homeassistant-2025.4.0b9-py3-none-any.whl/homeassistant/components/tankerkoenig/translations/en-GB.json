@@ -1,0 +1,43 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "status": {
+                "name": "Status"
+            }
+        },
+        "sensor": {
+            "diesel": {
+                "name": "Diesel"
+            },
+            "e10": {
+                "name": "Super E10"
+            },
+            "e5": {
+                "name": "Super",
+                "state_attributes": {
+                    "brand": {
+                        "name": "Brand"
+                    },
+                    "city": {
+                        "name": "City"
+                    },
+                    "fuel_type": {
+                        "name": "Fuel type"
+                    },
+                    "house_number": {
+                        "name": "House number"
+                    },
+                    "postcode": {
+                        "name": "Post code"
+                    },
+                    "station_name": {
+                        "name": "Station name"
+                    },
+                    "street": {
+                        "name": "Street"
+                    }
+                }
+            }
+        }
+    }
+}

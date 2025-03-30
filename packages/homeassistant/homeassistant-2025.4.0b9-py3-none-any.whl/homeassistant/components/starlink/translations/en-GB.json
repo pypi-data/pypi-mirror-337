@@ -1,0 +1,35 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "roaming": {
+                "name": "Roaming mode"
+            }
+        },
+        "device_tracker": {
+            "device_location": {
+                "name": "Device location"
+            }
+        },
+        "sensor": {
+            "download": {
+                "name": "Download"
+            },
+            "upload": {
+                "name": "Upload"
+            }
+        },
+        "switch": {
+            "sleep_schedule": {
+                "name": "Sleep schedule"
+            }
+        },
+        "time": {
+            "sleep_end": {
+                "name": "Sleep end"
+            },
+            "sleep_start": {
+                "name": "Sleep start"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "services": {
+        "press": {
+            "description": "Press the button entity.",
+            "name": "Press"
+        }
+    }
+}

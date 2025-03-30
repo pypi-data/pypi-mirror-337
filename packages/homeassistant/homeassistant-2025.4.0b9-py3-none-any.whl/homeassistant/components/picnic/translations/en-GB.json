@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "todo": {
+            "shopping_cart": {
+                "name": "Shopping cart"
+            }
+        }
+    },
+    "services": {
+        "add_product": {
+            "description": "Adds a product to the cart based on a search string or product ID. The search string and product ID are exclusive."
+        }
+    }
+}

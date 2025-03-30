@@ -1,0 +1,2 @@
+[console_scripts]
+search_granule = qkun.api.search_granule:main

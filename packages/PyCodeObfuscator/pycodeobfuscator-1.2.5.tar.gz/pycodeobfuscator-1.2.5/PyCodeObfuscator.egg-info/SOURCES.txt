@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyCodeObfuscator/PCO.py
+PyCodeObfuscator/PCO_obf.py
+PyCodeObfuscator/__init__.py
+PyCodeObfuscator.egg-info/PKG-INFO
+PyCodeObfuscator.egg-info/SOURCES.txt
+PyCodeObfuscator.egg-info/dependency_links.txt
+PyCodeObfuscator.egg-info/entry_points.txt
+PyCodeObfuscator.egg-info/top_level.txt

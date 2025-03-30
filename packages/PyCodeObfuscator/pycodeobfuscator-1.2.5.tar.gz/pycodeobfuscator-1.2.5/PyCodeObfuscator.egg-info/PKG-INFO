@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: PyCodeObfuscator
+Version: 1.2.5
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Dynamic: classifier
+Dynamic: license-file

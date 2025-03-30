@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+vbones/__init__.py
+vbones/hello.py
+vbones.egg-info/PKG-INFO
+vbones.egg-info/SOURCES.txt
+vbones.egg-info/dependency_links.txt
+vbones.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+setuptools-scm>=8.2.0
+tqdm>=4.67.1
+
+[dev]
+pytest>=8.3.5
+setuptools>=76.0.0
+setuptools-scm<8.2.1,>=8.0.0

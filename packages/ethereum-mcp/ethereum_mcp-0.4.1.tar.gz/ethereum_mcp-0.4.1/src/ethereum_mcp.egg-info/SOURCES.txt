@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/ethereum_mcp/__about__.py
+src/ethereum_mcp/__init__.py
+src/ethereum_mcp/cli.py
+src/ethereum_mcp.egg-info/PKG-INFO
+src/ethereum_mcp.egg-info/SOURCES.txt
+src/ethereum_mcp.egg-info/dependency_links.txt
+src/ethereum_mcp.egg-info/entry_points.txt
+src/ethereum_mcp.egg-info/requires.txt
+src/ethereum_mcp.egg-info/top_level.txt

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: code2docs-cli
+Version: 0.1.1
+Summary: 
+Author: xKarinSan
+Author-email: setsunayukii88@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dotenv (==1.1.0)
+Requires-Dist: typer (==0.15.2)
+Description-Content-Type: text/markdown
+
+# Code2Docs CLI
+This is a CLI that helps to provide documentation to codebases.
+
+Full docs: https://github.com/xKarinSan/Code2Docs
+
+Discord Channel: https://discord.gg/qugCeYBYud
+
+NOTE: This is still under construction!
+
+## Installation
+1. Install this
+```
+pip install code2docs-cli
+```
+
+2. Run the CLI
+```
+code2docs-cli
+```
+NOTE: This is still under construction 
+

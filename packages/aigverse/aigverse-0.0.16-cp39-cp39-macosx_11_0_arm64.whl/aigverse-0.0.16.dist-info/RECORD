@@ -1,0 +1,10 @@
+aigverse-0.0.16.dist-info/RECORD,,
+aigverse-0.0.16.dist-info/WHEEL,sha256=oI99Yypo1ApBhWg373YvDKO-pZHKioFdi_F_nr_837k,139
+aigverse-0.0.16.dist-info/METADATA,sha256=e0zYyoQ6mSPm_1vsHr3Lp4-WhsAqI7c8MRwpQYCbtNE,12363
+aigverse-0.0.16.dist-info/licenses/LICENSE,sha256=T9thClRW1h9JIIfiL9UF3h7cOyCGkdIn4iuRk363PiI,1070
+aigverse/_version.pyi,sha256=ACR5RSRmMZle1wbQ_f7DCird7tY-KdVLrkE_4HSNe4w,172
+aigverse/CMakeLists.txt,sha256=hHCePslVRpYEsv9CvAM5jKsbixhuRvaVxIn9GFl-NAU,620
+aigverse/_version.py,sha256=ElPq51TQLuRlV4p5OGksP4y5nQg6LS6l3gmwkCAufk8,513
+aigverse/pyaigverse.cpython-39-darwin.so,sha256=UC5rPWNeg-suU4PGBQSKyeNTbU2mcp0lWgAjyY2VAkc,991648
+aigverse/__init__.py,sha256=5BpXG-SEIZM9GAd14I-00F9s_AThkHzs50d-YInThcw,1185
+aigverse/pyaigverse.pyi,sha256=RqOtOMkN7DzEegGRPT2rjparAk1-MCCp3saRPerhXFQ,10406

@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: dave-reporting
+Version: 2025.0.8
+Summary: The reporting model for DAVE
+Author-email: Ruben de Bruin <ruben@davelab.nl>
+License-Expression: LicenseRef-Proprietary
+Project-URL: Homepage, https://usedave.nl
+Project-URL: Issues, https://github.com/dave-Lab-and-Engineering/dave/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dave-timeline>=2025.0.7
+Requires-Dist: fpdf2>=2.8.2
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: pdfrw>=0.4
+Requires-Dist: pillow>=11.1.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: usedave>=2025.1.7
+Provides-Extra: build
+Requires-Dist: setuptools>=75.8.0; extra == "build"
+Requires-Dist: cython>=3.0.11; extra == "build"
+Requires-Dist: wheel>=0.45.1; extra == "build"
+Requires-Dist: setuptools-scm>=8.1.0; extra == "build"
+Requires-Dist: build>=1.2.2; extra == "build"
+Dynamic: license-file
+
+# dave-reporting
+
+    Add reporting to your dave models
+
+This module allows to add reporting to your models.

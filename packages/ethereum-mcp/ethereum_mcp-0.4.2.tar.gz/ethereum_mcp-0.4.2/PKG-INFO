@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: ethereum-mcp
+Version: 0.4.2
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: fastmcp>=0.4.1
+Requires-Dist: mcp>=1.6.0
+Dynamic: license-file
+
+# ethereum-mcp
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ethereum-mcp.svg)](https://pypi.org/project/ethereum-mcp)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ethereum-mcp.svg)](https://pypi.org/project/ethereum-mcp)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ethereum-mcp
+```
+
+## License
+
+`ethereum-mcp` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build", "twine"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-muxian"
+version = "0.2.3"
+description = "query weather"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "openai>=1.69.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.entry-points.console_scripts]
+weather-muxian = "weather:main"
+
+[tool.uvx]
+command = "weather-muxian"
+args = []

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "moggy-mcp-server"
+version = "0.1.22"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.4.1",
+    "playwright>=1.39.0",
+    "pydantic==2.10.6",
+    "typing-extensions>=4.6.0",
+    "autogen-agentchat>=0.4.9",
+    "autogen-ext[openai]>=0.4.9"
+]
+
+
+[project.scripts]
+moggy-mcp-server = "browse_mcp:main"
+
+[tool.uv]
+package = true
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/browse_mcp"]

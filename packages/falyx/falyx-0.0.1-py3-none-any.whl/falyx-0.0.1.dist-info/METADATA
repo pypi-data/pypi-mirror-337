@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: falyx
+Version: 0.0.1
+Summary: Reserved package name for future CLI framework.
+Author: Roland Thomas Jr
+Author-email: roland@rtj.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Falyx (Reserved Name)
+
+This is a placeholder package to reserve the name `falyx`. The full CLI framework will be published here soon.
+

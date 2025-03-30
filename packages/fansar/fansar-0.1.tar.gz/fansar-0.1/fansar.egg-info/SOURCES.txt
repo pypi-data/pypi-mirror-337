@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+fansar/__init__.py
+fansar/hh.py
+fansar.egg-info/PKG-INFO
+fansar.egg-info/SOURCES.txt
+fansar.egg-info/dependency_links.txt
+fansar.egg-info/top_level.txt

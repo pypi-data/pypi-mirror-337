@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: strongpass
+Version: 0.1.0
+Summary: A secure and flexible password generator with customizable options.
+Home-page: https://github.com/yourusername/password_generator
+Author: Hemal Pandya
+Author-email: your-email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# 🔐 py-password-generator
+
+🎉 A highly customizable and secure Python module to generate strong passwords and passphrases with ease!  
+Supports multiple character types, entropy-based length, and avoids ambiguous characters for improved readability.
+
+---
+
+## 🚀 Features
+
+✅ Generate strong, random passwords.  
+✅ Choose from uppercase, lowercase, numbers, and special characters.  
+✅ Automatically calculate password length based on desired entropy.  
+✅ Avoid ambiguous characters (`0`, `O`, `1`, `l`, etc.) for better readability.
+
+✅ Check the entropy of generated passwords.  
+✅ Option to include/exclude character types dynamically.  
+✅ Customizable length with error handling for small charsets.   
+✅ Fully tested with `unittest` for reliability.
+
+---
+
+## 📦 **Installation**
+
+Install the package directly from [PyPI](https://pypi.org/project/py-password-generator/):
+```bash
+pip install py-password-generator

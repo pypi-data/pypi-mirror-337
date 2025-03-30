@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+testrame/__init__.py
+testrame/main.py
+testrame.egg-info/PKG-INFO
+testrame.egg-info/SOURCES.txt
+testrame.egg-info/dependency_links.txt
+testrame.egg-info/entry_points.txt
+testrame.egg-info/requires.txt
+testrame.egg-info/top_level.txt
+testrame/.system/imports.py
+testrame/.system/index.py
+testrame/.system/modules/jobs.py
+testrame/.system/sources/clight.json
+testrame/.system/sources/logo.ico

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: IITJP
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: pydub
+Requires-Dist: ffmpeg
+

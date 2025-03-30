@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+suplex/__init__.py
+suplex/suplex.py
+suplex.egg-info/PKG-INFO
+suplex.egg-info/SOURCES.txt
+suplex.egg-info/dependency_links.txt
+suplex.egg-info/requires.txt
+suplex.egg-info/top_level.txt
+suplex/auth/__init__.py
+suplex/auth/auth.py

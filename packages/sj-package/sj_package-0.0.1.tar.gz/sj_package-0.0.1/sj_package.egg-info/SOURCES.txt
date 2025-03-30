@@ -1,0 +1,6 @@
+README.md
+setup.py
+sj_package.egg-info/PKG-INFO
+sj_package.egg-info/SOURCES.txt
+sj_package.egg-info/dependency_links.txt
+sj_package.egg-info/top_level.txt

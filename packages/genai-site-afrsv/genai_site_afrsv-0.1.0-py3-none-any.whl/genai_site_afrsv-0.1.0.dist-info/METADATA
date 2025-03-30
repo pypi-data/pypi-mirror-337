@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: genai_site_afrsv
+Version: 0.1.0
+Summary: A GenAI site with image processing and text AI capabilities.
+Home-page: https://github.com/arthurfreisouza/genai-site
+Author: Arthur Frei Souza
+Author-email: arthurfreisouza@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+Requires-Dist: crewai
+Requires-Dist: openai
+Requires-Dist: fpdf
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: google-genai
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+This repository is for my own project.

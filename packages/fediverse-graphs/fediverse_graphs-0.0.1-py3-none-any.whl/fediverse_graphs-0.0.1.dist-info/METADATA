@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: fediverse-graphs
+Version: 0.0.1
+Summary: Interface to download and interact with the Fediverse Graph Dataset
+Author: Marc DAMIE
+Author-email: marc.damie@inria.fr
+License: GPLv3
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy<2.0
+Requires-Dist: pandas
+Requires-Dist: mlcroissant
+Requires-Dist: networkx
+Requires-Dist: tqdm
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-coverage; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

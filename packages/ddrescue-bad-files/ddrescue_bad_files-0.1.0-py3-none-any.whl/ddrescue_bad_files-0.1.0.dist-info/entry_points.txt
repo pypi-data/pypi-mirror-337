@@ -1,0 +1,2 @@
+[console_scripts]
+ddrescue-bad-files = ddrescue.bad_files:run

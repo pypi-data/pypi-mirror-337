@@ -1,0 +1,11 @@
+ddrescue/__init__.py,sha256=zvsZ9J5cZWIeaqhLTJoKRObpnp3FyRlJHCS-dR_ff8k,3937
+ddrescue/bad_files/__init__.py,sha256=2YqTI2xsaOawFVaQAG3ltuuC9gVeuwJ39HwRjpnby3g,958
+ddrescue/bad_files/backend.py,sha256=mL0YguxorJ8HSnT7MqP7lT_o6xdu8_Nxu2Y7cbMc0j0,135
+ddrescue/bad_files/file.py,sha256=h8fdzpl1sNOeQZ9fAFX6e_ZWGeBYcdi10lEPZmrq8JQ,1149
+ddrescue/bad_files/backends/pycdlib.py,sha256=Bh95lYYB30U1_MkWf0_ewGI74FG42_zFicPWYEEdIqs,838
+ddrescue_bad_files-0.1.0.dist-info/licenses/LICENSE.AGPLv3,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+ddrescue_bad_files-0.1.0.dist-info/METADATA,sha256=FPjwgmRqkDk5K5sxq3EEbecuGjm_SvRDlVnATO9Cb0M,2627
+ddrescue_bad_files-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ddrescue_bad_files-0.1.0.dist-info/entry_points.txt,sha256=xldpbVOMtoKP6TLrSX7nNBlZ3AiiBSpOk38v3uFHdZo,62
+ddrescue_bad_files-0.1.0.dist-info/top_level.txt,sha256=opCTokrVsQrbxhJNxqSrMq2X2i7dNOi7NpQ3cN1UKWo,9
+ddrescue_bad_files-0.1.0.dist-info/RECORD,,

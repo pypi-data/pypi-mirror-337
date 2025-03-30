@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textsage"
+version = "0.1.2"
+authors = [{ name = "Shivang Agarwal", email = "shivangagarwal98@gmail.com" }]
+description = "A simple library to set up Ollama and summarize text using local LLMs."
+readme = "README.md"
+dependencies = ["ollama", "pandas"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/shivang98/textsage"
+Issues = "https://github.com/shivang98/textsage/issues"
+
+[tool.setuptools]
+packages = ["textsage"]
+
+[project.optional-dependencies]
+pyspark = ["pyspark"]

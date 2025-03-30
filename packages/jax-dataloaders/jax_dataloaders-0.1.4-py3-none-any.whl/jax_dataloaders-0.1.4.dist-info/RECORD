@@ -1,0 +1,13 @@
+jax_dataloader/__init__.py,sha256=9PGqCN6aEZP5JOdSq_AzemqzVWpOz7H6OoOwda-_8bk,168
+jax_dataloader/jax_dataloader.py,sha256=Z-R0aGoImz4z0T0hYe_RstXIt8EkPqKN7rcxStnlUpQ,14254
+jax_dataloader/__pycache__/__init__.cpython-310.pyc,sha256=7llgiTxnx5gqzT1cC78dnQZqiE-OGI5la3qW5BaRDyM,300
+jax_dataloader/__pycache__/__init__.cpython-311.pyc,sha256=q66ipH6Jq4cBDCmwvmcb_TXkaEYp_swICynQzZ2-2J4,165
+jax_dataloader/__pycache__/jax_dataloader.cpython-310.pyc,sha256=Ge9HMlAdCMIAa5SIR2ul2f17MkqA1KDLYunEHtWVEF4,11537
+jax_dataloader/__pycache__/jax_dataloader.cpython-311.pyc,sha256=9no0g7rD75Hb2p6b8JHQe6mgIGkN0mXVlLaur9eumls,8066
+jax_dataloaders-0.1.4.data/data/examples/README.md,sha256=iGMuphbXwTTj8es8znvrw4FFpIymSCJREKIFksMnwOM,1542
+jax_dataloaders-0.1.4.data/data/examples/requirements.txt,sha256=oyyUXOZlDnWnKqM6nM7rpBPI93_Nbeo8DBJgdZeIMSM,69
+jax_dataloaders-0.1.4.dist-info/LICENSE,sha256=pzq5sZ4oZwY7ZS5qbCaCrOrkQeQG6cGOUP-mzNt-Pl4,1071
+jax_dataloaders-0.1.4.dist-info/METADATA,sha256=aW3F0fcC__xWu-M2UyqVVy6nbX6-fa_Ib5HxClzrEhY,3548
+jax_dataloaders-0.1.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+jax_dataloaders-0.1.4.dist-info/top_level.txt,sha256=bJmRLvBM2ZsagEfYGBI_1zsEPSvyvAKXkvXi7MkZGts,15
+jax_dataloaders-0.1.4.dist-info/RECORD,,

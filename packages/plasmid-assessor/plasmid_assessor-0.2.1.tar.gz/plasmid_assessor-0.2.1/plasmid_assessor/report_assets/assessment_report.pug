@@ -1,0 +1,73 @@
+#sidebar: p {{sidebar_text}}
+
+.logos
+  img(src="file:///{{ egf_logo_url }}" style="height:40px; width:auto")
+  img(src="file:///{{ plasma_logo_url }}" style="width:40px; height:auto; float:right")
+
+hr
+h1 Assessment report
+hr
+
+div(style="margin-top:1cm; margin-bottom:1cm;")
+
+if assessment.results.pass
+  p(style="text-align:left;")
+    b(style='font-size: 40px;') #[span.green ☑] &ensp; #[span.grey {{ assessment.name }}]
+    //- b(style='font-size: 20px;') &emsp;&emsp; Success!
+else
+  p(style="text-align:left;")
+    b(style='font-size: 40px;') #[span.red ☒] &ensp; #[span.grey {{ assessment.name }}]
+
+  //- p(style="text-align:left;")
+  //-   b(style='font-size: 50px;') #[span.yellow ⚠] &ensp; #[span.grey {{ id }}]
+
+div(style="margin-top:1cm; margin-bottom:1cm;")
+
+p The sequence was checked for: #[strong {{ assessment.enzyme_name }}].
+
+if assessment.other_enzymes
+  if assessment.results.other_sites.has_any_other_sites
+    if assessment.sites_outside_excised_region_txt
+      p #[span.red ☒] These additional enzymes were also checked: {{ assessment.other_enzymes }}. The sequence contains sites for these enzymes. Of these sites, the following were found to be retained: {{ assessment.sites_outside_excised_region_txt }}
+    else
+      p #[span.yellow ⚠] These additional enzymes were also checked: {{ assessment.other_enzymes }}. The sequence contains sites for these enzymes, however, these are <i>not</i> retained upon assembly.
+
+  else
+    p These additional enzymes were also checked: {{ assessment.other_enzymes }}. The sequence does not contain sites for these enzymes.
+
+
+//- {{ assessment.report_table }}
+
+if assessment.results.digest.left_overhang
+  p.
+    The overhangs are: 
+    <samp>#[strong {{ assessment.results.digest.left_overhang }}]#[span.grey ...]
+    #[span.grey ...]#[span.darkgreygrey #[strong {{ assessment.results.digest.right_overhang }}]]</samp>
+
+
+h4 Sequence map
+
+p {{ assessment.record.id }} ({{ assessment.record_len }} bp, {{ assessment.topology }})
+
+img#diff-figure(src="{{ assessment.figure_data }}")
+
+//- img#diff-figure(src="{{ assessment.schematics_data }}")
+
+div(style="margin-top:0.5cm; margin-bottom:0.5cm;")
+
+style.
+  .green {
+    color: #86bf86
+  }
+  .grey {
+    color: #a9a9a9
+  }
+  .darkgrey {
+    color: #787878
+  }
+  .red {
+    color: #fd5a31
+  }
+  .yellow {
+    color: #f7b500
+  }

@@ -1,0 +1,25 @@
+[project]
+name = "plasmid_assessor"
+version = "0.2.1"
+license = "MIT"
+authors = [{ name = "Peter Vegh" }]
+description = "Plasmid assessment for Golden Gate cloning"
+readme = "pypi-readme.rst"
+keywords = ["biology", "dna"]
+dependencies = ["biopython", "dnacauldron", "dna_features_viewer"]
+
+[project.optional-dependencies]
+report = ["pdf_reports", "pandas", "matplotlib"]
+
+[project.urls]
+Homepage = "https://github.com/Edinburgh-Genome-Foundry/Plasmid_assessor"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ["docs"]

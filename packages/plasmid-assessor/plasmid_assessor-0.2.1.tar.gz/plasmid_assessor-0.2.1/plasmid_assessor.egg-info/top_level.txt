@@ -1,0 +1,4 @@
+dist
+images
+plasmid_assessor
+tests

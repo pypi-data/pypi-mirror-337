@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pypi-readme.rst
+pyproject.toml
+plasmid_assessor/Assessment.py
+plasmid_assessor/__init__.py
+plasmid_assessor/reports.py
+plasmid_assessor.egg-info/PKG-INFO
+plasmid_assessor.egg-info/SOURCES.txt
+plasmid_assessor.egg-info/dependency_links.txt
+plasmid_assessor.egg-info/requires.txt
+plasmid_assessor.egg-info/top_level.txt
+plasmid_assessor/report_assets/assessment_report.pug
+plasmid_assessor/report_assets/report_style.css
+plasmid_assessor/report_assets/imgs/plasma_logo.png
+tests/test_Assessment.py

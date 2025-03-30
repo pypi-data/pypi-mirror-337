@@ -1,0 +1,826 @@
+#!python
+"""
+Command-line interface for Cursor Rules.
+
+This script provides commands for:
+1. Generating .cursorrules files
+2. Managing task lists
+3. Monitoring codebase changes
+4. Versioning .cursorrules files
+5. Working with multiple LLM providers
+"""
+
+import os
+import sys
+import argparse
+import logging
+import json
+from pathlib import Path
+from typing import Dict, List, Optional, Any, Tuple
+
+# Add the parent directory to the path to allow importing cursor_rules
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from cursor_rules import (
+    # Core functionality
+    Rule, RuleSet, RuleExecutor,
+    
+    # File generation
+    generate_cursorrules_file, save_cursorrules_file,
+    
+    # Task tracking
+    Task, Phase, ActionPlan, TaskStatus,
+    extract_action_plan_from_doc,
+    
+    # Document generation
+    DocumentGenerator,
+    
+    # Versioning
+    VersionManager,
+    
+    # Code monitoring
+    CodeMonitor, create_monitor_for_project,
+    
+    # LLM integration
+    LLMProvider, LLMConnector, MultiLLMProcessor
+)
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("cursor_rules_cli")
+
+def setup_argparse():
+    """Set up command-line argument parsing."""
+    parser = argparse.ArgumentParser(
+        description="Cursor Rules - Manage AI assistant instructions for Cursor IDE"
+    )
+    
+    subparsers = parser.add_subparsers(dest="command", help="Command to run")
+    
+    # Generate command
+    generate_parser = subparsers.add_parser(
+        "generate", help="Generate a .cursorrules file"
+    )
+    generate_parser.add_argument(
+        "input", help="Input file (markdown, JSON, YAML) or project directory"
+    )
+    generate_parser.add_argument(
+        "-o", "--output", help="Output file path (default: .cursorrules)", 
+        default=".cursorrules"
+    )
+    generate_parser.add_argument(
+        "-n", "--name", help="Project name (overrides name from input file)",
+        default=None
+    )
+    generate_parser.add_argument(
+        "-d", "--description", help="Project description (overrides description from input file)",
+        default=None
+    )
+    
+    # Documents command
+    documents_parser = subparsers.add_parser(
+        "documents", help="Generate all project documents from an initialization document"
+    )
+    documents_parser.add_argument(
+        "input", help="Input initialization document path"
+    )
+    documents_parser.add_argument(
+        "-o", "--output-dir", help="Output directory for generated documents",
+        default="."
+    )
+    
+    # Task command
+    task_parser = subparsers.add_parser(
+        "task", help="Manage tasks from initialization documents"
+    )
+    task_subparsers = task_parser.add_subparsers(dest="task_command", help="Task command")
+    
+    # Task generate command
+    task_generate_parser = task_subparsers.add_parser(
+        "generate", help="Generate tasks from an initialization document"
+    )
+    task_generate_parser.add_argument(
+        "input", help="Input initialization document path"
+    )
+    task_generate_parser.add_argument(
+        "-o", "--output", help="Output JSON file path", 
+        default="cursor-rules-tasks.json"
+    )
+    
+    # Task list command
+    task_list_parser = task_subparsers.add_parser(
+        "list", help="List tasks from a task file"
+    )
+    task_list_parser.add_argument(
+        "-f", "--file", help="Task file path",
+        default="cursor-rules-tasks.json"
+    )
+    task_list_parser.add_argument(
+        "-p", "--phase", help="Filter by phase title"
+    )
+    task_list_parser.add_argument(
+        "-s", "--status", help="Filter by status (not_started, in_progress, completed, blocked)"
+    )
+    task_list_parser.add_argument(
+        "-t", "--tag", help="Filter by tag"
+    )
+    
+    # Task update command
+    task_update_parser = task_subparsers.add_parser(
+        "update", help="Update task status"
+    )
+    task_update_parser.add_argument(
+        "-f", "--file", help="Task file path",
+        default="cursor-rules-tasks.json"
+    )
+    task_update_parser.add_argument(
+        "-t", "--task-id", help="Task ID", required=True
+    )
+    task_update_parser.add_argument(
+        "-s", "--status", help="New status (not_started, in_progress, completed, blocked)",
+        required=True
+    )
+    
+    # Versioning command
+    version_parser = subparsers.add_parser(
+        "version", help="Manage versions of .cursorrules files"
+    )
+    version_subparsers = version_parser.add_subparsers(dest="version_command", help="Version command")
+    
+    # Version list command
+    version_list_parser = version_subparsers.add_parser(
+        "list", help="List versions of a .cursorrules file"
+    )
+    version_list_parser.add_argument(
+        "-f", "--file", help="Path to .cursorrules file",
+        default=".cursorrules"
+    )
+    
+    # Version create command
+    version_create_parser = version_subparsers.add_parser(
+        "create", help="Create a new version of a .cursorrules file"
+    )
+    version_create_parser.add_argument(
+        "-f", "--file", help="Path to .cursorrules file",
+        default=".cursorrules"
+    )
+    version_create_parser.add_argument(
+        "-d", "--description", help="Version description"
+    )
+    version_create_parser.add_argument(
+        "-a", "--author", help="Version author"
+    )
+    
+    # Version rollback command
+    version_rollback_parser = version_subparsers.add_parser(
+        "rollback", help="Roll back to a previous version"
+    )
+    version_rollback_parser.add_argument(
+        "-f", "--file", help="Path to .cursorrules file",
+        default=".cursorrules"
+    )
+    version_rollback_parser.add_argument(
+        "-v", "--version-id", help="Version ID to roll back to",
+        required=True
+    )
+    
+    # Version diff command
+    version_diff_parser = version_subparsers.add_parser(
+        "diff", help="Show differences between versions"
+    )
+    version_diff_parser.add_argument(
+        "-f", "--file", help="Path to .cursorrules file",
+        default=".cursorrules"
+    )
+    version_diff_parser.add_argument(
+        "-v1", "--version1", help="First version ID",
+        required=True
+    )
+    version_diff_parser.add_argument(
+        "-v2", "--version2", help="Second version ID",
+        required=True
+    )
+    
+    # Monitor command
+    monitor_parser = subparsers.add_parser(
+        "monitor", help="Monitor codebase for changes"
+    )
+    monitor_parser.add_argument(
+        "-d", "--directory", help="Project directory to monitor",
+        default="."
+    )
+    monitor_parser.add_argument(
+        "-f", "--file", help="Path to .cursorrules file",
+        default=".cursorrules"
+    )
+    monitor_parser.add_argument(
+        "-i", "--interval", help="Polling interval in seconds",
+        type=int, default=300
+    )
+    monitor_parser.add_argument(
+        "-t", "--threshold", help="Change threshold for updates",
+        type=int, default=5
+    )
+    
+    # LLM command
+    llm_parser = subparsers.add_parser(
+        "llm", help="Work with LLM providers"
+    )
+    llm_subparsers = llm_parser.add_subparsers(dest="llm_command", help="LLM command")
+    
+    # LLM list command
+    llm_list_parser = llm_subparsers.add_parser(
+        "list", help="List available LLM providers"
+    )
+    
+    # LLM config command
+    llm_config_parser = llm_subparsers.add_parser(
+        "config", help="Configure LLM provider API keys"
+    )
+    llm_config_parser.add_argument(
+        "-p", "--provider", help="Provider name (openai, anthropic)",
+        required=True
+    )
+    llm_config_parser.add_argument(
+        "-k", "--api-key", help="API key",
+        required=True
+    )
+    
+    # LLM test command
+    llm_test_parser = llm_subparsers.add_parser(
+        "test", help="Test LLM providers"
+    )
+    llm_test_parser.add_argument(
+        "-p", "--provider", help="Provider name (openai, anthropic, all)",
+        default="all"
+    )
+    llm_test_parser.add_argument(
+        "-q", "--query", help="Test query",
+        default="Generate 3 rules for a Python project"
+    )
+    
+    return parser
+
+def handle_generate(args):
+    """Handle the generate command."""
+    from cursor_rules.parser import parse_file, parse_directory
+    
+    input_path = args.input
+    output_path = args.output
+    
+    # Check if input is a file or directory
+    if os.path.isfile(input_path):
+        ruleset = parse_file(input_path)
+    elif os.path.isdir(input_path):
+        ruleset = parse_directory(input_path)
+    else:
+        logger.error(f"Input path '{input_path}' is not a file or directory")
+        return 1
+    
+    # Override name and description if provided
+    if args.name:
+        ruleset.name = args.name
+    if args.description:
+        ruleset.description = args.description
+    
+    # Generate the .cursorrules file
+    content = generate_cursorrules_file(ruleset)
+    save_cursorrules_file(content, output_path)
+    
+    logger.info(f"Generated .cursorrules file at {output_path}")
+    logger.info(f"  Name: {ruleset.name}")
+    logger.info(f"  Rules: {len(ruleset.rules)}")
+    
+    return 0
+
+def handle_task(args):
+    """Handle the task command."""
+    if not args.task_command:
+        logger.error("No task command specified. Use 'generate', 'list', or 'update'")
+        return 1
+    
+    if args.task_command == "generate":
+        return handle_task_generate(args)
+    elif args.task_command == "list":
+        return handle_task_list(args)
+    elif args.task_command == "update":
+        return handle_task_update(args)
+    else:
+        logger.error(f"Unknown task command: {args.task_command}")
+        return 1
+
+def handle_task_generate(args):
+    """Handle the task generate command."""
+    input_path = args.input
+    output_path = args.output
+    
+    if not os.path.isfile(input_path):
+        logger.error(f"Input file '{input_path}' does not exist")
+        return 1
+    
+    try:
+        # Parse the initialization document
+        action_plan = extract_action_plan_from_doc(input_path)
+        
+        # Save the action plan to a file
+        action_plan.save_to_file(output_path)
+        
+        logger.info(f"Generated tasks from {input_path}")
+        logger.info(f"  Phases: {len(action_plan.phases)}")
+        logger.info(f"  Tasks: {action_plan.total_task_count()}")
+        logger.info(f"Saved to {output_path}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to generate tasks: {e}")
+        return 1
+
+def handle_task_list(args):
+    """Handle the task list command."""
+    file_path = args.file
+    phase_filter = args.phase
+    status_filter = args.status
+    tag_filter = args.tag
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"Task file '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Load the action plan
+        action_plan = ActionPlan.load_from_file(file_path)
+        
+        # Apply filters
+        filtered_tasks = []
+        for phase in action_plan.phases:
+            if phase_filter and phase_filter.lower() not in phase.title.lower():
+                continue
+                
+            for task in phase.tasks:
+                # Check status filter
+                if status_filter:
+                    if status_filter.upper() != task.status.name:
+                        continue
+                
+                # Check tag filter
+                if tag_filter:
+                    if tag_filter.lower() not in [t.lower() for t in task.tags]:
+                        continue
+                
+                filtered_tasks.append((phase, task))
+        
+        # Print the filtered tasks
+        print(f"Tasks from {file_path}:")
+        for phase, task in filtered_tasks:
+            status_emoji = {
+                TaskStatus.NOT_STARTED: "⬜",
+                TaskStatus.IN_PROGRESS: "🟨",
+                TaskStatus.COMPLETED: "✅",
+                TaskStatus.BLOCKED: "🟥"
+            }.get(task.status, "⬜")
+            
+            print(f"\n{status_emoji} [{phase.title}] {task.title} (ID: {task.id})")
+            if task.tags:
+                print(f"   Tags: {', '.join(task.tags)}")
+            
+            # Print subtasks
+            for subtask in task.subtasks:
+                subtask_emoji = {
+                    TaskStatus.NOT_STARTED: "⬜",
+                    TaskStatus.IN_PROGRESS: "🟨",
+                    TaskStatus.COMPLETED: "✅",
+                    TaskStatus.BLOCKED: "🟥"
+                }.get(subtask.status, "⬜")
+                print(f"   {subtask_emoji} {subtask.title} (ID: {subtask.id})")
+        
+        print(f"\nTotal: {len(filtered_tasks)} tasks")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to list tasks: {e}")
+        return 1
+
+def handle_task_update(args):
+    """Handle the task update command."""
+    file_path = args.file
+    task_id = args.task_id
+    status_str = args.status.upper()
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"Task file '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Parse the status
+        try:
+            status = TaskStatus[status_str]
+        except KeyError:
+            logger.error(f"Invalid status: {status_str}. Must be one of: "
+                         f"{', '.join(s.name for s in TaskStatus)}")
+            return 1
+        
+        # Load the action plan
+        action_plan = ActionPlan.load_from_file(file_path)
+        
+        # Find and update the task
+        task = action_plan.get_task_by_id(task_id)
+        if not task:
+            logger.error(f"Task with ID '{task_id}' not found")
+            return 1
+        
+        # Update the task status
+        old_status = task.status
+        task.status = status
+        
+        # Save the updated action plan
+        action_plan.save_to_file(file_path)
+        
+        logger.info(f"Updated task '{task.title}' (ID: {task_id})")
+        logger.info(f"  Status: {old_status.name} -> {status.name}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to update task: {e}")
+        return 1
+
+def handle_version(args):
+    """Handle the version command."""
+    if not args.version_command:
+        logger.error("No version command specified. Use 'list', 'create', 'rollback', or 'diff'")
+        return 1
+    
+    if args.version_command == "list":
+        return handle_version_list(args)
+    elif args.version_command == "create":
+        return handle_version_create(args)
+    elif args.version_command == "rollback":
+        return handle_version_rollback(args)
+    elif args.version_command == "diff":
+        return handle_version_diff(args)
+    else:
+        logger.error(f"Unknown version command: {args.version_command}")
+        return 1
+
+def handle_version_list(args):
+    """Handle the version list command."""
+    file_path = os.path.abspath(args.file)
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"File '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Create a version manager
+        version_manager = VersionManager()
+        
+        # List versions
+        versions = version_manager.list_versions(file_path)
+        
+        if not versions:
+            logger.info(f"No versions found for '{file_path}'")
+            return 0
+        
+        # Get the current version
+        current_version = version_manager.get_current_version(file_path)
+        current_id = current_version.version_id if current_version else None
+        
+        # Print the versions
+        print(f"Versions of {file_path}:")
+        for i, version in enumerate(versions):
+            current_marker = " (current)" if version.version_id == current_id else ""
+            print(f"\n{i+1}. Version {version.version_id}{current_marker}")
+            print(f"   Date: {version.formatted_date}")
+            if version.description:
+                print(f"   Description: {version.description}")
+            if version.author:
+                print(f"   Author: {version.author}")
+            if version.tags:
+                print(f"   Tags: {', '.join(version.tags)}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to list versions: {e}")
+        return 1
+
+def handle_version_create(args):
+    """Handle the version create command."""
+    file_path = os.path.abspath(args.file)
+    description = args.description or ""
+    author = args.author or ""
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"File '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Create a version manager
+        version_manager = VersionManager()
+        
+        # Create a new version
+        version_id = version_manager.create_version(
+            file_path,
+            description=description,
+            author=author
+        )
+        
+        logger.info(f"Created version {version_id} of '{file_path}'")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to create version: {e}")
+        return 1
+
+def handle_version_rollback(args):
+    """Handle the version rollback command."""
+    file_path = os.path.abspath(args.file)
+    version_id = args.version_id
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"File '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Create a version manager
+        version_manager = VersionManager()
+        
+        # Check if the version exists
+        version = version_manager.get_version(file_path, version_id)
+        if not version:
+            logger.error(f"Version '{version_id}' of '{file_path}' not found")
+            return 1
+        
+        # Roll back to the version
+        version_manager.rollback(file_path, version_id)
+        
+        logger.info(f"Rolled back '{file_path}' to version {version_id}")
+        logger.info(f"  Date: {version.formatted_date}")
+        if version.description:
+            logger.info(f"  Description: {version.description}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to roll back version: {e}")
+        return 1
+
+def handle_version_diff(args):
+    """Handle the version diff command."""
+    file_path = os.path.abspath(args.file)
+    version1_id = args.version1
+    version2_id = args.version2
+    
+    if not os.path.isfile(file_path):
+        logger.error(f"File '{file_path}' does not exist")
+        return 1
+    
+    try:
+        # Create a version manager
+        version_manager = VersionManager()
+        
+        # Check if the versions exist
+        version1 = version_manager.get_version(file_path, version1_id)
+        version2 = version_manager.get_version(file_path, version2_id)
+        
+        if not version1:
+            logger.error(f"Version '{version1_id}' of '{file_path}' not found")
+            return 1
+        
+        if not version2:
+            logger.error(f"Version '{version2_id}' of '{file_path}' not found")
+            return 1
+        
+        # Get the diff
+        diff = version_manager.get_diff(file_path, version1_id, version2_id)
+        
+        # Print the diff
+        print(f"Differences between versions {version1_id} and {version2_id} of '{file_path}':")
+        print(diff)
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to get diff: {e}")
+        return 1
+
+def handle_monitor(args):
+    """Handle the monitor command."""
+    directory = os.path.abspath(args.directory)
+    file_path = os.path.abspath(args.file)
+    interval = args.interval
+    threshold = args.threshold
+    
+    if not os.path.isdir(directory):
+        logger.error(f"Directory '{directory}' does not exist")
+        return 1
+    
+    try:
+        # Create a code monitor
+        monitor = create_monitor_for_project(
+            project_dir=directory,
+            cursorrules_path=file_path
+        )
+        
+        # Set the polling interval and threshold
+        monitor.poll_interval = interval
+        monitor.change_threshold = threshold
+        
+        logger.info(f"Starting to monitor '{directory}'")
+        logger.info(f"  .cursorrules file: {file_path}")
+        logger.info(f"  Poll interval: {interval} seconds")
+        logger.info(f"  Change threshold: {threshold} files")
+        
+        # Start monitoring
+        monitor.start_monitoring()
+        
+        try:
+            # Run until interrupted
+            while True:
+                try:
+                    # Sleep to avoid busy waiting
+                    sys.stdin.read()
+                except KeyboardInterrupt:
+                    break
+        finally:
+            # Stop monitoring
+            monitor.stop_monitoring()
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to monitor directory: {e}")
+        return 1
+
+def handle_llm(args):
+    """Handle the llm command."""
+    if not args.llm_command:
+        logger.error("No LLM command specified. Use 'list', 'config', or 'test'")
+        return 1
+    
+    if args.llm_command == "list":
+        return handle_llm_list(args)
+    elif args.llm_command == "config":
+        return handle_llm_config(args)
+    elif args.llm_command == "test":
+        return handle_llm_test(args)
+    else:
+        logger.error(f"Unknown LLM command: {args.llm_command}")
+        return 1
+
+def handle_llm_list(args):
+    """Handle the llm list command."""
+    try:
+        # Create an LLM connector
+        llm_connector = LLMConnector()
+        
+        # List available providers
+        providers = llm_connector.list_available_providers()
+        
+        if not providers:
+            logger.info("No LLM providers are available")
+            logger.info("Use 'cursor-rules llm config' to configure API keys")
+            return 0
+        
+        # Print the providers
+        print("Available LLM providers:")
+        for provider in providers:
+            print(f"  - {provider.value}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to list LLM providers: {e}")
+        return 1
+
+def handle_llm_config(args):
+    """Handle the llm config command."""
+    provider_name = args.provider.lower()
+    api_key = args.api_key
+    
+    try:
+        # Map provider name to enum
+        try:
+            provider = LLMProvider(provider_name)
+        except ValueError:
+            logger.error(f"Invalid provider: {provider_name}. Must be one of: "
+                          f"{', '.join(p.value for p in LLMProvider if p != LLMProvider.MOCK)}")
+            return 1
+        
+        # Create an LLM connector
+        llm_connector = LLMConnector()
+        
+        # Set the API key
+        llm_connector.set_api_key(provider, api_key)
+        
+        logger.info(f"Configured API key for {provider.value}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to configure LLM provider: {e}")
+        return 1
+
+def handle_llm_test(args):
+    """Handle the llm test command."""
+    provider_name = args.provider.lower()
+    query = args.query
+    
+    try:
+        # Create an LLM processor
+        llm_processor = MultiLLMProcessor()
+        
+        # Create a request
+        request = LLMRequest(
+            prompt=query,
+            system_message="You are a helpful assistant."
+        )
+        
+        # Process the request
+        if provider_name == "all":
+            # Use all available providers
+            responses = llm_processor.process_with_all_available(request)
+        else:
+            # Use a specific provider
+            try:
+                provider = LLMProvider(provider_name)
+            except ValueError:
+                logger.error(f"Invalid provider: {provider_name}. Must be one of: "
+                              f"{', '.join(p.value for p in LLMProvider)}")
+                return 1
+                
+            responses = llm_processor.process_with_specific(request, [provider])
+        
+        if not responses:
+            logger.error("No responses received")
+            return 1
+        
+        # Print the responses
+        for i, response in enumerate(responses):
+            print(f"\n===== Response from {response.provider.value} ({response.model}) =====")
+            print(f"Time: {response.elapsed_time:.2f}s")
+            print(f"Tokens: {response.total_tokens} ({response.prompt_tokens} prompt, {response.completion_tokens} completion)")
+            print(f"\n{response.text}")
+        
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to test LLM providers: {e}")
+        return 1
+
+def handle_documents_command(args):
+    """Handle documents command."""
+    try:
+        print(f"Generating documents from '{args.input}'...")
+        
+        # Create document generator
+        document_generator = DocumentGenerator(args.input, args.output_dir)
+        
+        # Generate all documents
+        generated_files = document_generator.generate_all_documents()
+        
+        print("\nGenerated files:")
+        for doc_name, file_path in generated_files.items():
+            print(f"- {doc_name}: {file_path}")
+        
+        print("\nDocument generation complete!")
+        
+    except Exception as e:
+        logger.error(f"Error generating documents: {e}", exc_info=True)
+        sys.exit(1)
+
+def main():
+    """Main entry point for the CLI."""
+    parser = setup_argparse()
+    args = parser.parse_args()
+    
+    # Handle no command
+    if not args.command:
+        parser.print_help()
+        sys.exit(1)
+    
+    # Handle generate command
+    if args.command == "generate":
+        handle_generate(args)
+    
+    # Handle documents command
+    elif args.command == "documents":
+        handle_documents_command(args)
+    
+    # Handle task command
+    elif args.command == "task":
+        handle_task(args)
+    
+    # Handle version command
+    elif args.command == "version":
+        handle_version(args)
+    
+    # Handle monitor command
+    elif args.command == "monitor":
+        handle_monitor(args)
+    
+    # Handle llm command
+    elif args.command == "llm":
+        handle_llm(args)
+    
+    else:
+        logger.error(f"Unknown command: {args.command}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    sys.exit(main()) 

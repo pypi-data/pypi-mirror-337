@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: snowduck
+Version: 0.0.1
+Summary: 
+License: MIT
+Author: hupe1980
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: duckdb (>=1.2.1,<2.0.0)
+Requires-Dist: pyarrow (>=19.0.1,<20.0.0)
+Requires-Dist: snowflake-connector-python (>=3.14.0,<4.0.0)
+Requires-Dist: sqlglot (>=26.12.0,<27.0.0)
+Description-Content-Type: text/markdown
+
+# snowmock

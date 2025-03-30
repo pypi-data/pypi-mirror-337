@@ -1,0 +1,61 @@
+Metadata-Version: 2.2
+Name: confidant-py
+Version: 0.1.0
+Summary: Multi platform scalable environment variables manager.
+Home-page: https://github.com/mr-vaibh/confidant-py
+Author: Vaibhav
+Author-email: shuklavaibhav336@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Confidant-Py
+
+Multi platform scalable environment variables manager
+
+## Installation
+
+```sh
+pip install confidant-py
+```
+
+## Usage
+
+```python
+from confidant_py.loader import ConfidantLoader
+
+loader = ConfidantLoader()
+envs = loader.get_envs()
+print(envs)
+```
+
+
+## **4. Publish to PyPI**
+1. Install necessary tools:
+```sh
+pip install setuptools wheel twine
+```
+
+2. Build the package
+
+```sh
+python setup.py sdist bdist_wheel
+```
+
+3. Upload to PyPI:
+
+```sh
+twine upload dist/*
+```

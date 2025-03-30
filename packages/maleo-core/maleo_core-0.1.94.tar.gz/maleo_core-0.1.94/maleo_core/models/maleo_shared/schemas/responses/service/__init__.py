@@ -1,0 +1,4 @@
+from .service import MaleoSharedServiceServiceResponsesSchemas
+
+class MaleoSharedServiceResponsesSchemas:
+    Service = MaleoSharedServiceServiceResponsesSchemas

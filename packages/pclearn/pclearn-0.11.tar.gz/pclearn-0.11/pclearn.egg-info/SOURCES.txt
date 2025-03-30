@@ -1,0 +1,11 @@
+setup.py
+pclearn/__init__.py
+pclearn/clusteringQ2.R
+pclearn/folder.py
+pclearn/prac5_1.js
+pclearn/prac7q1.sce
+pclearn.egg-info/PKG-INFO
+pclearn.egg-info/SOURCES.txt
+pclearn.egg-info/dependency_links.txt
+pclearn.egg-info/entry_points.txt
+pclearn.egg-info/top_level.txt

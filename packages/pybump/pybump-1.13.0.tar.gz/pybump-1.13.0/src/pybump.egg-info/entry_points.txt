@@ -1,0 +1,2 @@
+[console_scripts]
+pybump = pybump:main

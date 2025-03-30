@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: defix-package-queues
+Version: 0.1.2
+Summary: DeFiX internal package for working with AWS SQS
+Author-email: Mykhailo Kuzmin <guywithnothing56@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: aws-sqs-consumer>=0.0.15
+Description-Content-Type: text/markdown
+
+# DeFiX Package Queues
+
+## Internal package for working with AWS SQS

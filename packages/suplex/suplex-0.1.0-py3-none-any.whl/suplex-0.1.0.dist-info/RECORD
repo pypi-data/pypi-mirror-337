@@ -1,0 +1,8 @@
+suplex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suplex/suplex.py,sha256=00LWGcuZ9BHiSzQcqe3UIzxJ-97uJ9BX42jZeRQWnlk,17533
+suplex/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suplex/auth/auth.py,sha256=7Jrqqg8_5rEjSlazakh1lgVM_BpM3YTowbV0hK-p2ug,10978
+suplex-0.1.0.dist-info/METADATA,sha256=JE-H_WZTdqHHh6_4REQztz8f6yYIHjaWRpT8oqVgYxE,6838
+suplex-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+suplex-0.1.0.dist-info/top_level.txt,sha256=dJtTRES1km4r3eFS90BYNXsDnYRawL_c50I9RVo-5mE,7
+suplex-0.1.0.dist-info/RECORD,,

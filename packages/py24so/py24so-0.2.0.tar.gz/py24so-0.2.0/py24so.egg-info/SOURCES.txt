@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+py24so/__init__.py
+py24so.egg-info/PKG-INFO
+py24so.egg-info/SOURCES.txt
+py24so.egg-info/dependency_links.txt
+py24so.egg-info/requires.txt
+py24so.egg-info/top_level.txt

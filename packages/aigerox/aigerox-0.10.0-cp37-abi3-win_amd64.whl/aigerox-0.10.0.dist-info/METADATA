@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: aigerox
+Version: 0.10.0
+Summary: A Rust library for working with AIGs (And-Inverted Graphs) and AIGER files.
+Author: Konstantin Chukharev <lipen00@gmail.com>
+Author-email: Konstantin Chukharev <lipen00@gmail.com>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/Lipen/aigerox
+
+# aigerox
+
+[![Build Status](https://github.com/Lipen/aigerox/actions/workflows/ci.yml/badge.svg)](https://github.com/Lipen/aigerox/actions/workflows/ci.yml)
+
+> A Rust library for working with AIGs (And-Inverted Graphs) and reading and writing AIGER files.
+

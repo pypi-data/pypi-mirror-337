@@ -1,0 +1,11 @@
+homebak/__init__.py,sha256=OAG08hkg54Num8uWu6hPD7hPDBwEIeCnVyWwpTriZbs,24
+homebak/cli.py,sha256=_zu4nu_kXiPkbYWEUdCQX_FvRrtFZZK4yEhu0PP3f2g,2412
+homebak/config.py,sha256=SG2lLRLZDA8MvhJp16f4PGgA5s8ho14ZjloeWz9sbsk,691
+homebak/core.py,sha256=gYWX2rF8gEeYEdzVCFf1_IuBsJipiundcSl_Ns16hbY,3874
+homebak/utils.py,sha256=_dDUI0P03QYqVrn4oIErJGYUV1U1WTIfLVHYMExjjqI,875
+homebak-0.1.0b2.dist-info/licenses/LICENSE,sha256=_8x8U-t3Q7l-Tquub-X_sm8A8UbYvrcKIzHAo-tYyvc,1069
+homebak-0.1.0b2.dist-info/METADATA,sha256=g6EoNqFkGXqgeEOZr18qhhAKxxjYeOvn5fMe1yF31VI,1759
+homebak-0.1.0b2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+homebak-0.1.0b2.dist-info/entry_points.txt,sha256=ZILm1TiqezC3o9kvEjOcGtGonl_P-A6t-CmPs3rny3s,45
+homebak-0.1.0b2.dist-info/top_level.txt,sha256=ACbr5EptU7vWyzhKdZPwnqEqryvyWC8Mg1OkGnobwTk,8
+homebak-0.1.0b2.dist-info/RECORD,,

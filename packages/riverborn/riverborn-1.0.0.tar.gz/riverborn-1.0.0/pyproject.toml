@@ -1,0 +1,67 @@
+[project]
+name = "riverborn"
+version = "1.0.0"
+description = "A river canoeing game for PyWeek 39"
+authors = [
+  {name = "Daniel Pope", email = "mauve@mauveweb.co.uk"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "imageio>=2.37.0",
+    "moderngl>=5.12.0",
+    "moderngl-window[glfw,pywavefront]>=3.1.1",
+    "noise>=1.2.2",
+    "numpy>=2.2.4",
+    "wasabi-geom>=2.3.0",
+    "wasabi2d",
+]
+
+[project.urls]
+Homepage = "https://pyweek.org/e/wasabi39/"
+Repository = "https://github.com/lordmauve/riverborn/"
+
+
+[project.scripts]
+riverborn = "riverborn.mgl_terrain:main"
+rb-heightfield = "riverborn.heightfield:main"
+rb-ripples = "riverborn.ripples:main"
+
+[build-system]
+requires = ["flit_scm>=1.7.0"]
+build-backend = "flit_scm:buildapi"
+
+[tool.flit.sdist]
+exclude = [".gitignore"]
+
+[tool.setuptools_scm]
+write_to = "src/riverborn/_version.py"
+relative_to = "pyproject.toml"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+]
+
+[tool.mypy]
+files = [
+    "src/riverborn/mgl_terrain.py",
+    "src/riverborn/scene.py",
+    "src/riverborn/shadow.py",
+    "src/riverborn/demo_shadow.py",
+]
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = [
+    "moderngl",
+    "moderngl_window",
+    "wasabigeom",
+    "noise",
+    "pywavefront",
+]
+ignore_missing_imports = true
+
+[tool.uv.sources]
+wasabi2d = { git = "https://github.com/lordmauve/wasabi2d/", rev = "ff3e7113743d0f8e5f778f94de3de9369ea46390" }

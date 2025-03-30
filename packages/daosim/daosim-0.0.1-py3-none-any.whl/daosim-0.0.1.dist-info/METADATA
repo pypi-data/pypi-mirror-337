@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: daosim
+Version: 0.0.1
+Summary: The DAG adaptation of the Onion method
+Project-URL: Homepage, https://github.com/bja43/DaO_simulation
+Project-URL: Issues, https://github.com/bja43/DaO_simulation
+Author-email: Bryan Andrews <andr1017@umn.edu>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: numpy>=1.20.0
+Description-Content-Type: text/markdown
+
+# DaOpy
+
+The DAG adaptation of the Onion method
+
+
+## Exmaple Usage
+
+```python
+p = 10    # number of variables
+ad = 4    # average degree
+n = 100   # number of samples
+
+g = er_dag(p, ad=ad)
+g = sf_out(g)
+g = randomize_graph(g)
+
+R, B, O = corr(g)
+X = simulate(B, O, n)
+X = standardize(X)
+
+cols = [f"X{i + 1}" for i in range(p)]
+df = pd.DataFrame(X, columns=cols)

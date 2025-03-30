@@ -1,0 +1,15 @@
+transcribe_everything/__init__.py,sha256=gHBAYO1SkAh9-CS1OTKcfJZ4yLgiCF-ceVMVEAhmTtA,50
+transcribe_everything/args.py,sha256=WWrjdMy67UqCQnDs7X-BKciv5IKkHhtqu6UzZ6KNXVA,932
+transcribe_everything/cli.py,sha256=XdgY4Gi5nT-9BFBkQ1klGPctkdsWMVuB5DFD8m6YDkY,850
+transcribe_everything/constants.py,sha256=k1tucCbqTUGDmRO5CCI2BuVS8xNwiBb4HI11ylhiDxA,277
+transcribe_everything/run.py,sha256=v9oTPmy6Jl0mHoHraha8Tzmn2vn_qxXvhctZ32UyOtg,4249
+transcribe_everything/tmpdir.py,sha256=DJNS6b6P-9Y3keDiDopT3dEwHI7Mkql1MkH34ISfYbw,655
+transcribe_everything/transcribe.py,sha256=Yk_rjZzLulP4yUCqTmVxKSnhO0MDwKCRTdMRdSOsN54,5091
+transcribe_everything/util.py,sha256=paZlLg-QHF1OaFEqWhLjW9RZHQsJ03QCQ1oAMx90hhU,645
+transcribe_everything/assets/example.txt,sha256=lTBovRjiz0_TgtAtbA1C5hNi2ffbqnNPqkKg6UiKCT8,54
+transcribe_everything-1.5.17.dist-info/licenses/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+transcribe_everything-1.5.17.dist-info/METADATA,sha256=K8gSh51gRDapvXs_5cpupJ_xZ8xBPexma8b1w-D_YZo,1086
+transcribe_everything-1.5.17.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+transcribe_everything-1.5.17.dist-info/entry_points.txt,sha256=9fXdxlGCxgquS3md0QtQJ-8j6ZROL3z_nBQrtMbo9gI,73
+transcribe_everything-1.5.17.dist-info/top_level.txt,sha256=FoRja8JSyiH0DAi3aCCsBmbfx2qmXYN_hjT5WVt5Gmo,22
+transcribe_everything-1.5.17.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+spark-tts = sparktts.cli:main
+
+[gui_scripts]
+

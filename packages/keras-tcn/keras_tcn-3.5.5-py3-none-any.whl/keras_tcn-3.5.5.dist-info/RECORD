@@ -1,0 +1,6 @@
+tcn/__init__.py,sha256=JjYY1g-c8N9D_92mVEjt7HjkCz_23ZN4xqNGj36pL2Y,87
+tcn/tcn.py,sha256=IhSYLHjxobevdCONMttbX-drdtGyOI_OdolF7CA7ND4,23979
+keras_tcn-3.5.5.dist-info/METADATA,sha256=oGcdLe2T2XREcUoujKDKD2P8kJ1N1mkrFIq-HzK5C_Y,13785
+keras_tcn-3.5.5.dist-info/WHEEL,sha256=jB7zZ3N9hIM9adW7qlTAyycLYW9npaWKLRzaoVcLKcM,91
+keras_tcn-3.5.5.dist-info/top_level.txt,sha256=TVRK7lIuPedbSJyhjJ1QiuygcPEWQHAyoQCGH2iP604,4
+keras_tcn-3.5.5.dist-info/RECORD,,

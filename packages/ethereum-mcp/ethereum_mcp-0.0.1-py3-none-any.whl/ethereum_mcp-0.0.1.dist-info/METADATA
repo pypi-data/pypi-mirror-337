@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: ethereum-mcp
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/ming-der wang/ethereum-mcp#readme
+Project-URL: Issues, https://github.com/ming-der wang/ethereum-mcp/issues
+Project-URL: Source, https://github.com/ming-der wang/ethereum-mcp
+Author-email: ming-der wang <mingderwang@me.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ethereum-mcp
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ethereum-mcp.svg)](https://pypi.org/project/ethereum-mcp)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ethereum-mcp.svg)](https://pypi.org/project/ethereum-mcp)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ethereum-mcp
+```
+
+## License
+
+`ethereum-mcp` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

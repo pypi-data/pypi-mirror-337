@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/lawyer/__init__.py
+src/lawyer.egg-info/PKG-INFO
+src/lawyer.egg-info/SOURCES.txt
+src/lawyer.egg-info/dependency_links.txt
+src/lawyer.egg-info/top_level.txt

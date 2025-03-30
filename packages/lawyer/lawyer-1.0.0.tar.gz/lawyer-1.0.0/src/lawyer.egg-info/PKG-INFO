@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: lawyer
+Version: 1.0.0
+Summary: A redefined argument parser designed for ease of use.
+Author-email: Soumyo Deep Gupta <deep@d33p0st.in>
+Maintainer-email: Soumyo Deep Gupta <deep@d33p0st.in>
+Requires-Python: >=3.8
+License-File: LICENSE
+Dynamic: license-file

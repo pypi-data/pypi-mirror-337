@@ -1,0 +1,16 @@
+edgeidx/__init__.py,sha256=vQ8s2AbzXMI4v4yoR1lXVDGFii9jjl7m0wSfOnjuz-A,42
+edgeidx/ocr.py,sha256=mbbIZ7Bef5hKWLja35irucJYgsTPk2GGD40WT1ewjIo,5659
+edgeidx/utils.py,sha256=1gsUAfNOxKSnLEmq55Dx-aymXVl3DbDWbK3dNFSHcRw,892
+edgeidx/tesseract/libgcc_s_seh-1.dll,sha256=ABlPskLQ16cxNDwprM3F9rYMxCdxIkMSE0qdSqiowAo,151731
+edgeidx/tesseract/libleptonica-6.dll,sha256=_cd5ENL5B9YSnZKaXZgRij3RhCGYot6HlZDf1eZBOow,2774254
+edgeidx/tesseract/libstdc++-6.dll,sha256=pfNEVJyl3XywDxI33qsM6FNm4yuwuFRm_ssmdDoU8Mw,2400680
+edgeidx/tesseract/libtesseract-5.dll,sha256=eykaFXDNo_SiGKhEuwisbqqUOSpFnYV9qcaF4B4CEas,3336896
+edgeidx/tesseract/libwinpthread-1.dll,sha256=fqEFOwOHnRzx3s_ShGJ8S4l_nUGYcnGCETqO0AWWi1E,61343
+edgeidx/tesseract/tesseract.exe,sha256=zNBE1s8W6qrRUSYOH8xePhUEzRuGROlAtPeuPjFd0NM,86152
+edgeidx/tesseract/zlib1.dll,sha256=y3qzeI0QlA34dKzZexghu7XuSpHz7sEZgrtb96PJZEM,120814
+edgeidx/tesseract/tessdata/eng.traineddata,sha256=goCu0Hgv4nJXpo6hD-fvMkyg-Nhb0v0UXRwrVgvLZro,15400601
+edgeidx/tesseract/tessdata/osd.traineddata,sha256=nPXVdvzEdWTxEmWEHlyoOQAefm84_396rPRtFalrAP8,10562727
+edgeidx-1.0.1.dist-info/METADATA,sha256=AIS_FQ9g_mP48X-pcDgdZzgUZw2wiMwP5z-U7Izd6_Y,2201
+edgeidx-1.0.1.dist-info/WHEEL,sha256=1tXe9gY0PYatrMPMDd6jXqjfpz_B-Wqm32CPfRC58XU,91
+edgeidx-1.0.1.dist-info/top_level.txt,sha256=7p9zqCTsQSbEtVgHVCXI5DWI8LYQszKZWH2PQwQbmM8,8
+edgeidx-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coco2yolo-kaggle"
+version = "0.2.1"
+description = "Convert COCO dataset to YOLO format in Kaggle environment"
+readme = "README.md"
+authors = [{name = "Steven Chen", email = "i@stevenchen.site"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "tqdm",
+    "pillow",
+    "pandas",
+]
+
+[project.urls]
+Homepage = "https://github.com/StevenChen16/coco2yolo_kaggle"
+Issues = "https://github.com/StevenChen16/coco2yolo_kaggle/issues"
+
+[project.scripts]
+coco2yolo-kaggle = "coco2yolo_kaggle.cli:main"

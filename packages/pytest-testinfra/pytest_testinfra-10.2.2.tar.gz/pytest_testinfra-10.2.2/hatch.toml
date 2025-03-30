@@ -1,0 +1,19 @@
+[version]
+source = "vcs"
+
+[build.targets.sdist]
+include = [
+  "testinfra",
+  "test",
+  "ansible.cfg",
+  "tox.ini",
+  "images",
+  "mypy.ini",
+  "CONTRIBUTING.rst",
+  "doc",
+  "Makefile",
+  ".pre-commit-config.yaml",
+]
+
+[build.targets.wheel]
+only-include = ["testinfra"]

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+pacote_rolobeltrao.egg-info/PKG-INFO
+pacote_rolobeltrao.egg-info/SOURCES.txt
+pacote_rolobeltrao.egg-info/dependency_links.txt
+pacote_rolobeltrao.egg-info/top_level.txt
+rolobeltrao/__init__.py
+rolobeltrao/rolobeltrao_modulo.py

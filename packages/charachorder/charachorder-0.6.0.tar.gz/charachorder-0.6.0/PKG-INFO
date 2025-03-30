@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: charachorder
+Version: 0.6.0
+Summary: A mirror package for charachorder.py. Please install that instead
+Home-page: https://github.com/CharaChorder/charachorder.py
+Author: GetPsyched
+Author-email: dev@getpsyched.dev
+License: MIT
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: inquirer
+Requires-Dist: pyserial
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+### This is a mirror package!
+
+It is recommended to install `charachorder.py` instead.

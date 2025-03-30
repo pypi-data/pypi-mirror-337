@@ -1,0 +1,10 @@
+cdm_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdm_client/cdm_client.py,sha256=Dy48U3Aw5wb8d-MxVMY7gSN1ygrvhvvsOeu5y-gSoig,2343
+cdm_client/config.py,sha256=V7zS7HHHyOOYGhK1MvD_DEDkgAQ2G-OydenXNAAuIoM,2889
+cdm_client/transmission_adapter.py,sha256=VFdj7EimXkUhlUSUX-TIqdLJNP6ylw72CxANeisJoAM,1224
+cdmclient-0.1.4.dist-info/licenses/LICENSE,sha256=yXUdXegqLKZ48VoEPZ-YYje08vmKRdB3C2Xh6IA8HLU,1068
+cdmclient-0.1.4.dist-info/METADATA,sha256=ufhkYxranzqarbcArW3-9Gm7PhU_W0PdLZrLx5J_1Xg,2961
+cdmclient-0.1.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cdmclient-0.1.4.dist-info/entry_points.txt,sha256=cbr164wsAg2ll7-lMsGQxjkVfk9rQI83nq_Fub1Xsl0,58
+cdmclient-0.1.4.dist-info/top_level.txt,sha256=qfC83kKqwpKq2S391ftvem67cY-SX9LS9xwmgzetEU4,11
+cdmclient-0.1.4.dist-info/RECORD,,

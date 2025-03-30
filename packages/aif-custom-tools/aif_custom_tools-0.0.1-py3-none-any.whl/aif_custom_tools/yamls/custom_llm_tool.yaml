@@ -1,0 +1,19 @@
+aif_custom_tools.tools.custom_llm_tool.custom_llm:
+  name: AIF Custom LLM Tool
+  type: custom_llm
+  inputs:
+    connection:
+      type:
+        - CustomConnection
+    api:
+      type:
+        - string
+    model_name:
+      type:
+        - string
+    temperature:
+      type:
+        - double
+  description: This is a custom AIF tool      
+  module: aif_custom_tools.tools.custom_llm_tool    
+  function: custom_llm

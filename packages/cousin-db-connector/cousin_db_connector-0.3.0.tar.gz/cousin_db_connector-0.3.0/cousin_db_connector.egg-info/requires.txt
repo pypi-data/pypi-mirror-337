@@ -1,0 +1,8 @@
+PyJWT
+fastapi
+starlette
+setuptools
+bson
+motor
+pymongo
+pydantic

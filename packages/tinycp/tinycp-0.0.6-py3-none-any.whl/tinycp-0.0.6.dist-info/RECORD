@@ -1,0 +1,10 @@
+tinycp/classifier/__init__.py,sha256=h6UrsAE80CVDYUA0-_4GOt386amkKaSVa_lo1-4lhKA,129
+tinycp/classifier/base.py,sha256=cX09zBJkfrtq5MS3cQeFacBre8OjxPWD9sHcQj3rZOk,15582
+tinycp/classifier/class_conditional.py,sha256=cIZKBLLKxNn-0SeaayX_0a4WLHGm2GGLj2o04WXPsJw,6704
+tinycp/classifier/marginal.py,sha256=9-nTwj6kuF8BXHtyFJhny7IgRZc18qntWf6_1r-f7xA,6120
+tinycp/plot/__init__.py,sha256=O1TDbA3c3YoP0l8cpkK6a3jWZGLOdQXVLQhlQ1ivCtk,20
+tinycp/plot/plot.py,sha256=xejtMlPZitkBIXOlZXwNKcFJ1gzS6M-r0EYONht7rvI,8332
+tinycp-0.0.6.dist-info/LICENSE,sha256=oGMyi5YKRfPvxPthLZi3eiJ9zVC3oHJ94YoesVfp1Hg,1068
+tinycp-0.0.6.dist-info/METADATA,sha256=8CejduoZB0GPDPLk6fNi8cN_TyULssY-Oa1oDNKOwJ4,4048
+tinycp-0.0.6.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+tinycp-0.0.6.dist-info/RECORD,,

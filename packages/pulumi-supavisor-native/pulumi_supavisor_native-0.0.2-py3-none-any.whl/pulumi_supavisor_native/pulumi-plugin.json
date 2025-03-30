@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "supavisor-native",
+  "server": "github://api.github.com/phillarson-xyz/pulumi-supavisor-native"
+}

@@ -1,0 +1,15 @@
+openmav/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openmav/mav.py,sha256=e0jFLCoY2sG7ngYkwbVi28yrn8Z1x1myqnMjZsBrKAw,4675
+openmav/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openmav/backends/model_backend.py,sha256=H6Myqp2Yn2--0sJZGvekadwU0xCggDhyUHf7Ox9OjTM,689
+openmav/backends/model_backend_transformers.py,sha256=lwipzWJZkRcBnKpZJM3td-bJV1gZn1MgxaA_5TKFSZw,3024
+openmav/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openmav/converters/data_converter.py,sha256=6mVZUt46LseJHasm1f9cTXeSj5oHnEMoFO_7FSldnbQ,3709
+openmav/visualisers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openmav/visualisers/visualiser_console.py,sha256=cuv4k8zxTSnqvqRVx6nc4vaGNxXkCOFOqiSMxUQ9iUk,9324
+openmav-0.0.7.dist-info/licenses/LICENSE,sha256=ClFcWJ_kwDvRjdFXzVgoxf72W2uUvduvE5W5o7UKEUE,1070
+openmav-0.0.7.dist-info/METADATA,sha256=r1ifv7maFWTOZAorMONlnvIkv1FMB_h6AZaPzK3dsxM,3059
+openmav-0.0.7.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+openmav-0.0.7.dist-info/entry_points.txt,sha256=u1uAb3bq4Aq5AHBO20DHQB1U_Zoe3TRIXsx8VvUI5ks,41
+openmav-0.0.7.dist-info/top_level.txt,sha256=YKiS47TacRmw-yzFaVgXban0h_j3LU5BRbkbwdb71K8,8
+openmav-0.0.7.dist-info/RECORD,,

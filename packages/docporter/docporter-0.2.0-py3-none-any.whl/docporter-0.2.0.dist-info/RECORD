@@ -1,0 +1,9 @@
+docporter/__init__.py,sha256=FXVpakrfyL6OKitpbMtUDPMhvzj9FHRbJl46htWYjMQ,51
+docporter/cli.py,sha256=NbrTYZ7XhV_4HpV0IRgvlk9SNFDHp1Vjuu6eZwMHJzQ,1713
+docporter/core.py,sha256=cFTRtYBFIpC35-e-JSvfdRZ5CX8L3G8olvu4uiVgsFI,5136
+docporter/utils.py,sha256=-9nzNmA6DCVdtx2wNAQ3NleSkTATDwbLSYiZxWN06MI,451
+docporter-0.2.0.dist-info/METADATA,sha256=8OyZ1sfakiXt3N0PAwB0IDtkQqO3s7j6CoI9zUJR_WU,2325
+docporter-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+docporter-0.2.0.dist-info/entry_points.txt,sha256=7cZAMMVzPHPKLZAkBc00hXCC3nh7-j0wfb7vP8-9PzI,49
+docporter-0.2.0.dist-info/top_level.txt,sha256=D5P3BO_ALH5OcjZ5_XMSIzLiPRMYVSDL64ZArhNB3CM,10
+docporter-0.2.0.dist-info/RECORD,,

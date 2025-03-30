@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+chuk_mcp.egg-info/PKG-INFO
+chuk_mcp.egg-info/SOURCES.txt
+chuk_mcp.egg-info/dependency_links.txt
+chuk_mcp.egg-info/requires.txt
+chuk_mcp.egg-info/top_level.txt
+mcp_client/__init__.py

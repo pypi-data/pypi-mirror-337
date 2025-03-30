@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: elk-python
+Version: 0.0.1
+Summary: Python wrapper for Eclipse Layout Kernel (ELK) server
+Project-URL: Documentation, https://github.com/swamidass/elk-python#readme
+Project-URL: Issues, https://github.com/swamidass/elk-python/issues
+Project-URL: Source, https://github.com/swamidass/elk-python
+Author-email: "S. Joshua Swamidass" <swamidass@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: eclipse,elk,graph,layout
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: importlib-resources>=5.0.0; python_version < '3.9'
+Requires-Dist: pooch>=1.8.0
+Requires-Dist: pydantic>=2.10.6
+Provides-Extra: dev
+Requires-Dist: pre-commit>=3.5.0; extra == 'dev'
+Requires-Dist: pytest>=8.0.0; extra == 'dev'
+Requires-Dist: ruff>=0.11.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# elk-python
+
+[![PyPI - Version](https://img.shields.io/pypi/v/elk-python.svg)](https://pypi.org/project/elk-python)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elk-python.svg)](https://pypi.org/project/elk-python)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install elk-python
+```
+
+## License
+
+`elk-python` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

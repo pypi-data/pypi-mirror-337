@@ -1,0 +1,6 @@
+google-generativeai
+colorpaws
+gradio
+pytubefix
+moviepy==1.0.3
+markdown-pdf

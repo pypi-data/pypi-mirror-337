@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+EnvBider.egg-info/PKG-INFO
+EnvBider.egg-info/SOURCES.txt
+EnvBider.egg-info/dependency_links.txt
+EnvBider.egg-info/top_level.txt
+envbider/__init__.py
+envbider/core.py
+tests/__init__.py
+tests/test_core.py
+tests/test_custom_prefixes.py
+tests/test_envbider.py

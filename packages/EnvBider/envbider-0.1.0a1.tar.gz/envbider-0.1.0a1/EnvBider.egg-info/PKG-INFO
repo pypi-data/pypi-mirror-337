@@ -1,0 +1,151 @@
+Metadata-Version: 2.4
+Name: EnvBider
+Version: 0.1.0a1
+Summary: A Python library for simplified environment variable management
+Home-page: https://github.com/yourusername/EnvBider
+Author: Your Name
+Author-email: your.email@example.com
+Project-URL: Bug Tracker, https://github.com/user/EnvBider/issues
+Project-URL: Documentation, https://github.com/user/EnvBider#readme
+Project-URL: Source Code, https://github.com/user/EnvBider
+Keywords: environment,configuration,env,dotenv,settings
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# EnvBider
+
+A Python library for simplified environment variable management with type conversion and nested configuration support.
+
+## Features
+
+- Simple environment variable access with type conversion
+- Nested configuration support
+- Automatic environment file (.env) loading
+- Validation and default values
+
+## Installation
+
+```bash
+pip install EnvBider
+```
+
+## Basic Usage
+
+```python
+import envbider
+
+# Load environment variables from .env file
+envbider.load_dotenv()
+
+# Get environment variable with type conversion
+port = envbider.get('PORT', default=8000, type=int)
+debug = envbider.get('DEBUG', default=False, type=bool)
+
+# Nested configuration
+config = envbider.get_nested('APP_CONFIG')
+print(config['database']['host'])
+```
+
+## Advanced Usage
+
+### Type Conversion
+
+```python
+# Automatic type conversion
+value = envbider.get('SOME_NUMBER', type=float)
+```
+
+### Nested Configuration
+
+```python
+# JSON string in environment variable
+config = envbider.get_nested('APP_CONFIG')
+
+# Access nested values
+print(config['logging']['level'])
+```
+
+### Custom Prefixes
+
+```python
+from envbider.core import env_binder
+
+# Define nested configuration classes with custom prefixes
+@env_binder(prefix="DB")
+class DatabaseConfig:
+    host: str
+    port: int = 5432
+    username: str
+    password: str
+
+@env_binder
+class AppConfig:
+    app_name: str
+    database: DatabaseConfig = None
+
+# Environment variables would be:
+# APP_NAME=MyApp
+# DB_HOST=localhost
+# DB_PORT=5432
+# DB_USERNAME=admin
+# DB_PASSWORD=secret
+```
+
+### Validation
+
+```python
+# Validate required variables
+envbider.validate_required(['DB_HOST', 'DB_PORT'])
+```
+
+## Demonstration
+
+1. Create a `.env` file:
+```
+PORT=8080
+DEBUG=true
+APP_CONFIG={"database": {"host": "localhost", "port": 5432}, "logging": {"level": "info"}}
+```
+
+2. Run the example:
+```python
+import envbider
+
+envbider.load_dotenv()
+
+port = envbider.get('PORT', type=int)
+debug = envbider.get('DEBUG', type=bool)
+config = envbider.get_nested('APP_CONFIG')
+
+print(f"Port: {port}")
+print(f"Debug mode: {debug}")
+print(f"Database host: {config['database']['host']}")
+```
+
+## License
+
+MIT

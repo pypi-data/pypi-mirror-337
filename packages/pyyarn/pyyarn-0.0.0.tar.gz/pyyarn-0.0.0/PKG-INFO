@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: pyyarn
+Version: 0.0.0
+Summary: Python library to interact with YARN API
+Author-email: Ilsaf Khamidullin <ilsaf.corp@gmail.com>
+License-Expression: Apache-2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: license-file
+
+## pyarn

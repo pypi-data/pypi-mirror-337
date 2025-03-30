@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+utilitea/__init__.py
+utilitea/depeche.py
+utilitea/semaphore.py
+utilitea.egg-info/PKG-INFO
+utilitea.egg-info/SOURCES.txt
+utilitea.egg-info/dependency_links.txt
+utilitea.egg-info/top_level.txt

@@ -1,0 +1,80 @@
+Metadata-Version: 2.4
+Name: utilitea
+Version: 0.1.1
+Summary: A collection of convenience functions and classes for Python.
+Home-page: https://www.gitea.com/Lerking/utilitea
+Author: Jan Lerking
+Author-email: 
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# utilitea
+
+utilitea is a collection of handy Python utilities designed to simplify everyday coding tasks. Whether you need quick data manipulations, system helpers, or streamlined workflow tools, utilitea serves up a refreshing blend of convenience and efficiency.
+
+## Depeche
+
+A message transmitting utility.
+
+```python
+import time
+from utilitea import depeche as dp
+
+if __name__ == "__main__":
+    # Example user-defined function for handling messages
+	def handle_message(message: str):
+		print(message)
+    
+	updater = dp.StatusUpdater(handle_message)
+
+	msg1 = updater.add_message("First update")
+	msg2 = updater.add_message("Second update")
+	msg3 = updater.add_message("Third update")
+    
+	time.sleep(1)  # Simulate delay
+
+	msg1.mark_finished_safely(updater)  # Marks first message as finished
+	time.sleep(1)  # Allow processing
+
+	msg2.mark_finished_safely(updater)  # Marks second message as finished
+	time.sleep(1)  # Allow processing
+
+	msg3.mark_finished_safely(updater)  # Marks third message as finished
+	time.sleep(1)  # Allow processing
+
+	updater.stop()
+```
+
+## Semaphore
+
+A signal transmitting utility.
+
+```python
+from utilitea import semaphore as sp
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+
+    def handler(data):
+        print(f"Received {data}")
+
+    semaphore = sp.Semaphore()
+    semaphore.connect("event", handler)
+    semaphore.emit("event", "Hello")
+    del semaphore
+```
+
+

@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: lyycalendar
+Version: 2.20
+Summary: calendar for  lyy
+Author: lyy
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

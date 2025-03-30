@@ -1,0 +1,2 @@
+[console_scripts]
+grawl = grawl.__main__:app

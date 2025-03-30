@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: arxivextract
+Version: 0.0.1
+Summary: Extraction of ArXiv articles
+Author-email: Kwan Yuet Stephen Ho <stephenhky@yahoo.com.hk>
+License: MIT
+Project-URL: Repository, https://github.com/stephenhky/ArXivExtraction
+Project-URL: Issues, https://github.com/stephenhky/ArXivExtraction/issues
+Keywords: arXiv,API,research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: feedparser
+Requires-Dist: pydantic
+Provides-Extra: test
+Requires-Dist: unittest2; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# ArXiv Extractor
+

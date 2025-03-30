@@ -1,0 +1,6 @@
+feedparser
+pydantic
+
+[test]
+unittest2
+pytest

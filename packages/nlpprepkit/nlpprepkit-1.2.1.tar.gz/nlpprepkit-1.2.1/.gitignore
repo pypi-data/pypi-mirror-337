@@ -1,0 +1,4 @@
+__pycache__/
+nlpprepkit.egg-info/
+dist/
+.vscode/

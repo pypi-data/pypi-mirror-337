@@ -1,0 +1,11 @@
+EURUSD_package/__init__.py,sha256=a_WPVkDa_TX6Ge9pKbMyKP-ScotK4tfTar9CTvRCkRQ,164
+EURUSD_package/analyzeForecast.py,sha256=fV9TbgGyQjwNyArT7wAJdSHp5EYTUMqMTR5PEyg0K7Q,12979
+EURUSD_package/dataAnalyzer.py,sha256=_kOLF_-QMepWOASGHF6mUcW0bx4iNAcndhivwM5L7-Y,2098
+EURUSD_package/dataLoader.py,sha256=AV3ARntFR683lb930k3ltrQVNeGAldJ_7uuqf2bmGC0,3851
+EURUSD_package/dataVisualizer.py,sha256=YMcfIdtYVY-e9cAPNstDlN0bBS40v7vQPo3Nq2ywq4I,3297
+EURUSD_package/main.py,sha256=03RzJSOAWXOYzGKajAacvwOn56N8jX00GMKguwImm_I,1061
+eurusd_package-0.1.0.dist-info/licenses/LICENSE,sha256=gOZL84mOjKB3q4va_b-pmIVNZu3CfRQW615Qp_NPlTA,1086
+eurusd_package-0.1.0.dist-info/METADATA,sha256=MO58wuopMtXxXXZFh7F4weBfRj8Biaa-q6_IKVThk5E,2616
+eurusd_package-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+eurusd_package-0.1.0.dist-info/top_level.txt,sha256=xy9x0NK6TBr5RYhvmld59FYOvCOuxHhE7qTHuHbcSG8,15
+eurusd_package-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+[project]
+name = "defix-package-queues"
+version = "0.1.2"
+description = "DeFiX internal package for working with AWS SQS"
+readme = "README.md"
+authors = [
+    { name = "Mykhailo Kuzmin", email = "guywithnothing56@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "aws-sqs-consumer>=0.0.15",
+]
+
+[project.scripts]
+defix-package-queues = "defix_package_queues:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+bump_message = "[actions skip] ci: version bump to $new_version"
+update_changelog_on_bump = true
+version_provider = "uv"

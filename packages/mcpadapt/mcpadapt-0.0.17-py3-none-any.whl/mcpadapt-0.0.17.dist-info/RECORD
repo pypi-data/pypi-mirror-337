@@ -1,0 +1,13 @@
+mcpadapt/__init__.py,sha256=WlMBNrzKywm5RAbqEVgEgcG7Opc4cf3-wpAnO8PdoEI,23
+mcpadapt/core.py,sha256=u6utxUzO64G1eIKwiu3libMztVvBNzIFm588AXmTbKo,9756
+mcpadapt/crewai_adapter.py,sha256=JRifdpsnQRgPI94sMTr22j4nR-Fvmj0kDmaKH1yJCzY,2409
+mcpadapt/google_genai_adapter.py,sha256=mEfG6gg5PP6GkEs5oA6jdsRpMTdFp-vRaSTMIQ6PYV4,2721
+mcpadapt/langchain_adapter.py,sha256=CE8n5lNKKTftGIRrJde3zsH8A7EQvcUOdKCCV74YtTk,6608
+mcpadapt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpadapt/smolagents_adapter.py,sha256=abx-OJjWLIcLbHBRqHOwvwZctQ1EXUgHpYncCOD_A4g,3931
+mcpadapt/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpadapt/utils/modeling.py,sha256=D7dOK65L-GuOsvC91r6L-8hdC9Ke2tEpqIbXdbx1qWA,5285
+mcpadapt-0.0.17.dist-info/METADATA,sha256=2p84Ru9-dWLMmYHmXA3UrqatVJ7tyz9rxhHYvpixFG8,6200
+mcpadapt-0.0.17.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcpadapt-0.0.17.dist-info/licenses/LICENSE,sha256=5adbLHoJYnsGcl3ganOwDhtee8xmKpbWxwrH24z7aTw,1073
+mcpadapt-0.0.17.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+open_trivia_database_wrapper.egg-info/PKG-INFO
+open_trivia_database_wrapper.egg-info/SOURCES.txt
+open_trivia_database_wrapper.egg-info/dependency_links.txt
+open_trivia_database_wrapper.egg-info/requires.txt
+open_trivia_database_wrapper.egg-info/top_level.txt
+opentdb/__init__.py
+opentdb/enums.py
+opentdb/models.py
+opentdb/opentdb.py
+opentdb/tests/__init__.py

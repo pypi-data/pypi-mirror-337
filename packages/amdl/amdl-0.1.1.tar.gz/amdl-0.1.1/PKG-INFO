@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: amdl
+Version: 0.1.1
+Summary: This allows you to load modules in an elegant way.
+Home-page: https://github.com/zZarby/amdl
+Author: Zarby
+Author-email: ZarbyTheOne@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+
+
+-----
+
+### <p align="center">👻 AMDL 👻</p>
+
+<br><br>
+<p align="center">
+<strong>
+Yes, if you are looking for an open-source module to automatically import your dependencies and handle installation errors with ease, you are in the right place!
+<br><br>
+  
+-----
+
+### <p align="center">✔ Example ✔</p>
+
+```
+import amdl
+amdl.add(['requests','os'])
+
+print(requests.get('https://nohello.net').status_code)
+os.system('pause >nul')
+```
+
+-----
+
+### <p align="center">📌 Disclaimer 📌</p>
+
+<br><br>
+* ***Please use this program only for educational purposes.***
+* ***It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.***
+<br><br>
+
+-----
+
+### <p align="center">Zarby</p>

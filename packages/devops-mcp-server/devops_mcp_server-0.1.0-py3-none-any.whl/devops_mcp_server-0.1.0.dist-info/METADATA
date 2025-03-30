@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: devops-mcp-server
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp[cli]>=1.6.0
+
+# 🛠️ DevOps MCP Server
+
+> 🚀 宇豹DevOps平台外挂
+
+基于 FastMCP 框架开发的宇豹DevOps平台MCP Server，旨在简化与 DevOps 平台的交互流程，提高工作效率。
+
+## 📋 功能概述
+
+本项目提供以下核心功能：
+
+-[X] 🔍 任务类型查询
+-[X] 📊 迭代计划查询
+-[X] ✨ 工作任务创建和报工（暂不支持平台问题支持类任务创建）
+
+## 🔧 技术架构
+
+- 🐍 Python 3.10+ 
+- ⚡ FastMCP 框架
+- 🌐 httpx HTTP客户端
+- 📦 uv 包管理工具
+
+## 📥 使用指南
+
+### 1. 安装 uv 工具（Windows）
+
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+### 2. 获取DevOps平台ticket和userId
+
+```bash
+登录时，F12查看login接口返回的userId
+登录后，F12查看任意GET/POST接口的请求头Ticket
+```
+
+### 3. 在Cline中使用
+
+```json
+{
+  "mcpServers": {
+    "devops-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "devops-mcp-server"
+      ],
+      "env": {
+        "DEVOPS_TICKET": "<YOUR TICKET>",
+        "DEVOPS_USERID": "<YOUR USERID>"
+      },
+      "autoApprove": [
+        "query_all_task_type",
+        "query_all_task_sprint"
+      ]
+    }
+  }
+}
+```

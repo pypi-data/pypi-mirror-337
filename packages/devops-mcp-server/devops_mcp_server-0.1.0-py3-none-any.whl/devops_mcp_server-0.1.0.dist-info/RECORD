@@ -1,0 +1,7 @@
+devops_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devops_client/common.py,sha256=h9g2ov1T5K8zT48CZPH9xx9wPp2E7I9Pn_PNXReAMq0,5091
+devops_client/task_management.py,sha256=HcIZDkB2JJptIPFDik3wHQ3oTIe1N3eBFI09JELLlBo,3116
+devops_mcp_server-0.1.0.dist-info/METADATA,sha256=2mtcJh0rn3s34Id8cV_3Xm-tza9laYymO1t3B4gUNzs,1500
+devops_mcp_server-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+devops_mcp_server-0.1.0.dist-info/top_level.txt,sha256=5vlS_PtOBxILGCcNG16-sTizrwIMFKPFy1xCkHtpawA,14
+devops_mcp_server-0.1.0.dist-info/RECORD,,

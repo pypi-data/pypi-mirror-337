@@ -1,0 +1,2 @@
+[console_scripts]
+ethereum-mcp = ethereum_mcp.cli:main

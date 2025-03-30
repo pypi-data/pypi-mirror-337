@@ -1,0 +1,11 @@
+human_brain_atlases/__init__.py,sha256=6WWqvLCeKmVzSRexKx2gSIv9CqAQoJSJ2-LkSfn7LPs,76
+human_brain_atlases/atlases/__init__.py,sha256=OY_F86y_RB3uP14lyAXFHLVINYCyHWdIw5PM5uHZ5JM,49
+human_brain_atlases/atlases/base.py,sha256=REJe3xgKbEvMHNZCR2WPph_mHwGyUOrahsO-HwNdnG8,37
+human_brain_atlases/atlases/schaefer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+human_brain_atlases/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+human_brain_atlases/utils/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+human_brain_atlases-0.1.0.dist-info/licenses/LICENSE,sha256=yHD0GCrYHB-kI6DOO6fAUTaNO5gsYUHf5PolEknG6J4,1077
+human_brain_atlases-0.1.0.dist-info/METADATA,sha256=wd7DDqPP4ECqA62k2zWRMP9JOnURFqpX6Ec8GBlvNkw,853
+human_brain_atlases-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+human_brain_atlases-0.1.0.dist-info/top_level.txt,sha256=Yc-zPQv7dnNlSVGr05u_s-wVuakrS_KP_8qpjx8Obyk,20
+human_brain_atlases-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+browse_mcp/__init__.py,sha256=xcB40PsR_-ha-amtf2RB0VJQ1Nq_o8PHNE3tg9yeLZQ,285
+browse_mcp/browse_manager.py,sha256=oQ5FBLGhicCEQU0DlqIypDbQ9ZzUWFnJDQi-z3Zrqs8,1862
+browse_mcp/browse_operation_server.py,sha256=MKDM-p0an3z1OtkoZNXOj1qcLsEKgogrRdhFKA0TlDY,13377
+browse_mcp/css/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browse_mcp/css/page_elements_mark.css,sha256=whKn-Y-hPQ28EdUqNYCsP0VDcwWqq2XaWy67u2XFBx4,260
+browse_mcp/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browse_mcp/script/page_elements_choose.js,sha256=RTQ1GNkrQ7OP5AXLHAuAtRnQtn3UA9yX6rZVXUjR150,2497
+browse_mcp/script/page_elements_mark.js,sha256=HiihIQZmD28u4R97OY92TsDZkPOJ0_w-T6zvDByG_Lg,1367
+browse_mcp/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browse_mcp/tools/playwright_tools.py,sha256=Fm7FxuPA_zdkGGhwWCqlOb-juZdbj6pA7f3VDUT0zbg,10934
+moggy_mcp_server-0.1.22.dist-info/METADATA,sha256=4hddWDPrRpeW6Il7MdshkaxKhV0po7IjKrQdV0vRX-Q,411
+moggy_mcp_server-0.1.22.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+moggy_mcp_server-0.1.22.dist-info/entry_points.txt,sha256=DlEFl_EMMs6DLyGRzYszAjhbDhtBio310MWggsDDVIM,53
+moggy_mcp_server-0.1.22.dist-info/licenses/LICENSE,sha256=XYP204izA19C5PrdZo7ujNfBVWLMOMzf5Z7A_9G9tBQ,1061
+moggy_mcp_server-0.1.22.dist-info/RECORD,,

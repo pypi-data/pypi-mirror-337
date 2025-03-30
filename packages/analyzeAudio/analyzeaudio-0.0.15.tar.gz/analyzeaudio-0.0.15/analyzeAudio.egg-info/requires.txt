@@ -1,0 +1,18 @@
+cachetools
+librosa
+numpy
+optype[numpy]
+torch
+torchmetrics[audio]
+tqdm
+Z0Z_tools
+
+[:python_version >= "3.13"]
+standard-aifc
+standard-sunau
+
+[testing]
+pytest
+pytest-cov
+pytest-xdist
+pyupgrade

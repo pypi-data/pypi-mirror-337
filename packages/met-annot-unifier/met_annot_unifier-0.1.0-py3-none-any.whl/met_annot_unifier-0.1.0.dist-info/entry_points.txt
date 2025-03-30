@@ -1,0 +1,3 @@
+[console_scripts]
+met-annot-unifier = met_annot_unifier.__main__:main
+met-annot-unifier-cli = met_annot_unifier.cli:cli

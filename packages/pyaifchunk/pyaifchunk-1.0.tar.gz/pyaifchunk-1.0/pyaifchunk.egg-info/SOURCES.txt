@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+version.txt
+pyaifchunk/__init_.py
+pyaifchunk/core_aifc.py
+pyaifchunk/core_chunk.py
+pyaifchunk.egg-info/PKG-INFO
+pyaifchunk.egg-info/SOURCES.txt
+pyaifchunk.egg-info/dependency_links.txt
+pyaifchunk.egg-info/not-zip-safe
+pyaifchunk.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+eco-ext = ecooptimizer.api.__main__:main
+eco-ext-dev = ecooptimizer.api.__main__:dev
+eco-local = ecooptimizer.__main__:main

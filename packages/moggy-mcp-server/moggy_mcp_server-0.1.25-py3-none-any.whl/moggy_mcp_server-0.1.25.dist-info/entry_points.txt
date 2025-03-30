@@ -1,0 +1,2 @@
+[console_scripts]
+browse_mcp = browse_mcp:main

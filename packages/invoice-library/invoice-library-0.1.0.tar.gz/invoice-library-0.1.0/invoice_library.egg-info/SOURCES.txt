@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+invoice/__init__.py
+invoice/invoice.py
+invoice_library.egg-info/PKG-INFO
+invoice_library.egg-info/SOURCES.txt
+invoice_library.egg-info/dependency_links.txt
+invoice_library.egg-info/requires.txt
+invoice_library.egg-info/top_level.txt

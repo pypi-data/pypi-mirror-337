@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "photobooth"
+dynamic = ["version"]
+description = "Photobooth python package. Based on QTs Web Interface and gphoto2 package."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [{ name = "Patrick Schleiter", email = "git.pschleiter@gmail.com" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Multimedia :: Graphics :: Capture",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: System :: Operating System Kernels :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "click>=8.1.8",
+    "pyqt5==5.15.2",
+]
+
+[project.optional-dependencies]
+rpi = [
+    "gpiozero>=2.0.1",
+]
+dslr = [
+    "gphoto2>=2.5.1",
+]
+upload = [
+    "httpx>=0.28.1",
+    "pillow>=11.1.0",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/pschleiter/photobooth"
+
+[project.scripts]
+photobooth = "photobooth.cli:cli"
+
+[tool.hatch.version]
+path = "src/photobooth/__init__.py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff.format]
+quote-style = "single"

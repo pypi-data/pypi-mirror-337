@@ -1,0 +1,113 @@
+[
+  {
+    "label": "Recording Media",
+    "name": "recordingmedia",
+    "value": "Card"
+  },
+  {
+    "label": "Capture Target",
+    "name": "capturetarget",
+    "value": "Memory card"
+  },
+  {
+    "label": "Autofocus",
+    "name": "autofocus",
+    "value": "On"
+  },
+  {
+    "label": "AC Power",
+    "name": "acpower",
+    "value": "On"
+  },
+  {
+    "label": "Available Shots",
+    "name": "availableshots",
+    "value": 1000.0,
+    "choices": []
+  },
+  {
+    "label": "Image Size",
+    "name": "imagesize",
+    "value": "6000x4000"
+  },
+  {
+    "label": "WhiteBalance",
+    "name": "whitebalance",
+    "value": ["Flash", "Cloudy", "Fluorescent"]
+  },
+  {
+    "label": "ISO Auto Hi Limit",
+    "name": "isoautohilimit",
+    "value": ["3200", "Hi 1", "Hi 2"]
+  },
+  {
+    "label": "High ISO Noise Reduction",
+    "name": "highisonr",
+    "value": "Low"
+  },
+  {
+    "label": "Live View Size",
+    "name": "liveviewsize",
+    "value": "VGA"
+  },
+  {
+    "label": "Assist Light",
+    "name": "assistlight",
+    "value": "Off"
+  },
+  {
+    "label": "Exposure Compensation",
+    "name": "exposurecompensation",
+    "value": "0"
+  },
+  {
+    "label": "Image Quality",
+    "name": "imagequality",
+    "value": "NEF+Basic"
+  },
+  {
+    "label": "Focal Length",
+    "name": "focallength",
+    "value": 18.0
+  },
+  {
+    "label": "Focus Mode",
+    "name": "focusmode",
+    "value": "AF-C"
+  },
+  {
+    "label": "Focus Mode 2",
+    "name": "focusmode2",
+    "value": "AF-C"
+  },
+  {
+    "label": "Exposure Program",
+    "name": "expprogram",
+    "value": "M"
+  },
+  {
+    "label": "Focus Metering Mode",
+    "name": "focusmetermode",
+    "value": ["Closest Subject", "Multi-spot"]
+  },
+  {
+    "label": "Exposure Metering Mode",
+    "name": "exposuremetermode",
+    "value": "Multi Spot"
+  },
+  {
+    "label": "Live View AF Mode",
+    "name": "liveviewafmode",
+    "value": "Face-priority AF"
+  },
+  {
+    "label": "Live View AF Focus",
+    "name": "liveviewaffocus",
+    "value": "Single-servo AF"
+  },
+  {
+    "label": "File Number Sequencing",
+    "name": "filenrsequencing",
+    "value": "On"
+  }
+]

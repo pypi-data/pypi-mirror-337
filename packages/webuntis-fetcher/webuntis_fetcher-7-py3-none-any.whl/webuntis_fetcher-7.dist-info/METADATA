@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: webuntis-fetcher
+Version: 7
+Summary: get school timetable data and messages from WebUntis
+Author-email: Mathis Dirksen-Thedens <mail@zephyrsoft.org>
+Project-URL: Homepage, https://github.com/mathisdt/webuntis-fetcher
+Project-URL: Issues, https://github.com/mathisdt/webuntis-fetcher/issues
+Keywords: webuntis,untis,school,timetable,message,lesson,period
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Education
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.32.3
+Requires-Dist: beautifulsoup4==4.13.3
+Requires-Dist: openpyxl==3.1.5

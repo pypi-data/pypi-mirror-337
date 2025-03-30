@@ -1,0 +1,6 @@
+invoice/__init__.py,sha256=ioto7EH32VnHvU_yeYkAn-RBjn7HXbMiI5efY_u8VhI,110
+invoice/invoice.py,sha256=LsAzf5aTztEN-F6Oyln_77zG3I124wgujBypVpZ91_4,1344
+django_invoice_library-0.1.0.dist-info/METADATA,sha256=n8HljRgILUUUuI5ypRiqHYPN7Wnf0uw_aN1GCgGoeGo,678
+django_invoice_library-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+django_invoice_library-0.1.0.dist-info/top_level.txt,sha256=Pckrj4ElTfRKAqMw-kxWXFPP5oGhfMQstb2jTX9t5aQ,8
+django_invoice_library-0.1.0.dist-info/RECORD,,

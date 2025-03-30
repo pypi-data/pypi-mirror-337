@@ -1,0 +1,8 @@
+deflate-0.8.0.dist-info/RECORD,,
+deflate-0.8.0.dist-info/WHEEL,sha256=vonBMgn8LeZP2I36mX34HTw8SI8JcT7AXOGW_iJ2pXc,141
+deflate-0.8.0.dist-info/METADATA,sha256=r6Qj2Br5x_mwIiLaKKRI4sO-n8GNAiYKa2liBmZ8meQ,2899
+deflate-0.8.0.dist-info/licenses/LICENSE,sha256=KjCadNFiCaHtKQ7tZCKJ5y-f0cyPcnWMR5OWqD9VaYU,1067
+deflate/_deflate.pyi,sha256=_Z-83OgEAn2y6ztmoam0FcPQTJNJ06GpjZbgaobVgis,1791
+deflate/__init__.py,sha256=GtkMdTUjvdibSG51993iOVWkO9YhguvfhH6lyU8SxJc,431
+deflate/_deflate.abi3.so,sha256=jLaZYcKYOPWaitDeR7JnZjAF8DeszirruidFxj0N-_w,118600
+deflate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0

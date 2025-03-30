@@ -1,0 +1,29 @@
+[package]
+name = "aigerox"
+version = "0.10.0"
+authors = ["Konstantin Chukharev <lipen00@gmail.com>"]
+description = "A Rust library for working with AIGs (And-Inverted Graphs) and AIGER files."
+repository = "https://github.com/Lipen/aigerox"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+python = ["pyo3", "pyo3-log"]
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+log = "0.4"
+eyre = "0.6"
+pyo3-log = { version = "0.12", optional = true }
+
+[dependencies.pyo3]
+version = "0.23"
+optional = true
+features = ["extension-module", "abi3", "abi3-py37", "eyre"]
+
+[dev-dependencies]
+indoc = "2"
+glob = "0.3"

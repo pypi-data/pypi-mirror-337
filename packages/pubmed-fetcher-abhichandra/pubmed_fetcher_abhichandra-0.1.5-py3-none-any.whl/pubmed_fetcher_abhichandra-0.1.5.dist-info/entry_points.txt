@@ -1,0 +1,3 @@
+[console_scripts]
+pubfetch=pubmed_fetcher.cli:main
+

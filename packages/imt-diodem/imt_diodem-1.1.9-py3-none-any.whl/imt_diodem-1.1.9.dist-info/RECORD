@@ -1,0 +1,12 @@
+diodem/__init__.py,sha256=As6SsUnqBD2g_cwV-id9XptD0RBuPr2MQKnna7sw7YM,186
+diodem/_src.py,sha256=5rKUYRTm85TlvIEDb5PI5NQTTeMjVNTM1ZY8jtjEVDI,7449
+diodem/dataverse_github.py,sha256=z8xZ9ImrWVPz4DgZkq25zj_jnP1Kb8mfNXWtc8ip3Yw,3935
+diodem/dataverse_response.json,sha256=EjpL5Q7tPbeS2_7z9bxzFo-8V9Lu4tAsh3JoWNIJnLE,434509
+diodem/test_dataverse_github.py,sha256=Oxa_qUVhXSPZVqHjNITtjNVhemjzYwy84kOP4IysUCI,810
+diodem/test_src.py,sha256=uPOj0UBx0IqfXWbpGnFbmRN1Cba9Obe2I93OY_3QhrU,563
+diodem/test_utils.py,sha256=-2JIhme690V_hZrXiI6SEdEkekdGAWXWejaDJ-FG0NE,2788
+diodem/utils.py,sha256=bLSuLkQE6Mi8oi4JiXfjloqai1BcPpiYgUaS7jbN8yk,4683
+imt_diodem-1.1.9.dist-info/METADATA,sha256=Q0Br99z8aoU-GvTGgkLj38gtdvRbcsOfcEFmQJ1FXwY,1840
+imt_diodem-1.1.9.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+imt_diodem-1.1.9.dist-info/top_level.txt,sha256=mSokHUwZZTwRCf_aECue0kXlSP6SZo0GjSKTo5qph5U,7
+imt_diodem-1.1.9.dist-info/RECORD,,

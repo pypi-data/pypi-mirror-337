@@ -1,0 +1,5 @@
+build
+dist
+gtk_llm_chat
+po
+venv

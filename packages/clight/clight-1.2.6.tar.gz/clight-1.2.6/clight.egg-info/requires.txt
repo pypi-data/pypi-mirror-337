@@ -1,0 +1,5 @@
+PyYAML
+inquirer
+datetime
+colored
+cryptography

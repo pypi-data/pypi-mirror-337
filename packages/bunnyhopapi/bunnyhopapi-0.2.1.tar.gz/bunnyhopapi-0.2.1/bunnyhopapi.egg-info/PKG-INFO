@@ -1,0 +1,329 @@
+Metadata-Version: 2.4
+Name: bunnyhopapi
+Version: 0.2.1
+Summary: Add your description here
+Home-page: https://github.com/rroblf01/bunnyhopapi
+Author: Ricardo Robles Fernández
+Author-email: ricardo.r.f@hotmail.com
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic==2.11.0
+Provides-Extra: lint
+Requires-Dist: ruff==0.11.2; extra == "lint"
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+```markdown
+# BunnyHop API - HTTP Server Framework
+
+BunnyHop is a lightweight asynchronous HTTP server framework built with Python's asyncio. It provides a simple way to create RESTful APIs with support for WebSockets and Server-Sent Events (SSE).
+
+## Features
+
+- 🚀 Asynchronous request handling
+- 📡 WebSocket support
+- 🔄 Server-Sent Events (SSE) support
+- 📝 Automatic Swagger/OpenAPI documentation
+- 🛡️ CORS support
+- 🏗️ Pydantic model validation
+- 📌 Path parameter handling
+- 🔄 Sync and async handler support
+- � Router support for modular API design
+
+## Installation
+
+```bash
+pip install bunnyhopapi
+```
+
+## Quick Start
+
+```python
+from bunnyhopapi.server import Server
+from bunnyhopapi.router import Router
+from bunnyhopapi.models import PathParam
+from pydantic import BaseModel
+import asyncio
+
+# Define your models
+class HelloResponse(BaseModel):
+    message: str
+
+# Create a router
+hello_router = Router(prefix="/hello")
+
+# Add routes to the router
+@hello_router.route("/world", "GET")
+async def hello() -> {200: HelloResponse}:
+    return 200, {"message": "Hello, World!"}
+
+@hello_router.route("/<name>", "GET")
+async def hello_name(name: PathParam(str)) -> {200: HelloResponse}:
+    return 200, {"message": f"Hello, {name}!"}
+
+# Create and configure server
+def main():
+    server = Server(cors=True)
+    server.include_router(hello_router)  # Include the router
+    server.run()
+
+if __name__ == "__main__":
+    main()
+```
+
+## API Documentation
+
+By default, the server provides Swagger UI documentation at `/docs` and the OpenAPI spec at `/swagger.json`.
+
+## Handler Types
+
+### Basic HTTP Handler
+
+```python
+async def hello() -> {200: HelloResponse}:
+    return 200, {"message": "Hello, World!"}
+```
+
+### Path Parameters
+
+```python
+async def room_handler(room_id: PathParam(int)) -> {200: HelloResponse}:
+    return 200, {"message": f"Room ID is {room_id}"}
+```
+
+### Request Body Validation
+
+```python
+class Room(BaseModel):
+    name: str
+    capacity: int
+
+async def create_room(room: Room) -> {200: HelloResponse}:
+    return 200, {"message": f"Room {room.name} created"}
+```
+
+### Server-Sent Events (SSE)
+
+```python
+async def sse_events() -> {200: str}:
+    events = ["start", "progress", "complete"]
+    for event in events:
+        yield f"event: {event}\ndata: Processing {event}\n\n"
+        await asyncio.sleep(1.5)
+```
+
+### WebSocket Handler
+
+```python
+async def ws_echo(connection_id, message):
+    for i in range(10):
+        yield f"event: message\ndata: {i}\n\n"
+        await asyncio.sleep(0.2)
+```
+
+## Router Usage
+
+Routers allow you to organize your API endpoints modularly:
+
+```python
+from bunnyhopapi.router import Router
+
+# Create router with prefix
+user_router = Router(prefix="/users")
+
+# Add routes to router (decorator style)
+@user_router.route("/", "GET")
+async def get_users() -> {200: UserListResponse}:
+    return 200, {"users": [...]}
+
+# Or traditional style
+user_router.add_route("/<user_id>", "GET", get_user)
+
+# Include router in main server
+server.include_router(user_router)
+```
+
+## Router-Level Middleware
+
+BunnyHop API supports middleware at the router level, allowing you to apply specific middleware to all endpoints within a router. This is useful for modularizing middleware logic and applying it only where needed.
+
+### Example
+
+```python
+from bunnyhopapi.router import Router
+from bunnyhopapi import logger
+
+# Define middleware
+async def log_request_middleware(endpoint, *args, **kwargs):
+    logger.info(f"START log_request_middleware {endpoint}")
+    response = await endpoint(*args, **kwargs)
+    logger.info("END log_request_middleware")
+    return response
+
+# Create a router with middleware
+router_with_middleware = Router(prefix="/secure", middleware=log_request_middleware)
+
+@router_with_middleware.route("/data", "GET")
+async def secure_data():
+    return 200, {"message": "This is secure data"}
+```
+
+In this example, the `log_request_middleware` will be applied to all routes within the `/secure` router.
+
+## Multiple Routers for the Same Endpoint
+
+BunnyHop API allows you to include multiple routers that can define routes for the same endpoint. This enables you to layer functionality or organize routes modularly.
+
+### Example
+
+```python
+from bunnyhopapi.router import Router
+
+# Define two routers
+router_a = Router(prefix="/shared")
+router_b = Router(prefix="/shared")
+
+@router_a.route("/endpoint", "GET")
+async def handler_a():
+    return 200, {"message": "Response from Router A"}
+
+@router_b.route("/endpoint", "GET")
+async def handler_b():
+    return 200, {"message": "Response from Router B"}
+
+# Include both routers in the server
+def main():
+    server = Server(cors=True)
+    server.include_router(router_a)
+    server.include_router(router_b)
+    server.run()
+
+if __name__ == "__main__":
+    main()
+```
+
+In this example, both `router_a` and `router_b` define a route for `/shared/endpoint`. The server will resolve the route based on the order in which the routers are included.
+
+## Server Configuration
+
+```python
+server = Server(
+    port=8000,         # default: 8000
+    host="0.0.0.0",    # default: "0.0.0.0"
+    cors=True          # default: False
+)
+```
+
+## Adding Routes
+
+### Directly to server
+```python
+server.add_route(
+    path="/hello",
+    method="GET",
+    handler=hello,
+    content_type="application/json"  # default
+)
+
+server.add_websocket_route(
+    path="/ws/chat",
+    handler=ws_echo
+)
+```
+
+### Via Router
+```python
+router = Router(prefix="/api")
+router.add_route("/test", "GET", test_handler)
+server.include_router(router)
+```
+
+## Response Types
+
+Handlers can specify their response types using Python type hints:
+
+```python
+async def hello() -> {200: HelloResponse, 404: ErrorResponse}:
+    if condition:
+        return 200, HelloResponse(message="Hello")
+    else:
+        return 404, ErrorResponse(error="Not found")
+```
+
+## Performance
+
+The BunnyHop API server is highly efficient and can handle a large number of requests per second. Below is an example of a performance test using `wrk`:
+
+```bash
+wrk -t12 -c400 -d30s http://127.0.0.1:8000/
+```
+
+Results:
+
+```
+Running 30s test @ http://127.0.0.1:8000/
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    16.62ms   32.06ms 864.88ms   98.20%
+    Req/Sec   808.15    479.60     3.45k    67.91%
+  286177 requests in 30.10s, 63.59MB read
+Requests/sec:   9508.94
+Transfer/sec:      2.11MB
+```
+
+This demonstrates that the server can handle approximately **9508.94 requests per second** under the specified test conditions.
+
+## Examples
+
+See the example in the Quick Start section or check the full example below:
+
+```python
+from bunnyhopapi.server import Server
+from bunnyhopapi.router import Router
+from bunnyhopapi.models import PathParam
+from pydantic import BaseModel
+import asyncio
+
+class HelloResponse(BaseModel):
+    message: str
+
+class HealthCheckResponse(BaseModel):
+    status: str
+
+class Room(BaseModel):
+    name: str
+    capacity: int
+
+# Create routers
+api_router = Router(prefix="/api")
+hello_router = Router(prefix="/hello")
+
+# Add routes to routers
+@hello_router.route("/world", "GET")
+async def hello() -> {200: HelloResponse}:
+    return 200, {"message": "Hello, World!"}
+
+@api_router.route("/health", "GET")
+async def healthcheck() -> {200: HealthCheckResponse}:
+    return 200, {"status": "OK"}
+
+# Create and configure server
+def main():
+    server = Server(cors=True)
+    server.include_router(hello_router)
+    server.include_router(api_router)
+    server.run()
+
+if __name__ == "__main__":
+    main()
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```

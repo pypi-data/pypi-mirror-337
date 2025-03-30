@@ -1,0 +1,3 @@
+[console_scripts]
+rbfopt_cl_interface = rbfopt.rbfopt_cl_interface:main
+rbfopt_test_interface = rbfopt.rbfopt_test_interface:main

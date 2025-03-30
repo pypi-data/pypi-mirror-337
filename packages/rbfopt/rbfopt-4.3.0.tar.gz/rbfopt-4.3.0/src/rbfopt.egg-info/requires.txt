@@ -1,0 +1,8 @@
+numpy>=2.0.0
+scipy>=1.13.0
+numpydoc>=0.5
+pyomo>=5.1.1
+
+[test]
+mock>=1.1.3
+pytest

@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: agentmake
+Version: 0.0.1
+Summary: WebUI for AgentMake AI; AgentMake AI: a software developement kit for developing agentic AI applications that support 16 AI backends and work with 7 agentic components, such as tools and agents. (Developer: Eliran Wong)
+Home-page: https://github.com/eliranwong/agentmakestudio
+Author: Eliran Wong
+Author-email: support@toolmate.ai
+License: GNU General Public License (GPL)
+Project-URL: Source, https://github.com/eliranwong/agentmakestudio
+Project-URL: Tracker, https://github.com/eliranwong/agentmakestudio/issues
+Project-URL: Documentation, https://github.com/eliranwong/agentmakestudio/wiki
+Project-URL: Funding, https://www.paypal.me/toolmate
+Keywords: toolmate ai sdk anthropic azure chatgpt cohere deepseek genai github googleai groq llamacpp mistral ollama openai vertexai xai
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8, <3.13
+License-File: LICENSE
+Requires-Dist: agentmake
+Requires-Dist: mesop
+Provides-Extra: genai
+Requires-Dist: google-genai>=1.1.0; extra == "genai"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# agentmakestudio
+AgentMake AI Studio - Web UI built for working with AgentMake AI
+
+# Install
+
+> pip install agentmakestudio

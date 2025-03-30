@@ -1,0 +1,16 @@
+NoWebsocket/__init__.py,sha256=g_t3u8lO0aODk-BbX58LY-r8vhjD4mDqPg4FSkSbOcI,244
+NoWebsocket/application.py,sha256=KzwjhwhcD0MfXArR51Sq6uJl819EXHwWTsZg4ZqejjI,548
+NoWebsocket/connection.py,sha256=frC_4_zhYscKTZFWXWqGsgfehD3bJMR7-pc1Vu_tdIU,5344
+NoWebsocket/constants.py,sha256=2QnH65uI2skmvfhcxSKQS8e5xZJteci65VK5UUCwchs,360
+NoWebsocket/exceptions.py,sha256=-LSEz5h-AUOxUyMcDMxrZVWxyrgnORw6iXYyXGl_404,229
+NoWebsocket/protocol.py,sha256=3qgAN1s4ReCJTpc5n-KsN2yQ2SUepFrf5hJfOzbCGKI,1056
+NoWebsocket/router.py,sha256=tuD53HPbPk5X5RO4jYxb9ZPULj1FaQDZ1_VmKOgKTEk,4994
+NoWebsocket/server.py,sha256=pDQdRoGGM616Jfgww-MNy9spxeNzLf9_KXjfSPCcDoQ,4371
+NoWebsocket/utils.py,sha256=zTSYezaaacssqrSeM_UWwblkvfgtUb9bCgB_sQr_e-0,831
+blueprints/EchoBp.py,sha256=OxQ6dqlMoplrWeqI82M39iqaFH3fTDYSey9pGYbEm0A,823
+blueprints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nowebsocket-2.1.1.dist-info/licenses/LICENSE,sha256=h4t-rEwFh_xklrQySkYFyQSJPlshDp8ZUetX7Gc-KAY,1095
+nowebsocket-2.1.1.dist-info/METADATA,sha256=0dS7SS11rpcp8zSfe-ElnzPwvcYYqzCHUTmeZVOgdOs,15722
+nowebsocket-2.1.1.dist-info/WHEEL,sha256=DK49LOLCYiurdXXOXwGJm6U4DkHkg4lcxjhqwRa0CP4,91
+nowebsocket-2.1.1.dist-info/top_level.txt,sha256=6rvRGzl4mVWA1GPC7Z-wbrL6D0n2zuf77WhKGwTf9l0,23
+nowebsocket-2.1.1.dist-info/RECORD,,

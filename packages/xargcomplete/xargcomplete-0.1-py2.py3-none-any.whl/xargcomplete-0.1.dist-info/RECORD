@@ -1,0 +1,11 @@
+xargcomplete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xargcomplete/attribute.py,sha256=rf9mn1XKnddzFekoF0l9-G_skBLhTHxhXtVXU76U1Ds,249
+xargcomplete/command.py,sha256=bwEXvLyfTaVgDo1CRy6eCjUaJuWMCldGdeX7gy2eG5M,5578
+xargcomplete/complete.py,sha256=LjmC2XLX6DRgAVoV9azEhzLutd6MM0bSfpb1zy_B0tc,3567
+xargcomplete-0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xargcomplete-0.1.dist-info/METADATA,sha256=YmoMiKxMvHaMzOLKgQSSnW_MpU3G8Z5gKQ-x6a__Tho,803
+xargcomplete-0.1.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+xargcomplete-0.1.dist-info/entry_points.txt,sha256=4Hl7Fje8ndWNBQP1YBTQoVcUnliaZxRKnB0Eq29Bv5w,59
+xargcomplete-0.1.dist-info/top_level.txt,sha256=nqlfq2vqUIicCP2D63PhiSpbSs8wKy5xRGPnrRwk3wU,13
+xargcomplete-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xargcomplete-0.1.dist-info/RECORD,,

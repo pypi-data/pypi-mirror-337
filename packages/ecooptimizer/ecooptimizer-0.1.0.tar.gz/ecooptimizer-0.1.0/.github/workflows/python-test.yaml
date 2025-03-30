@@ -1,0 +1,55 @@
+name: "Run Python Tests"
+
+on:
+    pull_request:
+      types: [opened, reopened, synchronize]
+      branches: [dev]
+      paths:
+        - "src/ecooptimizer/**/*.py"
+  
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        env:
+            GH_TOKEN: ${{ github.token }}
+        steps:
+          - name: Create app access token
+            uses: actions/create-github-app-token@v1
+            id: app-token
+            with:
+              app-id: ${{ vars.SCO_COMMIT_APP }}
+              private-key: ${{ secrets.SCO_APP_KEY }}
+
+          # Checkout repository
+          - name: Checkout repository
+            uses: actions/checkout@v4
+            with:
+                token: ${{ steps.app-token.outputs.token }}
+
+          - name: Install Python
+            uses: actions/setup-python@v5
+            with:
+              python-version: "3.11"
+
+          - name: Install dependencies
+            run: |
+              python -m pip install --upgrade pip
+              pip install .
+              pip install diff-cover
+              pip install .'[dev]'
+
+          - name: Get changed files
+            id: changed-files
+            uses: tj-actions/changed-files@v45
+            with:
+              files: |
+                  src/ecooptimizer/**/*.py
+
+          - name: Run Tests and Generate Coverage Report
+            run: |
+              pytest --cov=src/ecooptimizer --cov-branch --cov-report=xml --cov-report=term-missing
+
+          - name: Check Coverage for Changed Lines
+            run: |
+              git fetch origin ${{ github.base_ref }}
+              diff-cover coverage.xml --compare-branch=origin/${{ github.base_ref }} --fail-under=80

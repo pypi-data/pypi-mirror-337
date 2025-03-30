@@ -1,0 +1,17 @@
+vecstream/__init__.py,sha256=VcrNutc_KsDf2BAZ4R8DxQfvxTgm7jbUHWyMBrEIsmM,632
+vecstream/binary_store.py,sha256=9NxvoJuAJ_uyntbEqX-PDoJMs19PE9hhvY7qtYVlNdY,4480
+vecstream/cli.py,sha256=_tEr5W4uNHwwImsase_2f7S1QwtEOKqizYo8b-SLiLc,19322
+vecstream/client.py,sha256=V00BvregWIpC6bnnyAAgephhQH2I8frIcv6wTKl3zxA,2806
+vecstream/collections.py,sha256=-Y8w3gVCfMTW1tUKbc-qH-4fSNm6868Q18mH7ovm5MY,14095
+vecstream/hnsw_index.py,sha256=Uxu6a3GhRv0NVArNzAZFHm66aPuydFFt__XK748dLy0,11246
+vecstream/index_manager.py,sha256=4xcJRSfixBBvdfXgCG7G5V_Y3xFhuVwqVuNfzqqbH98,5622
+vecstream/persistent_store.py,sha256=qfBt75iop9WSc7G4_6vFfFBeq-kd3QxjR3hFfuI2bBA,2170
+vecstream/query_engine.py,sha256=wMSyeNiYDnBQQ-fewMDIPmDKjZ6hjqJi6Ordz5LHnFc,4278
+vecstream/server.py,sha256=WYj-Ba64IsuVkJtwic1M43WeboRVuijKrv01iIe4AVs,4611
+vecstream/vector_store.py,sha256=cgJ30ILIACoXG10DqdBu4fiSVFkDGdADya9i8oNKDSw,3363
+vecstream-0.3.4.dist-info/licenses/LICENSE,sha256=bCNfVrgEsqXxOGylQtS00kXqRabCY1VduvBbGuIyTNc,1072
+vecstream-0.3.4.dist-info/METADATA,sha256=wndBWI2jB1DjodLjrDi7V79qYOcXqsOMWN5TZ0dEHlI,10622
+vecstream-0.3.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+vecstream-0.3.4.dist-info/entry_points.txt,sha256=4KRVNNdQWfueV9884ANvhB4eiSrPOZR7CS9OA3mOfBE,49
+vecstream-0.3.4.dist-info/top_level.txt,sha256=9mXgplQwUhYYBT6h4JAeptYRZ4XARSjR9c6EMHeQla8,10
+vecstream-0.3.4.dist-info/RECORD,,

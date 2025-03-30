@@ -1,0 +1,45 @@
+# Tailwind-Py
+
+A Python util to download and use TailwindCSS without NPM, for your Python web applications created with Flask, Django, etc...
+
+Inspired from the standalone published [here](https://tailwindcss.com/blog/standalone-cli).
+
+## Table of Contents
+
+- [Tailwind-Py](#tailwind-py)
+  - [Table of Contents](#table-of-contents)
+- [Install locally](#install-locally)
+- [Usage](#usage)
+- [Commands](#commands)
+
+# Install locally
+
+Install `tailwind-py` by cloning this repo and use poetry to install it.
+
+Check if the CLI works.
+
+```shell
+$ tailwindcss --help  
+
+usage: tailwindcss [-h] {download,init,build} ...
+
+Tailwind Python CLI - A tool for managing Tailwind CSS in Python projects, without npm
+
+options:
+  -h, --help            show this help message and exit
+
+subcommands:
+  {download,init,build}
+                        Available commands
+    download            Downloads the latest version of the TailwindCSS CLI
+    init                Initialize `tailwind.config.js` file
+    build               Builds the CSS output
+
+Use 'tailwindcss <command> --help' for more information on a specific command.
+```
+
+# Usage
+
+Use `tailwind download` to download the latest version of Tailwind. Then use `tailwind build -i "input.css" -o "output.css"` to have your CSS file ready.
+
+# Commands

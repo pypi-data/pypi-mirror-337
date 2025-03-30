@@ -1,0 +1,30 @@
+[project]
+name = "tailwind-py"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Shadi Boomi", email = "<shadi.boomi@gmail.com>" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["requests (>=2.32.3,<3.0.0)"]
+
+[project.scripts]
+tailwindcss = "tailwind_py.cli:main"
+
+[tool.poetry]
+packages = [{ include = "tailwind_py", from = "src" }]
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^9.0.2"
+ruff = "^0.11.2"
+pre-commit = "^4.2.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+pytest-xdist = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

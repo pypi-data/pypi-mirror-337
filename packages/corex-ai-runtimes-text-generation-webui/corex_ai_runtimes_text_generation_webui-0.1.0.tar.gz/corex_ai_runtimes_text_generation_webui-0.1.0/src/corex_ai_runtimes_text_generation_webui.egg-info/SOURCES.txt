@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_runtimes-text_generation_webui/__init__.py
+src/corex-ai_runtimes-text_generation_webui/handler.py
+src/corex_ai_runtimes_text_generation_webui.egg-info/PKG-INFO
+src/corex_ai_runtimes_text_generation_webui.egg-info/SOURCES.txt
+src/corex_ai_runtimes_text_generation_webui.egg-info/dependency_links.txt
+src/corex_ai_runtimes_text_generation_webui.egg-info/top_level.txt
+tests/test_handler.py

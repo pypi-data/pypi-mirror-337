@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: logicalpy
+Version: 0.1.0
+Summary: A library providing basic functionalities for manipulating propositional logic
+License-Expression: MIT
+License-File: LICENSE
+Keywords: formal logic,logic,propositional logic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Requires-Dist: lark>=1.2.2
+Description-Content-Type: text/markdown
+
+# LogicalPy
+
+LogicalPy is a Python library providing basic functionalities for manipulating propositional logic.
+
+## Description
+
+The library allows to work with classical propositional logic formulae.
+The main features include:
+ - The creation of logical formulae either directly or from a string
+ - The implementation of semantic notions: satisfiability, entailment...
+ - The conversion to normal forms (NNF, DNF, DNF)
+ - Automated theorem proving with the resolution procedure
+
+## Installation
+
+With pip:
+```shell
+pip install logicalpy
+```
+
+## License
+
+This project is licensed under the MIT license.

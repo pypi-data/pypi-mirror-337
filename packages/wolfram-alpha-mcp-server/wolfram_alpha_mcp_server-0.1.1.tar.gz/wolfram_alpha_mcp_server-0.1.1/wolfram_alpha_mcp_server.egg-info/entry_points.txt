@@ -1,0 +1,2 @@
+[console_scripts]
+wolfram-alpha-mcp-server = mcp_wolfram_alpha.server:main

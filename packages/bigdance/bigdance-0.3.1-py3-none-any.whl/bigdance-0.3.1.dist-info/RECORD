@@ -1,0 +1,11 @@
+bigdance/__init__.py,sha256=sPyTZovjtwqcRujo2XDppK1vFKBReLBuW9qrpYdkoYg,1811
+bigdance/bigdance_integration.py,sha256=5yyjEUQYr98x79ZWDXU88ZDqkTsuJf3fretRwdLAIzw,13894
+bigdance/bracket_analysis.py,sha256=nP9sc7-wZh1isfWUqzTwl23hxx8WSvADA3U0XcPrtxE,85644
+bigdance/cbb_brackets.py,sha256=OLyXzceZR_jjkPIHS8pEoay3VIIGOfnixFTKzwwGiSQ,27849
+bigdance/espn_tc_scraper.py,sha256=FuPoIOUPXzxlo4tiG0kUqtjllHsMvw6w_yc4qSQRzU8,44446
+bigdance/wn_cbb_scraper.py,sha256=DH_aI6p6m4HrtjLSnJU3ICjj-uyqmW_0JyE6-uiY9lc,21895
+bigdance-0.3.1.dist-info/licenses/LICENSE,sha256=o9NA4YxTBa13CtxVrzmKWhV6jI3n6bzZFXVPugGMLdI,1070
+bigdance-0.3.1.dist-info/METADATA,sha256=LrWAviATLd-eOOrzNl7Yzp9TAfsUC4goU8sqyWku7l4,12546
+bigdance-0.3.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bigdance-0.3.1.dist-info/top_level.txt,sha256=0fLFOXGI-bzgxcQfG-nOUjLTFbxHmZCaTiJ5I46-L9k,9
+bigdance-0.3.1.dist-info/RECORD,,

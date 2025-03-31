@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: py_wavegenerator
+Version: 0.1.1
+Summary: 波形生成器模块 - Python波形生成和信号处理库
+Author-email: Admin <admin@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/example/py_wavegenerator
+Project-URL: Issues, https://github.com/example/py_wavegenerator/issues
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: cffi>=1.15.0

@@ -1,0 +1,20 @@
+version: 2
+
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - deid
+        - docs
+        - hf-entity-matcher
+        - metrics-ner
+        - spacy
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: '3.11'
+  apt_packages:
+    - graphviz
+    - libsndfile1

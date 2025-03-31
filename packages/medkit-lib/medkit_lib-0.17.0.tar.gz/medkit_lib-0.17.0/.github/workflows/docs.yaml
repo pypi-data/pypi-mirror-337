@@ -1,0 +1,50 @@
+name: docs
+
+on:
+  # Run on pull requests
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+
+  # Run on commits pushed to the main branch
+  push:
+    branches:
+      - main
+
+  # Run on calls by other workflows
+  workflow_call:
+
+  # Run on manual workflow triggers
+  workflow_dispatch:
+
+# Disallow concurrent deployments and in-progress cancellations
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Build documentation
+        run: hatch run docs:build
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload documentation
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs/_build/html'

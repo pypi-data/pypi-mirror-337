@@ -1,0 +1,206 @@
+import os
+from pathlib import Path
+
+import typer
+from rich.console import Console
+from rich.table import Table
+
+from .container import Binding, Container
+from .io import InputOutput
+from .task import TaskBag
+
+
+class InitCommand:
+    def __init__(self, io: InputOutput):
+        self.io = io
+
+    def execute(self) -> int:
+        recipe_list = [
+            ("1", "laravel"),
+        ]
+
+        for key, name in recipe_list:
+            self.io.writeln(f" [<comment>{key}</comment>] {name}")
+
+        recipe_name = None
+
+        choice = typer.prompt(
+            self.io.decorate("<primary>Select a hapi recipe</primary>")
+        )
+
+        for key, name in recipe_list:
+            if choice == key or choice == name:
+                recipe_name = name
+
+        if not recipe_name:
+            self.io.error(f'Value "{choice}" is invalid.')
+
+            return 1
+
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+
+        path = Path(f"{dir_path}/../../../stubs/{recipe_name}.py.stub")
+
+        if not path.exists():
+            self.io.error(f"recipe {recipe_name}.py.stub file does not exist.")
+
+            return 1
+
+        file_contents = path.read_text()
+
+        f = open(os.getcwd() + "/hapirun.py", "w")
+        f.write(file_contents)
+        f.close()
+
+        self.io.success("hapirun.py file is created")
+
+        path = Path(f"{dir_path}/../../../stubs/inventory.yml.stub")
+
+        if not path.exists():
+            self.io.error(f"inventory.yml.stub file does not exist.")
+
+            return 1
+
+        file_contents = path.read_text()
+
+        f = open(os.getcwd() + "/inventory.yml", "w")
+        f.write(file_contents)
+        f.close()
+
+        self.io.success("inventory.yml file is created")
+
+        return 0
+
+
+class ConfigListCommand:
+    def __init__(self, container: Container):
+        self.container = container
+
+    def __call__(self, *args, **kwargs):
+        table = Table("Key", "Kind", "Type", "Value")
+
+        bindings = self.container.all()
+
+        keys = list(bindings.keys())
+        keys.sort()
+
+        for key in keys:
+            binding = bindings[key]
+            value = str(binding.value) if binding.kind == Binding.INSTANT else "-----"
+
+            if isinstance(binding.value, list):
+                value = "\n - ".join(binding.value)
+
+                if value != "":
+                    value = f" - {value}"
+
+            table.add_row(
+                key,
+                binding.kind,
+                (
+                    type(binding.value).__name__
+                    if binding.kind == Binding.INSTANT
+                    else "-----"
+                ),
+                value,
+            )
+
+        console = Console()
+        console.print(table)
+
+
+class ConfigShowCommand:
+    def __init__(self, container: Container):
+        self.container = container
+
+    def __call__(self, *args, **kwargs):
+        table = Table("Property", "Detail")
+
+        key = args[0]
+
+        bindings = self.container.all()
+
+        binding = bindings[key]
+
+        value = str(binding.value)
+
+        if isinstance(binding.value, list):
+            value = "\n - ".join(binding.value)
+
+            if value != "":
+                value = f" - {value}"
+
+        table.add_row("Key", key)
+        table.add_row("Kind", binding.kind)
+
+        if binding.kind == Binding.INSTANT:
+            table.add_row("Type", type(binding.value).__name__)
+            table.add_row("Value", value)
+
+        console = Console()
+        console.print(table)
+
+
+class TreeCommand:
+    def __init__(self, tasks: TaskBag, io: InputOutput):
+        self.__tasks = tasks
+        self.__io = io
+
+        self.__tree = []
+        self.__depth = 1
+
+    def __call__(self, task_name: str):
+        self.__task_name = task_name
+
+        self._build_tree()
+
+        self._print_tree()
+
+    def _build_tree(self):
+        self._create_tree_from_task_name(self.__task_name)
+
+    def _create_tree_from_task_name(self, task_name: str, postfix: str = ""):
+        task = self.__tasks.find(task_name)
+
+        if task.before:
+            for before_task in task.before:
+                self._create_tree_from_task_name(
+                    before_task, postfix="// before {}".format(task_name)
+                )
+
+        self.__tree.append(
+            dict(
+                task_name=task.name,
+                depth=self.__depth,
+                postfix=postfix,
+            )
+        )
+
+        if task.children:
+            self.__depth += 1
+
+            for child in task.children:
+                self._create_tree_from_task_name(child, "")
+
+            self.__depth -= 1
+
+        if task.after:
+            for after_task in task.after:
+                self._create_tree_from_task_name(
+                    after_task, postfix="// after {}".format(task_name)
+                )
+
+    def _print_tree(self):
+        self.__io.writeln("The task-tree for <primary>deploy</primary>:")
+
+        for item in self.__tree:
+            self.__io.writeln(
+                "└"
+                + ("──" * item["depth"])
+                + "> "
+                + "<primary>"
+                + item["task_name"]
+                + "</primary>"
+                + " "
+                + item["postfix"]
+            )

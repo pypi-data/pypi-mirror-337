@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+pykeybindmanager.egg-info/PKG-INFO
+pykeybindmanager.egg-info/SOURCES.txt
+pykeybindmanager.egg-info/dependency_links.txt
+pykeybindmanager.egg-info/requires.txt
+pykeybindmanager.egg-info/top_level.txt

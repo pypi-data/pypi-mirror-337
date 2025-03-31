@@ -1,0 +1,9 @@
+worker_object_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worker_object_server/object_server.py,sha256=pP8i_keuwvVXJCSh8-Eby3idEJcilgboWKp77AeNY7Q,3109
+worker_object_server/update.py,sha256=CCwv17LxHs5TJOUe_8gRHF4v3MyyNKBSBD508TXk2PQ,3651
+worker_object_server/update_server.py,sha256=4hRWzd8nDTiE9Uqofe0-u5smiVyPOq_YTSFsQGE96BI,3372
+worker_object_server-0.1.0.dist-info/LICENSE,sha256=M-qUjXJAbZQVMSqSvlT3o2qCT4zMsHXRCOiVyaD47Sc,1062
+worker_object_server-0.1.0.dist-info/METADATA,sha256=IL6GLX58DwXEX87Ywq_yaeephEaeZddCrbiBIZf4cmE,1611
+worker_object_server-0.1.0.dist-info/WHEEL,sha256=iAkIy5fosb7FzIOwONchHf19Qu7_1wCWyFNR5gu9nU0,91
+worker_object_server-0.1.0.dist-info/top_level.txt,sha256=4wkQHTImAdgsDlrRMTpX2WDoK56uZMGKNW5XxDNsfiA,21
+worker_object_server-0.1.0.dist-info/RECORD,,

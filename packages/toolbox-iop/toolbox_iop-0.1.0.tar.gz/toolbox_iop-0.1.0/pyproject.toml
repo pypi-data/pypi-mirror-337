@@ -1,0 +1,19 @@
+[project]
+name = "toolbox-iop"
+version = "0.1.0"
+description = "The toolbox for json load save and print, you may find more function in the future."
+readme = "README.md"
+authors = [
+    { name = "kmkuang", email = "kmkuang@iflytek.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+toolbox-iop = "toolbox_iop:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+

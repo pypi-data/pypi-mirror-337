@@ -1,0 +1,7 @@
+darca_llm/__init__.py,sha256=I3yfSdqZxRECRLITa4I2Bgi6ZAe2KxQ-l1oWkMIyPas,653
+darca_llm/__version__.py,sha256=cvg88dh2RPYzUvLpS4Yf1J9vocm9bQNWFOWF6IS1yug,111
+darca_llm/llm.py,sha256=abWejIr6AZaxFaTXMG7cDtrYcOmqwM6QO8NpHq5VjrM,10993
+darca_llm-0.2.0.dist-info/LICENSE,sha256=mamKWkd0iITZ78cCzCyP79_islOb6dkuZZ5LMcqBMbg,1066
+darca_llm-0.2.0.dist-info/METADATA,sha256=8Na5FPoM9AhtXoBJ7HjGC1wa5hzRQKGoX6vl_LxQfhs,4448
+darca_llm-0.2.0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+darca_llm-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+koksl=koksl-to-elan.cli:main
+

@@ -1,0 +1,2 @@
+[console_scripts]
+mathemagic = mathemagic.cli:app

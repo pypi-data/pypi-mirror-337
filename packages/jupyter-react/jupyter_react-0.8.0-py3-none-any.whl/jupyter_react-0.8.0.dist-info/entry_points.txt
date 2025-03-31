@@ -1,0 +1,4 @@
+[console_scripts]
+ji = jupyter_react.application:main
+jupyter-react = jupyter_react.application:main
+jupyter-react-server = jupyter_react.serverapplication:main

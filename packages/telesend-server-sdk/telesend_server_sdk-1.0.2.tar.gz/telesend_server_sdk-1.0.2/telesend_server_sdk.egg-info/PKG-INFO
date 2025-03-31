@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: telesend_server_sdk
+Version: 1.0.2
+Summary: Python SDK for interacting with Telesend service
+Author: Telesend
+Keywords: telesend,telegram,sdk
+Requires-Python: >=3.7
+Requires-Dist: pika>=1.2.0
+Requires-Dist: requests>=2.25.1
+Dynamic: author
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

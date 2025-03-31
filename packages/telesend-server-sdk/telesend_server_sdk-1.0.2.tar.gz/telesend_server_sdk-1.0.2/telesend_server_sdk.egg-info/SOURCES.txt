@@ -1,0 +1,14 @@
+README.md
+setup.py
+telesend/__init__.py
+telesend/client.py
+telesend/types/__init__.py
+telesend/types/api.py
+telesend/types/broadcast.py
+telesend/types/events.py
+telesend/types/messages.py
+telesend_server_sdk.egg-info/PKG-INFO
+telesend_server_sdk.egg-info/SOURCES.txt
+telesend_server_sdk.egg-info/dependency_links.txt
+telesend_server_sdk.egg-info/requires.txt
+telesend_server_sdk.egg-info/top_level.txt

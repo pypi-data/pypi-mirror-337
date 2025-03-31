@@ -1,0 +1,13 @@
+polymera/__init__.py,sha256=GHalmFq1AGdD4z6K-s8Ogk9qg-MXSQ7Hp77zpNkXu84,89
+polymera/polymera.py,sha256=Ly90HV4Z6BGnPWNsnrF4Avg6dT9US408VjsSWQ_6Zio,12674
+polymera/bio/__init__.py,sha256=ZaLJA4VSOwdDHNRCgUCwbgdhe0amTb4RgG8g2X5k98A,66
+polymera/bio/dna.py,sha256=yQ25UidIdoyLTziabxNPgxA7NkV8-sjvDVoXSCmGQR0,429
+polymera/bio/protein.py,sha256=HZlFNSElMCevOHXHjmJoQOL6qmb5KlZ1rk5qZkzKSLI,460
+polymera-0.1.3.dist-info/licenses/LICENSE,sha256=qQcsLRQFpPp9ftBgbKeV0-x78GJcfF7pUGxcwL2mSkk,1106
+tests/test_polymera.py,sha256=0kLdWNp4d_8Np2iXPIKinAb3PqhasyCiJAzqzxMy83A,3817
+tests/test_bio/test_dna.py,sha256=LXti9-lQEKhv_93_lVTrpw4WFHpowatfpy8WzGeVkqI,71
+tests/test_bio/test_protein.py,sha256=8pOYWM07hdDhQFCsWvW3h5tFYfSOBrEYH1ExmQj_lVQ,79
+polymera-0.1.3.dist-info/METADATA,sha256=rwOQk9Y3juAkbFXSqbhJj7nh5eK0pT_4hbvaLaGRjQM,1222
+polymera-0.1.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+polymera-0.1.3.dist-info/top_level.txt,sha256=LPU-9xSwGCeHrdKPuZCQmxmaQemG_tYEPvl2Hoxf99E,15
+polymera-0.1.3.dist-info/RECORD,,

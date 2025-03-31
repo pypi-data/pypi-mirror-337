@@ -1,0 +1,10 @@
+cppcheck_suppressor/__init__.py,sha256=q04c3tM45Wy-cFfF_TcmO6vYMn5uaIuuWaHumC4sobI,150
+cppcheck_suppressor/__main__.py,sha256=2-TW5KUR3Oaaaoat4c2cSQo2qlYlFQp035msXe_RWMI,1931
+cppcheck_suppressor/results.py,sha256=plkLo-L4K174X8UYbDUd7yar4OCnoqP8epvZmm1VDS8,1959
+cppcheck_suppressor/suppressions.py,sha256=4qGXp27SMR2WFKnpkhrK9BobgIo834i_8clext6uyMc,1161
+cppcheck_suppressor/data/cppcheck.xsd,sha256=SVJqcZTjNnrkNfHOU7R8-NnkkmEoMt3mbE4NKutegAs,2632
+cppcheck_suppressor-0.0.1.dist-info/licenses/LICENSE.md,sha256=juq2iQS7E-0Aeq0_YKgARgBX_bqLb4hvCg7xcaHTWJw,1064
+cppcheck_suppressor-0.0.1.dist-info/METADATA,sha256=oo_3vvdQaPNrpbMJwu9cBteZWjbOC4BAlkUKAbIX3JU,2847
+cppcheck_suppressor-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+cppcheck_suppressor-0.0.1.dist-info/top_level.txt,sha256=JB2r6c__-Kx484mEFcpgdXoVJv3eKh5PUV4cSoras7o,20
+cppcheck_suppressor-0.0.1.dist-info/RECORD,,

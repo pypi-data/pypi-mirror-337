@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mrannotate"
+version = "0.0.4"
+description = "A minimal data labelling tool using tkinter"
+readme = "README.md"
+authors = [{ name = "Mayur Kr. Garg", email = "mayur7garg@gmail.com" }]
+keywords = ["annotate", "annotater", "mrannotate", "labelling", "label"]
+dependencies = ["pillow >= 10.0.0"]
+requires-python = ">=3.9"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/mrannotate/*.py"
+]
+
+[tool.hatch.build.targets.wheel]
+sources = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/mayur7garg/MrAnnotate"

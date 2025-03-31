@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: mrannotate
+Version: 0.0.4
+Summary: A minimal data labelling tool using tkinter
+Project-URL: Homepage, https://github.com/mayur7garg/MrAnnotate
+Author-email: "Mayur Kr. Garg" <mayur7garg@gmail.com>
+Keywords: annotate,annotater,label,labelling,mrannotate
+Requires-Python: >=3.9
+Requires-Dist: pillow>=10.0.0
+Description-Content-Type: text/markdown
+
+# MrAnnotate
+A data labelling tool using tkinter
+
+## Installation
+Install MrAnnotate using `pip` as follows:
+```sh
+python -m pip install mrannotate
+```

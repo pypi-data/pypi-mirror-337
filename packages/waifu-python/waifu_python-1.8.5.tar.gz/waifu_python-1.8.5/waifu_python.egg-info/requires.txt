@@ -1,0 +1,3 @@
+httpx
+gallery-dl
+httpx_socks

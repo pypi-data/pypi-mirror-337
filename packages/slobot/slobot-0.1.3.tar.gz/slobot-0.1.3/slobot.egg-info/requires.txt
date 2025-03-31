@@ -1,0 +1,6 @@
+genesis-world
+trimesh
+numpy<2
+torch
+feetech-servo-sdk
+gradio

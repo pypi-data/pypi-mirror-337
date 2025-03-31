@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_retrieval-qdrant/__init__.py
+src/corex-ai_retrieval-qdrant/handler.py
+src/corex_ai_retrieval_qdrant.egg-info/PKG-INFO
+src/corex_ai_retrieval_qdrant.egg-info/SOURCES.txt
+src/corex_ai_retrieval_qdrant.egg-info/dependency_links.txt
+src/corex_ai_retrieval_qdrant.egg-info/top_level.txt
+tests/test_handler.py

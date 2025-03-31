@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+VMDCube.egg-info/PKG-INFO
+VMDCube.egg-info/SOURCES.txt
+VMDCube.egg-info/dependency_links.txt
+VMDCube.egg-info/requires.txt
+VMDCube.egg-info/top_level.txt
+vmdcube/__init__.py
+vmdcube/materials.py
+vmdcube/scripts.py
+vmdcube/utils.py
+vmdcube/vmdcube.py

@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: VMDCube
+Version: 1.0.1
+Summary: A Python package for rendering cube files with VMD.
+Author: Francesco Evangelista
+Project-URL: Homepage, https://github.com/fevangelista/vmdcube
+Project-URL: Repository, https://github.com/fevangelista/vmdcube.git
+Project-URL: Issue-Tracker, https://github.com/fevangelista/vmdcube/issues
+Keywords: vmd,cube,rendering
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.19
+Requires-Dist: matplotlib>=3.4
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: pytest-cov>=3.0; extra == "test"
+Dynamic: license-file
+
+# VMDCube
+
+![GitHub](https://img.shields.io/github/license/fevangelista/vmdcube)
+![GitHub issues](https://img.shields.io/github/issues/fevangelista/vmdcube)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/fevangelista/vmdcube)
+![GitHub last commit](https://img.shields.io/github/last-commit/fevangelista/vmdcube)
+![GitHub contributors](https://img.shields.io/github/contributors/fevangelista/vmdcube)
+![GitHub repo size](https://img.shields.io/github/repo-size/fevangelista/vmdcube)
+![GitHub stars](https://img.shields.io/github/stars/fevangelista/vmdcube)
+![GitHub forks](https://img.shields.io/github/forks/fevangelista/vmdcube)
+
+## Description
+
+A simple pip-installable Python module to generate pretty 3D visualizations of molecular orbitals like this the one below:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/fevangelista/vmdcube/main/images/title.png" alt="VMDCube Header" width="450"/>
+</p>
+
+VMDCube is designed to work with VMD (Visual Molecular Dynamics) and is compatible with the VMD `cube` file format. It can be used to visualize molecular orbitals, electron density, and other volumetric data.
+
+## Features
+
+VMDCube can be used in Python scripts and Jupyter notebooks to render cube files. Here is an example of how to use it in Python:
+
+```python
+from vmdcube import VMDCube
+vmd = VMDCube() # by default render all cube files in the current directory
+vmd.run()
+```
+
+The following showcases VMDCube's visualization capabilities in Jupyter notebooks:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/fevangelista/vmdcube/main/images/example.png" alt="Example Visualization" width="450"/>
+</p>
+
+## Installation
+
+Clone the repository, then run:
+
+```bash
+git clone git@github.com:fevangelista/VMDCube.git
+cd VMDCube
+pip install -e .
+```
+
+## Tutorials
+
+See [the VMDCube introductory tutorial](tutorials/vmdcube_tutorial.ipynb) for how to use VMDCube in Jupyter notebooks.

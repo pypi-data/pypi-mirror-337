@@ -1,0 +1,3 @@
+[console_scripts]
+bluemastodon=bluemastodon:main
+

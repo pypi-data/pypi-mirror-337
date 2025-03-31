@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: RunningWiFi
+Version: 1
+Summary: Composable HTTP middleware for requests
+Author: RunningWiFi
+Classifier: Programming Language :: Python :: 3

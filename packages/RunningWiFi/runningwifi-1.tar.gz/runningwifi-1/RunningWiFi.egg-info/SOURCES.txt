@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+RunningWiFi/__init__.py
+RunningWiFi.egg-info/PKG-INFO
+RunningWiFi.egg-info/SOURCES.txt
+RunningWiFi.egg-info/dependency_links.txt
+RunningWiFi.egg-info/top_level.txt

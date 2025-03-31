@@ -1,0 +1,10 @@
+src/__init__.py,sha256=mJr3RXf1oJOMrpA1dBcq5P18w_jYIOwYfMErCdpnKyU,115
+src/main.py,sha256=iV5LRdiPmSkhRMM6eWuSL9i7iUeMdL3-t0-cFo7vN74,5793
+src/ui.py,sha256=Hg5KEqMp5kKMAZPOOBY1RT4fPeBOMMuaQBP8dQJoEaM,5903
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=Kf6cciqeG-kMzA2POnWylFhd9wgo_TTr26zKS2QKfHo,561
+the_antivirus-0.1.2.dist-info/licenses/LICENSE,sha256=0nzGmuGulZ4IHgOYkpKCm5bbeXCcBr7iO9eKZBJ7ZhM,1095
+the_antivirus-0.1.2.dist-info/METADATA,sha256=Mnq1JaHbpFTTnSOGKdswWUppM7Xk55QY2h2dvXZP6MI,3920
+the_antivirus-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+the_antivirus-0.1.2.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+the_antivirus-0.1.2.dist-info/RECORD,,

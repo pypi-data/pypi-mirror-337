@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-events-sns/__init__.py
+src/corex-events-sns/handler.py
+src/corex_events_sns.egg-info/PKG-INFO
+src/corex_events_sns.egg-info/SOURCES.txt
+src/corex_events_sns.egg-info/dependency_links.txt
+src/corex_events_sns.egg-info/top_level.txt
+tests/test_handler.py

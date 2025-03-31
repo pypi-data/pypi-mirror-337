@@ -1,0 +1,399 @@
+# API Key Management Module
+
+This module provides a standalone service for API key management, including:
+- API key generation
+- API key listing
+- API key revocation
+- API key usage statistics
+
+## Features
+
+- **Secure API Key Generation**: Creates cryptographically secure API keys with the format `permas_[environment]_[random]`
+- **Environment Support**: Supports both `test` and `live` environments
+- **Scoped Access**: API keys can be scoped to specific permissions
+- **IP Restrictions**: Optional IP address restrictions for enhanced security
+- **Usage Tracking**: Tracks API key usage including request counts, endpoints, and status codes
+- **Revocation**: Ability to revoke API keys with reason tracking
+
+## Directory Structure
+
+```
+auth/api_keys/
+├── __init__.py           # Module initialization
+├── README.md             # This file
+├── example.py            # Example FastAPI app
+├── models/               # Data models
+│   └── __init__.py       # Model definitions
+├── routers/              # API routes
+│   └── api_keys.py       # API key endpoints
+└── services/             # Business logic
+    ├── api_key_service.py # API key service
+    └── token_service.py   # Token service
+```
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | /auth/keys/generate | Generate a new API key |
+| GET    | /auth/keys | List all API keys for a provider |
+| POST   | /auth/keys/{token_id}/revoke | Revoke an API key |
+| GET    | /auth/keys/{token_id}/usage | Get usage statistics for an API key |
+| POST   | /auth/keys/batch/usage | [Planned] Batch update usage statistics |
+
+## System Architecture
+
+### Database Layer
+- Primary: Azure Cosmos DB
+- Fallback: SQLite
+- Sync Strategy: Eventual consistency with background sync
+
+### Concurrency Handling
+1. Database Transaction Locks
+   - Row-level locking for usage updates
+   - Optimistic concurrency control for Cosmos DB
+   - Pessimistic locking for SQLite operations
+
+2. Batch Processing
+   - Batch size configuration via environment variables
+   - Automatic batching for high-volume updates
+   - Asynchronous processing with status tracking
+
+3. Rate Limiting
+   - Per-endpoint rate limits
+   - Provider-based quotas
+   - Circuit breaker pattern for external services
+   - Configurable cooldown periods
+
+### Error Handling
+1. Retry Mechanisms
+   - Exponential backoff
+   - Circuit breaker pattern
+   - Fallback strategies
+
+2. Error Categories
+   - Transient failures (retry-able)
+   - Permanent failures (non-retry-able)
+   - Resource exhaustion
+   - Validation errors
+
+## Configuration
+
+### Environment Variables
+```env
+# Database Configuration
+AZURE_COSMODB_CONNECTION_STRING=your_connection_string
+AZURE_COSMODB_DATABASE=api_keys
+DB_FALLBACK=true
+DB_PATH=/data/api_keys.db
+
+# Performance Tuning
+COSMOS_RU_LIMIT=400
+COSMOS_BATCH_SIZE=100
+MAX_CONCURRENT_REQUESTS=50
+BATCH_PROCESSING_INTERVAL=5
+
+# Rate Limiting
+RATE_LIMIT_WINDOW=60
+RATE_LIMIT_MAX_REQUESTS=1000
+RATE_LIMIT_STRATEGY=sliding_window
+
+# Error Handling
+MAX_RETRIES=3
+RETRY_BACKOFF_MS=1000
+CIRCUIT_BREAKER_TIMEOUT=30
+```
+
+## Scaling Considerations
+
+### Horizontal Scaling
+- Stateless API design
+- Distributed rate limiting
+- Cache-friendly architecture
+
+### Vertical Scaling
+- Configurable batch sizes
+- Memory-optimized operations
+- Connection pooling
+
+### Data Consistency
+- Eventually consistent model
+- Background sync processes
+- Conflict resolution strategies
+
+## Monitoring and Observability
+
+### Metrics
+- Request rates
+- Error rates
+- Response times
+- Resource utilization
+
+### Health Checks
+- Database connectivity
+- Service status
+- Resource availability
+
+## Development Guidelines
+
+### Adding New Endpoints
+1. Implement rate limiting
+2. Add concurrency controls
+3. Include batch processing support
+4. Document error scenarios
+
+### Testing Requirements
+1. Concurrency tests
+2. Load tests
+3. Failure scenario tests
+4. Integration tests
+
+## Usage
+
+### Integration with FastAPI
+
+```python
+from fastapi import FastAPI
+from auth.api_keys.routers import api_keys
+
+app = FastAPI()
+app.include_router(api_keys.router, prefix="/auth")
+```
+
+### API Key Generation
+
+```python
+from auth.api_keys.services.api_key_service import APIKeyService
+
+async def generate_key():
+    service = APIKeyService()
+    await service.init()
+    
+    token_data, raw_token = await service.create_api_key(
+        provider_id="provider123",
+        name="My API Key",
+        environment="test",
+        scopes=["api:access"],
+        expires_in_days=365,
+        description="My test API key",
+        ip_restrictions=["192.168.1.1"]
+    )
+    
+    # Important: raw_token is only available at creation time
+    print(f"Your API key: {raw_token}")
+    return token_data
+```
+
+### API Key Validation
+
+```python
+from fastapi import Depends, HTTPException, Security
+from fastapi.security.api_key import APIKeyHeader
+from auth.api_keys.services.api_key_service import APIKeyService
+
+api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+async def get_api_key_service():
+    service = APIKeyService()
+    await service.init()
+    return service
+
+async def get_api_key(
+    api_key: str = Security(api_key_header),
+    api_key_service: APIKeyService = Depends(get_api_key_service)
+):
+    if not api_key:
+        raise HTTPException(status_code=401, detail="API key is required")
+    
+    key_data = await api_key_service.validate_api_key(api_key)
+    
+    if not key_data.get("valid"):
+        raise HTTPException(status_code=401, detail="Invalid API key")
+    
+    return key_data
+```
+
+## Database Integration
+
+By default, the module uses an in-memory storage for development and testing. For production use, you should configure it to use a proper database:
+
+```python
+from auth.api_keys.services.token_service import TokenService
+from auth.api_keys.services.api_key_service import APIKeyService
+
+# Initialize with your database client
+db_client = YourDatabaseClient()
+token_service = TokenService(db_client=db_client)
+api_key_service = APIKeyService(token_service=token_service)
+```
+
+## Running the Example
+
+The module includes an example FastAPI application that demonstrates how to use the API key management functionality:
+
+```bash
+# From the project root
+python -m auth.api_keys.example
+```
+
+Then visit http://localhost:8000/docs to interact with the API through the Swagger UI.
+
+# API Keys Service
+
+This directory contains the API Keys service with SAS token generation for Azure Table Storage.
+
+## Features
+
+- API key generation, storage, and validation
+- SAS token generation for Azure Table Storage with rate limiting
+- Deployment scripts for Azure Container Registry (ACR)
+- Kubernetes deployment manifests
+
+## Development Setup
+
+### Prerequisites
+
+- Python 3.11+
+- Azure Storage Account
+- Docker (for deployment)
+- Kubernetes cluster (for deployment)
+
+### Local Development
+
+1. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up environment variables:
+
+```bash
+export AZURE_STORAGE_CONNECTION_STRING="your_connection_string"
+export RATE_LIMIT_REQUESTS=100  # Optional
+export RATE_LIMIT_WINDOW_MS=60000  # Optional
+```
+
+4. Run tests:
+
+```bash
+pytest
+```
+
+## Deployment
+
+### Pre-Deployment Checks
+
+Run the pre-deployment checks to ensure your environment is properly configured:
+
+```bash
+chmod +x check_deployment.sh
+./check_deployment.sh
+```
+
+This script checks:
+- Docker installation and daemon status
+- Required files existence
+- Azure CLI installation and login status
+- ACR access
+- Kubernetes configuration
+- Python package structure
+
+### Deploying to ACR
+
+Use the prepare_build.sh script to prepare and deploy the service:
+
+```bash
+chmod +x prepare_build.sh
+./prepare_build.sh
+```
+
+This script:
+1. Runs the deployment checks
+2. Builds the Docker image with a date-based tag
+3. Pushes the image to ACR
+4. Deploys to Kubernetes using the deployment.yaml template
+
+### Manual Deployment
+
+If you need more control over the deployment process, you can run the steps manually:
+
+1. Build the Docker image:
+
+```bash
+docker build -t auth/api-keys:latest -f Dockerfile.prod .
+```
+
+2. Tag the image for ACR:
+
+```bash
+docker tag auth/api-keys:latest youracrname.azurecr.io/auth/api-keys:latest
+```
+
+3. Push to ACR:
+
+```bash
+az acr login --name youracrname
+docker push youracrname.azurecr.io/auth/api-keys:latest
+```
+
+4. Deploy to Kubernetes:
+
+```bash
+kubectl apply -f k8s/auth/deployment.yaml
+```
+
+## Configuration
+
+### Environment Variables
+
+The service can be configured through the following environment variables:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| AZURE_STORAGE_CONNECTION_STRING | Connection string for Azure Storage | Required |
+| RATE_LIMIT_REQUESTS | Maximum number of SAS token requests | 100 |
+| RATE_LIMIT_WINDOW_MS | Time window for rate limiting in milliseconds | 60000 |
+
+### Kubernetes ConfigMap
+
+The service uses a ConfigMap for configuration in Kubernetes. See `k8s/auth/configmap.yaml` for details.
+
+## Monitoring
+
+After deployment, you can monitor the service using:
+
+```bash
+kubectl get pods -n auth-services
+kubectl logs -f deployment/api-keys -n auth-services
+```
+
+## Troubleshooting
+
+If you encounter issues with the deployment:
+
+1. Check the logs:
+```bash
+kubectl logs -f deployment/api-keys -n auth-services
+```
+
+2. Check the deployment status:
+```bash
+kubectl describe deployment api-keys -n auth-services
+```
+
+3. Check the pod status:
+```bash
+kubectl describe pods -l app=api-keys -n auth-services
+```
+
+## License
+
+Copyright © 2023 Perceptive Focus. All rights reserved. 

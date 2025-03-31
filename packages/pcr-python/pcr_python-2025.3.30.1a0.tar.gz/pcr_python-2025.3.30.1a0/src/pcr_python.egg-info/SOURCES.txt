@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pcr_python/__init__.py
+src/pcr_python/main.py
+src/pcr_python.egg-info/PKG-INFO
+src/pcr_python.egg-info/SOURCES.txt
+src/pcr_python.egg-info/dependency_links.txt
+src/pcr_python.egg-info/top_level.txt

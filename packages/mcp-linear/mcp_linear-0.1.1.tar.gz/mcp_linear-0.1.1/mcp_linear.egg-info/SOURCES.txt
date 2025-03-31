@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+mcp_linear/__init__.py
+mcp_linear/linear_client.py
+mcp_linear/main.py
+mcp_linear.egg-info/PKG-INFO
+mcp_linear.egg-info/SOURCES.txt
+mcp_linear.egg-info/dependency_links.txt
+mcp_linear.egg-info/entry_points.txt
+mcp_linear.egg-info/requires.txt
+mcp_linear.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+version = 1
+revision = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "defix-package-meta"
+version = "0.1.1"
+source = { editable = "." }

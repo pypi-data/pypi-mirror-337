@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+financial/__init__.py
+financial/server.py
+financial_datasets_mcp_server.egg-info/PKG-INFO
+financial_datasets_mcp_server.egg-info/SOURCES.txt
+financial_datasets_mcp_server.egg-info/dependency_links.txt
+financial_datasets_mcp_server.egg-info/entry_points.txt
+financial_datasets_mcp_server.egg-info/requires.txt
+financial_datasets_mcp_server.egg-info/top_level.txt

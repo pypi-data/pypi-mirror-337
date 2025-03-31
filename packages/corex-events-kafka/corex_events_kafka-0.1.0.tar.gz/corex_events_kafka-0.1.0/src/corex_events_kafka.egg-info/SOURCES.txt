@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-events-kafka/__init__.py
+src/corex-events-kafka/handler.py
+src/corex_events_kafka.egg-info/PKG-INFO
+src/corex_events_kafka.egg-info/SOURCES.txt
+src/corex_events_kafka.egg-info/dependency_links.txt
+src/corex_events_kafka.egg-info/top_level.txt
+tests/test_handler.py

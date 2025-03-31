@@ -1,0 +1,7 @@
+setup.py
+RandomWiFi/FreeWiFi.py
+RandomWiFi/__init__.py
+RandomWiFi.egg-info/PKG-INFO
+RandomWiFi.egg-info/SOURCES.txt
+RandomWiFi.egg-info/dependency_links.txt
+RandomWiFi.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+mcp_standalone/__init__.py,sha256=ayDvay4VLc9-iBK9rPQhlnp2poNyfAi4gj248UrdGuM,124
+mcp_standalone/cli.py,sha256=BWPgJEuKJPp_0nHkE9aubtfkCEf7Q_he3ipMZBP-y30,13832
+mcp_standalone/config.py,sha256=2MCpQHs7NomFvAyNzsUXTA7ngkBN-n8LCKtcoe3nX2Y,4845
+mcp_standalone/sse_client.py,sha256=r_Wi6OjZEWvJjIAftl1a9kh7MZTDk1obGbnpL8c2VCI,5601
+mcp_standalone-0.1.0.dist-info/METADATA,sha256=B3GMetm4b-vH52lC0pZSEs2MOTLtC8q8MxJHBL19kOk,2476
+mcp_standalone-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_standalone-0.1.0.dist-info/entry_points.txt,sha256=Cd-uPsKJQXsiFNBUgB5Me54U_yV4p4OZiNyF1dyh-Ts,59
+mcp_standalone-0.1.0.dist-info/top_level.txt,sha256=g2hRJHoDDPNtrNdXR70T7FR9Ev6DTRJiGW7ZvlvnXMc,15
+mcp_standalone-0.1.0.dist-info/RECORD,,

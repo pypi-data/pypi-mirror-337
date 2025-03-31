@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: cartel
+Version: 1.1a2
+Summary: Как ему не страшно говорить про кортель. Инструкция: https://github.com/mistertay0dimon/cartel
+Home-page: https://github.com/mistertay0dimon/cartel
+Author: mistertayodimon
+Author-email: dimondimonych1@outlook.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Requires-Dist: colorama
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

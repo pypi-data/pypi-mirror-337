@@ -1,0 +1,36 @@
+[project]
+name = "mkdocs-dataview"
+authors = [
+  { name="Alexander Nevskiy", email="kepkin@gmail.com" },
+]
+description = "A mkdocs plugin inspired by dataview plugin in Obsidian"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+dynamic = ["version"]
+
+dependencies = [
+  "dictquery == 0.5.0",
+  "python-frontmatter == 1.1.0",
+  "mkdocs == 1.5.3",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project.entry-points."mkdocs.plugins"]
+dataview = "mkdocs_dataview.plugin:DataViewPlugin"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "mkdocs_dataview.__version__"}

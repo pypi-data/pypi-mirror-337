@@ -1,0 +1,12 @@
+
+[ftfy]
+ftfy
+
+[gpt]
+g4f
+
+[ner]
+slovnet
+
+[translate]
+googletrans

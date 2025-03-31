@@ -1,0 +1,11 @@
+README.md
+setup.py
+source/utils_me.egg-info/PKG-INFO
+source/utils_me.egg-info/SOURCES.txt
+source/utils_me.egg-info/dependency_links.txt
+source/utils_me.egg-info/requires.txt
+source/utils_me.egg-info/top_level.txt
+source/utilsme/__init__.py
+source/utilsme/compression.py
+source/utilsme/handle_file.py
+source/utilsme/time.py

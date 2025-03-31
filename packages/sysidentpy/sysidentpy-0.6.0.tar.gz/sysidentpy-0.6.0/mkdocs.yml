@@ -1,0 +1,255 @@
+site_name: SysIdentPy
+site_description: From Classical Approaches to Neural Networks
+site_url: https://sysidentpy.org/
+site_author: Wilson Rocha
+
+# Repository
+repo_name: wilsonrljr/sysidentpy
+repo_url: https://github.com/wilsonrljr/sysidentpy
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2025 Wilson Rocha
+
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/
+  favicon: /overrides/assets/img/favicon.png
+  logo: /overrides/assets/img/logotype-sysidentpy.svg
+  icon:
+    logo: fontawesome/solid/house
+
+  # Static files
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: white
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Nunito Sans
+    code: Roboto Mono
+
+## Custom theme additions
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - overrides/assets/js/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
+  - overrides/assets/vendor/js/prism.js
+  - https://cdn.jsdelivr.net/npm/apexcharts
+  - overrides/assets/js/chart-example.js
+  - overrides/assets/js/scripts.js
+
+extra_css:
+  - overrides/assets/css/extra.css
+  - overrides/assets/css/feature-grid.css
+  - overrides/assets/css/fontsize.css
+  - overrides/assets/css/card-container.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css
+  - overrides/assets/vendor/css/prism.css
+  - overrides/assets/css/style.css
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - glightbox
+  - mkdocs-jupyter:
+      include_source: True
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: true
+            docstring_style: numpy
+
+# Customization
+extra:
+  analytics:
+    provider: google
+    property: G-16K3SQT164
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wilsonrljr
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/sysidentpy/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/wilsonrljr
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+      - Overview: getting-started/getting-started.md
+      - Quickstart Guide: getting-started/quickstart-guide.md
+      - Introduction to NARMAX: getting-started/narmax-intro.md
+      - License: getting-started/license.md
+  - User guide:
+      - Overview: user-guide/overview.md
+      - Tutorials:
+          - Features:
+              - your-first-model: user-guide/tutorials/your-first-model.ipynb
+              - model-with-multiple-inputs: user-guide/tutorials/model-with-multiple-inputs.ipynb
+              - parameter-estimation-overview: user-guide/tutorials/parameter-estimation-overview.ipynb
+              - basis-function-overview: user-guide/tutorials/basis-function-overview.ipynb
+              - information-criteria-overview: user-guide/tutorials/information-criteria-overview.ipynb
+              - general-NARX-models: user-guide/tutorials/general-NARX-models.ipynb
+              - fourier-NARX-overview: user-guide/tutorials/fourier-NARX-overview.ipynb
+              - aols-overview: user-guide/tutorials/aols-overview.ipynb
+              - nfir-model-overview: user-guide/tutorials/NFIR-model-overview.ipynb
+              - importance-of-extended-least-squares: user-guide/tutorials/importance-of-extended-least-squares.ipynb
+          - Electrical and Mechanical Systems:
+              - modeling-a-magneto-rheological-damper-device: user-guide/tutorials/modeling-a-magneto-rheological-damper-device.ipynb
+              - silver-box-system: user-guide/tutorials/silver-box-system.ipynb
+              - coupled-eletric-device: user-guide/tutorials/coupled-eletric-device.ipynb
+              - wiener-hammerstein-system: user-guide/tutorials/wiener-hammerstein-system.ipynb
+              - f16-aircraft: user-guide/tutorials/f-16-aircraft.ipynb
+              - f-16-aircraft-n-steps-ahead-prediction: user-guide/tutorials/f-16-aircraft-n-steps-ahead-prediction.ipynb
+              - electromechanical-system-identification-overview: user-guide/tutorials/electromechanical-system-identification-overview.ipynb
+              - electromechanical-system-identification-metamss: user-guide/tutorials/electromechanical-system-identification-metamss.ipynb
+              - electromechanical-system-identification-entropic-regression: user-guide/tutorials/electromechanical-system-identification-entropic-regression.ipynb
+              - multiobjective-parameter-estimation-overview: user-guide/tutorials/multiobjective-parameter-estimation-overview.ipynb
+          - Industrial and Corporate:
+              - m4-benchmark: user-guide/tutorials/m4-benchmark.ipynb
+              - air-passenger-benchmark: user-guide/tutorials/air-passenger-benchmark.ipynb
+              - load-forecasting-benchmark: user-guide/tutorials/load-forecasting-benchmark.ipynb
+              - pv-forecasting-benchmark: user-guide/tutorials/PV-forecasting-benchmark.ipynb
+          - Chaotic Systems:
+              - lorenz-system: user-guide/tutorials/chaotic-systems/lorenz-system.ipynb
+              - logistic-map: user-guide/tutorials/chaotic-systems/logistic-map.ipynb
+      - How to:
+          - create-a-narx-neural-network: user-guide/how-to/create-a-narx-neural-network.ipynb
+          - save-and-load-models: user-guide/how-to/save-and-load-models.ipynb
+          - set-specific-lags: user-guide/how-to/set-specific-lags.ipynb
+          - simulating-existing-models: user-guide/how-to/simulating-existing-models.ipynb
+          - use-extended-least-squares: user-guide/how-to/use-extended-least-squares.ipynb
+      - API:
+          - NARMAX Base: user-guide/API/narmax-base.md
+          - OFR Base: user-guide/API/ofr-base.md
+          - Basis Functions: user-guide/API/basis-function.md
+          - FROLS: user-guide/API/frols.md
+          - MetaMSS: user-guide/API/metamss.md
+          - AOLS: user-guide/API/aols.md
+          - UOFR: user-guide/API/uofr.md
+          - Entropic Regression: user-guide/API/entropic-regression.md
+          - Neural NARX: user-guide/API/neural-narx.md
+          - General Estimators: user-guide/API/general-estimators.md
+          - Parameter Estimation: user-guide/API/parameter-estimation.md
+          - Multiobjective Parameter Estimation: user-guide/API/multiobjective-parameter-estimation.md
+          - Simulation: user-guide/API/simulation.md
+          - Residual Analysis: user-guide/API/residues.md
+          - Metaheuristics: user-guide/API/metaheuristics.md
+          - Metrics: user-guide/API/metrics.md
+          - Utils: user-guide/API/utils.md
+  - Companion Book:
+      - Preface: book/0-Preface.md
+      - Contents: book/0.1-Contents.md
+      - Introduction: book/1-Introduction.md
+      - 2. NARMAX Model Representation: book/2-NARMAX-Model-Representation.md
+      - 3. Parameter Estimation: book/3-Parameter-Estimation.md
+      - 4. Model Structure Selection: book/4-Model-Structure-Selection.md
+      - 5. Multiobjective Parameter Estimation: book/5-Multiobjective-Parameter-Estimation.md
+      - 6. Multiobjective Model Structure Selection: book/6-Multiobjective-Model-Structure-Selection.md
+      - 7. NARX Neural Network: book/7-NARX-Neural-Network.md
+      - 8. Severely Nonlinear System Identification: book/8-Severely-Nonlinear-System-Identification.md
+      - 9. Validation: book/9-Validation.md
+      - 10. Case Studies: book/10-Case-Studies.md
+  - Developer guide:
+      - How to contribute: developer-guide/contribute.md
+      - Documentation:
+          - Documentation Overview: developer-guide/documentation-overview.md
+          - How To Write a Tutorial: developer-guide/how-to-write-a-tutorial.md
+          - How To Write a How-to Guide: developer-guide/how-to-write-a-how-to-guide.md
+  - Community & Support:
+      - community-overview: community-support/community-overview.md
+      - Get Help: community-support/get-help.md
+      - Meetups:
+          - AI Networks Meetup: community-support/meetups/ai-networks-meetup.md
+          - Nubank Timeseries Meetup: community-support/meetups/nubank-meetup.md
+          - Nubank Open Source Talk: community-support/meetups/nubank-meetup-open-source.md
+          - GCoM Meetup: community-support/meetups/gcom-meetup.md
+          - Estatidados Meetup: community-support/meetups/estatidados.md
+  - About: landing-page/about-us.md
+  - Changelog: changelog/changelog.md
+  - Sponsors: landing-page/sponsor.md

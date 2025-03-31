@@ -1,0 +1,4 @@
+[console_scripts]
+airunner = airunner.main:main
+airunner-build-ui = airunner.bin.build_ui:main
+airunner-tests = airunner.bin.run_tests:main

@@ -1,0 +1,3 @@
+[console_scripts]
+cursor-rules = cursor_rules.cli:main
+cursor-tasks = cursor_rules.cli:main

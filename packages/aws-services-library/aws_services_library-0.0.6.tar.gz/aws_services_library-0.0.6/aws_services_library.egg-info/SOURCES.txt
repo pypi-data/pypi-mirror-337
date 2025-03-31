@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aws_services/__init__.py
+aws_services/dynamodb_utils.py
+aws_services/sns_utils.py
+aws_services_library.egg-info/PKG-INFO
+aws_services_library.egg-info/SOURCES.txt
+aws_services_library.egg-info/dependency_links.txt
+aws_services_library.egg-info/requires.txt
+aws_services_library.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+setuptools
+Products.CMFPlone
+plone.api
+pas.plugins.oidc>=2.0.0rc2
+plone.distribution
+python-keycloak
+
+[test]
+zest.releaser[recommended]
+zestreleaser.towncrier
+plone.app.testing
+plone.classicui
+plone.restapi[test]
+pytest
+pytest-cov
+pytest-plone>=0.5.0
+pytest-docker

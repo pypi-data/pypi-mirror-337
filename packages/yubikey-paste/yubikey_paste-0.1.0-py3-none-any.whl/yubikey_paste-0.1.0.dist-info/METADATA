@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: yubikey-paste
+Version: 0.1.0
+Summary: 
+License: GPL-3.0
+Author: Dick Marinus
+Requires-Python: >=3.13,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: injectinput (>=0.3.0,<0.4.0)
+Requires-Dist: yubikey-manager-lib (>=0.2.0,<0.3.0)

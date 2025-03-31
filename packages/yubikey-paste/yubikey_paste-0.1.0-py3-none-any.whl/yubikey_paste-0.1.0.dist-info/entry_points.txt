@@ -1,0 +1,3 @@
+[console_scripts]
+yubikey-paste=yubikey_paste:main
+

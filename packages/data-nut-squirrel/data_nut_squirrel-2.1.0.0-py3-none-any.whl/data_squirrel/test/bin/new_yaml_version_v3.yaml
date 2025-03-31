@@ -1,0 +1,157 @@
+
+  
+NUT:  
+  !NutStructure
+    db_info:
+      !NutDatabaseInfo
+        db_name: test_db
+        # rsa_token_path: /home/
+    external_imports:
+      - !ExternalAttribute
+        module: serena.utilities.ensemble_structures
+        attribute: Sara2SecondaryStructure
+      - !ExternalAttribute
+        module: serena.interfaces.Sara2_API_Python3
+        attribute: DesignPerformanceData
+      - !ExternalAttribute
+        module: serena.interfaces.Sara2_API_Python3
+        attribute: DesignInformation
+      - !ExternalAttribute
+        module: serena.interfaces.Sara2_API_Python3
+        attribute: WetlabData
+    nut_container_declarations: 
+      - !NutDeclaration
+        name: PrimaryStructure
+      - !NutDeclaration
+        name: Energy
+      - !NutDeclaration
+        name: SecondaryStructure
+      - !NutDeclaration
+        name: Ensemble
+      - !NutDeclaration
+        name: Sara2secStructLists
+      - !NutDeclaration
+        name: SecondStuff
+    nut_main_struct:
+      !NutContainer
+        name: RNAStrand
+        object_list:
+          - !NutObject
+            name: primary_structure
+            object_type: !NutObjectType CONTAINER
+            object_info: PrimaryStructure
+          - !NutObject
+            name: ensemble
+            object_type: !NutObjectType CONTAINER
+            object_info: Ensemble
+          - !NutObject
+            name: primary_structure_lists
+            object_type: !NutObjectType CONTAINER
+            object_info: Sara2secStructLists
+          - !NutObject
+            name: secondary_structure_stuff
+            object_type: !NutObjectType CONTAINER
+            object_info: SecondStuff
+          
+
+
+DEFINITIONS:
+  !NutContainerDefinitions
+    nut_containers_definitions:
+      - !NutContainer
+        name: PrimaryStructure
+        object_list:
+          - !NutObject
+            name: strand
+            object_type: !NutObjectType VALUE
+            object_info: str
+          - !NutObject
+            name: jumping
+            object_type: !NutObjectType VALUE
+            object_info: str
+      - !NutContainer
+        name: Energy
+        object_list:
+          - !NutObject
+            name: kcal 
+            object_type: !NutObjectType FLOATINGPOINT
+            object_info: float
+      - !NutContainer
+        name: SecondaryStructure
+        object_list:
+          - !NutObject
+            name: dot_parens 
+            object_type: !NutObjectType VALUE
+            object_info: str
+          - !NutObject
+            name: free_energy 
+            object_type: !NutObjectType CONTAINER
+            object_info: Energy
+          - !NutObject
+            name: stack_energy 
+            object_type: !NutObjectType CONTAINER
+            object_info: Energy
+          - !NutObject
+            name: structure_list
+            object_type: !NutObjectType LIST
+            object_info: int
+          - !NutObject
+            name: structure_dict
+            object_type: !NutObjectType VALUE
+            object_info: dict
+      - !NutContainer
+        name: Ensemble
+        object_list:
+          - !NutObject
+            name: min_energy 
+            object_type: !NutObjectType CONTAINER
+            object_info: Energy
+          - !NutObject
+            name: max_energy 
+            object_type: !NutObjectType CONTAINER
+            object_info: Energy
+          - !NutObject
+            name: energy_groups 
+            object_type: !NutObjectType DICTIONARY
+            object_info: [float,list]
+          - !NutObject
+            name: mfe_structure 
+            object_type: !NutObjectType CONTAINER
+            object_info: SecondaryStructure
+          - !NutObject
+            name: mea_structure 
+            object_type: !NutObjectType CONTAINER
+            object_info: SecondaryStructure
+          - !NutObject
+            name: what_structure
+            object_type: !NutObjectType CONTAINER
+            object_info: PrimaryStructure
+      - !NutContainer
+        name: Sara2secStructLists
+        object_list:
+          - !NutObject
+            name: sara2_struct_list
+            object_type: !NutObjectType LIST
+            object_info: [Sara2SecondaryStructure, DesignPerformanceData, CLASS]
+      - !NutContainer
+        name: SecondStuff
+        object_list:
+          - !NutObject
+            name: secondary_structure
+            object_type: !NutObjectType CLASS
+            object_info: [Sara2SecondaryStructure]
+          - !NutObject
+            name: performance_info
+            object_type: !NutObjectType CLASS
+            object_info: [DesignPerformanceData, DesignInformation, WetlabData]
+
+
+
+
+
+
+
+
+
+  
+            

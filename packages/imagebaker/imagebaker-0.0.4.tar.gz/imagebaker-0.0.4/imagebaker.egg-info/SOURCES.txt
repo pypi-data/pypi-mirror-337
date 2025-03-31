@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+imagebaker/__init__.py
+imagebaker.egg-info/PKG-INFO
+imagebaker.egg-info/SOURCES.txt
+imagebaker.egg-info/dependency_links.txt
+imagebaker.egg-info/entry_points.txt
+imagebaker.egg-info/requires.txt
+imagebaker.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+AutomationJobs/__init__.py
+AutomationJobs/fetchfiles.py
+AutomationJobs.egg-info/PKG-INFO
+AutomationJobs.egg-info/SOURCES.txt
+AutomationJobs.egg-info/dependency_links.txt
+AutomationJobs.egg-info/requires.txt
+AutomationJobs.egg-info/top_level.txt

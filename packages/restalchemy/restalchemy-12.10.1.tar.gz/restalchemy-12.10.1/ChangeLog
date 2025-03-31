@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+12.10.1
+-------
+
+* Add 400 exception on body unpack of POST requests

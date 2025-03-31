@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: xrobot
+Version: 0.1.1
+Summary: A Python package for parsing IOC files and generating C++ code.
+Author-email: Xiao <2592509183@qq.com>
+Maintainer-email: Xiao <2592509183@qq.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/xrobot-org
+Project-URL: Documentation, https://xrobot-org.github.io
+Project-URL: Repository, https://github.com/xrobot-org/XRobot
+Project-URL: Bug Tracker, https://github.com/xrobot-org/XRobot/issues
+Keywords: code generation,embedded systems,automation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: pyyaml
+Provides-Extra: gui
+Requires-Dist: PyQt5; extra == "gui"
+Provides-Extra: cli
+Requires-Dist: rich; extra == "cli"
+Requires-Dist: click; extra == "cli"
+Dynamic: license-file

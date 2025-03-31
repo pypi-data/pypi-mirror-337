@@ -1,0 +1,11 @@
+google-api-python-client
+isodate
+
+[pandas]
+pandas
+
+[polars]
+polars
+
+[pyspark]
+pyspark

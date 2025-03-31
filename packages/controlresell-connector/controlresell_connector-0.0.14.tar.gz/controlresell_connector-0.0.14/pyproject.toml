@@ -1,0 +1,9 @@
+[project]
+name = "controlresell-connector"
+version = "0.0.14"
+description = "Auto-generated Pydantic project from Kotlin using guimauvedigital/zodable"
+dependencies = [ "pydantic", "zodable-idschema", "uuid", "typing", "datetime",]
+
+[build-system]
+requires = [ "setuptools", "wheel",]
+build-backend = "setuptools.build_meta"

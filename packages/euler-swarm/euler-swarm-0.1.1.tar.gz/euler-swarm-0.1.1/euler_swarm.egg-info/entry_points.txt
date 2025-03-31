@@ -1,0 +1,3 @@
+[console_scripts]
+euler-swarm = euler_swarm.main:main
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+euler-swarm/__init__.py
+euler-swarm/create_graph.py
+euler-swarm/level_segregation.py
+euler-swarm/main.py
+euler_swarm.egg-info/PKG-INFO
+euler_swarm.egg-info/SOURCES.txt
+euler_swarm.egg-info/dependency_links.txt
+euler_swarm.egg-info/entry_points.txt
+euler_swarm.egg-info/requires.txt
+euler_swarm.egg-info/top_level.txt

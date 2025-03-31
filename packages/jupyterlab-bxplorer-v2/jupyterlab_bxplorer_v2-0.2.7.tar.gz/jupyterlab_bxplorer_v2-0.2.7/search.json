@@ -1,0 +1,34 @@
+{
+    "cwd": {
+        "name": "Root",
+        "isFile": false,
+        "path": "/",
+        "hasChild": true,
+        "type": "folder",
+        "size": "0.00 B",
+        "dateModified": "",
+        "region": ""
+    },
+    "files": [
+        {
+            "name": "dh-navteca",
+            "isFile": false,
+            "path": "/dh-navteca/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "0.00 B",
+            "dateModified": "",
+            "region": ""
+        },
+        {
+            "name": "navteca-argo-workflow-logs",
+            "isFile": false,
+            "path": "/navteca-argo-workflow-logs/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "0.00 B",
+            "dateModified": "",
+            "region": ""
+        }
+    ]
+}

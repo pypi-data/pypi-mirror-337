@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaxacc"
+version = "0.1.0"
+description = "Optimization tools for JAX"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jax>=0.3.0",
+    "numpy>=1.20.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/jaxacc"
+"Bug Tracker" = "https://github.com/yourusername/jaxacc/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

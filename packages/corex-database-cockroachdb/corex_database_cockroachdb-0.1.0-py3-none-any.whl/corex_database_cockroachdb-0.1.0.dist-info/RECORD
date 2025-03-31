@@ -1,0 +1,6 @@
+corex-database-cockroachdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corex-database-cockroachdb/handler.py,sha256=73OibKb9jq7DHnebUWMBLtdum31x_Je4ao67TlwaSmI,285
+corex_database_cockroachdb-0.1.0.dist-info/METADATA,sha256=heGv_3I8IJors6czAymS2YV4PaWYHGnMteUVgxhcsGk,334
+corex_database_cockroachdb-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+corex_database_cockroachdb-0.1.0.dist-info/top_level.txt,sha256=DPNU38AEdtrFedbcPOo0m2hcoI9ITshDq0wWt98tu_c,27
+corex_database_cockroachdb-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+wbwdi/__init__.py,sha256=Cgwn3aTvWmrFPIGWQCAUacOFcdc7IDYGv2f-IR2_EP0,764
+wbwdi/config.py,sha256=zroItiWHCFk15iFadaI0LebfPI1ofNk5Cex7PhZKnZc,775
+wbwdi/perform_request.py,sha256=KNolIzGUDS2u_16gRw85aEHqkcwfyZxSrz4dYY3cYDg,4812
+wbwdi/wdi_get.py,sha256=-Wq75Ufd72V00M_Ni7v-kofgRR49YRonNdfTIdoJgVs,9417
+wbwdi/wdi_get_entities.py,sha256=VRpDh_kjoBrjsG501BvgS4wZFZJM9BhX9tdIgkturtg,6237
+wbwdi/wdi_get_income_levels.py,sha256=z_c0E-YRlopWt5J-0-62NFd9qpcJLV0x0tniEuD56VI,1779
+wbwdi/wdi_get_indicators.py,sha256=YqeKcrPvbwhdp_zAMKPrge89KNyLNseiv-aVf1OXa6c,3685
+wbwdi/wdi_get_languages.py,sha256=sXRjRevTPMDTdBpttnqvYBupSGJb3b3PopRRBdb1xDI,1692
+wbwdi/wdi_get_lending_types.py,sha256=inlbEtfxdeZfE54Kz9gF1BhgvyFm8r8x_LI50yFTy-0,1763
+wbwdi/wdi_get_regions.py,sha256=36_IHhlF4iDOqr7X_Z6akhohNP8JhdSXHhm-rLDRXgo,2074
+wbwdi/wdi_get_sources.py,sha256=vapHODfYgDOHfwC4ZuizIt5epghDcdhruO_7LyToTTc,2915
+wbwdi/wdi_get_topics.py,sha256=spe8_CDWWuP2YqxLXrmomGX7Cg74VlhKDI6NOvjNChk,1661
+wbwdi/wdi_search.py,sha256=pBRMIXWkRLJEBgh3gtxg37_gwXl7Ztj-1e9INICIyNg,2699
+wbwdi-1.0.1.dist-info/METADATA,sha256=Gjj4i_om-ZIVQ4vXS7w032uH7oO6jG2pjE-QipNo2SU,5417
+wbwdi-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+wbwdi-1.0.1.dist-info/RECORD,,

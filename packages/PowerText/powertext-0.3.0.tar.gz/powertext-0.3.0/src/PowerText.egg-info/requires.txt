@@ -1,0 +1,6 @@
+Pillow~=11.1.0
+fonttools
+
+[full]
+emoji~=1.6.3
+pilmoji

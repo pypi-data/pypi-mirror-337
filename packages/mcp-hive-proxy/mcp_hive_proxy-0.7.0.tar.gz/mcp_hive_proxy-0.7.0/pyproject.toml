@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-hive-proxy"
+version = "0.7.0"
+description = "A command-line interface for interacting with MCP servers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "David Schwartz"}
+]
+dependencies = [
+    "httpx>=0.27",
+    "httpx-sse>=0.4",
+    "anyio>=4.5",
+    "pydantic>=2.7.2,<3.0.0",
+    "pydantic-settings>=2.5.2"
+]
+
+[project.scripts]
+mcp-hive-proxy = "mcp_cli.cli:main"
+
+[tool.setuptools]
+packages = ["mcp_cli"]

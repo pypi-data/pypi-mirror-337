@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: HowToMakePackage
+Version: 0.1.1
+Summary: How to make package
+Home-page: https://github.com/Dev9er/HowToMakePackage
+Author: 박성배
+Author-email: Dev9er@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# How to make package
+- pypi.org 회원 가입
+- package 작성
+- setup.py 작성

@@ -1,0 +1,50 @@
+{
+  "path": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+  "content": true,
+  "normalize": true,
+  "hybrid": true,
+  "gpu": true,
+  "writable": true,
+  "backend": "faiss",
+  "storagetype": "sqlite",
+  "scoring": {
+    "method": "bm25",
+    "normalize": true,
+    "terms": {
+      "cachelimit": 1000000000,
+      "cutoff": 0.001
+    }
+  },
+  "graph": {
+    "backend": "networkx",
+    "batchsize": 256,
+    "limit": 5,
+    "minscore": 0.4,
+    "approximate": true,
+    "topics": {
+      "algorithm": "louvain",
+      "terms": 4
+    },
+    "centrality": "betweenness",
+    "directed": true,
+    "weight": "similarity",
+    "search": {
+      "max_hops": 2,
+      "use_centrality": true,
+      "min_score": 0.5,
+      "limit": 3
+    }
+  },
+  "dimensions": 768,
+  "offset": 169,
+  "build": {
+    "create": "2025-03-30T13:09:57Z",
+    "python": "3.10.16",
+    "settings": {
+      "components": "IDMap,Flat"
+    },
+    "system": "Darwin (arm64)",
+    "txtai": "8.3.1"
+  },
+  "update": "2025-03-30T13:09:57Z"
+}

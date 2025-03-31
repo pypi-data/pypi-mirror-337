@@ -1,0 +1,12 @@
+libfoot-0.0.1.dist-info/METADATA,sha256=O0g9Y3mdBjFwc-0N0TZL-o40xerEn25llSHio_DaMmA,3226
+libfoot-0.0.1.dist-info/WHEEL,sha256=77DqkvxB4HqZitBRK_M49NRS207JKb0MotMEjnxEWQ8,96
+libfoot-0.0.1.dist-info/entry_points.txt,sha256=Oenq8ZvoNeW78V5U6XUiZEOS8E-5mRT4F51NWzh1KNY,43
+libfoot-0.0.1.dist-info/licenses/LICENSE,sha256=dl7TEWhkfYWWZG-ZRrlTvENUi4x0D5UByPG-j3khHeo,1066
+libfoot/cli.py,sha256=x1Vvmc4NOf67vQFk9McO5uDRCFieANk4H-aqDaHGTT8,2127
+libfoot/display.py,sha256=0ryr3Cy3llv25dj3-1Fk4m3AimJU5MYe50gBDLqy6ac,2891
+libfoot/py.typed,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+libfoot/types.py,sha256=iG_SePe-rwtIHjBQA18ISPiSuGBNLoDnwy9w1IqVFIM,831
+libfoot/_libfoot.pyi,sha256=oNX5sOvr6PjxB-3lydMq0qpWJ0rx1bGpuC9p3iNlol0,1108
+libfoot/__init__.py,sha256=rdizP-n7TqHsHFS7U02tTZ_yjFRTi5mRT3U7gP9SWR4,1103
+libfoot/_libfoot.cp310-win_amd64.pyd,sha256=7n6iUUL8r9e8iO9nw-3FumrruTrgRxwFYmBxe4GyujA,4037120
+libfoot-0.0.1.dist-info/RECORD,,

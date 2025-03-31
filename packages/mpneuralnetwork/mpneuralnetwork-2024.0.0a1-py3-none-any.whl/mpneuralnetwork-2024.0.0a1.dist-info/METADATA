@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: mpneuralnetwork
+Version: 2024.0.0a1
+Summary: A small python library for neural networks
+Project-URL: Homepage, https://github.com/maximepires4/mp-neural-network
+Project-URL: Issues, https://github.com/maximepires4/mp-neural-network/issues
+Author-email: Maxime Pires <maximepires4@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: scipy>=1.15.2
+Description-Content-Type: text/markdown
+
+# FFNN + Handwriting recognition
+
+Custom library for implementing feedforward neural networks using back propagation.
+This library is then used for handwriting recognition with a gui (MNIST database).
+I recreated the algorithm from scratch, without using any external library, to fully understand the process.
+
+## Usage
+
+### Create a model
+
+Create, train and save a model inside `output/model.pkl`.
+
+```bash
+python3 create_model.py
+```
+
+To modify the model, edit the variable `netword` inside `create_model.py`
+
+### Test the model
+
+Launch a gui for manually testing the model
+
+```bash
+python3 main.py
+```
+
+## Requirements
+
+* tkinter : `sudo apt install python3-tk`
+
+## Credits
+
+User [nikhilkumarsingh](https://github.com/nikhilkumarsingh) for the gui [base code](https://gist.github.com/nikhilkumarsingh/85501ee2c3d8c0cfa9d1a27be5781f06).

@@ -1,0 +1,10 @@
+mpneuralnetwork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpneuralnetwork/activations.py,sha256=Bn0iZnJYWTrGPfmb_dDoYs8o-b3lMKZAt8Q-WeOCTAM,1561
+mpneuralnetwork/layers.py,sha256=grPeaatkLzi3LSwsRXmLdXpa8T89GF1O1hJfQjxKkIg,1588
+mpneuralnetwork/losses.py,sha256=uwjFvzLW_SMbIulf9AhiFfTD6KdO24sTADOtl27Fh4k,502
+mpneuralnetwork/model.py,sha256=LNcrhgsw-NCWHn4tVyDyUjiqLqZ5gCfOfGXxkt0_wY8,2947
+mpneuralnetwork/utils.py,sha256=G0eChSb6RYApMjNKTuo0HN1yF1ZLjpfpxFS3JhqpJAE,179
+mpneuralnetwork-2024.0.0a1.dist-info/METADATA,sha256=UVzXMBWAdA6jjLqAbOnus1b7xxSLoMJxVheToDNLWVs,1463
+mpneuralnetwork-2024.0.0a1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mpneuralnetwork-2024.0.0a1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+mpneuralnetwork-2024.0.0a1.dist-info/RECORD,,

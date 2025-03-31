@@ -1,0 +1,195 @@
+Metadata-Version: 2.4
+Name: treeignore
+Version: 0.5.0
+Summary: A tree view command-line utility that filters files/folders based on a .gitignore
+Author-email: Alexander Warth <alexander.warth@mailbox.org>
+License-Expression: MIT
+Project-URL: Homepage, https://gitlab.com/CochainComplex/treeignore
+Project-URL: Repository, https://gitlab.com/CochainComplex/treeignore
+Project-URL: Bug Tracker, https://gitlab.com/CochainComplex/treeignore/-/issues
+Project-URL: Author Website, https://warth.ai
+Keywords: gitignore,tree,directory,visualization,CLI,AI,LLM
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pathspec<1.0.0,>=0.11.0
+Provides-Extra: dev
+Requires-Dist: black<25.0.0,>=23.0.0; extra == "dev"
+Requires-Dist: mypy<2.0.0,>=1.8.0; extra == "dev"
+Requires-Dist: pytest<8.0.0,>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov<5.0.0,>=4.1.0; extra == "dev"
+Requires-Dist: pylint<3.0.0,>=2.17.0; extra == "dev"
+Requires-Dist: isort<6.0.0,>=5.12.0; extra == "dev"
+Requires-Dist: flake8<7.0.0,>=6.1.0; extra == "dev"
+Requires-Dist: pre-commit<4.0.0,>=3.5.0; extra == "dev"
+Dynamic: license-file
+
+# TreeIgnore
+
+[![PyPI version](https://badge.fury.io/py/treeignore.svg)](https://pypi.org/project/treeignore/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+TreeIgnore is a Python command-line utility that prints a tree-style view of the current directory while ignoring files and folders specified in a `.gitignore` file located at the base folder.
+
+## Features
+
+- **Recursive Listing:** Displays the directory tree recursively.
+- **Gitignore Filtering:** Reads the `.gitignore` file from the base folder to filter out files and folders.
+- **Easy to Use:** A simple command-line tool that can be executed from any directory.
+- **AI-Friendly Output:** Perfect for AI tools and LLMs by providing clean project structure without noise from build artifacts, dependencies, or cache files that would unnecessarily consume context windows.
+
+## Why TreeIgnore?
+
+TreeIgnore is particularly valuable when working with AI tools and Large Language Models (LLMs). By respecting `.gitignore` patterns, it provides a clean, focused view of your project's actual source code and important files, filtering out:
+
+- Build artifacts and cache directories
+- Dependencies and virtual environments
+- IDE configuration files
+- System-specific files
+
+This focused output helps prevent context window bloat when sharing project structures with AI tools, ensuring they can focus on the relevant code and documentation rather than getting distracted by temporary or generated files.
+
+## Installation
+
+Install from PyPI:
+
+```bash
+pip install treeignore
+```
+
+For development, install directly from the repository:
+
+```bash
+git clone https://gitlab.com/CochainComplex/treeignore.git
+cd treeignore
+pip install -e .
+```
+
+## Usage
+
+Navigate to the base folder (the folder containing your `.gitignore` file) and run:
+
+```bash
+treeignore
+```
+
+The tool will display a tree-style view of your directory, filtering out any files or folders that match the patterns in the `.gitignore`.
+
+### Example Comparison
+
+Here's how a typical Python project looks with the standard `tree` command:
+
+```
+myproject/
+├── .git/
+│   ├── HEAD
+│   ├── config
+│   └── ... (many more files)
+├── .pytest_cache/
+│   └── ... (cache files)
+├── __pycache__/
+│   └── main.cpython-39.pyc
+├── venv/
+│   ├── bin/
+│   ├── lib/
+│   └── ... (hundreds of files)
+├── .gitignore
+├── main.py
+├── requirements.txt
+└── tests/
+    ├── __pycache__/
+    │   └── test_main.cpython-39-pytest.pyc
+    └── test_main.py
+```
+
+And here's the same project with `treeignore`:
+
+```
+myproject/
+├── .gitignore
+├── main.py
+├── requirements.txt
+└── tests/
+    └── test_main.py
+```
+
+As you can see, `treeignore` provides a clean view focusing only on the essential project files, making it perfect for documentation, project sharing, and AI tool interactions.
+
+## Development
+
+This project uses modern Python tooling:
+- `black` for code formatting
+- `isort` for import sorting
+- `mypy` for type checking
+
+To set up the development environment:
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install development dependencies:
+```bash
+pip install -e ".[dev]"
+```
+
+3. Build the package:
+```bash
+python -m build
+```
+
+4. Run tests:
+```bash
+python -m pytest
+```
+
+## Publishing to PyPI
+
+1. Build the distribution:
+```bash
+python -m build
+```
+
+2. Upload to PyPI:
+```bash
+python -m twine upload dist/*
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Alexander Warth - [warth.ai](https://warth.ai)
+
+## Links
+
+- [GitLab Repository](https://gitlab.com/CochainComplex/treeignore)
+- [Issue Tracker](https://gitlab.com/CochainComplex/treeignore/-/issues)
+- [PyPI Package](https://pypi.org/project/treeignore/)

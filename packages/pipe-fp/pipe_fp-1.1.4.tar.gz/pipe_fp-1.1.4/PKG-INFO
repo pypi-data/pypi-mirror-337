@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: pipe-fp
+Version: 1.1.4
+Summary: Functional piping for Python. ➡️
+License: MIT
+Keywords: python,utility,functional-programming,fp
+Author: A-4S
+Author-email: <dev.forsythe@gmail.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# ➡️ Pipe fp
+
+### Functional piping for Python.
+
+- Easy
+- Clear
+- Concise
+
+## Usage
+### Example
+
+```python
+from pipefp import pipe
+
+
+pipe(
+  str.lower,
+  str.title,
+  str.split
+)('WHY, HELLO THERE! 🐰')
+``` 
+### Returns
+
+```python
+['Why,', 'Hello', 'There!', '🐰']
+```
+

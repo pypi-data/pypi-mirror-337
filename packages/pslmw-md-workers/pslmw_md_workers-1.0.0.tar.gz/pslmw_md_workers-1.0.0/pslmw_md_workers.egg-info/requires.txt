@@ -1,0 +1,6 @@
+pslmw-md-toc
+pslmw-md-toc-files
+pslmw-md-toc-files-plus
+
+[test]
+pytest

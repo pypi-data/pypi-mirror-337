@@ -1,0 +1,3 @@
+[console_scripts]
+download_hmm = genefamily.download_hmm:main
+parse_longest_mrna = genefamily.parse_longest_mrna:main

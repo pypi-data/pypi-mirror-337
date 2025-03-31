@@ -1,0 +1,2 @@
+[console_scripts]
+gitctx = gitswitch.gitswitch:main

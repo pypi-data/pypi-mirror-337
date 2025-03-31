@@ -1,0 +1,9 @@
+zdpytools/__init__.py,sha256=1B_ertxyZNP2r0h6umsat0dSaUFFpaYQrnM8IsDK-DU,101
+zdpytools/feishu/__init__.py,sha256=iJjhWaEpTDiXnliIU6qs70S1lUxHtpuNBmwlATDUYkM,8334
+zdpytools/utils/__init__.py,sha256=AXcgKVQE_EOysVGdyHiTQBGE6lmszDH0o6WHy_gkb2w,55
+zdpytools/utils/log.py,sha256=nSTL6W4fLyi4kGPQlF0PiZ6fw3hcIWXvQZJa1TP4dmE,1016
+zdpytools-0.1.0.dist-info/licenses/LICENSE,sha256=N1KVEgZX_meOHOtnwEpapR1451wpU54hAISvpmHhZQo,1088
+zdpytools-0.1.0.dist-info/METADATA,sha256=TiL058UOcs9Si5E6S05utmDxpP68xPoSAsrMyD7mQew,1639
+zdpytools-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+zdpytools-0.1.0.dist-info/top_level.txt,sha256=RyRa9zZNEOLRnTXoovbHuEzDykbDHBt7N_RcujDEkT4,10
+zdpytools-0.1.0.dist-info/RECORD,,

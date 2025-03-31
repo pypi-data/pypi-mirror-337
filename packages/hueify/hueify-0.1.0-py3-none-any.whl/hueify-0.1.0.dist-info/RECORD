@@ -1,0 +1,10 @@
+hueify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hueify/bridge.py,sha256=EWnuXSNKcAU_8_-_QvOrs91oU8RxBm0G45aawS3v7_s,3358
+hueify/cli.py,sha256=5lvEDZAFSbacCW_qBP_ex_j39WBF1UkPcKWCsXNrtS8,949
+hueify/main.py,sha256=nCp7WiNSYRUIaErxaUj5DLxLwQ7SafaA61B7SGsdhpk,823
+hueify-0.1.0.dist-info/licenses/LICENSE,sha256=zOm3cRT1qD49eg7vgw95MI79rpUAZa1kRBFwL2FkAr8,1120
+hueify-0.1.0.dist-info/METADATA,sha256=0iE46hBOkOckA8lrV7YebfRVwxD0JVGCbtqd9lSXxt4,426
+hueify-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+hueify-0.1.0.dist-info/entry_points.txt,sha256=i9TNdxAdxkm5iDSy8zlGkxggm1pAmOVpFWKJTYtn32w,42
+hueify-0.1.0.dist-info/top_level.txt,sha256=1U44zHkw_EkWxTMvLD2LHKiiCuoD-z_boeEM-US8iNc,7
+hueify-0.1.0.dist-info/RECORD,,

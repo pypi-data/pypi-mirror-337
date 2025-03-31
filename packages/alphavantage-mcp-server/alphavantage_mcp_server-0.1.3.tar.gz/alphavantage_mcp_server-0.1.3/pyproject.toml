@@ -1,0 +1,17 @@
+[project]
+name = "alphavantage-mcp-server"
+version = "0.1.3"
+description = "Alphavantage MCP server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "bump2version>=1.0.1",
+    "load-dotenv>=0.1.0",
+    "mcp>=1.6.0",
+    "toml>=0.10.2",
+]
+
+[project.scripts]
+alphavantage-mcp-server = "alphavantage_mcp_server.server:main"
+

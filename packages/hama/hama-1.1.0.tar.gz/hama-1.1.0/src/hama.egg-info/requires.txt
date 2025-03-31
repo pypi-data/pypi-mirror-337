@@ -1,0 +1,7 @@
+wasmer==1.1.0
+wasmer-compiler-cranelift==1.1.0
+
+[dev]
+tox
+pytest
+tox-docker

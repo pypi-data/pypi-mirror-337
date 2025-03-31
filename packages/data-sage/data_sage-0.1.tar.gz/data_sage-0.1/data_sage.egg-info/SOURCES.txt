@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+EDAPro/__init__.py
+EDAPro/module.py
+data_sage.egg-info/PKG-INFO
+data_sage.egg-info/SOURCES.txt
+data_sage.egg-info/dependency_links.txt
+data_sage.egg-info/requires.txt
+data_sage.egg-info/top_level.txt

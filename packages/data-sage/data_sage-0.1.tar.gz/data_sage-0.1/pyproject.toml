@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_sage"
+version = "0.1"
+description = "A Python library with EDA helper functions"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+  { name = "aitechman", email = "aitechman@gmail.com" }
+]
+dependencies = [
+    "numpy",
+        "pandas",
+        "seaborn",
+        "matplotlib",
+        "scipy",
+        "statsmodels",
+        "scikit-learn",
+        "wordcloud",
+        "ipython"  
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sim-daas/EDAPro"

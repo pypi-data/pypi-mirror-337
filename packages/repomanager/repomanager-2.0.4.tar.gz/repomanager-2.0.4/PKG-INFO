@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: repomanager
+Version: 2.0.4
+Summary: Git Repository Manager
+Home-page: https://gitlab.incoresemi.com/utils/repomanager
+Author: InCore Semiconductors Pvt. Ltd.
+Author-email: info@incoresemi.com
+License: BSD-3-Clause
+Keywords: repomanager
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8.0
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Repomanager: Gitlab Repository Manager
+
+Repomanager is a command-line tool designed to automate the management of repositories projects. It supports various operations such as cleaning, updating, patching, and unpatching gitlab repositories based on a YAML configuration file.
+
+## Installation
+
+To install Repomanager from PyPI:
+```bash
+pip install repomanager
+```

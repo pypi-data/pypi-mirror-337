@@ -1,0 +1,11 @@
+grid_pixelator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grid_pixelator/commands.py,sha256=8eyCOQ96BsObiRkelbzf_PpTRKx42mqgx5tSbzCHw6A,1020
+grid_pixelator/image_label.py,sha256=7WuKggsvlNLf7d9qJX7pdtsOuZJyBDBnnfvwpNOjD4k,29061
+grid_pixelator/image_utils.py,sha256=GPd8Mm_AO1xg-dQEqPblSct09tCn9GluTN_w7VSkuAE,7860
+grid_pixelator/main_window.py,sha256=ncxRdBL_UfmB8hmWXWGC71oDovouXViAzZa1WZuqkf8,31755
+grid_pixelator-0.1.1.dist-info/licenses/LICENSE,sha256=IUxaqhdroG9zYPQPCe6FIcq1HDje9C2RXjcS_GS_udw,1064
+grid_pixelator-0.1.1.dist-info/METADATA,sha256=QNstgWY5Fgeqn1hY6DtLLRl8uDLYQ2DzbF6N-43Q9J8,5382
+grid_pixelator-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+grid_pixelator-0.1.1.dist-info/entry_points.txt,sha256=4ojSJ0Xkq407JlkklhuB9V-5Mpb8Ag6wxbWa8FPBx1s,63
+grid_pixelator-0.1.1.dist-info/top_level.txt,sha256=3m9fRsZggcO2gPb79lpGXocNMpnSS5k6nqniNSx-01Y,15
+grid_pixelator-0.1.1.dist-info/RECORD,,

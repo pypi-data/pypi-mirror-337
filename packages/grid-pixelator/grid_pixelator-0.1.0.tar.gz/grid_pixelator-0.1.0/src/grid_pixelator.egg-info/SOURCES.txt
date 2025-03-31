@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/grid_pixelator/__init__.py
+src/grid_pixelator/commands.py
+src/grid_pixelator/image_label.py
+src/grid_pixelator/image_utils.py
+src/grid_pixelator/main_window.py
+src/grid_pixelator.egg-info/PKG-INFO
+src/grid_pixelator.egg-info/SOURCES.txt
+src/grid_pixelator.egg-info/dependency_links.txt
+src/grid_pixelator.egg-info/entry_points.txt
+src/grid_pixelator.egg-info/requires.txt
+src/grid_pixelator.egg-info/top_level.txt

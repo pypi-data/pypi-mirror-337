@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+README_zh.md
+pyproject.toml
+eol_check/__init__.py
+eol_check/__main__.py
+eol_check/cli.py
+eol_check/core.py
+eol_check/ui.py
+eol_check.egg-info/PKG-INFO
+eol_check.egg-info/SOURCES.txt
+eol_check.egg-info/dependency_links.txt
+eol_check.egg-info/entry_points.txt
+eol_check.egg-info/requires.txt
+eol_check.egg-info/top_level.txt

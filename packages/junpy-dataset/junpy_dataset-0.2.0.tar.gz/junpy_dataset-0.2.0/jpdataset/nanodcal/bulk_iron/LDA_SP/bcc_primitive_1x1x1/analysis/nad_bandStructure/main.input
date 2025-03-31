@@ -1,0 +1,4 @@
+system.object = ../../NanodcalObject.mat
+calculation.name = bandStructure
+calculation.bandStructure.numberOfKPoints = 200
+calculation.bandStructure.energyRange = [-5, 9]

@@ -1,0 +1,6 @@
+system.object = ../../NanodcalObject.mat
+calculation.name = bandStructure
+calculation.bandStructure.symmetryKPoints = {'G', 'H', 'N', 'G', 'P', 'H', 'P', 'N'}
+calculation.bandStructure.numberOfKPoints = [21, 21, 21, 21, 21, 21, 21]
+calculation.bandStructure.energyRange = [-5, 10]
+calculation.bandStructure.isProjected = true

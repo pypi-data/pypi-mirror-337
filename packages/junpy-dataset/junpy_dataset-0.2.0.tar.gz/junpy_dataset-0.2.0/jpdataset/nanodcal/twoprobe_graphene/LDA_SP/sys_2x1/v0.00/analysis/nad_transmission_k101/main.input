@@ -1,0 +1,5 @@
+system.object = ../../NanodcalObject.mat
+calculation.control.energyUnit = eV
+calculation.name = transmission
+calculation.transmission.kSpaceGridNumber = [1 101 1]'
+calculation.transmission.energyPoints = [-4:0.1:4]

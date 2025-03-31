@@ -1,0 +1,5 @@
+calculation.control.energyUnit = eV
+calculation.name = IVCurve
+calculation.IVCurve.systemObjectFiles = {'../../NanodcalObject.mat'}
+calculation.IVCurve.kSpaceGridNumber = [1 1 1]'
+calculation.IVCurve.energyInterval = 0.02

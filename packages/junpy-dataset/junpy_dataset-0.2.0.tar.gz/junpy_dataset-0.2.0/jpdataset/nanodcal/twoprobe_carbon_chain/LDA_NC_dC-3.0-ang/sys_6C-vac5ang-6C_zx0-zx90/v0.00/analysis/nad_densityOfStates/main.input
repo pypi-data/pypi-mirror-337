@@ -1,0 +1,5 @@
+system.object = ../../NanodcalObject.mat
+calculation.control.energyUnit = eV
+calculation.name = densityOfStates
+calculation.densityOfStates.kSpaceGridNumber = [1 1 1]'
+calculation.densityOfStates.energyPoints = [-2:1:2]

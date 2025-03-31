@@ -1,0 +1,71 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                05-Oct-2023 16:10:59   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for density of states.
+
+The input file is main.input.
+
+The length unit used is Angstrom.
+The energy unit used is eV.
+
+
+System Summary:
+                          System Name: bulk_Fe_primitive
+                          System Type: periodic-3D, collinear spin
+           # of Atoms in Central Cell: 1
+ # of Electrons of Central Cell Atoms: 8
+     # of Basis of Central Cell Atoms: 15
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (-1.420000e+00, 1.420000e+00, 1.420000e+00)
+                   v2 = (1.420000e+00, -1.420000e+00, 1.420000e+00)
+                   v3 = (1.420000e+00, 1.420000e+00, -1.420000e+00)
+               realspace grid numbers: [24 24 24]
+                realspace grid volume: 0.0008285 Angstrom^3
+                 k-space grid numbers: [38 38 38]
+               electronic temperature: 100 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the density of states, using the green function method ......
+------ calculation of the density of states finished. time used: 000:00:25
+
+saving calculated results ...... :: finished. time used: 000:00:00
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:00:25
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                05-Oct-2023 16:11:25   ##########
+###########################################################################
+
+
+

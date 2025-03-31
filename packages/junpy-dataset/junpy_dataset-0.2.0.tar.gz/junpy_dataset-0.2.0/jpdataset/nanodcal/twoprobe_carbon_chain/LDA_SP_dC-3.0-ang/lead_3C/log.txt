@@ -1,0 +1,110 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                10-Sep-2022 20:00:09   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for self consistent field.
+
+The input file is scf.input.
+
+The length unit used is Angstrom.
+The energy unit used is eV.
+
+
+initialization of the object ......
+        loading neutral atomic data ......
+            data file loaded: /work/lise/work2022_nanodcal/6_junpy-dataset-2/twoprobe_carbon_chain/LDA_basis/C_DZP.nad
+        ------ finished. time used: 000:00:00
+        calculating adjacent matrix ...... :: finished. time used: 000:00:00
+------ calculation of initialization finished. time used: 000:00:01
+
+
+System Summary:
+                          System Name: carbon-chain_lead
+                          System Type: periodic-1D, collinear spin
+           # of Atoms in Central Cell: 3
+ # of Electrons of Central Cell Atoms: 12
+     # of Basis of Central Cell Atoms: 39
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (2.000000e+01, 0.000000e+00, 0.000000e+00)
+                   v2 = (0.000000e+00, 2.000000e+01, 0.000000e+00)
+                   v3 = (0.000000e+00, 0.000000e+00, 9.000000e+00)
+               realspace grid numbers: [208 208 96]
+                realspace grid volume: 0.00086677 Angstrom^3
+                 k-space grid numbers: [1 1 51]
+               electronic temperature: 100 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the rigid atomic field ......
+        calculating S, T, and Vnl ...... :: finished. time used: 000:00:01
+        calculating Vna ...... :: finished. time used: 000:00:00
+        calculating Rpc ....... :: finished. time used: 000:00:00
+        calculating Rna & initial Rho ...... :: finished. time used: 000:00:00
+        calculating real space XC potential ...... :: finished. time used: 000:00:01
+        calculating real space Veff ...... :: finished. time used: 000:00:00
+        constructing static part of H ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix ...... :: finished. time used: 000:00:00
+        constructing Hamiltonian ...... :: finished. time used: 000:00:00
+------ calculation of rigidAtomicField finished. time used: 000:00:03
+
+
+calculation of the self-consistent field ......
+    Some parameters used:
+          The calculation is starting from hamiltonian matrix.
+          The physical quantity to be mixed is hamiltonian matrix.
+          The mixing is performed by class cMixerPulay.
+    Self-Consistent Loops:
+    Loop #        time         hMatrix       rhoMatrix     totalEnergy      bandEnergy      gridCharge   orbitalCharge       spinPolar
+         1   000:00:04      8.4683E-02      0.0000E+00     -1.1427E+02     -1.1989E+02      6.5757E-05      5.3291E-14      5.0000E-01
+         2   000:00:04      7.2795E-02      1.7359E-04     -3.9006E-03      2.3374E-01      6.5875E-05      1.3323E-13      5.0000E-01
+         3   000:00:04      4.7073E-03      1.0288E-03     -1.0884E-02      1.4051E+00      6.6579E-05      1.7764E-14      5.0000E-01
+         4   000:00:04      1.2509E-03      1.7592E-04     -2.2471E-04     -7.7331E-03      6.6592E-05     -1.4211E-13      5.0000E-01
+         5   000:00:04      2.5526E-04      1.9721E-05     -2.5940E-06     -1.4388E-02      6.6584E-05      6.3949E-14      5.0000E-01
+         6   000:00:05      7.4392E-05      1.0416E-05      5.9921E-06      9.4670E-04      6.6586E-05      2.7534E-13      5.0000E-01
+         7   000:00:04      2.5677E-05      6.9299E-07     -2.6533E-07      6.0828E-04      6.6586E-05     -5.6843E-14      5.0000E-01
+         8   000:00:04      3.9032E-07      5.6610E-07     -4.1800E-08      3.8047E-05      6.6586E-05      1.9362E-13      5.0000E-01
+         9   000:00:04      7.5986E-07      1.5258E-08      1.9847E-10      9.6937E-06      6.6586E-05      3.5527E-14      5.0000E-01
+        10   000:00:04      2.5165E-07      1.2087E-08     -1.6338E-11     -6.0417E-06      6.6586E-05     -3.5527E-14      5.0000E-01
+        11   000:00:04      2.8996E-08      5.9852E-09      1.5772E-09      5.9883E-07      6.6586E-05     -2.4691E-13      5.0000E-01
+        12   000:00:04      2.6481E-08      4.1321E-10     -1.0866E-10     -7.8539E-08      6.6586E-05      2.1139E-13      5.0000E-01
+------ calculation of the self-consistent field finished. total energy = -441.5385. time used: 000:00:53
+
+saving calculated results ...... :: finished. time used: 000:00:06
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:01:03
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                10-Sep-2022 20:01:14   ##########
+###########################################################################
+
+
+

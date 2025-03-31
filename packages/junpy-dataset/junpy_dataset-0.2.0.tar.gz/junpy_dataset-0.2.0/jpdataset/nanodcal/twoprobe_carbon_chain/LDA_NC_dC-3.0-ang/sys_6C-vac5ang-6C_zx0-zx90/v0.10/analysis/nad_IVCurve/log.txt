@@ -1,0 +1,68 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                10-Sep-2022 22:24:44   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for current-voltage curves.
+
+The input file is main.input.
+
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of current-voltage curves ......
+
+        calculating with applied voltages [0        -0.1] ......
+
+calculation of the conductance, using the green function method ......
+
+calculation of the transmission coefficients, using the green function method ......
+        n=1, k=(0.000000e+00,0.000000e+00,0.000000e+00), e=1.723914e-04
+        n=2, k=(0.000000e+00,0.000000e+00,0.000000e+00), e=8.480471e-04
+        n=3, k=(0.000000e+00,0.000000e+00,0.000000e+00), e=1.837466e-03
+        n=4, k=(0.000000e+00,0.000000e+00,0.000000e+00), e=2.826886e-03
+        n=5, k=(0.000000e+00,0.000000e+00,0.000000e+00), e=3.502541e-03
+------ calculation of the transmission coefficients finished. time used: 000:00:01
+
+------ calculation of the conductance finished. time used: 000:00:01
+
+
+        calculating with applied voltages [0        -0.1] finished. time used: 000:00:02
+
+------ calculation of current-voltage curves finished. time used: 000:00:10
+
+saving calculated results ...... :: finished. time used: 000:00:00
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:00:10
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                10-Sep-2022 22:24:55   ##########
+###########################################################################
+
+
+

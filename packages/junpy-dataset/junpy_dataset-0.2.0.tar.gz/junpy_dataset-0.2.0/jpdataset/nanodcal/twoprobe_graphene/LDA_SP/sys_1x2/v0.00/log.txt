@@ -1,0 +1,166 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                12-Sep-2022 19:40:07   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for self consistent field.
+
+The input file is scf.input.
+
+The length unit used is Angstrom.
+The energy unit used is eV.
+
+
+initialization of the object ......
+        loading lead object data ......
+            data file loaded: ../../lead_1x1/NanodcalObject.mat
+        ------ finished. time used: 000:00:00
+        replicating the lead system ......
+            the lead system has been replicated by a factor of [1  2  1]
+        ------ finished. time used: 000:00:00
+        loading neutral atomic data ......
+            data file loaded: /work/lise/work2022_nanodcal/6_junpy-dataset-2/graphene/LDA_basis/C_DZP.nad
+        ------ finished. time used: 000:00:00
+        calculating adjacent matrix ...... :: finished. time used: 000:00:00
+------ calculation of initialization finished. time used: 000:00:04
+
+
+System Summary:
+                          System Name: graphene_twoprobe
+                          System Type: 2 probe, 2D lead, collinear spin
+                           # of Leads: 2
+                       Type of Lead 1: bottom
+            Voltage Applied on Lead 1: 0
+             Spin Direction of Lead 1: [0  0  1]
+                       Type of Lead 2: top
+            Voltage Applied on Lead 2: 0
+             Spin Direction of Lead 2: [0  0  1]
+           # of Atoms in Central Cell: 8
+ # of Electrons of Central Cell Atoms: 32
+     # of Basis of Central Cell Atoms: 104
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (2.459512e+00, 0.000000e+00, 0.000000e+00)
+                   v2 = (0.000000e+00, 8.520000e+00, 0.000000e+00)
+                   v3 = (0.000000e+00, 0.000000e+00, 2.000000e+01)
+               realspace grid numbers: [16 52 120]
+                realspace grid volume: 0.0041977 Angstrom^3
+                 k-space grid numbers: [34 1 1]
+         e-point # on complex contour: 40
+    lowest e-point on complex contour: -76.5906
+               electronic temperature: 0 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the rigid atomic field ......
+        calculating S, T, and Vnl ...... :: finished. time used: 000:00:02
+        calculating Vna ...... :: finished. time used: 000:00:01
+        calculating Rpc ....... :: finished. time used: 000:00:00
+        calculating Rna & initial Rho ...... :: finished. time used: 000:00:00
+        calculating real space XC potential ...... :: finished. time used: 000:00:00
+        calculating real space Vdh ...... :: finished. time used: 000:00:00
+        calculating real space Veff ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix, the leads part ...... :: finished. time used: 000:00:01
+        constructing static part of H ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix ...... :: finished. time used: 000:00:00
+        constructing Hamiltonian ...... :: finished. time used: 000:00:00
+------ calculation of rigidAtomicField finished. time used: 000:00:06
+
+
+calculation of the self-consistent field ......
+    Some parameters used:
+          The calculation is starting from hamiltonian matrix.
+          The physical quantity to be mixed is hamiltonian matrix.
+          The mixing is performed by class cMixerPulay.
+    Self-Consistent Loops:
+    Loop #        time         hMatrix       rhoMatrix     totalEnergy      bandEnergy      gridCharge   orbitalCharge       spinPolar
+         1   000:00:46      7.5364E-02      0.0000E+00     -2.7223E+02     -3.3471E+02     -1.2223E-01     -6.7413E-01      3.5112E-02
+         2   000:00:19      7.1867E-02      8.1232E-05     -5.2197E-01      1.9017E+00     -1.1592E-01     -6.3557E-01      3.3926E-02
+         3   000:00:20      1.8410E-02      7.0230E-04     -6.4464E+00      3.7097E+01     -5.6828E-03     -1.2231E-01      1.8911E-02
+         4   000:00:18      6.9356E-02      2.5799E-04     -3.5407E+00      4.5384E+01      1.2004E-01      2.3039E-01      8.2693E-03
+         5   000:00:18      1.9381E-02      8.4921E-05      9.2914E-01     -3.1852E+01      4.3420E-02      9.4431E-02      4.3851E-03
+         6   000:00:18      7.9062E-02      9.2718E-05     -1.4470E+00      3.7738E+01      1.4128E-01      2.8167E-01      8.6131E-04
+         7   000:00:18      6.9886E-03      1.0378E-04      1.9733E+00     -4.4424E+01      1.5741E-02      3.5711E-02      5.2974E-04
+         8   000:00:18      2.4909E-03      7.2162E-06      1.3455E-01     -2.6755E+00      8.3026E-03      2.0913E-02      3.3566E-04
+         9   000:00:18      7.9218E-04      6.2341E-06      3.4303E-02     -1.7906E+00      2.4743E-03      1.5001E-02      3.5343E-04
+        10   000:00:18      4.8117E-04      1.4529E-06     -2.7994E-02      5.0075E-01      3.8689E-03      1.7994E-02      3.5143E-04
+        11   000:00:19      3.5913E-04      8.3318E-06     -3.8501E-02     -3.5945E-02      4.6424E-03      2.1810E-02      1.2902E-04
+        12   000:00:18      1.4379E-04      1.2136E-06      4.5073E-03     -1.8301E-01      4.2337E-03      2.1263E-02      1.0119E-04
+        13   000:00:18      1.2828E-04      6.5197E-07     -2.4228E-03      8.7957E-04      4.3025E-03      2.1500E-02      7.6736E-05
+        14   000:00:18      1.0017E-04      1.4972E-06     -1.3340E-03     -8.0927E-03      4.2644E-03      2.1638E-02      1.3561E-05
+        15   000:00:18      9.7845E-05      3.8326E-08      1.8773E-04      2.8305E-05      4.2569E-03      2.1620E-02      1.2854E-05
+        16   000:00:18      5.5366E-05      9.9236E-07     -1.8743E-05     -8.1042E-04      4.2529E-03      2.1632E-02      2.3462E-05
+        17   000:00:18      5.4756E-05      5.8423E-08     -1.7139E-04     -1.0933E-04      4.2535E-03      2.1646E-02      2.2620E-05
+        18   000:00:18      3.0612E-05      1.3080E-06     -6.0860E-03      4.6092E-03      4.2391E-03      2.2092E-02      7.2009E-06
+        19   000:00:18      2.9929E-05      1.6385E-08      2.5760E-05     -7.4603E-05      4.2370E-03      2.2087E-02      7.2527E-06
+        20   000:00:18      1.4816E-05      2.7961E-07      8.5204E-04     -8.9785E-03      4.1877E-03      2.1983E-02      1.3805E-05
+        21   000:00:18      1.4599E-05      9.1948E-09      4.1661E-05     -4.6302E-05      4.1867E-03      2.1979E-02      1.3841E-05
+        22   000:00:18      1.2272E-05      1.2864E-07      8.9906E-04      1.0473E-03      4.1749E-03      2.1899E-02      1.0783E-05
+        23   000:00:18      1.2048E-05      1.7516E-08      3.8182E-05      5.9208E-05      4.1751E-03      2.1896E-02      1.0393E-05
+        24   000:00:18      9.1564E-06      8.0268E-08     -1.3692E-04      2.2341E-04      4.1797E-03      2.1906E-02      9.4341E-06
+        25   000:00:18      9.0740E-06      9.4662E-09      1.4830E-05      5.7958E-05      4.1796E-03      2.1905E-02      9.3353E-06
+        26   000:00:18      6.8529E-06      2.1356E-07      1.1113E-03      9.2935E-04      4.1725E-03      2.1810E-02      4.4608E-06
+        27   000:00:18      6.7747E-06      9.8627E-09      2.5785E-05     -2.5956E-05      4.1725E-03      2.1808E-02      4.3677E-06
+        28   000:00:18      3.5042E-06      1.5865E-07      6.8622E-04      5.1418E-04      4.1755E-03      2.1758E-02      8.4637E-07
+        29   000:00:19      3.4286E-06      8.0046E-09      4.2991E-06      2.9715E-05      4.1757E-03      2.1758E-02      7.6636E-07
+        30   000:00:18      1.9237E-06      4.6164E-08     -5.8429E-05      3.5431E-04      4.1808E-03      2.1765E-02      5.4796E-07
+        31   000:00:18      1.8830E-06      4.5222E-09     -8.3741E-06     -7.5255E-07      4.1809E-03      2.1766E-02      5.4169E-07
+        32   000:00:18      1.5891E-06      2.0883E-08     -4.8455E-06      1.5552E-04      4.1809E-03      2.1766E-02      8.0261E-07
+        33   000:00:18      1.5748E-06      5.7561E-09      4.2875E-06     -2.0717E-06      4.1809E-03      2.1766E-02      8.3142E-07
+        34   000:00:18      1.4383E-06      1.6821E-08      1.8293E-05     -2.0594E-04      4.1809E-03      2.1765E-02      9.5711E-07
+        35   000:00:18      1.4229E-06      3.6656E-09     -1.8217E-06      3.0431E-07      4.1810E-03      2.1765E-02      9.6327E-07
+        36   000:00:18      1.1879E-06      1.4861E-08     -9.3550E-05      1.1542E-04      4.1824E-03      2.1774E-02      1.0099E-06
+        37   000:00:18      1.1783E-06      4.0745E-09     -6.9675E-06     -4.6325E-06      4.1824E-03      2.1774E-02      9.9720E-07
+        38   000:00:18      6.8010E-07      3.2213E-08     -2.2295E-04     -2.6698E-04      4.1824E-03      2.1792E-02      3.6217E-07
+        39   000:00:18      6.6923E-07      2.7578E-09     -1.1566E-06     -2.1488E-07      4.1824E-03      2.1792E-02      3.5609E-07
+        40   000:00:17      5.3108E-07      8.1012E-09     -2.2878E-08     -5.3308E-05      4.1818E-03      2.1792E-02      2.5194E-07
+        41   000:00:18      5.2415E-07      2.9706E-09     -6.2217E-07     -6.0077E-06      4.1818E-03      2.1792E-02      2.4411E-07
+        42   000:00:18      4.4658E-07      6.8993E-09     -1.3736E-05     -1.1417E-06      4.1820E-03      2.1793E-02      1.7537E-07
+        43   000:00:18      4.4334E-07      2.9320E-09     -1.9806E-06      2.9026E-06      4.1821E-03      2.1793E-02      1.7186E-07
+        44   000:00:18      4.2666E-07      7.9974E-09     -2.6053E-05     -1.6076E-05      4.1822E-03      2.1796E-02      9.8387E-08
+        45   000:00:19      4.2451E-07      4.0911E-09     -3.7459E-06     -5.1918E-06      4.1822E-03      2.1796E-02      8.1723E-08
+        46   000:00:18      3.8627E-07      5.9212E-09      4.9388E-06      8.2337E-06      4.1820E-03      2.1795E-02      3.0879E-08
+        47   000:00:18      3.8031E-07      2.6365E-09      1.7132E-06     -4.3196E-07      4.1819E-03      2.1795E-02      2.8858E-08
+        48   000:00:18      2.9352E-07      5.9572E-09      1.8736E-05     -2.4276E-05      4.1819E-03      2.1794E-02      4.1467E-09
+        49   000:00:18      2.9013E-07      2.2723E-09      7.0807E-07      2.1065E-06      4.1819E-03      2.1794E-02      4.7495E-09
+        50   000:00:18      2.3678E-07      5.3797E-09      8.2710E-06      5.4248E-05      4.1821E-03      2.1793E-02      2.0126E-08
+        51   000:00:18      2.3450E-07      2.5316E-09      1.6601E-08     -6.0211E-08      4.1821E-03      2.1793E-02      2.2078E-08
+------ calculation of the self-consistent field finished. total energy = -6298.1636. time used: 000:15:56
+
+saving calculated results ...... :: finished. time used: 000:00:06
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:16:10
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                12-Sep-2022 19:56:22   ##########
+###########################################################################
+
+
+

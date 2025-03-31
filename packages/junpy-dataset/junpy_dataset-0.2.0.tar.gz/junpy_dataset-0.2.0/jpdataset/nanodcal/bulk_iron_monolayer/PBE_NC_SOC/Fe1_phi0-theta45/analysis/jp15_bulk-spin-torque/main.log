@@ -1,0 +1,62 @@
+JunPy version---------------------------: 0.14.0.post46+gd5d7e778c
+Parallelization information
+    BLAS Vendor-----------------------------: MKL
+    Total number of MPI processes-----------: 20
+    OMP_NUM_THREADS-------------------------: 1
+    MKL_NUM_THREADS-------------------------: unset
+    OPENBLAS_NUM_THREADS--------------------: unset
+Calculating bulk spin torque... (2023-10-09 23:20:03)
+    Device information
+        numberOfSites---------------------------: 1
+        spinType--------------------------------: SpinType.GeneralSpin
+    Energy sampling (equilibrium)
+        samplingName----------------------------: SemiCircleContourEnergySampling
+        range-----------------------------------: [-3.0000e+01+7.1707e-02j, -6.1022e-01+7.1707e-02j]
+        number----------------------------------: 30
+        temperature-----------------------------: 0.0
+        chemicalPotential-----------------------: -0.6100421184876043
+        circlePoints----------------------------: 30
+        lowestEnergy----------------------------: -30
+    K-space sampling
+        samplingName----------------------------: UniformKspaceSampling
+        gridNumber------------------------------: (100, 100, 1)
+        isTimeReversalSymmetry------------------: False
+        numReducedKpoints-----------------------: 10201
+    Runtime message
+        Integrate over energy and k-space...
+            Start MPI execution...
+            -->   5.0% finished (Elapsed time: 0:00:03.570952)
+            -->  10.0% finished (Elapsed time: 0:00:03.564039)
+            -->  15.0% finished (Elapsed time: 0:00:03.561019)
+            -->  20.0% finished (Elapsed time: 0:00:03.560922)
+            -->  25.0% finished (Elapsed time: 0:00:03.551888)
+            -->  30.0% finished (Elapsed time: 0:00:03.552063)
+            -->  35.0% finished (Elapsed time: 0:00:03.551822)
+            -->  40.0% finished (Elapsed time: 0:00:03.555275)
+            -->  45.0% finished (Elapsed time: 0:00:03.554060)
+            -->  50.0% finished (Elapsed time: 0:00:03.549814)
+            -->  55.0% finished (Elapsed time: 0:00:03.551810)
+            -->  60.0% finished (Elapsed time: 0:00:03.554652)
+            -->  65.0% finished (Elapsed time: 0:00:03.553918)
+            -->  70.0% finished (Elapsed time: 0:00:03.550632)
+            -->  75.0% finished (Elapsed time: 0:00:03.552197)
+            -->  80.0% finished (Elapsed time: 0:00:03.553279)
+            -->  85.0% finished (Elapsed time: 0:00:03.553217)
+            -->  90.0% finished (Elapsed time: 0:00:03.549897)
+            -->  95.0% finished (Elapsed time: 0:00:03.555001)
+            --> 100.0% finished (Elapsed time: 0:00:03.555913)
+            Wait for other processes...
+            --> finished (Elapsed time: 0:00:00.271839)
+            Gather results from other processes...
+            --> finished (Elapsed time: 0:00:00.000436)
+    Report of the spin accumulation (Hamiltonian = H)
+                 Site         Ax_eV         Ay_eV         Az_eV
+         0.000000e+00 -1.690125e-17  1.472482e-17  7.334798e-18
+    Report of the spin torque (Hamiltonian = Hxc)
+                 Site         Tx_eV         Ty_eV         Tz_eV
+         0.000000e+00 -4.968999e-17  7.107151e-04  9.296715e-17
+    Report of the spin torque (Hamiltonian = Hso)
+                 Site         Tx_eV         Ty_eV         Tz_eV
+         0.000000e+00  4.769469e-17 -7.107151e-04 -9.235630e-17
+Calculation of bulk spin torque finished (2023-10-09 23:21:17)
+Elapsed time----------------------------: 0:01:14.276232

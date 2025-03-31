@@ -1,0 +1,80 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                13-Sep-2022 03:13:50   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for density of states.
+
+The input file is main.input.
+
+The length unit used is Angstrom.
+The energy unit used is eV.
+
+
+System Summary:
+                          System Name: graphene_twoprobe
+                          System Type: 2 probe, 2D lead, collinear spin
+                           # of Leads: 2
+                       Type of Lead 1: bottom
+            Voltage Applied on Lead 1: 0
+             Spin Direction of Lead 1: [0  0  1]
+                       Type of Lead 2: top
+            Voltage Applied on Lead 2: 0
+             Spin Direction of Lead 2: [0  0  1]
+           # of Atoms in Central Cell: 8
+ # of Electrons of Central Cell Atoms: 32
+     # of Basis of Central Cell Atoms: 104
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (2.459512e+00, 0.000000e+00, 0.000000e+00)
+                   v2 = (0.000000e+00, 8.520000e+00, 0.000000e+00)
+                   v3 = (0.000000e+00, 0.000000e+00, 2.000000e+01)
+               realspace grid numbers: [16 52 120]
+                realspace grid volume: 0.0041977 Angstrom^3
+                 k-space grid numbers: [34 1 1]
+         e-point # on complex contour: 40
+    lowest e-point on complex contour: -76.5906
+               electronic temperature: 0 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the density of states, using the green function method ......
+------ calculation of the density of states finished. time used: 000:00:13
+
+saving calculated results ...... :: finished. time used: 000:00:00
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:00:14
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                13-Sep-2022 03:14:04   ##########
+###########################################################################
+
+
+

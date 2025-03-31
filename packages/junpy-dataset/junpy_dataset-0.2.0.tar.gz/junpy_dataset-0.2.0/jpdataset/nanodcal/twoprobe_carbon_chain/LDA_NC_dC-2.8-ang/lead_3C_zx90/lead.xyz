@@ -1,0 +1,5 @@
+         3
+  AtomType        X        Y        Z     SpinPolarization_r SpinPolarization_theta SpinPolarization_phi
+         C    10.00    10.00     1.40     0.5  90.0  0.0
+         C    10.00    10.00     4.20     0.5  90.0  0.0
+         C    10.00    10.00     7.00     0.5  90.0  0.0

@@ -1,0 +1,37 @@
+
+# Descriptive name for the system
+system.name = carbon-chain_lead
+
+# Format for input and output of information
+calculation.control.energyUnit = eV
+calculation.control.lengthUnit = angstrom
+
+# Quantum mechanical description
+system.spinType = GeneralSpin
+system.orbitalType = DZP
+system.neutralAtomDataDirectory = ../../LDA_basis
+
+# Positions and chemical species of the atoms
+system.centralCellVectors = [20.0, 20.0, 8.4]
+system.atomFile = ./lead.xyz
+
+# Control parameters
+calculation.xcFunctional.Type = LDA_PZ81
+
+## What quantities should be calculated
+calculation.name = scf
+
+## Accuracy of the calculation
+calculation.control.precision = high
+calculation.k_spacegrids.number = [1 1 51]'
+
+## Speed of convergence of the algorithms
+calculation.SCF.startingMode = H
+calculation.SCF.mixingMode = H
+calculation.SCF.mixMethod = Pulay
+calculation.SCF.mixRate = 0.1
+calculation.SCF.maximumSteps = 200
+calculation.SCF.monitoredVariableName = {'hMatrix','rhoMatrix','totalEnergy','bandEnergy','gridCharge','orbitalCharge','spinPolar'}
+calculation.SCF.convergenceCriteria = {1e-7, 1e-7, 1e-7, 1e-7, [], [], []}
+calculation.SCF.donatorObject = ./NanodcalObject.mat
+

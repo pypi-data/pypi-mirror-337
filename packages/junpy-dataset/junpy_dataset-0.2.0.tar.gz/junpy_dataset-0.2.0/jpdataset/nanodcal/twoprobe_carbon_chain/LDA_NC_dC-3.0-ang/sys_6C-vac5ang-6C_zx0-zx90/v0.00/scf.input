@@ -1,0 +1,47 @@
+
+# Descriptive name for the system
+system.name = carbon-chain
+
+# Format for input and output of information
+calculation.control.energyUnit = eV
+calculation.control.lengthUnit = angstrom
+
+# Quantum mechanical description
+system.spinType = GeneralSpin
+system.orbitalType = DZP
+system.neutralAtomDataDirectory = ../../../LDA_basis
+
+# Positions and chemical species of the atoms
+system.centralCellVectors = [20.0, 20.0, 38.0]
+system.atomFile = ../center.xyz
+
+# Leads information
+system.numberOfLeads = 2
+system.typeOfLead1 = Left
+system.voltageOfLead1 = 0.0
+system.objectOfLead1 = ../../lead_3C_zx0/NanodcalObject.mat
+system.typeOfLead2 = Right
+system.voltageOfLead2 = 0.0
+system.objectOfLead2 = ../../lead_3C_zx90/NanodcalObject.mat
+
+# Exchange-correlation functional
+calculation.xcFunctional.Type = LDA_PZ81
+
+# What quantities should be calculated
+calculation.name = scf
+
+# Accuracy of the calculation
+calculation.control.precision = normal
+calculation.complexEcontour.numberOfPoints = 120
+calculation.realEcontour.etaGF = 0
+
+# Speed of convergence of the algorithms
+calculation.SCF.startingMode = H
+calculation.SCF.mixingMode = H
+calculation.SCF.mixMethod = Pulay
+calculation.SCF.mixRate = 0.003
+calculation.SCF.maximumSteps = 150
+calculation.SCF.monitoredVariableName = {'hMatrix','rhoMatrix','totalEnergy','bandEnergy','gridCharge','orbitalCharge','spinPolar'}
+calculation.SCF.convergenceCriteria = {1e-6, 1e-6, 1e-6, 1e-6, [], [], []}
+calculation.SCF.donatorObject = ./NanodcalObject.mat
+

@@ -1,0 +1,113 @@
+
+
+
+###########################################################################
+##########   Welcome to work with nanodcal (Version 2020B).      ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                09-Sep-2022 03:48:42   ##########
+###########################################################################
+
+###################### How to cite Nanodcal ###############################
+###    J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).  ###
+###         https://doi.org/10.1103/PhysRevB.63.245407                  ###
+###########################################################################
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This is a parallel calculation on 4 processes for self consistent field.
+
+The input file is scf.input.
+
+The length unit used is Angstrom.
+The energy unit used is eV.
+
+
+initialization of the object ......
+        loading neutral atomic data ......
+            data file loaded: /work/lise/work2022_nanodcal/6_junpy-dataset-2/twoprobe_carbon_chain/LDA_basis/C_DZP.nad
+        ------ finished. time used: 000:00:00
+        calculating adjacent matrix ...... :: finished. time used: 000:00:00
+------ calculation of initialization finished. time used: 000:00:01
+
+
+System Summary:
+                          System Name: carbon-chain_lead
+                          System Type: periodic-1D, general spin
+           # of Atoms in Central Cell: 3
+ # of Electrons of Central Cell Atoms: 12
+     # of Basis of Central Cell Atoms: 78
+
+Parameters Summary:
+                   XC functional type: LDA_PZ81
+            central cell base vectors:
+                   v1 = (2.000000e+01, 0.000000e+00, 0.000000e+00)
+                   v2 = (0.000000e+00, 2.000000e+01, 0.000000e+00)
+                   v3 = (0.000000e+00, 0.000000e+00, 9.000000e+00)
+               realspace grid numbers: [208 208 96]
+                realspace grid volume: 0.00086677 Angstrom^3
+                 k-space grid numbers: [1 1 51]
+               electronic temperature: 100 K
+
+
+Starting the calculations ...... ...... ......
+
+
+
+calculation of the rigid atomic field ......
+        calculating S, T, and Vnl ...... :: finished. time used: 000:00:01
+        calculating Vna ...... :: finished. time used: 000:00:00
+        calculating Rpc ....... :: finished. time used: 000:00:00
+        calculating Rna & initial Rho ...... :: finished. time used: 000:00:00
+        calculating real space XC potential ...... :: finished. time used: 000:00:01
+        calculating real space Veff ...... :: finished. time used: 000:00:00
+        constructing static part of H ...... :: finished. time used: 000:00:00
+        calculating Veff Matrix ...... :: finished. time used: 000:00:00
+        constructing Hamiltonian ...... :: finished. time used: 000:00:00
+------ calculation of rigidAtomicField finished. time used: 000:00:03
+
+
+calculation of the self-consistent field ......
+    Some parameters used:
+          The calculation is starting from hamiltonian matrix.
+          The physical quantity to be mixed is hamiltonian matrix.
+          The mixing is performed by class cMixerPulay.
+    Self-Consistent Loops:
+    Loop #        time         hMatrix       rhoMatrix     totalEnergy      bandEnergy      gridCharge   orbitalCharge       spinPolar
+         1   000:00:05      8.4683E-02      0.0000E+00     -1.1427E+02     -1.1989E+02      6.5757E-05     -7.6383E-14      5.0000E-01
+         2   000:00:05      7.2795E-02      1.7031E-04     -3.9006E-03      2.3374E-01      6.5875E-05      2.5047E-13      5.0000E-01
+         3   000:00:05      4.7073E-03      1.0073E-03     -1.0884E-02      1.4051E+00      6.6579E-05      2.0073E-13      5.0000E-01
+         4   000:00:05      1.2509E-03      1.6445E-04     -2.2471E-04     -7.7331E-03      6.6592E-05     -8.1712E-14      5.0000E-01
+         5   000:00:05      2.5526E-04      1.8495E-05     -2.5940E-06     -1.4388E-02      6.6584E-05      1.9362E-13      5.0000E-01
+         6   000:00:06      7.2528E-05      1.2809E-05      5.9921E-06      9.4670E-04      6.6586E-05     -1.2790E-13      5.0000E-01
+         7   000:00:05      2.5868E-05      6.9668E-07     -2.6534E-07      6.0832E-04      6.6586E-05     -7.4607E-14      5.0000E-01
+         8   000:00:05      3.9233E-07      4.8160E-07     -4.1781E-08      3.8011E-05      6.6586E-05     -3.3218E-13      5.0000E-01
+         9   000:00:05      5.1623E-07      1.0506E-08     -1.6560E-10      7.4126E-06      6.6586E-05      2.7889E-13      5.0000E-01
+        10   000:00:05      2.6477E-07      7.6850E-09     -1.0683E-10     -3.8345E-06      6.6586E-05     -2.3981E-13      5.0000E-01
+        11   000:00:05      3.9718E-08      8.5176E-09      2.1068E-09      8.0332E-07      6.6586E-05     -4.2633E-14      5.0000E-01
+        12   000:00:05      3.6778E-08      7.0996E-10     -1.9403E-10     -1.2257E-07      6.6586E-05      1.3678E-13      5.0000E-01
+        13   000:00:05      2.4665E-08      1.9317E-09     -6.5526E-10     -4.1580E-07      6.6586E-05     -2.8599E-13      5.0000E-01
+        14   000:00:05      9.8444E-09      1.3262E-09      4.4257E-10      1.0212E-07      6.6586E-05     -2.7534E-13      5.0000E-01
+        15   000:00:05      8.4987E-09      3.2453E-10      4.1280E-11      3.9663E-09      6.6586E-05      2.7178E-13      5.0000E-01
+------ calculation of the self-consistent field finished. total energy = -441.5385. time used: 000:01:19
+
+saving calculated results ...... :: finished. time used: 000:00:07
+
+
+------ ------ ------ All the calculations have been finished. time used: 000:01:30
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+###########################################################################
+##########   Thanks for using nanodcal. See you next time.       ##########
+##########     ---- Hongzhiwei Technology (Shanghai) Co., LTD.   ##########
+##########                                09-Sep-2022 03:50:14   ##########
+###########################################################################
+
+
+

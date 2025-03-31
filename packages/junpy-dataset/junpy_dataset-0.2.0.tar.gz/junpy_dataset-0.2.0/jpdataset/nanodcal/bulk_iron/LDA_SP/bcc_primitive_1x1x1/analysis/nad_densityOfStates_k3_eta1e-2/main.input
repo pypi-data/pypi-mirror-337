@@ -1,0 +1,8 @@
+system.object = ../../NanodcalObject.mat
+calculation.control.energyUnit = eV
+calculation.name = densityOfStates
+calculation.densityOfStates.method = GreenFunction
+calculation.densityOfStates.kSpaceGridNumber = [3 3 3]'
+calculation.densityOfStates.energyPoints = [-5:0.1:5]
+calculation.densityOfStates.whatProjected = Orbital
+calculation.densityOfStates.eta = 1e-2

@@ -1,0 +1,2 @@
+recursive-include edgeidx/tesseract *
+recursive-include edgeidx/tesseract/tessdata *

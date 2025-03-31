@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-events-google_pubsub/__init__.py
+src/corex-events-google_pubsub/handler.py
+src/corex_events_google_pubsub.egg-info/PKG-INFO
+src/corex_events_google_pubsub.egg-info/SOURCES.txt
+src/corex_events_google_pubsub.egg-info/dependency_links.txt
+src/corex_events_google_pubsub.egg-info/top_level.txt
+tests/test_handler.py

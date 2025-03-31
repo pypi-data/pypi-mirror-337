@@ -1,0 +1,9 @@
+build/*
+dist/*
+.idea
+**/.DS_Store
+docs/*
+#!docs/*.pdf
+#TODO.md
+tests/rect*
+.github/*

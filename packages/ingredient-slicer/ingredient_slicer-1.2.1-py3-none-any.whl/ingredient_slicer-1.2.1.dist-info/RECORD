@@ -1,0 +1,13 @@
+ingredient_slicer/__init__.py,sha256=t0g7AWLF4vLm5EiPg1NcOdSW0hzy2-UFnd9TAuQdLjc,830
+ingredient_slicer/_constants.py,sha256=q7JzY1tFiZSZwzPJoqaO6eqmhWiR2VbJOeQkDXraeMs,144056
+ingredient_slicer/_ingredient_slicer.py,sha256=wK4catQ-bDDVOSc7byUjgMx-VOcr37AGq3Vf9ygS4eM,58740
+ingredient_slicer/_regex_patterns.py,sha256=lH4KiN869Fwcjh_ysaWzk73DcgRAPdj1ZmL9DTgCRsY,52068
+ingredient_slicer/_utils.py,sha256=cze9phWQeKm_PPukuELz22l2cDhXzgX5i8h28L_hrtw,118825
+ingredient_slicer/standardizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingredient_slicer/standardizer/_ingredient_standardizer.py,sha256=Ptl6S0VN8NWDiiEdiBTg1dr_ZuYEZ71AMafwnQ3uvC4,2136
+ingredient_slicer/standardizer/_ingredient_standardizer_builder.py,sha256=k0IizmFKRc1mO-mIQyia-LM_2GypVn8ItOGUl8N0OMo,18068
+ingredient_slicer-1.2.1.dist-info/licenses/LICENSE,sha256=NiDLMsluMSFKXdxE8XMFmuAtJlrF9NFlZb_Ugwa75BI,1075
+ingredient_slicer-1.2.1.dist-info/METADATA,sha256=CbvGBUhM09eUi4_hHvqopbZOFFoK5LATqF_KonubZNs,3386
+ingredient_slicer-1.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ingredient_slicer-1.2.1.dist-info/top_level.txt,sha256=TRvBaWzxg7ctSV75sP2sdXX-PLJM42WKB270Dpl_QHI,18
+ingredient_slicer-1.2.1.dist-info/RECORD,,

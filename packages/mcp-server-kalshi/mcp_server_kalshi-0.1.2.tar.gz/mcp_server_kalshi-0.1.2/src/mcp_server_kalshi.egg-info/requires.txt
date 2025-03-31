@@ -1,0 +1,7 @@
+mcp>=1.6.0
+cryptography
+pydantic
+pydantic-settings
+
+[dev]
+black

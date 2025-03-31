@@ -1,0 +1,10 @@
+setup.py
+gretadistributions/Binomialdistribution.py
+gretadistributions/Gaussiandistribution.py
+gretadistributions/Generaldistribution.py
+gretadistributions/__init__.py
+gretadistributions.egg-info/PKG-INFO
+gretadistributions.egg-info/SOURCES.txt
+gretadistributions.egg-info/dependency_links.txt
+gretadistributions.egg-info/not-zip-safe
+gretadistributions.egg-info/top_level.txt

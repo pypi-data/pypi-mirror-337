@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+dataview = mkdocs_dataview.plugin:DataViewPlugin

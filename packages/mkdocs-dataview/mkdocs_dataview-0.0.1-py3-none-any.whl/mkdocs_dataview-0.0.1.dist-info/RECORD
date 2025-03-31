@@ -1,0 +1,10 @@
+mkdocs_dataview/__init__.py,sha256=Uau0DQbNDeKaaMwC3hZ-pA3na-fmfhqb4BdwgoU0ou4,68
+mkdocs_dataview/__main__.py,sha256=A61LtgPsFlODofA1eyb7p6CDUk83zn18GBWw-MuP5vI,235
+mkdocs_dataview/plugin.py,sha256=Rkc8T6f5u4E86IlQ2UsAsKkzFvh7TY78nt6XwvfpaTA,7631
+mkdocs_dataview/utils.py,sha256=TiVKCKHsujEMt5XS_HfCVkVu16iw7Vd1-nCoGKIv-Io,531
+mkdocs_dataview-0.0.1.dist-info/licenses/LICENSE,sha256=kM1iDg4U-l6l213hCgCa89RUS9aFEvWVOKHYW6M666Y,1074
+mkdocs_dataview-0.0.1.dist-info/METADATA,sha256=qnNRUXIcaYx29y9m_9f5JnMPxE8WKsamGbAMme3F_1U,1704
+mkdocs_dataview-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mkdocs_dataview-0.0.1.dist-info/entry_points.txt,sha256=LO8nAvPrSXSU99buFbieQVA2-Nki384Z1IfgUTWDG5A,66
+mkdocs_dataview-0.0.1.dist-info/top_level.txt,sha256=aJ1XZR94RWcBIU7EmhuyZHdGSTcm69SNIdaNxWZX7Y0,16
+mkdocs_dataview-0.0.1.dist-info/RECORD,,

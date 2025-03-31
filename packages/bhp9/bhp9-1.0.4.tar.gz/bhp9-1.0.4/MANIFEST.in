@@ -1,0 +1,2 @@
+include bhp/*.so
+include bhp/*.o

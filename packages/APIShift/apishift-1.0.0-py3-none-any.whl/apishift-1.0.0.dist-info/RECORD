@@ -1,0 +1,11 @@
+APIShift/__init__.py,sha256=SWRdv5zZIosqqyuJqwouVDFpBb6gIj_c9Y4Wh72M1-A,665
+APIShift/conversation.py,sha256=m-e7UXmhpzb8dy_Dy6tEGgNyu5cplEehG6F40K8u3_4,5625
+APIShift/exceptions.py,sha256=teLZbRYi4430y2cGC9BvHZLf1CmAJiPE3nXd8lBnCA0,1210
+APIShift/providers.py,sha256=ks1gTRxILmTkwQi39sQZm9nBJZKqVwONka5PCOMTaE0,10574
+apishift-1.0.0.dist-info/licenses/LICENSE,sha256=3bjqdgNesEPYAqRYQqmpv7NlTgic8A10K3LzBLKK4r0,1067
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_conversation.py,sha256=UaQ6osxHOp12WCYPU6J0bD8rbyFpM6HskzBauvFk1Ns,1421
+apishift-1.0.0.dist-info/METADATA,sha256=t81Pg-C4aYv2Q9lu41v4_zKiMVF8wFMeDkALoDMSuvQ,3664
+apishift-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+apishift-1.0.0.dist-info/top_level.txt,sha256=tIuyTfnC9v6KkawbKFJxFaPTZM9AK14kSJQDGuifSBw,15
+apishift-1.0.0.dist-info/RECORD,,

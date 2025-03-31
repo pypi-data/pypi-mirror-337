@@ -1,0 +1,107 @@
+Metadata-Version: 2.4
+Name: APIShift
+Version: 1.0.0
+Summary: A module that enables seamless interaction with multiple free-tier language model (LLM) providers.
+Home-page: https://github.com/Aditya190803/APIShift
+Author: Aditya190803
+Author-email: Aditya190803 <aditya.mer@somaiya.edu>
+License: MIT License
+        
+        Copyright (c) 2025 Aditya Mer
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Aditya190803/APIShift
+Project-URL: Repository, https://github.com/Aditya190803/APIShift
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: groq
+Requires-Dist: google-generativeai
+Requires-Dist: requests
+Requires-Dist: faiss-cpu
+Requires-Dist: sentence-transformers
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# APIShift
+
+## Overview
+
+APIShift is a Python package that enables seamless interaction with multiple free-tier language model (LLM) providers.
+
+## Installation
+
+```bash
+pip install APIShift
+```
+
+## Quick Start
+
+```python
+from APIShift import Conversation
+from APIShift import GeminiProvider, OpenRouterProvider
+
+# Initialize providers with API keys
+gemini_keys = ['your_gemini_api_key1', 'your_gemini_api_key2']
+openrouter_keys = ['your_openrouter_api_key1', 'your_openrouter_api_key2']
+
+# Create a conversation with multiple providers
+conversation = Conversation([
+    GeminiProvider(gemini_keys),
+    OpenRouterProvider(openrouter_keys)
+])
+
+# Send messages
+response = conversation.send_message("Hello, how are you?")
+print(response)
+```
+
+## Using FAISS for Context Retrieval
+
+APIShift now supports using FAISS for context retrieval. This allows you to add messages to a FAISS index and retrieve contextually relevant messages during a conversation.
+
+### Example
+
+```python
+from APIShift import Conversation
+from APIShift import GeminiProvider, OpenRouterProvider
+
+# Initialize providers with API keys
+gemini_keys = ['your_gemini_api_key1', 'your_gemini_api_key2']
+openrouter_keys = ['your_openrouter_api_key1', 'your_openrouter_api_key2']
+
+# Create a conversation with multiple providers
+conversation = Conversation([
+    GeminiProvider(gemini_keys),
+    OpenRouterProvider(openrouter_keys)
+])
+
+# Add messages to FAISS index
+conversation.add_to_faiss("Hello, how are you?")
+conversation.add_to_faiss("What is the weather like today?")
+
+# Send messages and retrieve context
+response = conversation.send_message("Tell me about the weather.")
+print(response)
+```
+
+## More details coming soon...

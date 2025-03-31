@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mocknet_ssh"
+version = "0.0.1"
+description = "A reusable SSH mock server framework for simulating network devices like Cisco IOS, Palo Alto PAN-OS, etc."
+authors = ["Sascha Schwarz <sascha@providerhoelle.de>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/SaschaSchwarzK/mocknet_ssh" 
+packages = [{ include = "mocknet_ssh" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncssh = "^2.20.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+mypy = "^1.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: hama
+Version: 1.1.0
+Summary: Client-side NLP for Korean and English
+Author-email: Seongmin Park <llov0708@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wasmer==1.1.0
+Requires-Dist: wasmer-compiler-cranelift==1.1.0
+Provides-Extra: dev
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: tox-docker; extra == "dev"

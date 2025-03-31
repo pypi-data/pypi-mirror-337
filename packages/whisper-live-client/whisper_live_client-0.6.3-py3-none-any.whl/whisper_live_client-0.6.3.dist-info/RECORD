@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=pw8xWMSjWIKJ9JujXvcUOfiAVk-e6xdo1ovO951ZpA8,6447
+whisper_live/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whisper_live/__version__.py,sha256=cRbTu4rZRpXDdZ6xZkFWKRxVtOhBoTBQgr6i5INz9_E,124
+whisper_live/client.py,sha256=-ityoAS5CAiB-7SH1lS63Av3GYV4HFHo47m-29YDav4,11581
+whisper_live/transcription_client.py,sha256=GjHoWvE0MGXJiKRnrCXij5qSXZVQ-l5GU4o8sVabHnI,3873
+whisper_live/transcription_tee_client.py,sha256=rFNe4Q2HnXMa5Kl5Y52-FDzdinyYvu6JU7uS0iuftSg,16596
+whisper_live/utils.py,sha256=DGcJ7l6TEB4er4koXgsgjjQBUnv1C5wpht0EDGesblE,2461
+whisper_live_client-0.6.3.dist-info/licenses/LICENSE,sha256=OrUhqhYPS70YkjIQMIWkhoIz6y13wSMzEnUvJQMu6sk,1069
+whisper_live_client-0.6.3.dist-info/METADATA,sha256=r0htxGqO6pzQrd9Wcy66XGJO8KErGNeSi6vQCLjRO1A,3073
+whisper_live_client-0.6.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+whisper_live_client-0.6.3.dist-info/top_level.txt,sha256=16aypwHWLOaL23wYLe-37c4j1LvCrGV7pm9r8hsRzss,19
+whisper_live_client-0.6.3.dist-info/RECORD,,

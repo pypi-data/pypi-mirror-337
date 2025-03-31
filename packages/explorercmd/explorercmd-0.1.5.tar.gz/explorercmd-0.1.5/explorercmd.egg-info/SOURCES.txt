@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+explorercmd/__init__.py
+explorercmd/client.py
+explorercmd/server.py
+explorercmd.egg-info/PKG-INFO
+explorercmd.egg-info/SOURCES.txt
+explorercmd.egg-info/dependency_links.txt
+explorercmd.egg-info/entry_points.txt
+explorercmd.egg-info/top_level.txt

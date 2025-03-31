@@ -1,0 +1,317 @@
+from dataclasses import dataclass, field
+from enum import Enum
+from typing import Literal, Optional
+
+__all__ = ("CountryCode", "GenderPrediction", "AgePrediction", "NationalityPrediction", "CountryPrediction")
+
+class CountryCode(Enum):
+    """ISO 3166-1 alpha-2 country codes"""
+    Afghanistan = "AF"
+    Albania = "AL" 
+    Algeria = "DZ"
+    AmericanSamoa = "AS"
+    Andorra = "AD"
+    Angola = "AO"
+    Anguilla = "AI"
+    Antarctica = "AQ"
+    AntiguaBarbuda = "AG"
+    Argentina = "AR"
+    Armenia = "AM"
+    Aruba = "AW"
+    Australia = "AU"
+    Austria = "AT"
+    Azerbaijan = "AZ"
+    Bahamas = "BS"
+    Bahrain = "BH"
+    Bangladesh = "BD"
+    Barbados = "BB"
+    Belarus = "BY"
+    Belgium = "BE"
+    Belize = "BZ"
+    Benin = "BJ"
+    Bermuda = "BM"
+    Bhutan = "BT"
+    Bolivia = "BO"
+    BonaireSintEustatiusSaba = "BQ"
+    BosniaHerzegovina = "BA"
+    Botswana = "BW"
+    BouvetIsland = "BV"
+    Brazil = "BR"
+    BritishIndianOceanTerritory = "IO"
+    BruneiDarussalam = "BN"
+    Bulgaria = "BG"
+    BurkinaFaso = "BF"
+    Burundi = "BI"
+    CaboVerde = "CV"
+    Cambodia = "KH"
+    Cameroon = "CM"
+    Canada = "CA"
+    CaymanIslands = "KY"
+    CentralAfricanRepublic = "CF"
+    Chad = "TD"
+    Chile = "CL"
+    China = "CN"
+    ChristmasIsland = "CX"
+    CocosIslands = "CC"
+    Colombia = "CO"
+    Comoros = "KM"
+    Congo = "CG"
+    CongoDemocraticRepublic = "CD"
+    CookIslands = "CK"
+    CostaRica = "CR"
+    CoteDIvoire = "CI"
+    Croatia = "HR"
+    Cuba = "CU"
+    Curacao = "CW"
+    Cyprus = "CY"
+    Czechia = "CZ"
+    Denmark = "DK"
+    Djibouti = "DJ"
+    Dominica = "DM"
+    DominicanRepublic = "DO"
+    Ecuador = "EC"
+    Egypt = "EG"
+    ElSalvador = "SV"
+    EquatorialGuinea = "GQ"
+    Eritrea = "ER"
+    Estonia = "EE"
+    Eswatini = "SZ"
+    Ethiopia = "ET"
+    FalklandIslands = "FK"
+    FaroeIslands = "FO"
+    Fiji = "FJ"
+    Finland = "FI"
+    France = "FR"
+    FrenchGuiana = "GF"
+    FrenchPolynesia = "PF"
+    FrenchSouthernTerritories = "TF"
+    Gabon = "GA"
+    Gambia = "GM"
+    Georgia = "GE"
+    Germany = "DE"
+    Ghana = "GH"
+    Gibraltar = "GI"
+    Greece = "GR"
+    Greenland = "GL"
+    Grenada = "GD"
+    Guadeloupe = "GP"
+    Guam = "GU"
+    Guatemala = "GT"
+    Guernsey = "GG"
+    Guinea = "GN"
+    GuineaBissau = "GW"
+    Guyana = "GY"
+    Haiti = "HT"
+    HeardMcDonaldIslands = "HM"
+    HolySee = "VA"
+    Honduras = "HN"
+    HongKong = "HK"
+    Hungary = "HU"
+    Iceland = "IS"
+    India = "IN"
+    Indonesia = "ID"
+    Iran = "IR"
+    Iraq = "IQ"
+    Ireland = "IE"
+    IsleOfMan = "IM"
+    Israel = "IL"
+    Italy = "IT"
+    Jamaica = "JM"
+    Japan = "JP"
+    Jersey = "JE"
+    Jordan = "JO"
+    Kazakhstan = "KZ"
+    Kenya = "KE"
+    Kiribati = "KI"
+    KoreaNorth = "KP"
+    KoreaSouth = "KR"
+    Kuwait = "KW"
+    Kyrgyzstan = "KG"
+    Laos = "LA"
+    Latvia = "LV"
+    Lebanon = "LB"
+    Lesotho = "LS"
+    Liberia = "LR"
+    Libya = "LY"
+    Liechtenstein = "LI"
+    Lithuania = "LT"
+    Luxembourg = "LU"
+    Macao = "MO"
+    Madagascar = "MG"
+    Malawi = "MW"
+    Malaysia = "MY"
+    Maldives = "MV"
+    Mali = "ML"
+    Malta = "MT"
+    MarshallIslands = "MH"
+    Martinique = "MQ"
+    Mauritania = "MR"
+    Mauritius = "MU"
+    Mayotte = "YT"
+    Mexico = "MX"
+    Micronesia = "FM"
+    Moldova = "MD"
+    Monaco = "MC"
+    Mongolia = "MN"
+    Montenegro = "ME"
+    Montserrat = "MS"
+    Morocco = "MA"
+    Mozambique = "MZ"
+    Myanmar = "MM"
+    Namibia = "NA"
+    Nauru = "NR"
+    Nepal = "NP"
+    Netherlands = "NL"
+    NewCaledonia = "NC"
+    NewZealand = "NZ"
+    Nicaragua = "NI"
+    Niger = "NE"
+    Nigeria = "NG"
+    Niue = "NU"
+    NorfolkIsland = "NF"
+    NorthMacedonia = "MK"
+    NorthernMarianaIslands = "MP"
+    Norway = "NO"
+    Oman = "OM"
+    Pakistan = "PK"
+    Palau = "PW"
+    Palestine = "PS"
+    Panama = "PA"
+    PapuaNewGuinea = "PG"
+    Paraguay = "PY"
+    Peru = "PE"
+    Philippines = "PH"
+    Pitcairn = "PN"
+    Poland = "PL"
+    Portugal = "PT"
+    PuertoRico = "PR"
+    Qatar = "QA"
+    Reunion = "RE"
+    Romania = "RO"
+    Russia = "RU"
+    Rwanda = "RW"
+    SaintBarthelemy = "BL"
+    SaintHelena = "SH"
+    SaintKittsNevis = "KN"
+    SaintLucia = "LC"
+    SaintMartin = "MF"
+    SaintPierreMiquelon = "PM"
+    SaintVincentGrenadines = "VC"
+    Samoa = "WS"
+    SanMarino = "SM"
+    SaoTomePrincipe = "ST"
+    SaudiArabia = "SA"
+    Senegal = "SN"
+    Serbia = "RS"
+    Seychelles = "SC"
+    SierraLeone = "SL"
+    Singapore = "SG"
+    SintMaarten = "SX"
+    Slovakia = "SK"
+    Slovenia = "SI"
+    SolomonIslands = "SB"
+    Somalia = "SO"
+    SouthAfrica = "ZA"
+    SouthGeorgia = "GS"
+    SouthSudan = "SS"
+    Spain = "ES"
+    SriLanka = "LK"
+    Sudan = "SD"
+    Suriname = "SR"
+    SvalbardJanMayen = "SJ"
+    Sweden = "SE"
+    Switzerland = "CH"
+    Syria = "SY"
+    Taiwan = "TW"
+    Tajikistan = "TJ"
+    Tanzania = "TZ"
+    Thailand = "TH"
+    TimorLeste = "TL"
+    Togo = "TG"
+    Tokelau = "TK"
+    Tonga = "TO"
+    TrinidadTobago = "TT"
+    Tunisia = "TN"
+    Turkey = "TR"
+    Turkmenistan = "TM"
+    TurksCaicosIslands = "TC"
+    Tuvalu = "TV"
+    Uganda = "UG"
+    Ukraine = "UA"
+    UnitedArabEmirates = "AE"
+    UnitedKingdom = "GB"
+    UnitedStates = "US"
+    UnitedStatesOutlyingIslands = "UM"
+    Uruguay = "UY"
+    Uzbekistan = "UZ"
+    Vanuatu = "VU"
+    Venezuela = "VE"
+    Vietnam = "VN"
+    VirginIslandsBritish = "VG"
+    VirginIslandsUS = "VI"
+    WallisFutuna = "WF"
+    WesternSahara = "EH"
+    Yemen = "YE"
+    Zambia = "ZM"
+    Zimbabwe = "ZW"
+
+    def __str__(self) -> str:
+        return f"{self.value}"
+
+@dataclass(slots=True)
+class Prediction:
+    """Base prediction object
+    
+    Attributes:
+        count (int) - the amount of data points examined for a response
+        name (str) - the name passed in to the predictor
+    """
+    count: int
+    name: str
+
+@dataclass(slots=True)
+class GenderPrediction(Prediction):
+    """Gender prediction object
+    
+    Attributes in addition to the base prediction object:
+        gender (Literal["male", "female", None]) - the predicted gender of the name
+        probability (float) - the probability of the prediction being accurate
+        country_id (str, optional) - the ISO 3166-1 alpha-2 country code. Defaults to None
+    """
+    gender: Literal["male", "female", None]
+    probability: float
+    country_id: Optional[str] = field(default=None)
+    
+
+@dataclass(slots=True)
+class AgePrediction(Prediction):
+    """Age prediction object
+    
+    Attributes in addition to the base prediction object:
+        age (int) - the predicted age of the name
+        probability (float) - the probability of the prediction being accurate
+        country_id (str, optional) - the ISO 3166-1 alpha-2 country code. Defaults to None
+    """
+    age: int
+    probability: float
+    country_id: Optional[str] = field(default=None)
+
+@dataclass(slots=True)
+class CountryPrediction:
+    """Individual country prediction object
+    
+    Attributes (separate from the base prediction object):
+        country (str) - the ISO 3166-1 alpha-2 country code.
+        probability (float) - the probability of the prediction being accurate
+    """
+    country_id: str
+    probability: float
+
+@dataclass(slots=True)
+class NationalityPrediction(Prediction):
+    """Nationality prediction object
+    
+    Attributes in addition to the base prediction object:
+        countries (list[CountryPrediction]) - a list of five most probable country predictions, sorted by probability in descending order
+    """
+    countries: list[CountryPrediction]

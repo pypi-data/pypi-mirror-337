@@ -1,0 +1,3 @@
+[console_scripts]
+raaju1 = raaju1:roomate
+raaju2 = raaju2:roomno

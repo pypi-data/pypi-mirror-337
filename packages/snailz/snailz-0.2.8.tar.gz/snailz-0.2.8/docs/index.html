@@ -1,0 +1,988 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="assays/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>Snailz Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#snailz" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Snailz Docs" class="md-header__button md-logo" aria-label="Snailz Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Snailz Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Snailz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Snailz Docs" class="md-nav__button md-logo" aria-label="Snailz Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Snailz Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Snailz
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Snailz
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#for-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      For Users
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters-and-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters and Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Dictionary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="assays/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assays
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="clui/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clui
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="database/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="grid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MIT License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mangle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mangle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    People
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="specimens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Specimens
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="utils/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Utils
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#for-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      For Users
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters-and-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters and Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Dictionary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="snailz">Snailz</h1>
+<p><img src="https://raw.githubusercontent.com/gvwilson/snailz/main/img/snail-logo.svg" alt="snail logo" width="200px"></p>
+<p>These synthetic data generators model genomic analysis of snails in
+the Pacific Northwest that are growing to unusual size as a result of
+exposure to pollution. At a high level:</p>
+<ul>
+<li>A <em>grid</em> is created to record the <em>pollution levels</em> at a sampling site.</li>
+<li>One or more <em>specimens</em> are collected from the grid.
+    Each specimen has a <em>genome</em> and a <em>mass</em>.</li>
+<li><em>Laboratory staff</em> design and perform <em>assays</em> of those genomes.</li>
+<li>Each assay is represented by a <em>design file</em> and an <em>assay file</em>.</li>
+<li>Assay files are mangled to create <em>raw</em> files with formatting glitches.</li>
+</ul>
+<p>In more detail,
+<code>snailz</code> uses <a href="https://en.wikipedia.org/wiki/Invasion_percolation">invasion percolation</a>
+to create a square grid of integers
+in which 0 marks sample sites without pollution and positive values show how polluted a site is.
+Invasion percolation guarantees that all of the polluted sites are connected,
+so one exercise is to try to find the origin of the pollution.
+(It is always the center of the grid in the present version of the software,
+but that could easily be modified.)
+Grids are stored as JSON and converted to CSV;
+the default parameters included with the package generated the following small grid,
+which uses spaces instead of zeroes for clarity:</p>
+<pre><code>+-----------------------------+
+|                             |
+|                             |
+|                             |
+|              2              |
+|            2 3              |
+|        2   5 3              |
+|    4 1 3 4 5                |
+|    1 3 5 4 5 2 5 5          |
+|        3 2     1   3        |
+|          3 1 5 4 3 1 5 1 2 1|
+|            1   3       1    |
+|              4 4 2          |
+|            2 4              |
+|              3              |
+|                             |
++-----------------------------+
+</code></pre>
+<p>The package also generates a set of snails (referred to as "specimens"),
+each of which has a genome represented as a single string of ACGT bases,
+a body mass,
+the grid coordinates where it was collected,
+and a collection date.
+Individual genomes are created by mutating a reference genome at several randomly-selected loci.
+One combination of locus and single-nucleotide polymorphism are considered "significant":
+if a snail has that mutation at that locus <em>and</em> is collected from a polluted sample site,
+its mass is increased by an amount that depends on how polluted the site is.
+The snail's territory is then calculated by counting the number of grid cells
+that are closer to it than to any other snail;
+if a cell is equidistant from two or more snails,
+its area is divided equally among them.
+Once again the results are saved as both JSON and CSV,
+and the default parameters included with the package generate specimens like these:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ident</th>
+<th style="text-align: right;">x</th>
+<th style="text-align: right;">y</th>
+<th style="text-align: left;">genome</th>
+<th style="text-align: right;">mass</th>
+<th style="text-align: left;">collected_on</th>
+<th style="text-align: left;">territory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">AZ5PXJ</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">GACGATGTTAGAGCT</td>
+<td style="text-align: right;">22.95</td>
+<td style="text-align: left;">2025-03-12</td>
+<td style="text-align: left;">9.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">AZP8M5</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">ACGGATGTTAGAGCT</td>
+<td style="text-align: right;">20.00</td>
+<td style="text-align: left;">2025-03-07</td>
+<td style="text-align: left;">7.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">AZJMU7</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">CTAGATGTTAGAGCT</td>
+<td style="text-align: right;">23.41</td>
+<td style="text-align: left;">2025-03-15</td>
+<td style="text-align: left;">22.33</td>
+</tr>
+<tr>
+<td style="text-align: left;">AZGH04</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">AGGGATGTTAGAGCT</td>
+<td style="text-align: right;">18.07</td>
+<td style="text-align: left;">2025-03-10</td>
+<td style="text-align: left;">8.83</td>
+</tr>
+<tr>
+<td style="text-align: left;">…</td>
+<td style="text-align: right;">…</td>
+<td style="text-align: right;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: right;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
+<p><code>snailz</code> uses Python's <a href="https://faker.readthedocs.io/">faker</a> module
+to generate a set of laboratory staff with personal and family names,
+which are saved as JSON and CSV.
+The defaults include:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ident</th>
+<th style="text-align: left;">personal</th>
+<th style="text-align: left;">family</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">aa1942</td>
+<td style="text-align: left;">Artur</td>
+<td style="text-align: left;">Aasmäe</td>
+</tr>
+<tr>
+<td style="text-align: left;">kk0085</td>
+<td style="text-align: left;">Katrin</td>
+<td style="text-align: left;">Kool</td>
+</tr>
+<tr>
+<td style="text-align: left;">ta4600</td>
+<td style="text-align: left;">Aivar</td>
+<td style="text-align: left;">Toomsalu</td>
+</tr>
+<tr>
+<td style="text-align: left;">ea5044</td>
+<td style="text-align: left;">Anne</td>
+<td style="text-align: left;">Eller</td>
+</tr>
+<tr>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
+<p>Every specimen is used in an assay,
+which is performed by a single member of staff on a particular date.
+Each assay is represented by two CSV files:
+a design file which records whether each well in the assay plate contained a control (C) or a specimen sample (S),
+and an assay file which records the response measured in each well.
+If the well contains a control, the assay value is a small (positive) amount of noise.
+If the well contains genetic material from a specimen that <em>doesn't</em> have the significant mutation,
+the assay value is some intermediate value with added noise,
+while the assay value for a specimen with the significant mutation is a larger value (also with noise).
+All assay data is saved in a single JSON file;
+a summary of all assays is saved as CSV like this:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ident</th>
+<th style="text-align: left;">specimen_id</th>
+<th style="text-align: left;">performed</th>
+<th style="text-align: left;">performed_by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">878987</td>
+<td style="text-align: left;">AZ5PXJ</td>
+<td style="text-align: left;">2023-02-09</td>
+<td style="text-align: left;">ta4600</td>
+</tr>
+<tr>
+<td style="text-align: left;">274653</td>
+<td style="text-align: left;">AZP8M5</td>
+<td style="text-align: left;">2023-01-22</td>
+<td style="text-align: left;">ea5044</td>
+</tr>
+<tr>
+<td style="text-align: left;">129820</td>
+<td style="text-align: left;">AZJMU7</td>
+<td style="text-align: left;">2023-02-03</td>
+<td style="text-align: left;">bt0138</td>
+</tr>
+<tr>
+<td style="text-align: left;">707990</td>
+<td style="text-align: left;">AZGH04</td>
+<td style="text-align: left;">2023-02-15</td>
+<td style="text-align: left;">kk0085</td>
+</tr>
+<tr>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
+<p>Each assay design is saved as CSV like this:</p>
+<pre><code>id,230779,,,
+specimen,AZQTWF,,,
+performed,2023-02-04,,,
+performed_by,aa1942,,,
+,A,B,C,D
+1,S,S,S,C
+2,S,C,C,C
+3,C,S,C,C
+4,C,C,C,C
+</code></pre>
+<p>and each assay result like this:</p>
+<pre><code>id,277650,,,
+specimen,AZTZNU,,,
+performed,2023-02-13,,,
+performed_by,aa1942,,,
+,A,B,C,D
+1,0.09,0.03,10.75,0.05
+2,10.43,10.36,10.47,0.01
+3,0.08,10.58,0.06,0.04
+4,10.19,0.08,0.05,0.09
+</code></pre>
+<p>To make simulated data more realistic:</p>
+<ol>
+<li>
+<p>Responses for both mutated and unmutated specimens decrease over time
+    depending on the value of the degradation parameter
+    to simulate the effects of processing delay.</p>
+</li>
+<li>
+<p>If the <code>oops</code> parameter is given a value greater than zero,
+    one experimenter is chosen at random
+    and all of their response values scaled up by this amount
+    to simulate operator error.</p>
+</li>
+<li>
+<p>A "raw" assay file is also created by taking the clean ones
+    and introducing zero or more deliberate formatting errors
+    to simulate the kind of data that laboratories commonly produce.</p>
+</li>
+</ol>
+<p>Finally,
+a SQLite database file is created that stores the people, specimens, and assay summary information
+in tables with the obvious names and columns.</p>
+<h2 id="for-users">For Users</h2>
+<ol>
+<li><code>pip install snailz</code> (or the equivalent command for your Python environment).</li>
+<li><code>snailz --help</code> to see available commands.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>all</td>
+<td>Generate all data files.</td>
+</tr>
+<tr>
+<td>assays</td>
+<td>Generate assays for specimens.</td>
+</tr>
+<tr>
+<td>convert</td>
+<td>Convert JSON data to CSV format.</td>
+</tr>
+<tr>
+<td>database</td>
+<td>Create a SQLite database from CSV files.</td>
+</tr>
+<tr>
+<td>grid</td>
+<td>Generate grid.</td>
+</tr>
+<tr>
+<td>init</td>
+<td>Initialize parameter files for snailz.</td>
+</tr>
+<tr>
+<td>mangle</td>
+<td>Modify assay files by reassigning people.</td>
+</tr>
+<tr>
+<td>people</td>
+<td>Generate people.</td>
+</tr>
+<tr>
+<td>specimens</td>
+<td>Generate specimens.</td>
+</tr>
+</tbody>
+</table>
+<p>To generate example data in a fresh directory:</p>
+<pre><code># Create and activate Python virtual environment
+$ uv venv
+$ source .venv/bin/activate
+
+# Install snailz and dependencies
+$ uv pip install snailz
+
+# Copy default parameter values into ./params/*.json
+$ snailz init --output params
+
+# Regenerate all output files in ./tmp
+$ snailz all --params params --output tmp
+</code></pre>
+<p>To generate individual data files:</p>
+<pre><code># Create a grid JSON file in ./tmp/grid.json and a CSV file in ./tmp/grid.csv
+$ snailz grid --params params/grid.json --output tmp/grid.json
+$ snailz convert --kind grid --input tmp/grid.json --output tmp/grid.csv
+
+# Create people JSON and CSV files in ./tmp/people.json and ./tmp/people.csv
+$ snailz people --params params/people.json --output tmp/people.json
+$ snailz convert --kind people --input tmp/people.json --output tmp/people.csv
+
+# Create specimen JSON and CSV files in ./tmp/specimens.json and ./tmp/specimens.csv
+$ snailz specimens --params params/specimens.json --grid tmp/grid.json --output tmp/specimens.json
+$ snailz convert --kind specimens --input tmp/specimens.json --output tmp/specimens.csv
+
+# Create assay JSON and CSV files in ./tmp/assays.json, ./tmp/assays.csv, and ./tmp/assays/*.csv
+$ snailz assays --params params/assays.json --specimens tmp/specimens.json --people tmp/people.json --output tmp/assays.json
+$ snailz convert --kind assays --input tmp/assays.json --output tmp
+</code></pre>
+<h2 id="parameters-and-workflow">Parameters and Workflow</h2>
+<p><img src="https://raw.githubusercontent.com/gvwilson/snailz/main/img/workflow.png" alt="workflow"></p>
+<p><code>./params</code> contains the parameter files used to control generation of the reference dataset.</p>
+<ul>
+<li><code>grid.json</code><ul>
+<li><code>depth</code>: integer range of random values in cells</li>
+<li><code>seed</code>: RNG seed</li>
+<li><code>size</code>: width and height of (square) grid in cells</li>
+</ul>
+</li>
+<li><code>people.json</code><ul>
+<li><code>locale</code>: language and region to use for name generation</li>
+<li><code>number</code>: number of staff to create</li>
+<li><code>seed</code>: RNG seed</li>
+</ul>
+</li>
+<li><code>specimens.json</code><ul>
+<li><code>end_date</code>: end date for specimen collection</li>
+<li><code>length</code>: genome length in characters</li>
+<li><code>max_mass</code>: maximum specimen mass</li>
+<li><code>min_mass</code>: minimum specimen mass</li>
+<li><code>mut_scale</code>: scaling factor for mutated specimens</li>
+<li><code>mutations</code>: number of mutations to introduce</li>
+<li><code>number</code>: number of specimens to create</li>
+<li><code>seed</code>: RNG seed</li>
+<li><code>start_date</code>: start date for specimen collection</li>
+</ul>
+</li>
+<li><code>assays.json</code><ul>
+<li><code>baseline</code>: assay response for unmutated specimens</li>
+<li><code>delay</code>: maximum days between specimen collection and assay</li>
+<li><code>degrade</code>: rate at which sample responses decrease per day after first day (0-1)</li>
+<li><code>mutant</code>: assay response for mutated specimens</li>
+<li><code>noise</code>: noise to add to control cells</li>
+<li><code>oops</code>: scaling factor for operator error</li>
+<li><code>plate_size</code>: width and height of assay plate</li>
+<li><code>seed</code>: RNG seed</li>
+</ul>
+</li>
+</ul>
+<p>Note: there are no parameters for assay file mangling.</p>
+<h2 id="data-dictionary">Data Dictionary</h2>
+<p><code>doit all</code> creates these files in <code>tmp</code> using the sample parameters in <code>params</code>:</p>
+<ul>
+<li><code>assays/</code><ul>
+<li><code>NNNNNN_assay.csv</code>: tidy, consistently-formatted CSV file with assay result.</li>
+<li><code>NNNNNN_design.csv</code>: tidy, consistently-formatted CSV file with assay design.</li>
+<li><code>NNNNNN_raw.csv</code>: CSV file derived from <code>NNNNNN_assay.csv</code> with randomly-introduced formatting errors.</li>
+</ul>
+</li>
+<li><code>assays.csv</code>: CSV file containing summary of assay metadata with columns.<ul>
+<li><code>ident</code>: assay identifier (integer).</li>
+<li><code>specimen_id</code>: specimen identifier (text).</li>
+<li><code>performed</code>: assay date (date).</li>
+<li><code>performed_by</code>: person identifier (text).</li>
+</ul>
+</li>
+<li><code>assays.json</code>: all assay data in JSON format.</li>
+<li><code>grid.csv</code>: CSV file containing pollution grid values.<ul>
+<li>This file is a matrix of values with no column IDs or row IDs.</li>
+</ul>
+</li>
+<li><code>grid.json</code>: grid data as JSON.</li>
+<li><code>people.csv</code>: CSV file describing experimental staff members.<ul>
+<li><code>ident</code>: person identifier (text)</li>
+<li><code>personal</code>: personal name (text)</li>
+<li><code>family</code>: family name (text)</li>
+</ul>
+</li>
+<li><code>people.json</code>: staff member data in JSON format.</li>
+<li><code>specimens.csv</code>: CSV file containing details of snail specimens.<ul>
+<li><code>ident</code>: specimen identifier (text)</li>
+<li><code>x</code>: X coordinate of collection cell (integer)</li>
+<li><code>y</code>: Y coordinate of collection cell (integer)</li>
+<li><code>genome</code>: base sequence (text)</li>
+<li><code>mass</code>: snail mass (real)</li>
+<li><code>collected_on</code>: date when specimen was collected (date)</li>
+</ul>
+</li>
+<li><code>specimens.json</code>: specimen data in JSON format.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>

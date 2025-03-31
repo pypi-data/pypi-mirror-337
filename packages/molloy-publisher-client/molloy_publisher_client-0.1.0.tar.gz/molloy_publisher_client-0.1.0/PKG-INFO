@@ -1,0 +1,192 @@
+Metadata-Version: 2.4
+Name: molloy-publisher-client
+Version: 0.1.0
+Summary: A Python client for the Malloy Publisher API
+Project-URL: Homepage, https://github.com/namabile/malloy-publisher-client
+Project-URL: Repository, https://github.com/namabile/malloy-publisher-client
+Project-URL: Documentation, https://github.com/namabile/malloy-publisher-client#readme
+Project-URL: Bug Tracker, https://github.com/namabile/malloy-publisher-client/issues
+Author-email: Nick Amabile <nick.amabile@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Nick Amabile
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: api,client,malloy,publisher
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.0.0
+Provides-Extra: dev
+Requires-Dist: black>=24.0.0; extra == 'dev'
+Requires-Dist: mypy>=1.8.0; extra == 'dev'
+Requires-Dist: pydantic[mypy]>=2.0.0; extra == 'dev'
+Requires-Dist: ruff>=0.3.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Malloy Publisher Client
+
+A Python client for interacting with the Malloy Publisher API. This client provides a type-safe interface for working with Malloy projects, packages, models, and executing queries.
+
+## Features
+
+- Type-safe API client with Pydantic models
+- Full support for Malloy Publisher API endpoints
+- Async HTTP client using `httpx`
+- Comprehensive error handling
+- Context manager support for resource cleanup
+
+## Requirements
+
+- Python 3.11 or higher
+- UV package manager
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/malloy-publisher-client.git
+cd malloy-publisher-client
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Unix/macOS
+# or
+.venv\Scripts\activate  # On Windows
+```
+
+3. Install dependencies using UV:
+```bash
+uv pip install -e ".[dev]"
+```
+
+## Usage
+
+Here's a basic example of how to use the client:
+
+```python
+from molloy_publisher_client import MalloyAPIClient, QueryParams
+
+# Initialize the client
+client = MalloyAPIClient(
+    base_url="https://your-malloy-publisher-url",
+    api_key="your-api-key"  # Optional
+)
+
+# List all projects
+projects = client.list_projects()
+
+# List packages in a project
+packages = client.list_packages("project_name")
+
+# List models in a package
+models = client.list_models("project_name", "package_name")
+
+# Execute a query
+query_params = QueryParams(
+    project_name="project_name",
+    package_name="package_name",
+    path="model_path",
+    query="your query here"
+)
+result = client.execute_query(query_params)
+
+# Use as a context manager
+with MalloyAPIClient(base_url="https://your-malloy-publisher-url") as client:
+    # Your code here
+    pass
+```
+
+## Development
+
+### Setting Up Development Environment
+
+1. Install development dependencies:
+```bash
+uv pip install -e ".[dev]"
+```
+
+2. Install pre-commit hooks (if configured):
+```bash
+pre-commit install
+```
+
+### Code Style
+
+This project uses:
+- Black for code formatting
+- MyPy for type checking
+- Ruff for linting
+
+To format code:
+```bash
+black .
+```
+
+To run type checks:
+```bash
+mypy .
+```
+
+To run linter:
+```bash
+ruff check .
+```
+
+### Running Tests
+
+The project uses pytest for testing. To run tests:
+```bash
+pytest
+```
+
+For verbose output:
+```bash
+pytest -v
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Run tests and ensure all checks pass
+5. Commit your changes using conventional commits
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+### Development Guidelines
+
+- Follow PEP 8 style guide
+- Add type hints to all functions
+- Write docstrings for all public functions and classes
+- Add tests for new functionality
+- Update documentation as needed
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

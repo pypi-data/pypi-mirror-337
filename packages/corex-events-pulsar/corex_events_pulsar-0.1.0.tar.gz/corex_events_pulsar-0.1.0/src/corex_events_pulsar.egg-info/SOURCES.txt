@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-events-pulsar/__init__.py
+src/corex-events-pulsar/handler.py
+src/corex_events_pulsar.egg-info/PKG-INFO
+src/corex_events_pulsar.egg-info/SOURCES.txt
+src/corex_events_pulsar.egg-info/dependency_links.txt
+src/corex_events_pulsar.egg-info/top_level.txt
+tests/test_handler.py

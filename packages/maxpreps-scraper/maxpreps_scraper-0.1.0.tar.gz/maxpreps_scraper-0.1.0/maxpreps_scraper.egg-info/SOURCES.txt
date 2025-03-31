@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+maxpreps_scraper/__init__.py
+maxpreps_scraper/scraper.py
+maxpreps_scraper.egg-info/PKG-INFO
+maxpreps_scraper.egg-info/SOURCES.txt
+maxpreps_scraper.egg-info/dependency_links.txt
+maxpreps_scraper.egg-info/requires.txt
+maxpreps_scraper.egg-info/top_level.txt
+tests/test_scraper.py

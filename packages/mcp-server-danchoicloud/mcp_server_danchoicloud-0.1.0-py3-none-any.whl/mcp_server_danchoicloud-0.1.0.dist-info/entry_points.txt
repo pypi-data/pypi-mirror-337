@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-danchoicloud = mcp_server_danchoicloud:main

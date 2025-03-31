@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: defix-package-meta
+Version: 0.1.1
+Summary: Add your description here
+Author-email: Mykhailo Kuzmin <guywithnothing56@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# DeFiX Internal Package Meta
+
+## Internal package for generating meta data for exchanging between services

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+file_organizer/__init__.py
+file_organizer/core/__init__.py
+file_organizer/core/organizer.py
+file_organizer/utils/__init__.py
+file_organizer/utils/file_utils.py
+file_organizer_automation.egg-info/PKG-INFO
+file_organizer_automation.egg-info/SOURCES.txt
+file_organizer_automation.egg-info/dependency_links.txt
+file_organizer_automation.egg-info/entry_points.txt
+file_organizer_automation.egg-info/not-zip-safe
+file_organizer_automation.egg-info/requires.txt
+file_organizer_automation.egg-info/top_level.txt

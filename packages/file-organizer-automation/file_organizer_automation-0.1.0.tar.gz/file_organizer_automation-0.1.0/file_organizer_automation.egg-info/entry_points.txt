@@ -1,0 +1,3 @@
+[console_scripts]
+organize = file_organizer.core.organizer:main
+organize-setup = file_organizer.scripts.startup:main

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-storage-minio/__init__.py
+src/corex-storage-minio/handler.py
+src/corex_storage_minio.egg-info/PKG-INFO
+src/corex_storage_minio.egg-info/SOURCES.txt
+src/corex_storage_minio.egg-info/dependency_links.txt
+src/corex_storage_minio.egg-info/top_level.txt
+tests/test_handler.py

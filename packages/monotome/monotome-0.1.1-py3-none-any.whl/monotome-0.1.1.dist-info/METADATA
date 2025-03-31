@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: monotome
+Version: 0.1.1
+Summary: Declarative SQL migration system for modular and monorepo-based projects
+License: MIT
+Author: Eric Gazoni
+Author-email: eric@adimian.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1)
+Requires-Dist: jinja2 (>=3.1)
+Requires-Dist: prettytable (>=3.14)
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: sqlalchemy (>=2)
+Requires-Dist: sqlparse (>=0.5)
+Description-Content-Type: text/markdown
+
+# monotome
+Non-linear database migration Python library
+

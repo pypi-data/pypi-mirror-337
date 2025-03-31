@@ -1,0 +1,13 @@
+pydub>=0.25.1
+setuptools>=44.0.0
+
+[:python_version >= "3.13"]
+pyaudioop
+
+[linux]
+python-dbus
+
+[macos]
+pyobjc-framework-Cocoa
+
+[windows]

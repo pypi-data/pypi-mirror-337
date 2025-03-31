@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: apything
+Version: 0.1.0
+Summary: A python wrapper for the AnythingLLM API
+Project-URL: Homepage, https://github.com/n-califano/apything
+Project-URL: Issues, https://github.com/n-califano/apything/issues
+Author-email: Niccolò Califano <niccolo.califano19@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pyyaml==6.0.2
+Requires-Dist: requests==2.32.3
+Description-Content-Type: text/markdown
+
+# apything

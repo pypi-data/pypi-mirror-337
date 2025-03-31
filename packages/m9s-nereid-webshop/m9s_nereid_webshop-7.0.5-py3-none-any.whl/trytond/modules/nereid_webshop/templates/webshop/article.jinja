@@ -1,0 +1,30 @@
+{% extends 'article-category.jinja' %}
+
+{% block title %}{{ article.title }} {{ super() }}{% endblock title %}
+{% block meta_description %}{{ (article.description or '')|striptags|truncate(300) }}{% endblock %}
+
+{% block breadcrumb %}
+{{ super() }}
+{{ render_breadcrumb_item(article.title, article.get_absolute_url()) }}
+{% endblock breadcrumb %}
+
+{% block main %}
+<div class="container">
+  <div class="row">
+    {% if article.content_type in ['rst', 'markdown'] %}
+      <div class="col-md-12">
+        {{ article }}
+      </div>
+    {% else %}
+      <div class="col-md-12">
+        <h1>{{ article.title }}</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>{{ article.content|safe }}</p>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock main %}

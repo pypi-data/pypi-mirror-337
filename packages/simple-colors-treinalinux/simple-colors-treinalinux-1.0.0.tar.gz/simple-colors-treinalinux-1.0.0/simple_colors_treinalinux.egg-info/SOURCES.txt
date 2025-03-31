@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+simple_colors/__init__.py
+simple_colors_treinalinux.egg-info/PKG-INFO
+simple_colors_treinalinux.egg-info/SOURCES.txt
+simple_colors_treinalinux.egg-info/dependency_links.txt
+simple_colors_treinalinux.egg-info/top_level.txt

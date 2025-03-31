@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-logging-splunk/__init__.py
+src/corex-logging-splunk/handler.py
+src/corex_logging_splunk.egg-info/PKG-INFO
+src/corex_logging_splunk.egg-info/SOURCES.txt
+src/corex_logging_splunk.egg-info/dependency_links.txt
+src/corex_logging_splunk.egg-info/top_level.txt
+tests/test_handler.py

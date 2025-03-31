@@ -1,0 +1,21 @@
+include LICENSE
+include README.md
+include requirements.txt
+
+# Include data files directly in the package
+include data/*.mp3
+include data/*.json
+graft data
+
+# Create iitjp/data directory
+recursive-include iitjp/data *.mp3 *.json
+
+# Include example files
+include example.py
+include simple_demo.py
+include enhanced_demo.py
+include audio_test.py
+include cli_test.py
+
+# Exclude temp directory
+prune temp 

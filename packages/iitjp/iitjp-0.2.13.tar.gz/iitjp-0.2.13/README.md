@@ -1,0 +1,148 @@
+# IITJP Python Library
+
+A Python library for an interactive quiz assistant named RajLaxmi, featuring audio-visual interactions for learning Statistics.
+
+## Installation
+
+### Quick Install from PyPI
+
+```bash
+# Install from PyPI (when available)
+pip install iitjp
+
+# Or install directly from GitHub
+pip install git+https://github.com/yutkarsh.brainstorm/ourusername/IITJP.git
+```
+
+### Install from Source
+
+```bash
+# Clone the repository
+git clone https://github.com/yutkarsh.brainstorm/ourusername/IITJP.git
+cd IITJP
+
+# Install in development mode
+pip install -e .
+```
+
+## Requirements
+
+- Python 3.7+
+- pydub (automatically installed, used for audio format conversion)
+- Platform-specific dependencies (automatically installed):
+  - **Windows**: Uses native winsound library (no additional dependencies)
+  - **macOS**: pyobjc-framework-Cocoa
+  - **Linux**: python-dbus
+
+## Usage
+
+### Python API
+
+```python
+import iitjp
+
+# Basic usage with audio
+from iitjp import mam
+
+# Greet the user
+mam.greetings()
+
+# Start a quiz
+mam.quiz()
+
+# End the quiz with a farewell
+mam.thanks()
+```
+
+### Command Line Interface
+
+The library also provides a command-line interface:
+
+```bash
+# Show welcome message
+iitjp greetings
+
+# Start an interactive quiz
+iitjp quiz
+
+# Display thank you message
+iitjp thanks
+
+# Show version information
+iitjp version
+
+# Enable silent mode (no audio)
+iitjp --silent quiz
+```
+
+### Silent Mode
+
+If you experience audio playback issues, you can enable silent mode:
+
+```python
+import iitjp
+
+# Enable silent mode to avoid audio playback
+iitjp.enable_silent_mode(True)
+
+# Now use the library as normal
+iitjp.mam.greetings()  # This will not play audio
+```
+
+## Cross-Platform Support
+
+The library is designed to work across Windows, macOS, and Linux with appropriate audio playback methods for each platform:
+
+- **Windows**: Uses native winsound library for reliable audio playback
+- **macOS**: Uses afplay and native macOS audio capabilities 
+- **Linux**: Tries multiple common audio players (aplay, paplay, ffplay)
+
+## Troubleshooting
+
+If you encounter issues with audio playback:
+
+1. **Check audio system**: Make sure your system's audio is working properly
+2. **Check dependencies**: Ensure platform-specific dependencies are installed
+3. **Enable silent mode**: If audio issues persist, use silent mode
+
+```python
+import iitjp
+iitjp.enable_silent_mode(True)
+```
+
+4. **Update the library**: Make sure you're using the latest version
+
+```bash
+pip install --upgrade iitjp
+```
+
+## Project Structure
+
+- `iitjp/`: Main package directory
+  - `__init__.py`: Package initialization with exposed functions
+  - `rajlaxmi.py`: Core functionality for the virtual teacher
+  - `__main__.py`: Command-line interface
+- `data/`: Contains audio files and quiz questions
+  - `greeting.mp3`: Welcome message
+  - `start_quiz.mp3`: Quiz introduction
+  - `end_quiz.mp3`: Quiz conclusion
+  - `farewell.mp3`: Goodbye message
+  - `questions.json`: Quiz questions and answers
+- `temp/`: Temporary directory for audio processing
+
+## Development
+
+```bash
+# Clone the repository
+git clone https://your-repo-url.git
+cd iitjp
+
+# Create temp directory if it doesn't exist
+mkdir -p temp
+
+# Install in development mode
+pip install -e .
+
+# Run the demo
+python simple_demo.py
+```

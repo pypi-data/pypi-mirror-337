@@ -1,0 +1,12 @@
+setup.py
+zaplexer/__init__.py
+zaplexer/core.py
+zaplexer.egg-info/PKG-INFO
+zaplexer.egg-info/SOURCES.txt
+zaplexer.egg-info/dependency_links.txt
+zaplexer.egg-info/top_level.txt
+zaplexer/data/0.txt
+zaplexer/data/5.txt
+zaplexer/data/6.txt
+zaplexer/data/7.txt
+zaplexer/data/8.txt

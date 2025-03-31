@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: china-beancount-importers
+Version: 0.0.4
+Summary: A set of importers maybe useful for you in China.
+Author-email: Trim21 <i@trim21.me>
+Requires-Python: >=3.9,<4
+License-Expression: MIT
+License-File: LICENSE
+Requires-Dist: beancount >=3.0.0,<4
+Requires-Dist: beangulp>=0.2.0
+Requires-Dist: sphinx==8.2.3 ; extra == "docs" and ( python_version>="3.12")
+Requires-Dist: sphinx-rtd-theme==3.0.2 ; extra == "docs" and ( python_version>="3.12")
+Requires-Dist: recommonmark==0.7.1  ; extra == "docs" and ( python_version>="3.12")
+Project-URL: repository, https://github.com/Trim21/china-beancount-importers
+Provides-Extra: docs

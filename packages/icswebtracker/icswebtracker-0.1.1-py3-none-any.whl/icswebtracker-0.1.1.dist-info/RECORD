@@ -1,0 +1,9 @@
+icswebtracker/__init__.py,sha256=3GM3aGTnbaJ5TERJRYmNbc7_3WhOVpXC-QKH_xeAUM4,89
+icswebtracker/admin.py,sha256=eK7mW3F8Z9esEeopb8a4mhUcEB6OXjEU7cn6ZHryv1k,2161
+icswebtracker/apps.py,sha256=9muH7gBTg0ZJNKVbPeZaeD-O5AnKgEvjEg-x8lcrgQE,374
+icswebtracker/middleware.py,sha256=IzDlpHfhLExUQln4qkxWLyp3pI3wSyR5Z56zGL7Pce0,4303
+icswebtracker/models.py,sha256=EorRCvkr3HyzggicjZT1oJmxTeZnqy55o1b4hMg9uew,2360
+icswebtracker-0.1.1.dist-info/METADATA,sha256=J-vZ7BagdC1Q_qYlthxz30AFvXNQdQNKA2Goc-x22NM,2891
+icswebtracker-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+icswebtracker-0.1.1.dist-info/licenses/LICENSE,sha256=GTVQl3vH6ht70wJXKC0yMT8CmXKHxv_YyO_utAgm7EA,1065
+icswebtracker-0.1.1.dist-info/RECORD,,

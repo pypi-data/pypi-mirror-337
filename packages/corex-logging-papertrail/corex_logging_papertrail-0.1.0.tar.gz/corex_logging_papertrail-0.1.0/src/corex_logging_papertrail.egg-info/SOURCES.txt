@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-logging-papertrail/__init__.py
+src/corex-logging-papertrail/handler.py
+src/corex_logging_papertrail.egg-info/PKG-INFO
+src/corex_logging_papertrail.egg-info/SOURCES.txt
+src/corex_logging_papertrail.egg-info/dependency_links.txt
+src/corex_logging_papertrail.egg-info/top_level.txt
+tests/test_handler.py

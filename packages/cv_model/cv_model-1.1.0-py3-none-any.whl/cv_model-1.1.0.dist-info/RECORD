@@ -1,0 +1,7 @@
+cv_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv_model/predict.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv_model-1.1.0.dist-info/LICENSE,sha256=MQYxA3XZkCVqq41HQLkmGdUDz36dcSYetWup167DuR4,1076
+cv_model-1.1.0.dist-info/METADATA,sha256=pO17DjDrKCz25hGo-7Uk39sZvB01nTkhpNSGP6H6Tq8,593
+cv_model-1.1.0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+cv_model-1.1.0.dist-info/entry_points.txt,sha256=moABqQ77nXoYLd2mnshJ_HRWZGCAhrXGxbWOb7hleE0,51
+cv_model-1.1.0.dist-info/RECORD,,

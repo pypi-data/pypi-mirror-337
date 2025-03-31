@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: cv_model
+Version: 1.1.0
+Summary: 
+Author: Dariusz Homa
+Author-email: dariuszhoma7@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# Fundamentals of AI - Model
+
+[![Pipeline status](https://github.com/Dar3cz3Q-University/FoAI-Model/actions/workflows/ci.yml/badge.svg)](https://github.com/Dar3cz3Q-University/FoAI-Model/tree/master)
+
+---
+
+## Report
+
+[View the report](/docs/Report.md)
+

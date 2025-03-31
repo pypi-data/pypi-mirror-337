@@ -1,0 +1,12 @@
+bluemastodon/__init__.py,sha256=E8FXT0yGAajAL1yKLXAvzdCWXmXr66OKMrbBYo9z1i4,3497
+bluemastodon/__main__.py,sha256=kc8ZzCUljM1sGHcoRjYpEIdsesguRJ_OGDHxY8b24Rw,161
+bluemastodon/bluesky.py,sha256=lTdlGrcaiynO_hshxq9BdZ9wG04_FNxJely_kEAG6xA,8021
+bluemastodon/config.py,sha256=MBjQEEpVJJ2P3bVH-wjTBGlIbbbgO6pmmjOFpGGBOMk,2935
+bluemastodon/mastodon.py,sha256=qcRL6RCnpQx9c1tkuifsKAKCldZa-CaksJvAtFiva_k,20318
+bluemastodon/models.py,sha256=2hL_6xVdeRzNy87theFL_hR7lMh4xlSjGUaxjKM4XLs,2475
+bluemastodon/sync.py,sha256=IGedua8ngnzo7g7iILI5N0kDQX4Rna-t8aQVSk4QVc0,8397
+bluemastodon-0.9.6.dist-info/LICENSE,sha256=rmM9lenuJPsMuztmC_DzwO4pAhBCm1xf9h_SEEbZDJA,1068
+bluemastodon-0.9.6.dist-info/METADATA,sha256=Z_dtz7wEkxW3RxZhwAE23BYfAXDUbWy0aXnag3gpjyc,12230
+bluemastodon-0.9.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bluemastodon-0.9.6.dist-info/entry_points.txt,sha256=zxnxRD7pGmN4TttQRk0ofVOuFYOH9aCPy8sRgszTOhY,50
+bluemastodon-0.9.6.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+pyrwkv_tokenizer-0.9.1.dist-info/METADATA,sha256=bGb9PLdv45y5Tcb51BFCZqkRuk8W_Etcv4rD6k9eEAI,3914
+pyrwkv_tokenizer-0.9.1.dist-info/WHEEL,sha256=S1kMhEh6EykiwczohhYmFNC42qiDle6DE4gvf4LHuck,129
+pyrwkv_tokenizer-0.9.1.dist-info/licenses/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyrwkv_tokenizer/rwkv_vocab_v20230424.txt,sha256=5t7j1OMbTVxArJlQisbHAc7vS-1oG_IWfOmpCFUryok,1093733
+pyrwkv_tokenizer/__init__.py,sha256=3PT0dvRTEo4jU68itXbjUaMpyurai_ARxjOfVi3y_bo,1220
+pyrwkv_tokenizer/pyrwkv_tokenizer.cpython-312-x86_64-linux-gnu.so,sha256=z0EWQUCNsP7jjpFsb03vA3AAyWwhdYXcoYVZkK_43qQ,3114856
+pyrwkv_tokenizer-0.9.1.dist-info/RECORD,,

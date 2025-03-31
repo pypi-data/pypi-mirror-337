@@ -1,0 +1,10 @@
+mcp_monday_server/__init__.py,sha256=UjalAY5voRYUSfUld8hfvBgh2hCLgdnfIUPICaZswXA,168
+mcp_monday_server/common.py,sha256=HczWRqCKirM4xAEhra5HauLpxEl1qiQscNXmjSYeN5M,708
+mcp_monday_server/resources.py,sha256=3o0kgr1hGNhBPt8eU-tn96Zfa63qT8Saiep11dZNA3w,2613
+mcp_monday_server/server.py,sha256=Ph5aPo2o2_xmq8NFjW_M8q6fy84YD459sM4GkIOBsFk,1233
+mcp_monday_server/tools.py,sha256=7IIK1mk14iEZ-Px5xO_YYLBSj2MH8vlm1nrKSVw0JBk,5029
+mcp_monday_server-0.1.0.dist-info/METADATA,sha256=AL0wgwE_4iKvqVMnxm16dj792tAxvgSpyITfcGxRwQU,4118
+mcp_monday_server-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_monday_server-0.1.0.dist-info/entry_points.txt,sha256=KzLfG6FMWToViedCQ0ZL4O60FQLgGj9HU-YBVD-s638,61
+mcp_monday_server-0.1.0.dist-info/licenses/LICENSE,sha256=JSrX9Huq080IT61oajAy1Wn6P4qucs_4bmCBzxMNzPs,1089
+mcp_monday_server-0.1.0.dist-info/RECORD,,

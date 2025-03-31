@@ -1,0 +1,10 @@
+geogo/__init__.py,sha256=rQIfyzYfMWD2DMBuBTaqmOCLpsAEdOEtHWWfqjzzuYg,149
+geogo/common.py,sha256=Rw6d9qmZDu3dUGTyJto1Y97S7-QA-m2p-pbCNvMDrm4,184
+geogo/foliummap.py,sha256=ibFQQ9bfA8S2Q-CpxsakKxaK74TRNAskFjpYGc_-WhU,2514
+geogo/geogo.py,sha256=RMn72OdLAcioffRHmoVFTIQ5nTZ5Wa_eU5C5aJiMN8U,3316
+geogo-0.0.3.dist-info/licenses/LICENSE,sha256=e3uyQvn0dLfi4vl4HZD2T2dFxPiMfV_VxTfurWc1QfM,1072
+geogo-0.0.3.dist-info/METADATA,sha256=3xqWKPbpnbSxo2Ej3CSAL9WttNERtllreRyDgOe61lY,1345
+geogo-0.0.3.dist-info/WHEEL,sha256=MAQBAzGbXNI3bUmkDsiV_duv8i-gcdnLzw7cfUFwqhU,109
+geogo-0.0.3.dist-info/entry_points.txt,sha256=cSxN8haAwEg6yxj9_pk14JnSnKYa60Z2pMSb0pO657k,41
+geogo-0.0.3.dist-info/top_level.txt,sha256=Rqla4FDKbMJmsy7wywxJMBuqMLnFr2zcLnnq7wa9csc,6
+geogo-0.0.3.dist-info/RECORD,,

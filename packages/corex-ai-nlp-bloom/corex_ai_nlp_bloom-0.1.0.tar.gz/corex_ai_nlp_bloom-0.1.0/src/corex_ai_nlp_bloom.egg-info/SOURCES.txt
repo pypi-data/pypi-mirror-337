@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_nlp-bloom/__init__.py
+src/corex-ai_nlp-bloom/handler.py
+src/corex_ai_nlp_bloom.egg-info/PKG-INFO
+src/corex_ai_nlp_bloom.egg-info/SOURCES.txt
+src/corex_ai_nlp_bloom.egg-info/dependency_links.txt
+src/corex_ai_nlp_bloom.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,12 @@
+libfoot-0.0.1.dist-info/METADATA,sha256=5iWQxN40RLDbxnd1Wz1aJGFzomYiC2GK05HPujEyWXU,3137
+libfoot-0.0.1.dist-info/WHEEL,sha256=7cdjGZd4JtPSTkPQW4zPtkkMcA6mhxgcWvYArKa3e10,128
+libfoot-0.0.1.dist-info/entry_points.txt,sha256=Oenq8ZvoNeW78V5U6XUiZEOS8E-5mRT4F51NWzh1KNY,43
+libfoot-0.0.1.dist-info/licenses/LICENSE,sha256=7WOj9DAqoK6Gt8DmvA85bqltHOqOvjIY3XOTXGX4s_M,1060
+libfoot/types.py,sha256=acP-eqK9hBH7m40tO14bkSzjcCDg5CBbvt1a4tGdYG8,790
+libfoot/display.py,sha256=xJLPOa5betalQrO-Y3RkkNfM64VyUiEl6Nxj8JPuVqY,2803
+libfoot/py.typed,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+libfoot/__init__.py,sha256=X74klDrWgv5VStHqQJBmlzvDVx4Qnhv4m5nsN8gCwyg,1059
+libfoot/cli.py,sha256=mW-5cGu5QpyZg-AL6gj_NZC1QdhDfjG8ibPAi0BqsOg,2057
+libfoot/_libfoot.pyi,sha256=trn4pbZBzKG8LJ0gGD0ZNvzMJN1dmBrudaOxZj-4IUI,1063
+libfoot/_libfoot.cpython-313t-s390x-linux-gnu.so,sha256=tQdL6hKG21x3G6wZst_4iGXOqJefuWuEI2SDvlDEAjs,5176336
+libfoot-0.0.1.dist-info/RECORD,,

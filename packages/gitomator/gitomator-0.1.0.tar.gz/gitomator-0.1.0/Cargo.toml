@@ -1,0 +1,49 @@
+[workspace]
+members = ["ffi"]
+
+[workspace.dependencies]
+thiserror = "1.0"
+regex = "1.10"
+tempfile = "3.8"
+tokio = { version = "1.36", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+
+[workspace.package]
+version = "0.1.0"
+authors = ["ben <bmeddeb@asu.edu>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/bmeddeb/gitomator.git"
+description = "Git operations library with Python bindings"
+
+[package]
+name = "gitomator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Rust library for Git operations with a clean, intuitive API"
+license = "MIT"
+
+[dependencies]
+gitomator-core = { path = "core" }
+regex = "1.10.2"
+tempfile = "3.8.1"
+serde = { version = "1.0", optional = true }
+tokio = { version = "1.36.0", optional = true }
+
+[features]
+default = []
+async = ["dep:tokio"]
+serde = ["dep:serde"]
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
+
+[[example]]
+name = "error_handling"
+path = "examples/error_handling.rs"
+
+[[example]]
+name = "timeout_operations"
+path = "examples/timeout_operations.rs"

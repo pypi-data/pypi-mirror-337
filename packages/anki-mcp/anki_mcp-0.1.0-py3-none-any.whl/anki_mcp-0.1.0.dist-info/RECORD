@@ -1,0 +1,16 @@
+anki_mcp/__init__.py,sha256=7J114AzokCTlDBeACJnZTmLiMYnJEnjHyAChyZLMmCs,310
+anki_mcp/server.py,sha256=KPLzhvufs7wkZyeMTW4ieQs-CJNidoZiyvV6iPXtSeY,1458
+anki_mcp/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anki_mcp/tools/add_note.py,sha256=Aw69k2YesAxbYxb4NOvhDiibvLK31VO-OqTjdqh4sjA,2291
+anki_mcp/tools/check_connection.py,sha256=WqLHjBiVXZEhzhNaSWpYV3mkq-MY18zO1qPsuUZ2JQk,574
+anki_mcp/tools/find_notes.py,sha256=RL0YwX4ybgZOf7tQuwC3usteklRc2PsmNFys0KcHBtE,1989
+anki_mcp/tools/get_cards_reviewed.py,sha256=LwaJX0ExNshG4-mqQsoQYbXYnPGcNv1F1e-HwZQMU_E,775
+anki_mcp/tools/get_model_fields.py,sha256=JApbAUDD4mUfUVzaO2ecMF72Wh09EXp5R8QRlW-Gtco,1451
+anki_mcp/tools/list_decks.py,sha256=SwwBxFt1twXYW75JveatEt6Ru-EtbZWW4X5HoOxGCEg,617
+anki_mcp/tools/list_models.py,sha256=-KsFhn_KCdQGccCUm5bxWGpiYEGGoQEMRsgYtNo9Sog,631
+anki_mcp/tools/update_note.py,sha256=ixP0_986wOtT0LrWHpPE0INpbyozrCve1Yg8Kx9yltw,2738
+anki_mcp/tools/utils.py,sha256=NvJ6zPKaOHSUemrW9BMWngm7UTW48lsXoH86fB1rvwo,1177
+anki_mcp-0.1.0.dist-info/METADATA,sha256=H8-7U_H8-Kz3mDyhwkGLsA8DT7ef-qfjfRmJ-FgeT3Y,3542
+anki_mcp-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+anki_mcp-0.1.0.dist-info/entry_points.txt,sha256=iwp_5h2sAepOxyMntoEj9WzVpCgnDHDLz7q3cOe6Fh8,43
+anki_mcp-0.1.0.dist-info/RECORD,,

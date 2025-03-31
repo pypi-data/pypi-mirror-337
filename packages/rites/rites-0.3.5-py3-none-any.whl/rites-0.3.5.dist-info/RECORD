@@ -1,0 +1,12 @@
+rites/__init__.py,sha256=kwZ0ud7NWY_4YNfLpKHe680go24bkvUo8CLgfHtOrZA,807
+rites/_version.py,sha256=Zmj-1mbq0YG8pNrHsqpWxbU0kpbVmT0eIZiMrG_lzRw,74
+rites/chrono.py,sha256=JX8JqFYF4bdEARzFU7uF7-dTPxxqsbPeOVMtSurQ9kk,1517
+rites/logger.py,sha256=IA7KB_TGyjvsbBwdRbqjBYRJAF4JpIM3SjedCO8bVM4,4375
+rites/rites.py,sha256=mefGHM_3iPfHhp9lNO3DH2Amk1Ahs4bs6pQ6OP1nj1s,3325
+rites/rituals.py,sha256=pYK-7SC16fw2eZZoWU8db1eQd3trKKteoKiRNm5TvWU,25159
+rites/test.py,sha256=4Y57Nb-IGad6uXQrrt7rmvp0SzqsegJbD7JiE9MVvBs,146
+rites-0.3.5.dist-info/licenses/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+rites-0.3.5.dist-info/METADATA,sha256=UofC2M9J291MlZhebkmirwOkC8ma-t_Xaa0IX9Y2wKw,899
+rites-0.3.5.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+rites-0.3.5.dist-info/top_level.txt,sha256=42Si7FQfbFbnvf1mHSNQH1uYd7RxvuQIevvVzAHbHhU,6
+rites-0.3.5.dist-info/RECORD,,

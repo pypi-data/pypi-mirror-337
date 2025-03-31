@@ -1,0 +1,8 @@
+koksl_to_elan/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+koksl_to_elan/cli.py,sha256=fw1Xf62xaaFApwDOqk3nEth5q4siIgNQcryTUCXojuk,2442
+koksl_to_elan/convert.py,sha256=1m2fN3P2qcwmPYdk0RgA_2ZzDR1N-gm7aEEQ6lWpPL4,4657
+koksl_to_elan/generate.py,sha256=hzzTywwdMjsxt49ApR6ePxCj0PozMHVRG4AJR6Xd4Sg,5620
+koksl_to_elan-0.1.6.dist-info/entry_points.txt,sha256=04svfOfYmIvil5SsGr2srgD2SNAR7-l7ImR0_lC_j_w,48
+koksl_to_elan-0.1.6.dist-info/METADATA,sha256=nHkZpiC8QssuWHW96_qBcDMLOJVv5Kqg7hVNdWZflf8,2379
+koksl_to_elan-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+koksl_to_elan-0.1.6.dist-info/RECORD,,

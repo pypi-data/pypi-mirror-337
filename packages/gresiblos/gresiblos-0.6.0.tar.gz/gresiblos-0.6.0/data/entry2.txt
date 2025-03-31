@@ -1,0 +1,13 @@
+state:work
+title:A second blog entry
+filename:my-second-blog-entry
+author:Daniel Krajzewicz
+date:2024-12-26 20:37:00
+topics:blog,example
+abstract:A second blog entry
+content:
+<b>Hello there!</b><br/>
+Welcome to my second post!
+===
+
+

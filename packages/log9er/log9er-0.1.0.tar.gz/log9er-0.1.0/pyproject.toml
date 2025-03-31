@@ -1,0 +1,97 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "log9er"
+dynamic = ["version"]
+description = "Another simple logging wrapper."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Joseph Edwards VIII", email = "jedwards8th@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+# Optional dependencies let users do pip install log9er[test] if they want your test deps
+[project.optional-dependencies]
+test = [
+  "pytest>=7.0",  # or any version constraint you want
+]
+
+[project.urls]
+Documentation = "https://gitlab.com/joseph8th/log9er#readme"
+Issues = "https://github.com/Joseph Edwards VIII/log9er/issues"
+Source = "https://github.com/Joseph Edwards VIII/log9er"
+
+[tool.hatch.version]
+path = "src/log9er/__about__.py"
+
+# Existing environment for mypy type checking
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/log9er tests}"
+
+# Configure pytest path
+[tool.pytest.ini_options]
+testpaths = [
+  "tests"
+]
+
+# New environment definition for tests using pytest
+[tool.hatch.envs.test]
+# This pulls from the optional "test" dependencies you listed above
+dependencies = [
+  "pytest>=7.0",
+]
+
+# The default command(s) that run when you do 'hatch run test'
+commands = [
+  "pytest --maxfail=1 -v"
+]
+
+[tool.coverage.run]
+source_pkgs = ["log9er", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/log9er/__about__.py"
+]
+
+[tool.coverage.paths]
+log9er = ["src/log9er", "*/log9er/src/log9er"]
+tests = ["tests", "*/log9er/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.hatch.envs.docs]
+dependencies = [
+  "pdoc>=12.0",
+]
+[tool.hatch.envs.docs.scripts]
+build = "pdoc --output-directory docs/pdoc --docformat google src/log9er"
+
+[tool.hatch.publish.testpypi]
+repository = "testpypi"

@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hatch project metadata
+.hatch/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.wheel
+
+# Local virtual environments
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Testing output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# mypy / type-checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*#*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+tmp/

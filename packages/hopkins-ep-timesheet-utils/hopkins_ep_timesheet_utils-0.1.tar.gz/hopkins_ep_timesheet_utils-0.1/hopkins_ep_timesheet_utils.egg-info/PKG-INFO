@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: hopkins_ep_timesheet_utils
+Version: 0.1
+Summary: Loading shared utilities for Hopkins project
+Home-page: https://github.com/mathewdenison/shared_utils
+Author: Mathew Denison
+Author-email: mathewdenison@gmail.com
+License: MIT
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary

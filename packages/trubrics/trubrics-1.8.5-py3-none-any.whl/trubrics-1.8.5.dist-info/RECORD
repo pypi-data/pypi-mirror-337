@@ -1,0 +1,10 @@
+examples/sdk_test.py,sha256=fUdCRMVDoDE3CEPS2I6PSk_QKosCZUpayaFtJwo_Log,543
+trubrics/__init__.py,sha256=jxmHdPZLz397BTwJj-6S_qoytuFNTJCfHmkOHpFJwl0,133
+trubrics/config.py,sha256=-BDNhxVGP1YcQNjdWhJFMw1MozlnP18BFMJmLaJEczE,143
+trubrics/enums.py,sha256=GZLGBKUvtwILzS22iz7hV-yi6iK8vY3_8KzR2yofye8,198
+trubrics/logger.py,sha256=toMFZAts5cSTkiIZqvUDVpRzrNV7EpkTDeWMg9kqtm8,409
+trubrics/main.py,sha256=I_Supo5awB0vxZm8ZUx-u_lRxINIasMHCruQmGBLHu0,10652
+trubrics-1.8.5.dist-info/METADATA,sha256=JJtJV6HwFBVe0DsC1rWr4v_7C99_jf1-VuJ96srpi-s,3613
+trubrics-1.8.5.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+trubrics-1.8.5.dist-info/top_level.txt,sha256=_GCzXUzspBBGO4ybdApQut7ZduA0o6yeUvgRgYKipL0,18
+trubrics-1.8.5.dist-info/RECORD,,

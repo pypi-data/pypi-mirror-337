@@ -1,0 +1,15 @@
+nonebot_plugin_jmdownload/__init__.py,sha256=ZcOudAacC5mVy1mrMaZf-0oDYr7B7_aiTliHCPgyEQQ,1471
+nonebot_plugin_jmdownload/config.py,sha256=5MDKk6_jha6uICP8VYZWmlhKP6ZqGv9WmFjgMwHiq4I,4150
+nonebot_plugin_jmdownload/download.py,sha256=hNiWBoGKWmCsc2SdOLr9c0Zj3YJgn9nBxS7h5ziJsfM,10572
+nonebot_plugin_jmdownload/handlers.py,sha256=-Twe20qy6JcvyORMlcvtrZV-vQUkRrkuiFgwh3-m5_0,5260
+nonebot_plugin_jmdownload/image_processor.py,sha256=-Bn647y8UIEm4EJgzOARg70QkW-RzbmuKbN6AfzyMHY,1948
+nonebot_plugin_jmdownload/logger.py,sha256=Da9gVj1pqtmWSfQDo5XNddVOK-YmAbMBEnoXlyyPh2I,4335
+nonebot_plugin_jmdownload/pdf_converter.py,sha256=pAQP0RMag5o4u6G1o1NqwZV--nV6S-1VIjebm4TGP28,27350
+nonebot_plugin_jmdownload/pdf_converter_core.py,sha256=HCCp3zk7k1MTlSZyjIEMLkBVuEGosO4pp1MNcav442c,2824
+nonebot_plugin_jmdownload/resource_manager.py,sha256=s-p9SkBIafHV19MnLY2Ztj-Ia-yVbcdSI3GN9d0aiGI,1949
+nonebot_plugin_jmdownload/utils.py,sha256=SP6NjhnCzxCgs9kP8HYV2b1rzaT-UPFxkpCtT9ux11A,6508
+nonebot_plugin_jmdownload-1.5.0b1.dist-info/LICENSE,sha256=KHpnPrAQRpchY0BaBSvqI9HkgKiS9L2kt8wUAQwjXj0,1495
+nonebot_plugin_jmdownload-1.5.0b1.dist-info/METADATA,sha256=zxT_MXoe0-hhdVBpGWbbXHCYTfxOvFY4MTlzH_ShbmQ,6364
+nonebot_plugin_jmdownload-1.5.0b1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nonebot_plugin_jmdownload-1.5.0b1.dist-info/top_level.txt,sha256=ZdLdaxYynKPiMJXIGHLXMMcPFc0LlyeBSrRBA32hhtA,26
+nonebot_plugin_jmdownload-1.5.0b1.dist-info/RECORD,,

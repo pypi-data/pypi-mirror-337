@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cvdatasets
+Version: 0.12.3
+Summary: Wrapper for various computer vision datasets (especially fine-grained)
+Author: Dimitri Korsch
+Author-email: korschdima@gmail.com
+License: MIT License
+Requires-Dist: numpy
+Requires-Dist: pillow~=9.0
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: simplejson
+Requires-Dist: networkx
+Requires-Dist: scikit-image
+Requires-Dist: cvargparse~=0.5

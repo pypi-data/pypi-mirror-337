@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pypi-readme.rst
+pyproject.toml
+crecombio/__init__.py
+crecombio/crecombio.py
+crecombio.egg-info/PKG-INFO
+crecombio.egg-info/SOURCES.txt
+crecombio.egg-info/dependency_links.txt
+crecombio.egg-info/requires.txt
+crecombio.egg-info/top_level.txt
+examples/two_sequences.py
+images/flp_frt_plot.py
+tests/test_crecombio.py

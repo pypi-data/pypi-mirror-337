@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: jaxacc
+Version: 0.1.0
+Summary: Optimization tools for JAX
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/jaxacc
+Project-URL: Bug Tracker, https://github.com/yourusername/jaxacc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax>=0.3.0
+Requires-Dist: numpy>=1.20.0
+Dynamic: license-file
+
+# JAXACC
+
+A package that provides optimization tools for JAX.
+
+## Installation
+
+```bash
+pip install jaxacc
+```
+
+## Usage
+
+Here's a simple example of using the package for gradient descent:
+
+```python
+import jax.numpy as jnp
+from jaxacc import optimize
+
+# Define a simple quadratic function
+def quadratic(x):
+    return jnp.sum(x**2)
+
+# Initial parameters
+init_params = jnp.array([2.0, 3.0, -1.0])
+
+# Optimize the function
+optimized_params = optimize(
+    quadratic, 
+    init_params, 
+    method="gradient_descent", 
+    learning_rate=0.1, 
+    num_steps=100
+)
+
+print(f"Optimized parameters: {optimized_params}")
+```
+
+## Features
+
+- Gradient-based optimization for JAX functions
+- Simple API for common optimization tasks
+- Compatible with JAX's automatic differentiation
+
+## License
+
+MIT

@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: se3_group
+Version: 0.1.0
+Summary: Functions for SE(3) transformations.
+Author: Tsmorz
+Author-email: tonysmoragiewicz@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: autograd (>=1.7.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.3,<0.8.0)
+Requires-Dist: matplotlib (>=3.10.1,<4.0.0)
+Requires-Dist: numpy (>=2.2.3,<3.0.0)
+Requires-Dist: pre-commit (>=4.1.0,<5.0.0)
+Requires-Dist: pytest (>=8.3.5,<9.0.0)
+Requires-Dist: pytest-cov (>=6.0.0,<7.0.0)
+Requires-Dist: scipy (>=1.15.2,<2.0.0)
+Requires-Dist: sympy (>=1.13.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# se3_group
+Functions for SE(3) transformations
+

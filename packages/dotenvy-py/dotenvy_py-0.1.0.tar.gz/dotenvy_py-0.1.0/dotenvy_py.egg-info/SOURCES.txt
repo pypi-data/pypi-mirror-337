@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dotenvy_py/__init__.py
+dotenvy_py.egg-info/PKG-INFO
+dotenvy_py.egg-info/SOURCES.txt
+dotenvy_py.egg-info/dependency_links.txt
+dotenvy_py.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dotenvy.py

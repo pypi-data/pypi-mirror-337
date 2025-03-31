@@ -1,0 +1,17 @@
+strava_client/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+strava_client/client.py,sha256=YVLjAFb3P-xnhhZKn2jTTxQLgwxWsjOJTCfQ465tN0g,6585
+strava_client/constants.py,sha256=HGVj74FQd81L82V8GzvHE0ms_UdMQi9_r6O3t6MltQ4,164
+strava_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strava_client/enums/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strava_client/enums/api.py,sha256=0cUBPFhQ-yycyFqhbooIOiVmBp1D6ceejZqpHa22_dY,450
+strava_client/enums/auth.py,sha256=n_yt9tYeYBVWU90PzI92uG0KfblF1Ny2LRC0eo222tc,965
+strava_client/enums/base.py,sha256=iWwFEY2y_n7tMczX1ULuBA1TszB6Elz6hAUh2yuNHOM,116
+strava_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strava_client/models/api.py,sha256=kecpQCYi6a7qj4ovAk1-Qq4AvdSKDH5v-A2_EcZfkFs,1160
+strava_client/models/base.py,sha256=B6ME7jC42ObtGNfOb9wpzSaUsS9GreDUA34gLTQeqSk,179
+strava_client/models/requests.py,sha256=fCCeA6D7CYb9qHfeevpA718P3-qw6Kj5EK4TpDSqQng,2785
+strava_client/models/settings.py,sha256=FROYriw1bKZsr4IifIujNoBbrTNThdONK-M-8ftSLSk,2216
+strava_client-0.0.1.dist-info/METADATA,sha256=dG3o41-hbkhsYBIl3nv6PO--Jc9HD-j--KsvrazxJyo,6006
+strava_client-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+strava_client-0.0.1.dist-info/licenses/LICENSE,sha256=jcF1R44BKMKsUS1grfOzGxj6cYFKB6TeOy41RO3fLt4,1075
+strava_client-0.0.1.dist-info/RECORD,,

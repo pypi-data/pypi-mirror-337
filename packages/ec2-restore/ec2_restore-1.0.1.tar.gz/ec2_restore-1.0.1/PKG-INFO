@@ -1,0 +1,127 @@
+Metadata-Version: 2.4
+Name: ec2-restore
+Version: 1.0.1
+Summary: A powerful tool for restoring EC2 instances from AMIs
+Home-page: https://github.com/jyothishkshatri/ec2-restore.git
+Author: Jyothish Kshatri
+Author-email: kshatri.jyothish3@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3>=1.26.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: tqdm>=4.65.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# EC2 Restore Tool
+
+A command-line tool for restoring EC2 instances from AMIs, with support for both full instance restore and volume-level restore.
+
+## Features
+
+- Full instance restore from AMI
+- Volume-level restore from AMI
+- Preserves network interfaces and private IPs
+- Interactive CLI with rich progress indicators
+- Detailed restoration reports
+- Support for multiple instances
+- Backup of instance metadata before restore
+
+## Installation
+
+```bash
+pip install ec2-restore
+```
+
+## Configuration
+
+Create a `config.yaml` file with your AWS credentials and restore settings:
+
+```yaml
+aws:
+  profile: default  # AWS profile name
+  region: us-west-2  # AWS region
+
+restore:
+  max_amis: 10  # Maximum number of AMIs to show
+  log_file: logs/ec2_restore.log  # Log file path
+  log_level: INFO  # Logging level
+```
+
+## Usage
+
+### Full Instance Restore
+
+```bash
+ec2-restore --instance-id i-1234567890abcdef0
+```
+
+### Volume Restore
+
+```bash
+ec2-restore --instance-id i-1234567890abcdef0 --restore-type volume
+```
+
+### Restore by Instance Name
+
+```bash
+ec2-restore --instance-name my-instance
+```
+
+### Restore Multiple Instances
+
+```bash
+ec2-restore --instance-ids i-1234567890abcdef0,i-0987654321fedcba0
+```
+
+## Options
+
+- `--instance-id`: EC2 instance ID to restore
+- `--instance-name`: EC2 instance name (tag) to restore
+- `--instance-ids`: Comma-separated list of EC2 instance IDs to restore
+- `--config`: Path to configuration file (default: config.yaml)
+
+## Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ec2-restore.git
+cd ec2-restore
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install development dependencies:
+```bash
+pip install -e ".[dev]"
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

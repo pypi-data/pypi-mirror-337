@@ -1,0 +1,64 @@
+[project]
+name = "scrollshot2pdf"
+version = "0.1.1"
+authors = [
+    {name = "Oliver Steele", email = "steele@osteele.com"},
+]
+description = "Convert tall screenshots into multi-page PDFs"
+dependencies = [
+    "pillow",
+    "reportlab",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["pdf", "screenshot", "scrollshot"]
+
+[project.optional-dependencies]
+ocr = [
+    "pytesseract",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "pyright",
+]
+
+[project.urls]
+homepage = "https://github.com/osteele/scrollshot2pdf"
+repository = "https://github.com/osteele/scrollshot2pdf.git"
+issues = "https://github.com/osteele/scrollshot2pdf/issues"
+
+[project.scripts]
+scrollshot2pdf = "scrollshot2pdf:main"
+
+[dependency-groups]
+dev = ["pre-commit", "ruff", "pyright", "pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+lint.select = [
+    "E",     # PEP 8 coding style violations
+    "F",     # Pyflakes issues
+    "A",     # Built-in names used as variables
+    "B",     # Bugbear bugs and design problems
+    "I",     # isort
+    "N",     # PEP 8 Naming conventions
+    "W",     # Stylistic issues that may lead to bugs
+    "C4",    # Encourage comprehensions
+    "UP",    # Pyupgrade code syntax modernization
+    "SIM",   # Simplifications
+    "TID",   # Tidy import structure
+    "TCH",   # Type hints and type-checking
+    "RUF",   # Ruff-specific rules
+]

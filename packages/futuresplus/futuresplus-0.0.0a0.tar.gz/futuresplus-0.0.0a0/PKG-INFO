@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: futuresplus
+Version: 0.0.0a0
+Summary: 
+Author: Thomas Mahé
+Author-email: contact@tmahe.dev
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+

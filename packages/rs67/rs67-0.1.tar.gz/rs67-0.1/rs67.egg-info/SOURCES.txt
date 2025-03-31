@@ -1,0 +1,7 @@
+setup.py
+rs67/__init__.py
+rs67/module.py
+rs67.egg-info/PKG-INFO
+rs67.egg-info/SOURCES.txt
+rs67.egg-info/dependency_links.txt
+rs67.egg-info/top_level.txt

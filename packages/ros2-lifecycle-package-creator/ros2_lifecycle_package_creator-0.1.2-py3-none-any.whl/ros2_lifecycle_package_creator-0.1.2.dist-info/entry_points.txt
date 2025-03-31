@@ -1,0 +1,3 @@
+[console_scripts]
+ros2-lifecycle-pkg-create=ros2_lifecycle_package_creator.main:main
+

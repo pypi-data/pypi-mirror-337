@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resmod"
+version = "0.2.1"
+description = "A package for creating orthogonalized interaction terms by centering residuals and visualizing interactions"
+authors = [{name = "Drew E. Winters, PhD.", email = "drewEwinters@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "statsmodels",
+    "patsy"
+]
+
+[project.urls]
+Homepage = "https://github.com/drewwint/resmod"

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_vision-detectron2/__init__.py
+src/corex-ai_vision-detectron2/handler.py
+src/corex_ai_vision_detectron2.egg-info/PKG-INFO
+src/corex_ai_vision_detectron2.egg-info/SOURCES.txt
+src/corex_ai_vision_detectron2.egg-info/dependency_links.txt
+src/corex_ai_vision_detectron2.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: euler-swarm
+Version: 0.1.2
+Summary: A tool for building dependency graphs and generating code documentation using muliple agents.
+Home-page: UNKNOWN
+Author: Atharv Patawar
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+
+UNKNOWN
+

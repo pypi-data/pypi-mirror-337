@@ -1,0 +1,10 @@
+genealloy/GeneAlloy.py,sha256=Z7a6PXhB6mJ2OvIaDGF8IHQaYrtPQQBhP_M-EeJ7U28,14850
+genealloy/__init__.py,sha256=bFuOoolqz5GQ2pUaN072QTaulrLdzsojUDl0h6odJ3E,650
+genealloy/codontable.py,sha256=sGTQ7ZaLieTtS4j3Vz0SiSY1AYIsGsqBNPmPzbq_5XI,5250
+genealloy-0.1.2.dist-info/licenses/LICENSE,sha256=qQcsLRQFpPp9ftBgbKeV0-x78GJcfF7pUGxcwL2mSkk,1106
+tests/test_codontable.py,sha256=ULbXlAmSS4eIrrD7AAFvudPqYjoQC2mYTC623LfxndI,720
+tests/test_genealloy.py,sha256=PV3BXKG5F49pmZu-kotjRdfrAgMstQwLjA4Q6E_LIqY,3552
+genealloy-0.1.2.dist-info/METADATA,sha256=VSheExGQ2zkvRuzeahIzTK2o59ZOk3Xe1zCNLpaHiGk,1176
+genealloy-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+genealloy-0.1.2.dist-info/top_level.txt,sha256=UTF847IbAca5kM8sRlR_-A9k5H1Qjl-zfY1V5OfXimU,16
+genealloy-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+genefamily.egg-info/PKG-INFO
+genefamily.egg-info/SOURCES.txt
+genefamily.egg-info/dependency_links.txt
+genefamily.egg-info/entry_points.txt
+genefamily.egg-info/requires.txt
+genefamily.egg-info/top_level.txt

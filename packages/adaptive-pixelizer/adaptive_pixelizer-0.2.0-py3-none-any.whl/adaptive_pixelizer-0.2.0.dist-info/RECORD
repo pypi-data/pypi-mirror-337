@@ -1,0 +1,11 @@
+adaptive_pixelizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adaptive_pixelizer/commands.py,sha256=k1w4WRburC9f8A79h0dPyrnHeVePc3Ajli6_PVzXQh8,7240
+adaptive_pixelizer/image_label.py,sha256=u6FKrHJ7FipxT9T7ughLncLSIck5bo88rrLWaInAgkk,53044
+adaptive_pixelizer/image_utils.py,sha256=sZdy1IXh_-9ON8KgF1lruLwwErVEA4bMWG3_tSYjD54,11003
+adaptive_pixelizer/main_window.py,sha256=ClyfA8p0hjgcTaSUbmRs0eDzkFM3-IsHsJnd78cBiV8,69310
+adaptive_pixelizer-0.2.0.dist-info/licenses/LICENSE,sha256=IUxaqhdroG9zYPQPCe6FIcq1HDje9C2RXjcS_GS_udw,1064
+adaptive_pixelizer-0.2.0.dist-info/METADATA,sha256=QkZ-WJ4g1ZIWJSoWiwuDDhPhL8o2_Fx0863OuUbxaXQ,6917
+adaptive_pixelizer-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+adaptive_pixelizer-0.2.0.dist-info/entry_points.txt,sha256=iNPVg2fvVDJtsK7i_9T3InMqiSWkC8tAod0pZOXUSTo,71
+adaptive_pixelizer-0.2.0.dist-info/top_level.txt,sha256=HBaYNlJf93Rvz5q1kdGXSdKzU8HKZKDopVwz0wOVay4,19
+adaptive_pixelizer-0.2.0.dist-info/RECORD,,

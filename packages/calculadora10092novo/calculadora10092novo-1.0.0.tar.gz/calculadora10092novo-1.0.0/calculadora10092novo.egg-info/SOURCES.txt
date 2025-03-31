@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+calculadora/__init__.py
+calculadora/calc.py
+calculadora10092novo.egg-info/PKG-INFO
+calculadora10092novo.egg-info/SOURCES.txt
+calculadora10092novo.egg-info/dependency_links.txt
+calculadora10092novo.egg-info/top_level.txt

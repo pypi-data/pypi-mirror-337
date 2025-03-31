@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: edubase-api
+Version: 0.3.0
+Summary: Python 3 пакет для взаимодействия с edubase-api
+Author-email: Semyon Terebenin <semenchik02@gmail.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Python-edubase-api
+
+Python 3 пакет для взаимодействия с edubase-api  

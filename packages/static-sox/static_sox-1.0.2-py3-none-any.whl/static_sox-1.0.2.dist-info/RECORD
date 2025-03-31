@@ -1,0 +1,10 @@
+static_sox/__init__.py,sha256=y0QmWooC8Zoa4pdQmlXNoHTd1trI6bCkGh5E9xKw9C0,104
+static_sox/_add_paths.py,sha256=j2oe-flvfxCrfIXg1hpWPKZILRzytUeFeS3Ephvx--s,1589
+static_sox/cli.py,sha256=irwaIuFiVsnYFHy0OCsPUTMytMO5IerEjzfkZugB258,169
+static_sox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_sox/run.py,sha256=-khtNA_-HqGlB6G-454Q0VCiVjNdarMQwk_667_JF38,6189
+static_sox-1.0.2.dist-info/METADATA,sha256=HZWpnVtyny54pF1Iy-SD7_QMegeqFoI4d1pkvb9UH8I,1937
+static_sox-1.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+static_sox-1.0.2.dist-info/entry_points.txt,sha256=ZAk8AQCGRHxzxBY263hyt4KzQyCuUPrVrwjoM2K2B5w,62
+static_sox-1.0.2.dist-info/top_level.txt,sha256=0XCfRqsfnH4TLAPA0JX_MAV0EFiTPbopWd-kSUED64I,11
+static_sox-1.0.2.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/worker_object_server/__init__.py
+src/worker_object_server/object_server.py
+src/worker_object_server/update.py
+src/worker_object_server/update_server.py
+src/worker_object_server.egg-info/PKG-INFO
+src/worker_object_server.egg-info/SOURCES.txt
+src/worker_object_server.egg-info/dependency_links.txt
+src/worker_object_server.egg-info/requires.txt
+src/worker_object_server.egg-info/top_level.txt
+tests/test_update_server.py

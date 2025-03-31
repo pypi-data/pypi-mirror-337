@@ -1,0 +1,29 @@
+[project]
+name = "worker-object-server"
+version = "0.1.0"
+dependencies = [
+    "websockets",
+    "pydantic",
+    "python-dateutil"
+]
+authors = [
+  { name="Oliver Dantzer", email="oliverdantzer@gmail.com" },
+]
+description = "Provides a class mimicking a python dictionary that sends and recieves updates to its connected clients."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/oliverdantzer/worker-object-server"
+Issues = "https://github.com/oliverdantzer/worker-object-server/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"

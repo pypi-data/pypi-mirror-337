@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cartel"
+version = "1.1"
+description = """Библиотека cartel: как ей пользоваться
+
+cartel - это шуточная библиотека при помощи которой можно написать скрипт который будет выводить текстовый мем из тиктока "Как ему не страшно говорить про кортель"
+Пример использования:
+
+from cartel import cartel
+
+text = cartel()
+print(text)
+
+Новый формат текста:
+
+from cartel import new_cartel_text
+
+text = new_cartel_text()
+print(text)
+
+Пользуйтесь на здоровье! (Интересно для чего ее вообще будут использовать...)
+
+Внимание:
+С версии 1.1a1 используется новый вариант примером использования библиотеки тот что выше указан
+
+Старый формат (если у вас 1.0.01):
+
+from cartel import carteltext
+
+text = carteltext()
+print(text)"""
+authors = [{ name = "mistertayodimon", email = "dimondimonych1@outlook.com" }]
+license = { text = "MIT License" }
+dependencies = [
+    "colorama"
+]
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88

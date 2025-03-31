@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_audio-nemo/__init__.py
+src/corex-ai_audio-nemo/handler.py
+src/corex_ai_audio_nemo.egg-info/PKG-INFO
+src/corex_ai_audio_nemo.egg-info/SOURCES.txt
+src/corex_ai_audio_nemo.egg-info/dependency_links.txt
+src/corex_ai_audio_nemo.egg-info/top_level.txt
+tests/test_handler.py

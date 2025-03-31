@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-events-nats/__init__.py
+src/corex-events-nats/handler.py
+src/corex_events_nats.egg-info/PKG-INFO
+src/corex_events_nats.egg-info/SOURCES.txt
+src/corex_events_nats.egg-info/dependency_links.txt
+src/corex_events_nats.egg-info/top_level.txt
+tests/test_handler.py

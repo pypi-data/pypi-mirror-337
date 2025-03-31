@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_client.py
+whisper_live/__init__.py
+whisper_live/__version__.py
+whisper_live/client.py
+whisper_live/transcription_client.py
+whisper_live/transcription_tee_client.py
+whisper_live/utils.py
+whisper_live_client.egg-info/PKG-INFO
+whisper_live_client.egg-info/SOURCES.txt
+whisper_live_client.egg-info/dependency_links.txt
+whisper_live_client.egg-info/requires.txt
+whisper_live_client.egg-info/top_level.txt

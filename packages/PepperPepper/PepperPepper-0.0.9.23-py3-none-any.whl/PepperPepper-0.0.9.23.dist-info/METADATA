@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: PepperPepper
+Version: 0.0.9.23
+Summary: Infrared Small Target Detection Kit
+Home-page: 
+Author: Aohua Li
+Author-email: liah24@mails.jlu.edu.cn
+Requires-Python: >=3.7
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,2 @@
+[console_scripts]
+swarm-cli = swarm.extensions.launchers.swarm_cli:app

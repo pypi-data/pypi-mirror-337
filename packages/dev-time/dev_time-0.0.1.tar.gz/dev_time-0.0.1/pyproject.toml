@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-time"
+version = "0.0.1"
+dependencies = [
+    "typer",
+    "sqlmodel",
+    'importlib-metadata; python_version>"3.10"',
+]
+authors = [
+  { name="v-m.dev", email="v.mdeve.ops@gmail.com" },
+]
+description = "A CLI-based CRUD application to manage the time you dedicate to your company's projects."
+readme = "README.md"
+requires-python = ">=3.0"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+
+[project.scripts]
+dev-time = "dev_time.main:main"

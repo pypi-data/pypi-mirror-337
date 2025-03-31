@@ -1,0 +1,10 @@
+malloy_mcp_server/__about__.py,sha256=HOmU5sgXU14tXjdvSe0iIIyluugGL0Y7R8eo1JaeyxE,50
+malloy_mcp_server/__init__.py,sha256=hXYLod4ij9PEWk7TAHw4kwRzkIK_ijD2qoot-sJOe_s,911
+malloy_mcp_server/errors.py,sha256=EIks5imYfyfquGiiz57AhFIvUYkKXLzyoQKXnbvW6Yw,814
+malloy_mcp_server/py.typed,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+malloy_mcp_server/server.py,sha256=YQGI59cjyjoK5FkxRNcDj6m7ajfnEgbnwcvkNcW4KQs,11034
+malloy_mcp_server-0.1.0.dist-info/METADATA,sha256=ZLrT_vmX2Fg3aOpSnPlm3fb1SvE4QnDS207JM3isExk,3759
+malloy_mcp_server-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+malloy_mcp_server-0.1.0.dist-info/entry_points.txt,sha256=_2gGXEIguXqCCaLvjdVj-5n4y_TbCwJfo6jaePNgve4,61
+malloy_mcp_server-0.1.0.dist-info/licenses/LICENSE,sha256=QTvjMscTzJfFAYY3qNf43G1T4Fx-qO4ORdF2vbbA50A,1069
+malloy_mcp_server-0.1.0.dist-info/RECORD,,

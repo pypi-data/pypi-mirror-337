@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: poweroperator
+Version: 0.0.6
+Summary: The most productive dev stack ever
+Author-email: Michael Bacarella <michael@poweroperator.com>, Paul Roales <paul@poweroperator.com>
+Project-URL: homepage, https://poweroperator.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.1
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.3
+Requires-Dist: scalene>=1.5.51
+Requires-Dist: rich>=10.7.0
+Requires-Dist: cloudpickle>=2.2.1
+Requires-Dist: Jinja2>=3.0.3
+Requires-Dist: psutil>=5.9.2
+Requires-Dist: astunparse>=1.6.3; python_version < "3.9"
+Requires-Dist: numpy!=1.27,>=1.24.0
+Requires-Dist: pydantic>=2.6
+
+# PowerOperator
+
+Power Operator automatically optimizes your Python and JavaScript so it runs faster, cheaper, and reduces user latency.
+
+hello@poweroperator.com
+
+## Installation
+
+Using uv (recommended):
+```
+uv add poweroperator
+```
+
+Using pip:
+```
+pip install poweroperator
+```
+
+## Usage
+
+```
+poweroperator your_program.py
+```

@@ -1,0 +1,41 @@
+[project]
+name = "poweroperator"
+authors = [
+  { name = "Michael Bacarella", email = "michael@poweroperator.com" },
+  { name = "Paul Roales", email = "paul@poweroperator.com" },
+]
+version = "0.0.6"
+description = "The most productive dev stack ever"
+requires-python = ">=3.8.1"
+readme = "README.md"
+urls = { homepage = "https://poweroperator.com" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.32.3",
+    "scalene>=1.5.51",
+    # The following dependencies are from the above version of scalene. listed here
+    #  because pip can't transitively resolve them sometimes.
+    "rich>=10.7.0",
+    "cloudpickle>=2.2.1",
+    "Jinja2>=3.0.3",
+    "psutil>=5.9.2",
+    "astunparse>=1.6.3; python_version < '3.9'",
+    "numpy>=1.24.0,!=1.27",
+    "pydantic>=2.6",
+]
+
+[project.scripts]
+poweroperator = "poweroperator.cli:main"
+
+[dependency-groups]
+dev = [
+    "black>=24.8.0",
+    "flake8>=7.1.2",
+    "python-lsp-server>=1.12.2",
+    "mypy>=1.14.1",
+    "types-requests>=2.32.0.20241016",
+]

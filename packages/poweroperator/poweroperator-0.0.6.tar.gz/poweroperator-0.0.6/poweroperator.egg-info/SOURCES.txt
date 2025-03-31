@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+poweroperator/__init__.py
+poweroperator/cli.py
+poweroperator/local_module_indexer.py
+poweroperator/poweroperator_api.py
+poweroperator.egg-info/PKG-INFO
+poweroperator.egg-info/SOURCES.txt
+poweroperator.egg-info/dependency_links.txt
+poweroperator.egg-info/entry_points.txt
+poweroperator.egg-info/requires.txt
+poweroperator.egg-info/top_level.txt
+tests/test_init.py
+tests/test_redaction.py

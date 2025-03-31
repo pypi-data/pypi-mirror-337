@@ -1,0 +1,2 @@
+[console_scripts]
+toolkit = toolkit.cli:cli

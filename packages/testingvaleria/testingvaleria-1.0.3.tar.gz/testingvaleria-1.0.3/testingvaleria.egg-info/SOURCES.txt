@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dadosbrasil/__init__.py
+dadosbrasil/dados.py
+testingvaleria.egg-info/PKG-INFO
+testingvaleria.egg-info/SOURCES.txt
+testingvaleria.egg-info/dependency_links.txt
+testingvaleria.egg-info/top_level.txt

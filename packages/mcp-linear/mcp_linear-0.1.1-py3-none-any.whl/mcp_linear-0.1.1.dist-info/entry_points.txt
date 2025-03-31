@@ -1,0 +1,3 @@
+[console_scripts]
+linear-mcp = mcp_linear.main:main
+mcp-linear = mcp_linear.main:main

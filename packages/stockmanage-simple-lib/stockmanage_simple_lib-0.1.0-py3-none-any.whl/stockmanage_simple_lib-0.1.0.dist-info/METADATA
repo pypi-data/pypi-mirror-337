@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stockmanage-simple-lib
+Version: 0.1.0
+Summary: A simple Django library for stock management with role-based access
+Home-page: UNKNOWN
+Author: Neeraj Reddy
+Author-email: pneerajreddy390@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django >=3.0
+
+# Stock Manager
+
+A simple Django library for listing, selling, and deleting stock items.
+
+## Installation
+```bash
+pip install stock_manager
+

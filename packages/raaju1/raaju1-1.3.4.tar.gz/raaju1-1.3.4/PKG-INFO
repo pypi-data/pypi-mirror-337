@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: raaju1
+Version: 1.3.4
+Author: Raaj
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+
+# raaju1
+
+## Description
+**raaju1** is a Python package that identifies the roommate of Vishal Singh. This package provides a simple way to retrieve this information using a straightforward import and function call.
+
+## Features
+- Retrieves the name of Vishal Singh's roommate.
+- Lightweight and easy to use.
+
+## Installation
+To install **raaju1**, use pip:
+```sh
+pip install raaju1==1.3.2
+```
+
+## Usage
+After installation, you can use the package as follows:
+```python
+from main import *
+
+# Example usage
+display_roommate()
+```
+
+## Framework Used
+This package is built using Python.
+
+## Contributing
+Feel free to fork the repository, create a feature branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any issues or feature requests, please reach out via the GitHub repository.
+

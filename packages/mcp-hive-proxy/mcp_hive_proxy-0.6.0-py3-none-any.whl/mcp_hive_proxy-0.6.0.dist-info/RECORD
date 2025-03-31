@@ -1,0 +1,9 @@
+mcp_cli/__init__.py,sha256=ca8W6O8SEZkinhYfzPZE-NsnYFdXvOX-iW2eib2tvDI,99
+mcp_cli/cli.py,sha256=2PWUvTPgOORLYqEJDrhG9utXzfAoefJoH29iJk2mQ8o,13804
+mcp_cli/config.py,sha256=-mt11OvPo9zzyFJWawUlIPKlgCheWt68y_SDpygXoO8,4831
+mcp_cli/sse_client.py,sha256=r_Wi6OjZEWvJjIAftl1a9kh7MZTDk1obGbnpL8c2VCI,5601
+mcp_hive_proxy-0.6.0.dist-info/METADATA,sha256=4ye91bPsS7u1oC56CZQUS17zRjtGeDXozOZP3Qi8B3c,3008
+mcp_hive_proxy-0.6.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_hive_proxy-0.6.0.dist-info/entry_points.txt,sha256=sfVWuBaShoOinwfDkvhES8Wfxdzqoa1CYG-8CIUjPj4,52
+mcp_hive_proxy-0.6.0.dist-info/top_level.txt,sha256=KMJx0J334iDzMs06TaJjQ8mOtEa3QmolTGZFVtfyTVM,8
+mcp_hive_proxy-0.6.0.dist-info/RECORD,,

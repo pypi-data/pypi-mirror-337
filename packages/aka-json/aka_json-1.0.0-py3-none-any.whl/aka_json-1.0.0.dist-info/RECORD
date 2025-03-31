@@ -1,0 +1,10 @@
+aka_json/__init__.py,sha256=5VPypto6SIsw91J4t6r5WqULZGgHfWIibgURHtcubJg,3458
+aka_json/constants.py,sha256=G7kHOT3QEK2Og2wchdAD9jmPK6zEQKJhp2wsKprIoIM,2903
+aka_json/decoder.py,sha256=DKLOX7eDEpvKfvISiGEbMUECdAwGxTQTghR4nXmC06M,2066
+aka_json/encoder.py,sha256=idsSy5FxivZDQ71TJso50UbMffpBIaVZhJVesnugDgA,1824
+aka_json/exceptions.py,sha256=V5GTpcs3qkpNM6KGKw-s6WIQHjeJJGG2N5CGtJwcBus,968
+aka_json/file.py,sha256=KZSunfvLju7dXcMsAP-at09oeBguZ92eviQ4DLuPC7w,31618
+aka_json-1.0.0.dist-info/METADATA,sha256=e88kufmaks7etr6kyNCNg8HZ3kYBTmRvVVJ6SXLvx3c,5276
+aka_json-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+aka_json-1.0.0.dist-info/top_level.txt,sha256=Ezbsx-NZzCElTkvxWi_kBTXPjiZLKPxsr2bwYpLiAqA,9
+aka_json-1.0.0.dist-info/RECORD,,

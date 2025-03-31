@@ -1,0 +1,329 @@
+# AI Agents Red Teaming Framework
+
+## Overview
+
+**dtx** is an advanced red teaming framework designed for analyzing agent security risks. It provides tools for creating agent security scopes and performing AI-driven risk analysis. The framework enables security professionals to evaluate the safety and integrity of AI agents and their interactions.
+
+Additionally, dtx includes an **Agents Scope Generator**, which helps define and refine agent security scopes based on AI-driven assessments.
+
+## Features
+
+- Generate red teaming scopes
+- Perform AI-driven risk analysis
+- YAML-based scope configuration and output
+- CLI-based interaction
+- **Local evaluation using SLMs or LLMs (optional)**
+- **Generate test cases for security analysis (optional)**
+- **Support for local and remote evaluation models**
+
+## Installation
+
+dtx is managed using [Poetry](https://python-poetry.org/). To install it, run:
+
+```sh
+poetry install
+```
+
+### **Installing with Additional Features**
+
+Morphius provides additional installation options via Poetry extras:
+
+```toml
+[tool.poetry.extras]
+huggingface = ["detoxify"]
+autogen = ["playwright", "autogen-agentchat", "autogen-ext", "tiktoken", "aiofiles"]
+```
+
+#### **HuggingFace Support**
+
+Morphius also supports Hugging Face models for toxicity analysis and other NLP tasks.
+
+To enable support for Hugging Face models, install:
+
+```sh
+poetry install --extras "huggingface"
+```
+
+To enable toxicity analysis using Detoxify, install:
+
+```sh
+poetry install --extras "detoxify"
+```
+
+#### **AutoGen Support**
+
+For automatic agent interactions and script-based analysis, install:
+
+```sh
+poetry install --extras "autogen"
+```
+
+### **Additional Dependency Groups**
+
+Morphius includes specific dependency groups for fine-grained installation control:
+
+#### **AutoGen Group Dependencies**
+
+To install dependencies related to AutoGen, use:
+
+```sh
+poetry install --with autogen
+```
+
+#### **HuggingFace Group Dependencies**
+
+To install dependencies related to Hugging Face models, use:
+
+```sh
+poetry install --with huggingface
+```
+
+#### **Development Dependencies**
+
+For development and testing, install:
+
+```sh
+poetry install --with dev
+```
+
+For automatic agent interactions and script-based analysis, install:
+
+```sh
+poetry install --extras "autogen"
+```
+
+---
+
+## Quick Usage
+
+### Running Smallest Text Generation Model
+
+To generate the required plan:
+
+```sh
+dtx redteam plan tests/samples/scope/txt_models_red_team_scope.yml redteam_plan.yml --dataset HF_LMSYS
+```
+
+Then, run the model:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL arnir0/Tiny-LLM
+```
+
+### Create .env File and Provide API Keys
+
+```sh
+cp .env.template .env
+```
+
+**Note:** Update the API Key before proceeding.
+
+### Generate a Red Teaming Scope
+
+To create a new red teaming scope:
+
+```sh
+poetry run dtx redteam scope "Example agent description" dtx.yml
+```
+
+or Use AI Agent to generate the scope. Refer to the Section **Agents Scope Generator**
+
+### Generate an Analysis Plan
+
+To generate an analysis plan from a scope file:
+
+```sh
+poetry run dtx redteam plan dtx.yml plan.yml
+```
+
+---
+
+## Command Reference
+
+### `redteam scope`
+
+Generate a red teaming scope with all plugins enabled:
+
+```sh
+dtx redteam scope "The Jira Toolkit for LangChain enables interaction..."
+```
+
+### `redteam plan`
+
+Run an analysis and produce a structured YAML output:
+
+```sh
+dtx redteam plan dtx.yml redteam.yml
+```
+
+---
+
+## **Running Tests**
+
+Morphius includes unit and integration test cases to ensure the reliability of its features. To run the test suite, use the following commands:
+
+### **Run Unit Tests**
+
+```sh
+poetry run pytest tests/unit
+```
+
+### **Run Integration Tests**
+
+```sh
+poetry run pytest tests/integration
+```
+
+These tests help verify the correctness and stability of Morphius across different modules.
+
+---
+
+## **Running Small LLMs for Text Generation and Classification**
+
+Morphius now supports running small LLMs locally for both text generation and classification tasks.
+
+### **Generating Outputs with Small LLMs (Generate and Run the Plan)**
+
+To generate the required plan:
+
+```sh
+dtx redteam plan tests/samples/scope/txt_models_red_team_scope.yml redteam_plan.yml --dataset HF_LMSYS
+```
+
+Then, run the model:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL arnir0/Tiny-LLM
+```
+
+To run a small language model for red teaming:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL ad
+```
+
+### **dRunning a Small Model for Classification (Generate and Run the Plan)**
+
+To generate the required plan:
+
+```sh
+dtx redteam plan tests/samples/scope/toxic_bert_redteam_scope.yml redteam_plan.yml --dataset HF_LMSYS
+```
+
+Then, run the model:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL unitary/unbiased-toxic-roberta
+```
+
+To classify AI-generated text using a small model:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL unitary/unbiased-toxic-roberta
+```
+
+These models enable efficient on-device execution, reducing reliance on large cloud-based LLMs.
+
+---
+
+## **Optionally Configuring Ollama for Local LLM Execution**
+
+If you prefer running LLMs locally with [Ollama](https://ollama.ai/), you can set up and configure Ollama for seamless integration with Morphius.
+
+### **Installing Ollama**
+
+Follow the instructions to install Ollama on your system:
+
+```sh
+curl -fsSL https://ollama.ai/install.sh | sh
+```
+
+### **Running Ollama Models**
+
+After installation, run a local LLM model for inference:
+
+```sh
+ollama run mistral
+```
+
+### **Integrating Ollama with Morphius**
+
+Modify the execution command to use an Ollama-hosted model:
+
+```sh
+dtx redteam run redteam_plan.yml HF_MODEL ollama/mistral
+```
+
+This allows you to leverage locally hosted models for red teaming and classification tasks without needing an external API.
+
+---
+
+## **Generating Plans Based on Different Datasets**
+
+Morphius supports generating security test plans using various predefined datasets for structured risk assessment. Below are commands for generating test plans using different datasets.
+
+### **STARGAZER Dataset**
+
+```sh
+dtx redteam plan redteam_scope.yml redteam_plan_stargazer.yml --dataset STARGAZER
+```
+
+### **HF\_LMSYS Dataset**
+
+```sh
+dtx redteam plan redteam_scope.yml redteam_plan_hf_lmsys.yml --dataset HF_LMSYS
+```
+
+### **HF\_HACKAPROMPT Dataset**
+
+```sh
+dtx redteam plan redteam_scope.yml redteam_plan_hf_hackaprompt.yml --dataset HF_HACKAPROMPT
+```
+
+### **STRINGRAY Dataset**
+
+```sh
+dtx redteam plan redteam_scope.yml redteam_plan_stringray.yml --dataset STRINGRAY
+```
+
+---
+
+## **Agents Scope Generator**
+
+### Overview
+
+The **Agents Scope Generator** is a security assessment script that utilizes AI models to generate a red team scope based on the provided target. It processes information interactively and can produce structured output in YAML format.
+
+### Installation & Setup
+
+Ensure you have Python installed and any required dependencies.
+
+To install the extension with additional features, use:
+
+```sh
+poetry install --extras autogen
+```
+
+### Usage
+
+Run the script with the required parameters:
+
+```sh
+poetry run python dtx/plugins/agents/autogen/agents_scope_generator.py --target <TARGET_URL>
+```
+
+### Example Usage
+
+```sh
+poetry run python dtx/plugins/agents/autogen/agents_scope_generator.py --target https://x.com/nft_xbt
+```
+
+### Output
+
+The script generates a structured YAML file containing the red team scope details, which can be used for further analysis.
+
+### Notes
+
+- Ensure you have API access to the AI model specified (`gpt-4o` by default).
+- The `interactive` mode may require user input during execution.
+

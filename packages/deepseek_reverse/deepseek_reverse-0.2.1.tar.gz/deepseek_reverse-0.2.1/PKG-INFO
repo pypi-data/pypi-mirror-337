@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: deepseek_reverse
+Version: 0.2.1
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: curl-cffi>=0.10.0
+Requires-Dist: jinja2>=3.1.6
+Requires-Dist: wasmtime>=31.0.0
+
+## Example
+
+```python
+from deepseek_reverse import completion
+def main():
+    with completion(
+        messages=[
+            {"role": "user", "content": "Tình hình GDP Việt Nam 2024"},
+        ],
+        stream=True,
+        search_enabled=True,
+        token="...",
+    ) as stream:
+        for chunk in stream:
+            print(chunk, end="", flush=True)
+if __name__ == "__main__":
+    main()
+```

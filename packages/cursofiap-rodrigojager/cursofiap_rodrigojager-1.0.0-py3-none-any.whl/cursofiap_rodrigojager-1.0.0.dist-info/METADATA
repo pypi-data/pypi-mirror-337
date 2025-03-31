@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: cursofiap-rodrigojager
+Version: 1.0.0
+Summary: Cursofiap
+Home-page: https://github.com/rodrigojager/cursofiap
+Author: Rodrigo Jäger
+Author-email: rodrigojager@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# Cursofiap
+
+A simple example library.
+
+## Installation
+
+```sh
+pip install cursofiap
+```
+
+## Usage
+
+```python
+from cursofiap import hello_world
+
+print(hello_world())
+```
+
+## License
+
+Distributed under MIT license.

@@ -1,0 +1,8 @@
+deepseek_reverse/__init__.py,sha256=HbFp9VFgZpV4i2Ku9M3mRloGnNUFGUbmHi6lEygJiOA,41
+deepseek_reverse/_internal.py,sha256=BkZst8yeOAro-5orDm3Y7FSlHpy8itiQuIlIk9P_VtU,2019
+deepseek_reverse/api.py,sha256=ic6lVmveDG2uaIM-Y04_W8cHFp915jPhQ88fnM0LR0w,9680
+deepseek_reverse/sha3.wasm,sha256=s_yozAcsHe-9YMAiZqjki9MHoYBKr_QxSQCupyDnL30,26612
+deepseek_reverse-0.2.1.dist-info/METADATA,sha256=m99FQAdAoazrkzEbft8rxtTqsLUlRTOqcCu-PLALIWE,659
+deepseek_reverse-0.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+deepseek_reverse-0.2.1.dist-info/top_level.txt,sha256=YKcmpWzs3iaSZ8IUyeCPhAT4pULD3USqwZWEKj3nNR8,17
+deepseek_reverse-0.2.1.dist-info/RECORD,,

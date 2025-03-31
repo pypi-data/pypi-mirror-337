@@ -1,0 +1,35 @@
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname TestRouter
+!
+interface GigabitEthernet0/0
+ description Uplink to ISP
+ ip address 192.0.2.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description LAN Segment
+ ip address 10.0.0.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+ip route 0.0.0.0 0.0.0.0 192.0.2.254
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+!
+line vty 0 4
+ password cisco
+ login
+ transport input ssh
+!
+enable secret 5 $1$abc123$eUiwOXKNvhft0WzHNUeUu1
+!
+end

@@ -1,0 +1,6 @@
+corex-messaging-rabbitmq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corex-messaging-rabbitmq/handler.py,sha256=50EfpJaols4z20Mnh3WZASLyTa9DrpI7y0Kd4s8ixBg,281
+corex_messaging_rabbitmq-0.1.0.dist-info/METADATA,sha256=0P5zMK7RAbfqUaKiZ46BmvspvVBVKfK5S2UQ80lArZw,332
+corex_messaging_rabbitmq-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+corex_messaging_rabbitmq-0.1.0.dist-info/top_level.txt,sha256=ecvguEGa6GQ7sPEQ5Ywwje5uOonbv-kd8Cs6s7tC_WY,25
+corex_messaging_rabbitmq-0.1.0.dist-info/RECORD,,

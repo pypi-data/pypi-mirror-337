@@ -1,0 +1,7 @@
+README.md
+setup.py
+ujwal_automl_classifier.egg-info/PKG-INFO
+ujwal_automl_classifier.egg-info/SOURCES.txt
+ujwal_automl_classifier.egg-info/dependency_links.txt
+ujwal_automl_classifier.egg-info/requires.txt
+ujwal_automl_classifier.egg-info/top_level.txt

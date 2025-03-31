@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=Qgldh_n6M3kJQ8Rw9AgzsUUmWlU2XAvE-52DqOAYaVE,50
+miniai/__init__.py,sha256=BYztkVCSzocpXxPtnXQW5GGWUepXB6aZU1rjxZA3PHk,50
+miniai/config.py,sha256=0ski3l819yHcve6DxEbxk1_opbg4ABFtwkwwpuQNhEw,2547
+miniai/core.py,sha256=ErSY5V4oiIV9tvOxhqtNuSLz0k-s8v98hjzd-d-5X_I,10098
+miniai/providers/__init__.py,sha256=nDLqY2nQnspeEO1UPFtc5Oy1VaGMQpBfKyAvLfrdVK8,852
+miniai/providers/anthropic.py,sha256=-gS1iNicYPCa7iYmUlCnChcbHoyWpf2r_oMRccjhBws,4132
+miniai/providers/base.py,sha256=5AP3tXkgfMMQd-1lyVRZqlHQ4JRzNhKaPeSQYdCw-YQ,4646
+miniai/providers/constants.py,sha256=zwaaKzNphPSUKIcx7rju327I6tG6Wgu8MM5P5MKgO94,666
+miniai/providers/mock.py,sha256=TpV3RuGhyttWfZDKOLFBRoCVZLBaLjhVEPECSxfCg48,4480
+miniai/providers/openai.py,sha256=MJoNm1U4GAJbN8c15db7Fyf1BA0w1q2JeXGy_bAK8Pc,8399
+miniai-0.1.0.dist-info/licenses/LICENSE,sha256=apXoWZMBT4XbSX0B1iqb_EebpjDaPhtB26oqdM3iPAc,1069
+miniai-0.1.0.dist-info/METADATA,sha256=GkZ0HFaIAEhjkkPus97nAOiEIJOHM4wx3rA0csiyYX0,5625
+miniai-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+miniai-0.1.0.dist-info/top_level.txt,sha256=OrKXadxT9t9BOzkrpnD2OC1lJNUWWVll-pcRUHpiccE,16
+miniai-0.1.0.dist-info/RECORD,,

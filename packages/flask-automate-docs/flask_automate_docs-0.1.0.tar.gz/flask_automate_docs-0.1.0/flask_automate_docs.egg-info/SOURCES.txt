@@ -1,0 +1,11 @@
+README.md
+setup.py
+flask_automate_docs/__init__.py
+flask_automate_docs/generator.py
+flask_automate_docs/integration.py
+flask_automate_docs.egg-info/PKG-INFO
+flask_automate_docs.egg-info/SOURCES.txt
+flask_automate_docs.egg-info/dependency_links.txt
+flask_automate_docs.egg-info/requires.txt
+flask_automate_docs.egg-info/top_level.txt
+tests/test_app.py

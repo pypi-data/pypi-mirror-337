@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: django-geoinfo
+Version: 0.1.0
+Summary: Django plugin for geolocation info
+Home-page: https://github.com/shoileazeez/drf_geodata.git
+Author: Shoile Abdulazeez Adenuga
+Author-email: shoabdulazeez@gmail.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: APScheduler==3.11.0
+Requires-Dist: asgiref==3.8.1
+Requires-Dist: certifi==2025.1.31
+Requires-Dist: charset-normalizer==3.4.1
+Requires-Dist: Django==5.1.6
+Requires-Dist: django-ipware==4.0.2
+Requires-Dist: djangorestframework==3.15.2
+Requires-Dist: idna==3.10
+Requires-Dist: IP2Location==8.10.5
+Requires-Dist: requests==2.32.3
+Requires-Dist: pycountry==24.6.1
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: sqlparse==0.5.3
+Requires-Dist: tzdata==2025.1
+Requires-Dist: tzlocal==5.3.1
+Requires-Dist: urllib3==2.3.0
+Requires-Dist: timezonefinder==6.5.8
+Requires-Dist: user-agents==2.2.0
+Requires-Dist: whitenoise==6.6.0
+Requires-Dist: gunicorn==22.0.0
+Requires-Dist: iso3166==2.1.1

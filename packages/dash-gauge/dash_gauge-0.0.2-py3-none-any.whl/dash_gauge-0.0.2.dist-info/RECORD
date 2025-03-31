@@ -1,0 +1,16 @@
+dash_gauge/Dash7SegmentDisplay.py,sha256=ONDHod2dDqSv-1DDduYYymcgdQ7AVFUJKlbKGsk_nFQ,2363
+dash_gauge/DashGauge.py,sha256=-X7sE67L-6VCvDjDZfvtNbcf9XfW6cUntJzRNvKFJHE,4697
+dash_gauge/DashRCJoystick.py,sha256=QKx0UofsP8fF5u629WHZnBCbwm91663x1MII_IZY3R0,2992
+dash_gauge/DashRotaryKnob.py,sha256=Leinba01f6mrqq6sXDNhBFIlZ3XUI6tVppAL1dBDg98,1684
+dash_gauge/DashThermostat.py,sha256=KKJMcA0Ml47RgL7GR1MFm8J_5Y_oXi6pAPOR23fi_9I,3279
+dash_gauge/__init__.py,sha256=0BbN79jBMYPkrDkF5vegKM6Cg7oRyfZt-7b-8E8pWKc,2249
+dash_gauge/_imports_.py,sha256=AZLOXmEoucrf1WrZ5UDm0IdJ1gv4iOP7kqDdCm09xAU,338
+dash_gauge/dash_gauge.min.js,sha256=MMZugxplegcK0sYsPMBR-NG0diCgaz37Vyz7BpDLecc,860563
+dash_gauge/dash_gauge.min.js.map,sha256=CRX0D55njj8kdLt3-YNZ2pTCAApQZn4dmvUTf17IZhI,3318166
+dash_gauge/metadata.json,sha256=lF_aIg7ozhfyCIMTaq4qTvffgJo1rte3kwEbAXCU3lQ,13199
+dash_gauge/package-info.json,sha256=ajAgrucJ_Rw6Gh_mLT1JZOpB7YfVe-xSp6r4oRUKx74,2387
+dash_gauge-0.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_gauge-0.0.2.dist-info/METADATA,sha256=i0S0Fbz4GAZjJ2qlb6x2CcKhg9WOs62WM89LsAc_KXM,9159
+dash_gauge-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dash_gauge-0.0.2.dist-info/top_level.txt,sha256=ukfE3SoL5No1cX8_Mkok3p9NULnks5hvy6ELzx8BRXE,11
+dash_gauge-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,1 @@
+from .FreeWifi import WiFi

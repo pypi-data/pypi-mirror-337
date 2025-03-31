@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: monotome
+Version: 0.1.0
+Summary: 
+Author: Eric Gazoni
+Author-email: eric@adimian.com
+Requires-Python: >=3.13,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.8)
+Requires-Dist: jinja2 (>=3.1.6)
+Requires-Dist: prettytable (>=3.14.0)
+Requires-Dist: pyyaml (>=6.0.2)
+Requires-Dist: sqlalchemy (>=2)
+Requires-Dist: sqlparse (>=0.5.3)

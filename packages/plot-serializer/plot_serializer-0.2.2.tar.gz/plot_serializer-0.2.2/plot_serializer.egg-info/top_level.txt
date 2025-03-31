@@ -1,0 +1,6 @@
+dist
+doc
+plot_serializer
+tests
+tests_automatic
+venv

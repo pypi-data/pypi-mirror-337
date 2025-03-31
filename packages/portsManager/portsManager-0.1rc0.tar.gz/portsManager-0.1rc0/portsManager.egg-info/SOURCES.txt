@@ -1,0 +1,11 @@
+setup.py
+pManager/__init__.py
+pManager/dataModels/__init__.py
+pManager/dataModels/models.py
+pManager/modules/__init__.py
+pManager/modules/fileParser.py
+pManager/modules/fileWriter.py
+portsManager.egg-info/PKG-INFO
+portsManager.egg-info/SOURCES.txt
+portsManager.egg-info/dependency_links.txt
+portsManager.egg-info/top_level.txt

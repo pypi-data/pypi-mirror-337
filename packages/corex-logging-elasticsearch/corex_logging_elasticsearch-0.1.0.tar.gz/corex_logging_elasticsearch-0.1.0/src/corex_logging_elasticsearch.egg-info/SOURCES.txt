@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-logging-elasticsearch/__init__.py
+src/corex-logging-elasticsearch/handler.py
+src/corex_logging_elasticsearch.egg-info/PKG-INFO
+src/corex_logging_elasticsearch.egg-info/SOURCES.txt
+src/corex_logging_elasticsearch.egg-info/dependency_links.txt
+src/corex_logging_elasticsearch.egg-info/top_level.txt
+tests/test_handler.py

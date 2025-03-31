@@ -1,0 +1,47 @@
+{
+  "name": "replicate",
+  "display_name": "Replicate",
+  "description": "Search, run and manage machine learning models on Replicate through a simple tool-based interface. Browse models, create predictions, track their status, and handle generated images.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepfates/mcp-replicate"
+  },
+  "homepage": "https://github.com/deepfates/mcp-replicate",
+  "author": {
+    "name": "deepfates"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI"
+  ],
+  "tags": [
+    "Replicate",
+    "API"
+  ],
+  "examples": [
+    {
+      "title": "Run a model prediction",
+      "description": "Creates a prediction using a specified model and input parameters.",
+      "prompt": "create_prediction(model_id='model_id_here', input_params='input_params_here')"
+    }
+  ],
+  "installations": {
+    "npm": {
+      "type": "npm",
+      "command": "npx",
+      "args": [
+        "mcp-replicate"
+      ],
+      "env": {
+        "REPLICATE_API_TOKEN": "${REPLICATE_API_TOKEN}"
+      }
+    }
+  },
+  "arguments": {
+    "REPLICATE_API_TOKEN": {
+      "description": "Your Replicate API token to authenticate requests to the Replicate API. Needed for the server to function and fetch models or execute predictions.",
+      "required": true,
+      "example": "your_token_here"
+    }
+  }
+}

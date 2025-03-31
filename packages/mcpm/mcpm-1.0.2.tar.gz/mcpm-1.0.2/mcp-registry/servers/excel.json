@@ -1,0 +1,42 @@
+{
+  "name": "excel",
+  "display_name": "Excel",
+  "description": "Excel manipulation including data reading/writing, worksheet management, formatting, charts, and pivot table.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haris-musa/excel-mcp-server"
+  },
+  "homepage": "https://github.com/haris-musa/excel-mcp-server",
+  "author": {
+    "name": "haris-musa"
+  },
+  "license": "MIT",
+  "categories": [
+    "Excel"
+  ],
+  "tags": [
+    "Excel Manipulation",
+    "Python"
+  ],
+  "installations": {
+    "uvx": {
+      "type": "uvx",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/haris-musa/excel-mcp-server",
+        "excel-mcp-server"
+      ],
+      "env": {
+        "EXCEL_FILES_PATH": "${EXCEL_FILES_PATH}"
+      }
+    }
+  },
+  "arguments": {
+    "EXCEL_FILES_PATH": {
+      "description": "Directory where Excel files will be stored.",
+      "required": false,
+      "example": "/path/to/excel/files"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "productboard",
+  "display_name": "Productboard",
+  "description": "Integrate the Productboard API into agentic workflows via MCP.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenjihikmatullah/productboard-mcp"
+  },
+  "author": {
+    "name": "kenjihikmatullah"
+  },
+  "license": "MIT",
+  "categories": [
+    "API",
+    "Integration"
+  ],
+  "tags": [
+    "Productboard",
+    "API"
+  ],
+  "installations": {
+    "npm": {
+      "type": "npm",
+      "command": "npx",
+      "args": [
+        "-y",
+        "productboard-mcp"
+      ],
+      "env": {
+        "PRODUCTBOARD_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    }
+  },
+  "homepage": "https://github.com/kenjihikmatullah/productboard-mcp",
+  "arguments": {
+    "PRODUCTBOARD_ACCESS_TOKEN": {
+      "description": "An access token needed to authenticate with the Productboard API. This token is required to make requests to the API and must be kept confidential.",
+      "required": true,
+      "example": "your_access_token_here"
+    }
+  }
+}

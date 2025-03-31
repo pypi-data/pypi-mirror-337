@@ -1,0 +1,63 @@
+{
+  "name": "bing-web-search-api",
+  "display_name": "Bing Search API",
+  "description": "Server implementation for Microsoft Bing Web Search API.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leehanchung/bing-search-mcp"
+  },
+  "homepage": "https://github.com/leehanchung/bing-search-mcp",
+  "author": {
+    "name": "leehanchung"
+  },
+  "license": "MIT",
+  "categories": [
+    "API",
+    "Search"
+  ],
+  "tags": [
+    "Bing",
+    "Search",
+    "Web",
+    "News",
+    "Images"
+  ],
+  "installations": {
+    "uvx": {
+      "type": "uvx",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "http://github.com/leehanchung/bing-search-mcp",
+        "mcp_server_bin_search"
+      ],
+      "env": {
+        "BING_API_KEY": "${BING_API_KEY}"
+      }
+    }
+  },
+  "examples": [
+    {
+      "title": "Web Search Example",
+      "description": "Search the web for various queries.",
+      "prompt": "Search for 'latest technology news'."
+    },
+    {
+      "title": "News Search Example",
+      "description": "Search for the latest news articles.",
+      "prompt": "Search for 'global warming'."
+    },
+    {
+      "title": "Image Search Example",
+      "description": "Find images related to a query.",
+      "prompt": "Search for 'sunsets'."
+    }
+  ],
+  "arguments": {
+    "BING_API_KEY": {
+      "description": "API key required for authenticating requests to the Microsoft Bing Search API.",
+      "required": true,
+      "example": "your-bing-api-key"
+    }
+  }
+}

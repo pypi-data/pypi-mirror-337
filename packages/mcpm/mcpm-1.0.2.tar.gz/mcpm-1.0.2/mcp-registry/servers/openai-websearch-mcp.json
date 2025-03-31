@@ -1,0 +1,60 @@
+{
+  "name": "openai-websearch-mcp",
+  "display_name": "OpenAI WebSearch",
+  "description": "This is a Python-based MCP server that provides OpenAI `web_search` build-in tool.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConechoAI/openai-websearch-mcp"
+  },
+  "homepage": "https://github.com/ConechoAI/openai-websearch-mcp",
+  "author": {
+    "name": "ConechoAI"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI",
+    "Web Search"
+  ],
+  "tags": [
+    "openai",
+    "websearch",
+    "AI assistant"
+  ],
+  "installations": {
+    "uvx": {
+      "type": "uvx",
+      "command": "uvx",
+      "args": [
+        "openai-websearch-mcp"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    },
+    "python": {
+      "type": "python",
+      "command": "python",
+      "args": [
+        "-m",
+        "openai_websearch_mcp"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    }
+  },
+  "examples": [
+    {
+      "title": "Using web search",
+      "description": "Perform a web search using the OpenAI WebSearch MCP server.",
+      "prompt": "search('latest news on AI')"
+    }
+  ],
+  "arguments": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key to authenticate requests to the OpenAI API.",
+      "required": true,
+      "example": "sk-xxxx"
+    }
+  }
+}

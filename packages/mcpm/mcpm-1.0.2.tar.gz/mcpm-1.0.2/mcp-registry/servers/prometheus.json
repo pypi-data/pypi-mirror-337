@@ -1,0 +1,68 @@
+{
+  "name": "prometheus",
+  "display_name": "Prometheus",
+  "description": "Query and analyze Prometheus - open-source monitoring system.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pab1it0/prometheus-mcp-server"
+  },
+  "homepage": "https://github.com/pab1it0/prometheus-mcp-server",
+  "author": {
+    "name": "pab1it0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Query",
+    "Discovery"
+  ],
+  "tags": [
+    "Prometheus",
+    "Metrics",
+    "AI"
+  ],
+  "installations": {
+    "uvx": {
+      "type": "uvx",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "https://github.com/pab1it0/prometheus-mcp-server",
+        "src/prometheus_mcp_server/main.py"
+      ],
+      "env": {
+        "PROMETHEUS_URL": "${PROMETHEUS_URL}",
+        "PROMETHEUS_USERNAME": "${PROMETHEUS_USERNAME}",
+        "PROMETHEUS_PASSWORD": "${PROMETHEUS_PASSWORD}"
+      }
+    }
+  },
+  "examples": [
+    {
+      "title": "Execute Query",
+      "description": "Execute a PromQL instant query against Prometheus",
+      "prompt": "execute_query({ query: \"up\" })"
+    },
+    {
+      "title": "List Metrics",
+      "description": "Get a list of metrics from Prometheus",
+      "prompt": "list_metrics()"
+    }
+  ],
+  "arguments": {
+    "PROMETHEUS_URL": {
+      "description": "The URL of the Prometheus server you want to connect to.",
+      "required": true,
+      "example": "http://your-prometheus-server:9090"
+    },
+    "PROMETHEUS_USERNAME": {
+      "description": "The username for basic authentication when accessing the Prometheus server.",
+      "required": false,
+      "example": "your_username"
+    },
+    "PROMETHEUS_PASSWORD": {
+      "description": "The password for basic authentication when accessing the Prometheus server.",
+      "required": false,
+      "example": "your_password"
+    }
+  }
+}

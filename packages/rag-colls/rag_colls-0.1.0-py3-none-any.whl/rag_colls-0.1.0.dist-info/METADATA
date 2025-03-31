@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: rag-colls
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: chromadb>=0.6.3
+Requires-Dist: gdown>=5.2.0
+Requires-Dist: litellm>=1.65.0
+Requires-Dist: llama-index-embeddings-openai>=0.3.1
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: platformdirs>=4.3.7
+Requires-Dist: pymupdf>=1.25.4
+Requires-Dist: rich>=13.9.4
+Requires-Dist: tenacity>=9.0.0

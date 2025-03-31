@@ -1,0 +1,2 @@
+[console_scripts]
+toolbox-iop = toolbox_iop:main

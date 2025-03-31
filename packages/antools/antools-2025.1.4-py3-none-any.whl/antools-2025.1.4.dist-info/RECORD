@@ -1,0 +1,10 @@
+antools/__init__.py,sha256=jF6H0osILmExbfq7153Z_t30UFcsZJ1CcCpDlkVYNA8,1371
+antools/main.py,sha256=hJ_pFS9BRiyY0tboFspuBbWQLq6M93Rz2xrgUzk68vk,12
+antools/test_file.py,sha256=Se8l3PXunw8WfazKcybp25aYY8atkCuK0NfmTVAJBpM,13
+antools/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antools/helpers/xy.py,sha256=y9eOUc2KCJ8l7SMBT5GNK-qoqFMtx_T6lWYnomrikjY,10
+antools-2025.1.4.dist-info/licenses/LICENSE,sha256=y1ymrxALvLXlLG75S6CE71DgxBLTL72bXodPUJMt718,1072
+antools-2025.1.4.dist-info/METADATA,sha256=jQBIQwXNJcpHf4Oa3zJlqXJ5-q5oYpB8xsrn4d7zGnw,2543
+antools-2025.1.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+antools-2025.1.4.dist-info/top_level.txt,sha256=XNVLgiKoVyHcr3thklfrwCIHiNOLbm7Jtk8gB-9C6wo,8
+antools-2025.1.4.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+rich-example-main = matsengrp_rich_example:main

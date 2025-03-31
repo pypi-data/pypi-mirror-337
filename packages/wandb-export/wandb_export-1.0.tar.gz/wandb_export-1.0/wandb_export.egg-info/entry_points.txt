@@ -1,0 +1,3 @@
+[console_scripts]
+wandb-export = wandb_export.export:main
+wandb-export-init-config = wandb_export.init_config:main

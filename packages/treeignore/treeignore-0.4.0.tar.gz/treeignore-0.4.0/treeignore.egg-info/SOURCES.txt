@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+treeignore/__init__.py
+treeignore/cli.py
+treeignore.egg-info/PKG-INFO
+treeignore.egg-info/SOURCES.txt
+treeignore.egg-info/dependency_links.txt
+treeignore.egg-info/entry_points.txt
+treeignore.egg-info/requires.txt
+treeignore.egg-info/top_level.txt

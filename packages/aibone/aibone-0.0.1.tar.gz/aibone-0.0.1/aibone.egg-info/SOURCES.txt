@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aibone.egg-info/PKG-INFO
+aibone.egg-info/SOURCES.txt
+aibone.egg-info/dependency_links.txt
+aibone.egg-info/top_level.txt
+automata/Alphabet.py
+automata/TG.py
+automata/__init__.py

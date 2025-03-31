@@ -1,0 +1,70 @@
+name: Build wheels Windows
+
+on:
+  push:
+    tags:
+      - "*" # Push events of new tags
+  workflow_dispatch:
+    # Allow to run manually
+
+jobs:
+  build_wheels:
+    name: Build Windows wheels for 64 bit Python
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:       
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        name: Install a Python to use for building
+        with:
+          python-version: '3.12'
+          
+      - uses: msys2/setup-msys2@v2
+        name: Setup an msys2 environment
+        with:
+          msystem: UCRT64
+          release: false
+          install: >-
+            base-devel
+            m4
+            bison
+            make
+            patch
+            sed
+          pacboy: gcc:p
+          path-type: inherit
+          
+      - name: Expand the path for Visual Studio 2019
+        run: |
+          echo "/c/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64" >> $GITHUB_PATH
+          echo "/c/msys64/ucrt64/bin" >> $GITHUB_PATH
+
+      - name: Install cibuildwheel
+        run: |
+          python -m pip install cibuildwheel==2.20.0
+
+      - name: Build many wheels
+        run: |
+          python -m cibuildwheel --output-dir wheelhouse
+
+      - name: Analyse
+        if: always()
+        run: |
+          echo "Analyse on $(pwd)"
+          echo "PUI $(find . -name '*pui*')"
+          echo "libparicrt64 $(find /d/a/ -name 'libparicrt64*')"
+          echo "PyInit_pui $(grep -r PyInit_pui .)"
+          echo "__gmpz_fdiv_q_ui $(grep -r __gmpz_fdiv_q_ui .)"
+          echo "__gmpz_fdiv_q_ui $(grep -r __gmpz_fdiv_q_ui /c/msys64/ucrt64/)"
+          echo "pari_err_last $(grep -r pari_err_last .)"
+          echo "win32ctrlc $(grep -r win32ctrlc .)"
+          echo "__int64 $(grep -r __int64 .)"
+
+      - uses: actions/upload-artifact@v4
+        name: Save the wheels as artifacts
+        with:
+          path: ./wheelhouse/*.whl

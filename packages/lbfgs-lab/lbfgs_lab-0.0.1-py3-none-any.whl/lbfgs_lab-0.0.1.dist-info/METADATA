@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: lbfgs_lab
+Version: 0.0.1
+Summary: L-BFGS variants for academic research
+Project-URL: Homepage, https://github.com/HirokiHamaguchi/lbfgs_lab
+Project-URL: Issues, https://github.com/HirokiHamaguchi/lbfgs_lab/issues
+Author-email: Hiroki Hamaguchi <hari64boli64@gmail.com>
+License-Expression: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lbfgs_lab

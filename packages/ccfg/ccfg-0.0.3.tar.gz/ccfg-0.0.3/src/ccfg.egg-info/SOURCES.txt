@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ccfg/__init__.py
+src/ccfg.egg-info/PKG-INFO
+src/ccfg.egg-info/SOURCES.txt
+src/ccfg.egg-info/dependency_links.txt
+src/ccfg.egg-info/top_level.txt
+tests/test_dump_load.py
+tests/test_to_from_dict.py

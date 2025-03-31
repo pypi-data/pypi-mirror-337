@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: AMC_Optimiser
+Version: 0.1.0
+Summary: A sample package
+Author-email: James Town <jtown@amcconsultants.com>
+License-File: LICENSE
+Requires-Dist: customtkinter
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: optuna
+Requires-Dist: optuna-dashboard
+Requires-Dist: pandas
+Requires-Dist: psutil
+Requires-Dist: pywin32
+Requires-Dist: xlwings

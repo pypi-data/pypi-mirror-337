@@ -1,0 +1,13 @@
+viu_sitemap_parser-0.2.8.dist-info/licenses/LICENSE,sha256=vE538XiaAUP9TKXuBfG5mq4mCdE2jOAOjNXVDLgoPj4,1064
+viusitemapparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viusitemapparser/detect_filetype.py,sha256=WR9Oav6mOmuAw9F3iazMIgTqHcfcnomu0e50KWej3pA,681
+viusitemapparser/get_file.py,sha256=Tes5vTrYlMPv0CrIlY1rQMC9gVsvo7cY2VPM78uIF8s,1383
+viusitemapparser/get_sitemap_entries.py,sha256=kncKaApPj9Zxd1HB8b9xI6ZsrRfXC1IqBQuP_m0QUx4,2450
+viusitemapparser/parse_file.py,sha256=TUdBjZijV7d9efHwRbW74qFnsZAzEDLbtJH2A8BBxII,211
+viusitemapparser/sitemap_file.py,sha256=t44V8cKm5-sF7lcgyjLe2w9bTJjZmMUujb1bRef-EUE,2145
+viusitemapparser/url_functions.py,sha256=WS0eQOMV7l8BWm5MUn1KVOGqhuxB4lHVNrQEQ4azPzA,193
+viusitemapparser/vsp.py,sha256=hjlXYVf1B2rI-Kl9-ydUO5PBdrH-GFjyq3blo_iokds,1013
+viu_sitemap_parser-0.2.8.dist-info/METADATA,sha256=uivA4MpNdQzKCokRm3W_TcMlGz6exWC54VUG8Lu24kc,3899
+viu_sitemap_parser-0.2.8.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+viu_sitemap_parser-0.2.8.dist-info/top_level.txt,sha256=Ek_JQMm-y3pluGmyIX0T-dXz0PZJZoHvO7MGoB40r5w,17
+viu_sitemap_parser-0.2.8.dist-info/RECORD,,

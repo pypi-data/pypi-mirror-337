@@ -1,0 +1,10 @@
+main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main/ailyapp_client.py,sha256=6CVlBkuiIvIzqG0lM38tdGFBNLhVi2_0jQIbHg7fpzw,6515
+main/do_ai.py,sha256=8JI0RISGAc2JWb1DHIThTn8vceDkwGNtjqrxFaF_1fY,3970
+main/intent_detail.py,sha256=w2k5VVDpCRIqUDdM2wC3E8MlTU_FMpgV3lK9BqQb1NY,10122
+main/lark_client.py,sha256=ZVDsdt7ucQvJN1-khC3TR-0IMeYaQXfdWF5DxRrkBH4,6665
+main/logger.py,sha256=W3-tbQ4J-QKSrQSpaNBruzoyMuWYrUkrIY0uBZ1o-lw,1583
+it_assistant-0.1.1.dist-info/METADATA,sha256=WAbHmkcU5C-HnIPomldh-sOdt5uvi7g4fAALAGta3_g,745
+it_assistant-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+it_assistant-0.1.1.dist-info/top_level.txt,sha256=ZAMgPdWghn6xTRBO6Kc3ML1y3ZrZLnjZlqbboKXc_AE,5
+it_assistant-0.1.1.dist-info/RECORD,,

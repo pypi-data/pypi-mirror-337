@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: cadvas
+Version: 2025.0.1
+Summary: Uitility for 2D cad-drawings
+Author-email: Ruben de Bruin <ruben@davelab.nl>
+License-Expression: LicenseRef-Proprietary
+Project-URL: Repository, https://github.com/dave-Lab-and-Engineering/python-build-utils
+Keywords: python
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <4.0,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyqtgraph>=0.13.7
+Requires-Dist: pyside6-essentials>=6.4.0.1
+Dynamic: license-file
+
+# cadvas
+
+A utility for 2D cad-drawings

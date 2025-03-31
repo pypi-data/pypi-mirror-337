@@ -1,0 +1,2 @@
+pyqtgraph>=0.13.7
+pyside6-essentials>=6.4.0.1

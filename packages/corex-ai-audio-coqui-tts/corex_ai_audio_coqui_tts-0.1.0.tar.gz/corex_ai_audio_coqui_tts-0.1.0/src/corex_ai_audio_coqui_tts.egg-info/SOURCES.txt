@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_audio-coqui_tts/__init__.py
+src/corex-ai_audio-coqui_tts/handler.py
+src/corex_ai_audio_coqui_tts.egg-info/PKG-INFO
+src/corex_ai_audio_coqui_tts.egg-info/SOURCES.txt
+src/corex_ai_audio_coqui_tts.egg-info/dependency_links.txt
+src/corex_ai_audio_coqui_tts.egg-info/top_level.txt
+tests/test_handler.py

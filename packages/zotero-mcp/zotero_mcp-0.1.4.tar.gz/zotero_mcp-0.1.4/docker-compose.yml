@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  zotero-mcp:
+    build: .
+    container_name: zotero-mcp
+    ports:
+      - '8088:8088'
+    environment:
+      - ZOTERO_LOCAL=${ZOTERO_LOCAL:-false}
+      - ZOTERO_API_KEY=${ZOTERO_API_KEY:-}
+      - ZOTERO_LIBRARY_ID=${ZOTERO_LIBRARY_ID:-}
+      - ZOTERO_LIBRARY_TYPE=${ZOTERO_LIBRARY_TYPE:-user}
+    restart: unless-stopped

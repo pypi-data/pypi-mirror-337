@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: yfmcp
+Version: 0.1.1
+Author-email: narumi <toucans-cutouts0f@icloud.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: mcp>=1.6.0
+Requires-Dist: rich>=13.9.4
+Requires-Dist: yfinance>=0.2.55
+Description-Content-Type: text/markdown
+
+# Yahoo Finance MCP Server
+
+### GitHub
+
+```json
+{
+  "mcpServers": {
+    "yfmcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/narumiruna/yfinance-mcp",
+        "yfmcp"
+      ]
+    }
+  }
+}
+```
+
+### PyPI
+
+```json
+{
+  "mcpServers": {
+    "yfmcp": {
+      "command": "uvx",
+      "args": ["yfmcp"]
+    }
+  }
+}
+```
+
+### Local
+
+```json
+{
+  "mcpServers": {
+    "yfmcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/home/<user>/workspace/yfinance-mcp",
+        "yfmcp"
+      ]
+    }
+  }
+}
+```

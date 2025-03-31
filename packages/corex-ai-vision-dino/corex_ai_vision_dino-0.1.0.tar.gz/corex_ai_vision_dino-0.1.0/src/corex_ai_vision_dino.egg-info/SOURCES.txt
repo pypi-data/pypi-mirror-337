@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_vision-dino/__init__.py
+src/corex-ai_vision-dino/handler.py
+src/corex_ai_vision_dino.egg-info/PKG-INFO
+src/corex_ai_vision_dino.egg-info/SOURCES.txt
+src/corex_ai_vision_dino.egg-info/dependency_links.txt
+src/corex_ai_vision_dino.egg-info/top_level.txt
+tests/test_handler.py

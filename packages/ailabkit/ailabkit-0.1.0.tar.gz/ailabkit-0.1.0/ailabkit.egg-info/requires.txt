@@ -1,0 +1,7 @@
+numpy
+pymupdf
+python-docx
+python-fasthtml
+requests
+scikit-learn
+typer

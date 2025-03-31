@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "boil_an_egg"
+version = "1.1"
+authors = [
+  { name="Iñaki Urzainki", email="iurzainki@gmail.com" },
+]
+description = "Teaches your computer to boil an egg."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+dependencies = [
+"numpy",
+"scipy",
+]
+
+[project.urls]
+Homepage = "https://github.com/Txart/egg-simulation"
+Issues = "https://github.com/Txart/egg-simulation/issues"
+

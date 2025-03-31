@@ -1,0 +1,5 @@
+asyncio>=3.4.3
+bump2version>=1.0.1
+load-dotenv>=0.1.0
+mcp>=1.6.0
+toml>=0.10.2

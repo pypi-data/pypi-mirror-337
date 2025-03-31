@@ -1,0 +1,2 @@
+[console_scripts]
+model-inspect = model_inspect.cli:main

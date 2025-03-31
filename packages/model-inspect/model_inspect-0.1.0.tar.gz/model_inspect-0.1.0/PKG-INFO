@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: model-inspect
+Version: 0.1.0
+Summary: Command-line tool for analyzing layer-wise parameters of Hugging Face models including shapes, data types, and memory footprints
+Home-page: https://github.com/simpx/model-inspect
+Author: simpxx
+Author-email: simpxx@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25
+
+# model-inspect
+
+Command-line tool for inspect layer-wise parameters of Hugging Face models including shapes, data types, and memory footprints

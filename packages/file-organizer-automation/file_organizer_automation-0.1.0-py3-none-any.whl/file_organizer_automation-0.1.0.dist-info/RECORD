@@ -1,0 +1,11 @@
+file_organizer/__init__.py,sha256=tRWe0FyEHkp-qqxfBYNap57Cqow2UE7RKaqHIF_3B5c,616
+file_organizer/core/__init__.py,sha256=3AlNXeHeorAl-k33mgf6OuXkcPqAHL-MwnH_iBIc4UM,469
+file_organizer/core/organizer.py,sha256=QKe2v3bQqY-rdG2PlhEhFEK_r_M5snoLix5Jn4iIcfw,36996
+file_organizer/utils/__init__.py,sha256=Kbz-09AGWD2clrMa9MsBoSVMTTiHKI2Ht0lyroDBjTA,558
+file_organizer/utils/file_utils.py,sha256=V1C3kubWZsRnh1pG94MkXKf7tt0NrKplaIruG8CpRQs,13468
+file_organizer_automation-0.1.0.dist-info/licenses/LICENSE,sha256=WIJfbAgrwPy5hwsdZPWt9ZcXfF-85l14SYHPMkocdKI,1072
+file_organizer_automation-0.1.0.dist-info/METADATA,sha256=3e6UeJt6yHzDGrC47QlHvECpwQVZe7IPdHZUiPQ1HCY,6645
+file_organizer_automation-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+file_organizer_automation-0.1.0.dist-info/entry_points.txt,sha256=t6yJvJsG4k0VOVakUrBswgzwOKapcPINN9KO8OoLKN4,117
+file_organizer_automation-0.1.0.dist-info/top_level.txt,sha256=guqZlkd_Kx1lLyoo2rEXytgNnjT5IEm7nEpH8qy-9Ug,15
+file_organizer_automation-0.1.0.dist-info/RECORD,,

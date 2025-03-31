@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yubikey-paste"
+version = "0.1.0"
+description = ""
+authors = ["Dick Marinus"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+yubikey-manager-lib = "^0.2.0"
+injectinput = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+yubikey-paste = 'yubikey_paste:main'

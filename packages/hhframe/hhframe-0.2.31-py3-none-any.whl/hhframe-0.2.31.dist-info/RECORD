@@ -1,0 +1,12 @@
+hhframe/__init__.py,sha256=A7awreIPM8S1pvzrGUeAKFTJFfG6M1tepxFo-s7t4mw,193
+hhframe/hhAjax.py,sha256=y41ygOjqBE-gDOMEd-jPwt1ySeWbvFWIO8Dsoqomjmk,1843
+hhframe/hhDouban.py,sha256=QUCLu_tqKPNkGg3WLSR94vCe818if87NelW58OBYQFs,22024
+hhframe/hhExcel.py,sha256=ZT7GhSW4sVH_YpW4L9t44zge0aa0Pa94loFV2vbO6Eo,1860
+hhframe/hhMysql.py,sha256=IQXI86XZn2fOEr3f2btDTumLnrEIXLcX8-u2Z1OqywE,3209
+hhframe/hhOs.py,sha256=-4GO1gMkyy2vluSMOPhoTsC2nezpPrOIaqc04IJLn1g,4918
+hhframe/hhQiniu.py,sha256=K_Hw8OmQpEV4knTWX7ksA5zRmt0nZEmpS7P3Lib0SH0,3976
+hhframe/hhUrl.py,sha256=gvTZZxfr8nsotKPWY45DVWlhm4KSZ9NdjYShtJBbZJ4,3997
+hhframe-0.2.31.dist-info/METADATA,sha256=yccfN3EEVZ68xXCN3LjmYcMzQuqpVr64ymiMuH5hRYI,1163
+hhframe-0.2.31.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+hhframe-0.2.31.dist-info/top_level.txt,sha256=Ke0LV8vOBbh2HmEXOPBN0dSJ3ECnkzIPaN5edzmPR1o,8
+hhframe-0.2.31.dist-info/RECORD,,

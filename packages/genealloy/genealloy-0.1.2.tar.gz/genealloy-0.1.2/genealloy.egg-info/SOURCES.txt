@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pypi-readme.rst
+pyproject.toml
+genealloy/GeneAlloy.py
+genealloy/__init__.py
+genealloy/codontable.py
+genealloy.egg-info/PKG-INFO
+genealloy.egg-info/SOURCES.txt
+genealloy.egg-info/dependency_links.txt
+genealloy.egg-info/requires.txt
+genealloy.egg-info/top_level.txt
+tests/test_codontable.py
+tests/test_genealloy.py

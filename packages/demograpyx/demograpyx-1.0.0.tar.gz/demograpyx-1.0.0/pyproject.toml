@@ -1,0 +1,18 @@
+[project]
+name = "demograpyx"
+version = "1.0.0"
+description = "An asynchronous set of bindings for the three Demografix APIs - Genderize, Agify and Nationalize"
+authors = [
+    {name = "cobaltgit",email = "cobaltsecuremail312@proton.me"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp (>=3.11.14,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

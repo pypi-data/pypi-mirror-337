@@ -1,0 +1,49 @@
+Metadata-Version: 2.3
+Name: demograpyx
+Version: 1.0.0
+Summary: An asynchronous set of bindings for the three Demografix APIs - Genderize, Agify and Nationalize
+License: MIT
+Author: cobaltgit
+Author-email: cobaltsecuremail312@proton.me
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.11.14,<4.0.0)
+Description-Content-Type: text/markdown
+
+# demograpyx
+
+A set of asynchronous bindings for the three Demograpix APIs: [`genderize`](https://genderize.io/), [`agify`](https://agify.io) and [`nationalize`](https://nationalize.io)
+
+## Installation
+
+Requires Python 3.10 or newer
+
+```sh
+$ pip install demograpyx
+```
+
+## Example usage
+
+Functions are identical across all three API clients (`predict`, `batch_predict`)
+
+```py
+import asyncio
+from demograpyx import Genderize, CountryCode
+
+async def main() -> None:
+    genderize = await Genderize.create() # optionally pass api_key kwarg for API key
+    # alternatively, initialise an aiohttp.ClientSession and pass it as a kwarg
+    # genderize = Genderize(session=aiohttp.ClientSession())
+
+    data = await genderize.predict("Mike", country_id=CountryCode.UnitedStates) # country_id argument is optional, will improve prediction accuracy
+    print(data)
+    # GenderPrediction(count=675221, name='Mike', gender='male', probability=1.0, country_id='US')
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```

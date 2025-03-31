@@ -1,0 +1,9 @@
+dev-time/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev-time/main.py,sha256=9mltnicFPxSluchJx1_P3fu2UXxQpE8_62y0u5uYP30,4228
+dev-time/model.py,sha256=Wpi5MxMv9rAsmVz1A0s4ieiNop9JaszrgZBlw6Fd1zA,236
+dev_time-0.0.1.dist-info/licenses/LICENSE,sha256=lNX5IB714x64EFvcRxBxTnuaTIw1NJ1jMYcKJuYlFSw,1082
+dev_time-0.0.1.dist-info/METADATA,sha256=dSc3MOrS9g1xQSlO2sjAQaaJ3vEYafjQtawMqVKmnJU,2440
+dev_time-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+dev_time-0.0.1.dist-info/entry_points.txt,sha256=MntVV2ZMDAFRIwtew72WtEJtAmblHutjYyS3eAV8u3Y,48
+dev_time-0.0.1.dist-info/top_level.txt,sha256=mkkJGdbtGbV8LM4Aoz4a9VlFNL1RdQ9VHvikHixEXIc,9
+dev_time-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+dev-time = dev_time.main:main

@@ -1,0 +1,142 @@
+# Durables
+
+A lightweight, Python-based durable function orchestration library inspired by Azure Durable Functions and Temporal.io.
+
+## Overview
+
+Durables provides a simple framework for building reliable, stateful workflows in Python using an approach similar to popular workflow orchestration systems like Azure Durable Functions and Temporal.io. The core concepts include:
+
+- **Orchestrator Functions**: Define the workflow logic and sequence
+- **Activity Functions**: Perform the actual work units
+- **Input/Output Functions**: Handle data flow between processes
+- **Persistence**: Maintain workflow state for reliability and restartability
+
+## Key Features
+
+- Python-native API with async/await syntax
+- Automatic replay and checkpointing of execution state
+- Support for waiting on external inputs
+- Input request publishing for more interactive workflows
+- Simple persistence layer with JSONL files
+
+## Installation
+
+```bash
+pip install durables
+```
+
+## Quick Start
+
+Here's a simple example demonstrating an orchestrator function that coordinates two activities:
+
+```python
+from durables.durable_functions import (
+    orchestrator_function, activity_function, input, output
+)
+from durables.persistence.jsonl import JSONLStream
+import uuid
+
+@activity_function
+async def say_hello(name):
+    return f"Hello, {name}!"
+
+@activity_function
+async def format_result(message):
+    return message.upper()
+
+@orchestrator_function
+async def greeting_workflow():
+    # Get input from external source
+    name_bytes = await input()
+    name = name_bytes.decode('utf-8')
+    
+    # Call first activity
+    hello_result = await say_hello(name)
+    
+    # Call second activity
+    formatted = await format_result(hello_result)
+    
+    # Send output
+    await output(formatted.encode('utf-8'))
+
+# Run the workflow
+async def main():
+    session_id = uuid.uuid4()
+    input_stream = JSONLStream("input")
+    output_stream = JSONLStream("output")
+    
+    # Provide input to the workflow
+    await input_stream.put(DurableFunctionMessage(id=0, payload=b"World"))
+    
+    # Execute the workflow
+    await greeting_workflow(
+        session_id=session_id,
+        input_stream=input_stream,
+        output_stream=output_stream
+    )
+    
+    # Read the output
+    result = await anext(output_stream.iterate_blocking())
+    print(result.payload.decode('utf-8'))  # HELLO, WORLD!
+```
+
+## Waiting for Input
+
+Durables supports workflows that wait for external input before continuing:
+
+```python
+@orchestrator_function
+async def interactive_workflow():
+    # Ask a question
+    await output(b"What's your name?")
+    
+    # Wait for response (with settings to control behavior)
+    name_bytes = await input()
+    name = name_bytes.decode('utf-8')
+    
+    # Use the input
+    greeting = f"Nice to meet you, {name}!"
+    await output(greeting.encode('utf-8'))
+```
+
+## Comparison with Azure Durable Functions & Temporal.io
+
+While inspired by these systems, Durables offers a lighter-weight alternative:
+
+| Feature | Durables | Azure Durable Functions | Temporal.io |
+|---------|----------|-------------------------|-------------|
+| Programming Model | Async/await in Python | Async/await in C#, JS, Python | SDK in multiple languages |
+| Infrastructure | Minimal (local files) | Azure Functions, Storage | Temporal server cluster |
+| Scalability | Local/custom | Built-in Azure scaling | Enterprise-grade |
+| Monitoring | Basic logging | Azure insights | Temporal Web UI |
+| Learning Curve | Gentle | Moderate | Moderate-steep |
+
+## Advanced Usage
+
+### Publishing Input Requests
+
+For more interactive workflows, enable request publishing:
+
+```python
+from durables.models import OrchestratorSettings
+
+await my_workflow(
+    session_id=session_id,
+    input_stream=inbox,
+    output_stream=outbox,
+    settings=OrchestratorSettings(
+        wait_for_input=True,
+        publish_input_requests=True
+    )
+)
+```
+
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE)

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56fd8c2c-fe57-4748-a0ec-ee60d58da38d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/assets/app.fuf-3T17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/assets/chunks/@localSearchIndexroot.DdZeFQkQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/assets/chunks/VPLocalSearchBox.4AYrKwJy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/assets/chunks/theme.DWipQKo5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/concepts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/concepts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/allure-reporting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/allure-reporting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/authentication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/bulk-inserts.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/bulk-inserts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/cache-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/cache-control.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/conditional-requests.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/conditional-requests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/cors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/cors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/crud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/custom-id-fields.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/custom-id-fields.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/embed.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/embed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/pretty-printing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/pretty-printing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/projections.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/data-shaping/projections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/document-versioning.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/document-versioning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/echo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/echo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/file-storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/file-storage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/gateway-registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/gateway-registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/geo-json.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/geo-json.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/logging.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/logging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/optimistic-concurrency.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/optimistic-concurrency.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/rate-limiting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/rate-limiting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/filtering.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/filtering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/search-collections/sorting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/settings-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/settings-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/soft-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/soft-delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/swagger.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/swagger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/runtime-capabilities/validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/affordance.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/affordance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/docker.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/docker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/endpoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/endpoint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/hypermea-core.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/hypermea-core.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/misc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/resource.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/resource.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/run.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/features/scaffolding-tools/setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/introduction/quickstart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/introduction/quickstart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/introduction/what-is.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/introduction/what-is.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/@pointw_vitepress-component-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/@pointw_vitepress-component-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/chunk-6F5JWMBQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/chunk-6F5JWMBQ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/chunk-VJWGEPT5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/chunk-VJWGEPT5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___@vueuse_integrations_useFocusTrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___mark__js_src_vanilla__js.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___minisearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vitepress___minisearch.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vue.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vue3-tabs-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc-generator/.vitepress/cache/deps/vue3-tabs-component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hypermea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hypermea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/hooks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/hooks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/render/hal_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/render/hal_renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/addins/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/addins/git.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/commands/_resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/commands/_resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/skel/api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tool/skel/api/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version.py" beforeDir="false" afterPath="$PROJECT_DIR$/../version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version_stamp.json" beforeDir="false" afterPath="$PROJECT_DIR$/../version_stamp.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;e19497c7&quot;
+}</component>
+  <component name="ProjectId" id="2ot9IPIaqL302EIHovxUEhEA5op" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56fd8c2c-fe57-4748-a0ec-ee60d58da38d" name="Changes" comment="" />
+      <created>1731677924958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731677924958</updated>
+      <workItem from="1731677926876" duration="1186000" />
+      <workItem from="1739204571160" duration="1827000" />
+      <workItem from="1739210312029" duration="36000" />
+      <workItem from="1739212313439" duration="10000" />
+      <workItem from="1739214400162" duration="37000" />
+      <workItem from="1739214596636" duration="677000" />
+      <workItem from="1739235969483" duration="486000" />
+      <workItem from="1739404112312" duration="1838000" />
+      <workItem from="1739409596221" duration="327000" />
+      <workItem from="1741462364213" duration="6520000" />
+      <workItem from="1741650530188" duration="3062000" />
+      <workItem from="1741794650473" duration="2686000" />
+      <workItem from="1741814121522" duration="1035000" />
+      <workItem from="1741859617011" duration="1160000" />
+      <workItem from="1741861701229" duration="1981000" />
+      <workItem from="1741864687363" duration="234000" />
+      <workItem from="1741866065962" duration="1553000" />
+      <workItem from="1741878076380" duration="66000" />
+      <workItem from="1741978962106" duration="1541000" />
+      <workItem from="1742522963088" duration="303000" />
+      <workItem from="1742526803204" duration="4695000" />
+      <workItem from="1742571182045" duration="34000" />
+      <workItem from="1742618812224" duration="1088000" />
+      <workItem from="1742619985599" duration="4428000" />
+      <workItem from="1742821335790" duration="5443000" />
+      <workItem from="1742831953365" duration="512000" />
+      <workItem from="1742833108276" duration="4449000" />
+      <workItem from="1742840761346" duration="1867000" />
+      <workItem from="1742845108654" duration="2209000" />
+      <workItem from="1742856294961" duration="3793000" />
+      <workItem from="1742871602405" duration="37000" />
+      <workItem from="1742928371944" duration="5094000" />
+      <workItem from="1742947748053" duration="8000" />
+      <workItem from="1743020667191" duration="3708000" />
+      <workItem from="1743169896847" duration="3990000" />
+      <workItem from="1743186195248" duration="4498000" />
+      <workItem from="1743195554159" duration="1202000" />
+      <workItem from="1743343642206" duration="990000" />
+      <workItem from="1743345662306" duration="5068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

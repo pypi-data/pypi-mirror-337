@@ -1,0 +1,9 @@
+README.md
+setup.py
+cursofiap/__init__.py
+cursofiap/core.py
+cursofiap_rodrigojager.egg-info/PKG-INFO
+cursofiap_rodrigojager.egg-info/SOURCES.txt
+cursofiap_rodrigojager.egg-info/dependency_links.txt
+cursofiap_rodrigojager.egg-info/top_level.txt
+tests/test_core.py

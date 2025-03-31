@@ -1,0 +1,8 @@
+gftools/__init__.py,sha256=TbA_uF8tUwui7VNQ4jVoxXd8_QBX1DYmXYG0Yt60M8s,162
+gftools/dividend.py,sha256=MU2N_JNsvzcBSHG-fWw89ZUMA-B3kiqlYtdMPy90hEE,1123
+gftools/financials.py,sha256=Ko_slTwJecSUg1BITwlHngZQk-MLWpPbdEinouZMVu8,6156
+gftools/price.py,sha256=kn51P7kXRNifd7iKb_mmlV92FQX5umrwawLQV9irQMs,993
+h2w_gftools-1.0.0.dist-info/METADATA,sha256=Mfka03UXd4TBAW-FSu5tkN5lJcQOCbWx_nSSjI_bQx8,470
+h2w_gftools-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+h2w_gftools-1.0.0.dist-info/top_level.txt,sha256=_s60guwXclkoRjpEFmxaDPG2isySpEmxhYd22sUCReU,8
+h2w_gftools-1.0.0.dist-info/RECORD,,

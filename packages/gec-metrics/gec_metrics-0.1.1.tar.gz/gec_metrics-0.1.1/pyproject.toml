@@ -1,0 +1,49 @@
+[project]
+name = "gec-metrics"
+version = "0.1.1"
+description = "A library for Grammatical Error Correction evaluation."
+readme = "README.md"
+authors = [
+    { name = "gotuiyan" }
+]
+requires-python = ">=3.11.0"
+dependencies = [
+    "accelerate>=1.5.2",
+    "bert-score>=0.3.13",
+    "bitsandbytes>=0.45.3",
+    "datasets>=3.4.1",
+    "errant>=3.0.0",
+    "fuzzywuzzy>=0.18.0",
+    "gecommon>=0.1.0",
+    "openai>=1.68.0",
+    "outlines>=0.2.1",
+    "pandas>=2.2.3",
+    "python-levenshtein>=0.26.1",
+    "scipy>=1.14.1",
+    "seaborn>=0.13.2",
+    "sentencepiece>=0.2.0",
+    "torch>=2.5.1",
+    "transformers>=4.47.1",
+    "trueskill>=0.4.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+docs = [
+    "sphinx-rtd-theme>=3.0.2",
+    "sphinx>=8.2.3",
+]
+
+[project.scripts]
+gecmetrics-eval = "gec_metrics.cli.evaluate:main"
+gecmetrics-gen-config = "gec_metrics.cli.gen_default_config:main"
+gecmetrics-gen-subset = "gec_metrics.cli.gen_subset:main"
+gecmetrics-m2-to-raw = "gec_metrics.cli.m2_to_raw:main"
+gecmetrics-gen-gotoscorer-weight = "gec_metrics.cli.gen_gotoscorer_weight:main"
+gecmetrics-prepare-meta-eval = "gec_metrics.cli.prepare_meta_eval:main"

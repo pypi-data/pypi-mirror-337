@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_vision-clip/__init__.py
+src/corex-ai_vision-clip/handler.py
+src/corex_ai_vision_clip.egg-info/PKG-INFO
+src/corex_ai_vision_clip.egg-info/SOURCES.txt
+src/corex_ai_vision_clip.egg-info/dependency_links.txt
+src/corex_ai_vision_clip.egg-info/top_level.txt
+tests/test_handler.py

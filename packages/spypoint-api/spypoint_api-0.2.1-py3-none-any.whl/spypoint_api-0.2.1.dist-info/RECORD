@@ -1,0 +1,10 @@
+spypointapi/__init__.py,sha256=IVK7qYtsUNc8vmfuqggsm5HBfmqr3G3YWXbf_HqZ-WE,263
+spypointapi/spypoint_api.py,sha256=6HO9jgfOv4_Yh3tsKzOMB5P1vu7CmVRwtbB9Q97M9e0,3913
+spypointapi/cameras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spypointapi/cameras/camera.py,sha256=YIVRSozfrDcjSGUrrSwjZZS3zowSOS2g27pQrvGl740,1296
+spypointapi/cameras/camera_api_response.py,sha256=MgYlCqnNJdLqJJODVoNaQr8wfENXdbOji9W8Qw73iks,2596
+spypointapi/shared_cameras/shared_cameras_api_response.py,sha256=Rh1KAy7yF7FxeE-ENPh1DR1VITVbTlJUDItuNt5qlz0,414
+spypoint_api-0.2.1.dist-info/METADATA,sha256=s4a2Co5unfLhKC1YnVMUIVqMx7gfvyQkQ0JRTqo5dcA,1427
+spypoint_api-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+spypoint_api-0.2.1.dist-info/licenses/LICENSE,sha256=7X8nesLfg6eBzkDifDBy7T48Nmg_MAogouTH8rEfqB4,1068
+spypoint_api-0.2.1.dist-info/RECORD,,

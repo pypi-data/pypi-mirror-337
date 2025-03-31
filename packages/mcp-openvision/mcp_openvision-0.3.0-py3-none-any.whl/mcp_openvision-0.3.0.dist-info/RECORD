@@ -1,0 +1,10 @@
+mcp_openvision/__init__.py,sha256=rp06AWCEwsOMVUarDKjR6pUTNth7rZZ9A5grVIiQrcs,146
+mcp_openvision/__main__.py,sha256=lqU5hevh2sv6dxiNxi38E4D9efSKvIbSfqBeAHERAO8,116
+mcp_openvision/config.py,sha256=dabKKZ9aZciIdMq5-lnFDLzSiT7g6gaDkMG4U8V_lZw,1734
+mcp_openvision/exceptions.py,sha256=zdwlERYVxobuidUTQpYIYpttTS58zu3EFIVLEVoWW_Q,535
+mcp_openvision/server.py,sha256=58cNfD4ZoGCgAvSH6ZBPQOWkzaVoTEns4evwA_N5Qyo,14719
+mcp_openvision-0.3.0.dist-info/METADATA,sha256=YkXYJ2ktHKIrzZKfCWQGfXRnOjAaDLGmoK3l1OLZV_k,5639
+mcp_openvision-0.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_openvision-0.3.0.dist-info/entry_points.txt,sha256=Nk-O0meaNZsOJOUicQoiFVCHEMI-hTDLlh8TW0W3JJI,62
+mcp_openvision-0.3.0.dist-info/licenses/LICENSE,sha256=NWaUBxj3dpmdjOVpJ7WfX6s7wGW-Ky6ftR3F4Tjsd0s,1065
+mcp_openvision-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+README.md
+setup.py
+nutrition_lib/__init__.py
+nutrition_lib/nutrition.py
+nutrition_lib.egg-info/PKG-INFO
+nutrition_lib.egg-info/SOURCES.txt
+nutrition_lib.egg-info/dependency_links.txt
+nutrition_lib.egg-info/top_level.txt

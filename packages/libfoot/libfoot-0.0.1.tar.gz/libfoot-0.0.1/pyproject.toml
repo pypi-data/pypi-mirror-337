@@ -1,0 +1,49 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "libfoot"
+description = "simple tool to summarize the footprint of a python package"
+license = { file = "LICENSE" }
+readme = "README.md"
+repository = "https://github.com/zzstoatzz/libfoot"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+dynamic = ["version"]
+dependencies = ["rich>=13.0"]
+
+[project.scripts]
+libfoot = "libfoot.cli:main"
+
+[dependency-groups]
+dev = ["maturin", "ruff", "ipython", "pre-commit", "pyright", "pytest"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-source = "python"
+module-name = "libfoot._libfoot"
+bindings = "pyo3"
+
+[tool.pyright]
+include = ["libfoot/**/*.py", "tests/**/*.py", "examples/**/*.py"]
+
+[tool.pytest]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.ruff.lint]
+extend-select = ["I", "UP"]

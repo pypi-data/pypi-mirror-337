@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aitor/__init__.py
+src/aitor/aitor.py
+src/aitor/aitorflows.py
+src/aitor/task.py
+src/aitor.egg-info/PKG-INFO
+src/aitor.egg-info/SOURCES.txt
+src/aitor.egg-info/dependency_links.txt
+src/aitor.egg-info/top_level.txt

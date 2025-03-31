@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: tinyml-compress
+Version: 1.0.1
+Summary: A library for converting, optimizing, and saving/loading machine learning models.
+Home-page: https://github.com/Lawrence-Menegus/tinyml_compress
+Author: Lawrence Menegus
+Author-email: lmenegus7@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Model Conversion and Optimization Library (tinyml_compress)
+
+This library provides functions to convert, save, load, distill, prune, and quantize machine learning models for both TensorFlow and PyTorch. It supports model conversion to TFLite and ONNX formats, as well as optimization techniques like distillation, pruning, and quantization.
+
+## Features
+
+- **Model Conversion**:
+  - Convert TensorFlow models to TFLite format.
+  - Convert PyTorch models to ONNX format.
+  
+- **Model Optimization**:
+  - **Distillation**:
+    - Perform knowledge distillation between a teacher and a student model for both TensorFlow and PyTorch.
+  - **Pruning**:
+    - Apply pruning to TensorFlow and PyTorch models to reduce the number of parameters.
+  - **Quantization**:
+    - Apply quantization to TensorFlow models to reduce model size and improve inference speed.
+    - Apply dynamic quantization to PyTorch models.
+
+- **Model Serialization**:
+  - Save and load TensorFlow and PyTorch models to and from disk.
+
+## Installation
+
+### To install this library, you can use the following `pip` command:
+
+pip install tinyML
+
+## Install required dependencies:
+
+pip install -r requirements.txt
+
+## Usage
+
+### Model Conversion
+
+### Convert TensorFlow Model to TFLite
+import tensorflow as tf
+from model_conversion import convert_to_tflite
+
+Create a simple model
+model = tf.keras.Sequential([tf.keras.layers.Dense(10, input_shape=(5,))])
+tflite_model = convert_to_tflite(model)
+
+
+### Convert PyTorch Model to ONNX
+import torch
+from model_conversion import convert_to_onnx
+
+model = torch.nn.Linear(5, 10)
+dummy_input = torch.randn(1, 5)
+onnx_path = convert_to_onnx(model, dummy_input, "model.onnx")
+
+
+## Model Optimization
+
+#### Distillation in TensorFlow
+from model_conversion import distill_model_tflite
+
+teacher_model = tf.keras.models.load_model("teacher_model.h5")
+student_model = tf.keras.models.Sequential([tf.keras.layers.Dense(10, input_shape=(5,))])
+train_data, train_labels = ...  # Your training data
+student_model = distill_model_tflite(teacher_model, student_model, train_data, train_labels)
+
+
+### Distillation in PyTorch
+from model_conversion import distill_model_pytorch
+
+teacher_model = torch.load("teacher_model.pt")
+student_model = torch.nn.Linear(5, 10)
+train_loader = ...  # Your training data loader
+optimizer = torch.optim.Adam(student_model.parameters())
+student_model = distill_model_pytorch(teacher_model, student_model, train_loader, optimizer)
+
+
+### Pruning in TensorFlow
+from model_conversion import prune_model_tflite
+
+model = tf.keras.Sequential([tf.keras.layers.Dense(10, input_shape=(5,))])
+pruned_model = prune_model_tflite(model, sparsity=0.5)
+
+
+### Pruning in PyTorch
+from model_conversion import prune_model_pytorch
+model = torch.nn.Linear(5, 10)
+pruned_model = prune_model_pytorch(model, amount=0.3)
+
+
+### Quantization in TensorFlow
+from model_conversion import quantize_model_tflite
+
+model = tf.keras.Sequential([tf.keras.layers.Dense(10, input_shape=(5,))])
+quantized_model = quantize_model_tflite(model)
+
+
+### Quantization in PyTorch
+from model_conversion import quantize_model_pytorch
+
+model = torch.nn.Linear(5, 10)
+quantized_model = quantize_model_pytorch(model)
+
+
+## Model Serialization
+
+#### Save a Model
+from model_conversion import save_model
+
+model = tf.keras.Sequential([tf.keras.layers.Dense(10, input_shape=(5,))])
+save_model(model, "model.h5")
+
+### PyTorch model
+import torch
+model = torch.nn.Linear(5, 10)
+save_model(model, "model.pt")
+
+
+#### Load a Model
+from model_conversion import load_model
+
+#### Load TensorFlow model
+tensorflow_model = load_model("model.h5", model_type="tensorflow")
+
+#### Load PyTorch model
+pytorch_model = load_model("model.pt", model_type="pytorch", input_shape=(5,))

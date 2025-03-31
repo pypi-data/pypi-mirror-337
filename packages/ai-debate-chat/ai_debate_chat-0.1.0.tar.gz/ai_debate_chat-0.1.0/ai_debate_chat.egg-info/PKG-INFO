@@ -1,0 +1,74 @@
+Metadata-Version: 2.4
+Name: ai_debate_chat
+Version: 0.1.0
+Summary: A package for AI debate and chat functionalities
+Home-page: https://github.com/Amir-Mirfallahi/ai-debate-chat
+Author: Amir Mirfallahi
+Author-email: mirfallahi2009@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.13.3
+Requires-Dist: faiss-cpu>=1.10.0
+Requires-Dist: g4f>=0.4.9
+Requires-Dist: langchain-community>=0.3.20
+Requires-Dist: langchain-core>=0.3.48
+Requires-Dist: langchain-huggingface>=0.1.2
+Requires-Dist: langchain-text-splitters>=0.3.7
+Requires-Dist: nltk>=3.9.1
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: requests>=2.32.3
+Requires-Dist: torch>=2.6.0
+Requires-Dist: transformers>=4.50.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: sentence-transformers>=3.4.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AI Debate Chat
+
+A Python package for creating AI debate and chat functionalities.
+
+## Installation
+
+```bash
+pip install ai-debate-chat
+```
+
+## Features
+
+- AI-powered debate functionality
+- Machine learning pipeline using LangChain
+- Advanced natural language processing capabilities
+
+## Usage
+
+```python
+from ai_debate_chat import debate_chat
+
+# Create a debate
+debate = debate_chat.DebateChat(...)
+
+# Start the debate
+debate.start_debate()
+```
+
+## Requirements
+
+- Python 3.9 or higher
+- See requirements.txt for full dependencies
+
+## License
+
+MIT License

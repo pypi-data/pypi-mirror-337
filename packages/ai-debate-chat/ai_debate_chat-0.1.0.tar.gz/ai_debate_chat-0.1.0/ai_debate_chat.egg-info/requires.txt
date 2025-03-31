@@ -1,0 +1,14 @@
+beautifulsoup4>=4.13.3
+faiss-cpu>=1.10.0
+g4f>=0.4.9
+langchain-community>=0.3.20
+langchain-core>=0.3.48
+langchain-huggingface>=0.1.2
+langchain-text-splitters>=0.3.7
+nltk>=3.9.1
+numpy>=2.2.4
+requests>=2.32.3
+torch>=2.6.0
+transformers>=4.50.0
+python-dotenv>=1.0.1
+sentence-transformers>=3.4.1

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+ai_debate_chat/__init__.py
+ai_debate_chat/debate_chat.py
+ai_debate_chat/ml_pipeline_langchain.py
+ai_debate_chat.egg-info/PKG-INFO
+ai_debate_chat.egg-info/SOURCES.txt
+ai_debate_chat.egg-info/dependency_links.txt
+ai_debate_chat.egg-info/requires.txt
+ai_debate_chat.egg-info/top_level.txt

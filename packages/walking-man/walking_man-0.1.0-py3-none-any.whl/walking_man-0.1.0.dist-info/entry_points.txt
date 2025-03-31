@@ -1,0 +1,3 @@
+[console_scripts]
+walking-man=walking_man.main:walking_man_adventure
+

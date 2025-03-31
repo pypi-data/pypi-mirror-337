@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_nlp-falcon/__init__.py
+src/corex-ai_nlp-falcon/handler.py
+src/corex_ai_nlp_falcon.egg-info/PKG-INFO
+src/corex_ai_nlp_falcon.egg-info/SOURCES.txt
+src/corex_ai_nlp_falcon.egg-info/dependency_links.txt
+src/corex_ai_nlp_falcon.egg-info/top_level.txt
+tests/test_handler.py

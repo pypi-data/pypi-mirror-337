@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: astfriend
+Version: 0.1.20
+Summary: Project for easy AST tree manipulation
+License: Proprietary
+Author: vbobryshev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: astor (>=0.8.1,<0.9.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Project-URL: Repository, https://gitlab.com/githubmyproject/AstFriend
+Description-Content-Type: text/markdown
+
+# AstFriend
+

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../agents-learn"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../unibox"
+		}
+	],
+	"settings": {}
+}

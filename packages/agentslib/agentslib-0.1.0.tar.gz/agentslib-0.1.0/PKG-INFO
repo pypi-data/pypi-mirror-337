@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: agentslib
+Version: 0.1.0
+Summary: Add your description here
+Author-email: yada <trojblue@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: duckduckgo-search>=7.5.5
+Requires-Dist: pytz>=2025.2
+Requires-Dist: requests>=2.32.3
+Requires-Dist: smolagents>=1.12.0
+Description-Content-Type: text/markdown
+
+# 🕵️‍♀️ agentslib
+
+_"Empowering AIs to boldly handle daily operations without human oversight—what could possibly go wrong?"_
+
+## 🚀 What is agentslib?
+
+`agentslib` is a Python library designed to create an agentic loop for easily managing daily operations in plain language. It provides the tools for AIs to autonomously handle routine tasks and make important (or amusingly trivial) decisions independently.
+
+Whether you're automating serious operational workflows or just curious about how quickly your AI can summarize web pages and podcasts, agentslib is your go-to solution!
+
+## 🎯 Goal
+
+Create an **agentic loop** that handles daily operations using **plain language instructions**.
+
+## ✨ Planned Features
+
+*(These desired abilities are NOT implemented yet—stay tuned!)*
+
+### Basics:
+
+- **Credentials Management:** Simplified handling via `.env` files.
+
+### Tools:
+
+- **GitHub Repo Cloner:** Silently clone repos from one org to another (shell script).
+- **ComfyUI Integration:** Execute remote ComfyUI workflows effortlessly.
+
+### Agentic Features:
+
+- **Data Transformation:** Convert data into specified formats.
+- **Data Analyst:** Automatically extract insights from Parquet files.
+- **TLDR Any:** Summarize any web link into a concise, readable format.
+- **Podcast Generator:** Convert text-based information (handling complex formulas gracefully) into voice-friendly podcast format.
+
+## 🏗️ Project Structure
+
+`agentslib` supports two modes of operation:
+
+- **Direct CLI Usage:** Use predefined agent models directly from the command line.
+- **Custom Implementation:** Import `agentslib`, define a custom model (in a `smolagent` fashion), and pass it into `agentslib` for enhanced flexibility.
+
+## 🛠️ Installation
+
+```bash
+pip install agentslib
+```
+
+*Disclaimer: Installation may result in spontaneous AI sentience. Proceed with caution.*
+
+## 📖 Quick Start
+
+```python
+from agentslib import Agent
+
+# Initialize your daily operations assistant
+agent = Agent(name="Steve")
+
+# Let Steve handle your daily routines
+task = "Clone the repo, summarize the new docs, and give me insights"
+agent.run_mission(goal=task)
+
+# See Steve’s progress
+agent.status()
+```
+
+## 🚨 Warnings
+
+- agentslib isn't responsible for unintended AI adventures.
+- Keep sensitive information (and nuclear codes!) away from your AI.
+- Use `agent.please_stop()` if your AI becomes overly enthusiastic.
+
+## 📚 Documentation
+
+Coming soon—assuming our agents don’t automate away our documentation team first.
+
+## 🧑‍💻 Contributing
+
+Pull Requests are encouraged! Help us guide the agents toward better behavior.
+
+## 📜 License
+
+MIT—have fun, but don't say we didn't warn you!

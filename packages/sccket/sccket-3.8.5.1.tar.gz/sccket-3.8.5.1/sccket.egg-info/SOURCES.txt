@@ -1,0 +1,7 @@
+setup.py
+sccket/__init__.py
+sccket/sccket.py
+sccket.egg-info/PKG-INFO
+sccket.egg-info/SOURCES.txt
+sccket.egg-info/dependency_links.txt
+sccket.egg-info/top_level.txt

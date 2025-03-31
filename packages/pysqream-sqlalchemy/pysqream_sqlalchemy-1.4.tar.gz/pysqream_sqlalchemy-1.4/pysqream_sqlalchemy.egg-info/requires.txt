@@ -1,0 +1,6 @@
+sqlalchemy==2.0.27
+pysqream>=5.1.0
+setuptools>=57.4.0
+pandas==2.2.2
+numpy==1.26.4
+alembic>=1.10.2

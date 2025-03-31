@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/elcanal/__init__.py
+src/elcanal/__main__.py
+src/elcanal.egg-info/PKG-INFO
+src/elcanal.egg-info/SOURCES.txt
+src/elcanal.egg-info/dependency_links.txt
+src/elcanal.egg-info/requires.txt
+src/elcanal.egg-info/top_level.txt

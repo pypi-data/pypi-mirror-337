@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+scannertext/__init__.py
+scannertext/_scanner.py
+scannertext/_scannerbase.py
+scannertext/_stackentry.py
+scannertext/_unicodeutils.py
+scannertext.egg-info/PKG-INFO
+scannertext.egg-info/SOURCES.txt
+scannertext.egg-info/dependency_links.txt
+scannertext.egg-info/top_level.txt
+tests/test-install.py

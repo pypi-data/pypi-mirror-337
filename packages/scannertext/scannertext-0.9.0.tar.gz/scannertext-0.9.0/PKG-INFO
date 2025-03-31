@@ -1,0 +1,62 @@
+Metadata-Version: 2.4
+Name: scannertext
+Version: 0.9.0
+Summary: Escaneo y análisis de textos en cadenas o ficheros. Scanning and analyzing texts in strings or files.
+Author: miloter
+License-Expression: MIT
+Project-URL: Repository, https://github.com/miloter/scannertext
+Keywords: analizador,sintáctico,sintax,analyze
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# Instalación y uso de / Installation and use of **scannertext**
+
+## Instalación / Installation
+```bash/powershell
+pip install scannertext
+```
+
+## Ejemplo de uso / Example of use
+```python
+from datetime import datetime
+from scannertext import Scanner
+
+ts = datetime.now()
+sc = Scanner(text=""""
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
+    """, ignore_case=False
+)
+token = sc.next_token()
+count = 0
+while token != Scanner.EOF:    
+    print(sc.lexeme)    
+    token = sc.next_token()
+    count += 1
+print(count) # Número de componentes léxicos leídos
+print(f"{(datetime.now() - ts).total_seconds() * 1000} ms")
+```
+
+### Para más información vea la documentación de la clase **scannertext.Scanner**
+### For more information, see the documentation for the **scannertext.Scanner** class.

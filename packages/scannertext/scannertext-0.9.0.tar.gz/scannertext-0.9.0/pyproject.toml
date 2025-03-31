@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scannertext"
+version="0.9.0"
+dependencies = []
+requires-python = ">= 3.6"
+authors = [
+    {name = "miloter"}
+]
+description= "Escaneo y análisis de textos en cadenas o ficheros. Scanning and analyzing texts in strings or files."
+readme = "README.md"
+license="MIT"
+keywords = [
+    "analizador",
+    "sintáctico",
+    "sintax",
+    "analyze"
+]
+classifiers=[
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6"    
+]
+
+[project.urls]
+Repository = "https://github.com/miloter/scannertext"
+
+[tool.setuptools]
+packages = ["scannertext"]

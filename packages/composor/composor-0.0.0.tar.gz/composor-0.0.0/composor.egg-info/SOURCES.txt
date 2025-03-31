@@ -1,0 +1,6 @@
+pyproject.toml
+composor/__init__.py
+composor.egg-info/PKG-INFO
+composor.egg-info/SOURCES.txt
+composor.egg-info/dependency_links.txt
+composor.egg-info/top_level.txt

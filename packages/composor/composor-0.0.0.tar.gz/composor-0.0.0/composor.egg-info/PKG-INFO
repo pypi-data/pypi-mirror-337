@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: composor
+Version: 0.0.0
+Summary: Composor is a Python package that offers off-the-shelf building blocks to build custom operations research solutions.
+Author-email: Joris Roels <joris@superlinear.eu>
+Description-Content-Type: text/markdown

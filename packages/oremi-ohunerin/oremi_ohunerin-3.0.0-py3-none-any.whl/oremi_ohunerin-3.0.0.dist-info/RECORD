@@ -1,0 +1,16 @@
+ohunerin/__init__.py,sha256=A5hRQIqEwTg573Ak-EB_NBRYBBxYK1z7jJW3eoJdOn4,2030
+ohunerin/__main__.py,sha256=cXAMN_Gk7nSpm1V0jWxEfx_ochyC9HqBCDY01VSQR_M,712
+ohunerin/args.py,sha256=2DszGB5CFP3gtaXiSBBPi_8OuKzvS37jiHRS2mLFyRE,1534
+ohunerin/audio.py,sha256=q_kueZVetlJI0NVHm08IFv5OGAkJqoAG986Amb8MQdg,1514
+ohunerin/detector.py,sha256=UeEyIhHcBjwceRdaIYfH-rHnqNXc86fwP-wWFR4xIk4,3726
+ohunerin/logger.py,sha256=5AlLHYXGNYks2VCi7IFNJTmjiVz0r8Bg3sjOZ9dfSgY,1452
+ohunerin/models.py,sha256=rSmEOvffx3OyPW3oRNkDDdD84tM83V7Bim1oXeS5l-8,2708
+ohunerin/package.py,sha256=H7cNSrD3dxPw2oH1lO8ZA0l-XQAwSUW2mmbb9IXWbg8,1132
+ohunerin/server.py,sha256=Plm5sxArCdEeuYdkKKXwLUpX7-Va5B_dylaDexQKU3Q,9399
+ohunerin/wakeword.py,sha256=SbI-i9Y5Y3DTDcYIBxWUgY7XmtScmfCaqjf7OrFZFWQ,4235
+oremi_ohunerin-3.0.0.dist-info/LICENSE,sha256=yUf4IZCREEqsoLm3QK9duDSHBXPV2Hh15bmFzv1F0OI,11370
+oremi_ohunerin-3.0.0.dist-info/LICENSE_HEADER.txt,sha256=llEg6I0bBntPljCC6MWEO9L4jlEnwv0YvZpuWq9b9YI,685
+oremi_ohunerin-3.0.0.dist-info/METADATA,sha256=a2Vm0RJsf04qZU201zWH9bDAWsw7qCkcymmVSDMLV9w,12428
+oremi_ohunerin-3.0.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+oremi_ohunerin-3.0.0.dist-info/entry_points.txt,sha256=CLaT3AbiecBp3agjOJ0pjz8WwhAxY1_RVwveqOoeTtY,48
+oremi_ohunerin-3.0.0.dist-info/RECORD,,

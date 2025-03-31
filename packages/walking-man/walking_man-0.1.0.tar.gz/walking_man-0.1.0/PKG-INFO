@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: walking-man
+Version: 0.1.0
+Summary: Walking Man goes on an adventure
+Author: Danny Stewart
+Author-email: danny@stewart.cc
+Requires-Python: >=3.12,<3.14
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: blessed (>=1.20.0,<2.0.0)
+Requires-Dist: dsbase (>=0.4.3,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Walking Man Adventure
+
+The game we all hoped for but didn't deserve. Until now.
+
+```
+   Items: 🗡️ 🍎 🔑     Health: ❤️❤️❤️     Gold: 123
+
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+                         🌵
+           🌴                        🏆
+
+                    <('-'<)🗡️
+   _________________________________________________
+```
+

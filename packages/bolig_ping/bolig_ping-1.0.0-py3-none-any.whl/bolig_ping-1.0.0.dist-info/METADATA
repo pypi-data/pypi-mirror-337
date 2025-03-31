@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: bolig_ping
+Version: 1.0.0
+Summary: Get a ping when your dream flat becomes available.
+Project-URL: Repository, https://github.com/saattrupdan/bolig_ping
+Project-URL: Issues, https://github.com/saattrupdan/bolig_ping/issues
+Author-email: Dan Saattrup Nielsen <saattrupdan@gmail.com>
+Maintainer-email: Dan Saattrup Nielsen <saattrupdan@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Dan Saattrup Nielsen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this
+        software and associated documentation files (the "Software"), to deal in the Software
+        without restriction, including without limitation the rights to use, copy, modify,
+        merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to the following
+        conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies
+        or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+        PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+        CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+        THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Requires-Python: <4.0,>=3.11
+Requires-Dist: beautifulsoup4>=4.13.3
+Requires-Dist: click>=8.1.8
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: selenium>=4.30.0
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: yagmail>=0.15.293
+Description-Content-Type: text/markdown
+
+# Bolig Ping
+
+Get a ping when your dream flat in Denmark becomes available on BoligSiden.
+
+______________________________________________________________________
+[![Code Coverage](https://img.shields.io/badge/Coverage-75%25-yellowgreen.svg)](https://github.com/saattrupdan/bolig_ping/tree/main/tests)
+[![Documentation](https://img.shields.io/badge/docs-passing-green)](https://saattrupdan.github.io/bolig_ping)
+[![License](https://img.shields.io/github/license/saattrupdan/bolig_ping)](https://github.com/saattrupdan/bolig_ping/blob/main/LICENSE)
+[![LastCommit](https://img.shields.io/github/last-commit/saattrupdan/bolig_ping)](https://github.com/saattrupdan/bolig_ping/commits/main)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/saattrupdan/bolig_ping/blob/main/CODE_OF_CONDUCT.md)
+
+Developer:
+
+- Dan Saattrup Nielsen (saattrupdan@gmail.com)
+
+
+# Installation
+
+To install the package, simply run the following command:
+
+```bash
+pip install bolig-ping
+```
+
+To be able to send emails, you have to create a [Google app
+password](https://myaccount.google.com/apppasswords), and store both your Gmail email
+address and the app password in the environment variables `GMAIL_EMAIL` and
+`GMAIL_PASSWORD`, respectively. You can also simply store these in a `.env` file, as
+follows:
+
+```bash
+GMAIL_EMAIL=<your-email>@gmail.com
+GMAIL_PASSWORD=<your-app-password>
+```
+
+
+# Quickstart
+
+Missing.

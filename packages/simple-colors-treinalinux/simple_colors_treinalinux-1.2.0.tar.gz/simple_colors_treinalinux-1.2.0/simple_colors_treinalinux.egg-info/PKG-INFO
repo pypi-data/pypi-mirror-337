@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: simple-colors-treinalinux
+Version: 1.2.0
+Summary: Simple colors to terminal
+Home-page: https://github.com/treinalinux/simple-colors
+Author: Alan da Silva Alves
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple Colors
+
+*Simple colors to terminal*
+
+## Install module
+
+```bash
+
+pip3 install simple-colors-treinalinux
+
+```
+
+## Use Simple
+
+```python
+>>> import simple_colors
+>>> simple_colors.c_failure("Falha ao tentar escrver no arquivo!")
+Falha ao tentar escrver no arquivo!
+>>> simple_colors.c_success("Sucesso ao escrver no arquivo!")
+Sucesso ao escrver no arquivo!
+>>> simple_colors.c_warning("Aviso ao escrver no arquivo!")
+Aviso ao escrver no arquivo!
+>>> simple_colors.c_info("Info ao escrver no arquivo!")
+Info ao escrver no arquivo!
+```
+
+```python
+>>> from simple_colors import c_failure, c_success, c_warning, c_info
+>>> 
+>>> c_failure("Falha ao tentar escrver no arquivo!")
+Falha ao tentar escrver no arquivo!
+>>> 
+>>> c_success("Sucesso ao escrver no arquivo!")
+Sucesso ao escrver no arquivo!
+>>> 
+>>> c_warning("Aviso ao escrver no arquivo!")
+Aviso ao escrver no arquivo!
+>>> 
+>>> c_info("Info ao escrver no arquivo!")
+Info ao escrver no arquivo!
+```
+
+

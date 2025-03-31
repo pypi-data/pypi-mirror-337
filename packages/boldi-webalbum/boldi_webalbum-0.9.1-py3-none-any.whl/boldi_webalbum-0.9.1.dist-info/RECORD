@@ -1,0 +1,10 @@
+boldi/_webalbum_version.py,sha256=QG_t-w_CzDn2UjPaW-Svt-wTU1NXK2QkudawUihJfHA,511
+boldi/webalbum.py,sha256=UiTuyCk_v_4Ea3uVEzUs3zKFf43mxfSludGHKeyGCQQ,18371
+boldi/webalbum/masonry.py,sha256=W7SiMEos8X7aBMaAfIVCPnsBwREys1TEyV4ugj4MmXI,553
+boldi/webalbum/templates/index.html.j2,sha256=0u88FVna-VntKXI6FYsGH8420HJI-tfS5nE8SoxaXko,11581
+boldi/webalbum/templates/masonry.html.j2,sha256=5NHHGZiwuPhaO1AbDQlgoaQhr8LnnXLM0u8jtUkcyko,1821
+boldi/webalbum/templates/static/script.js,sha256=v7cCPQfb1fWpMmzDku-CEbbPqvTn7dfXSCQpn_SlA1E,10258
+boldi/webalbum/templates/static/style.css,sha256=b0b25LGCCA5EZrHtcathK0K8S558QMXv6gDPrUlFADM,4054
+boldi_webalbum-0.9.1.dist-info/METADATA,sha256=GdZJV5Tpc5SB5pn7j2qXUbR_nFppCzwcVFDhFwk-QFk,1410
+boldi_webalbum-0.9.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+boldi_webalbum-0.9.1.dist-info/RECORD,,

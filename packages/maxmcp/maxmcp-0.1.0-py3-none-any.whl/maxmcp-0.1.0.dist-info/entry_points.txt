@@ -1,0 +1,2 @@
+[console_scripts]
+maxmcp = maxmcp.server:main

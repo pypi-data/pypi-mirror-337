@@ -1,0 +1,9 @@
+eeg_filters/__init__.py,sha256=k-bhQnzPGC5rtAERFmuHawjjTAIagqOuWI-w3hN924w,662
+eeg_filters/data_importer.py,sha256=7JMKzPo1BfxSOEv-VEKdjIcT_z-qC81MzsDLpLaR6K4,4985
+eeg_filters/export.py,sha256=ZKv6paYXBNMJYd4yjw-hZ_m3OlNv4g2rm9m5tGy8H2o,3017
+eeg_filters/filters.py,sha256=atGFyYpOahniHXN66qUUk4FqgDLBX8AYFspUBiVyFqY,4270
+eeg_filters/upload.py,sha256=pFmN3YA8q5h5F2ukFUyInogt_4KWGj2Rq6GIDf8JTnU,2988
+eeg_filters-0.0.8.dist-info/LICENSE,sha256=f7FsB5EJsuhdlmUc20uhip9t61CncEhKexKBGjz_RdQ,1059
+eeg_filters-0.0.8.dist-info/METADATA,sha256=FTjXqnaElO2NJ7bTQYJpgBcIJJz7QETc9HDFxfGueSQ,3585
+eeg_filters-0.0.8.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+eeg_filters-0.0.8.dist-info/RECORD,,

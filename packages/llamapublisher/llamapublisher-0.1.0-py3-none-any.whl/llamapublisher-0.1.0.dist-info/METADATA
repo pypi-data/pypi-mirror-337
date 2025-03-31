@@ -1,0 +1,124 @@
+Metadata-Version: 2.4
+Name: llamapublisher
+Version: 0.1.0
+Summary: A powerful library for AI-powered search and data processing
+Home-page: https://github.com/llamasearchai/llamapublisher
+Author: LlamaSearch AI
+Author-email: info@llamasearchai.com
+Project-URL: Bug Tracker, https://github.com/llamasearchai/llamapublisher/issues
+Project-URL: Documentation, https://llamasearchai.github.io/llamapublisher/
+Project-URL: Source Code, https://github.com/llamasearchai/llamapublisher
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: requests>=2.25.0
+Requires-Dist: tqdm>=4.62.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.0; extra == "dev"
+Requires-Dist: black>=21.5b2; extra == "dev"
+Requires-Dist: isort>=5.9.0; extra == "dev"
+Requires-Dist: flake8>=3.9.0; extra == "dev"
+Requires-Dist: mypy>=0.900; extra == "dev"
+Provides-Extra: mlx
+Requires-Dist: mlx>=0.0.5; extra == "mlx"
+Provides-Extra: all
+Requires-Dist: mlx>=0.0.5; extra == "all"
+Requires-Dist: matplotlib>=3.4.0; extra == "all"
+Requires-Dist: seaborn>=0.11.0; extra == "all"
+Requires-Dist: scikit-learn>=1.0.0; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# llamapublisher
+
+## Overview
+llamapublisher is a powerful library for the LlamaSearch AI ecosystem. It provides developers with robust tools for working with AI-powered search and data processing.
+
+## Features
+- High-performance data processing
+- Seamless integration with other Llama libraries
+- Comprehensive API for AI-powered search
+- Scalable architecture for enterprise applications
+- MLX support for optimized performance on Apple Silicon
+- Extensive customization options
+
+## Installation
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Install from PyPI
+```bash
+pip install llamapublisher
+```
+
+### Install from source
+```bash
+git clone https://github.com/llamasearchai/llamapublisher.git
+cd llamapublisher
+pip install -e .
+```
+
+## Quick Start
+```python
+import llamapublisher
+
+# Initialize the client
+client = llamapublisher.Client()
+
+# Process data
+results = client.process("Your query here")
+print(results)
+```
+
+## Documentation
+For full documentation, visit [our documentation site](https://llamasearchai.github.io/llamapublisher/).
+
+## Examples
+See the `examples/` directory for more usage examples.
+
+## Contributing
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Related Projects
+- [llamaindex](https://github.com/llamasearchai/llamaindex)
+- [llamasearch](https://github.com/llamasearchai/llamasearch)
+- [llamagraph](https://github.com/llamasearchai/llamagraph)
+
+## Roadmap
+- Advanced integration with vector databases
+- Enhanced MLX support
+- Additional language models
+- Improved documentation and examples
+- Performance optimizations
+
+## Community
+Join our community on [Discord](https://discord.gg/llamasearch)

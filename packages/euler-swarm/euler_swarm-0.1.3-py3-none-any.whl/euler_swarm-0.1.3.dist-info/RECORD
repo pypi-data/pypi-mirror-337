@@ -1,0 +1,10 @@
+euler_swarm/__init__.py,sha256=5eWoQ-Y7l6tl75E8oJAAXyB2U9UupVXxC_IMz7WTjyI,189
+euler_swarm/create_graph.py,sha256=5tFSP-3ArGjhvOxM4NmToax4VDwImCkNe33Ty8WP2Nw,3514
+euler_swarm/level_segregation.py,sha256=I4CzLHM068OXHb_4ctE6bsZHcVmuWsJfN1AYe0Nj6XY,1129
+euler_swarm/main.py,sha256=1l3Z_9Hrpve8k9BhFEn3DSnAhvcJkh18d8K-NHU4JK8,8865
+euler_swarm-0.1.3.dist-info/LICENSE,sha256=sqnzAJcLKzkVV81ZjdtMqqLRLS6YtQKLPyBz9-NDoQk,610
+euler_swarm-0.1.3.dist-info/METADATA,sha256=aRY94JaSU3S16sZjmhf8ULb6sFe583Pv_Prv2irb76o,505
+euler_swarm-0.1.3.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+euler_swarm-0.1.3.dist-info/entry_points.txt,sha256=S46DYvdKMdAjYSE7Vnx7VYm5b_P0QVk8G1DTl8DUM9o,55
+euler_swarm-0.1.3.dist-info/top_level.txt,sha256=IGC8gUfLCiEsgOOrx9ickXvNVey9GhHIzvairwqAUO8,12
+euler_swarm-0.1.3.dist-info/RECORD,,

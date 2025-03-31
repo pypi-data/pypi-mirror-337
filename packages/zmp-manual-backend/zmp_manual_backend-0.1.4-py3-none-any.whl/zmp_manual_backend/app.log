@@ -1,0 +1,17 @@
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:65] - Starting ZMP Manual Backend service
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:69] - Server configuration:
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - HOST: 0.0.0.0
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - PORT: 8001
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - REPO_BASE_PATH: ./repo
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - SOURCE_DIR: docs
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - TARGET_DIR: i18n
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - DEBUG: True
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - LOG_LEVEL: debug
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:71] - - ALLOWED_ORIGINS: *
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:74] - Environment variables status:
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:75] - - .env file location: /Users/a10543/Documents/src/zmp-chatops/zmp-manual-backend/.env
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:76] - - .env file exists: True
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:77] - - NOTION_TOKEN set: Yes
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:80] - - ZCP_ROOT_PAGE_ID set: Yes
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:86] - CORS configuration: allowing origins: ['*']
+[2025-03-17 10:33:30.f] [INFO] [appLogger] [MainThread:8493434944] [main:lifespan:94] - Shutting down ZMP Manual Backend service

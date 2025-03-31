@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+jsonschema_to_zon/__init__.py
+jsonschema_to_zon/schema.py
+jsonschema_to_zon.egg-info/PKG-INFO
+jsonschema_to_zon.egg-info/SOURCES.txt
+jsonschema_to_zon.egg-info/dependency_links.txt
+jsonschema_to_zon.egg-info/requires.txt
+jsonschema_to_zon.egg-info/top_level.txt
+tests/test_schema.py
+tests/test_schema_reader.py

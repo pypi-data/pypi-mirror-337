@@ -1,0 +1,9 @@
+README.md
+setup.py
+segrs/RSmerge.py
+segrs/RSsplit.py
+segrs/__init__.py
+segrs.egg-info/PKG-INFO
+segrs.egg-info/SOURCES.txt
+segrs.egg-info/dependency_links.txt
+segrs.egg-info/top_level.txt

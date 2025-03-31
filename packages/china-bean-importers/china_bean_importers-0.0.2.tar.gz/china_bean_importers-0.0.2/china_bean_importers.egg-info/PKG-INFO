@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: china_bean_importers
+Version: 0.0.2
+Summary: Beancount importers for Chinese users
+Requires-Dist: pymupdf
+Requires-Dist: beancount<3
+Requires-Dist: BeautifulSoup4

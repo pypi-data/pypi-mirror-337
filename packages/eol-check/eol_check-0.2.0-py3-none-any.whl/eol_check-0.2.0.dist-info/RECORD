@@ -1,0 +1,11 @@
+eol_check/__init__.py,sha256=VNa9Hq3n2auUXlAb_eTxMnBSYx4XQS01JLFw014lpDg,118
+eol_check/__main__.py,sha256=nlwMZ0z5nWNDJCjmkzDg52r1wKdRb5WMvGxgvgScG2E,148
+eol_check/cli.py,sha256=R2rHHqLJOrjDyxHEg1jVl8xjO_qY8lMtr62O4y8PvLg,5856
+eol_check/core.py,sha256=XcrG-3Iea1M0e_Yz6Wd4aNZdwxjce0ADqBbfOmXH7Ao,11714
+eol_check/ui.py,sha256=IPBGOTAAkw63m_IIzXW69DuVJSV_qGjGFijZNROpSLc,276
+eol_check-0.2.0.dist-info/licenses/LICENSE,sha256=XKZVmjXMxUAda4nh_7o9n9Rdu6xH3mlb5zapp-w8maQ,1062
+eol_check-0.2.0.dist-info/METADATA,sha256=iwANSiraUw_CK9kCfyYE10XWJEZFDeIah1doO2LZs3I,9108
+eol_check-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+eol_check-0.2.0.dist-info/entry_points.txt,sha256=T-zIGGp0JG8M2F19CUuel2PW46iTfMvWuyF9PnUecXk,49
+eol_check-0.2.0.dist-info/top_level.txt,sha256=F3MPuoXjE8wOJa1kgl0aooMF6WVLyGSCYd4K0NfQzZM,10
+eol_check-0.2.0.dist-info/RECORD,,

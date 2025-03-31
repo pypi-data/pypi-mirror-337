@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_runtimes-tensor_rt/__init__.py
+src/corex-ai_runtimes-tensor_rt/handler.py
+src/corex_ai_runtimes_tensor_rt.egg-info/PKG-INFO
+src/corex_ai_runtimes_tensor_rt.egg-info/SOURCES.txt
+src/corex_ai_runtimes_tensor_rt.egg-info/dependency_links.txt
+src/corex_ai_runtimes_tensor_rt.egg-info/top_level.txt
+tests/test_handler.py

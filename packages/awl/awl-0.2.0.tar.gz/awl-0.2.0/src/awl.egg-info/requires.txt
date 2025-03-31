@@ -1,0 +1,14 @@
+ast2json
+json2ast
+pyyaml
+pyld
+rdflib
+
+[dev]
+tox
+pre-commit
+
+[testing]
+setuptools
+pytest
+pytest-cov

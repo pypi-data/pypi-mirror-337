@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+llamapublisher/__init__.py
+llamapublisher/client.py
+llamapublisher.egg-info/PKG-INFO
+llamapublisher.egg-info/SOURCES.txt
+llamapublisher.egg-info/dependency_links.txt
+llamapublisher.egg-info/entry_points.txt
+llamapublisher.egg-info/requires.txt
+llamapublisher.egg-info/top_level.txt
+tests/test_client.py

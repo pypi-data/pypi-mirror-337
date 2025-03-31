@@ -1,0 +1,5 @@
+uiautomation
+Pillow>=11.1.0
+pywin32>=309
+psutil>=7.0.0
+pyperclip>=1.9.0

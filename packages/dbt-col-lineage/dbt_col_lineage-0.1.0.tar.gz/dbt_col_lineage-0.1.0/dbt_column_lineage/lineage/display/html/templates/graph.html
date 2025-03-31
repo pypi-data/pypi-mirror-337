@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DBT Column Lineage</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <script src="{{ url_for('static', path='/vendor/d3.v7.min.js') }}"></script>
+    <script src="https://dagrejs.github.io/project/dagre/latest/dagre.min.js"></script>
+    <script src="{{ url_for('static', path='/js/config.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/dataProcessor.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/renderer.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/interactions.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/graph.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="controls">
+                <h3>Controls</h3>
+                <button id="zoomIn">Zoom In</button>
+                <button id="zoomOut">Zoom Out</button>
+                <button id="resetView">Reset View</button>
+                <button id="relayout">Re-layout</button>
+            </div>
+            <div class="info-panel">
+                <h3>Column Details</h3>
+                <div id="nodeInfo" class="node-info">
+                    <div class="node-info-placeholder">
+                        Select a column to see details
+                    </div>
+                    <div class="node-info-content" style="display: none;">
+                        <div class="node-header">
+                            <span id="nodeLabel" class="node-label"></span>
+                            <span id="nodeType" class="node-badge"></span>
+                        </div>
+                        <div class="node-detail">
+                            <span class="detail-label">Model:</span>
+                            <span id="nodeModel"></span>
+                        </div>
+                        <div class="node-detail">
+                            <span class="detail-label">Data Type:</span>
+                            <span id="nodeDataType"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="graph"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Data:', {{ data | tojson }});
+            initGraph({{ data | tojson }});
+        });
+    </script>
+</body>
+</html>

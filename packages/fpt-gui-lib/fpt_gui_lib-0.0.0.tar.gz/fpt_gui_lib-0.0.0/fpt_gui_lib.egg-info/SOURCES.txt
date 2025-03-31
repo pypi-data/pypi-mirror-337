@@ -1,0 +1,6 @@
+pyproject.toml
+fpt_gui_lib/__init__.py
+fpt_gui_lib.egg-info/PKG-INFO
+fpt_gui_lib.egg-info/SOURCES.txt
+fpt_gui_lib.egg-info/dependency_links.txt
+fpt_gui_lib.egg-info/top_level.txt

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: date_day_estimator
+Version: 0.0.4
+Summary: To estimate the day of the week from date/month/year info
+Home-page: https://github.com/Mayakshanesht/date_day_estimator_pypi_package
+Author: Mayur Waghchoure
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+
+
+# DATE DAY PREDICTOR
+
+`date_day_estimator` is a Python package that calculates the day of the week for a given date using **Zeller's Congruence**.
+
+## Installation
+
+```bash
+pip install date-day-estimator
+```
+
+## Usage
+
+from date_day_estimator.date_day_estimator import zellers_congruence
+
+# Example: Find the day of the week for 5th July 1995
+day_number, day_name = zellers_congruence(5, 7, 1995)
+
+print(day_number)  # 4
+print(day_name)    # 'Wednesday'
+
+
+## FORMULA
+
+**Zeller's Congruence**, which is an algorithm used to calculate the day of the week for any given date. It typically takes the following form:
+
+\[
+h = \left(q + \left\lfloor rac{13(m+1)}{5} ightfloor + K + \left\lfloor rac{K}{4} ightfloor + \left\lfloor rac{J}{4} ightfloor - 2Jight) \mod 7
+\]
+
+Where:
+- \( h \) is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, etc.),
+- \( q \) is the day of the month,
+- \( m \) is the month (March = 3, April = 4, ..., February = 14),
+- \( K \) is the year of the century (i.e., year % 100),
+- \( J \) is the zero-based century (i.e., year // 100).
+

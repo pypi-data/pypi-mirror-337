@@ -1,0 +1,2 @@
+[console_scripts]
+deep-research-mcp-server = deep_research.server:main

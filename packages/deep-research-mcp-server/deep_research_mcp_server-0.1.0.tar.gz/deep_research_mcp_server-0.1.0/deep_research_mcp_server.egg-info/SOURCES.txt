@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+deep_research/__init__.py
+deep_research/server.py
+deep_research_mcp_server.egg-info/PKG-INFO
+deep_research_mcp_server.egg-info/SOURCES.txt
+deep_research_mcp_server.egg-info/dependency_links.txt
+deep_research_mcp_server.egg-info/entry_points.txt
+deep_research_mcp_server.egg-info/requires.txt
+deep_research_mcp_server.egg-info/top_level.txt

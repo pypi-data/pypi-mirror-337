@@ -1,0 +1,17 @@
+[project]
+name = "deep-research-mcp-server"
+version = "0.1.0"
+description = "A MCP server for deep research and report generation"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "mcp>=1.6.0",
+]
+
+[[project.authors]]
+name = "Xing Xing"
+email = "xing@readingplus.ai"
+
+[project.scripts]
+deep-research-mcp-server = "deep_research.server:main"

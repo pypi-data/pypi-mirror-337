@@ -1,0 +1,11 @@
+Deprecated
+requests>=2.8.1
+six
+oauthlib
+requests-oauthlib
+requests-kerberos==0.14.0
+typing-extensions
+# Add this package to search string in json
+jmespath
+beautifulsoup4
+urllib3

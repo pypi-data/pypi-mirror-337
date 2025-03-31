@@ -1,0 +1,11 @@
+deprecated
+requests
+six
+oauthlib
+requests_oauthlib
+jmespath
+beautifulsoup4
+typing-extensions
+
+[kerberos]
+requests-kerberos

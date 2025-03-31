@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: prj_investiment
+Version: 0.1.1
+Summary: Uma biblioteca para cálculos de investimentos.
+Home-page: https://github.com/valzs/meu_investimento.git
+Author: Valéria Santos - professor Thiago S Adriano
+Author-email: valeria.souzadsantos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Meu Investimento
+
+Uma biblioteca Python para cálculos de investimentos.
+
+## Instalação
+
+Você pode instalar a biblioteca via pip:
+
+```bash
+pip install prj_investiment
+```
+
+## Uso
+
+```python
+from investimentos import calcular_retorno_investimento, calcular_juros_compostos
+
+valor_inicial = 1000
+valor_final = 1500
+
+retorno = calcular_retorno_investimento(valor_inicial, valor_final)
+print(f"Retorno do investimento: {retorno:.2f}%")
+
+valor_final_juros = calcular_juros_compostos(valor_inicial, 6, 5)
+print(f"Valor final com juros compostos: R${valor_final_juros:.2f}")
+```
+

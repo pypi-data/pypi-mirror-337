@@ -1,0 +1,86 @@
+Metadata-Version: 2.4
+Name: excelsync
+Version: 0.1.0
+Summary: Library for managing Excel sheets with predefined structures
+Author-email: Joerg Seitter <joerg.seitter@hs-esslingen.de>
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl>=3.1.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: jsonschema>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: types-openpyxl; extra == "dev"
+Requires-Dist: types-PyYAML; extra == "dev"
+Requires-Dist: types-jsonschema; extra == "dev"
+Dynamic: license-file
+
+# ExcelSync
+
+A Python library for managing Excel sheets with predefined structures and validations.
+
+## Features
+
+- Define and validate Excel sheet layouts
+- Check Excel sheet structure integrity
+- Extract sheet structure to external file format
+- Compare Excel sheet structure against stored representation
+- Convert Excel content to YAML with schema information
+
+## Installation
+
+```bash
+pip install excelsync
+```
+
+## Usage
+
+```python
+from excelsync import ExcelSync
+
+# Load an Excel file
+excel = ExcelSync("your_excel_file.xlsx")
+
+# Validate the structure
+is_valid, issues = excel.validate_structure()
+
+# Export structure to file
+excel.export_structure("structure.json")
+
+# Compare with stored structure
+is_matching = excel.compare_structure("structure.json")
+
+# Export to YAML with schema
+excel.export_to_yaml("output.yaml")
+```
+
+## Development
+
+Setup your development environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/jseitter/excelsync.git
+cd excelsync
+
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install development dependencies
+pip install -e ".[dev]"
+
+# Run tests
+pytest
+```
+
+## License
+
+MIT 

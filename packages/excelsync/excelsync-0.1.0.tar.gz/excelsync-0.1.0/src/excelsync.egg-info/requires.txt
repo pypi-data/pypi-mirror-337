@@ -1,0 +1,12 @@
+openpyxl>=3.1.0
+pyyaml>=6.0
+jsonschema>=4.0.0
+
+[dev]
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+types-openpyxl
+types-PyYAML
+types-jsonschema

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/excelsync/__init__.py
+src/excelsync/excel_sync.py
+src/excelsync/schema.py
+src/excelsync.egg-info/PKG-INFO
+src/excelsync.egg-info/SOURCES.txt
+src/excelsync.egg-info/dependency_links.txt
+src/excelsync.egg-info/requires.txt
+src/excelsync.egg-info/top_level.txt
+tests/test_excel_sync.py

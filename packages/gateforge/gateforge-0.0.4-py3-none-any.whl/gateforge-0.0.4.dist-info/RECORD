@@ -1,0 +1,13 @@
+gateforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gateforge/__main__.py,sha256=_HCLxbx6s6p2G8AfuTYI4jvzO8vXikpUC_yf1GvffwE,1416
+gateforge/compiler.py,sha256=TpaAFARFirmO6njFKCYVu33rOoLhPl3GdhI-w66W0N4,4005
+gateforge/concepts.py,sha256=SZlLhlhdP8620dkERRnzdM5HyKPvzAUF37CCOV0PMEY,7172
+gateforge/core.py,sha256=iChGXrrOQqQ-XptyyufvSIO0ntqAz5t5hUS5qOXuG6c,92940
+gateforge/dsl.py,sha256=IY1_xmpFXkCWOCGUNmDU_VFLaT05rX4Dc0lKhKlyqA8,6571
+gateforge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gateforge/verilator.py,sha256=1dXqhp7cqaHMjOvJ5L9beOyLmSjC-NvLm28WILO8mEc,5454
+gateforge/verilator_cpp.py,sha256=331D6VteY-mYQsgWO5NnqbqnW7WrDhDnpGEsd-bAfsc,3062
+gateforge-0.0.4.dist-info/METADATA,sha256=P7sOls8ban8-x54HerJjGObLwa-FOkCVR2xDcitiqTU,28881
+gateforge-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gateforge-0.0.4.dist-info/licenses/LICENSE,sha256=weFeIpj3KFYf8yxRULUAlHsc4Iy8urJXGyMabQzy5W4,11372
+gateforge-0.0.4.dist-info/RECORD,,

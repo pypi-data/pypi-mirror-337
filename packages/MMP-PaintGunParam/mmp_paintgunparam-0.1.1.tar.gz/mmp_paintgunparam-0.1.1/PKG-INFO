@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: MMP_PaintGunParam
+Version: 0.1.1
+Summary: Package allowing operations of a paint gun controller installed on a robot.
+Home-page: https://github.com/neurobotia/MMP-PaintGunParam/MMP_PaintGunParam
+Author: Technologies NeuroBotIA Inc.
+Author-email: michel.lessard@neurobotia.com
+License: None
+Requires-Dist: open3d==0.18.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: PyYAML==6.0
+Requires-Dist: pyModbusTCP==0.2.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

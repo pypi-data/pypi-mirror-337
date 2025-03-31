@@ -1,0 +1,18 @@
+What's new in version 1.4.0
+===========================
+Version available since March 30th 2025
+
+New Features
+------------
+- computeDGSM function in new file DGSM in simulation subpackage.
+- computeSobol function in new file Sobol in simulation subpackage.
+- add codemeta file of noloadj.
+- steady-state stopping criteria (for ODE resolution) can deal with non periodic systems.
+
+Changes
+-------
+- In computeDGSM, computeSobol and computeJacobian (simulation/analyze), selectivity between derivable and non-derivable variables was introduced.
+
+Contributors
+------------
+Lucas Agobert

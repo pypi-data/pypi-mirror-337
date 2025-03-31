@@ -1,0 +1,17 @@
+iitjp/__init__.py,sha256=Cih6FFm_Pt_2QlKYHIHT2wcHXxp04ATJ7m3Whgvjxqk,626
+iitjp/__main__.py,sha256=cujTbDw0wf-861uWpu1W3iqAoRPq3jciUWw6fERPUW4,1810
+iitjp/module2.py,sha256=CYHpGu5l-ZFpZcnVU9M9JSuIfjrrwbKxEzraSvwo7J0,152
+iitjp/module3.py,sha256=CYHpGu5l-ZFpZcnVU9M9JSuIfjrrwbKxEzraSvwo7J0,152
+iitjp/module4.py,sha256=CYHpGu5l-ZFpZcnVU9M9JSuIfjrrwbKxEzraSvwo7J0,152
+iitjp/rajlaxmi.py,sha256=QQNIXvGvnXyMW1Zflk4Mf7syIkFX5nOFroMDfPTq33g,20952
+iitjp/data/end_quiz.mp3,sha256=53YfxL1OM5hkO9XkjKtyCaFrV4TWxbq3G2rvZO3IfLg,164747
+iitjp/data/farewell.mp3,sha256=UnnsrRwN5xYUeVtZH-d3ivELBZoanlFDi1UJ_YTTTx4,409835
+iitjp/data/greeting.mp3,sha256=8L36HIMfSD-R6f0n7qP9LIdRnjO2SLv6464t-9e5XHE,540868
+iitjp/data/questions.json,sha256=0vDtTtVUCKPU_w3-zA5H_wJhbX-UPJGZkFY1DYMG3lw,46227
+iitjp/data/start_quiz.mp3,sha256=QN-YLwFbz81gpPK8EE2AjnzgmT8bD7CGFvk4FfaAwXw,274513
+iitjp-0.2.11.dist-info/licenses/LICENSE,sha256=t6qgUVwfGfXGi4rtaK7te_P4ya07OQn8lSD1OM6y1oY,1042
+iitjp-0.2.11.dist-info/METADATA,sha256=Q-aB9TtCpch5zgo7ruvssic-vdGwb5701fC3YrXT9Hs,4434
+iitjp-0.2.11.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+iitjp-0.2.11.dist-info/entry_points.txt,sha256=qIZMzf77vya1ATXDkD2G9VoPscZmvKMWaqRoVHHblHE,46
+iitjp-0.2.11.dist-info/top_level.txt,sha256=bgQYoD3cRTabY38aAzexUAJJVxXnV2i5O_OiR2rDtPo,6
+iitjp-0.2.11.dist-info/RECORD,,

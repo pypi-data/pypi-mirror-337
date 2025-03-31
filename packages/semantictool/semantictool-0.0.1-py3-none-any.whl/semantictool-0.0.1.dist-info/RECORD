@@ -1,0 +1,9 @@
+semantictool/__init__.py,sha256=aXqHXRRUL5sEh7qF8-apF9F6or_3AAfHD92j0wBKWsY,141
+semantictool/main.py,sha256=8Ta_075ELEnYcDP45o6DJtlznPRJfSZ0FGutkZD_sQA,146
+semantictool/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantictool/config/loader.py,sha256=wmnZVgbV7k2b0jj7dXxcJFKu8Ii_zA5m7DQxKG7MPCY,1568
+semantictool/config/models.py,sha256=58R0joZCnxVsS7fXV0gH4jDyaBMrp-LdjVc-beHqTDc,302
+semantictool-0.0.1.dist-info/METADATA,sha256=p5ZHxg1eESrwNBcn5sDoP5yKyJrfF_V2fMrSX89wkB8,477
+semantictool-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+semantictool-0.0.1.dist-info/entry_points.txt,sha256=eOHvR6quwDoWvgGAoSqltbfmsBEwAd2Tz_MFus4_7Uw,51
+semantictool-0.0.1.dist-info/RECORD,,

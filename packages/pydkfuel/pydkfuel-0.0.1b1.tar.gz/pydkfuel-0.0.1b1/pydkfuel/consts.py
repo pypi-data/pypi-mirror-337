@@ -1,0 +1,10 @@
+"""pydkfuel consts."""
+
+OCTANE_95 = "oktan_95"
+OCTANE_95_PLUS = "oktan_95+"
+OCTANE_100 = "oktan_100"
+DIESEL = "diesel"
+DIESEL_PLUS="diesel+"
+BIODIESEL = "bio_diesel"
+ADBLUE = "adblue"
+ELECTRIC = "electric"

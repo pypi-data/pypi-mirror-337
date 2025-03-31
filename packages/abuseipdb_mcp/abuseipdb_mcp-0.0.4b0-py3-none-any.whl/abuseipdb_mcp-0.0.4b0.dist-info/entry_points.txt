@@ -1,0 +1,2 @@
+[console_scripts]
+abuseipdb_mcp = abuseipdb_mcp.__main__:main

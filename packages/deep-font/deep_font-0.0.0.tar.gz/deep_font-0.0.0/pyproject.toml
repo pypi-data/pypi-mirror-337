@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep-font"
+description = "Python Library for Visual Font Recognition (VFR)"
+readme = "README.md"
+license = { text = "GPLv3" }
+requires-python = ">3.8"
+dependencies = [
+
+]
+dynamic = [
+    "version",
+]
+keywords = [
+
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Typing :: Typed",
+]
+urls.Homepage = "https://github.com/novelizer/deep-font"
+urls.Source = "https://github.com/novelizer/deep-font"
+
+[tool.setuptools]
+packages = [
+    "deepfont",
+]
+include-package-data = true
+package-dir = { "" = "src" }
+
+[tool.setuptools.dynamic]
+version = { attr = "deepfont.__version__" }

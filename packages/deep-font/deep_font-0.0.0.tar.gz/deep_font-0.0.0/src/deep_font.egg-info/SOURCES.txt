@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/deep_font.egg-info/PKG-INFO
+src/deep_font.egg-info/SOURCES.txt
+src/deep_font.egg-info/dependency_links.txt
+src/deep_font.egg-info/top_level.txt
+src/deepfont/__init__.py

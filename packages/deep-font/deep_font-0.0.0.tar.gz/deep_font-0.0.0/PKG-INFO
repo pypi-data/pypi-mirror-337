@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: deep-font
+Version: 0.0.0
+Summary: Python Library for Visual Font Recognition (VFR)
+License: GPLv3
+Project-URL: Homepage, https://github.com/novelizer/deep-font
+Project-URL: Source, https://github.com/novelizer/deep-font
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Typing :: Typed
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# deep-font
+Python Library for Visual Font Recognition (VFR)
+
+> package-name reservation
+
+## Installation
+
+```shell
+pip install deep-font
+```

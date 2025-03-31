@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/mathemagic/__init__.py
+src/mathemagic/cli.py
+src/mathemagic/mathemagic.py
+src/mathemagic/server.py
+src/mathemagic_ai.egg-info/PKG-INFO
+src/mathemagic_ai.egg-info/SOURCES.txt
+src/mathemagic_ai.egg-info/dependency_links.txt
+src/mathemagic_ai.egg-info/entry_points.txt
+src/mathemagic_ai.egg-info/requires.txt
+src/mathemagic_ai.egg-info/top_level.txt

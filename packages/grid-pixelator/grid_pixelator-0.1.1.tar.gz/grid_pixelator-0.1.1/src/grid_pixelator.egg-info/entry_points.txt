@@ -1,0 +1,2 @@
+[gui_scripts]
+grid-pixelator = grid_pixelator.main_window:main

@@ -1,0 +1,52 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grid-pixelator"
+version = "0.1.1"
+authors = [
+  { name="tsuyoshi", email="tsuyo_suke.2112@icloud.com" },
+]
+description = "A simple GUI tool to pixelate images by averaging colors within a user-defined grid."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file="LICENSE" }
+keywords = ["image", "pixelate", "pixel art", "grid", "average color", "gui", "pyqt"]
+classifiers = [
+    "Development Status :: 4 - Beta", # 少し進めてBetaに
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS", # 主なテスト環境
+    "Operating System :: Microsoft :: Windows", # 動作する可能性あり
+    "Operating System :: POSIX :: Linux", # 動作する可能性あり
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics :: Editors",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Environment :: X11 Applications :: Qt",
+]
+
+# 必須の依存関係
+dependencies = [
+    "PyQt6 >= 6.4", # PyQtのバージョンは適宜調整
+    "Pillow >= 9.0",
+]
+
+# オプションの依存関係 (NumPy)
+[project.optional-dependencies]
+numpy = ["numpy >= 1.20"]
+
+# GUIアプリを起動するためのスクリプト設定
+[project.gui-scripts]
+grid-pixelator = "grid_pixelator.main_window:main" # 起動コマンド名 = パッケージ.モジュール:関数
+
+# (任意) プロジェクトのURL
+# [project.urls]
+# "Homepage" = "https://github.com/yourusername/grid-pixelator"
+# "Bug Tracker" = "https://github.com/yourusername/grid-pixelator/issues"

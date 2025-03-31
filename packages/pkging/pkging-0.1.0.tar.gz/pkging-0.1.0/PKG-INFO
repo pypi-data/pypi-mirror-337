@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: pkging
+Version: 0.1.0
+Summary: Build a single executable file of your Python program.
+Author-email: Juliano Fernandes <julianofernandes@gmail.com>
+Project-URL: Repository, https://github.com/julianolf/pkging
+Keywords: python,packaging,tools
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tomli; python_version < "3.11"
+Dynamic: license-file
+
+# pkging
+
+![Tests](https://github.com/julianolf/pkging/actions/workflows/ci.yml/badge.svg?event=push)
+
+Create a single executable file from Python programs.
+
+Python supports the direct execution of Python code inside zip files. _pkging_ uses Python's built-in module [zipapp](https://docs.python.org/3/library/zipapp.html), bundling all dependencies inside the generated package, allowing easy distribution of software and dependency isolation.

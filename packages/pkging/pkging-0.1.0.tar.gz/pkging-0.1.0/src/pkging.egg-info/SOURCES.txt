@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pkging/__init__.py
+src/pkging/main.py
+src/pkging.egg-info/PKG-INFO
+src/pkging.egg-info/SOURCES.txt
+src/pkging.egg-info/dependency_links.txt
+src/pkging.egg-info/entry_points.txt
+src/pkging.egg-info/requires.txt
+src/pkging.egg-info/top_level.txt
+tests/test_main.py

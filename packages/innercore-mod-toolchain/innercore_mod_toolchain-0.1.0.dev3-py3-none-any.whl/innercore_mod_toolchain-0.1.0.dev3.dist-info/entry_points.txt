@@ -1,0 +1,5 @@
+[console_scripts]
+icmtoolchain = icmtoolchain
+
+[gui_scripts]
+

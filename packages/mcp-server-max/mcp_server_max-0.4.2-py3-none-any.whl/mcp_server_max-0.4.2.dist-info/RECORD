@@ -1,0 +1,16 @@
+mcp_server_max/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcp_server_max/client.py,sha256=w8TACMDjPse-EkWpp3JtjsC29IHuaWpdtZrh1WScQwk,3032
+mcp_server_max/exchange.py,sha256=ZxE0-xcG-o3qiAJuK-GYxeFqB6h1oKHuwnEdR3SzAnE,7274
+mcp_server_max/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mcp_server_max/server.py,sha256=5Ra0zeIDp_WQZzwEMUt0kRKqXXL_KI45eRR-2iuI_Jc,5611
+mcp_server_max/types/__init__.py,sha256=QQHbH8G5RAOkV3FaFBt2n34FtaaCzfqlmVc6DSJzV00,313
+mcp_server_max/types/account.py,sha256=Mkd1WZIzDoQhZWvWYOyjkQpA5cr1hMGnzkh15h8glf0,835
+mcp_server_max/types/currency.py,sha256=SrYN74KcYRUGKDD2gZjUWmQoHdCb9yyouJqpYYZKzwQ,1697
+mcp_server_max/types/market.py,sha256=4XPty58EeLTMVM1cl2wkAe0ejIpMVaQMXbfYz7VM3Ck,852
+mcp_server_max/types/order.py,sha256=e5itbM83xaX_2kjtNmkIXrf_W8xFaFeV1A679UbilaE,1985
+mcp_server_max/types/ticker.py,sha256=3vC-Yxuy_Y-rnmLdAjmT31yZJMEe34WmiVjoLvdZBeQ,1415
+mcp_server_max-0.4.2.dist-info/METADATA,sha256=krqXXsOPSlrpN-N4EiqF5uxtV4X5P4EDTS-a0nsmEXU,1966
+mcp_server_max-0.4.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_server_max-0.4.2.dist-info/entry_points.txt,sha256=ENag6tZIAX3cncFYdRCEMtolN2V4fzwJ_OKc8O8lojE,62
+mcp_server_max-0.4.2.dist-info/licenses/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+mcp_server_max-0.4.2.dist-info/RECORD,,

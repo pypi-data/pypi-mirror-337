@@ -1,0 +1,8 @@
+Click
+FastAPI
+pydantic
+SQLAlchemy
+uvicorn
+asyncpg
+psycopg-binary
+aiosqlite

@@ -1,0 +1,10 @@
+clickup_async-0.1.0.dist-info/licenses/LICENSE,sha256=j_fou-DDbAUK6H7V7zaMLpqfLez4dAEwZo3ZQqXDwoA,1064
+src/__init__.py,sha256=2GUqqXlQVr-aO36rRyYuSTCun9mGLbRr5tONwX6Fv8I,1226
+src/clickup_client.py,sha256=lezUhTRcT8Lmp9LkwAeBAusPLLIJTjRPrJmJEplHwSY,47277
+src/exceptions.py,sha256=-h1mdRqbOG19WOsp7KsAw0IMXFeRBbWVwIJ8bOB8BGg,1225
+src/models.py,sha256=LtD7rcZ0F4HakqjGOhKOCin06_0VyZ-xWR4-FgbdFhg,14167
+src/utils.py,sha256=gZkzl6nr0U2FYI2R6nOmcfvf1dKUBN8Mcsu5HXS1lcI,7857
+clickup_async-0.1.0.dist-info/METADATA,sha256=bAoD7G_CU0zEj-fWVOJE_rKLUQIPV3gSnD87X6enWYc,6771
+clickup_async-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+clickup_async-0.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+clickup_async-0.1.0.dist-info/RECORD,,

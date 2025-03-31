@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: fanfic-downloader
+Version: 0.1.0
+Summary: Download fan fiction stories from various sites
+Author-email: Munish chandra jha <mcj130101@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/mcj13010/fanfic-downloader
+Project-URL: Bug Tracker, https://github.com/mcj130101/fanfic-downloader/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: fanficfare>=4.0.0
+Dynamic: license-file
+
+# FanFic Downloader CLI
+
+A command-line tool to download fan fiction stories from various sites using FanFicFare as the backend.
+
+## Installation
+
+```bash
+pip install fanfic-downloader
+
+# Download stories
+fanfic download -u https://example.com/story1
+
+# Extract URLs from listing pages
+fanfic extract -u https://example.com/author_page
+
+# List downloaded files
+fanfic list
+
+# Change settings
+fanfic settings

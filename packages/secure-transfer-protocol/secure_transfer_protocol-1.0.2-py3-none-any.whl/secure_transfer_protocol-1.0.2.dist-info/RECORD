@@ -1,0 +1,11 @@
+secure_transfer_protocol/__init__.py,sha256=QPsJ4l79CXbqidnxSkpFmNiJm7pULY-PJV1dL7wcxks,254
+secure_transfer_protocol/compression.py,sha256=gpDCmJ-EIWefFWAt-0HrzJFUpPRhDczR_FQAhy00paw,2020
+secure_transfer_protocol/cryptographing.py,sha256=HKViNr_93uYYFMK1OtjBQ4Wd4jBYTJfyPR2OdW1Rou0,11965
+secure_transfer_protocol/logger.py,sha256=WAO0ZsONX3wVz6x04kbaaaRNWkFAsA2Mn_hk5zsvNXw,2566
+secure_transfer_protocol/time_sync.py,sha256=yt_pPLStAlDj3jUv8Vu6-WO1nCncIqhCnBgM9vBSxp0,2382
+secure_transfer_protocol/transmission.py,sha256=Y-hEkmzJYL7fpjEOBSHF-FlTeVZOhyCq8Va8fi5oX1g,17828
+secure_transfer_protocol-1.0.2.dist-info/licenses/LICENSE,sha256=y0er2ALdmcOZs96k8Jt6nM32TRJxZcOY9ElSVAXx__g,1084
+secure_transfer_protocol-1.0.2.dist-info/METADATA,sha256=J3pna2HoGqdfyicm-WfuHQUFy8P0zFJMU7l8k8SDGUs,3280
+secure_transfer_protocol-1.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+secure_transfer_protocol-1.0.2.dist-info/top_level.txt,sha256=9oDb2GGzlgd49IXOrhg-Q3YsSPE2sQdM_RmFFxFq9Bk,25
+secure_transfer_protocol-1.0.2.dist-info/RECORD,,

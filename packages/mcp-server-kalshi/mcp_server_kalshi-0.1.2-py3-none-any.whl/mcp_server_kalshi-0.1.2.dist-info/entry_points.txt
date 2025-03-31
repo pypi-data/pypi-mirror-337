@@ -1,0 +1,5 @@
+[console_scripts]
+format = black:main
+mcp-server-kalshi = mcp_server_kalshi.server:main
+start = mcp_server_kalshi.server:main
+test = pytest:main

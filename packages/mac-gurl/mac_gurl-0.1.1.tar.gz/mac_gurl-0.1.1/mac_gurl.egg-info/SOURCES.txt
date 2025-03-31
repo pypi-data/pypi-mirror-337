@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mac_gurl/__init__.py
+mac_gurl/adapter.py
+mac_gurl/gurl.py
+mac_gurl.egg-info/PKG-INFO
+mac_gurl.egg-info/SOURCES.txt
+mac_gurl.egg-info/dependency_links.txt
+mac_gurl.egg-info/requires.txt
+mac_gurl.egg-info/top_level.txt

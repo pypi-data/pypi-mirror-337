@@ -1,0 +1,28 @@
+[project]
+name = "mac-gurl"
+version = "0.1.1"
+description = "Add your description here"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "asn1crypto>=1.5.1",
+  "pyobjc>=11.0",
+  "requests>=2.32.3",
+  "xattr>=1.1.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/toanju/mac-gurl"
+Documentation = "https://github.com/toanju/mac-gurl"
+Repository = "https://github.com/toanju/mac-gurl"
+Issues = "https://github.com/toanju/mac-gurl/issues"
+Changelog = "https://github.com/toanju/mac-gurl/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = ["ruff>=0.9.7"]
+
+[tool.ruff]
+# Assume Python 3.9
+target-version = "py39"

@@ -1,0 +1,2 @@
+[console_scripts]
+fastapi-admin = FastAPIBig.cli:cli

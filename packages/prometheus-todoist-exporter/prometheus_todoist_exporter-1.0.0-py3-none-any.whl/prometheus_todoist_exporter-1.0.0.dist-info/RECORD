@@ -1,0 +1,8 @@
+prometheus_todoist_exporter/__init__.py,sha256=A1kNxJ0IU460Fb0jO6M5cBnRo5P0MQ_ztYTCkEwIC_k,62
+prometheus_todoist_exporter/__main__.py,sha256=CONhI1V9IH_-3rmzc9Ap36Kpktef4SDuKwFuyveh7-M,125
+prometheus_todoist_exporter/exporter.py,sha256=omxQE6Ot6QZpVgigRaNBwYdM_mHnb3U7viX8BtLYPxE,17367
+prometheus_todoist_exporter-1.0.0.dist-info/LICENSE,sha256=mAs8n4BRZh5g6iEv-l1ujgB01HfUkT-3uMSf25M-fxM,1070
+prometheus_todoist_exporter-1.0.0.dist-info/METADATA,sha256=eBo98u_nKi02SU-d7azFapK7Qro2Lv_i2jcZVsEUyk0,10526
+prometheus_todoist_exporter-1.0.0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+prometheus_todoist_exporter-1.0.0.dist-info/entry_points.txt,sha256=Pr80CsTEqu6RWYJNG6qlHMA7O-yg1xZiI1iGpP6GcmU,78
+prometheus_todoist_exporter-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+[project]
+name = "abuseipdb_mcp"
+version = "0.0.4"
+description = "A MCP for AbuseIPDB API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/gogela/abuseipdb_mcp"
+Issues = "https://github.com/gogela/abuseipdb_mcp/issues"
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+abuseipdb_mcp = "abuseipdb_mcp.__main__:main"

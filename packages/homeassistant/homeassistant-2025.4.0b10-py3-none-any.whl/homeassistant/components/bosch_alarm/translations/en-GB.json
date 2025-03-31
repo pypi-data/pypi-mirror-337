@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "auth": {
+                "data": {
+                    "installer_code": "Installer code",
+                    "user_code": "User code"
+                },
+                "data_description": {
+                    "installer_code": "The installer code from your panel",
+                    "password": "The Mode 2 automation code from your panel",
+                    "user_code": "The user code from your panel"
+                }
+            },
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of your Bosch alarm panel",
+                    "port": "The port used to connect to your Bosch alarm panel. This is usually 7700"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "ip_address": "The hostname or IP address of your AirVisual Pro device."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "outdoor_air_quality_index": {
+                "name": "Outdoor air quality index"
+            },
+            "pm01": {
+                "name": "PM0.1"
+            }
+        }
+    }
+}

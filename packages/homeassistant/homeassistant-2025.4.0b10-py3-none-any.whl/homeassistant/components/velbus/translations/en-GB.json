@@ -1,0 +1,66 @@
+{
+    "config": {
+        "step": {
+            "network": {
+                "data": {
+                    "tls": "Use TLS (secure connection)"
+                },
+                "data_description": {
+                    "host": "The IP address or hostname of the Velbus interface.",
+                    "password": "The password of the Velbus interface, this is only needed if the interface is password protected.",
+                    "port": "The port number of the Velbus interface.",
+                    "tls": "Enable this if you use a secure connection to your Velbus interface, like a Signum."
+                },
+                "description": "TCP/IP configuration, in case you use a Signum, VelServ, velbus-tcp or any other Velbus to TCP/IP interface.",
+                "title": "TCP/IP configuration"
+            },
+            "usbselect": {
+                "data_description": {
+                    "port": "Select the serial port for your Velbus USB interface."
+                },
+                "description": "Select the serial port for your Velbus USB interface.",
+                "title": "USB configuration"
+            },
+            "user": {
+                "description": "How do you want to configure the Velbus hub?",
+                "menu_options": {
+                    "network": "Via network connection",
+                    "usbselect": "Via USB device"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "integration_not_found": {
+            "message": "Integration \"{target}\" not found in registry."
+        },
+        "invalid_hvac_mode": {
+            "message": "Climate mode {hvac_mode} is not supported."
+        },
+        "not_loaded": {
+            "message": "{target} is not loaded."
+        }
+    },
+    "issues": {
+        "deprecated_interface_parameter": {
+            "description": "The 'interface' parameter in the Velbus actions is deprecated. The 'config_entry' parameter should be used going forward.\n\nPlease adjust your automations or scripts to fix this issue.",
+            "title": "Deprecated 'interface' parameter"
+        }
+    },
+    "services": {
+        "sync_clock": {
+            "description": "Syncs the Velbus modules clock to the Home Assistant clock, this is the same as the 'sync clock' from VelbusLink.",
+            "fields": {
+                "config_entry": {
+                    "description": "The config entry of the Velbus integration",
+                    "name": "Config entry"
+                },
+                "interface": {
+                    "description": "The Velbus interface to send the command to, this will be the same value as used during configuration.",
+                    "name": "Interface"
+                }
+            },
+            "name": "Sync clock"
+        }
+    }
+}

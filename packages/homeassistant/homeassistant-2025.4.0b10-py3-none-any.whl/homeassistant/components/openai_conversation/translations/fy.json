@@ -1,0 +1,32 @@
+{
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "top_p": "Top P"
+                }
+            }
+        }
+    },
+    "selector": {
+        "reasoning_effort": {
+            "options": {
+                "high": "Heech",
+                "low": "Leech",
+                "medium": "Medium"
+            }
+        }
+    },
+    "services": {
+        "generate_content": {
+            "description": "Stjoert in konversasjonele fraach nei ChatGPT ynklusyf eventuele taheakke \u00f4fbyldingsbestannen"
+        },
+        "generate_image": {
+            "fields": {
+                "prompt": {
+                    "name": "Prompt"
+                }
+            }
+        }
+    }
+}

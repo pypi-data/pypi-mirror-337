@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Kontoen er allerede konfigureret"
+        }
+    },
+    "entity": {
+        "climate": {
+            "driver_temp": {
+                "state_attributes": {
+                    "preset_mode": {
+                        "state": {
+                            "off": "Normal"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

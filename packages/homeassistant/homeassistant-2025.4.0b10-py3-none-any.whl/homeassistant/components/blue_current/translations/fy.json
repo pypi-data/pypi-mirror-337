@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "sensor": {
+            "stop_datetime": {
+                "name": "Stoppe om"
+            },
+            "vehicle_status": {
+                "state": {
+                    "standby": "Stand-by"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "services": {
+        "get_forecasts": {
+            "description": "Retrieves the forecast from selected weather services.",
+            "name": "Get forecasts"
+        },
+        "set_radar_type": {
+            "name": "Set radar type"
+        }
+    }
+}

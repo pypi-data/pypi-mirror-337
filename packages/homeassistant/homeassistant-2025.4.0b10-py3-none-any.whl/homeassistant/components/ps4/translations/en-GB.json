@@ -1,0 +1,18 @@
+{
+    "services": {
+        "send_command": {
+            "description": "Emulates button press for PlayStation 4.",
+            "fields": {
+                "command": {
+                    "description": "Button to press.",
+                    "name": "Command"
+                },
+                "entity_id": {
+                    "description": "Name of entity to send command.",
+                    "name": "Entity"
+                }
+            },
+            "name": "Send command"
+        }
+    }
+}

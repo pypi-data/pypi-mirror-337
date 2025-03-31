@@ -1,0 +1,24 @@
+{
+    "services": {
+        "transition_off": {
+            "description": "Transitions the volume level to the lowest setting over a specified duration, then powers off the device.",
+            "fields": {
+                "duration": {
+                    "description": "Time to complete the transition."
+                }
+            },
+            "name": "Transition off"
+        },
+        "transition_on": {
+            "fields": {
+                "duration": {
+                    "name": "Transition duration"
+                },
+                "volume": {
+                    "name": "Target volume"
+                }
+            },
+            "name": "Transition on"
+        }
+    }
+}

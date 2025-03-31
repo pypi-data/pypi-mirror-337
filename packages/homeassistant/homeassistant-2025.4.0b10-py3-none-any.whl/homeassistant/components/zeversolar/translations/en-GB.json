@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "Hostname or IP address of your Zeversolar inverter."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "energy_today": {
+                "name": "Energy today"
+            }
+        }
+    }
+}

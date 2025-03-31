@@ -1,0 +1,12 @@
+defix_package_queues/__init__.py,sha256=oP6Clh5QmMPp4ZZdlf4Fq5uO1-n0VtTKyoVbNYe7anU,1076
+defix_package_queues/constants.py,sha256=E9nKKbz1crHKqLgSZVHWbnG_Oj1rY7fXKVuVfp2wDk4,135
+defix_package_queues/utils.py,sha256=iadqYKJCPpdjy4ErJtcaeKou8IZM-03uqC3QN_yNnXY,205
+defix_package_queues/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defix_package_queues/helpers/consumer.py,sha256=QWEZ-ej7LV3ckjeQmhh3K1Av8TR-E-C39vQHwA2BG9g,1292
+defix_package_queues/helpers/sqs_api.py,sha256=LOuPgCTDvO58BZti2Javp9AIZKto5YqC8swUtbpXBiw,560
+defix_package_queues/queues/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defix_package_queues/queues/basic.py,sha256=mt8PIUit-FshseM-L_sH5YaneeJ1sje4Qr9OwC_AgpE,1282
+defix_package_queues-0.1.6.dist-info/METADATA,sha256=7DuJAX_-HpToINhhDtEvFaHvnbzb8X4HYFTDL3lmMuI,470
+defix_package_queues-0.1.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+defix_package_queues-0.1.6.dist-info/entry_points.txt,sha256=9AupMYrGwrf_KQKd9Re_1-D4-aEqyKuqJeMszS0yJy4,67
+defix_package_queues-0.1.6.dist-info/RECORD,,

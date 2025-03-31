@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/textism/__init__.py
+src/textism/textism.py
+src/textism.egg-info/PKG-INFO
+src/textism.egg-info/SOURCES.txt
+src/textism.egg-info/dependency_links.txt
+src/textism.egg-info/top_level.txt

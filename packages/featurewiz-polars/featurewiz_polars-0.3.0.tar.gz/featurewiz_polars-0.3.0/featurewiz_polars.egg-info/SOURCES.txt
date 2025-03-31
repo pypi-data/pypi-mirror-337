@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+featurewiz_polars/__init__.py
+featurewiz_polars/__version__.py
+featurewiz_polars/featurewiz_polars.py
+featurewiz_polars/polars_categorical_encoder.py
+featurewiz_polars/polars_datetime_transformer.py
+featurewiz_polars/polars_other_transformers.py
+featurewiz_polars/polars_sulov_mrmr.py
+featurewiz_polars/print_metrics.py
+featurewiz_polars.egg-info/PKG-INFO
+featurewiz_polars.egg-info/SOURCES.txt
+featurewiz_polars.egg-info/dependency_links.txt
+featurewiz_polars.egg-info/requires.txt
+featurewiz_polars.egg-info/top_level.txt

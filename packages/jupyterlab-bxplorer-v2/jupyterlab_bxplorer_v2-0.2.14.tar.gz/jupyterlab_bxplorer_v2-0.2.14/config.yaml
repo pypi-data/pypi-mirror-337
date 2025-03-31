@@ -1,0 +1,34 @@
+# This file can update the JupyterHub Helm chart's default configuration values.
+#
+# For reference see the configuration reference and default values, but make
+# sure to refer to the Helm chart version of interest to you!
+#
+# Introduction to YAML:     https://www.youtube.com/watch?v=cdLNKUoMc6c
+# Chart config reference:   https://zero-to-jupyterhub.readthedocs.io/en/stable/resources/reference.html
+# Chart default values:     https://github.com/jupyterhub/zero-to-jupyterhub-k8s/blob/HEAD/jupyterhub/values.yaml
+# Available chart versions: https://hub.jupyter.org/helm-chart/
+#
+hub:
+  extraConfig:
+    myConfig.py: |
+      c.Authenticator.allowed_users = {'frivas', 'lleon', 'jovyan'}
+      # c.DummyAuthenticator.password = "apibakerv2.0"
+
+singleuser:
+  image:
+    # name: jupyter/minimal-notebook
+    # tag: latest
+    name: luisgleon/jupyterlab-bxplorer-v2
+    tag: "202503302255"
+  profileList:
+    - display_name: "Minimal environment"
+      description: "To avoid too much bells and whistles: Python."
+      default: true
+    # - display_name: "Datascience environment"
+    #   description: "If you want the additional bells and whistles: Python, R, and Julia."
+    #   kubespawner_override:
+    #     image: jupyter/datascience-notebook:latest
+    # - display_name: "API Baker"
+    #   description: "Create a secured API based on a function in your notebook in a few clicks."
+    #   kubespawner_override:
+    #     image: 466270585360.dkr.ecr.us-west-2.amazonaws.com/oss-jlab-apibaker-beta:20240725103136

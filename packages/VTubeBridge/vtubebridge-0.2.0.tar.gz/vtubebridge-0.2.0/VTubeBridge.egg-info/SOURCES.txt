@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+VTubeBridge.egg-info/PKG-INFO
+VTubeBridge.egg-info/SOURCES.txt
+VTubeBridge.egg-info/dependency_links.txt
+VTubeBridge.egg-info/requires.txt
+VTubeBridge.egg-info/top_level.txt
+examples/main.py
+examples/__pycache__/main.cpython-311.pyc
+vtstudio/__init__.py
+vtstudio/__main__.py
+vtstudio/client.py

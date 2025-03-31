@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+sqlite_mcp.egg-info/PKG-INFO
+sqlite_mcp.egg-info/SOURCES.txt
+sqlite_mcp.egg-info/dependency_links.txt
+sqlite_mcp.egg-info/requires.txt
+sqlite_mcp.egg-info/top_level.txt

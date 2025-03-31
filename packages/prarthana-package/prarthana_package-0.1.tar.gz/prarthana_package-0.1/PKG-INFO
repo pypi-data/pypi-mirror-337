@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: prarthana_package
+Version: 0.1
+Summary: A simple package with math and string utilities
+Home-page: https://github.com/GKPrarthana/prarthana_package
+Author: Prarthana
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Prarthana Package
+
+A simple Python package with math and string utilities.

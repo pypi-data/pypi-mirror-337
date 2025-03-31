@@ -1,0 +1,9 @@
+.venv
+
+__pycache__
+
+*.synctex.gz
+*.egg-info
+
+doc/secret
+results

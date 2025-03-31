@@ -1,0 +1,2 @@
+[console_scripts]
+nnk_unzip = nnk_unzip.__main__:main

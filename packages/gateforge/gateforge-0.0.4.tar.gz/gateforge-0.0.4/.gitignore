@@ -1,0 +1,7 @@
+.venv/
+/workspace/
+/test/workspace
+__pycache__/
+.mypy_cache/
+tmp/
+dist/

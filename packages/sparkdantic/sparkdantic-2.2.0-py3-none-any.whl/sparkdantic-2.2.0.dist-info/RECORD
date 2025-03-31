@@ -1,0 +1,9 @@
+sparkdantic/__init__.py,sha256=5ibIZQP7HshqQ2DLopMWJtg2QzP6002pJseKV8Dx36I,297
+sparkdantic/exceptions.py,sha256=0F-G2Fz04JI7bGorfCDHRiTNVWw6m_aaUHST1X99T1Y,262
+sparkdantic/model.py,sha256=C9fVxbRx2B1TdkZGQHKjzXkUTRA_C97NXPZAqpzWLS0,16421
+sparkdantic/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sparkdantic/utils.py,sha256=ERDPtUH_XO_IkiHm5rZyOZakDE1yMGiz7bEld78AYHE,1219
+sparkdantic-2.2.0.dist-info/LICENSE,sha256=mkevKgamFxqXTTpwDk8ebqzyzksOkat2AeJVAsNAI-k,1071
+sparkdantic-2.2.0.dist-info/METADATA,sha256=T10iD1C3pNSjtjbtR1FxYQWpmHWuR_YXbBiUyI5uUy0,6771
+sparkdantic-2.2.0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+sparkdantic-2.2.0.dist-info/RECORD,,

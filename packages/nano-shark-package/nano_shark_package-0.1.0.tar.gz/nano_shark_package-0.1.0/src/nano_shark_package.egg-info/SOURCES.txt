@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/my_package/__init__.py
+src/my_package/main.py
+src/nano_shark_package.egg-info/PKG-INFO
+src/nano_shark_package.egg-info/SOURCES.txt
+src/nano_shark_package.egg-info/dependency_links.txt
+src/nano_shark_package.egg-info/requires.txt
+src/nano_shark_package.egg-info/top_level.txt
+tests/test_main.py

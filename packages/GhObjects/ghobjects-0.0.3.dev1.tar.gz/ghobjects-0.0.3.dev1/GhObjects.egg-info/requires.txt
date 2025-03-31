@@ -1,0 +1,8 @@
+
+[build]
+setuptools
+packaging
+
+[dev]
+pytest
+pytest-cov

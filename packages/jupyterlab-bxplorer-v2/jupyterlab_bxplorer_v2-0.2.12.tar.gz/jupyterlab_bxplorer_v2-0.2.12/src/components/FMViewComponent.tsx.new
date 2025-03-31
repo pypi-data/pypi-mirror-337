@@ -1,0 +1,169 @@
+import React, { useRef } from 'react';
+import {
+  FileManagerComponent,
+  Inject,
+  DetailsView,
+  Toolbar,
+} from '@syncfusion/ej2-react-filemanager';
+import { requestAPI } from '../handler';
+import { showDialog, Dialog, showErrorMessage } from '@jupyterlab/apputils';
+// Import the default adaptor from Syncfusion
+import { UrlAdaptor } from '@syncfusion/ej2-data';
+
+// Create a custom adaptor that uses requestAPI
+class CustomAdaptor extends UrlAdaptor {
+  // Override the doAjax method so that it calls requestAPI instead of a direct AJAX request
+  doAjax(url: string, type: string, data: Object, onSuccess: Function, onFailure: Function): any {
+    // Here, we ignore the passed URL and use requestAPI directly.
+    requestAPI('FileOperations', {
+      method: 'POST', // Adjust this if needed (GET/POST)
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+      .then((result: any) => {
+        // Call the onSuccess callback with the result from requestAPI
+        onSuccess(result);
+      })
+      .catch((err: any) => {
+        // If an error occurs, call the onFailure callback
+        onFailure(err);
+      });
+  }
+}
+
+interface FMViewComponentProps {
+  downloadsFolder: string;
+  clientType: string;
+}
+
+const FMViewComponent: React.FC<FMViewComponentProps> = (props): JSX.Element => {
+  const downloadsFolder = props.downloadsFolder || "downloads";
+  const clientType = props.clientType || "private";
+  const fileManagerRef = useRef<FileManagerComponent>(null);
+
+  // Instead of providing a static URL, we let our custom adaptor handle the request.
+  const ajaxSettings: object = {
+    // The URL property can be left blank or set to a placeholder; it will not be used.
+    url: "",
+    // Specify our custom adaptor so that the requestAPI is used
+    adaptor: new CustomAdaptor()
+  };
+
+  // (Optional) You can still use beforeSend if you need to modify the data before sending.
+  const onBeforeSend = (args: any): void => {
+    console.log("ajaxBeforeSend action:", args.action);
+    let currentData = args.ajaxSettings.data;
+    // If currentData is a string, try to parse it.
+    if (typeof currentData === "string") {
+      try {
+        currentData = JSON.parse(currentData);
+      } catch (e) {
+        console.error("Error parsing ajaxSettings.data:", e);
+        currentData = {};
+      }
+    }
+    // Add client_type to the data
+    const modifiedData = { ...currentData, client_type: clientType };
+    // Convert back to JSON string
+    args.ajaxSettings.data = JSON.stringify(modifiedData);
+    console.log("ajaxBeforeSend modified args:", args);
+  };
+
+  const contextMenuClickHandler = (args: any): void => {
+    console.log("menuClick args:", args);
+    if (args.item && args.item.text === "Download") {
+      args.cancel = true;
+      const currentPath = (fileManagerRef.current as any).path || "/";
+      const selectedItems = args.data || (fileManagerRef.current && (fileManagerRef.current as any).selectedItems);
+      if (!selectedItems || selectedItems.length === 0) {
+        showDialog({
+          title: 'Information',
+          body: 'No file has been selected',
+          buttons: [Dialog.okButton({ label: 'OK' })]
+        });
+        return;
+      }
+
+      // Construct the payload expected by the backend, including client_type.
+      const payloadObj = {
+        action: "download",
+        path: currentPath,
+        downloadsFolder: downloadsFolder,
+        client_type: clientType,
+        names: selectedItems.map((item: any) => item.name || item),
+        data: selectedItems.map((item: any) => {
+          if (typeof item === "string") {
+            return {
+              name: item,
+              isFile: true,
+              path: currentPath.endsWith("/")
+                ? currentPath + item
+                : currentPath + "/" + item,
+            };
+          } else {
+            return item;
+          }
+        }),
+      };
+
+      const payload = JSON.stringify(payloadObj);
+      const formData = new URLSearchParams();
+      formData.append("downloadInput", payload);
+
+      // Note: For downloads, you might continue using requestAPI if desired.
+      requestAPI('FileOperations', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData.toString(),
+      })
+        .then((data: any) => {
+          showDialog({
+            title: 'Success',
+            body: `File saved at: ${data.file_saved}`,
+            buttons: [Dialog.okButton({ label: 'OK' })]
+          });
+        })
+        .catch((error: any) => {
+          console.error("Download error:", error);
+          showErrorMessage('Download Error', 'An error occurred while downloading the file.');
+        });
+    }
+  };
+
+  return (
+    <div className="control-section" style={{ height: "100%" }}>
+      <FileManagerComponent
+        ref={fileManagerRef}
+        id="file"
+        ajaxSettings={ajaxSettings}
+        beforeSend={onBeforeSend.bind(this)}
+        toolbarSettings={{
+          items: ['SortBy', 'Refresh'],
+          visible: true,
+        }}
+        contextMenuSettings={{
+          file: ['Download', '|', 'Details'],
+          folder: ['Open', '|', 'Details'],
+          layout: [],
+          visible: true,
+        }}
+        detailsViewSettings={{
+          columns: [
+            { field: "name", headerText: "Name", minWidth: 120, width: "auto" },
+            { field: "region", headerText: "Region", minWidth: 100, width: "120px" },
+            { field: "dateModified", headerText: "Modified", minWidth: 120, width: "150px" },
+            { field: "size", headerText: "Size", minWidth: 80, width: "100px" },
+          ],
+        }}
+        view="Details"
+        allowMultiSelection={false}
+        height="100%"
+        {...({ menuClick: contextMenuClickHandler } as any)}
+      >
+        <Inject services={[DetailsView, Toolbar]} />
+      </FileManagerComponent>
+    </div>
+  );
+};
+
+export default FMViewComponent;

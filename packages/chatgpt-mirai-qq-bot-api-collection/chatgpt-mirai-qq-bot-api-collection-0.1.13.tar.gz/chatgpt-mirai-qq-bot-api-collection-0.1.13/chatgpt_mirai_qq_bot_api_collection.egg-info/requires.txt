@@ -1,0 +1,4 @@
+brotli
+beautifulsoup4
+html5lib
+kirara-ai<3.2.0

@@ -1,0 +1,77 @@
+[build-system]
+requires = ["flit-core >= 3.8"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ssh_keyconv"
+description = "SSH Key Conversion Utility"
+readme = "README.md"
+authors = [
+    { name = "Kris Hardy", email="hardyrk@gmail.com" },
+]
+requires-python = ">=3.12"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: System Administrators',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Topic :: Internet',
+    'Topic :: Security',
+    'Topic :: Security :: Cryptography',
+    'Topic :: System :: Networking',
+    'Topic :: System :: Systems Administration',
+    'Topic :: Utilities'
+]
+urls.homepage = "https://codeberg.org/lkm35t/ssh-keyconv"
+urls.issues = "https://codeberg.org/lkm35t/ssh-keyconv/issues"
+urls.changelog = "https://codeberg.org/lkm35t/ssh-keyconv/commits/branch/main"
+urls.source = "https://codeberg.org/lkm35t/ssh-keyconv/src/branch/main"
+license = "MIT"
+license-files = ["LICENSE"]
+dynamic = ["version"]
+dependencies=[
+    "cryptography>=44.0"
+]
+keywords=['ssh', 'openssh', 'pem', 'der', 'pkcs8', 'private key']
+
+[project.optional-dependencies]
+
+[project.scripts]
+    ssh-keyconv = "ssh_keyconv:cli.main"
+
+[tool.flit.sdist]
+include = [".gitignore", "docs/", "tests/"]
+exclude = ["**/__pycache__", "docs/_build", "**/*.egg-info", "tests/packages/*/build"]
+
+[tool.coverfage.run]
+source = [
+    "ssh_keyconv",
+    "tests",
+]
+disable_warnings = []
+
+[tool.coverage.report]
+exclude_also = []
+
+[tool.coverage.paths]
+build = [
+  "src",
+  "*/site-packages",
+  '*\site-packages',
+]
+
+[tool.coverage.html]
+show_contexts = true
+
+[tool.bumpversion]
+current_version = "1.0.0"
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+
+[[tool.bumpversion.files]]
+filename = "src/build/__init__.py"
+search = "__version__ = '{current_version}'"

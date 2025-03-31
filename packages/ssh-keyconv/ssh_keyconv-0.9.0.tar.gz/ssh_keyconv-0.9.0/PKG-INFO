@@ -1,0 +1,119 @@
+Metadata-Version: 2.4
+Name: ssh_keyconv
+Version: 0.9.0
+Summary: SSH Key Conversion Utility
+Keywords: ssh,openssh,pem,der,pkcs8,private key
+Author-email: Kris Hardy <hardyrk@gmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-Expression: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: cryptography>=44.0
+Project-URL: changelog, https://codeberg.org/lkm35t/ssh-keyconv/commits/branch/main
+Project-URL: homepage, https://codeberg.org/lkm35t/ssh-keyconv
+Project-URL: issues, https://codeberg.org/lkm35t/ssh-keyconv/issues
+Project-URL: source, https://codeberg.org/lkm35t/ssh-keyconv/src/branch/main
+
+# ssh-keyconv
+
+ssh-keyconv is a SSH key conversion utility that can convert SSH private keys between OpenSSH, PEM and DER encoding, and OpenSSH, PKCS8 and Traditional OpenSSL format.
+
+**Supported Formats:**
+
+* OpenSSH
+* PKCS8
+* Traditional OpenSSL (trad-openssl)
+
+**Supported Encodings:**
+
+* PEM
+* OpenSSH (PEM)
+* DER
+
+## Installation
+
+```bash
+pip install ssh_keyconv
+```
+
+This will install the ssh_keyconv module and the ssh-keyconv executable.
+
+## Example usage
+
+1. Generate a SSH keypair
+
+```bash
+ssh-keygen -t rsa -b 4096 -f newkey_rsa
+```
+
+2. Convert the private key to PKCS8 format
+
+```bash
+ssh-keyconv -i newkey_rsa -f openssh -e openssh -o newkey_rsa.pem -F pkcs8 -E pem
+```
+
+## Development
+
+1. Clone the repo
+
+```bash
+git clone https://codeberg.org/lkm35t/ssh-keyconf
+```
+
+2. Set up a virtualenv
+
+```bash
+cd ssh-keyconv
+make setup
+```
+
+3. Run tests
+
+```bash
+make test
+```
+
+4. Bump the version number in `ssh_keyconv/__init__.py:__version__`
+
+5. Build a release
+
+```bash
+make clean build
+```
+
+6. Do a test publish
+
+```bash
+make publish-test
+```
+
+7. Verify the test publish
+
+```bash
+make verify-publish-test
+```
+
+8. Publish to PyPI
+
+```bash
+make publish
+```
+
+9. Verify the publish to PyPI
+
+```bash
+make test-publish
+```
+

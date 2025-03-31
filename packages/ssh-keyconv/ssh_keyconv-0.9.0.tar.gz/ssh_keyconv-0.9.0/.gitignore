@@ -1,0 +1,8 @@
+__pycache__
+
+/ssh_keyconv.egg-info
+/venv
+/build
+/dist
+/.nox
+/tests/_data/temp

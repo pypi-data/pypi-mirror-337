@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: data_sage
+Version: 0.1
+Summary: A Python library with EDA helper functions
+Home-page: https://github.com/yourusername/edapro
+Author: aitechman
+Author-email: aitechman <aitechman@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/sim-daas/EDAPro
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: scikit-learn
+Requires-Dist: wordcloud
+Requires-Dist: ipython
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
+
+# edapro
+A Python library for advanced exploratory data analysis.
+
+## 📦 Installation
+```bash
+pip install edapro
+```

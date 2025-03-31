@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: boil_an_egg
+Version: 1.0
+Summary: Teaches your computer to boil an egg.
+Project-URL: Homepage, https://github.com/Txart/egg-simulation
+Project-URL: Issues, https://github.com/Txart/egg-simulation/issues
+Author-email: Iñaki Urzainki <iurzainki@gmail.com>
+License: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm

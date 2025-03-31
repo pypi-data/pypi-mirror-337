@@ -1,0 +1,7 @@
+llama_index/llms/litellm/__init__.py,sha256=USmxdXSZGo-pNFunYjed7krt8HevONZ4A888gTQXDL8,73
+llama_index/llms/litellm/base.py,sha256=DhpOxWlf16S5NgQRyurEfcN_gqktZWkPSEA_qvVhqew,20377
+llama_index/llms/litellm/utils.py,sha256=kupTVHgpKBtQ-D3Ok4Th5HUNFzRR8W-QmGQ1DGQ3r5Y,13114
+llama_index_llms_litellm-0.4.1.dist-info/LICENSE,sha256=JPQLUZD9rKvCTdu192Nk0V5PAwklIg6jANii3UmTyMs,1065
+llama_index_llms_litellm-0.4.1.dist-info/METADATA,sha256=PLISa7j1JYKeNPpFACpAbc2U8imRUMKkJge0jtp5bnQ,2531
+llama_index_llms_litellm-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_llms_litellm-0.4.1.dist-info/RECORD,,

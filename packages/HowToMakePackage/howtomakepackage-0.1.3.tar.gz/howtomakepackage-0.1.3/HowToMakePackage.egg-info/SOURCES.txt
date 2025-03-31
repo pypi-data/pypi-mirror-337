@@ -1,0 +1,7 @@
+setup.py
+HowToMakePackage/Module.py
+HowToMakePackage/__init__.py
+HowToMakePackage.egg-info/PKG-INFO
+HowToMakePackage.egg-info/SOURCES.txt
+HowToMakePackage.egg-info/dependency_links.txt
+HowToMakePackage.egg-info/top_level.txt

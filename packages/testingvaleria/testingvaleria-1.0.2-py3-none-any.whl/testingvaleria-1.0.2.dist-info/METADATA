@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: testingvaleria
+Version: 1.0.2
+Summary: Uma biblioteca para análise de investimentos
+Home-page: https://github.com/testevaleria/valeriatesting
+Author: Valeriateste
+Author-email: valeria.souzadsantos@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vitibrasil API
+
+Biblioteca para acessar dados do trabalho da faculdade
+

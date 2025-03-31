@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prj-investiment
+Version: 0.1
+Summary: Uma biblioteca para cálculos de investimentos.
+Home-page: https://github.com/valzs/prj_investiment.git
+Author: Valéria Santos - professor Thiago S Adriano
+Author-email: valeria.souzadsantos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

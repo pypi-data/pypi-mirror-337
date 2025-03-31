@@ -1,0 +1,10 @@
+Cython>=3.0.12
+setuptools>=78.1.0
+pytest>=8.0.2
+pytest-cov>=4.1.0
+pytest-watch>=4.0.0
+aiohttp>=3.9.0
+redis>=5.0.1
+aioredis>=2.0.0
+aiokafka>=0.12.0
+azure-storage-blob>=12.19.0

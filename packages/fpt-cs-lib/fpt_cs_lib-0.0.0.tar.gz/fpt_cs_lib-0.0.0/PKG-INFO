@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: fpt_cs_lib
+Version: 0.0.0
+Author-email: Fisher & Paykel Technologies <fpt.digital@fisherpaykel.com>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11

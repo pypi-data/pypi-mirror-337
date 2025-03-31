@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_nlp-huggingface/__init__.py
+src/corex-ai_nlp-huggingface/handler.py
+src/corex_ai_nlp_huggingface.egg-info/PKG-INFO
+src/corex_ai_nlp_huggingface.egg-info/SOURCES.txt
+src/corex_ai_nlp_huggingface.egg-info/dependency_links.txt
+src/corex_ai_nlp_huggingface.egg-info/top_level.txt
+tests/test_handler.py

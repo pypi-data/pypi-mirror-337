@@ -1,0 +1,54 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "bitcoinlibdbfix"
+version = "0.4.13"
+description = "Command Line Wallet for Bitcoin with database fixes and CLI replacement"
+authors = ["Gordon Lawson <gordonlawson@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gordonxdev/bitcoinlibdbfix"
+repository = "https://github.com/gordonxdev/bitcoinlibdbfix"
+keywords = ["bitcoin", "wallet", "cli", "cryptocurrency"]
+
+[project]
+name = "bitcoinlibdbfix"
+version = "0.4.13"
+description = "Command Line Wallet for Bitcoin with database fixes and CLI replacement"
+authors = [
+    {name = "Gordon Lawson", email = "gordonlawson@gmail.com"}
+]
+dependencies = [
+    "bitcoinlib>=0.6.0",
+    "click>=8.1.3,<9.0.0",
+    "rich>=13.3.2,<14.0.0",
+    "shutilwhich>=1.1.0,<2.0.0"
+]
+requires-python = ">=3.8"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bitcoinlib = "^0.6.0"
+click = "^8.1.3"
+rich = "^13.3.2"
+shutilwhich = "^1.1.0"
+
+[tool.poetry.scripts]
+clw = "bitcoinlibdbfix.cli:main"
+
+[project.scripts]
+clw = "bitcoinlibdbfix.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+mypy = "^0.991"
+
+# Corrected packages configuration as an array
+[[tool.poetry.packages]]
+include = "bitcoinlibdbfix"
+from = "src"

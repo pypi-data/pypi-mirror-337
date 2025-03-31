@@ -1,0 +1,4 @@
+include bhp/*.so
+include bhp/*.o
+include bhp/*.py
+include bhp/__init__.py

@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+bhp/bhp.cpython-312-x86_64-linux-gnu.so
+bhp/bhp.o
+bhp/bhp.py
+bhp9.egg-info/PKG-INFO
+bhp9.egg-info/SOURCES.txt
+bhp9.egg-info/dependency_links.txt
+bhp9.egg-info/entry_points.txt
+bhp9.egg-info/top_level.txt

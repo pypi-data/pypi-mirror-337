@@ -1,0 +1,6 @@
+recursive-exclude data *
+recursive-exclude outputs *
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude examples *
+recursive-exclude memo *

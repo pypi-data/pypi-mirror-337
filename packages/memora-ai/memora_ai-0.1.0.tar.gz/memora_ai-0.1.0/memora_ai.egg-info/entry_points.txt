@@ -1,0 +1,2 @@
+[console_scripts]
+memora = memora.cli:main

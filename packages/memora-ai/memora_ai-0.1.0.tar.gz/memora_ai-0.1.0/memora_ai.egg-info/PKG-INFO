@@ -1,0 +1,160 @@
+Metadata-Version: 2.4
+Name: memora-ai
+Version: 0.1.0
+Summary: Train Smarter, Not Harder!
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# 🧠 Memora - Train Smarter, Not Harder! 
+**The simplest way to fine-tune language models**  
+*For researchers, developers, and AI enthusiasts. No PhD required!*
+
+[![PyPI Version](https://img.shields.io/pypi/v/memora)](https://pypi.org/project/memora/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/memora)](https://pypi.org/project/memora/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## ✨ Features  
+- **One-command fine-tuning** for popular LLMs (Llama 3, Mistral, Gemma)  
+- **Optimized training** with LoRA/QLoRA (up to 70% less GPU memory)  
+- **Interactive CLI** with ASCII progress animations  
+- **Hugging Face integration** (automatic model downloads)  
+- **Ollama compatibility** (export tuned models for local use)  
+- **Custom dataset support** (JSON/CSV formats)  
+
+---
+
+## 🚀 Installation  
+
+### Prerequisites  
+- Python 3.8+  
+- GPU with CUDA (recommended)
+- Basic CPU (slower)  
+
+```bash
+# Install with pip (stable release)
+pip install memora
+
+# Install from source (latest features)
+git clone https://github.com/tictacguy/memora
+cd memora
+pip install -e .
+```
+
+---
+
+## 🛠️ Quick Start
+
+### 1. Prepare Your Dataset
+Create `data/training.json`:
+
+```json
+[
+    {
+        "text": "<s>[INST] What's special about Venetian gondolas? [/INST]\n[RESP] Gondolas are hand-built using 8 types of wood and painted black by law since 1562.</s>"
+    }
+]
+```
+
+### 2. Run Fine-Tuning
+
+```bash
+memora train \
+    --model meta-llama/Meta-Llama-3-8B \
+    --dataset ./data/training.json \
+    --output ./venice_model \
+    --epochs 3
+```
+
+### 3. Use Your Model
+
+```python
+from transformers import AutoModelForCausalLM
+
+model = AutoModelForCausalLM.from_pretrained("./venice_model")
+response = model.generate("What wood are gondolas made of?")
+print(response)  # "Traditionally, gondolas use oak, larch, and walnut..."
+```
+
+---
+
+## 📚 Full Usage
+
+### Available Commands
+
+| Command        | Description                | Example                          |
+|---------------|---------------------------|----------------------------------|
+| `memora train`  | Start fine-tuning         | `--model llama3 --dataset ./data.json` |
+| `memora list`   | Show supported models     |                                  |
+| `memora export` | Convert to Ollama format | `--input ./model --output ./ollama_model` |
+
+### Advanced Options
+
+```bash
+# Customize training
+memora train \
+    --learning_rate 2e-5 \
+    --batch_size 8 \
+    --lora_rank 64 \
+    --quantize 4bit
+
+# Monitor training
+tensorboard --logdir ./logs
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+memora/
+├── examples/          # Sample datasets and configs
+├── src/
+│   └── memora/       # Core package
+│       ├── cli.py    # Command-line interface
+│       ├── tuner.py  # Training logic
+│       └── optim/    # Optimization techniques
+└── tests/            # Unit tests
+```
+
+---
+
+## ⚙️ System Requirements
+
+| Model          | Minimum GPU VRAM | Recommended VRAM |
+|---------------|-----------------|-----------------|
+| Llama 3 8B   | 16GB            | 24GB            |
+| Mistral 7B   | 12GB            | 24GB            |
+| Gemma 7B     | 12GB            | 24GB            |
+
+*4-bit quantization reduces requirements by ~50%*
+
+---
+
+## 🛠️ Troubleshooting
+
+### Common Issues
+
+| Error                  | Solution                              |
+|------------------------|--------------------------------------|
+| CUDA Out of Memory     | Reduce `--batch_size` or enable `--quantize` |
+| Hugging Face 401 Error | Run `huggingface-cli login`         |
+| Slow Downloads        | Use `HF_ENDPOINT=https://hf-mirror.com` |
+
+### Need Help?
+Open an issue or join our Discord.
+
+---
+
+## 📜 License
+
+MIT © 2024 Memora - [website coming!!](#)
+
+---
+
+## Pro Tip: Pre-download Models for Faster Results
+
+```bash
+huggingface-cli download meta-llama/Meta-Llama-3-8B
+```

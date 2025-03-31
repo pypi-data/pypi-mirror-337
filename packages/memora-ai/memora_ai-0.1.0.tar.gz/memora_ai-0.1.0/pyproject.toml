@@ -1,0 +1,17 @@
+[project]
+name = "memora-ai"
+version = "0.1.0"
+description = "Train Smarter, Not Harder!"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["memora"]
+package-dir = { memora = "src/memora" }
+
+[tool.setuptools.package-data]
+include = ["README.md"]
+exclude = ["tests/*", "data/*", "examples/*"]
+
+[project.scripts]
+memora = "memora.cli:main"

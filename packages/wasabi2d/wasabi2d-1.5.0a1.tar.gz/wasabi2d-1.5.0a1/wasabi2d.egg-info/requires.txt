@@ -1,0 +1,10 @@
+pygame>=2.1
+moderngl<6,>=5.7
+numpy
+pyrr
+sortedcontainers
+mapbox-earcut==1.0.*
+wasabi-geom>=2.0.1
+
+[:python_version < "3.7"]
+dataclasses

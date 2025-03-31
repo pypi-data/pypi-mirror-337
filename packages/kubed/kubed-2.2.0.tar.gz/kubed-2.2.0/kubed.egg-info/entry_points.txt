@@ -1,0 +1,4 @@
+[console_scripts]
+kubed-aliases-path = kubed.cli:aliases_path_command
+kubed-completions-path = kubed.cli:completions_path_command
+kubed-setup = kubed.cli:setup_command

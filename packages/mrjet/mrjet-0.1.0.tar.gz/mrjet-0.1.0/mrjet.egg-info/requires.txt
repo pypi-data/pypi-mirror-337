@@ -1,0 +1,3 @@
+requests
+curl_cffi
+pym3u8downloader

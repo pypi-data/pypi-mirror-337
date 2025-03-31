@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: yourware-mcp
+Version: 0.0.3
+Summary: yourware mcp server
+Project-URL: Homepage, https://arcocodes.github.io/yourware-mcp/
+Project-URL: Repository, https://github.com/arcocodes/yourware-mcp
+Project-URL: Documentation, https://arcocodes.github.io/yourware-mcp/
+Author-email: Wh1isper <jizhongsheng957@gmail.com>
+License-File: LICENSE
+Keywords: python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <4.0,>=3.10
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: mcp[cli]>=1.6.0
+Requires-Dist: pydantic>=2.11.1
+Requires-Dist: typer>=0.15.2
+Description-Content-Type: text/markdown
+
+For production
+
+```
+{
+  "mcpServers": {
+    "yourware-mcp": {
+      "command": "uvx",
+      "args": ["yourware-mcp@latest", "stdio"],
+      "env": {}
+    }
+  }
+}
+```
+
+For staging
+
+```
+{
+  "mcpServers": {
+    "yourware-mcp": {
+      "command": "uvx",
+      "args": ["yourware-mcp@latest", "stdio"],
+      "env": {
+        "YOURWARE_ENDPOINT": "https://staging.yourware.so"
+      }
+    }
+  }
+}
+```

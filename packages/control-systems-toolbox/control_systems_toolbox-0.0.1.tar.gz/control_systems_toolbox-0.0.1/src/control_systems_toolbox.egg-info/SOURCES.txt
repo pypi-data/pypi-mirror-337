@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/control_systems_toolbox/__init__.py
+src/control_systems_toolbox.egg-info/PKG-INFO
+src/control_systems_toolbox.egg-info/SOURCES.txt
+src/control_systems_toolbox.egg-info/dependency_links.txt
+src/control_systems_toolbox.egg-info/top_level.txt

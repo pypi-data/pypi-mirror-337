@@ -1,0 +1,5 @@
+numpy>=2.2.4
+torch>=2.6.0
+scipy>=1.15.2
+pynput>=1.8.1
+PyAutoGUI>=0.9.54

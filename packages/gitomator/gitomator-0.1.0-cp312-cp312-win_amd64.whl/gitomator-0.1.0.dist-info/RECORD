@@ -1,0 +1,9 @@
+gitomator-0.1.0.dist-info/METADATA,sha256=vG9JTHCC3Qi87WnrjAyBiLZvLbEIuSQTdyhfvOITVVs,4482
+gitomator-0.1.0.dist-info/WHEEL,sha256=jABKVkLC9kJr8mi_er5jOqpiQUjARSLXDUIIxDqsS50,96
+gitomator/py.typed,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+gitomator/tests/test_basics.py,sha256=Q9Fzd234XDYrd8nHSz9FtnHriU013Eyt-UzZ_5-notc,2236
+gitomator/_gitomator.pyi,sha256=8u3cWV0ROU3h0c7ItU19uGKWfpovnSPO1xfuitzp5DE,2480
+gitomator/__init__.py,sha256=aWYiyCNXR3iZazr7XWDtx6nO75L5ySO6pMB0ECUDx4Y,558
+gitomator/__init__.pyi,sha256=wcefPlSaNHFW7QAvcGSWg5L6hhikqx-C0qDSmviSLEU,3075
+gitomator/_gitomator.cp312-win_amd64.pyd,sha256=66lIE_2EDn0oZHIIs3jOSEtHEkqAdJuARBD0eTc3DW4,2149888
+gitomator-0.1.0.dist-info/RECORD,,

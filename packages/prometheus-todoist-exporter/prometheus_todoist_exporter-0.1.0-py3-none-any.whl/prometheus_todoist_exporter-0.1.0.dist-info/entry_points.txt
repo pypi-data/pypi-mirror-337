@@ -1,0 +1,3 @@
+[console_scripts]
+todoist-exporter=prometheus_todoist_exporter.exporter:main
+

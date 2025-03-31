@@ -1,0 +1,10 @@
+textsage/__init__.py,sha256=_i5if2S3kaYYmfT9y6EWmCjOSlqpPotuWj488YmhPCM,300
+textsage/llm_utils.py,sha256=g5ij6uCqHhRUXMjPsXsk7Api51ozgX7IE5h-UXepyeA,3806
+textsage/pandas_utils.py,sha256=jSd5Nt0_AtK6xfzdsi_ozI9FnKGyT0fbcYyEcC1ACkc,2564
+textsage/setup_ollama.py,sha256=fltwWmSpDVNeRo04qrfYuiPEvr1rVQw0qNOMn1pCxzw,1882
+textsage/spark_utils.py,sha256=u4Cqfq3r0pjDlwuiMhvWYGQ4LiHGPt-2xtqkn5EyALY,3019
+textsage-0.1.4.dist-info/licenses/LICENSE,sha256=4Gsh_y_JF-IfwZFDkcpDh_mYW3WStgniVoOffCqpeXk,1072
+textsage-0.1.4.dist-info/METADATA,sha256=4D1ilYsocEDt_RSw97RTqSdh32jDTKteGP-ocaJtbtA,5261
+textsage-0.1.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+textsage-0.1.4.dist-info/top_level.txt,sha256=d_gnFnnuBRcwsbAMQCkuJ8ziJgAgioMerJSqCX0n2TA,9
+textsage-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+jupyter-optmwidgets/__init__.py,sha256=X3TcC7FQo660npkz-hp_HF7WD1a40y1LUe2bCHZXTnA,2247
+jupyter-optmwidgets/_frontend.py,sha256=tnq8H4H2F8kxwEEUhl-693MaH7KliSmz038sr8h8O24,253
+jupyter-optmwidgets/_version.py,sha256=7x6A-cHsydz6asL4Mk8C5bThoBlb-psVjFdQV1C_MG4,641
+jupyter-optmwidgets/magic.py,sha256=ywvCZ3Rrl1OGlMlnIrvYoCuzDuxkqICzmoErVqqtioY,2728
+jupyter-optmwidgets/widget.py,sha256=-1qeXPviBIcK8XzutTINSZ_ysjRSEKtBfW41f5_9S6w,5984
+jupyter-optmwidgets/nbextension/extension.js,sha256=YC5nwUhZRaG59nAXLXxwTYa3ZnFkXEnYbyNEE9u9u20,428
+jupyter-optmwidgets/nbextension/index.js,sha256=Trwnt2b3bLJQG5kXdqbgav22hBObgibIBUPP-qV2Ztg,605323
+jupyter-optmwidgets/nbextension/index.js.map,sha256=7nHghI-U1tgRPydeYKshGZV4VeQUakMKrZziie_qWSs,2195795
+jupyter_optmwidgets-0.1.3.dist-info/LICENSE.txt,sha256=FBKG27F_zywlESxgqydhoU2nEBz3ybNhGQBuHKq_oxU,1495
+jupyter_optmwidgets-0.1.3.dist-info/METADATA,sha256=pwlLFH4fvblYkgHjuSRXfoqFMvvTWzQXaiwvgyowKnM,4080
+jupyter_optmwidgets-0.1.3.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+jupyter_optmwidgets-0.1.3.dist-info/top_level.txt,sha256=g7oBGrLVwIzd4slLHW7A7qLXTT2RgJTVaMnLhBL5IC4,20
+jupyter_optmwidgets-0.1.3.dist-info/RECORD,,

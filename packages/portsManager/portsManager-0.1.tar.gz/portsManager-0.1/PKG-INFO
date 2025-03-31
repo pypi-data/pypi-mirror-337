@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: portsManager
+Version: 0.1
+Summary: Library to work with .qpmgr files
+Home-page: https://github.com/Qwantman/pManager
+Author: Qwantman
+Author-email: svr0116@gmail.com
+License: GPL-3.0

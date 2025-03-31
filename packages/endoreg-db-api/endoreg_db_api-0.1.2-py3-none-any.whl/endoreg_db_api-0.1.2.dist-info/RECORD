@@ -1,0 +1,16 @@
+endoreg_db_api/Secure_Requests.md,sha256=qYURDl77bV9mN4HPROLK_rRlbaTn8FXQX3GW-dAaVdA,4175
+endoreg_db_api/TODO.md,sha256=zub5OUfkL05YrMmWpdFTgb2kO-kV2O3PONAhHqWaNbI,55
+endoreg_db_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+endoreg_db_api/asgi.py,sha256=Z8hRKsvogNA1Qud9kV4J2bN4F_q3QEGUWVsaPqUh_Ho,1399
+endoreg_db_api/settings_base.py,sha256=uQeoiz1IX0ob4IUWrQKosJOSLHvSo6K52DeA0ZiosGo,4219
+endoreg_db_api/urls.py,sha256=WlWVyWOkpl2OA2XYnDUDXxO6ikYz9nODh7ai-7iLxrc,892
+endoreg_db_api/views.py,sha256=MubwawrYVuSF4TXrOAecVBxIV_Q1Moe-wFycG-yzcC8,123
+endoreg_db_api/wsgi.py,sha256=UKbSX9BpDVN-iCIsXfP0YiP0Qm5W_t5SWJFgdD6qtj4,410
+endoreg_db_api/api/urls.py,sha256=ur9c2YYr-pfXWkN1sp65O9jDM43s4OsfgV2lNmpNkfg,892
+endoreg_db_api/api/views.py,sha256=P0jIuX4oZxWds9u-V-RS8SsCJiWWY0mEhfis9A36oNI,1636
+endoreg_db_api/settings_dev/__init__.py,sha256=scFSm3UFZ9q1AgfKz9_iA7HKmUl69w9DrpNrG7-gIso,532
+endoreg_db_api/settings_prod/__init__.py,sha256=gWEDJ3LgYN4oofcjrjDLsDUsBodcyaM_nlWvgO2S3s8,779
+endoreg_db_api/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+endoreg_db_api-0.1.2.dist-info/METADATA,sha256=vqFA8wXGVxk-MH4G_gJAs64AcNessNPf7XpgxnS1G_c,1512
+endoreg_db_api-0.1.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+endoreg_db_api-0.1.2.dist-info/RECORD,,

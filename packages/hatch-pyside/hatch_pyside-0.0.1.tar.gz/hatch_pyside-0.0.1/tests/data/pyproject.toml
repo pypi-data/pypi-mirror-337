@@ -1,0 +1,9 @@
+[build-system]
+requires = ["hatchling", "hatch-pyside @ file:///C:/Users/serge/PycharmProjects/hatch-pyside"]
+build-backend = "hatchling.build"
+
+[project]
+name="foo"
+
+[tool.hatch.build.hooks.pyside]
+folders = ["src/foo"]

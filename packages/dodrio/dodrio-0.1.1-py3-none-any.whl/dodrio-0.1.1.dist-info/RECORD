@@ -1,0 +1,11 @@
+dodrio/__init__.py,sha256=da_KXawAdVYf0pUILB8H5f3NJhQDjhwMd-dljC7kc-g,659
+dodrio/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dodrio/core/datainfo_process.py,sha256=5q4m5fMqG5QWByLqU_UrdCkx6ABtz3iJuU5-aH2eezk,3379
+dodrio/core/load_info.py,sha256=oVP9KPSG_sFgIewzftSK7ch5dTrgwJX4Je9czeNUS8w,6335
+dodrio/core/package_base.py,sha256=n-SyEB48pWjMUcuNMruV0DL9Bf0qOnn7U7l-ZBGkpN8,8213
+dodrio/core/parquet_base.py,sha256=6AxwNWTZiBXi1Ma-f9QUcNaFKS_wvCFzyRl35M-spkM,4426
+dodrio/core/utils.py,sha256=WAcEyyFI-K4H6ieGl4HYD3DrB4syWieCRlTEPy9HZmc,1523
+dodrio-0.1.1.dist-info/METADATA,sha256=81q9cbkHaODVWm1hElqVYNSIPTEonemCd2A4jj0HhE0,7323
+dodrio-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dodrio-0.1.1.dist-info/top_level.txt,sha256=h32IFb85PQqr6fPam4FsjX-LYEAKUvt2sOV7Qbg7YDs,7
+dodrio-0.1.1.dist-info/RECORD,,

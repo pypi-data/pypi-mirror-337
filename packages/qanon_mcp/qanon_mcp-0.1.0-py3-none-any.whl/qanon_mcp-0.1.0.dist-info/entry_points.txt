@@ -1,0 +1,2 @@
+[console_scripts]
+qanon-mcp = qanon_mcp:main

@@ -1,0 +1,13 @@
+cython_chess.cpython-311-x86_64-linux-musl.so,sha256=sBp4geBZvmg6-BIEA38BQMfw4Bu29YpFl0XnhK-KiZk,1651401
+cython_chess.libs/libgcc_s-2298274a.so.1,sha256=V2IJwfUuwSSQhJqB29JtMx8hH79dCRjAvTQIGWShH-s,181737
+cython_chess.libs/libstdc++-08d5c7eb.so.6.0.33,sha256=k0S_imrCh_IE6WpvxrLoVPYiRyMVf15RDWRiXPIywV8,3562401
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cython_chess.cpp,sha256=3LdsF7QrPH5J254KsuYovvSv1SRelbt-iqq1HZ1jegk,613120
+src/cython_chess.pyx,sha256=V_lKGOCYKPwDKDgagKRVywxHFhu3iQvDJYwllkOEhh0,10644
+src/cython_chess_backend.cpp,sha256=QnSh1L3BZO5kqWURQ4KYdQSVAxgR89JcD2z2kqSQyFk,24066
+src/cython_chess_backend.h,sha256=h2GBgsvKBDksZUyKyOZaYyQ-7CVewAY9Lf_CVob_1gc,3102
+cython_chess-0.3.dist-info/METADATA,sha256=HkLuiaCUmSHqB5z4ZS9K7Af2TW5z_aHhcuLJONzVF18,6054
+cython_chess-0.3.dist-info/WHEEL,sha256=DV0rHLDZ87V2bbYEjwpjAFSwV9PRsALinvGG6r1x6xA,112
+cython_chess-0.3.dist-info/top_level.txt,sha256=E522EdGknE6uDYqrXYpPaHk74U7OFWd620w0Z9JkRhI,17
+cython_chess-0.3.dist-info/RECORD,,
+cython_chess-0.3.dist-info/licenses/LICENSE,sha256=BOKnggnmfbsUl_SgH8LQKZZhRJVMqQgaMmw3GrTIb7Q,36101

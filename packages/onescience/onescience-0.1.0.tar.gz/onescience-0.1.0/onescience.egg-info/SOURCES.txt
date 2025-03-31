@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+onescience/__init__.py
+onescience.egg-info/PKG-INFO
+onescience.egg-info/SOURCES.txt
+onescience.egg-info/dependency_links.txt
+onescience.egg-info/requires.txt
+onescience.egg-info/top_level.txt

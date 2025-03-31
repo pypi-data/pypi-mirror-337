@@ -1,0 +1,8 @@
+aws_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_services/dynamodb_utils.py,sha256=6ySG77HM3rGcyvVs0NqmEca-6rGYLdaQYhPuQZo4D6Y,12554
+aws_services/sns_utils.py,sha256=D9b7avPhBP4krJTlhIOqw3qYD9iCuG5AmKnUBg1mI3Q,1912
+aws_services_library-0.0.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_services_library-0.0.6.dist-info/METADATA,sha256=9MutEyYKh6Zcvadl9RgGrmG2amYEEzbos8wAaFkM-e4,683
+aws_services_library-0.0.6.dist-info/WHEEL,sha256=beeZ86-EfXScwlR_HKu4SllMC9wUEj_8Z_4FJ3egI2w,91
+aws_services_library-0.0.6.dist-info/top_level.txt,sha256=8KoE0Lc52KlNurZvp-FwG6uVxUElRiKzCIPD7G3m3hA,13
+aws_services_library-0.0.6.dist-info/RECORD,,

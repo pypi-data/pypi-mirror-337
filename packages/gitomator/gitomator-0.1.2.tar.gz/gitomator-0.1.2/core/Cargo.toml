@@ -1,0 +1,27 @@
+[package]
+name = "gitomator-core"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Core Git operations library"
+
+[dependencies]
+thiserror.workspace = true
+regex.workspace = true
+tempfile.workspace = true
+tokio = { workspace = true, optional = true }
+serde = { workspace = true, optional = true }
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[features]
+default = ["async"]
+async = ["dep:tokio"]
+serde = ["dep:serde"]
+
+[[example]]
+name = "basic_usage"
+path = "../examples/basic_usage.rs"

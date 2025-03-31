@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: dbt-col-lineage
+Version: 0.1.0
+Summary: A simple tool to extract dbt column lineage
+License: MIT
+Author: Fszta
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: dbt (>=1.0.0.38.29,<2.0.0.0.0)
+Requires-Dist: dbt-core (>=1.6.0)
+Requires-Dist: dbt-duckdb (>=1.9.2,<2.0.0)
+Requires-Dist: dbt-sqlite (>=1.6.0)
+Requires-Dist: duckdb (>=1.2.1,<2.0.0)
+Requires-Dist: fastapi (>=0.115.12,<0.116.0)
+Requires-Dist: graphviz (>=0.20.3,<0.21.0)
+Requires-Dist: mypy (>=1.15.0,<2.0.0)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Requires-Dist: sqlglot (>=26.8.0,<27.0.0)
+Requires-Dist: uvicorn (>=0.34.0,<0.35.0)
+Description-Content-Type: text/markdown
+
+# DBT Column Lineage
+
+[![Tests](https://github.com/Fszta/dbt-column-lineage/actions/workflows/test.yml/badge.svg)](https://github.com/Fszta/dbt-column-lineage/actions/workflows/test.yml)
+
+
+## Overview
+
+
+## Installation
+
+```bash
+pip install ...
+```
+
+## Usage
+
+```bash
+dbt-column-linage ...
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

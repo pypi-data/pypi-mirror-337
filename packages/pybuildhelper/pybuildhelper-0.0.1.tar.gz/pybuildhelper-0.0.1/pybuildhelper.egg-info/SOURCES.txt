@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pybuildhelper/__init__.py
+pybuildhelper/build_helper.py
+pybuildhelper.egg-info/PKG-INFO
+pybuildhelper.egg-info/SOURCES.txt
+pybuildhelper.egg-info/dependency_links.txt
+pybuildhelper.egg-info/requires.txt
+pybuildhelper.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+xmlschema
+
+[dev]
+black
+build
+pytest
+twine

@@ -1,0 +1,85 @@
+# cppcheck-suppressor
+
+A tool that creates suppression files from Cppcheck output. The created suppression file can be used as a baseline to run further Cppcheck analysis, highlighting any new errors in the analyzed code.
+
+__Setting a baseline helps to see new issues. However, all the errors reported by Cppcheck should be reviewed with care.__
+
+## Installation
+
+Install the latest cppcheck-suppressor python module with
+
+```bash
+pip install cppcheck-suppressor
+```
+
+## Usage
+
+To use the cppcheck-suppressor together with Cppcheck, first make a throughout analysis of your project with Cppcheck without any suppressions and save the results to a xml file:
+
+```bash
+cppcheck --xml src/ 2> cppcheck_errors.xml
+```
+
+This assumes your sources are in the `src/` folder. Use the arguments for Cppcheck that you would use otherwise - just no `--suppress` or `--suppress-xml` arguments, and keep the `--xml` argument.
+
+Then use the cppcheck-suppressor to create a baseline from the Cppcheck results:
+
+```bash
+python -m cppcheck_suppressor -f cppcheck_errors.xml -o baseline.xml
+```
+
+And finally use the baseline in the further Cppcheck analyses:
+
+```bash
+cppcheck --suppress-xml=baseline.xml src/
+```
+
+Now, Cppcheck reports only new issues from the project. The baseline should be updated - especially when any errors are solved from the project.
+
+## Building the project
+
+### Installing module for developing:
+
+To install everything that is needed to work with the project, run
+
+```bash
+pip install .[dev]
+```
+
+After making code changes, run this again to apply changes.
+
+### Running unit tests
+
+To run the unit tests, run
+
+```bash
+pytest .
+```
+
+In the root of the project.
+
+### Building the python module
+
+To build a local version of the tool, run
+
+```bash
+python -m build
+```
+
+This will create the packages in `dist/` folder. Remember to update the `__version__` attribute in `__init__.py` file, when needed.
+
+To install this version, use
+
+```bash
+pip install dist/cppcheck_suppressor-<...>.whl
+```
+
+### Publishing your version
+
+If you want, you can publish your version to your python repository with:
+
+```bash
+python -m twine upload --repository-url ... dist/*
+```
+
+You likely want to update the `pyproject.toml` file contents for this.

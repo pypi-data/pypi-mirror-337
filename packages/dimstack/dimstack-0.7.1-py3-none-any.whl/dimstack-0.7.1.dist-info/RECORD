@@ -1,0 +1,12 @@
+dimstack/__init__.py,sha256=xYqQ9mTFQOvx-XJcTj8jMtH3vv9cJDn_e8XU-coZiuM,303
+dimstack/calc.py,sha256=4Fv1wVLWCclmBVm9mZunCL5EgrVVNcpBb2x2_9cKg2E,5575
+dimstack/dim.py,sha256=1IfloH1uvRVOtVdGA4xOnvcLBk3JBr5evgf8fH_mjPY,14598
+dimstack/display.py,sha256=wG3LQ7u-kKfKcqnGmNjg35xVxtzvov8aofTmjCKvrqg,1640
+dimstack/dist.py,sha256=C6u2T8GNgT8xXuOnaPj0ckHmL_WOMcVsKmLgifVOSNE,4180
+dimstack/plot.py,sha256=-PaMn2rrsfKx18Tf5HgRR1MTYSMMJMZPgqDnJ0JFj1k,7267
+dimstack/stats.py,sha256=xaPdeG4d48Yt2ev-VrSnZ9vw0hw8zdk1dMfmh3jVpXo,2557
+dimstack/tolerance.py,sha256=KmcR8xOLwkZDzxzBTvPuF34TF-fFEeZ2hSD7Qy3hIAI,1621
+dimstack/utils.py,sha256=sJYHxnCwYOzOiX7Yqb2l4uZSWr47ah5DG4c3RLiUOAU,1252
+dimstack-0.7.1.dist-info/METADATA,sha256=rr5uRpcB6SbukNVxEoPaF2M4_lT1_zBzn-Dc4-UmTm4,14429
+dimstack-0.7.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dimstack-0.7.1.dist-info/RECORD,,

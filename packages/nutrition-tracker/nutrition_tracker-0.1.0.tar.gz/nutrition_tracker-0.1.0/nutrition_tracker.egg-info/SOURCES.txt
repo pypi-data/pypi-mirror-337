@@ -1,0 +1,6 @@
+README.md
+setup.py
+nutrition_tracker.egg-info/PKG-INFO
+nutrition_tracker.egg-info/SOURCES.txt
+nutrition_tracker.egg-info/dependency_links.txt
+nutrition_tracker.egg-info/top_level.txt

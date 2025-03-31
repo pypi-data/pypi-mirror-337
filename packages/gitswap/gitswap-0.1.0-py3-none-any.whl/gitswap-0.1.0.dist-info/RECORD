@@ -1,0 +1,11 @@
+gitswap-0.1.0.dist-info/licenses/LICENSE,sha256=aOVb-txipM-E8cp9jtNoqJE4l6yz3T05ZsZmQeYHaPI,1067
+gitswitch/__init__.py,sha256=fIdRsi8PW6crrv32ayMY9279YK2fWJ1UlGddykLK7aw,235
+gitswitch/gitswitch.py,sha256=w1HypUmZHyAyY1hoqvDmc2GuiedPDKApUVe8b6Y0qXM,11268
+tests/__init__.py,sha256=EmGn_2jRWcxuaXOuO3lof1dQBaY_QSidrYT3vZp-ZmE,33
+tests/test_config.py,sha256=t9v5tOsoUEs2UlrDUF8MIl3l6_C2FsMeiY2HQTYl4hA,2640
+tests/test_gitswitch.py,sha256=e7ER2-E0a7CvXWxUhZOcFzphoh0e30RKDXmep3WYiHs,5262
+gitswap-0.1.0.dist-info/METADATA,sha256=lLpJrtz0bAwyTHgGZ8JTrqlw3TGVvbzlXsWnxCjTa7A,4973
+gitswap-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+gitswap-0.1.0.dist-info/entry_points.txt,sha256=yoshVicdfW5LrpcF8os8eUm1Sl3FPB0C6gAuKnLxI3Q,53
+gitswap-0.1.0.dist-info/top_level.txt,sha256=-gwIASb4i4I_QZB7GUTOtc8CCOCT_NYRqkxHITuilXU,16
+gitswap-0.1.0.dist-info/RECORD,,

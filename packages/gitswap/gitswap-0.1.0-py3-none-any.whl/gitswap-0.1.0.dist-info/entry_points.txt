@@ -1,0 +1,2 @@
+[console_scripts]
+gitswap = gitswitch.gitswitch:main

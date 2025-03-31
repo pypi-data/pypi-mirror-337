@@ -1,0 +1,8 @@
+ai_debate_chat/__init__.py,sha256=IRSiFa8HpGZ5KZKkY3pOMDmg3zpdGjXSv4pILML8kBI,48
+ai_debate_chat/debate_chat.py,sha256=QrkjTOQOHU6JnPkLiFp2FyYqaoLCoVb1cU4FPuSXqWM,14559
+ai_debate_chat/ml_pipeline_langchain.py,sha256=zSoAwfD6VuJEP0pz-saVz9VinZ6l4zEmj14kplr0u88,12018
+ai_debate_chat-0.1.1.dist-info/licenses/LICENSE,sha256=mmC7TPJKajBLcbGS5wkgoSh2J-NWSOSYPqmzQ_8ELXk,1092
+ai_debate_chat-0.1.1.dist-info/METADATA,sha256=3kqRwVTNr-uQfoK-odDtgC0TSqbkXc66rkoITNzJ26g,4353
+ai_debate_chat-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ai_debate_chat-0.1.1.dist-info/top_level.txt,sha256=uwLjI541k9Yq-dgNWofDj4VoajAMv-rdj03T3DLVt_g,15
+ai_debate_chat-0.1.1.dist-info/RECORD,,

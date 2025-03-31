@@ -1,0 +1,334 @@
+#FeedForwardRegression 
+----------------------------
+pip install tensorflow
+
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.utils import to_categorical
+
+# Step 1: Load the dataset
+data = pd.read_csv('D:/YourDataSet/winequality-red.csv', delimiter=';')
+
+# Step 2: Preprocess the data
+X = data.drop('quality', axis=1)  # Features
+y = data['quality']               # Target
+
+# Encode the target variable (convert quality to integer labels)
+label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)  # Convert quality to integer labels
+y_categorical = to_categorical(y_encoded)   # One-hot encode the labels
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y_categorical, test_size=0.2, random_state=42)
+
+# Scale the features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Step 3: Build the feed-forward neural network
+model = Sequential()
+
+# Input layer and first hidden layer
+model.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))
+
+# Second hidden layer
+model.add(Dense(32, activation='relu'))
+
+# Output layer (softmax for multi-class classification)
+model.add(Dense(y_categorical.shape[1], activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Step 4: Train the model
+history = model.fit(X_train_scaled, y_train, epochs=50, batch_size=32, validation_split=0.2, verbose=1)
+
+# Step 5: Evaluate the model
+# Predictions
+y_pred_prob = model.predict(X_test_scaled)
+y_pred = np.argmax(y_pred_prob, axis=1)  # Get the predicted class
+y_true = np.argmax(y_test, axis=1)       # Get the true class
+
+# Evaluation metrics
+accuracy = accuracy_score(y_true, y_pred)
+precision = precision_score(y_true, y_pred, average='weighted')
+recall = recall_score(y_true, y_pred, average='weighted')
+f1 = f1_score(y_true, y_pred, average='weighted')
+conf_matrix = confusion_matrix(y_true, y_pred)
+class_report = classification_report(y_true, y_pred, target_names=[str(i) for i in range(y_categorical.shape[1])])
+
+# Print results
+print("Accuracy:", accuracy)
+print("Precision:", precision)
+print("Recall:", recall)
+print("F1 Score:", f1)
+print("Confusion Matrix:\n", conf_matrix)
+print("Classification Report:\n", class_report)
+-----------------------------------------------------------------
+#Training model without regularization...
+-----------------------------------------------------------------
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.utils import to_categorical
+import matplotlib.pyplot as plt
+
+# Step 1: Load the dataset
+data = pd.read_csv('D:/YourDataset/winequality-red.csv', delimiter=';')
+
+# Step 2: Preprocess the data
+X = data.drop('quality', axis=1)  # Features
+y = data['quality']               # Target
+
+# Encode the target variable (convert quality to integer labels)
+label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)  # Convert quality to integer labels
+y_categorical = to_categorical(y_encoded)   # One-hot encode the labels
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y_categorical, test_size=0.2, random_state=42)
+
+# Scale the features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Function to build and train a model
+def build_and_train_model(regularization=False):
+    model = Sequential()
+
+    if regularization:
+        # Input layer and first hidden layer with L2 regularization and dropout
+        model.add(Dense(64, input_dim=X_train.shape[1], activation='relu', kernel_regularizer=l2(0.001)))
+        model.add(Dropout(0.3))  # Dropout rate of 30%
+
+        # Second hidden layer with L2 regularization and dropout
+        model.add(Dense(32, activation='relu', kernel_regularizer=l2(0.001)))
+        model.add(Dropout(0.3))  # Dropout rate of 30%
+    else:
+        # Input layer and first hidden layer without regularization
+        model.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))
+
+        # Second hidden layer without regularization
+        model.add(Dense(32, activation='relu'))
+
+    # Output layer (softmax for multi-class classification)
+    model.add(Dense(y_categorical.shape[1], activation='softmax'))
+
+    # Compile the model
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+    # Train the model
+    history = model.fit(
+        X_train_scaled, y_train,
+        epochs=50, batch_size=32,
+        validation_split=0.2, verbose=0
+    )
+
+    return model, history
+
+# Step 3: Train models with and without regularization
+print("Training model without regularization...")
+model_no_reg, history_no_reg = build_and_train_model(regularization=False)
+
+print("Training model with regularization...")
+model_with_reg, history_with_reg = build_and_train_model(regularization=True)
+
+# Step 4: Evaluate the models
+# Predictions for the model without regularization
+y_pred_prob_no_reg = model_no_reg.predict(X_test_scaled)
+y_pred_no_reg = np.argmax(y_pred_prob_no_reg, axis=1)
+y_true = np.argmax(y_test, axis=1)
+
+# Metrics for the model without regularization
+accuracy_no_reg = accuracy_score(y_true, y_pred_no_reg)
+precision_no_reg = precision_score(y_true, y_pred_no_reg, average='weighted')
+recall_no_reg = recall_score(y_true, y_pred_no_reg, average='weighted')
+f1_no_reg = f1_score(y_true, y_pred_no_reg, average='weighted')
+
+# Predictions for the model with regularization
+y_pred_prob_with_reg = model_with_reg.predict(X_test_scaled)
+y_pred_with_reg = np.argmax(y_pred_prob_with_reg, axis=1)
+
+# Metrics for the model with regularization
+accuracy_with_reg = accuracy_score(y_true, y_pred_with_reg)
+precision_with_reg = precision_score(y_true, y_pred_with_reg, average='weighted')
+recall_with_reg = recall_score(y_true, y_pred_with_reg, average='weighted')
+f1_with_reg = f1_score(y_true, y_pred_with_reg, average='weighted')
+
+# Step 5: Compare metrics
+metrics = {
+    "Without Regularization": [accuracy_no_reg, precision_no_reg, recall_no_reg, f1_no_reg],
+    "With Regularization": [accuracy_with_reg, precision_with_reg, recall_with_reg, f1_with_reg]
+}
+metrics_df = pd.DataFrame(metrics, index=["Accuracy", "Precision", "Recall", "F1 Score"])
+print("\nComparison of Metrics:")
+print(metrics_df)
+
+# Step 6: Plot the comparison
+x = np.arange(len(metrics_df.index))
+width = 0.35
+
+fig, ax = plt.subplots(figsize=(10, 6))
+bars1 = ax.bar(x - width/2, metrics_df["Without Regularization"], width, label='Without Regularization')
+bars2 = ax.bar(x + width/2, metrics_df["With Regularization"], width, label='With Regularization')
+
+ax.set_ylabel('Scores')
+ax.set_title('Comparison of Metrics: With vs Without Regularization')
+ax.set_xticks(x)
+ax.set_xticklabels(metrics_df.index)
+ax.legend()
+
+# Add value labels on top of bars
+for bar in bars1 + bars2:
+    height = bar.get_height()
+    ax.annotate(f'{height:.2f}', xy=(bar.get_x() + bar.get_width() / 2, height),
+                xytext=(0, 3), textcoords="offset points", ha='center', fontsize=8)
+
+plt.tight_layout()
+plt.show()
+----------------------------------------------------------
+#Training model without L2 regularization...
+----------------------------------------------------------
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.utils import to_categorical
+import matplotlib.pyplot as plt
+
+# Step 1: Load the dataset
+data = pd.read_csv('D:/YourDataset/winequality-red.csv', delimiter=';')
+
+# Step 2: Preprocess the data
+X = data.drop('quality', axis=1)  # Features
+y = data['quality']               # Target
+
+# Encode the target variable (convert quality to integer labels)
+label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)  # Convert quality to integer labels
+y_categorical = to_categorical(y_encoded)   # One-hot encode the labels
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y_categorical, test_size=0.2, random_state=42)
+
+# Scale the features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Function to build and train a model
+def build_and_train_model(l2_reg=False):
+    model = Sequential()
+
+    if l2_reg:
+        # Input layer and first hidden layer with L2 regularization
+        model.add(Dense(64, input_dim=X_train.shape[1], activation='relu', kernel_regularizer=l2(0.001)))
+
+        # Second hidden layer with L2 regularization
+        model.add(Dense(32, activation='relu', kernel_regularizer=l2(0.001)))
+    else:
+        # Input layer and first hidden layer without regularization
+        model.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))
+
+        # Second hidden layer without regularization
+        model.add(Dense(32, activation='relu'))
+
+    # Output layer (softmax for multi-class classification)
+    model.add(Dense(y_categorical.shape[1], activation='softmax'))
+
+    # Compile the model
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+    # Train the model
+    history = model.fit(
+        X_train_scaled, y_train,
+        epochs=50, batch_size=32,
+        validation_split=0.2, verbose=0
+    )
+
+    return model, history
+
+# Step 3: Train models with and without L2 regularization
+print("Training model without L2 regularization...")
+model_no_reg, history_no_reg = build_and_train_model(l2_reg=False)
+
+print("Training model with L2 regularization...")
+model_with_l2, history_with_l2 = build_and_train_model(l2_reg=True)
+
+# Step 4: Evaluate the models
+# Predictions for the model without L2 regularization
+y_pred_prob_no_reg = model_no_reg.predict(X_test_scaled)
+y_pred_no_reg = np.argmax(y_pred_prob_no_reg, axis=1)
+y_true = np.argmax(y_test, axis=1)
+
+# Metrics for the model without L2 regularization
+accuracy_no_reg = accuracy_score(y_true, y_pred_no_reg)
+precision_no_reg = precision_score(y_true, y_pred_no_reg, average='weighted')
+recall_no_reg = recall_score(y_true, y_pred_no_reg, average='weighted')
+f1_no_reg = f1_score(y_true, y_pred_no_reg, average='weighted')
+
+# Predictions for the model with L2 regularization
+y_pred_prob_with_l2 = model_with_l2.predict(X_test_scaled)
+y_pred_with_l2 = np.argmax(y_pred_prob_with_l2, axis=1)
+
+# Metrics for the model with L2 regularization
+accuracy_with_l2 = accuracy_score(y_true, y_pred_with_l2)
+precision_with_l2 = precision_score(y_true, y_pred_with_l2, average='weighted')
+recall_with_l2 = recall_score(y_true, y_pred_with_l2, average='weighted')
+f1_with_l2 = f1_score(y_true, y_pred_with_l2, average='weighted')
+
+# Step 5: Compare metrics
+metrics = {
+    "Without L2 Regularization": [accuracy_no_reg, precision_no_reg, recall_no_reg, f1_no_reg],
+    "With L2 Regularization": [accuracy_with_l2, precision_with_l2, recall_with_l2, f1_with_l2]
+}
+metrics_df = pd.DataFrame(metrics, index=["Accuracy", "Precision", "Recall", "F1 Score"])
+print("\nComparison of Metrics:")
+print(metrics_df)
+
+# Step 6: Plot the comparison
+x = np.arange(len(metrics_df.index))
+width = 0.35
+
+fig, ax = plt.subplots(figsize=(10, 6))
+bars1 = ax.bar(x - width/2, metrics_df["Without L2 Regularization"], width, label='Without L2 Regularization')
+bars2 = ax.bar(x + width/2, metrics_df["With L2 Regularization"], width, label='With L2 Regularization')
+
+ax.set_ylabel('Scores')
+ax.set_title('Comparison of Metrics: With vs Without L2 Regularization')
+ax.set_xticks(x)
+ax.set_xticklabels(metrics_df.index)
+ax.legend()
+
+# Add value labels on top of bars
+for bar in bars1 + bars2:
+    height = bar.get_height()
+    ax.annotate(f'{height:.2f}', xy=(bar.get_x() + bar.get_width() / 2, height),
+                xytext=(0, 3), textcoords="offset points", ha='center', fontsize=8)
+
+plt.tight_layout()
+plt.show()
+
+#END

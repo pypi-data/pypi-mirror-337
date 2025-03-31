@@ -1,0 +1,12 @@
+./.gitignore,sha256=rvPNT_WRmulm6BDZcCY1s1sHICAUJB1CKQVT3-hccH8,3691
+./LICENSE,sha256=V766etREriJbbQTlTzyK0blB0WWzb-1Wn1oxC9W9oQM,1070
+./PKG-INFO,sha256=jymN3orv7kgonCmEm6xercz5WPsAQ6ei7d6ScPaUOlk,1340
+./README.md,sha256=YposZz7dR5A3sNo2rdU7ZNm7Tm4AZSAmHwDUGQ-v6xY,880
+./main.py,sha256=fHRrtz2jnhgxaKMdxpoaC775aiPSQqQ23xkS1Is4zwQ,6629
+./pyproject.toml,sha256=pbRh_jgeYU6insDWYujJQCJTauY_0wpk19EX6K0fBxs,697
+./test_excel.py,sha256=boWU7_3Ieuu-YQ8uooOOMdFjWT0sDyZ05sWX-b1mJRY,4248
+mcp_excel-0.1.0.dist-info/METADATA,sha256=jymN3orv7kgonCmEm6xercz5WPsAQ6ei7d6ScPaUOlk,1340
+mcp_excel-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_excel-0.1.0.dist-info/entry_points.txt,sha256=fV80PHYiqZgTvf6cnwsrSIVP3H0Gt0W8W76gO981Je0,40
+mcp_excel-0.1.0.dist-info/licenses/LICENSE,sha256=V766etREriJbbQTlTzyK0blB0WWzb-1Wn1oxC9W9oQM,1070
+mcp_excel-0.1.0.dist-info/RECORD,,

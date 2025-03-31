@@ -1,0 +1,12 @@
+pysolver_view/__init__.py,sha256=9yrNJHkXyX4RaJjSwav1hpRwUYH_h9911-MXl6GNU-g,779
+pysolver_view/nonlinear_system.py,sha256=Blhw__fKiRog4JSrPGZPseZa0-YWhzRbxmPYBXj6_q4,22224
+pysolver_view/nonlinear_system_problems.py,sha256=_REDggEiLfeHC85vCzjqSTYqAC_9zaLDhk-LscyEjw4,1530
+pysolver_view/numerical_differentiation.py,sha256=XjdJXyxA2xnS0kfVaUHBHnFuxheFb9Zj-NreSq7VFOg,9197
+pysolver_view/optimization.py,sha256=BqklqvRsStZXCxQ2ewdeVKV8Pjr1KbgGZMMTgygEAaw,52290
+pysolver_view/optimization_problems.py,sha256=_3Pz3jkcB2t9-m6R0jFtYUUdcGUi2I_BhahLsIe3tjM,8087
+pysolver_view/optimization_wrappers.py,sha256=8eoYRSr1lTZEBHotabH50pP0lguEjH9E3OYt-Jj1dW8,22462
+pysolver_view/pysolver_utilities.py,sha256=5AeuTjtwV0pjk4AC2807nyYCgC8s5phVRIt9TP4r6qU,11835
+pysolver_view-0.2.1.dist-info/LICENSE.md,sha256=isYCvYlj4LubzmPnEkSi2VhwdmL8ghdLME-Y_XpWZBM,1073
+pysolver_view-0.2.1.dist-info/METADATA,sha256=Ww6jcWL19ZWArqX4PgLm-G00J9HiK5HsTDM6iTKV2cI,1592
+pysolver_view-0.2.1.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+pysolver_view-0.2.1.dist-info/RECORD,,

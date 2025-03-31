@@ -1,0 +1,13 @@
+[project]
+name = "explorercmd"          # Имя пакета (изменил на explorercmd для ясности)
+version = "0.1.3"             # Начальная версия
+description = "Remote file explorer client"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+requires-python = ">=3.6"
+
+[project.scripts]
+explorercmd = "explorercmd.client:main"  # Команда explorercmd вызывает client.main
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

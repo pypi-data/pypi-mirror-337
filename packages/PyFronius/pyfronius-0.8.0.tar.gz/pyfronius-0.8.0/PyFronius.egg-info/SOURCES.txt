@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+PyFronius.egg-info/PKG-INFO
+PyFronius.egg-info/SOURCES.txt
+PyFronius.egg-info/dependency_links.txt
+PyFronius.egg-info/requires.txt
+PyFronius.egg-info/top_level.txt
+pyfronius/__init__.py
+pyfronius/const.py
+pyfronius/py.typed
+tests/test_helper.py
+tests/test_import.py
+tests/test_web_v0.py
+tests/test_web_v1.py

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_audio-torchaudio/__init__.py
+src/corex-ai_audio-torchaudio/handler.py
+src/corex_ai_audio_torchaudio.egg-info/PKG-INFO
+src/corex_ai_audio_torchaudio.egg-info/SOURCES.txt
+src/corex_ai_audio_torchaudio.egg-info/dependency_links.txt
+src/corex_ai_audio_torchaudio.egg-info/top_level.txt
+tests/test_handler.py

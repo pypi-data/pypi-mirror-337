@@ -1,0 +1,4 @@
+[console_scripts]
+ji = jupyter_lexical.application:main
+jupyter-lexical = jupyter_lexical.application:main
+jupyter-lexical-server = jupyter_lexical.serverapplication:main

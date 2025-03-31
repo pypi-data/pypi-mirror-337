@@ -1,0 +1,12 @@
+jupyter_lexical/__init__.py,sha256=if5FOej2FQVplYJ2r_u1a0W2oDDn05GnWO1QKVlk5Dc,951
+jupyter_lexical/__version__.py,sha256=eIfnAlgnfFVuuGmCr5Xnzm1il72OgRm8sL3_WVnHEF8,146
+jupyter_lexical/handlers.py,sha256=iibbeTljG194oAW6H7XPjQR9kU0QIhQEjLY9AXGEYE0,851
+jupyter_lexical/tests/__init__.py,sha256=nT-YDVhjFk3MbB1L7mVXOLqN86MIhfhVyzkC4jt4Ix4,98
+jupyter_lexical/tests/test_handlers.py,sha256=4HJXjZbWUBuXy7MIsovrIb23d6hAFiYczQ_YetxfoJE,364
+jupyter_lexical-0.0.2.data/data/etc/jupyter/jupyter_notebook_config.d/jupyter_lexical.json,sha256=A6Oqg61HAJ_dTiR7KeJdCdqJrt2Wf368apGwJoz8zHE,92
+jupyter_lexical-0.0.2.data/data/etc/jupyter/jupyter_server_config.d/jupyter_lexical.json,sha256=FI3xpAQZf-HFI-ygfDJw5T5pTmMIbw5BAXSLiNWMDUc,90
+jupyter_lexical-0.0.2.dist-info/METADATA,sha256=YwAegTaJH-pXekuTvKz-0hxHTwF7Oe648UKvVIWgBdA,2592
+jupyter_lexical-0.0.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jupyter_lexical-0.0.2.dist-info/entry_points.txt,sha256=YsdkKS_z0N2WgKtUYKo1i0Kqt7cz3A6qBk6S3iQfyi8,171
+jupyter_lexical-0.0.2.dist-info/licenses/LICENSE,sha256=IrO8F4Oic1uaivmo6zoVtW4EgsYAdF-v7PpPXv_CpE8,1077
+jupyter_lexical-0.0.2.dist-info/RECORD,,

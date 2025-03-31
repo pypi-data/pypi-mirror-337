@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: langspace
+Version: 0.3.4
+Summary: LangSpace: Probing Large Language VAEs made simple
+Home-page: 
+Author: ['Danilo S. Carvalho', 'Yingji Zhang']
+Author-email: "Danilo S. Carvalho" <danilo.carvalho@manchester.ac.uk>, Yingji Zhang <yingji.zhang@postgrad.manchester.ac.uk>
+Project-URL: Homepage, https://github.com/neuro-symbolic-ai/LangSpace
+Project-URL: Issues, https://github.com/neuro-symbolic-ai/LangSpace/issues
+Keywords: probing,vae,llm,generative,nlp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.4
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: transformers>=4.48.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: scipy>=1.13.1
+Requires-Dist: gensim>=4.3.3
+Requires-Dist: pot==0.9.3
+Requires-Dist: yellowbrick==1.5
+Requires-Dist: langvae>=0.6.6
+Requires-Dist: saf-nlp>=0.5.5
+Requires-Dist: saf-datasets>=0.6.16
+Dynamic: author
+Dynamic: license-file
+
+# LangSpace: Probing Large Language VAEs made simple
+
+LangSpace is a Python library for evaluating and probing language models using Variational Autoencoders (VAEs). It provides an easy-to-use interface to perform a variety of analises on pretrained [LangVAE](https://github.com/neuro-symbolic-ai/LangVAE) models.
+
+## Installation
+
+To install LangSpace, simply run:
+
+```bash
+pip install langspace
+```
+
+This will install all necessary dependencies and set up the package for use in your Python projects.
+
+## Usage
+
+TBC
+
+
+## License
+
+LangVAE is licensed under the GPLv3 License. See the LICENSE file for details.

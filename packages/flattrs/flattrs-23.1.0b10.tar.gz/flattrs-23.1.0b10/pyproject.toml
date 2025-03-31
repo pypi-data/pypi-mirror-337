@@ -1,0 +1,21 @@
+[project]
+name= "flattrs"
+version= "23.1.0b10"
+
+[build-system]
+requires = ["setuptools", "wheel", "cython==3.0.12"]
+
+[tool.isort]
+profile = "black"
+
+[tool.coverage.run]
+parallel = true
+branch = true
+source = ["flattrs"]
+
+[tool.coverage.paths]
+source = ["src", ".nox/tests*/**/site-packages"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

@@ -1,0 +1,12 @@
+folium
+geopandas
+ipyleaflet
+numpy
+pytest
+requests
+
+[all]
+biospat[extra]
+
+[extra]
+pandas

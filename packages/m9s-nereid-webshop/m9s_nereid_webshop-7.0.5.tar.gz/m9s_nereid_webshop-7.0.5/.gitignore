@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Development environment
+/venv/
+/_venv/
+/.direnv/
+/.dbcache/
+
+# Distribution / packaging
+/bin/
+/build/
+/develop-eggs/
+/dist/
+/eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/*.egg
+/*.egg-info/
+/.eggs/
+/.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+/.tox/
+/.coverage
+/.coverage
+/.coverage.*
+/.coveragerc
+/coverage.*
+/.cache
+/nosetests.xml
+/TEST-*.xml
+/.pytest_cache/
+
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+/docs/build/
+/docs/_build/
+
+# Nereid
+app_local.py
+
+# editor artifacts and config
+*~
+.\#*
+\#*#
+*.swp
+.idea
+.spyproject
+*.code-workspace
+
+# platform artifacts
+.DS_store

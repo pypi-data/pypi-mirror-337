@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: deepcore
+Version: 1.0
+Summary: A short description of your library
+Author: vishal singh
+Author-email: vishalsinghomr@gmail.com
+Keywords: measurement of central tendency,library,python,mean,,median,mode,multimode
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary

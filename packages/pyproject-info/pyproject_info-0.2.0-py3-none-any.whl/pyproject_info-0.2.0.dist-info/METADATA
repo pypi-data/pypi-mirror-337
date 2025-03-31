@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: pyproject-info
+Version: 0.2.0
+Summary: A small library to read pyproject.toml files
+Author: halon176
+Author-email: acc.github@halon.cc
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# pyproject-info
+
+A Python package to extract metadata from a `pyproject.toml` file.

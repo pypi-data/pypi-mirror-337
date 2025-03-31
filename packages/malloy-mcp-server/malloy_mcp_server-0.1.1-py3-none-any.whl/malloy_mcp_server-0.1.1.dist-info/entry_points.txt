@@ -1,0 +1,2 @@
+[console_scripts]
+malloy-mcp-server = malloy_mcp_server:main

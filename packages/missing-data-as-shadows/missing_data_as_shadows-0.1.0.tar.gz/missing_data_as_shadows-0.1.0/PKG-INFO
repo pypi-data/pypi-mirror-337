@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: missing_data_as_shadows
+Version: 0.1.0
+Summary: Vizualize missing data as shadows
+Author-email: Andrej Suba <andrej69931@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: numpy

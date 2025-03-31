@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Datasis.egg-info/PKG-INFO
+Datasis.egg-info/SOURCES.txt
+Datasis.egg-info/dependency_links.txt
+Datasis.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-greeting = mcp_greeting.server:main

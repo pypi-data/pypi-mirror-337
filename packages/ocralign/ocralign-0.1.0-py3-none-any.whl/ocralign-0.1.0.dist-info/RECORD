@@ -1,0 +1,8 @@
+ocralign/__init__.py,sha256=zCYSAE8C3fYrFG9O3iG29QtLFJp9ez4QkoJY60ctxg0,127
+ocralign/ocr.py,sha256=-rj5ZFv2cVrHrx1wWkkjPx6SrVSsGIR03t2boK72Nfs,1868
+ocralign/tess_align.py,sha256=r8BqHh-q2wShiMo70e9Aa3ECmxd6kZNc2ArsbfXOJlU,5106
+ocralign-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ocralign-0.1.0.dist-info/METADATA,sha256=FHa91mjfhQJP2_fLgKZd9_j9GKSeeAWFvzNFOOHHHxA,16425
+ocralign-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ocralign-0.1.0.dist-info/top_level.txt,sha256=WwJ1p0yPbD_bApSQy3uYOMkHZbn1Bzhz8G1yTvZo-V4,9
+ocralign-0.1.0.dist-info/RECORD,,

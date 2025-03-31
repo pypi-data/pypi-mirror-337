@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-sql-server = mcp_sql_server:main

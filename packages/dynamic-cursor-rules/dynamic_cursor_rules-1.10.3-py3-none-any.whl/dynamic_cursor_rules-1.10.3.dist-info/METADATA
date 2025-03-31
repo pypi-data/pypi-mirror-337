@@ -1,0 +1,486 @@
+Metadata-Version: 2.4
+Name: dynamic-cursor-rules
+Version: 1.10.3
+Summary: Generate and manage documentation and task tracking for Cursor IDE projects
+Home-page: https://github.com/cursor-rules/cursor-rules
+Author: Cursor Rules Team
+Author-email: info@cursorrules.dev
+Project-URL: Bug Tracker, https://github.com/cursor-rules/cursor-rules/issues
+Project-URL: Documentation, https://github.com/cursor-rules/cursor-rules#readme
+Project-URL: Source Code, https://github.com/cursor-rules/cursor-rules
+Keywords: cursor,ide,documentation,rules,ai,tasks,project-management
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: markdown>=3.3.0
+Requires-Dist: gitpython>=3.1.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: anthropic>=0.5.0
+Requires-Dist: colorama>=0.4.4
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: yaspin>=2.3.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Cursor Rules
+
+A high-performance framework for managing custom instructions and development workflows for AI assistants within the Cursor IDE.
+
+## Installation
+
+```bash
+# Standard installation
+pip install dynamic-cursor-rules
+
+# Installation with LLM support (required for most features)
+pip install dynamic-cursor-rules[llm]
+```
+
+## Core Workflow
+
+Cursor Rules helps structure AI-assisted development by generating foundational documents, creating context-specific AI rules, and managing development phases.
+
+1.  **Initialize Project (`cursor-rules documents`)**: Start by generating a suite of project documents from an initialization file (e.g., `project_init.md`). This creates:
+    *   `documentation/product_requirements.md` (PRD)
+    *   `documentation/technical_stack.md`
+    *   `documentation/action_items.md` (Task checklist)
+    *   `documentation/action_items.json` (Machine-readable tasks, if parsing succeeds)
+    *   `documentation/development_log.md`
+    *   Optionally: `api_documentation.md`, `backend_structure.md`, etc.
+    *   Initial AI rules in `.cursor/rules/` based on the project context.
+2.  **Start a Phase (`cursor-rules start-phase`)**: Select a phase from `action_items.md` (e.g., `"Project Setup"`) to begin work. This command:
+    *   Generates a detailed `documentation/Phase_X_Implementation_Plan.md` using an LLM.
+    *   Creates/Updates `.cursor/rules/Current_Phase_Focus.mdc`, an `alwaysApply: true` rule telling the AI the current focus and referencing the implementation plan.
+3.  **Develop with AI:** Work on the tasks for the current phase, leveraging the AI assistant. The `Current_Phase_Focus.mdc` and other relevant rules (matched by `globs`) provide context to the AI.
+4.  **Complete a Phase (`cursor-rules complete-phase`)**: Once the phase's tasks are done, run this command. It:
+    *   Marks the corresponding phase's tasks as complete (`[x]`) in `documentation/action_items.md`.
+    *   Appends a completion record to `documentation/development_log.md`.
+    *   Removes the `.cursor/rules/Current_Phase_Focus.mdc` rule.
+5.  **Repeat:** Use `start-phase` for the next phase in `action_items.md`.
+
+## Document Generation
+
+The `documents` command bootstraps the project documentation using an LLM.
+
+```bash
+# Generate all documentation from an initialization document
+cursor-rules documents path/to/your/project_init.md -o /path/to/project/root
+```
+
+This command generates the core documents and initial Cursor rules based on the provided initialization file. It uses a PRD-centric approach, where the generated PRD informs all subsequent document and rule creation.
+
+**Generated Files:**
+
+*   `documentation/`: Contains PRD, Tech Stack, Action Items (MD/JSON), Dev Log, and any generated optional documents (API docs, etc.).
+*   `.cursor/rules/`: Contains AI instruction rules (`.mdc` files) tailored to the project.
+
+## Cursor AI Rules (`.mdc` Files)
+
+These files, stored in `.cursor/rules/`, guide the AI assistant.
+
+### Rule Structure (YAML Front Matter)
+
+Each `.mdc` file **must** start with YAML front matter enclosed in `---`:
+
+```yaml
+---
+description: A clear, semantic description of WHEN and WHY this rule applies. Used by the AI to determine relevance, especially when alwaysApply is false. (Required, plain text)
+globs: path/glob/**/*.py, another/pattern/*.js # Comma-separated string of file globs this rule applies to. (Required)
+alwaysApply: false # Use lowercase 'true' or 'false'. true = always apply; false = apply based on globs/description. (Required)
+---
+# Rule Title (Human Readable)
+
+## Rule Content Section 1
+
+- Use standard Markdown for detailed instructions.
+- Provide actionable guidance (Do this, avoid that).
+- Include project-specific context.
+
+### Good Example:
+\`\`\`python
+# Code demonstrating the desired pattern
+print("Hello")
+\`\`\`
+
+### Bad Example:
+\`\`\`python
+# Code demonstrating an anti-pattern
+pass # Avoid empty blocks
+\`\`\`
+
+## Rule Content Section 2
+... more guidance ...
+
+## File Context References
+# Point to relevant files in your codebase or other rule files
+@file: src/core/utils.py
+@file: .cursor/rules/Python_Backend_Rules.mdc
+
+```
+
+### Key Concepts:
+
+*   **`description`**: Essential for AI understanding. Explains purpose and applicability.
+*   **`globs`**: Triggers automatic attachment when working on matching files (if `alwaysApply: false`). Use specific patterns. Comma-separated string.
+*   **`alwaysApply`**: If `true`, the rule is always active. If `false`, depends on `globs` and AI assessment based on `description`. Use lowercase `true`/`false`.
+*   **`# Title` & Content**: Human-readable title and Markdown instructions appear *after* the closing `---`.
+*   **`@file:`**: Crucial for providing concrete examples from the codebase or chaining related rules.
+
+### Generated Rules:
+
+The `documents` command generates initial rules like:
+
+*   `General_Project_Guidelines.mdc` (`alwaysApply: true`, includes project summary, phase, goals, structure)
+*   Technology-specific rules (e.g., `Python_Backend_Rules.mdc`, `React_Frontend_Rules.mdc`) based on detected stack (`alwaysApply: false`, specific `globs`).
+*   Core standard rules (`Testing_Guidelines.mdc`, `Security_Best_Practices.mdc`, etc.) (`alwaysApply: false`, relevant `globs`).
+
+### Phase Focus Rule:
+
+The `start-phase` command creates/overwrites `.cursor/rules/Current_Phase_Focus.mdc` (`alwaysApply: true`) to provide the AI with specific strategic guidance for the active development phase, linking to the detailed implementation plan. This file is removed by `complete-phase`.
+
+## Phase Management CLI
+
+Manage the development workflow phases:
+
+```bash
+# Start work on a specific phase from action_items.md
+# (Use the exact phase title string as the identifier)
+cursor-rules start-phase "Project Setup and Environment Configuration"
+
+# Mark a phase as completed
+cursor-rules complete-phase "Project Setup and Environment Configuration"
+```
+
+*   **`start-phase`**: Generates a detailed `Phase_X_Implementation_Plan.md` and the `Current_Phase_Focus.mdc` rule.
+*   **`complete-phase`**: Updates checkboxes in `action_items.md`, updates `development_log.md`, removes `Current_Phase_Focus.mdc`.
+
+*(Note: The automatic updating of checkboxes in `action_items.md` relies on parsing the Markdown file generated by the LLM. Verify its accuracy after running `complete-phase`.)*
+
+## LLM Configuration
+
+Configure API keys for LLM providers (required for document generation and phase management features).
+
+```bash
+# Set up OpenAI API key
+cursor-rules llm config --provider openai --api-key YOUR_OPENAI_KEY
+
+# Set up Anthropic API key
+cursor-rules llm config --provider anthropic --api-key YOUR_ANTHROPIC_KEY
+
+# List configured providers where keys are stored
+cursor-rules llm list
+
+# Test connectivity to configured providers
+cursor-rules llm test
+```
+
+Alternatively, use environment variables (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`).
+
+## Features Summary
+
+*   **LLM-Powered Document Generation:** Creates PRD, Tech Stack, Action Items (MD & JSON attempt), Dev Log, and optional docs from an initialization file.
+*   **Context-Aware Rule Generation:** Creates `.cursor/rules/` with foundational and tech-specific rules using LLM, based on project context.
+*   **YAML Front Matter Rules:** Supports the modern `.mdc` format with `description`, `globs`, `alwaysApply`.
+*   **Phase Management CLI:** `start-phase` and `complete-phase` commands to structure workflow.
+*   **Dynamic AI Focus:** Automatically generates/removes an `alwaysApply: true` rule (`Current_Phase_Focus.mdc`) to guide the AI based on the active development phase.
+*   **Action Item Checklists:** Generates `action_items.md` with interactive Markdown checkboxes.
+*   **LLM Configuration:** Easy CLI commands to set up and test API keys.
+
+## License
+
+MIT
+
+## Features
+
+- Parse rules from Markdown, YAML, and JSON formats
+- Prioritize and tag rules for contextual application
+- Validate rule sets to ensure correctness
+- Apply rules within AI assistant workflows
+- Generate `.cursorrules` files for Cursor IDE integration
+- Extract and track tasks from project initialization documents
+- Generate complete documentation suites from initialization documents
+- Beautiful, interactive CLI with progress indicators and visual feedback
+- Simple and elegant API
+- Integration with LLM providers (OpenAI, Anthropic)
+
+## Rule Management
+
+### Markdown Format
+
+```markdown
+# My Rules
+
+Rules for my AI assistant
+
+## Be Concise
+
+Keep responses short and to the point.
+
+## Use Examples
+
+Provide concrete examples when explaining concepts.
+```
+
+### YAML
+
+```yaml
+name: My Rules
+description: Rules for my AI assistant
+rules:
+  - id: be_concise
+    content: Keep responses short and to the point.
+    priority: 10
+    tags: [style]
+  - id: use_examples
+    content: Provide concrete examples when explaining concepts.
+    priority: 5
+    tags: [teaching]
+```
+
+## Task Tracking
+
+Cursor Rules can extract and manage tasks from project initialization documents:
+
+```python
+from cursor_rules import extract_action_plan_from_doc, synchronize_with_cursorrules
+
+# Extract tasks from a markdown project document
+action_plan = extract_action_plan_from_doc("project_init.md")
+
+# List tasks by phase
+for phase in action_plan.phases:
+    print(f"Phase: {phase.title}")
+    for task in phase.tasks:
+        print(f"- {task.title} [Status: {task.status.name}]")
+
+# Update task status
+task = action_plan.get_task_by_id("task_id")
+if task:
+    task.status = TaskStatus.COMPLETED
+
+# Save the action plan to a file
+action_plan.save_to_file("project_tasks.json")
+
+# Load an action plan from a file
+loaded_plan = ActionPlan.load_from_file("project_tasks.json")
+
+# Sync with a ruleset
+ruleset = RuleSet.load("project_rules.json")
+synchronize_with_cursorrules(action_plan, ruleset)
+```
+
+### Command Line Interface
+
+You can also manage tasks from the command line:
+
+```bash
+# Generate an action plan from a markdown file
+cursor-tasks generate project_init.md -o project_tasks.json
+
+# List all tasks
+cursor-tasks list -f project_tasks.json
+
+# List tasks by phase
+cursor-tasks list -f project_tasks.json -p "Backend Development"
+
+# Update task status
+cursor-tasks update -f project_tasks.json -t task_id -s completed
+
+# Sync with a ruleset
+cursor-tasks sync -f project_tasks.json -r project_rules.json
+```
+
+## Document Generation
+
+Cursor Rules can generate a complete set of project documentation from a single initialization document:
+
+```python
+from cursor_rules import DocumentGenerator
+
+# Create a document generator
+generator = DocumentGenerator("project_init.md")
+
+# Generate all documents
+generated_files = generator.generate_all_documents()
+
+# Print the paths to generated files
+for doc_name, file_path in generated_files.items():
+    print(f"{doc_name}: {file_path}")
+```
+
+The generated documentation includes:
+
+- **Product Requirements Document (PRD)**: Contains project vision, target users, user stories, and requirements
+- **Technical Stack Document**: Details the technology stack, architecture, and development environment based on the PRD
+- **.cursorrules file**: Provides project-specific rules for Cursor IDE derived from the PRD
+- **Action Items**: Structured development tasks organized by implementation phases
+
+### Document Generation Architecture
+
+Cursor Rules uses a strict PRD-centric document generation approach:
+
+1. The initialization document is first parsed to create a comprehensive PRD
+2. The PRD then becomes the single source of truth for all other documents
+3. Action items are generated exclusively from the PRD, never from the initialization document
+4. The generation process requires LLM capabilities and will fail explicitly rather than using fallbacks
+5. All tasks and subtasks represent actual development work, organized by implementation phases
+6. This strict sequential workflow ensures consistency across all project documentation
+
+### Dynamic Rules
+
+Cursor Rules includes a powerful dynamic rules system that automatically adapts to your project's changing state:
+
+```python
+from cursor_rules import DynamicRuleManager, ProjectState, ProjectPhase, Component
+
+# Create a project state
+project_state = ProjectState(
+    name="My Project",
+    description="A dynamic project",
+    phase=ProjectPhase.SETUP,
+    tech_stack={"frontend": ["React"], "backend": ["Node.js"]}
+)
+
+# Create a dynamic rule manager
+rule_manager = DynamicRuleManager("/path/to/project", project_state)
+
+# Generate rules based on current project state
+rule_files = rule_manager.generate_dynamic_rules()
+
+# Update the project state as development progresses
+rule_manager.update_project_state(
+    phase=ProjectPhase.FEATURE_DEVELOPMENT,
+    active_features=["authentication", "dashboard"]
+)
+
+# Regenerate rules to reflect the new state
+updated_rule_files = rule_manager.generate_dynamic_rules()
+```
+
+#### Key Features of Dynamic Rules
+
+1. **Project State Tracking**: Monitors project phase, active features, components, and tech stack
+2. **Adaptive Rule Generation**: Creates different rule sets based on the current project state
+3. **Code Change Detection**: Automatically detects changes in the codebase and updates rules accordingly
+4. **Phase-Specific Rules**: Different rules for different project phases (setup, development, refinement, etc.)
+5. **Rule Versioning**: Maintains history of previous rule versions for reference and rollback
+6. **Component-Aware Rules**: Generates specific rules for different components of your application
+
+#### Command Line Interface
+
+```bash
+# Update project state and regenerate rules
+cursor-rules update-rules --phase feature_development --features "auth,dashboard"
+
+# View current project state
+cursor-rules state
+
+# Force regeneration of all rules
+cursor-rules update-rules --force
+```
+
+### Command Line Interface
+
+Generate documents with a beautiful, interactive interface:
+
+```bash
+# Generate all documentation from an initialization document
+cursor-rules documents project_init.md
+```
+
+This creates:
+- A `.cursor` directory at the root with the `.cursorrules` file
+- A `documentation` directory with all project documents (PRD, Technical Stack, Tasks)
+- A `development-log.md` file to track changes
+
+## License
+
+MIT
+
+## Examples
+
+The package includes several example scripts to demonstrate its functionality:
+
+```bash
+# Complete workflow example demonstrating all features
+python examples/complete_workflow_example.py
+
+# Document generation from initialization document
+python examples/document_generation_example.py
+
+# Task manager example
+python examples/task_manager_example.py
+
+# Rule generation example
+python examples/rule_generation_example.py
+```
+
+These examples demonstrate key features like:
+- Generating `.cursorrules` files from markdown documents
+- Creating complete documentation suites (PRD, Technical Stack, Tasks)
+- Extracting and managing tasks
+- Versioning `.cursorrules` files
+- Monitoring codebase changes
+- Working with LLM providers 
+
+## API Key Configuration
+
+For features that use LLM integration, you need to configure your API keys:
+
+```bash
+# Set up OpenAI API key
+cursor-rules llm config --provider openai --api-key your_key_here
+
+# Set up Anthropic API key
+cursor-rules llm config --provider anthropic --api-key your_key_here
+
+# List configured providers
+cursor-rules llm list
+
+# Test your configuration
+cursor-rules llm test
+```
+
+You can also use environment variables:
+
+```bash
+# Linux/macOS
+export OPENAI_API_KEY=your_key_here
+export ANTHROPIC_API_KEY=your_key_here
+
+# Windows PowerShell
+$env:OPENAI_API_KEY = "your_key_here"
+$env:ANTHROPIC_API_KEY = "your_key_here"
+```
+
+For detailed instructions, see the [API Key Setup Guide](docs/api_key_setup.md). 

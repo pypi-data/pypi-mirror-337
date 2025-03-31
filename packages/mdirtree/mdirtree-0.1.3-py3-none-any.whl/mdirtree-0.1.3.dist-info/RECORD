@@ -1,0 +1,13 @@
+mdirtree/__init__.py,sha256=hUzhDS-77uGx6lAIkXRsZsydkm-5WX6VA5hd5Jee40w,273
+mdirtree/_version.py,sha256=YjePw6n5ExH_1cX5d9D3Ut7eVPbi2q1-S8lsQvi3uqI,465
+mdirtree/cli.py,sha256=f4VpqxcddI7jA4YeVXmJcvhZCBROK9h40wrOhyMY9is,2925
+mdirtree/generator.py,sha256=rTfGOS-PsSdccLwXh9Q9HbuxeEWb5ohUvkEmo6h2lBs,12981
+mdirtree/examples/rest_examples.py,sha256=7Z1_H_XD1BYGhmlYbUpGHbpNXRSirBbyPzg1CuEuRsk,1052
+mdirtree/rest/client.py,sha256=ocqWOF8A6deIDmqQMl1-MZv-wRqJpWpVe7pPIUFame8,1312
+mdirtree/rest/server.py,sha256=NLRXmYysuNkwxKSNJJ5PN4Osx4oK6mUkDCScHGXJtGk,1517
+mdirtree-0.1.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mdirtree-0.1.3.dist-info/METADATA,sha256=X3L9X9fK4rRwY35tFhqjx9B6kJYHxLNF1pCcFW2rdJc,4287
+mdirtree-0.1.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mdirtree-0.1.3.dist-info/entry_points.txt,sha256=bj33noRls-W-IDrgsmCrFOcoD-JqXK5t_16kG5ypZ5Q,47
+mdirtree-0.1.3.dist-info/top_level.txt,sha256=g2jMH4puhzQrn7f6Ac6pxqWLofalzzcWgEgpiicj5Eo,9
+mdirtree-0.1.3.dist-info/RECORD,,

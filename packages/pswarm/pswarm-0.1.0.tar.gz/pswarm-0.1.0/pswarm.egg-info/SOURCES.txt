@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pso_optimizer/PSO.py
+pso_optimizer/__init__.py
+pso_optimizer/utils.py
+pswarm.egg-info/PKG-INFO
+pswarm.egg-info/SOURCES.txt
+pswarm.egg-info/dependency_links.txt
+pswarm.egg-info/requires.txt
+pswarm.egg-info/top_level.txt

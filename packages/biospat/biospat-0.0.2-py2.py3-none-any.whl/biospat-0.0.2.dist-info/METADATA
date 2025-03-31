@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: biospat
+Version: 0.0.2
+Summary: Biodiversity Spatial Analysis - A python package to characterize the ecosystem function, traits, and diversity of populations of a species across its range.
+Author-email: Alivia Nytko <anytko@vols.utk.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/anytko/biospat
+Keywords: biospat
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: folium
+Requires-Dist: geopandas
+Requires-Dist: ipyleaflet
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: requests
+Provides-Extra: all
+Requires-Dist: biospat[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+Dynamic: license-file
+
+# biospat
+
+
+[![image](https://img.shields.io/pypi/v/biospat.svg)](https://pypi.python.org/pypi/biospat)
+[![image](https://img.shields.io/conda/vn/conda-forge/biospat.svg)](https://anaconda.org/conda-forge/biospat)
+
+
+
+**Biodiversity Spatial Analysis - A python package to characterize the ecosystem function, traits, and diversity of populations of a species across its range.**
+
+
+-   Free software: MIT License
+-   Documentation: https://anytko.github.io/biospat
+
+
+## Features
+
+-  Visualize species' ranges at multiple spatial scales
+-  Characterize leading edges, trailing edges, and core distributions from a species' range
+-  Identify the ecosystem function, traits, genetic diversity, and evolutionary potential of populations across a species' range

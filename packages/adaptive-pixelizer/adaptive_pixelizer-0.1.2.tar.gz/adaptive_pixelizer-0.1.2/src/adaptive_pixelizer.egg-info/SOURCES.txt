@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/adaptive_pixelizer/__init__.py
+src/adaptive_pixelizer/commands.py
+src/adaptive_pixelizer/image_label.py
+src/adaptive_pixelizer/image_utils.py
+src/adaptive_pixelizer/main_window.py
+src/adaptive_pixelizer.egg-info/PKG-INFO
+src/adaptive_pixelizer.egg-info/SOURCES.txt
+src/adaptive_pixelizer.egg-info/dependency_links.txt
+src/adaptive_pixelizer.egg-info/entry_points.txt
+src/adaptive_pixelizer.egg-info/requires.txt
+src/adaptive_pixelizer.egg-info/top_level.txt

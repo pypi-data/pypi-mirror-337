@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: lyymoot
+Version: 1.15
+Summary: lyymoot for lyy
+Author: yy
+Author-email: 
+License: MIT
+License-File: LICENSE
+Dynamic: author
+Dynamic: license
+Dynamic: summary

@@ -1,0 +1,20 @@
+
+Prioridad Alta
+==============
+
+
+Prioridad baja
+==============
+
+Actualizar la documentación del modelo de datos.
+
+NUEVO TESSDB
+------------
+
+* rescribir el subpaquete service para que solo haya que importar "application" como twisted
+* Implementar Prodcuer/Consumer
+- MQTT Peoducer > Filtro (Producer/Consumer) => Database(consumer)
+- No se si hará falta el pypubsub para otros eventos relacionados
+* En cada servicio consumer habra una Deferred queue.
+   * Si la BD se satura, pausar hacia atras, hasta que se tiren paquetes de MQTT
+

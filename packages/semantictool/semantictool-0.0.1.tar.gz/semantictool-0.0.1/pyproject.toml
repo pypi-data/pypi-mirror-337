@@ -1,0 +1,23 @@
+[project]
+name = "semantictool"
+version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "easymcp>=0.3.0",
+    "fastapi>=0.115.12",
+    "mcp>=1.6.0",
+    "pyyaml>=6.0.2",
+    "uvicorn>=0.34.0",
+]
+
+[project.scripts]
+semantictool = "semantictool:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

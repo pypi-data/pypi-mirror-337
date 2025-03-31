@@ -1,0 +1,10 @@
+GeoBay/GeoBay.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+GeoBay/__init__.py,sha256=J59rYWYwxgAF3A9mqh1KCqfendGIrxSiR-JrJgGEbZ8,127
+GeoBay/common.py,sha256=Rw6d9qmZDu3dUGTyJto1Y97S7-QA-m2p-pbCNvMDrm4,184
+geobay-0.0.1.dist-info/licenses/LICENSE,sha256=-amjT_r7Hb-ntz4xVqeIlhlBR7FlsLkXALRbmHPHPe0,1069
+tests/__init__.py,sha256=buRDUidPrbf0IJjOknQeJ52eLNULD88fBvKjYkYK5ik,36
+tests/test_geobay.py,sha256=mNLXdQ6by57fm6a-3WUijpoo5ACPwmd-Zn5FrHK3_4g,382
+geobay-0.0.1.dist-info/METADATA,sha256=uSMzoPK3qyOdnbWhMbk9LfjK5vk1q22ee-juMi49-I8,398
+geobay-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+geobay-0.0.1.dist-info/top_level.txt,sha256=QJW36NGnHX0eNOKifrFmIrEpSrPyZmC3m6DJHh9Pofg,13
+geobay-0.0.1.dist-info/RECORD,,

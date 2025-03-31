@@ -1,0 +1,13 @@
+README.md
+setup.py
+it_assistant.egg-info/PKG-INFO
+it_assistant.egg-info/SOURCES.txt
+it_assistant.egg-info/dependency_links.txt
+it_assistant.egg-info/requires.txt
+it_assistant.egg-info/top_level.txt
+main/__init__.py
+main/ailyapp_client.py
+main/do_ai.py
+main/intent_detail.py
+main/lark_client.py
+main/logger.py

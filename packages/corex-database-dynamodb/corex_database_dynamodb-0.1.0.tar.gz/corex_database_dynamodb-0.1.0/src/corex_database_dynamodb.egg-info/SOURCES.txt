@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-database-dynamodb/__init__.py
+src/corex-database-dynamodb/handler.py
+src/corex_database_dynamodb.egg-info/PKG-INFO
+src/corex_database_dynamodb.egg-info/SOURCES.txt
+src/corex_database_dynamodb.egg-info/dependency_links.txt
+src/corex_database_dynamodb.egg-info/top_level.txt
+tests/test_handler.py

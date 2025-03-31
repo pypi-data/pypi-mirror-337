@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+FastAPIBig/__init__.py
+FastAPIBig/cli.py
+FastAPIBig.egg-info/PKG-INFO
+FastAPIBig.egg-info/SOURCES.txt
+FastAPIBig.egg-info/dependency_links.txt
+FastAPIBig.egg-info/entry_points.txt
+FastAPIBig.egg-info/requires.txt
+FastAPIBig.egg-info/top_level.txt

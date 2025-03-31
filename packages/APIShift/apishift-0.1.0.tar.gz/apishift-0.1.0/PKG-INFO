@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: APIShift
+Version: 0.1.0
+Summary: A package for managing multiple LLM providers with automatic key shifting to bypass rate limits and quotas while maintaining conversation context
+Home-page: https://github.com/Aditya190803/APIShift
+Author: Aditya190803
+Author-email: adityamer.work@gmail.com
+Keywords: llm api management multi-provider
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: gemini
+Requires-Dist: google-generativeai; extra == "gemini"
+Provides-Extra: groq
+Requires-Dist: groq; extra == "groq"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# APIShift
+
+## Overview
+
+APIShift is a Python package that enables seamless interaction with multiple free-tier language model (LLM) providers.
+
+## Installation
+
+```bash
+pip install APIShift
+```
+
+## Quick Start
+
+```python
+from APIShift import Conversation
+from APIShift import GeminiProvider, OpenRouterProvider
+
+# Initialize providers with API keys
+gemini_keys = ['your_gemini_api_key1', 'your_gemini_api_key2']
+openrouter_keys = ['your_openrouter_api_key1', 'your_openrouter_api_key2']
+
+# Create a conversation with multiple providers
+conversation = Conversation([
+    GeminiProvider(gemini_keys),
+    OpenRouterProvider(openrouter_keys)
+])
+
+# Send messages
+response = conversation.send_message("Hello, how are you?")
+print(response)
+```
+
+## Using FAISS for Context Retrieval
+
+APIShift now supports using FAISS for context retrieval. This allows you to add messages to a FAISS index and retrieve contextually relevant messages during a conversation.
+
+### Example
+
+```python
+from APIShift import Conversation
+from APIShift import GeminiProvider, OpenRouterProvider
+
+# Initialize providers with API keys
+gemini_keys = ['your_gemini_api_key1', 'your_gemini_api_key2']
+openrouter_keys = ['your_openrouter_api_key1', 'your_openrouter_api_key2']
+
+# Create a conversation with multiple providers
+conversation = Conversation([
+    GeminiProvider(gemini_keys),
+    OpenRouterProvider(openrouter_keys)
+])
+
+# Add messages to FAISS index
+conversation.add_to_faiss("Hello, how are you?")
+conversation.add_to_faiss("What is the weather like today?")
+
+# Send messages and retrieve context
+response = conversation.send_message("Tell me about the weather.")
+print(response)
+```
+
+## More details coming soon...

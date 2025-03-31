@@ -1,0 +1,13 @@
+README.md
+setup.py
+APIShift/__init__.py
+APIShift/conversation.py
+APIShift/exceptions.py
+APIShift/providers.py
+APIShift.egg-info/PKG-INFO
+APIShift.egg-info/SOURCES.txt
+APIShift.egg-info/dependency_links.txt
+APIShift.egg-info/requires.txt
+APIShift.egg-info/top_level.txt
+tests/__init__.py
+tests/test_conversation.py

@@ -1,0 +1,7 @@
+requests
+
+[gemini]
+google-generativeai
+
+[groq]
+groq

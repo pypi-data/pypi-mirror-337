@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+model_inspect/__init__.py
+model_inspect/cli.py
+model_inspect.egg-info/PKG-INFO
+model_inspect.egg-info/SOURCES.txt
+model_inspect.egg-info/dependency_links.txt
+model_inspect.egg-info/entry_points.txt
+model_inspect.egg-info/requires.txt
+model_inspect.egg-info/top_level.txt

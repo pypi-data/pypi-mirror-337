@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: textism
+Version: 1.0
+Summary: Convert textism
+Home-page: https://kwrpgs.online
+Author: Allen_Lee
+Author-email: paranelf66@gmail.com
+Project-URL: Bug Tracker, https://kwrpgs.online
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# Example textism
+
+from textism.textism import TEXTISM
+
+textism = TEXTISM
+
+message = "안녕하세요"
+convert = textism.convert_message(message)
+print(convert)

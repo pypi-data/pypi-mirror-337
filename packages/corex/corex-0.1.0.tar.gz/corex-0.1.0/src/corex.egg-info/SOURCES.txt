@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/corex.egg-info/PKG-INFO
+src/corex.egg-info/SOURCES.txt
+src/corex.egg-info/dependency_links.txt
+src/corex.egg-info/top_level.txt

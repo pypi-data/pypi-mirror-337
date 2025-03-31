@@ -1,0 +1,18 @@
+midii/__init__.py,sha256=XDJRk9eBABSkP7hWd2kew1LNqdhs3r0yCmsEbdleSqE,71
+midii/midii.py,sha256=C1fY6kLZtwQI74tS6IPZYL3pC7i5MPaMgS5SG5e-KvY,25245
+midii/note.py,sha256=yT865Ha-iUREpyuHsYkD35NhCQDN00yDuS2mrH20kzs,8586
+midii/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+midii/test_midii.py,sha256=7s3mbvuxSSA-lXbUGV7sHRnXdRY4mxBptNgX5c8p69o,99
+midii/sample/__init__.py,sha256=r6ZsrJAk23ywGyPDEKYqfsDxhkAaSruHCRYlsf8PcmM,219
+midii/sample/dataset/SINGER_16_10TO29_CLEAR_FEMALE_BALLAD_C0632.mid,sha256=knJcO4G_7xoVmj7Ur7PrZQGJnT0LqPfdPi1z-JlaJZ4,7862
+midii/sample/dataset/SINGER_66_30TO49_HUSKY_MALE_DANCE_C2835.mid,sha256=-OcZKHHtSvb9EJUZtioH-GnqH4AWYBXX3_nhdmgiUMw,9384
+midii/sample/dataset/ba_05688_-4_a_s02_m_02.mid,sha256=U3HAfFdAhcJRxt_DTbUliBQ0XgBXFQPZFaoq3D8J2-o,4813
+midii/sample/dataset/ba_09303_+0_a_s02_m_02.mid,sha256=PqnMj3A6toOBgNRHZ1piXosJ9BaGysmI4ZJQGen19zM,4504
+midii/sample/real/98_Necro (D#Min 142) Keys -12.mid,sha256=MDCBXWb_cMTHUsT0ncyJoLNY9MxGuFxcQtKCCpC7VWs,502
+midii/sample/real/그리움만쌓이네.mid,sha256=mvx6p4VhHtSL6uMSlceTwflNMLgtozbNK420-wlQOT4,18741
+midii/sample/real/남광진_편지.mid,sha256=Dmew2x0G4Vp5jzehDDQCwYInTNIgT_x0rXidieg8YGo,3478
+midii/sample/real/짠짜라-장윤정.mid,sha256=cvtpijprX6mVNLw--N-M_lIGvijW-6S81TbL3426Yeg,25029
+midii-0.1.4.dist-info/METADATA,sha256=aONahvrJU3O7uqpSJC76I3Hrs0xiqGBnFuZhCNPjQbY,4022
+midii-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+midii-0.1.4.dist-info/licenses/LICENSE,sha256=z_g7aWLY1kFk_XZVoLU6tfTntRNVUR2RFI-oocitMnY,1087
+midii-0.1.4.dist-info/RECORD,,

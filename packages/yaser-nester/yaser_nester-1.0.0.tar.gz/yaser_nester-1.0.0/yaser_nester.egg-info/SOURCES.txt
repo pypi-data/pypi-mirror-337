@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+nester.py
+setup.py
+yaser_nester.egg-info/PKG-INFO
+yaser_nester.egg-info/SOURCES.txt
+yaser_nester.egg-info/dependency_links.txt
+yaser_nester.egg-info/top_level.txt

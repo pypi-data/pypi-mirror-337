@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/nnk_unzip/__init__.py
+src/nnk_unzip/__main__.py
+src/nnk_unzip.egg-info/PKG-INFO
+src/nnk_unzip.egg-info/SOURCES.txt
+src/nnk_unzip.egg-info/dependency_links.txt
+src/nnk_unzip.egg-info/entry_points.txt
+src/nnk_unzip.egg-info/requires.txt
+src/nnk_unzip.egg-info/top_level.txt

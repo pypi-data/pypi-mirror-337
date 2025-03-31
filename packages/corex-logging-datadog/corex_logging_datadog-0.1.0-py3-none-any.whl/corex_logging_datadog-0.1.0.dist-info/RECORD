@@ -1,0 +1,6 @@
+corex-logging-datadog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corex-logging-datadog/handler.py,sha256=F9mGBQI2Hoo5E25rXI-Qt2sdTG05rvR-kPYvV7AMKVw,268
+corex_logging_datadog-0.1.0.dist-info/METADATA,sha256=sgEr0N0qaRCZ7vimbr02TBiSi6S76vq2oqNdRS9RQHk,329
+corex_logging_datadog-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+corex_logging_datadog-0.1.0.dist-info/top_level.txt,sha256=AEgKooGTwnuguZ-BWty9SaD7e7cBkw41fSFWIqeb2cw,22
+corex_logging_datadog-0.1.0.dist-info/RECORD,,

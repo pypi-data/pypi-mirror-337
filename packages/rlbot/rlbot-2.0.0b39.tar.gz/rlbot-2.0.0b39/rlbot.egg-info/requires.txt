@@ -1,0 +1,2 @@
+rlbot_flatbuffers~=0.15.0
+psutil==7.*

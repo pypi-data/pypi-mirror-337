@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_embeddings-faiss/__init__.py
+src/corex-ai_embeddings-faiss/handler.py
+src/corex_ai_embeddings_faiss.egg-info/PKG-INFO
+src/corex_ai_embeddings_faiss.egg-info/SOURCES.txt
+src/corex_ai_embeddings_faiss.egg-info/dependency_links.txt
+src/corex_ai_embeddings_faiss.egg-info/top_level.txt
+tests/test_handler.py

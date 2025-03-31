@@ -1,0 +1,56 @@
+# pyproject.toml (新しいパッケージ名: adaptive-pixelizer)
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# --- パッケージ名の変更 ---
+name = "adaptive-pixelizer"    # PyPIでの名前 (ハイフン区切り、小文字)
+# -------------------------
+version = "0.2.0"              # 新しいパッケージとしての最初のバージョン
+authors = [
+  { name="tsuyoshi", email="tsuyo_suke.2112@icloud.com" }, # あなたの情報に書き換えてください
+]
+description = "A GUI tool to pixelate images by averaging colors within an interactively adaptable grid." # 説明を少し更新
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file="LICENSE" }
+keywords = ["image", "pixelate", "pixel art", "grid", "adaptive", "average color", "gui", "pyqt", "quantize"] # キーワード更新
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics :: Editors",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Environment :: X11 Applications :: Qt",
+]
+
+# 必須の依存関係 (変更なし)
+dependencies = [
+    "PyQt6 >= 6.4",
+    "Pillow >= 9.0",
+]
+
+# オプションの依存関係 (変更なし)
+[project.optional-dependencies]
+numpy = ["numpy >= 1.20"]
+
+# --- スクリプト設定の変更 ---
+[project.gui-scripts]
+# コマンド名もパッケージ名に合わせるのが分かりやすい
+adaptive-pixelizer = "adaptive_pixelizer.main_window:main"
+# ---------------------------
+
+# (任意) プロジェクトのURL (必要なら更新)
+# [project.urls]
+# "Homepage" = "https://github.com/yourusername/adaptive-pixelizer"
+# "Bug Tracker" = "https://github.com/yourusername/adaptive-pixelizer/issues"

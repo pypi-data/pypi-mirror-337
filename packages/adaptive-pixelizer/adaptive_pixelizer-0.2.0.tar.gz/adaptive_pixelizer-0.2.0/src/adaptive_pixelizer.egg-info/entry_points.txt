@@ -1,0 +1,2 @@
+[gui_scripts]
+adaptive-pixelizer = adaptive_pixelizer.main_window:main

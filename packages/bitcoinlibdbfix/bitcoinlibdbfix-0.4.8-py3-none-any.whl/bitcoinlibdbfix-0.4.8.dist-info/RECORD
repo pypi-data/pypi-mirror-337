@@ -1,0 +1,12 @@
+bitcoinlibdbfix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitcoinlibdbfix/cli.py,sha256=JTteJ_mWlr9kMupQ8IxbOev2GzdBc3BY35WjJiUtU0Q,4535
+bitcoinlibdbfix/db.py,sha256=M8Ph5aM8PpFApnQRhNEgIWq2cTCFenXWLtZUt_6HPwU,5783
+bitcoinlibdbfix/init.py,sha256=eEfhENE1w8suHfoMrzBxBf6wa7twA2eS1S2k-VLcXZE,249
+bitcoinlibdbfix/installer.py,sha256=0tluNmhYC4VsJi5eS9C-Ms5QiiAlQxawgVsRORobMek,2545
+bitcoinlibdbfix/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitcoinlibdbfix/wallet.py,sha256=1DJ1P28-qscxw-568538HEKo0C5xYvv_JI_KIeBy5OI,3002
+bitcoinlibdbfix-0.4.8.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitcoinlibdbfix-0.4.8.dist-info/METADATA,sha256=8DXggxkzxf5nGXE4bwh8cBAjduJYwrCflUvj7iow83c,1021
+bitcoinlibdbfix-0.4.8.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+bitcoinlibdbfix-0.4.8.dist-info/entry_points.txt,sha256=1LPp03UP6cciD1OGZlpuPRVp-FSChFt-045a70ObPCE,48
+bitcoinlibdbfix-0.4.8.dist-info/RECORD,,

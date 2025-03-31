@@ -1,0 +1,81 @@
+site_name: prometheus-virtual-metrics
+repo_url: https://github.com/fscherf/prometheus-virtual-metrics
+copyright: Copyright &copy; 2025 Florian Scherf
+
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+
+    # light
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # dark
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.expand
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - mkdocstrings
+  - autorefs
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.snippets:
+      base_path: "../"
+
+nav:
+  - "Home": index.md
+  - "Getting Started": getting-started.md
+  - "Plugin API": plugin-api.md
+  - "Settings": settings.md
+  - "Testing": testing.md
+
+  - Integrations:
+    - "Django": "integrations/django.md"
+
+  - Plugins:
+    - "CatchErrorsPlugin": plugins/catch-errors.md
+    - "BasicAuthPlugin": plugins/basic-auth.md
+    - "rlpythonPlugin": plugins/rlpython.md
+
+  - "Changelog": changelog.md

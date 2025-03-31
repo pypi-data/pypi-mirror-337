@@ -1,0 +1,10 @@
+tinyml_compress/__init__.py,sha256=t_gCyJpy54nPv2aior2je2XMvBikt0BYzZYxN6KqXuw,287
+tinyml_compress/convert.py,sha256=w7kJH7CGeNm86qoXwnD0-RekKaxbRH3esgUExM6b-e0,2730
+tinyml_compress/distill.py,sha256=G5zMzqvkuAbslKX4tlTchNOG7pRF-_4JqmO2--mLLxA,2396
+tinyml_compress/prune.py,sha256=Tgp2bXO1W-8RpcDgfWIFB01ai4EJYSYJCmrN2FxzbfA,684
+tinyml_compress/quant.py,sha256=Tj7UcWN9kTnu-1Fp-QovNF-pjXVoNcI8m6kXUc8dUgU,538
+tinyml_compress-1.0.0.dist-info/licenses/LICENSE,sha256=ti159QaMXpdFfOZwY8Y4MqcA-OO6dA9cbBpGOQW9MsI,1091
+tinyml_compress-1.0.0.dist-info/METADATA,sha256=f75RP0iMFc0KFYu6a98cNIHVUn8gwEV63XWwE4OBVOo,5257
+tinyml_compress-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+tinyml_compress-1.0.0.dist-info/top_level.txt,sha256=2i4bfP4rx_rf0hprdgcyxUkLL1QQtjOBCHreCaoqfQk,16
+tinyml_compress-1.0.0.dist-info/RECORD,,

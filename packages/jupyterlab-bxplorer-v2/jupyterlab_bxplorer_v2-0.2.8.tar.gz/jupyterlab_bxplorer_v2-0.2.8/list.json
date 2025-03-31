@@ -1,0 +1,164 @@
+{
+    "cwd": {
+        "name": "Root",
+        "isFile": false,
+        "path": "/",
+        "hasChild": true,
+        "type": "folder",
+        "size": "0.00 B",
+        "dateModified": "",
+        "region": ""
+    },
+    "files": [
+        {
+            "name": "apibaker-contexts",
+            "isFile": false,
+            "path": "/apibaker-contexts/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "cf-templates-1dma0ybhgwnrj-us-east-1",
+            "isFile": false,
+            "path": "/cf-templates-1dma0ybhgwnrj-us-east-1/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "dh-navteca",
+            "isFile": false,
+            "path": "/dh-navteca/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "eks-k8s-training",
+            "isFile": false,
+            "path": "/eks-k8s-training/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "hearmenow",
+            "isFile": false,
+            "path": "/hearmenow/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "main-demo-shared",
+            "isFile": false,
+            "path": "/main-demo-shared/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "navteca-argo-workflow-logs",
+            "isFile": false,
+            "path": "/navteca-argo-workflow-logs/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "opensciencestudio-dev.com",
+            "isFile": false,
+            "path": "/opensciencestudio-dev.com/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "opensciencestudio.com",
+            "isFile": false,
+            "path": "/opensciencestudio.com/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "parallelcluster-411fe27fb63a4435-v1-do-not-delete",
+            "isFile": false,
+            "path": "/parallelcluster-411fe27fb63a4435-v1-do-not-delete/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-2"
+        },
+        {
+            "name": "smce-pentest",
+            "isFile": false,
+            "path": "/smce-pentest/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "testingwithronald",
+            "isFile": false,
+            "path": "/testingwithronald/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "zajo",
+            "isFile": false,
+            "path": "/zajo/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "zappa-mytest--1",
+            "isFile": false,
+            "path": "/zappa-mytest--1/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        },
+        {
+            "name": "zappa-mytest--2",
+            "isFile": false,
+            "path": "/zappa-mytest--2/",
+            "hasChild": true,
+            "type": "folder",
+            "size": "-",
+            "dateModified": "-",
+            "region": "us-east-1"
+        }
+    ]
+}

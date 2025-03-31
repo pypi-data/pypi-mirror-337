@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: mini_transformer
+Version: 0.0.1
+Summary: An advanced minimal transformer component framework
+Project-URL: Repository, https://github.com/LemonAttn/mini_transformer
+Author-email: ztw <1837669410@qq.com>
+License: MIT
+License-File: LICENSE
+Keywords: GQA,MLA,artificial intelligence,attention mechanism,deep learning,rotary embedding,transformer
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Requires-Dist: einops>=0.8.1
+Requires-Dist: numpy>=2.2.4
+Description-Content-Type: text/markdown
+
+# mini_transformer

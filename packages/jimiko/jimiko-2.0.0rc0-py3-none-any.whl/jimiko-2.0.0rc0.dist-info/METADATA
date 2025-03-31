@@ -1,0 +1,276 @@
+Metadata-Version: 2.4
+Name: jimiko
+Version: 2.0.0rc0
+Summary: High-performance SSH and SFTPclient for network automation
+Home-page: https://github.com/jameshill/jimiko
+Author: James Hill
+Author-email: jmhill2@gmail.com
+Keywords: ssh sftp networking automation libssh2 paramiko netmiko
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-python
+Dynamic: summary
+
+# Jimiko
+
+A high-performance SSH client for network automation and device management, built with libssh2. Inspired by Paramiko and Netmiko, but with a focus on performance and non-blocking operations.
+
+## Features
+
+- Non-blocking SSH operations for high performance
+- Support for interactive shell sessions
+- Configurable timeouts and interrupt handling
+- Cross-platform support (macOS, Linux, Rhel)
+- Python 3.6+ compatibility
+- Optimized for network device automation
+- Support legacy unauthenicated network devices 
+- Built on libssh2 for maximum performance
+
+## Installation
+
+### Prerequisites
+
+#### Windows
+```bash
+# Using vcpkg
+vcpkg install libssh2:x64-windows
+```
+
+#### macOS
+```bash
+# Using Homebrew
+brew install libssh2
+```
+
+#### Linux (Debian/Ubuntu)
+```bash
+sudo apt-get install libssh2-1-dev
+```
+
+#### Linux (CentOS/RHEL)
+```bash
+sudo yum install libssh2-devel
+```
+
+### Installing the Package
+
+```bash
+pip install jimiko
+```
+
+## Usage Example
+
+```python
+from jimiko import PyJimikoClient
+
+# Create SSH client instance
+client = PyJimikoClient(
+    ip="192.168.1.1",
+    username="user",
+    password="pass",
+    expected_prompt="$"
+)
+
+# Connect to server
+client.connect()
+
+# Send command with timeout
+output = client.send("show version", command_timeout_ms=5000)
+print(output)
+
+# For TL1 devices (no initial auth)
+client = PyJimikoClient(
+    ip="192.168.1.2",
+    auth=False
+)
+client.connect()
+initial_output = client.get_initial_output()
+print(initial_output)
+
+# Disconnect
+client.disconnect()
+```
+
+## Why Jimiko?
+
+Jimiko similar features of Paramiko and Netmiko with high-performance C++ implementation:
+
+- **Performance**: Built on libssh2 with C++ for maximum speed
+- **Non-blocking**: All operations are non-blocking by default
+- **Timeouts**: Fine-grained timeout control for all operations
+- **Device Support**: Special support for network devices including non-authenicated ssh sessions
+- **Error Handling**: Robust error handling with specific exceptions
+- **Cross-Platform**: macOS and Linux
+
+## Development Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jameshill/jimiko.git
+cd jimiko
+```
+
+2. Install development dependencies:
+```bash
+pip install -r requirements-dev.txt
+```
+
+3. Build the extension:
+```bash
+python setup.py build_ext --inplace
+```
+
+## Building from Source
+
+### Windows
+```bash
+# Set VCPKG_ROOT environment variable
+set VCPKG_ROOT=C:\vcpkg\installed\x64-windows
+python setup.py build
+```
+
+### macOS/Linux
+```bash
+python setup.py build
+```
+
+## License
+
+MIT License
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request 
+
+# CentOS 7 Docker Build Environment for Jimiko
+
+This directory contains a Docker-based build environment for compiling Jimiko with static linking of libssh2 and OpenSSL for CentOS 7 compatibility.
+
+## Features
+
+- Based on Fedora 35 (producing binaries compatible with CentOS 7)
+- Python 3.9 environment built from source
+- Statically links libssh2 and OpenSSL with position independent code (-fPIC)
+- Produces portable binary wheels that work on CentOS 7/RHEL 7 systems
+
+## Prerequisites
+
+- Docker installed and running
+- Access to the Fedora Docker registry
+
+## Building the Docker Image
+
+From the root of the project:
+
+```bash
+docker build -t jimiko-centos7-builder -f docker/rhel7/Dockerfile .
+```
+
+## Using the Docker Image
+
+### Basic Usage
+
+To build the wheel using the Docker image:
+
+```bash
+# Run from the project root directory
+docker run --rm -v $(pwd):/app jimiko-centos7-builder
+```
+
+This will:
+1. Mount your project directory to `/app` in the container
+2. Modify the setup.py temporarily to use static linking
+3. Build the wheel
+4. Create a CentOS7-specific wheel with "-centos7" in the filename
+5. Extract the binary .so file and place it in src/jimiko with CentOS7-specific naming
+6. Place the resulting wheels in the `dist/` directory
+
+### Using docker-compose
+
+For convenience, a docker-compose.yml file is provided:
+
+```bash
+cd docker/rhel7
+docker-compose build  # Only needed first time or when Dockerfile changes
+docker-compose run --rm builder
+```
+
+This will build the wheel and place the outputs in both the project's dist directory and the docker/rhel7/output directory.
+
+### Specifying an Output Directory
+
+If you want to output the wheel to a different directory:
+
+```bash
+docker run --rm -v $(pwd):/app -v /path/to/output:/output -e OUTPUT_DIR=/output jimiko-centos7-builder
+```
+
+### Running Custom Commands
+
+If you need to run custom commands in the container:
+
+```bash
+docker run --rm -v $(pwd):/app -it jimiko-centos7-builder bash
+```
+
+This will give you an interactive shell in the container, where you can run commands manually.
+
+## Customizing the Build
+
+The Docker image includes:
+
+- Python 3.9.18 built from source
+- Modern GCC compiler from Fedora 35
+- OpenSSL 1.1.1w built from source with -fPIC
+- libssh2 1.11.0 built from source with -fPIC
+- Environment variables set for static linking
+
+If you need to customize the build process:
+
+1. Modify the `Dockerfile` to install additional dependencies
+2. Adjust the `build.sh` script to change how the wheel is built
+3. Rebuild the Docker image with your changes
+
+## Troubleshooting
+
+- If you encounter issues with the static libraries, check that the paths in `build.sh` match the actual paths in the container.
+- Make sure your project is properly mounted as a volume in the container.
+- For debugging, you can run the container with an interactive shell and execute build steps manually.
+- For "dangerous relocation" errors when linking static libraries, ensure they were compiled with -fPIC.
+- If you experience linker issues with Python, ensure that the Python shared libraries are in the LD_LIBRARY_PATH.
+
+## What Gets Created
+
+The build process creates several artifacts:
+
+1. A standard Python wheel in the `dist/` directory
+2. A CentOS7-specific wheel with "-centos7" in the filename (also in `dist/`)
+3. A platform-specific binary file in `src/jimiko/` named `_jimiko_wrapper.cpython-39-centos7.so`
+
+The extracted binary file is used when creating a universal wheel that includes binaries for multiple platforms. 

@@ -1,0 +1,10 @@
+examples/example.py,sha256=Fq4I_k6f_Ed-7ByOv7f0y5ABMou55Ee_FHad0HkkOiI,369
+signdne-0.0.11.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/_signDNE_cli.py,sha256=O8r1_782hmlbbVKZTCY28BjheFcCQtiggX8OSMO3g0M,4232
+src/signDNE.py,sha256=DehBK30_YgHSGJrZm3jN6WCQjk3FiGRMMDxJ1Xeap5U,6754
+signdne-0.0.11.dist-info/METADATA,sha256=MdUeuyaHxFwtv77ZK92VFBuwOj6uJPfkcvx0H9BMVyE,1810
+signdne-0.0.11.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+signdne-0.0.11.dist-info/entry_points.txt,sha256=qJ99MSH5FS0OYXy8IIY1UZhM5QwPdA1ghAlSWyXUNhc,50
+signdne-0.0.11.dist-info/top_level.txt,sha256=p0TAvVSQrXQSZqgu4dBGfvofHVeNuBkv1zoe7xta_Rg,13
+signdne-0.0.11.dist-info/RECORD,,

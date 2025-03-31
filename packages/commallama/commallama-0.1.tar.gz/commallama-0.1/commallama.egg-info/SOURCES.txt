@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+commallama/__init__.py
+commallama.egg-info/PKG-INFO
+commallama.egg-info/SOURCES.txt
+commallama.egg-info/dependency_links.txt
+commallama.egg-info/top_level.txt

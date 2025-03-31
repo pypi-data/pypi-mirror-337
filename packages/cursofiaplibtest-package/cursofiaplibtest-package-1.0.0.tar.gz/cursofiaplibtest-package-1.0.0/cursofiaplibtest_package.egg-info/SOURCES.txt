@@ -1,0 +1,5 @@
+setup.py
+cursofiaplibtest_package.egg-info/PKG-INFO
+cursofiaplibtest_package.egg-info/SOURCES.txt
+cursofiaplibtest_package.egg-info/dependency_links.txt
+cursofiaplibtest_package.egg-info/top_level.txt

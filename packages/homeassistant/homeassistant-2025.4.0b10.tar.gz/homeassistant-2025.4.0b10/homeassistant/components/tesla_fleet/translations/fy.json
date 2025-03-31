@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "sensor": {
+            "charge_state_charging_state": {
+                "state": {
+                    "stopped": "Stoppe"
+                }
+            },
+            "version": {
+                "name": "ferzje"
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "entity": {
+        "calendar": {
+            "birthdays": {
+                "name": "Birthdays"
+            },
+            "working_location": {
+                "name": "Working location"
+            }
+        }
+    },
+    "services": {
+        "add_event": {
+            "description": "Adds a new calendar event.",
+            "fields": {
+                "calendar_id": {
+                    "description": "The ID of the calendar you want.",
+                    "name": "Calendar ID"
+                },
+                "description": {
+                    "description": "The description of the event. Optional.",
+                    "name": "Description"
+                },
+                "end_date": {
+                    "description": "The date the whole day event should end.",
+                    "name": "End date"
+                },
+                "end_date_time": {
+                    "description": "The date and time the event should end.",
+                    "name": "End time"
+                },
+                "in": {
+                    "description": "Days or weeks that you want to create the event in.",
+                    "name": "In"
+                },
+                "start_date": {
+                    "description": "The date the whole day event should start.",
+                    "name": "Start date"
+                },
+                "start_date_time": {
+                    "description": "The date and time the event should start.",
+                    "name": "Start time"
+                },
+                "summary": {
+                    "description": "Acts as the title of the event.",
+                    "name": "Summary"
+                }
+            },
+            "name": "Add event"
+        },
+        "create_event": {
+            "description": "Adds a new calendar event.",
+            "fields": {
+                "description": {
+                    "name": "Description"
+                },
+                "end_date": {
+                    "name": "End date"
+                },
+                "end_date_time": {
+                    "description": "The date and time the event should end.",
+                    "name": "End time"
+                },
+                "in": {
+                    "description": "Days or weeks that you want to create the event in.",
+                    "name": "In"
+                },
+                "location": {
+                    "description": "The location of the event. Optional."
+                }
+            }
+        }
+    }
+}

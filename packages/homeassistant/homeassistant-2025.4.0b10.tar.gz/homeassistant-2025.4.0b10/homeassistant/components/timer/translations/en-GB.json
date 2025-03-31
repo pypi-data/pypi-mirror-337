@@ -1,0 +1,29 @@
+{
+    "services": {
+        "cancel": {
+            "name": "Cancel"
+        },
+        "change": {
+            "fields": {
+                "duration": {
+                    "name": "Duration"
+                }
+            },
+            "name": "Change"
+        },
+        "finish": {
+            "name": "Finish"
+        },
+        "reload": {
+            "description": "Reloads timers from the YAML-configuration."
+        },
+        "start": {
+            "fields": {
+                "duration": {
+                    "name": "Duration"
+                }
+            }
+        }
+    },
+    "title": "Timer"
+}

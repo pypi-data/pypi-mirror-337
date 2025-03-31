@@ -1,0 +1,16 @@
+{
+    "entity": {
+        "number": {
+            "altitude": {
+                "name": "Hichte boppe seenivo"
+            }
+        },
+        "sensor": {
+            "operational_state": {
+                "state": {
+                    "stopped": "Stoppe"
+                }
+            }
+        }
+    }
+}

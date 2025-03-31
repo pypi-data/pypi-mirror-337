@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "Hostname or IP address of your Vilfo router."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "boot_time": {
+                "name": "Boot time"
+            },
+            "load": {
+                "name": "Load"
+            }
+        }
+    }
+}

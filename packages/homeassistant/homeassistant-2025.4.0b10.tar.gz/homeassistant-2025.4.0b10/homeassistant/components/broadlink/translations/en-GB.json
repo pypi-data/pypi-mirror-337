@@ -1,0 +1,19 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of your Broadlink device."
+                },
+                "description": "Connect to the device"
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "day_of_week": {
+                "name": "Day of the week"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "door": {
+                "name": "Pintu"
+            }
+        },
+        "button": {
+            "stop": {
+                "name": "Hentikan"
+            }
+        },
+        "select": {
+            "operating_state": {
+                "state": {
+                    "pause": "Jeda"
+                }
+            }
+        }
+    }
+}

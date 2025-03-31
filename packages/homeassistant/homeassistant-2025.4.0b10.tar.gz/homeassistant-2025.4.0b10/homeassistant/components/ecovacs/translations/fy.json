@@ -1,0 +1,11 @@
+{
+    "config": {
+        "step": {
+            "auth": {
+                "data": {
+                    "country": "L\u00e2n"
+                }
+            }
+        }
+    }
+}

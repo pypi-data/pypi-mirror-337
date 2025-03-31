@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/conversor-unidades-miguelb/__init__.py
+src/conversor-unidades-miguelb/longitude.py
+src/conversor-unidades-miguelb/peso.py
+src/conversor-unidades-miguelb/temperatura.py
+src/conversor-unidades-miguelb/velocidade.py
+src/conversor_unidades_miguelb.egg-info/PKG-INFO
+src/conversor_unidades_miguelb.egg-info/SOURCES.txt
+src/conversor_unidades_miguelb.egg-info/dependency_links.txt
+src/conversor_unidades_miguelb.egg-info/requires.txt
+src/conversor_unidades_miguelb.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-storage-ipfs/__init__.py
+src/corex-storage-ipfs/handler.py
+src/corex_storage_ipfs.egg-info/PKG-INFO
+src/corex_storage_ipfs.egg-info/SOURCES.txt
+src/corex_storage_ipfs.egg-info/dependency_links.txt
+src/corex_storage_ipfs.egg-info/top_level.txt
+tests/test_handler.py

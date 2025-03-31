@@ -1,0 +1,21 @@
+1:
+  SSP2:
+    category: reference
+
+  SSP2_450:
+    category: policy
+
+2:
+  Reference:
+    category: reference
+
+  2DS:
+    category: policy
+
+3:
+  HiBio_Ctax:
+    category: policy
+  HiElec_Ctax:
+    category: policy
+  Reference:
+    category: reference

@@ -1,0 +1,20 @@
+1:
+  MoMo_4DS:
+    category: reference
+
+  MoMo_2DS:
+    category: policy
+
+2:
+  4DS:
+    category: reference
+
+  2DS:
+    category: policy
+
+3:
+  EV30@30:
+    category: policy
+
+  NPS:
+    category: references

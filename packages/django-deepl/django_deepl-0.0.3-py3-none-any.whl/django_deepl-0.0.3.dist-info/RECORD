@@ -1,0 +1,17 @@
+django_deepl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_deepl/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_deepl/apps.py,sha256=0VyY3aEonB0OqmYFI3mtyqcLTL-tMSwMxnafa1YMY80,155
+django_deepl/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_deepl/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_deepl/utils.py,sha256=kSZssteqpZnNTmehyiq5en1K3nMhIj-xtyjHinyCvZU,7022
+django_deepl/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_deepl/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_deepl/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_deepl/management/commands/check_translations_status.py,sha256=ZGHbtls0aDHavDOFb4BfBUfJ5p0AVmdPkcjFt19KijQ,1344
+django_deepl/management/commands/delete_backups.py,sha256=BTqUAYAc1QAfEKH4B9iMJp_gfVLWaRz3UaEXpAHe-Is,3351
+django_deepl/management/commands/translate.py,sha256=2R-F1W9VjooAOTTIa1KqxOGZBodfNdPDlaZJS894M-I,24107
+django_deepl-0.0.3.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+django_deepl-0.0.3.dist-info/METADATA,sha256=of-MiehEak-8-8xOsY1vf7XMASKLANO5aWhZN1q6SUw,6715
+django_deepl-0.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+django_deepl-0.0.3.dist-info/top_level.txt,sha256=T9aIhIEoDxqbKN951KIkAl1JpngIOIKXLYyBBR8Uj1w,13
+django_deepl-0.0.3.dist-info/RECORD,,

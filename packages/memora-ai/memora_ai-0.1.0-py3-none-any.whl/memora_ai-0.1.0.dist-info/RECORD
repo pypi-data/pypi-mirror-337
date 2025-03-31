@@ -1,0 +1,9 @@
+memora/__init__.py,sha256=kZrfCdCCgvtxS4DJx4UoGV26TKtZxxBbHfCQRNggwyg,4173
+memora/cli.py,sha256=Ob23XSCABFgc-FjUt_qt65GnIyOCcOIN1ISHYdcgqDc,1257
+memora/tuner.py,sha256=Xby8xqS61KC957qDmmhICIm7OpOaZWPhU3SCNHjccMk,5832
+memora/utils.py,sha256=2BbxzKNphQDQLgWinXoFr_zn507TvkafXv-It4sBBy4,1433
+memora_ai-0.1.0.dist-info/METADATA,sha256=9f-n042KUu0DiNap1OmuEYSQDhc7_ZgFwLetoJw4F1w,4111
+memora_ai-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+memora_ai-0.1.0.dist-info/entry_points.txt,sha256=6ezQO8Y2X2ghCfGV22O1vEA-Q6WqNgijCgWk0dLMn2w,43
+memora_ai-0.1.0.dist-info/top_level.txt,sha256=rmNSoBI8xST0p1YhHGOdkKU2cr5P9ItvMHP55eEVrtw,7
+memora_ai-0.1.0.dist-info/RECORD,,

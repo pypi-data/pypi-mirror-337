@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: date_day_estimator
+Version: 0.0.3
+Summary: To estimate the day of the week from date/month/year info
+Home-page: https://github.com/Mayakshanesht/date_day_estimator_pypi_package
+Author: Mayur Waghchoure
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+

@@ -1,0 +1,6 @@
+README.md
+setup.py
+netinterfaces.egg-info/PKG-INFO
+netinterfaces.egg-info/SOURCES.txt
+netinterfaces.egg-info/dependency_links.txt
+netinterfaces.egg-info/top_level.txt

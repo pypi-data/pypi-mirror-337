@@ -1,0 +1,15 @@
+antools/__init__.py,sha256=ZtJHHLb6OV_Pt8d5Ljj8qify94y_QWa-M-ctDiRLlGg,1294
+antools/main.py,sha256=hJ_pFS9BRiyY0tboFspuBbWQLq6M93Rz2xrgUzk68vk,12
+antools/test_file.py,sha256=BtZgejqbbaSvJXu2yUztXiKy-l44WL591x6znl4xEeE,52
+antools/automation_template/.env,sha256=LFNgMG8ZkcvhiVzRVIziQQUNdIeqI95zngzcd3RNKHs,26
+antools/automation_template/README.md,sha256=-sULfzTCy9XnR7pybElDIXGeWIhic8Jg3BNaeuCYOqI,71
+antools/automation_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antools/automation_template/bin/xy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antools/automation_template/src/main.py,sha256=0ayPjePuWGBhiIDjMp7Iqqz23FSAS2GS966GlKVUE_A,1841
+antools/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antools/helpers/xy.py,sha256=y9eOUc2KCJ8l7SMBT5GNK-qoqFMtx_T6lWYnomrikjY,10
+antools-2025.1.9.dist-info/licenses/LICENSE,sha256=y1ymrxALvLXlLG75S6CE71DgxBLTL72bXodPUJMt718,1072
+antools-2025.1.9.dist-info/METADATA,sha256=_QIhkM0qCiKyF7h8mIQnDxbN98k4YJ7q9YzVO0fst2E,2481
+antools-2025.1.9.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+antools-2025.1.9.dist-info/top_level.txt,sha256=XNVLgiKoVyHcr3thklfrwCIHiNOLbm7Jtk8gB-9C6wo,8
+antools-2025.1.9.dist-info/RECORD,,

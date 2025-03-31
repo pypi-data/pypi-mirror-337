@@ -1,0 +1,2 @@
+[console_scripts]
+parse_longest_mrna = genefamily.parse_longest_mrna:main

@@ -1,0 +1,2 @@
+[console_scripts]
+financial-datasets-mcp-server = financial.server:main

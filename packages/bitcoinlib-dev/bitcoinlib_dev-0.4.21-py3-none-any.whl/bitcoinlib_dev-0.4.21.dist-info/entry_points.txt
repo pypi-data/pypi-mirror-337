@@ -1,0 +1,3 @@
+[console_scripts]
+clw=bitcoinlib_dev.cli:main
+

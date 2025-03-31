@@ -1,0 +1,2 @@
+[console_scripts]
+scrollshot2pdf = scrollshot2pdf:main

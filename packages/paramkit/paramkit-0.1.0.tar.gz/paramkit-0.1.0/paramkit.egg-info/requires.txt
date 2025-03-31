@@ -1,0 +1,12 @@
+
+[:python_version < "3.8"]
+typing-extensions>=4.0.0
+
+[dev]
+black
+flake8
+mypy
+
+[test]
+pytest>=7.0
+pytest-cov

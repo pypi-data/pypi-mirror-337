@@ -1,0 +1,2 @@
+[console_scripts]
+paramkit-cli = paramkit.cli:main

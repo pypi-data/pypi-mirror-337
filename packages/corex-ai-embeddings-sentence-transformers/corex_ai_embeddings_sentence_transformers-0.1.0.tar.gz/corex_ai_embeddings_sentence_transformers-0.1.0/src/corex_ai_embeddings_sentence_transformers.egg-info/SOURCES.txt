@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_embeddings-sentence_transformers/__init__.py
+src/corex-ai_embeddings-sentence_transformers/handler.py
+src/corex_ai_embeddings_sentence_transformers.egg-info/PKG-INFO
+src/corex_ai_embeddings_sentence_transformers.egg-info/SOURCES.txt
+src/corex_ai_embeddings_sentence_transformers.egg-info/dependency_links.txt
+src/corex_ai_embeddings_sentence_transformers.egg-info/top_level.txt
+tests/test_handler.py

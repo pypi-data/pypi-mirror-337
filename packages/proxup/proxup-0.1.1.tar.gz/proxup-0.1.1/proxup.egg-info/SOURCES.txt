@@ -1,0 +1,7 @@
+README.md
+setup.py
+proxup/__init__.py
+proxup.egg-info/PKG-INFO
+proxup.egg-info/SOURCES.txt
+proxup.egg-info/dependency_links.txt
+proxup.egg-info/top_level.txt

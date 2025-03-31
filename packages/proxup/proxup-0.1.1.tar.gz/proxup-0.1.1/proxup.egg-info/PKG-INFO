@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: proxup
+Version: 0.1.1
+Summary: Get proxies for free and automatically without any hassle.
+Home-page: https://github.com/zZarby/ProxUp
+Author: Zarby
+Author-email: ZarbyTheOne@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+
+
+-----
+
+### <p align="center">👻 ProxUp 👻</p>
+
+<br><br>
+<p align="center">
+<strong>
+First of all, if you're looking for a good Python Module For Proxies Rotating, welcome to ProxUp!
+<br><br>
+  
+-----
+
+### <p align="center">✔ Example ✔</p>
+
+```
+import proxup
+
+print(requests.get('https://google.com', proxies=proxup.GetProxy()).status_code)
+```
+
+-----
+
+### <p align="center">📌 Disclaimer 📌</p>
+
+<br><br>
+* ***Please use this program only for educational purposes.***
+* ***It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.***
+<br><br>
+
+-----
+
+### <p align="center">Zarby</p>

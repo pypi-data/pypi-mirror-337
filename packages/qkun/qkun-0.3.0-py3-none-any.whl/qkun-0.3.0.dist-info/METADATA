@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: qkun
+Version: 0.3.0
+Summary: Tools for Satellite observation
+Author-email: Cheng Li <chengcli@umich.edu>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/chengcli/qkun
+Project-URL: Documentation, https://github.com/chengcli/qkun
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyproj
+Requires-Dist: matplotlib
+Requires-Dist: cartopy
+Requires-Dist: shapely
+Requires-Dist: scipy
+Requires-Dist: netCDF4
+Requires-Dist: pyyaml
+Requires-Dist: appdirs
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: requests
+Dynamic: license-file
+
+# If you have never updated your
+# MUST use virtualenv
+python3 -m venv .venv
+
+# lat range + lon range
+# long range + lat range
+
+# brew
+brew install hdf5
+
+# how to test
+python -m pip install -e .
+
+# How to deploy
+python -m build
+python -m twine upload dist/*
+
+# install with test
+pip install -e .

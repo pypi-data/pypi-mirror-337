@@ -1,0 +1,7 @@
+pytest_aws_fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_aws_fixtures/aws_fixtures.py,sha256=-Ogy-fdOzgpVUPOHENOteaILVr18c_FFMLDfvh3Tp54,60195
+pytest_aws_fixtures-3.1.0.dist-info/LICENSE,sha256=w5XTPuTLlSvHc33wqOwjQCMkf__jGV-MclweTYIEenc,1064
+pytest_aws_fixtures-3.1.0.dist-info/METADATA,sha256=op6Jpb-NjxYXI73ScG8R_OVEMjXsYtZRykcjm15yKK8,1021
+pytest_aws_fixtures-3.1.0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+pytest_aws_fixtures-3.1.0.dist-info/entry_points.txt,sha256=xbvijq60aSJtZOhxZLfo-6CxRt62DfVY0DGqVLCmnzk,65
+pytest_aws_fixtures-3.1.0.dist-info/RECORD,,

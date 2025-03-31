@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GpsAndMap"
+version = "4.0.0"
+authors = [
+  { name="douyaoyuan", email="douyaoyuan@126.com" },
+]
+description = "提供了一个封装了GPS坐标值与坐标系数据的GSP类，提供了一个基于 folium 二次封装的地图类"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+dependencies = [
+    "debugInfo",
+    "folium",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+[project.urls]
+"Homepage" = "https://gitee.com/DyyYq/GpsAndMap"
+"Bug Tracker" = "https://gitee.com/DyyYq/GpsAndMap/issues"

@@ -1,0 +1,29 @@
+[x] Extract mocking send_msg to something convenient
+[x] sessions in find_one_and_*
+[x] Validate that explicit session cannot be used with unack writes
+[x] do advance_cluster_time in send_msg?
+[x] mark_as_dirty in case of errors
+[x] Add session-related parameters to command in send_msg. Maybe make Msg.body to a dict, not bytes?
+[x] check auth behavior
+[x] start_session should be a context manager
+[ ] snapshot support (?)
+[ ] causal consistency support
+[x] transactions!
+    [x] start_transaction returns context manager
+    [x] check each method's behavior against the spec
+        [x] start_transaction
+        [x] abort_transaction
+        [x] commit_transaction
+    [x] retrying in commitTransaction and abortTransaction
+    [x] tags on exceptions
+    [x] writeConcern is only for commitTransaction and abortTransaction
+
+[ ] split count to two methods
+    [x] deprecate count
+    [x] implement estimated_document_count
+    [x] implement count_documents
+    [x] refactor tests and other code from count to count_documents
+
+[x] I suspect that twisted 21.7.0 doesn't notice failed tests with async test methods...
+
+[ ] Fix compatibility with twisted 24.10.0

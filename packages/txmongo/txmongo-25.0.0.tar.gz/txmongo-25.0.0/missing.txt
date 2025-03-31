@@ -1,0 +1,152 @@
+txmongo/protocol.py:93 in public class `BaseMessage`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:99 in public method `opcode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:101 in public method `encode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:121 in public method `decode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:136 in public class `Query`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:145 in public method `opcode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:159 in public method `decode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:195 in public class `Reply`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:202 in public method `opcode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:218 in public method `decode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:251 in public class `Msg`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:257 in public method `opcode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:261 in public method `create_flag_bits`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:265 in public method `create`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:289 in public method `to_dict`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:296 in public method `acknowledged`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:340 in public method `decode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:383 in public class `MongoDecoder`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:394 in public method `feed`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:412 in public method `decode`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:422 in public class `MongoSenderProtocol`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:425 in public method `get_request_id`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:436 in public class `MongoReceiverProtocol`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:442 in public method `dataReceived`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:453 in public method `fail`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:458 in public method `handle`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:465 in public class `MongoAuthenticationError`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:469 in public class `MongoProtocol`:
+        D101: Missing docstring in public class
+txmongo/protocol.py:506 in public method `inflight`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:509 in public method `connectionMade`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:515 in public method `connectionLost`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:534 in public method `connectionReady`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:558 in public method `send_query`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:606 in public method `handle`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:617 in public method `handle_reply`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:642 in public method `handle_msg`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:646 in public method `set_wire_versions`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:650 in public method `send_op_query_command`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:657 in public method `authenticate_scram_sha1`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:739 in public method `authenticate_mongo_x509`:
+        D102: Missing docstring in public method
+txmongo/protocol.py:749 in public method `authenticate`:
+        D102: Missing docstring in public method
+txmongo/database.py:14 in public class `Database`:
+        D101: Missing docstring in public class
+txmongo/database.py:32 in public method `__call__`:
+        D102: Missing docstring in public method
+txmongo/database.py:44 in public method `name`:
+        D102: Missing docstring in public method
+txmongo/database.py:48 in public method `connection`:
+        D102: Missing docstring in public method
+txmongo/database.py:52 in public method `write_concern`:
+        D102: Missing docstring in public method
+txmongo/database.py:56 in public method `codec_options`:
+        D102: Missing docstring in public method
+txmongo/database.py:89 in public method `create_collection`:
+        D102: Missing docstring in public method
+txmongo/connection.py:243 in public class `ConnectionPool`:
+        D101: Missing docstring in public class
+txmongo/connection.py:337 in public method `write_concern`:
+        D102: Missing docstring in public method
+txmongo/connection.py:341 in public method `codec_options`:
+        D102: Missing docstring in public method
+txmongo/connection.py:344 in public method `getprotocols`:
+        D102: Missing docstring in public method
+txmongo/connection.py:358 in public method `get_default_database`:
+        D102: Missing docstring in public method
+txmongo/connection.py:364 in public method `drop_database`:
+        D102: Missing docstring in public method
+txmongo/connection.py:377 in public method `disconnect`:
+        D102: Missing docstring in public method
+txmongo/connection.py:397 in public method `auth_creds`:
+        D102: Missing docstring in public method
+txmongo/connection.py:400 in public method `authenticate`:
+        D102: Missing docstring in public method
+txmongo/connection.py:415 in public method `getprotocol`:
+        D102: Missing docstring in public method
+txmongo/connection.py:428 in public method `uri`:
+        D102: Missing docstring in public method
+txmongo/connection.py:432 in public method `command`:
+        D102: Missing docstring in public method
+txmongo/connection.py:583 in public method `start_session`:
+        D102: Missing docstring in public method
+txmongo/connection.py:597 in public method `cluster_time`:
+        D102: Missing docstring in public method
+txmongo/connection.py:739 in public class `MongoConnection`:
+        D101: Missing docstring in public class
+txmongo/collection.py:219 in public method `collection`:
+        D102: Missing docstring in public method
+txmongo/collection.py:223 in public method `session`:
+        D102: Missing docstring in public method
+txmongo/collection.py:1003 in public method `filemd5`:
+        D102: Missing docstring in public method
+txmongo/collection.py:1364 in public method `create_index`:
+        D102: Missing docstring in public method
+txmongo/collection.py:1389 in public method `ensure_index`:
+        D102: Missing docstring in public method
+txmongo/collection.py:1509 in public method `map_reduce`:
+        D102: Missing docstring in public method
+txmongo/collection.py:1638 in public method `bulk_write`:
+        D102: Missing docstring in public method
+txmongo/filter.py:144 in public class `snapshot`:
+        D101: Missing docstring in public class
+txmongo/filter.py:150 in public class `comment`:
+        D101: Missing docstring in public class
+txmongo/_gridfs/grid_file.py:438 in public method `close`:
+        D102: Missing docstring in public method
+txmongo/_gridfs/grid_file.py:446 in public class `GridOutIterator`:
+        D101: Missing docstring in public class
+txmongo/utils/__init__.py:61 in public function `check_deadline`:
+        D103: Missing docstring in public function
+txmongo/utils/__init__.py:66 in public function `get_err`:
+        D103: Missing docstring in public function

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-ai_embeddings-weaviate/__init__.py
+src/corex-ai_embeddings-weaviate/handler.py
+src/corex_ai_embeddings_weaviate.egg-info/PKG-INFO
+src/corex_ai_embeddings_weaviate.egg-info/SOURCES.txt
+src/corex_ai_embeddings_weaviate.egg-info/dependency_links.txt
+src/corex_ai_embeddings_weaviate.egg-info/top_level.txt
+tests/test_handler.py

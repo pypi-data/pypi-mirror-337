@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: autograder-js
+Version: 0.1.11
+Summary: Autograder para código JavaScript com feedback interativo usando a API do OpenAI.
+Author: Lucca Hiratsuca
+Author-email: luccahiratsuca@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: ipython
+Requires-Dist: ipywidgets
+

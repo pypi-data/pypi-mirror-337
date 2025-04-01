@@ -1,0 +1,2 @@
+[console_scripts]
+defix-package-queues = defix_package_queues:main

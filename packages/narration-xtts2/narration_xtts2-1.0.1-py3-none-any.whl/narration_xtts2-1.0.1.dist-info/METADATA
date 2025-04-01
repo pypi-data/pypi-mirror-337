@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: narration-xtts2
+Version: 1.0.1
+Summary: Projeto que baseado em um json cria narrações frase a frase em uma lista de frases, com flexibilidade de parametros do modelo XTTS2
+Author: William Ferreira
+Author-email: 33575357+illiamw@users.noreply.github.com
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cutlet (>=0.5.0,<0.6.0)
+Requires-Dist: deepspeed (==0.15)
+Requires-Dist: torch (>=2.3,<2.4)
+Requires-Dist: torchaudio (>=2.3,<2.4)
+Requires-Dist: torchvision (>=0.18,<0.19)
+Requires-Dist: tts (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+

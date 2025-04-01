@@ -1,0 +1,4 @@
+
+[dev]
+coverage
+black==25.1.0

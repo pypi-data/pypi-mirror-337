@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: awslabs.mcp-nova-canvas-expert
+Version: 0.1.311709
+Summary: An AWS Labs Model Context Protocol (MCP) server for Amazon Nova Canvas
+Requires-Python: >=3.13
+Requires-Dist: boto3>=1.37.23
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: mcp[cli]>=1.6.0
+Requires-Dist: pydantic>=2.11.1
+Description-Content-Type: text/markdown
+
+# awslabs MCP nova_canvas Expert
+
+An AWS Labs Model Context Protocol (MCP) server nova_canvas expert

@@ -1,0 +1,17 @@
+calisp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calisp/calisp_compute_medians.py,sha256=6ppNCR_meVhkSCT5uvInAW2qy0dIxxG6iSR5D-GsWkU,11228
+calisp/calisp_filter_patterns.py,sha256=N9cvz611UrmdV9f6vtt87rx29aJGiHX5UF8irW6Hpb8,7313
+calisp/data_store.py,sha256=sMRzMPN47v7p8xwg0snR_1SZqmuyw-sTab4g2a7PfEA,5861
+calisp/element_count_and_mass_utils.py,sha256=5pcDLk_hdhSNyZElhXYtyq9hNy0XYviiFYGmAHDmkcM,6487
+calisp/isotope_matrix.txt,sha256=82zXz7vvupFvsPs2_W9fJuAVRkxz9xr24T6Asd08TWo,542
+calisp/isotopic_pattern_utils.py,sha256=UvpCfK59c0TKRKEPJi3E86e28TxFYnCwM1GMPw8NlqU,10024
+calisp/log.py,sha256=lUVq2VZ4g3UCUi9Z0rgQvew_AkjGtzFXKt7NBInhO6s,375
+calisp/main.py,sha256=xOXhL1Vo0E4PUhpKF0YHGouYq4Gp6hE58Xpd0P5Bd-g,22062
+calisp/peptide_spectrum_match_files.py,sha256=y4-dhygZGZtz0Y9uX4IBx83c3YeG45BuI-ePK_EGkRk,7758
+calisp/unimod.py,sha256=sNRkeTlMtY8vUC1dtQwLJ4AdlARr-KAgAx6gteWOvLs,35798
+calisp-3.1.2.dist-info/licenses/LICENSE.txt,sha256=Qlppv7kIFhdLn87sjnjCmE7dbQxSCg3r4zEbMMQnvPU,1061
+calisp-3.1.2.dist-info/METADATA,sha256=9tIopCD3v78sG0xzNDLPrJMDDMoPe_i9H-RGLQf-CeI,17472
+calisp-3.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+calisp-3.1.2.dist-info/entry_points.txt,sha256=HLlDzJCNOoM5VAAeAXO_Cm1jv-XZzgoRPtNcfNuIreE,164
+calisp-3.1.2.dist-info/top_level.txt,sha256=29e--KuO4lucwAm7nBl5cGyGT3b4HnHeHASi4rFu0Kc,7
+calisp-3.1.2.dist-info/RECORD,,

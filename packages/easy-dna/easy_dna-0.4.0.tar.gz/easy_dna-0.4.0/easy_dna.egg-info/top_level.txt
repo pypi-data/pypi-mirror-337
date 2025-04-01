@@ -1,0 +1,4 @@
+dist
+docs
+easy_dna
+tests

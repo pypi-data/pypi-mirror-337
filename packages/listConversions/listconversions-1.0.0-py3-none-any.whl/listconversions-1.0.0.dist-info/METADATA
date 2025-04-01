@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: listConversions
+Version: 1.0.0
+Summary: A package for converting lists to different formats
+Home-page: https://github.com/DementiaGaming/List-Conversions-Package
+Author: Dementia Gaming
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary

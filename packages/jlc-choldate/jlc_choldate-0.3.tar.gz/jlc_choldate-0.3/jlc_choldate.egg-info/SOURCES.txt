@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+bin/example.py
+choldate/__init__.py
+choldate/_choldate.c
+choldate/_choldate.pxd
+choldate/_choldate.pyx
+jlc_choldate.egg-info/PKG-INFO
+jlc_choldate.egg-info/SOURCES.txt
+jlc_choldate.egg-info/dependency_links.txt
+jlc_choldate.egg-info/requires.txt
+jlc_choldate.egg-info/top_level.txt

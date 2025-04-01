@@ -1,0 +1,32 @@
+[project]
+name = "jlc-choldate"
+version = "0.3"
+description = "Somewhat fast updating and downdating of Cholesky factors in Python"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+  "Cython>=0.29.14",
+  "numpy",
+]
+
+[project.urls]
+Repository = "https://github.com/jamieleecho/choldate"
+Issues = "https://github.com/jamieleecho/choldate/issues"
+
+[dependency-groups]
+dev = [
+  "pre-commit",
+  "ruff",
+  "unittest2",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["choldate.test"]
+
+[build-system]
+requires = [
+  "Cython",
+  "numpy",
+  "setuptools",
+]

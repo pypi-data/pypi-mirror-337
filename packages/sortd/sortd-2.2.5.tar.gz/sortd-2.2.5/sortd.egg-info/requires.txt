@@ -1,0 +1,12 @@
+PyYAML
+toml
+
+[dev]
+mypy
+types-PyYAML
+types-toml
+isort
+black
+
+[dist]
+wheel

@@ -1,0 +1,2 @@
+[console_scripts]
+train_gotennet = gotennet.scripts.train:main

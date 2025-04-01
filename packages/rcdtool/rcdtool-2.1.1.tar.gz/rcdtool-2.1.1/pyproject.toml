@@ -1,0 +1,28 @@
+[project]
+name = "rcdtool"
+authors = [{ name = "David Waster", email = "wasterdavid@gmail.com" }]
+version = "2.1.1"
+requires-python = ">=3.9"
+dependencies = ["Telethon", "filetype", "colored"]
+description = "Script that downloads telegram restricted content."
+readme = "README.md"
+keywords = ["library", "telegram", "restricted", "download"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src/"]
+
+[project.scripts]
+rcdtool = "rcdtool:main.main"

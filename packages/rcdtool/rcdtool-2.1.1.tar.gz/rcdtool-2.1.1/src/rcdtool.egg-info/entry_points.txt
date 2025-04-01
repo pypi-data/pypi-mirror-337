@@ -1,0 +1,2 @@
+[console_scripts]
+rcdtool = rcdtool:main.main

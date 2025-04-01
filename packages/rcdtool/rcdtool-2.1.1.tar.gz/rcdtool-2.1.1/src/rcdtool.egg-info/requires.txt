@@ -1,0 +1,6 @@
+Telethon
+filetype
+colored
+
+[dev]
+pytest

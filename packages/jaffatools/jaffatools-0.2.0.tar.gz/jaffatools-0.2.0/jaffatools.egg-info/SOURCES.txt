@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+jaffatools/__init__.py
+jaffatools/bam_annotator.py
+jaffatools/fastq_filter.py
+jaffatools/jaffa_runner.py
+jaffatools.egg-info/PKG-INFO
+jaffatools.egg-info/SOURCES.txt
+jaffatools.egg-info/dependency_links.txt
+jaffatools.egg-info/entry_points.txt
+jaffatools.egg-info/requires.txt
+jaffatools.egg-info/top_level.txt

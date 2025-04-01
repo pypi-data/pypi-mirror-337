@@ -1,0 +1,8 @@
+pauc/__init__.py,sha256=kIwOd2w7jYMj2dcNHMTPEjy21fW4w6HBUtGsavNc6kg,55
+pauc/roc_auc_ci.py,sha256=1BbPyDDEup6hf_S4mEl7HXBw3wXT-Vl859gWyWXvNsw,6012
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_roc_auc_ci.py,sha256=-c9o9f6RFPDcV_IPzbfi5QxNOYplFu8teylgC2yiKKM,752
+pauc-0.1.0.dist-info/METADATA,sha256=1U0Hovzcgplk4hOGaBVC7wHk-daMILK6ehzeB8VLLVU,1003
+pauc-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pauc-0.1.0.dist-info/top_level.txt,sha256=MZJjdv9PugGJArgb2ZtnA8md_ryxaYqJ6cP9H0gkW3g,11
+pauc-0.1.0.dist-info/RECORD,,

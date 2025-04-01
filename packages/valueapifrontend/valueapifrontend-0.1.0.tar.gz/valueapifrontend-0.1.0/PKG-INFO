@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: valueapifrontend
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Jonas Blatt <jonas@blatts.de>
+Requires-Python: >=3.13
+Requires-Dist: click>=8.1.8
+Requires-Dist: streamlit>=1.44.0
+Requires-Dist: valueapiconnector>=0.1.0
+Requires-Dist: watchdog>=6.0.0
+Description-Content-Type: text/markdown
+
+# Config App for the Value Api
+This streamlit app provides a simple frontend application for the [Value Api](https://github.com/ValueAPI/Server) to store values (e.g., configs) in the web.
+
+## Install
+
+### Python package
+```
+pip install valueapifrontend 
+```
+
+### Docker
+See [Deployment](https://github.com/ValueAPI/Deployment).
+
+## Start the frontend app
+
+### With the cli
+```
+valueapifrontend
+```
+
+### Directly with streamlit
+```
+streamlit run src/valueapifrontend/app.py <value-api-url> <context>
+```

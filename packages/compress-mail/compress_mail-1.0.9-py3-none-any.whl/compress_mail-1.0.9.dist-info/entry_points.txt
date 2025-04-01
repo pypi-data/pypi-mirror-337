@@ -1,0 +1,3 @@
+[console_scripts]
+compress-mail = compress_mail.compress_mail:main
+lockmaildir = compress_mail.lockmaildir:main

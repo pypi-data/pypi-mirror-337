@@ -1,0 +1,8 @@
+compress_mail/__init__.py,sha256=3T7CvVhgY9XOv3qc_FW-Oe_lmtytgITzycTY10Irr5Y,102
+compress_mail/_version.py,sha256=42A6AtvMdNHttaFjPm_idqbuWNjX-IWyR7j45LJ6tbs,511
+compress_mail/compress_mail.py,sha256=8oxEtPPePdYPAPISYljj9LxuUioGftaO5aUvM-Rqpjo,9454
+compress_mail/lockmaildir.py,sha256=oLLkYlex0dAbogjRsG83_4_1u6IgSMooDq0Ce-LEntc,2411
+compress_mail-1.0.9.dist-info/METADATA,sha256=KGLzxWydFyHqS6E-x8xzYV9d_p2z8OntxfLaWPcGh-k,4336
+compress_mail-1.0.9.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+compress_mail-1.0.9.dist-info/entry_points.txt,sha256=fBrHL2u-0FOKltWiYvfiyYp4-3R51wuxGBy9vWeGPbU,112
+compress_mail-1.0.9.dist-info/RECORD,,

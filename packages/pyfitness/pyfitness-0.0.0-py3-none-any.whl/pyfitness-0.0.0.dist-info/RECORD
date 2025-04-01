@@ -1,0 +1,11 @@
+pyfitness/__about__.py,sha256=QRIZI3bvntZdmFUp9tRjUs0_rZ-REH22K5exuM8H17c,25
+pyfitness/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfitness/dynamics.py,sha256=icL6OgS8yucygsM_Euu1AQ454AYSDIkf-zro1L8Y3wo,7590
+pyfitness/fd_loader.py,sha256=79EvXwRxuXRzB1sPVxexrMcBaDrUs6NVZMNLInOVFME,8623
+pyfitness/sdk_loader.py,sha256=d42hPCGJvgLOxDIvqZEI_-K2TtziBIDeHI3pGDiNZl8,866
+pyfitness/statistics.py,sha256=mCXPy_T_HsXERIQssbJk0s9hiFeIH4txi6Cuo-aCCQ4,2634
+pyfitness-0.0.0.dist-info/licenses/LICENSE,sha256=AIoWR1QbOi3NxHWH_GI0pVSOBF8fFvAswrtvBvzC6xY,1064
+pyfitness-0.0.0.dist-info/METADATA,sha256=qW40PVzkyVWO5yCRml9N-8PAfsR3ItwfVYOHgW55ykg,1178
+pyfitness-0.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pyfitness-0.0.0.dist-info/top_level.txt,sha256=-krunCgODjvdaTts99Ugo4ywMyksoT-WZuu76cgXAPk,10
+pyfitness-0.0.0.dist-info/RECORD,,

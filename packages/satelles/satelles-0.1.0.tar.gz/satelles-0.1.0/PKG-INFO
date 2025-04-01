@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: satelles
+Version: 0.1.0
+Summary: Add your description here
+Author-email: michealroberts <michael@observerly.com>
+License-File: LICENSE
+Requires-Python: >=3.13
+Requires-Dist: celerity>=0.27.0
+Requires-Dist: pydantic>=2.10.6
+Description-Content-Type: text/markdown
+
+# satelles
+A hypermodern python package starter template with astral uv ruff and mypy

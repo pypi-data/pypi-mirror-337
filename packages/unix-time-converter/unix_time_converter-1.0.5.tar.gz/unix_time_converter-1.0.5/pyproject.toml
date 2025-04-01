@@ -1,0 +1,57 @@
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unix-time-converter"
+version = "1.0.5"
+dependencies = [
+    "datetime",
+    "pytz",
+    "tkhtmlview"
+]
+requires-python = ">=3.9"
+authors = [
+    {name = "Franz Wiesinger", email = "py@roadrunnerserver.com"}
+]
+maintainers = [
+    {name = "Franz Wiesinger", email = "py@roadrunnerserver.com"}
+]
+description = "Unixtime converter"
+readme = "README.md"
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Customer Service",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Desktop Environment",
+    "Topic :: Software Development",
+    "Topic :: Utilities"
+]
+keywords=[
+    "unixtime", "utc", "local time", "the epoch", "converter", "tkinter",
+    "GUI", "timezone", "datetime"
+]
+
+
+[project.optional-dependencies]
+gui = ["tkinter"]
+
+
+[project.urls]
+Repository = "https://github.com/WiesingF/UnixtimeConverter"
+Changelog = "https://github.com/WiesingF/UnixtimeConverter/blob/main/changes.rst"
+Homepage = "https://www.roadrunnerserver.com/"
+Documentation = "https://docs.roadrunnerserver.com/unixtime/html/index.html"
+
+
+[project.gui-scripts]
+unixtime-gui = "unixtime.__maine__:unixtime"

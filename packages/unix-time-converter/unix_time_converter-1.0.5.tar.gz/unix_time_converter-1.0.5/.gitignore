@@ -1,0 +1,12 @@
+__pycache__
+res/__pycache__
+tests/__pycache__
+.pytest_cache
+build/*
+dist/*
+.pytest_cache
+Unixtime_Converter.egg-info
+cxsetup.py
+.python-version
+.coverage
+

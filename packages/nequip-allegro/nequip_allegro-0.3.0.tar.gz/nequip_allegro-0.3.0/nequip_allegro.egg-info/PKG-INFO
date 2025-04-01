@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: nequip-allegro
+Version: 0.3.0
+Summary: Allegro is an open-source code for building highly scalable and accurate equivariant deep learning interatomic potentials.
+Author: Albert Musaelian, Simon Batzner
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: nequip<0.7.0,>=0.6.1
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

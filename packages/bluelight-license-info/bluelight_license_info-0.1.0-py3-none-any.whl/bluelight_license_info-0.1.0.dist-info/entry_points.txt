@@ -1,0 +1,2 @@
+[console_scripts]
+bluelight-license-info = bluelight_license_info:main

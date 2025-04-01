@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: bluelight-license-info
+Version: 0.1.0
+Summary: Shows license info for BluelightAI software.
+Author-email: BluelightAI <hello@bluelightai.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Requires-Dist: requests
+
+# bluelight-license-info
+
+A script to provide information about a [BluelightAI](https://bluelightai.com) software license.
+
+Usage:
+
+```
+> bluelight-license-info --license-key LICENSE_KEY --license-file LICENSE_FILE
+
+BluelightAI License Information
+===============================
+License file: PATH_TO_LICENSE_FILE
+License key: LICENSE_KEY
+
+Product: Cobalt
+Product code: 8358-0
+
+License start date: 2025-05-01 00:00
+License end date: 2026-05-01 00:00
+
+Site Name: Example, Inc.
+Site ID: 0001
+Site Contact: John Example
+Site Contact Email: example@example.com
+```
+
+Start and end dates are presented in the local time zone.
+
+To extract license information from a license file, you must provide both the
+license key and the path to the license file. If only a key is provided, it will
+query the license server for information about the associated license.

@@ -1,0 +1,11 @@
+finalsa/sns/client/__init__.py,sha256=bboq5T3e2BGEgP9wtVhuwVSSORd9MnTgaGcIcuMIfhk,228
+finalsa/sns/client/client/__init__.py,sha256=YruIt3jSAp7-9t4XxdQaAaWbtRknN_t4tqXaGFjKC7Q,71
+finalsa/sns/client/client/client.py,sha256=Uexw5_9oeEYIhIhR1MBFoSwu_ZrsxZJ8kd29Otv6nDI,5830
+finalsa/sns/client/interface/__init__.py,sha256=GdfhChVtxjPAg3oPZVfRr30NphLRCSxQf-rkP4cbIJ4,63
+finalsa/sns/client/interface/client.py,sha256=eisYDbvlpeT9NBzKbyKOWdL0zMEd8h0cNPlFU1K5a6k,3100
+finalsa/sns/client/tests/__init__.py,sha256=nJNBJlDKwxyWfEtA1XowD5lp5kqnaf0YOm3A10z3iGU,70
+finalsa/sns/client/tests/client.py,sha256=JSA9OhEX0JO2nRmB_yi_gJIxC8B_Q5MVIiC16xEA2VY,3519
+finalsa_sns_client-2.0.0.dist-info/METADATA,sha256=ACNKdXfjdUe1NY1OCkYP8gVUJ8WQD8Pa6b11FEk46M8,1904
+finalsa_sns_client-2.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+finalsa_sns_client-2.0.0.dist-info/licenses/LICENSE.md,sha256=yqzhfnTBr2S4lUBx-yibVPOIXRUDPrSUN9-_7AsC6OU,1084
+finalsa_sns_client-2.0.0.dist-info/RECORD,,

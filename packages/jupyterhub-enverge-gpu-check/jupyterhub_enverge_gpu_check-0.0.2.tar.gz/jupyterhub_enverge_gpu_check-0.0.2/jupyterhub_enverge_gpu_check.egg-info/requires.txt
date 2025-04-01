@@ -1,0 +1,5 @@
+jupyterhub>=4.1.6
+tornado>=6.0.0
+
+[dev]
+pytest>=7.0.0

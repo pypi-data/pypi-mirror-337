@@ -1,0 +1,110 @@
+Metadata-Version: 2.4
+Name: jupyterhub-enverge-gpu-check
+Version: 0.0.2
+Summary: JupyterHub GPU Resource Usage Analyzer
+Home-page: https://github.com/Enverge-Labs/gpu_check
+Author: Tudor M
+Author-email: tudor@enverge.ai
+License: 3 Clause BSD
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: jupyterhub>=4.1.6
+Requires-Dist: tornado>=6.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# GPU Resource Analysis Service
+
+> **Sponsored by [Enverge.ai](https://enverge.ai)** - Simpler, greener, cheaper AI training platform. Enverge harnesses excess green energy for powerful, cost-effective computing on GPUs, enabling environmentally friendly AI model development, training, and fine-tuning. Currently in private alpha with limited spots available.
+
+API endpoint to analyze PyTorch code for GPU resource usage.
+
+## Setup
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Configure in `jupyterhub_config.py`:
+```python
+c.JupyterHub.services = [
+    {
+        'name': 'gpu-check',
+        'url': 'http://127.0.0.1:8005',
+        'command': ['python', '-m', 'gpu_check.gpu_check_service'],
+        'environment': {
+            'JUPYTERHUB_SERVICE_PREFIX': '/services/gpu-check',
+            'JUPYTERHUB_SERVICE_PORT': '8005'
+        }
+    }
+]
+```
+
+## API
+
+### POST /services/gpu-check
+Analyzes PyTorch code for GPU resource usage.
+
+Request:
+```json
+{
+    "code": "your_python_code_here"
+}
+```
+
+Response:
+```json
+{
+    "has_resource_usage": true,
+    "operations": {
+        "compute": ["operation1", "operation2"],
+        "memory": ["operation1", "operation2"],
+        "transfer": ["operation1", "operation2"],
+        "query": ["operation1", "operation2"]
+    },
+    "device_variables": ["variable1", "variable2"],
+    "error": null
+}
+```
+
+## Usage in JupyterLab Extension
+
+The service can be accessed from your JupyterLab extension using the authenticated endpoint:
+
+```typescript
+const response = await fetch('/services/gpu-check', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ code: 'your_code_here' })
+});
+const result = await response.json();
+```
+
+### GET /health
+Health check endpoint.
+
+Response:
+```json
+{
+    "status": "healthy"
+}
+```
+
+## API Documentation
+
+Once the server is running, you can access the interactive API documentation at:
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc 

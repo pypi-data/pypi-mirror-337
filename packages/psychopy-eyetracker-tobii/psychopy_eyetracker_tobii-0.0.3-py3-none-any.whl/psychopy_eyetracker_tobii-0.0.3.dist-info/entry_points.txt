@@ -1,0 +1,5 @@
+[psychopy.experiment.components.settings.eyetracking]
+TobiiEyetrackerBackend = psychopy_eyetracker_tobii.tobii.settings:TobiiEyetrackerBackend
+
+[psychopy.iohub.devices.eyetracker]
+tobii = psychopy_eyetracker_tobii.tobii

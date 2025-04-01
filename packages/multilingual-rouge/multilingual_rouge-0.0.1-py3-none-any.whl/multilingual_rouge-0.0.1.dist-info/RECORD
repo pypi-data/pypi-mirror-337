@@ -1,0 +1,15 @@
+multilingual_rouge/__init__.py,sha256=U4S_2y3zgLZVfMenHRaJFBW8yqh2mUBuI291LGQVOJ8,35
+multilingual_rouge/io.py,sha256=XpGRH0vHtpTmgfRoPQNqHz8cPcr-xr6Gqsuh7PgmYB4,6707
+multilingual_rouge/rouge.py,sha256=Lbe9d9ufX-IqbN1ySXLU05jqsntYoCVhEJ8_VqVC-tM,2779
+multilingual_rouge/rouge_scorer.py,sha256=8tj4ubcjngvySMnGDcya7WzhB6UnN57BB-FxuZmHxKQ,13626
+multilingual_rouge/scoring.py,sha256=EYGYWVo20X3wP-H1MhzfkEu8vo-PZhMz6-60KBNvPcg,5852
+multilingual_rouge/stemmers.py,sha256=-racct4QEqxvDqWoLz8t5AwWGUODbYZa3Q8NBbAqOjU,3160
+multilingual_rouge/tokenization_wrapper.py,sha256=yWXON00bDMjVkbWTPN9BC4vil2F6ta8vT9TkkfNE2z8,1373
+multilingual_rouge/tokenizers.py,sha256=OmStCFnoduLBdgh4AdLnBMIG1SofrW7ZMB9M6acZhxI,9626
+multilingual_rouge/bengali_stemmer/__init__.py,sha256=o4paDzhxIlZ8BYUkhtiTL7-4ROHjTvoaMLvk1jlAv5A,82
+multilingual_rouge/bengali_stemmer/parser.py,sha256=8Q64uYxpnQHVS-l_3AgpipYlEdlIUgW3yYtk7wna_jk,4005
+multilingual_rouge-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+multilingual_rouge-0.0.1.dist-info/METADATA,sha256=JT5ase-Nn8Ys1729ujoo468Kbqo1Yf2V6TrPs8y9PX4,18601
+multilingual_rouge-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+multilingual_rouge-0.0.1.dist-info/top_level.txt,sha256=S-pes6XkJXYOL1DZyYe3lW8KW1M1TT6Gdce0BbnTZ6I,19
+multilingual_rouge-0.0.1.dist-info/RECORD,,

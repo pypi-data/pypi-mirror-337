@@ -1,0 +1,8 @@
+README.md
+setup.py
+testpackagegepmc/__init__.py
+testpackagegepmc/jsonresponse.py
+testpackagegepmc.egg-info/PKG-INFO
+testpackagegepmc.egg-info/SOURCES.txt
+testpackagegepmc.egg-info/dependency_links.txt
+testpackagegepmc.egg-info/top_level.txt

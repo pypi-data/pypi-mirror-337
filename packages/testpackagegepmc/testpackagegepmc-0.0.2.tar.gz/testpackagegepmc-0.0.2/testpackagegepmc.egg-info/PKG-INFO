@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: testpackagegepmc
+Version: 0.0.2
+Summary: Paquete de ejemplo para uso de funciones.
+Home-page: https://github.com/galeanama/test_package_gep_mc
+Author: Mario Alberto Calderon Galeana
+Author-email: galeanama@gmail.com
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+Pruebas

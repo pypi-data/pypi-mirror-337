@@ -1,0 +1,13 @@
+analisi_canti/__init__.py,sha256=QXzW3aVbiEqgw207VQEY_0uPknbiS3bW8f6jOz-j3vQ,22
+analisi_canti/__main__.py,sha256=rAKf4MzvW85FU9kFOJXWlXZGhutxqQCZwbcH0VSsFnM,72
+analisi_canti/main.py,sha256=V5yZtaI0OAtL5qUQ2lbf1l7sU-f3xFWLsJ1e7Jje6zs,17187
+analisi_canti/oscillogram.py,sha256=0pT-kXa1v5CvPM21N9BytC9VxO9m_AtgVH-gU9yeLvU,10077
+analisi_canti/template10x5.py,sha256=eK1-UuukOMK2Ai3akjo3w-MNFljuonE3WfV7pcj8294,8547
+analisi_canti/wav_cutting.py,sha256=hZWa6l9lvTc2lQWOfrAlzjq6Igg1jlZTqyBrlRuMq_Y,9291
+analisi_canti/plugins/analisi_singoli_canti.py,sha256=aPsQWYEf9gE8PcdxtLTjKgUNL0cdGcMjnBdkDkdpaRo,30403
+analisi_canti/plugins/trova_picchi_vs2.py,sha256=wvsBcdz0YtyLNAeWFAlDY0qTW2rlSSLDTUYLJJuOVP0,29844
+analisi_canti-0.0.6.dist-info/METADATA,sha256=OBDTx-hgXNvaGmBMyV3Xg59XEtrpjXOvDGde4sCo-K0,871
+analisi_canti-0.0.6.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+analisi_canti-0.0.6.dist-info/entry_points.txt,sha256=9aj0S4-uEvg9ZijqCHlVPgbfle4NXUu23TPxLGE5qrI,57
+analisi_canti-0.0.6.dist-info/top_level.txt,sha256=YPj9XEi7UqZ5vkbXnGiy303hz8flZuz7DoQQ9AZRzR0,14
+analisi_canti-0.0.6.dist-info/RECORD,,

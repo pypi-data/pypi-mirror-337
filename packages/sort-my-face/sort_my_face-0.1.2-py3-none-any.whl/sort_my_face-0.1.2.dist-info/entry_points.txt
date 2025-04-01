@@ -1,0 +1,2 @@
+[console_scripts]
+sort_my_face = sort_my_face.main:sort_my_face

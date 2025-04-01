@@ -1,0 +1,13 @@
+sort_my_face/__init__.py,sha256=vxSj7mSvnAD7FYS04zkGk1Hs4tiU27EAuYafvm6m5jU,30
+sort_my_face/cosinus_distance.py,sha256=NsWUpxbcxgc_exUxjIQuH5UpJLiauoT3vaC4DG1msFI,4556
+sort_my_face/euclidean_distance.py,sha256=aXIV48s4wide3FdHpdkedj5bLig7awVYD9_Jn5VljyM,3095
+sort_my_face/extract_faces.py,sha256=zHb8EQ7GJ_5RDT6Z9_NUVRBsdM-ABxEEN0DlZyZRxZk,3669
+sort_my_face/main.py,sha256=Y4pJQwRrW0vj9J6gc5VTH8UODZw_78yl5fhKNeKpUe0,2848
+sort_my_face/sorted_cosinus_distance.py,sha256=7GFYysmOHqH1RMEOcieblD2ucxsyB9Fq1ZZdRi0S1xA,5350
+sort_my_face/sorted_euclidean_distance.py,sha256=Q3-uU3d3hKIHGvB7Lj0V0Gnc0YCRJkTjZueiZTCNPfM,4824
+sort_my_face-0.1.2.dist-info/LICENSE,sha256=356uolJNqQxlWuK0_QSDhBsWxRlU9asiPSP6B35nQU4,1095
+sort_my_face-0.1.2.dist-info/METADATA,sha256=uNtWGYO9znFf5ne18kBe7IdJPzFPWAVKjNywb8GJp3I,4038
+sort_my_face-0.1.2.dist-info/WHEEL,sha256=52BFRY2Up02UkjOa29eZOS2VxUrpPORXg1pkohGGUS8,91
+sort_my_face-0.1.2.dist-info/entry_points.txt,sha256=hjIzYHYQp_XOvLGWV11MmAQXlAXa0LNQyGJGkvzD-pc,64
+sort_my_face-0.1.2.dist-info/top_level.txt,sha256=1_er5P69usm-Obe5NfIs6qJL2lRYCd-Il_-4U3_BcnE,13
+sort_my_face-0.1.2.dist-info/RECORD,,

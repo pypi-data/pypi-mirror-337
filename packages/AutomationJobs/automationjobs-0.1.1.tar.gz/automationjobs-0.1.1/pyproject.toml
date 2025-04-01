@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[tool.poetry]
+name = "AutomationJobs"
+version = "0.1.1"
+description = "Read the latest AutomationJobs tutorials"
+authors = ["Viswanadh Gowd7272@gmail.com"]
+readme = "README.md"
+homepage = "https://github.com/viswanadhGowd/AutomationJobs"

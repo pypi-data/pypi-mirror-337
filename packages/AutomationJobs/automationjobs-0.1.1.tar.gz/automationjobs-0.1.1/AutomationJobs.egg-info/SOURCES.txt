@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+AutomationJobs/__init__.py
+AutomationJobs/runemail.py
+AutomationJobs.egg-info/PKG-INFO
+AutomationJobs.egg-info/SOURCES.txt
+AutomationJobs.egg-info/dependency_links.txt
+AutomationJobs.egg-info/requires.txt
+AutomationJobs.egg-info/top_level.txt
+AutomationJobs/Mails/__init__.py
+AutomationJobs/Mails/args_email.py
+AutomationJobs/Mails/fetch_file_info.py
+AutomationJobs/Mails/process_email.py
+AutomationJobs/Mails/sending_an_email.py

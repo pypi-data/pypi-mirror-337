@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/bin/ffmpeg,sha256=43JFbSnnz-imHOH48gb4RhHATWU6pM6OJqErkvZa5aM,39226272
+src/cut_video.py,sha256=KRJ7LPv3bYRqBfwKFKQE_75RD2FDrhr-CaVkxYtY-Ks,3284
+src/ffmpeg.py,sha256=-XOGwsaMYxMeLTrQ0rZb1Bil5zD2Kx76WO9kGyslo28,2505
+src/server.py,sha256=f1mpIjmcPUSUHeiq7ZoFzrKUT3_tV7FmyMXyWGvigiQ,3385
+ffmpeg_mcp-0.1.2.dist-info/METADATA,sha256=dKxU7RS9AC6wLCS4_hvsYKZhG7WTLIB-AGX3BtWgTts,496
+ffmpeg_mcp-0.1.2.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+ffmpeg_mcp-0.1.2.dist-info/RECORD,,

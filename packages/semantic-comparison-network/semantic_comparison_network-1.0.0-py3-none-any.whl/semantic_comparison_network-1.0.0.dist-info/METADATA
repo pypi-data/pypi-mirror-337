@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: semantic_comparison_network
+Version: 1.0.0
+Home-page: https://github.com/
+Author: SAPIENS TECHNOLOGY
+License: Proprietary Software
+License-File: LICENSE.txt
+Requires-Dist: numpy==1.25.2
+Requires-Dist: tiktoken==0.4.0
+Requires-Dist: hurnet==1.0.7
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist

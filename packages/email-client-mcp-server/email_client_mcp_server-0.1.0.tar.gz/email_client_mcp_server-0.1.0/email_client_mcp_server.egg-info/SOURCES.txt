@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+email_client/__init__.py
+email_client/server.py
+email_client_mcp_server.egg-info/PKG-INFO
+email_client_mcp_server.egg-info/SOURCES.txt
+email_client_mcp_server.egg-info/dependency_links.txt
+email_client_mcp_server.egg-info/entry_points.txt
+email_client_mcp_server.egg-info/requires.txt
+email_client_mcp_server.egg-info/top_level.txt

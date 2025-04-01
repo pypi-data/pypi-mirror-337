@@ -1,0 +1,15 @@
+MANIFEST.in
+VERSION
+setup.py
+tensorshield.ext.protocol.egg-info/PKG-INFO
+tensorshield.ext.protocol.egg-info/SOURCES.txt
+tensorshield.ext.protocol.egg-info/dependency_links.txt
+tensorshield.ext.protocol.egg-info/requires.txt
+tensorshield.ext.protocol.egg-info/top_level.txt
+tensorshield/ext/protocol/__init__.py
+tensorshield/ext/protocol/package.json
+tensorshield/ext/protocol/models/__init__.py
+tensorshield/ext/protocol/models/_synapse.py
+tensorshield/ext/protocol/models/_synapseenvelope.py
+tensorshield/ext/protocol/models/_synapseheader.py
+tensorshield/ext/protocol/models/_terminalinfo.py

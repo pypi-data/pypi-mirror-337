@@ -1,0 +1,10 @@
+pydantic>2
+libtensorshield>=0.0.2
+
+[develop]
+bittensor>=9.0.0
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

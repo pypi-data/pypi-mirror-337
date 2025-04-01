@@ -1,0 +1,2 @@
+[console_scripts]
+mtg_card_puller = mtg_card_puller.cli:main

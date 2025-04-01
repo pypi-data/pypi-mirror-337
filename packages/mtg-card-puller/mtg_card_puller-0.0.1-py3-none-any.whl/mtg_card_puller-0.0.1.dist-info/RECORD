@@ -1,0 +1,8 @@
+mtg_card_puller/__init__.py,sha256=3b4nD_6BeRObefbTGABtxx9W9cJCzl9vbFn4lPAV5oQ,140
+mtg_card_puller/cli.py,sha256=1RZ_qRjAzmdNEr9qwB4acl_Mf9m8SD9LBA8M2TXMhdM,624
+mtg_card_puller/mtg_card_puller.py,sha256=_-r_ZRfQSC62GHQ6_4SdQTKvDCPBTgjjdOfmRiI1alI,3402
+mtg_card_puller-0.0.1.dist-info/METADATA,sha256=LyPTvf4ePOyAnOmi_I2LzjWHSoKg2lOh08DBGn1x_TU,5211
+mtg_card_puller-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mtg_card_puller-0.0.1.dist-info/entry_points.txt,sha256=SBB4r4DzQ3qN28gcNzo2GymYryLLUAU8zJx2iFBOQuo,61
+mtg_card_puller-0.0.1.dist-info/licenses/LICENSE,sha256=hby_e8kGHXhzYsKwauJVUPjCorr-ZMKBtqgM3vGrS0o,584
+mtg_card_puller-0.0.1.dist-info/RECORD,,

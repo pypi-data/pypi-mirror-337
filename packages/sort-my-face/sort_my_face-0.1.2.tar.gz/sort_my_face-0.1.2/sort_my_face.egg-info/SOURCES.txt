@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sort_my_face/__init__.py
+sort_my_face/cosinus_distance.py
+sort_my_face/euclidean_distance.py
+sort_my_face/extract_faces.py
+sort_my_face/main.py
+sort_my_face/sorted_cosinus_distance.py
+sort_my_face/sorted_euclidean_distance.py
+sort_my_face.egg-info/PKG-INFO
+sort_my_face.egg-info/SOURCES.txt
+sort_my_face.egg-info/dependency_links.txt
+sort_my_face.egg-info/entry_points.txt
+sort_my_face.egg-info/requires.txt
+sort_my_face.egg-info/top_level.txt

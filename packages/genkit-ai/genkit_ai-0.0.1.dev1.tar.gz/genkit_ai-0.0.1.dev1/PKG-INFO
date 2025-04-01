@@ -1,0 +1,66 @@
+Metadata-Version: 2.4
+Name: genkit-ai
+Version: 0.0.1.dev1
+Summary: Genkit AI Framework
+Author: Google
+License: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.12
+Requires-Dist: asgiref>=3.8.1
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: json5>=0.10.0
+Requires-Dist: opentelemetry-api>=1.29.0
+Requires-Dist: opentelemetry-sdk>=1.29.0
+Requires-Dist: partial-json-parser>=0.2.1.1.post5
+Requires-Dist: pillow
+Requires-Dist: psutil>=7.0.0
+Requires-Dist: pydantic>=2.10.5
+Requires-Dist: requests>=2.32.3
+Requires-Dist: sse-starlette>=2.2.1
+Requires-Dist: starlette>=0.46.1
+Requires-Dist: structlog>=25.2.0
+Description-Content-Type: text/markdown
+
+# genkit-ai
+
+## Setup Instructions
+
+1. Install `uv` from https://docs.astral.sh/uv/getting-started/installation/
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+2. Install required tools using `uv`
+
+```bash
+uv pip install -r pyproject.toml
+```
+
+3. If you are using VSCode, install the `Ruff` extension from the marketplace to
+   add linter support.
+
+## Run test app
+
+See the README.md in the samples folder.
+
+
+## Run all unit tests
+
+``` bash
+uv run pytest .
+```
+
+

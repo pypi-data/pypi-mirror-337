@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+qdrant_manager/__init__.py
+qdrant_manager/cli.py
+qdrant_manager/config.py
+qdrant_manager.egg-info/PKG-INFO
+qdrant_manager.egg-info/SOURCES.txt
+qdrant_manager.egg-info/dependency_links.txt
+qdrant_manager.egg-info/entry_points.txt
+qdrant_manager.egg-info/requires.txt
+qdrant_manager.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_config.py

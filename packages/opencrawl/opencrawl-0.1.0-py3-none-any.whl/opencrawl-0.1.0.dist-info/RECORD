@@ -1,0 +1,13 @@
+opencrawl/__init__.py,sha256=SdJ05ltC5NJ-26n8B9o_BCB9rtW0691Akq21axanACU,228
+opencrawl/open_crawl_api.py,sha256=-SxzraPRtrSwTHFzfdITfsgAEx-jEG3AHCDSaV8ZV5s,12522
+opencrawl/opencrawl.py,sha256=9eG9_9ryM24UkCce-hYwCGHvjvU6LkLuS76j9VIh-Ew,27507
+opencrawl/website_crawler_db.py,sha256=-OZhdry_S7V7UQSlLk3eNEBKkh_dgX2aTYPnrd2Ca-E,16237
+opencrawl/examples/api.py,sha256=Bdg44i1-k4L47-cdPZugrl-RZfOmD-cSFpyIlIOLcu8,3483
+opencrawl/examples/app.py,sha256=14HEfIHCjyu-vgGNyBUbsUB2xSU9Y4QJPFKLDoqpsx0,6584
+opencrawl/examples/requirements.txt,sha256=QUybvrLfHwY7i2ABN5j58XH5gOon-__AQm8ueHWGSLQ,364
+opencrawl/examples/search_agent.py,sha256=W3qsEHXcPLuI6FlMTGAPFbkme3rUounFFujYDli-Rs0,7908
+opencrawl-0.1.0.dist-info/licenses/LICENSE,sha256=q7_NVop4AL0t7rXRY9s8SamUIz9ryyC8UtWJclaCVuE,11344
+opencrawl-0.1.0.dist-info/METADATA,sha256=H5J74L0XsyWbWCnsuF7Yv1LXWhVcBdAtmr-frVOGuLE,5178
+opencrawl-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+opencrawl-0.1.0.dist-info/top_level.txt,sha256=tc4uS7mcN4Smi2kk9_wdGWyphpw92srCF1dBaFpKF5A,10
+opencrawl-0.1.0.dist-info/RECORD,,

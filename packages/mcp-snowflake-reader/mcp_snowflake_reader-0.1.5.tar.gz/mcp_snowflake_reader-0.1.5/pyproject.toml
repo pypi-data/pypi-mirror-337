@@ -1,0 +1,17 @@
+[project]
+name = "mcp-snowflake-reader"
+version = "0.1.5"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.6.0",
+    "python-dotenv>=1.0.0",
+    "snowflake-connector-python>=3.10.0",
+]
+
+[project.scripts]
+mcp-snowflake-reader = "main:main"
+
+[tool.uv.scripts]
+mcp-snowflake-reader = "main:main"

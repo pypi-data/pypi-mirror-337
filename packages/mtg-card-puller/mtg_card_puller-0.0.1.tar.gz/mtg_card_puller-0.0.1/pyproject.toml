@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling>=1.21.0"]
+build-backend = "hatchling.build"
+
+
+
+[project]
+name = "mtg_card_puller"
+description = "Pull MTG card images in b"
+readme = "README.md"
+license.file = "LICENSE"
+authors = [
+    { name = "Rob Fletcher", email = "robroy.fletcher@gmail.com" }
+]
+maintaners = [
+    { name = "Rob Fletcher", email = "robroy.fletcher@gmail.com" }
+]
+requires-python = ">=3.10"
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: Apache Software License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+]
+dependencies = [
+    "click>=7.0",
+    "geodesic-api"
+]
+dynamic = ["version"]
+
+[project.scripts]
+mtg_card_puller = "mtg_card_puller.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+    "coverage",
+    "pre-commit",
+    "jupyterlab",
+]
+
+[project.urls]
+Homepage = "https://github.com/seerai/mtg_card_puller"
+
+[tool.hatch.version]
+path = "mtg_card_puller/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [".github", "data/", "docs/"]

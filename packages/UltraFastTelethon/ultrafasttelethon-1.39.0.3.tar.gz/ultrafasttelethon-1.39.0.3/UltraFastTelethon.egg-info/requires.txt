@@ -1,0 +1,10 @@
+aiohttp
+pyaes
+rsa
+
+[cryptg]
+cryptg
+
+[fastest]
+uvloop
+cryptg

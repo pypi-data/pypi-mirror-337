@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: pymft
+Version: 0.1.7
+Summary: Library for Midi Fighter Twister Interfacing in Python
+Author: Sina Solaimanpour
+Author-email: sinas.cb@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-rtmidi>=1.5.8
+Requires-Dist: typing>=3.7.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+
+        # pymft: Python Midi Fighter Twister Library
+
+        This library provides a simple and easy-to-use interface for interacting
+
+        with the Midi Fighter Twister controller in Python. 
+
+        The code in this library is inspired from the Chromatik MidiFighterTwister library.
+        

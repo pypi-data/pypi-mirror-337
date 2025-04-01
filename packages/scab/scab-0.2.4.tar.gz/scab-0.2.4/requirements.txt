@@ -1,0 +1,27 @@
+abstar>=0.7.1
+abutils>=0.5.2
+anndata
+click
+dnachisel
+fastcluster
+harmonypy
+humanize
+leidenalg
+matplotlib
+mnemonic
+# mnnpy
+natsort
+numpy
+pandas
+prettytable
+pytest
+python-Levenshtein
+pyyaml
+sample-sheet
+scanpy
+scanorama
+scipy
+scrublet
+scvelo
+seaborn>=0.11
+umap-learn

@@ -1,0 +1,2 @@
+[console_scripts]
+scab = scab.scripts.scab:cli

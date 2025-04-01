@@ -1,0 +1,11 @@
+minha_api_lib/__init__.py,sha256=4IVU7FHNzFW2YA2nMtoRkcDqsNqNKSPl8ft43byiop0,62
+minha_api_lib/cli.py,sha256=h2RamAUawO1qof0QpU7ipTvfLqoeRMgbhrqIEddK4Cw,537
+minha_api_lib/main.py,sha256=_lT_Javf2s6WLnWXZQRfl_KegHy8aeWOdCKRTB-J-wA,345
+minha_api_lib/test_main.http,sha256=oHpNVQbkQSoPEaJUKl6YaPZr1ly02xy5mS97myY8R6A,167
+minha_api_lib/routers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minha_api_lib/routers/exemplo.py,sha256=hgIwIiVG-5VlgDzX7la6wnSeoxaRcIciKqPCPykeohI,181
+minha_fastapi_lib-0.1.0.dist-info/METADATA,sha256=CNnO9JxRu_N2em5D40ylKxkWsSHbo8FGo8sfj9NuMM8,731
+minha_fastapi_lib-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+minha_fastapi_lib-0.1.0.dist-info/entry_points.txt,sha256=CDps_KSNgPp0_BzuR8cU-wC0Zy_MeEPKnghMV5LFGIA,57
+minha_fastapi_lib-0.1.0.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minha_fastapi_lib-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+minha-api = minha_fastapi_lib.cli:main

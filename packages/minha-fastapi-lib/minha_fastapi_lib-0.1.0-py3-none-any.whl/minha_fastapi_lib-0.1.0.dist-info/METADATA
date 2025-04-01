@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: minha_fastapi_lib
+Version: 0.1.0
+Summary: Uma biblioteca FastAPI reutilizável
+Project-URL: Homepage, https://github.com/yourusername/minha_fastapi_lib
+Project-URL: Bug Tracker, https://github.com/yourusername/minha_fastapi_lib/issues
+Author-email: Junior Rodrigues <rodriguescla2@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: fastapi>=0.95.0
+Requires-Dist: uvicorn>=0.21.1
+Provides-Extra: dev
+Requires-Dist: httpx>=0.24.0; extra == 'dev'
+Requires-Dist: pytest>=7.3.1; extra == 'dev'
+Requires-Dist: requests>=2.29.0; extra == 'dev'

@@ -1,0 +1,434 @@
+"""ConicalGearSetHarmonicAnalysisOfSingleExcitation"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal import constructor, conversion, utility
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+    _6334,
+)
+
+_CONICAL_GEAR_SET_HARMONIC_ANALYSIS_OF_SINGLE_EXCITATION = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.HarmonicAnalysesSingleExcitation",
+    "ConicalGearSetHarmonicAnalysisOfSingleExcitation",
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2857, _2859, _2863
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7845,
+        _7848,
+    )
+    from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+        _6274,
+        _6280,
+        _6287,
+        _6292,
+        _6306,
+        _6307,
+        _6339,
+        _6343,
+        _6346,
+        _6349,
+        _6357,
+        _6376,
+        _6379,
+        _6385,
+        _6388,
+        _6406,
+    )
+    from mastapy._private.system_model.part_model.gears import _2726
+
+    Self = TypeVar("Self", bound="ConicalGearSetHarmonicAnalysisOfSingleExcitation")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="ConicalGearSetHarmonicAnalysisOfSingleExcitation._Cast_ConicalGearSetHarmonicAnalysisOfSingleExcitation",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("ConicalGearSetHarmonicAnalysisOfSingleExcitation",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_ConicalGearSetHarmonicAnalysisOfSingleExcitation:
+    """Special nested class for casting ConicalGearSetHarmonicAnalysisOfSingleExcitation to subclasses."""
+
+    __parent__: "ConicalGearSetHarmonicAnalysisOfSingleExcitation"
+
+    @property
+    def gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6334.GearSetHarmonicAnalysisOfSingleExcitation":
+        return self.__parent__._cast(_6334.GearSetHarmonicAnalysisOfSingleExcitation)
+
+    @property
+    def specialised_assembly_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6376.SpecialisedAssemblyHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6376,
+        )
+
+        return self.__parent__._cast(
+            _6376.SpecialisedAssemblyHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def abstract_assembly_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6274.AbstractAssemblyHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6274,
+        )
+
+        return self.__parent__._cast(
+            _6274.AbstractAssemblyHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def part_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6357.PartHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6357,
+        )
+
+        return self.__parent__._cast(_6357.PartHarmonicAnalysisOfSingleExcitation)
+
+    @property
+    def part_static_load_analysis_case(
+        self: "CastSelf",
+    ) -> "_7848.PartStaticLoadAnalysisCase":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7848,
+        )
+
+        return self.__parent__._cast(_7848.PartStaticLoadAnalysisCase)
+
+    @property
+    def part_analysis_case(self: "CastSelf") -> "_7845.PartAnalysisCase":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7845,
+        )
+
+        return self.__parent__._cast(_7845.PartAnalysisCase)
+
+    @property
+    def part_analysis(self: "CastSelf") -> "_2863.PartAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2863
+
+        return self.__parent__._cast(_2863.PartAnalysis)
+
+    @property
+    def design_entity_single_context_analysis(
+        self: "CastSelf",
+    ) -> "_2859.DesignEntitySingleContextAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2859
+
+        return self.__parent__._cast(_2859.DesignEntitySingleContextAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2857.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2857
+
+        return self.__parent__._cast(_2857.DesignEntityAnalysis)
+
+    @property
+    def agma_gleason_conical_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6280.AGMAGleasonConicalGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6280,
+        )
+
+        return self.__parent__._cast(
+            _6280.AGMAGleasonConicalGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def bevel_differential_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6287.BevelDifferentialGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6287,
+        )
+
+        return self.__parent__._cast(
+            _6287.BevelDifferentialGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def bevel_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6292.BevelGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6292,
+        )
+
+        return self.__parent__._cast(
+            _6292.BevelGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def hypoid_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6339.HypoidGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6339,
+        )
+
+        return self.__parent__._cast(
+            _6339.HypoidGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_conical_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> (
+        "_6343.KlingelnbergCycloPalloidConicalGearSetHarmonicAnalysisOfSingleExcitation"
+    ):
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6343,
+        )
+
+        return self.__parent__._cast(
+            _6343.KlingelnbergCycloPalloidConicalGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_hypoid_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> (
+        "_6346.KlingelnbergCycloPalloidHypoidGearSetHarmonicAnalysisOfSingleExcitation"
+    ):
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6346,
+        )
+
+        return self.__parent__._cast(
+            _6346.KlingelnbergCycloPalloidHypoidGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_spiral_bevel_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6349.KlingelnbergCycloPalloidSpiralBevelGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6349,
+        )
+
+        return self.__parent__._cast(
+            _6349.KlingelnbergCycloPalloidSpiralBevelGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def spiral_bevel_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6379.SpiralBevelGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6379,
+        )
+
+        return self.__parent__._cast(
+            _6379.SpiralBevelGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def straight_bevel_diff_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6385.StraightBevelDiffGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6385,
+        )
+
+        return self.__parent__._cast(
+            _6385.StraightBevelDiffGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def straight_bevel_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6388.StraightBevelGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6388,
+        )
+
+        return self.__parent__._cast(
+            _6388.StraightBevelGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def zerol_bevel_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "_6406.ZerolBevelGearSetHarmonicAnalysisOfSingleExcitation":
+        from mastapy._private.system_model.analyses_and_results.harmonic_analyses_single_excitation import (
+            _6406,
+        )
+
+        return self.__parent__._cast(
+            _6406.ZerolBevelGearSetHarmonicAnalysisOfSingleExcitation
+        )
+
+    @property
+    def conical_gear_set_harmonic_analysis_of_single_excitation(
+        self: "CastSelf",
+    ) -> "ConicalGearSetHarmonicAnalysisOfSingleExcitation":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class ConicalGearSetHarmonicAnalysisOfSingleExcitation(
+    _6334.GearSetHarmonicAnalysisOfSingleExcitation
+):
+    """ConicalGearSetHarmonicAnalysisOfSingleExcitation
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _CONICAL_GEAR_SET_HARMONIC_ANALYSIS_OF_SINGLE_EXCITATION
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def assembly_design(self: "Self") -> "_2726.ConicalGearSet":
+        """mastapy.system_model.part_model.gears.ConicalGearSet
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "AssemblyDesign")
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def gears_harmonic_analysis_of_single_excitation(
+        self: "Self",
+    ) -> "List[_6306.ConicalGearHarmonicAnalysisOfSingleExcitation]":
+        """List[mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.ConicalGearHarmonicAnalysisOfSingleExcitation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "GearsHarmonicAnalysisOfSingleExcitation"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def conical_gears_harmonic_analysis_of_single_excitation(
+        self: "Self",
+    ) -> "List[_6306.ConicalGearHarmonicAnalysisOfSingleExcitation]":
+        """List[mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.ConicalGearHarmonicAnalysisOfSingleExcitation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "ConicalGearsHarmonicAnalysisOfSingleExcitation"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def meshes_harmonic_analysis_of_single_excitation(
+        self: "Self",
+    ) -> "List[_6307.ConicalGearMeshHarmonicAnalysisOfSingleExcitation]":
+        """List[mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.ConicalGearMeshHarmonicAnalysisOfSingleExcitation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "MeshesHarmonicAnalysisOfSingleExcitation"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def conical_meshes_harmonic_analysis_of_single_excitation(
+        self: "Self",
+    ) -> "List[_6307.ConicalGearMeshHarmonicAnalysisOfSingleExcitation]":
+        """List[mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.ConicalGearMeshHarmonicAnalysisOfSingleExcitation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(
+            self.wrapped, "ConicalMeshesHarmonicAnalysisOfSingleExcitation"
+        )
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(
+        self: "Self",
+    ) -> "_Cast_ConicalGearSetHarmonicAnalysisOfSingleExcitation":
+        """Cast to another type.
+
+        Returns:
+            _Cast_ConicalGearSetHarmonicAnalysisOfSingleExcitation
+        """
+        return _Cast_ConicalGearSetHarmonicAnalysisOfSingleExcitation(self)

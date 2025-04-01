@@ -1,0 +1,9 @@
+ozschoolbreaks/__init__.py,sha256=Q3hd5iANWEg7sPhma-UHotvS77unIaDMvxjHM_PsED8,103
+ozschoolbreaks/breaks.py,sha256=chwZIfszHqXkurVBfbI0D5LNS_K4kZVm_JcHHdo5wsM,970
+ozschoolbreaks/data.py,sha256=CjoCPCQmmUSj9TawLIlO2KdDuCtYVYaWn_7FtT-d3Kw,452
+ozschoolbreaks/school_breaks.yaml,sha256=Bd3Zo3-MD_WZszZQXQMVCID3qcJi_iSB_9dpCYpVdxg,11108
+ozschoolbreaks/utils.py,sha256=zCa4S1pvJWqB-nYe3V8ejiFgS4UlErhslrQUHeIhPHM,264
+ozschoolbreaks-0.2.0.dist-info/METADATA,sha256=HUmGjuU5zr2gBZs5XnfSqI53ixyt3z4DWyKMCqXZ8EU,2058
+ozschoolbreaks-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ozschoolbreaks-0.2.0.dist-info/licenses/LICENSE,sha256=GTVQl3vH6ht70wJXKC0yMT8CmXKHxv_YyO_utAgm7EA,1065
+ozschoolbreaks-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: pymimi
+Version: 0.0.1003
+Summary: 这是一个适用于Midas Cvil NX二次开发库，旨在帮助摆脱繁琐的json编写
+Home-page: https://github.com/ManiacasTraitor/Midas-Civil--PyMiMi
+Author: ManiacsTraitor
+Author-email: 2727671635@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# PyMiMi_README
+
+## 写在前面	
+
+​	亲爱的Midas开发者你好！欢迎你下载pymimi，本库正在不断更新中，如果遇见了bug请及时和我反馈，我的邮箱是2727671635@QQ.com，来信请将您的主要问题写在标题以便我能够快速了解问题，同时请您在正文中能够尽可能详细的描述您使用的Python版本和Civil NX版本以及遇见的问题以便我能够快速定位问题。
+
+## 简介
+
+​	pymimi库主要是为了帮助Midas Civil NX二次开发者能够免去json的繁琐而开发的，它是基于Midas官方API手册开发而来。
+
+## 使用教程
+
+​	所有的使用教程我都放在了usage_tutorial下，里面有对各个模块使用的详尽的教程，为markdown格式。
+
+## 许可证
+
+​	本项目使用 [MIT 许可证](LICENSE.txt)
+
+## 联系方式
+
+​	如果有任何问题或建议，请联系 [2727671635@QQ.COM]或在本人CSDN博客下留言（[ManiacsTraitor-CSDN博客](https://blog.csdn.net/ManiacsTraitor)）。欢迎各位开发者对本库提出宝贵的建议，共建一个良好的社区。
+
+## 写在最后
+
+​	目前的pymimi库还很年轻，只能够进行基础的文件操作，更多的功能将会在接下来的版本更新中放出。同时囿于作者不能够对每个函数都进行百分百全方位的测试，因此更多的还需要依靠各位开发者一块儿来发现问题，帮助pymimi库成长。

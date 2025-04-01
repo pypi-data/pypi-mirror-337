@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pymimi_v0.0.003/pymimi.egg-info/PKG-INFO
+pymimi_v0.0.003/pymimi.egg-info/SOURCES.txt
+pymimi_v0.0.003/pymimi.egg-info/dependency_links.txt
+pymimi_v0.0.003/pymimi.egg-info/requires.txt
+pymimi_v0.0.003/pymimi.egg-info/top_level.txt

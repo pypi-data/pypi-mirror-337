@@ -1,0 +1,11 @@
+include README.md
+include LICENSE.txt
+include usage_tutorial/*
+exclude test/*
+exclude docs/*
+exclude midas_test/*
+exclude structure/*
+exclude .gitignore
+exclude .git/
+prune .idea  #
+prune __pycache__

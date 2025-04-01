@@ -1,0 +1,5 @@
+main
+oscillogram
+plugins
+template10x5
+wav_cutting

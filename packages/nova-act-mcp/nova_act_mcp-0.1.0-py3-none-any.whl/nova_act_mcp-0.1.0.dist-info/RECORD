@@ -1,0 +1,9 @@
+nova_act_mcp/__init__.py,sha256=baOG_JUpBxyDtNR6FFv9yIjxGMdugVE0A4g6bDLszhE,526
+nova_act_mcp/__main__.py,sha256=Id6tt3Y5p0_8WYbEqTCdChxz98CT7QE7mXrSrDqckdQ,38
+nova_act_mcp/server.py,sha256=3wahsjQY4DF0YKFvltqcY1SNNK3u8jst_Cw3R-CJUdE,442
+nova_act_mcp-0.1.0.dist-info/METADATA,sha256=D46jGremULxSpG4C1raIwi-D1pFSys87rvI5QGN8B8c,659
+nova_act_mcp-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nova_act_mcp-0.1.0.dist-info/entry_points.txt,sha256=HjzujriCcn72-wQU5guasxUzVCVjLPNhbb1E7EQEYb8,53
+nova_act_mcp-0.1.0.dist-info/licenses/LICENSE,sha256=Z50Z9hxkckX4j0qsIo4vXwn4gsMNtsAvr6HZencA_eU,1060
+nova_act_mcp-0.1.0.dist-info/licenses/NOTICE.html,sha256=4Qj8tdeCK5gD4FcjjjtKK0o_9rLLf7VSUkoJE_UbecI,1103498
+nova_act_mcp-0.1.0.dist-info/RECORD,,

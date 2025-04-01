@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-git = nova_act_mcp:main

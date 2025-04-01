@@ -1,0 +1,2 @@
+[console_scripts]
+dbbundle-config = better_bundle_config:main

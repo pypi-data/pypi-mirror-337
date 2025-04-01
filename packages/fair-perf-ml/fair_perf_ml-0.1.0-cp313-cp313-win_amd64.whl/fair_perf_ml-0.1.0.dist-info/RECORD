@@ -1,0 +1,13 @@
+fair_perf_ml-0.1.0.dist-info/METADATA,sha256=v7GBrNzTObhTu0GORHEAEEhM_1EnWnQZBsTWTlDfSAk,16713
+fair_perf_ml-0.1.0.dist-info/WHEEL,sha256=6gg8M7kMeWmDzkhJuJzWLhBYdt7OGDF81wlSJjN85_E,96
+fair_perf_ml-0.1.0.dist-info/licenses/LICENSE,sha256=NlFq79yExdWh50hUJZE6ItvaaesZMMXoTWrklytRlLk,1046
+fair_perf_ml/.github/workflows/CI.yml,sha256=sMYiY-2cITC_HEiie5OV-ZhQ1SX4pD21ObTTqi36ieo,5046
+fair_perf_ml/.gitignore,sha256=gjBfGBTl5fOBFWyTNLc5GhH1pG9CA3xaDtTJoUSwpmI,758
+fair_perf_ml/data_bias.py,sha256=DrK6TxhiabMUqI91qqtehSSpyBBxccXQTLqUR9WEWNM,3691
+fair_perf_ml/models.py,sha256=n2Wij2HHy2VyMbpqZBf-3jHqtvF-IROhoXgBgMosZWc,2363
+fair_perf_ml/model_bias.py,sha256=tckj2hpyJadF7rr_YTYwAZEk2IoDmXfzwycH8Vl6GDI,3961
+fair_perf_ml/model_perf.py,sha256=kUoHeZitMltpCeOWBOkHlEKildxEOnRbz8j5k-Yfdv4,3871
+fair_perf_ml/_internal.py,sha256=h4Eb3kklS6lvzYAlqArf_ALe_EADPZKEGwvGnhMt1yI,882
+fair_perf_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fair_perf_ml/_fair_perf_ml.cp313-win_amd64.pyd,sha256=aHy6OcLxXmt_5iFqMoKLc9henBOTva-q2d-X1gHYY7M,446976
+fair_perf_ml-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+MORESCA/__init__.py,sha256=hr_iqrXHETG5BoCj5WJ7rIDUZ1ts4PA4hwFY2oKRvpc,142
+MORESCA/analysis_steps.py,sha256=sBF__ozL73KduuWD7Vw4vRT_rKH0NcFZSxGYRrX-Ib4,33912
+MORESCA/generator.py,sha256=8ySvaSHOfs3Bofak7fOgrJjfN0hyOWthCNI8NLCs27c,11469
+MORESCA/plotting.py,sha256=S3b-s89P0iV6Agp9wpZIjFdEoI83rXJPaayosQX4bmg,1358
+MORESCA/template.py,sha256=YmefVHej_2WC786RZgsQnahTAc1bkrMKL9FZetdW96c,3453
+MORESCA/utils.py,sha256=tmFl_RJA5wUWE-7wJ-7R22OaZhwVCaRXdq4Z4yOXsx4,13254
+MORESCA/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MORESCA/tests/test_analysis_steps.py,sha256=yUgs_z7mkPtF9B97sLm4Jy7Z1O5X_l7ID7dOs5H6IX8,1559
+MORESCA/tests/test_utils.py,sha256=RNVhpIOkjBQQa558Meu9owA6NIdqQ646JKE3ApOCnaI,2379
+moresca-0.1.1.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+moresca-0.1.1.dist-info/METADATA,sha256=wMgXpEDW9iDqMUzPMxKUwU63cRCgfqfsHZbo-pcF2HM,7018
+moresca-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+moresca-0.1.1.dist-info/entry_points.txt,sha256=Tp1lL5F-b1JimTUgcVJmWa1pqDIARlOKQ5hpJNGLJyM,50
+moresca-0.1.1.dist-info/top_level.txt,sha256=IDVRHtD86jKohkBQu3cP8L1BbrkiV-xdZT1yp5gvZK4,8
+moresca-0.1.1.dist-info/RECORD,,

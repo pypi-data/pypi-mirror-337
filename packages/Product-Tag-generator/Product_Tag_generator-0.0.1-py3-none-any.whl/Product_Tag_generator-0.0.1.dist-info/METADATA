@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: Product_Tag_generator
+Version: 0.0.1
+Summary: A simple library to extract tags from product titles
+Author: Akash Venkatesan
+Author-email: akashv1006@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+from Product_Tag_generator import extract_title_tags
+
+# Example product title
+title = "Apple iPhone 12 Pro Max 128GB"
+
+# Generate tags
+tags = extract_title_tags(title)
+
+print("Generated Tags:", tags)

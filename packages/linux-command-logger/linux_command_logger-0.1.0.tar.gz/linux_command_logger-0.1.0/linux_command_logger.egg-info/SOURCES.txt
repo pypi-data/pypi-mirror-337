@@ -1,0 +1,15 @@
+.env
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+linux_command_logger/__init__.py
+linux_command_logger/auto_commit.py
+linux_command_logger/explain.py
+linux_command_logger/extract.py
+linux_command_logger.egg-info/PKG-INFO
+linux_command_logger.egg-info/SOURCES.txt
+linux_command_logger.egg-info/dependency_links.txt
+linux_command_logger.egg-info/entry_points.txt
+linux_command_logger.egg-info/requires.txt
+linux_command_logger.egg-info/top_level.txt

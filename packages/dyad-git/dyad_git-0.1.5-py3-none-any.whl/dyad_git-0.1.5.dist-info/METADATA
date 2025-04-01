@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: dyad-git
+Version: 0.1.5
+Summary: Add your description here
+Author-email: Will Chen <willchen90@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: gitpython>=3.1.44

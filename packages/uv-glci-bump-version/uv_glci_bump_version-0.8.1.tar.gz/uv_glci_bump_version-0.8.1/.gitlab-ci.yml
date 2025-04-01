@@ -1,0 +1,47 @@
+image: ghcr.io/astral-sh/uv:0.6.10-python3.13-bookworm-slim
+
+variables:
+    CACHE_DIR: $CI_PROJECT_DIR/.cache
+    UV_CACHE_DIR: $CACHE_DIR/uv
+    PYRIGHT_PYTHON_CACHE_DIR: $CACHE_DIR/pyright
+
+cache:
+    paths:
+        - $CACHE_DIR
+
+stages:
+    - test
+    - publish
+    - version
+
+test:
+    stage: test
+    script:
+        - uv --version
+        - uv sync --group dev
+        - source .venv/bin/activate
+
+        - ruff --version
+        - ruff check
+
+        - pyright --version
+        - pyright
+
+        - python --version
+        - python test --expect-full
+
+publish:
+    stage: publish
+    only:
+        - main
+    script:
+        - uv --version
+        - uv build
+        - uv publish --username __token__
+
+version:
+    stage: version
+    only:
+        - main
+    script:
+        - uv --version

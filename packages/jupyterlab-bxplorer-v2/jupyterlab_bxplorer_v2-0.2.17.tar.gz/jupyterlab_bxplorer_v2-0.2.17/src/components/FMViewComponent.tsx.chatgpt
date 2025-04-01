@@ -1,0 +1,227 @@
+import React, { useRef } from 'react';
+import {
+  FileManagerComponent,
+  Inject,
+  DetailsView,
+  Toolbar,
+} from '@syncfusion/ej2-react-filemanager';
+import { requestAPI } from '../handler';
+// import { showDialog, Dialog, showErrorMessage } from '@jupyterlab/apputils';
+
+interface FMViewComponentProps {
+  downloadsFolder: string;
+  clientType: string;
+}
+
+const FMViewComponent: React.FC<FMViewComponentProps> = (props): JSX.Element => {
+  // const downloadsFolder = props.downloadsFolder || "downloads";
+  const clientType = props.clientType || "private";
+  const fileManagerRef = useRef<FileManagerComponent>(null);
+  // const hostUrl = window.location.origin; // e.g., "http://127.0.0.1:8888"
+  // const ajaxSettings: object = {
+  //   url: "/jupyterlab-bxplorer-v2/FileOperations"
+  // };
+
+  const ajaxSettings = {
+    url: "/jupyterlab-bxplorer-v2/FileOperations",           // URL base para lectura/listado (no se usará directamente gracias a beforeSend)
+    uploadUrl: "/jupyterlab-bxplorer-v2/FileOperations",   // (ejemplo, por completitud; se podría manejar similar para uploads)
+    downloadUrl: "/jupyterlab-bxplorer-v2/FileOperations"
+  }
+
+  // Manejador para interceptar list, search, details
+  const handleBeforeSend = async (args: any) => {
+    console.log("Beginning FileManager operation...");
+    console.log("args:", args);
+
+    const action = args.action;  // e.g. "read", "search", "details", "create", etc.
+    if (action === 'read' || action === 'search' || action === 'details') {
+      args.cancel = true;  // Cancela la petición AJAX interna de FileManager
+
+      try {
+        let currentData = args.ajaxSettings.data;
+        // Si currentData es un string, lo parseamos a objeto.
+        if (typeof currentData === "string") {
+          try {
+            currentData = JSON.parse(currentData);
+          } catch (e) {
+            console.error("Error al parsear ajaxSettings.data:", e);
+            currentData = {};
+          }
+        }
+        // Fusionamos los datos y agregamos client_type
+        const modifiedData = { ...currentData, client_type: clientType };
+        // Convertimos nuevamente a cadena JSON
+        args.ajaxSettings.data = JSON.stringify(modifiedData);
+        console.log("ajaxBeforeSend modified args:", args);
+
+        const payload = args.ajaxSettings.data;
+
+        // Llamar al endpoint del servidor JupyterLab usando requestAPI
+        const responseData: any = await requestAPI("FileOperations", {
+          method: 'POST',
+          body: payload
+        });
+
+        console.log("responseData:", responseData);
+
+        if (action === 'read' || action === 'search') {
+          // Actualizar lista de archivos y directorio actual
+          // Asignamos los datos al FileManager:
+          // - responseData.cwd: directorio actual
+          // - responseData.files: lista de archivos/carpetas
+          if (fileManagerRef.current) {
+            // Actualiza datos manualmente en la vista de detalles
+            // Verifica si el componente está montado y disponible
+            if (fileManagerRef.current) {
+              console.log("fileManagerRef.current:", fileManagerRef.current);
+              // Actualiza los archivos en el FileManager
+              console.log("fileManagerRef.current.feFiles:", fileManagerRef.current.feFiles);
+              fileManagerRef.current.path = responseData.cwd.path;
+              fileManagerRef.current.feFiles = responseData.files;
+              
+              // Aplica los cambios y actualiza la vista manualmente
+              fileManagerRef.current.dataBind();
+            } else {
+              console.error('Error: fileManagerRef.current no está disponible.');
+            }
+          }
+          // Vuelve a renderizar el componente para reflejar los nuevos datos
+        }
+
+      } catch (error) {
+        console.error('Error en operación FileManager:', error);
+      }
+    }
+  };
+
+  // Manejador para interceptar descarga de archivos
+  const handleBeforeDownload = async (args: any) => {
+    args.cancel = true;  // Cancela la descarga automática (form submit)
+    try {
+      // Extraer datos de descarga (path y nombres de archivos) del evento
+      const downloadPath = args.data.path;
+      const fileNames = args.data.names;
+      // Llamar a nuestro endpoint /download vía requestAPI
+      const result = await requestAPI('download', {
+        method: 'POST',
+        body: JSON.stringify({ path: downloadPath, names: fileNames })
+      });
+      const typedResult = result as { success: boolean; file_saved: string };
+      if (typedResult.success) {
+        // Obtuvimos confirmación de que el archivo está listo en 'result.file_saved'
+        const downloadUrl = (result as { file_saved: string }).file_saved;
+        // Crear un enlace temporal para forzar la descarga del archivo
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        // Si es un único archivo, usar su nombre original; si es múltiple (zip), usar nombre por defecto
+        link.download = fileNames.length === 1 ? fileNames[0] : 'download.zip';
+        document.body.appendChild(link);
+        link.click();    // disparar la descarga
+        document.body.removeChild(link);
+      } else {
+        console.error('Descarga fallida en el backend');
+      }
+    } catch (error) {
+      console.error('Error en descarga FileManager:', error);
+    }
+  };
+
+
+  // const contextMenuClickHandler = (args: any): void => {
+  //   console.log("menuClick args:", args);
+  //   if (args.item && args.item.text === "Download") {
+  //     args.cancel = true;
+  //     const currentPath = (fileManagerRef.current as any).path || "/";
+  //     const selectedItems = args.data || (fileManagerRef.current && (fileManagerRef.current as any).selectedItems);
+  //     if (!selectedItems || selectedItems.length === 0) {
+  //       showDialog({
+  //         title: 'Información',
+  //         body: 'No se ha seleccionado ningún archivo',
+  //         buttons: [Dialog.okButton({ label: 'Aceptar' })]
+  //       });
+  //       return;
+  //     }
+
+  //     // Construimos la estructura de datos que espera el backend, agregando client_type.
+  //     const payloadObj = {
+  //       action: "download",
+  //       path: currentPath,
+  //       downloadsFolder: downloadsFolder,
+  //       client_type: clientType,
+  //       names: selectedItems.map((item: any) => item.name || item),
+  //       data: selectedItems.map((item: any) => {
+  //         if (typeof item === "string") {
+  //           return {
+  //             name: item,
+  //             isFile: true,
+  //             path: currentPath.endsWith("/")
+  //               ? currentPath + item
+  //               : currentPath + "/" + item,
+  //           };
+  //         } else {
+  //           return item;
+  //         }
+  //       }),
+  //     };
+
+  //     const payload = JSON.stringify(payloadObj);
+  //     const formData = new URLSearchParams();
+  //     formData.append("downloadInput", payload);
+
+  //     requestAPI('FileOperations', {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  //       body: formData.toString(),
+  //     })
+  //       .then((data: any) => {
+  //         showDialog({
+  //           title: 'Operación exitosa',
+  //           body: `Archivo guardado en: ${data.file_saved}`,
+  //           buttons: [Dialog.okButton({ label: 'Aceptar' })]
+  //         });
+  //       })
+  //       .catch((error: any) => {
+  //         console.error("Error en la descarga:", error);
+  //         showErrorMessage('Error en la descarga', 'Ocurrió un error al descargar el archivo.');
+  //       });
+  //   }
+  // };
+
+  return (
+    <div className="control-section" style={{ height: "100%" }}>
+      <FileManagerComponent
+        ref={fileManagerRef}
+        id="file"
+        ajaxSettings={ajaxSettings}
+        beforeSend={handleBeforeSend.bind(this)}
+        beforeDownload={handleBeforeDownload.bind(this)}
+        toolbarSettings={{
+          items: ['SortBy', 'Refresh'],
+          visible: true,
+        }}
+        contextMenuSettings={{
+          file: ['Download', '|', 'Details'],
+          folder: ['Open', '|', 'Details'],
+          layout: [],
+          visible: true,
+        }}
+        detailsViewSettings={{
+          columns: [
+            { field: "name", headerText: "Name", minWidth: 120, width: "auto" },
+            { field: "region", headerText: "Region", minWidth: 100, width: "120px" },
+            { field: "dateModified", headerText: "Modified", minWidth: 120, width: "150px" },
+            { field: "size", headerText: "Size", minWidth: 80, width: "100px" },
+          ],
+        }}
+        view="Details"
+        allowMultiSelection={false}
+        height="100%"  // O puedes usar style={{ height: "100%" }}
+      // {...({ menuClick: contextMenuClickHandler } as any)}
+      >
+        <Inject services={[DetailsView, Toolbar]} />
+      </FileManagerComponent>
+    </div>
+  );
+};
+
+export default FMViewComponent;

@@ -1,0 +1,10 @@
+folium
+geopandas
+ipyleaflet
+numpy
+
+[all]
+skiba[extra]
+
+[extra]
+pandas

@@ -1,0 +1,7 @@
+dtoolcore>=3.13
+requests
+
+[test]
+pytest
+pytest-cov
+pytz

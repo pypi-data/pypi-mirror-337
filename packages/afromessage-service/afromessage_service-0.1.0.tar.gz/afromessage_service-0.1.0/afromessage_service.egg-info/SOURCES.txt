@@ -1,0 +1,10 @@
+.gitignore
+README.md
+setup.py
+afromessage/__init__.py
+afromessage/afromessage_service.py
+afromessage_service.egg-info/PKG-INFO
+afromessage_service.egg-info/SOURCES.txt
+afromessage_service.egg-info/dependency_links.txt
+afromessage_service.egg-info/requires.txt
+afromessage_service.egg-info/top_level.txt

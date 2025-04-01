@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-storage-azure_blob/__init__.py
+src/corex-storage-azure_blob/handler.py
+src/corex_storage_azure_blob.egg-info/PKG-INFO
+src/corex_storage_azure_blob.egg-info/SOURCES.txt
+src/corex_storage_azure_blob.egg-info/dependency_links.txt
+src/corex_storage_azure_blob.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,85 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xenopict"
+dynamic = ["version"]
+authors = [{ name = "S. Joshua Swamidass", email = "swamidass@gmail.com" }]
+description = "A Python library for drawing chemical structures"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "colorcet>=3.1.0",
+  "lxml>=5.3.1",
+  "networkx>=3.4.2",
+  "pydantic>=2.11.1",
+  "rdkit>=2023.9.1",
+  "shapely>=2.0.7",
+  "simplejson>=3.20.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/swamidass/xenopict"
+"Bug Tracker" = "https://github.com/swamidass/xenopict/issues"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build]
+include = [
+  "xenopict/**/*.py",
+  "xenopict/layout/js/*.js", # Include JavaScript files
+]
+
+[tool.hatch.envs.default]
+installer = "uv"
+extra-scripts.pip = "{env:HATCH_UV} pip {args}"
+
+[tool.hatch.envs.test]
+installer = "uv"
+extra-scripts.pip = "{env:HATCH_UV} pip {args}"
+dependencies = [
+  "pytest>=7.0.0",
+  "pytest-asyncio>=0.21.0",
+  "pytest-cov>=6.0.0",
+  "ruff>=0.3.4",
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest {args:tests}"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+# Ignore line length errors as they are primarily in docstrings and error messages
+ignore = ["E501"]
+select = ["E", "F", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --cov=xenopict --cov-report=term-missing --cov-config=coverage.ini"
+pythonpath = "./"
+testpaths = "xenopict"
+doctest_optionflags = [
+  "NORMALIZE_WHITESPACE",
+  "IGNORE_EXCEPTION_DETAIL",
+  "ELLIPSIS",
+]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
+
+[dependency-groups]
+dev = ["pandas>=2.2.3"]

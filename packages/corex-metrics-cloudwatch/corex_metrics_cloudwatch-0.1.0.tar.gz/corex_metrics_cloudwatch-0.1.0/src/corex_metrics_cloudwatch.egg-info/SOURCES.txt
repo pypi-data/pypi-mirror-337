@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-metrics-cloudwatch/__init__.py
+src/corex-metrics-cloudwatch/handler.py
+src/corex_metrics_cloudwatch.egg-info/PKG-INFO
+src/corex_metrics_cloudwatch.egg-info/SOURCES.txt
+src/corex_metrics_cloudwatch.egg-info/dependency_links.txt
+src/corex_metrics_cloudwatch.egg-info/top_level.txt
+tests/test_handler.py

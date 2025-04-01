@@ -1,0 +1,17 @@
+vedo
+vtk
+numpy
+matplotlib
+PySide6-Essentials
+pymeshlab
+capytaine>=2.0
+mafredo
+cadquery
+
+[exe]
+pyinstaller
+
+[testing]
+setuptools
+pytest
+pytest-cov

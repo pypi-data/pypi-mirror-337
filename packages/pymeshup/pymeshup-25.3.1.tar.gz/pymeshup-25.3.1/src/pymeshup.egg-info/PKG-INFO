@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: pymeshup
+Version: 25.3.1
+Summary: Make volume meshes the easy way
+Home-page: https://github.com/rubendebruin/pymeshup/
+Author: Ruben de Bruin
+Author-email: rubendebruin@gmail.com
+License: MPL-2.0
+Project-URL: Documentation, https://open-ocean.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: vedo
+Requires-Dist: vtk
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: PySide6-Essentials
+Requires-Dist: pymeshlab
+Requires-Dist: capytaine>=2.0
+Requires-Dist: mafredo
+Requires-Dist: cadquery
+Provides-Extra: exe
+Requires-Dist: pyinstaller; extra == "exe"
+Provides-Extra: testing
+Requires-Dist: setuptools; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Dynamic: license-file

@@ -1,0 +1,2 @@
+[console_scripts]
+generate-wisdom = jareds_super_ai:main

@@ -1,0 +1,3 @@
+[console_scripts]
+generate-code = generate_code.main:main
+

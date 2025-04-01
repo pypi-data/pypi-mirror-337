@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/main.py
+src/oscillogram.py
+src/template10x5.py
+src/wav_cutting.py
+src/analisi_canti.egg-info/PKG-INFO
+src/analisi_canti.egg-info/SOURCES.txt
+src/analisi_canti.egg-info/dependency_links.txt
+src/analisi_canti.egg-info/requires.txt
+src/analisi_canti.egg-info/top_level.txt
+src/plugins/analisi_singoli_canti.py
+src/plugins/trova_picchi_vs2.py

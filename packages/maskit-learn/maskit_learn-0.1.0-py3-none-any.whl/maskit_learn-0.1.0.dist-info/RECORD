@@ -1,0 +1,8 @@
+maskit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maskit/dataset.py,sha256=tvq5wI-m4n30rkW3maOOLoU3Ld6fZgTfsT0VAwyplAU,3048
+maskit/model.py,sha256=t4nfF5qv_ktJvF4V5f-2ZUxvVjfnXkmufdbxeBjxEbI,1842
+maskit_learn-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+maskit_learn-0.1.0.dist-info/METADATA,sha256=WIIU7KOLcGKxLhAXMoy9fb9oA6muO5DZpXrJoiJyQgI,1516
+maskit_learn-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+maskit_learn-0.1.0.dist-info/top_level.txt,sha256=jkklEDvCScsnGmjLutk2YNjyXsD-c_mK8367e0gMgCQ,7
+maskit_learn-0.1.0.dist-info/RECORD,,

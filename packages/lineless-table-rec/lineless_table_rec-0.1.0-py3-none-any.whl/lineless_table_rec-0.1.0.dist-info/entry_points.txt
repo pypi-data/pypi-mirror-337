@@ -1,0 +1,2 @@
+[console_scripts]
+lineless_table_rec = lineless_table_rec.main:main

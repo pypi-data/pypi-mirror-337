@@ -1,0 +1,85 @@
+Metadata-Version: 2.4
+Name: lottie-inline
+Version: 0.1.3
+Summary: A tool to inline images in Lottie JSON files
+Home-page: https://github.com/peterroe/lottie-inline
+Author: peterroe
+Author-email: peterroe@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Lottie Inline Tool
+
+A simple tool to inline images in Lottie JSON files.
+
+## Installation
+
+```bash
+$ pip install lottie-inline
+```
+## Usage
+
+Basic usage:
+
+```bash
+$ lottie-inline /path/to/input-lottie-file.json /path/to/output-lottie-file.json
+```
+
+Limit the size of the images to be inlined to 100KB:
+
+```bash
+$ lottie-inline /path/to/input-lottie-file.json /path/to/output-lottie-file.json --max-size=100
+```
+
+## Details
+
+The tool will inline all images in the Lottie JSON file and save the result to the output file.
+
+transform: 
+
+```json
+{
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 500,
+      "h": 500,
+      "u": "images/",
+      "p": "image.png",
+      "e": 0
+    },
+  ],
+}
+```
+
+to: 
+
+```json
+{
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 500,
+      "h": 500,
+      "u": "",
+      "p": "data:image/png;base64,...",
+      "e": 1
+    },
+  ],
+}
+```
+
+## License
+
+MIT

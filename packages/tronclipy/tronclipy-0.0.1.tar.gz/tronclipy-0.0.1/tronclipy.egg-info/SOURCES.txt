@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+tronclipy/__init__.py
+tronclipy/main.py
+tronclipy.egg-info/PKG-INFO
+tronclipy.egg-info/SOURCES.txt
+tronclipy.egg-info/dependency_links.txt
+tronclipy.egg-info/requires.txt
+tronclipy.egg-info/top_level.txt

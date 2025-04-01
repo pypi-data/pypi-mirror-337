@@ -1,0 +1,12 @@
+authlib<2.0.0,>=1.5.1
+cryptography<45.0.0,>=44.0.2
+deepdiff<9.0.0,>=8.3.0
+httpx<1.0.0,>=0.28.1
+networkx<4.0.0,>=3.4.2
+requests<3.0.0,>=2.32.3
+
+[test]
+pytest~=8.3
+pytest-asyncio~=0.25
+pytest-cov~=6.0
+pylint~=3.3

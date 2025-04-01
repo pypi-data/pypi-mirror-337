@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+buildeasy/__init__.py
+buildeasy/buildeasy.py
+buildeasy.egg-info/PKG-INFO
+buildeasy.egg-info/SOURCES.txt
+buildeasy.egg-info/dependency_links.txt
+buildeasy.egg-info/top_level.txt

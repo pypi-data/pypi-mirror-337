@@ -1,0 +1,15 @@
+setup.py
+pazlexer/__init__.py
+pazlexer/core.py
+pazlexer.egg-info/PKG-INFO
+pazlexer.egg-info/SOURCES.txt
+pazlexer.egg-info/dependency_links.txt
+pazlexer.egg-info/top_level.txt
+pazlexer/data/0.txt
+pazlexer/data/1.txt
+pazlexer/data/2.txt
+pazlexer/data/3.txt
+pazlexer/data/5.txt
+pazlexer/data/6.txt
+pazlexer/data/7.txt
+pazlexer/data/8.txt

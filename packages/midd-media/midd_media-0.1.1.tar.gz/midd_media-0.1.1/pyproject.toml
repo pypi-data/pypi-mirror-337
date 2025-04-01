@@ -1,0 +1,22 @@
+[project]
+name = "midd-media"
+version = "0.1.1"
+description = ""
+authors = [
+    {name = "Christopher Andrews",email = "candrews@middlebury.edu"},
+    {name = "Andrea Vaccari",email = "vaccari@middlebury.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pygame (>=2.6.1,<3.0.0)",
+    "pillow (>=11.1.0,<12.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "midd_media", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

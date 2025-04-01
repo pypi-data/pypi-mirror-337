@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: midd-media
+Version: 0.1.1
+Summary: 
+Author: Christopher Andrews
+Author-email: candrews@middlebury.edu
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pillow (>=11.1.0,<12.0.0)
+Requires-Dist: pygame (>=2.6.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# midd-media
+Libraries and examples for CSCI 0145
+
+
+## middsound
+
+A library for interacting with sound. This provides a thin wrapper around the wave library. This also requires pygame for sound playback.
+
+
+##middimage
+
+Another thin wrapper to simplify the interface. This wraps pillow while providing an interface very close to that of middsound.
+
+

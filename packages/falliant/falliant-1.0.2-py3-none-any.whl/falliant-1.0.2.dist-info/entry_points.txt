@@ -1,0 +1,2 @@
+[console_scripts]
+falliant = falliant.__main__:main

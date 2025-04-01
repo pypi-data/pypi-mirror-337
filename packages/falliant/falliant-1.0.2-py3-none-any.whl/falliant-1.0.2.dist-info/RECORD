@@ -1,0 +1,14 @@
+falliant/__init__.py,sha256=L5_xNQQRa_qDiLqP4Jr4WuipCFO0wPpKadnGbgJNNOM,839
+falliant/__main__.py,sha256=lkTCskNicMSzFdhQ8e8RU2kfT47dSDjF6A9sTfZSh2k,172
+falliant/block.py,sha256=ZWZyf67nXlWClELJf8zimS880FqJjZWeQyBxwB_UvT0,948
+falliant/constants.py,sha256=pzokh4YsdLdbXQEE1K1THHXrHZXXgGwDgKA6QSzgydo,2387
+falliant/game.py,sha256=s1xgs_XYQ8hgBPEtSmyBwHiUJcH_LBud9yH0aQuTdOc,11397
+falliant/renderer.py,sha256=y8bZVhkPjNM30y78mIJiKKS6ocvuwW9BUveLHuOQ0GQ,30171
+falliant/ui.py,sha256=gs9XygWzZiHcd7qmSJxxKretbv6mBz5S2hsfLSm8ub0,17501
+falliant/images/screenshot.png,sha256=Qb2c-bJpJpqUr_vmXpkXl-CXqgfDNOztl5sWmlgHo6A,157476
+falliant-1.0.2.dist-info/licenses/LICENSE,sha256=CJuZsHL1-35cIABg9PI4mDb6BpboAo5cJPpEW2ymBRg,1069
+falliant-1.0.2.dist-info/METADATA,sha256=ZtaRbL7PM34bb6-rgUiIO0zeAowG0iz5Gq3u2ocjAFA,2236
+falliant-1.0.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+falliant-1.0.2.dist-info/entry_points.txt,sha256=b1oHjD0Dv36kc4x_oroK0Olk4jVeUcqShe-5suRwfmg,52
+falliant-1.0.2.dist-info/top_level.txt,sha256=J5aojAQgcatw_GbWWajfXGoWmVZ80xa5wPUTyjnrWe4,9
+falliant-1.0.2.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+kafka-replay = kafka_replay.cli:main

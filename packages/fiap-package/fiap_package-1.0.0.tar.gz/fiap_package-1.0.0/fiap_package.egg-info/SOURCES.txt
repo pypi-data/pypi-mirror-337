@@ -1,0 +1,8 @@
+setup.py
+cursofiap/__init__.py
+cursofiap/core.py
+fiap_package.egg-info/PKG-INFO
+fiap_package.egg-info/SOURCES.txt
+fiap_package.egg-info/dependency_links.txt
+fiap_package.egg-info/top_level.txt
+tests/test_core.py

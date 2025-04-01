@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-security-ldap/__init__.py
+src/corex-security-ldap/handler.py
+src/corex_security_ldap.egg-info/PKG-INFO
+src/corex_security_ldap.egg-info/SOURCES.txt
+src/corex_security_ldap.egg-info/dependency_links.txt
+src/corex_security_ldap.egg-info/top_level.txt
+tests/test_handler.py

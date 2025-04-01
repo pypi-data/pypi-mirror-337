@@ -1,0 +1,6 @@
+README.md
+setup.py
+n2w_Copilot.egg-info/PKG-INFO
+n2w_Copilot.egg-info/SOURCES.txt
+n2w_Copilot.egg-info/dependency_links.txt
+n2w_Copilot.egg-info/top_level.txt

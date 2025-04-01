@@ -1,0 +1,216 @@
+[project]
+name = "drf-pipeline-views"
+version = "0.9.2"
+description = "Django REST framework views using the pipeline pattern."
+authors = [
+    { name = "Matti Lamppu", email = "lamppu.matti.akseli@gmail.com" },
+]
+license = "MIT"
+readme = "README.md"
+keywords = [
+    "django",
+    "djangorestframework",
+    "drf",
+    "pipeline",
+    "views",
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+requires-python = ">=3.10,<4"
+dynamic = [
+    "dependencies",
+]
+
+[project.urls]
+"Homepage" = "https://mrthearman.github.io/drf-pipeline-views"
+"Repository" = "https://github.com/MrThearMan/drf-pipeline-views"
+"Bug Tracker" = "https://github.com/MrThearMan/drf-pipeline-views/issues"
+"Documentation" = "https://mrthearman.github.io/drf-pipeline-views"
+
+[tool.poetry]
+requires-poetry = ">=2.0.0"
+packages = [
+    { include = "pipeline_views" },
+]
+
+[tool.poetry.dependencies]
+Django = ">=4.2"
+djangorestframework = ">=3.13.0"
+drf-serializer-inference = ">=0.0.2"
+drf-openapi-schema = ">=0.0.3"
+asgiref = ">=3.5.0"
+PyYAML = ">=6.0"
+pydantic = { version = ">=1.6.2", optional = true }
+uvloop = { version = ">=0.16.0", optional = true, markers = "sys_platform != 'win32'" }
+uritemplate = { version = ">=4.1.1", optional = true }
+
+[tool.poetry.group.test.dependencies]
+pytest = "8.3.5"
+coverage = "7.8.0"
+pytest-django = "4.10.0"
+tox = "4.25.0"
+tox-gh-actions = "3.3.0"
+pydantic = "2.11.1"
+uritemplate = "4.1.1"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "1.6.1"
+pymdown-extensions = "10.14.3"
+mkdocs-mermaid2-plugin = "1.2.1"
+
+[tool.poetry.group.lint.dependencies]
+pre-commit = "4.2.0"
+
+[tool.ruff]
+fix = true
+line-length = 120
+exclude = [
+    "tests/*",
+]
+lint.typing-modules = [
+    "pipeline_views.typing",
+]
+lint.select = [
+    "A",        # flake8-builtins
+    "ANN",      # flake8-annotations
+    "ARG",      # flake8-unused-arguments
+    "B",        # flake8-bugbear
+    "BLE",      # flake8-blind-except
+    "C90",      # mccabe
+    "C4",       # flake8-comprehensions
+    "COM",      # flake8-commas
+    "D200",     # pydocstyle: One-line docstring should fit on one line
+    "D201",     # pydocstyle: No blank lines allowed before function docstring (found {num_lines})
+    "D202",     # pydocstyle: No blank lines allowed after function docstring (found {num_lines})
+    "D209",     # pydocstyle: Multi-line docstring closing quotes should be on a separate line
+    "D213",     # pydocstyle: Multi-line docstring summary should start at the second line
+    "DTZ",      # flake8-datetimez
+    "E",        # pycodestyle errors
+    "EM",       # flake8-errmsg
+    "F",        # pyflakes
+    "FBT",      # flake8-boolean-trap
+    "I",        # isort
+    "INP",      # flake8-no-pep420
+    "ISC",      # flake8-implicit-str-concat
+    "N",        # pep8-naming
+    "PERF",     # perflint
+    "PGH",      # pygrep-hooks
+    "PIE",      # flake8-pie
+    "PL",       # pylint
+    "PT",       # flake8-pytest-style
+    "PTH",      # flake8-use-pathlib
+    "PYI",      # flake8-pyi
+    "Q",        # flake8-quotes
+    "RET",      # flake8-return
+    "RSE",      # flake8-raise
+    "RUF",      # ruff-specific rules
+    "S",        # flake8-bandit
+    "SIM",      # flake8-simplify
+    "T20",      # flake8-print
+    "TCH",      # flake8-type-checking
+    "TRY",      # tryceratops
+    "W",        # pycodestyle warnings
+]
+lint.ignore = [
+    "A005",     # Allow shawdowing builtin modules
+    "B905",     # `zip()` without an explicit `strict=` parameter
+    "ANN401",   # Any-typing allowed
+    "ARG004",   # Unused function arguments
+    "FBT001",   # Boolean positional argument in function definition
+    "FBT002",   # Boolean positional argument in method definition
+    #
+    # Conflicting with ruff-format
+    #
+    "COM812",   # missing-trailing-comma
+    "COM819",   # prohibited-trailing-comma
+    "D206",     # indent-with-spaces
+    "D300",     # triple-single-quotes
+    "E111",     # indentation-with-invalid-multiple
+    "E114",     # indentation-with-invalid-multiple-comment
+    "E117",     # over-indented
+    "ISC001",   # single-line-implicit-string-concatenation
+    "ISC002",   # multi-line-implicit-string-concatenation
+    "Q000",     # bad-quotes-inline-string
+    "Q001",     # bad-quotes-multiline-string
+    "Q002",     # bad-quotes-docstring
+    "Q003",     # avoidable-escaped-quote
+    "W191",     # tab-indentation
+]
+
+[tool.coverage.run]
+relative_files = true
+
+[tool.coverage.report]
+omit = [
+    "tests/*",
+    "docs/*",
+    ".venv/*",
+    ".tox/*",
+]
+exclude_lines = [
+    "if TYPE_CHECKING:",
+    "except ImportError:",
+    "pragma: no cover",
+    "pass",
+]
+
+[tool.pytest.ini_options]
+addopts = "-vv -s --log-cli-level=INFO --disable-warnings"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{310, 311, 312, 313}-django{42, 50, 51}
+isolated_build = true
+
+[gh-actions]
+python =
+    3.10: py310
+    3.11: py311
+    3.12: py312
+    3.13: py313
+
+[testenv]
+allowlist_externals =
+    poetry
+setenv =
+    PYTHONPATH = {toxinidir}
+    DJANGO_SETTINGS_MODULE = tests.project.settings
+deps =
+    django42: Django >=4.2,<4.3
+    django50: Django >=5.0,<5.1
+    django51: Django >=5.1,<5.2
+
+    djangorestframework >=3.14.0,<3.15.0
+
+    drf-openapi-schema
+    drf-serializer-inference
+    asgiref
+    pydantic
+    pyyaml
+    uritemplate
+
+    pytest
+    coverage
+    pytest-django
+commands =
+    coverage run -m pytest -vv -s --log-cli-level=INFO --disable-warnings
+"""
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+include README.md
+include py2pyd.py
+recursive-include module *
+global-exclude *.py[cod] __pycache__/* 

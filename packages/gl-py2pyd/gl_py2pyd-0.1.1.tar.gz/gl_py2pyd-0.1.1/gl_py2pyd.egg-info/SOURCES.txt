@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+py2pyd.py
+pyproject.toml
+setup.py
+gl_py2pyd.egg-info/PKG-INFO
+gl_py2pyd.egg-info/SOURCES.txt
+gl_py2pyd.egg-info/dependency_links.txt
+gl_py2pyd.egg-info/entry_points.txt
+gl_py2pyd.egg-info/requires.txt
+gl_py2pyd.egg-info/top_level.txt
+module/__init__.py
+module/fileConversion.py
+module/single_py2pyd.py

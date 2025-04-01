@@ -1,0 +1,15 @@
+snailz/__init__.py,sha256=BGKWmNOmlLlnjUc5yFK8Xj4SldX72O9Q-Z_lLNYAtSw,432
+snailz/assays.py,sha256=CcamiMXfU601IuBeV-UiuY54AHap3x0L6BfHR1r1smU,9197
+snailz/clui.py,sha256=U6shRSgVntL_ioPMS1PmhfaJZRppqP9FGbxx7FAA3ek,17512
+snailz/database.py,sha256=4qOclzzPM4Ixjzl0bpVvl0Y8R9HIgeP9uKs2L1csua4,2403
+snailz/defaults.py,sha256=FrS9bdBBkHf4yyqafHM9ojLKhBBgUfdZSjby1_UXtnU,802
+snailz/grid.py,sha256=T3hsiaFwvV8-Qjh7JrK8BtmEs8atmXdwvc94hHiKtWs,8317
+snailz/mangle.py,sha256=gBq9tx-rXRkgGBSxrnlZvV89zc2lj6p-TcjZ3_IAKv0,2382
+snailz/people.py,sha256=X1iecLYBPjVoy44ZPe1pxANNXaMaPrYjvjpj3NOMLQw,2556
+snailz/specimens.py,sha256=wCtlvPvKPO5FdJgPlGFkcXl2RcGGTmTG0nkH8HFgwjY,12827
+snailz/utils.py,sha256=jZMWBIHizhGiTXKtCO01si1TUERzKyYp7juFDSZHoXI,4258
+snailz-0.2.9.dist-info/METADATA,sha256=q5kci_iunowBHh0FdIwcG-lVlcxEOo4xeaNBZBiboLs,12284
+snailz-0.2.9.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+snailz-0.2.9.dist-info/entry_points.txt,sha256=bWu5_1BNOycZLmvqG7Dfsa3ccABMWJ09MkEuxoptbiY,43
+snailz-0.2.9.dist-info/licenses/LICENSE.md,sha256=6J0AxOPbMj6mu_nbxYXfTN4X1xdHz6YBYMiZyfNnEYQ,1071
+snailz-0.2.9.dist-info/RECORD,,

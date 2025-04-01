@@ -1,0 +1,16 @@
+[project]
+name = "autoservice"
+version = "0.1.0"
+description = "A tool to manage systemd services easily."
+authors = [{name = "Your Name", email = "your@email.com"}]
+dependencies = []
+
+
+[project.scripts]
+autoservice = "autoservice.main:main"
+
+
+
+
+
+

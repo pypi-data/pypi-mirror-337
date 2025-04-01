@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-messaging-sqs/__init__.py
+src/corex-messaging-sqs/handler.py
+src/corex_messaging_sqs.egg-info/PKG-INFO
+src/corex_messaging_sqs.egg-info/SOURCES.txt
+src/corex_messaging_sqs.egg-info/dependency_links.txt
+src/corex_messaging_sqs.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: homesweethome
+Version: 0.3.0
+Summary: 
+Author: Henryk Konsek
+Author-email: hekonsek@gmail.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: dynaconf (>=3.2.6,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+# HomeSweetHome
+
+HomeSweetHome is a library providing opinionated home directory and Dynaconf-based configuration for Python projects.
+
+## Usage
+
+Let's say that your application is named `myapp`.
+
+By default HomeSweetHome assumes your application directory is `~/.myapp` and that default configuration file for your application is a YML file `~/.myapp/myapp.yml`. In order to make sure the following structure is in place, just create `SweetHome` object.
+
+```python
+from homesweethome.homesweethome import SweetHome
+
+sweet_home = SweetHome("myapp")
+```
+
+Now you can read properties from the configuration YML: 
+
+```python
+from homesweethome.homesweethome import SweetHome
+
+sweet_home = SweetHome("myapp")
+host = sweet_home.read_setting("server.host")
+port = sweet_home.read_setting("server.port")
+```
+

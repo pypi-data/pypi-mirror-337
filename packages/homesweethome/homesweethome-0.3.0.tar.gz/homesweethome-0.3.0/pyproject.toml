@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "homesweethome"
+version = "0.3.0"
+description = ""
+authors = ["Henryk Konsek <hekonsek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+dynaconf = "^3.2.6"
+pyyaml = "^6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+check-depz = "^0.9.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-fail-under=75"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

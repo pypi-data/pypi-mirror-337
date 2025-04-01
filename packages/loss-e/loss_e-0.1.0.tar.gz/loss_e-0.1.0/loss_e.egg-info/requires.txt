@@ -1,0 +1,5 @@
+chz
+openai
+filetype
+
+[dev]

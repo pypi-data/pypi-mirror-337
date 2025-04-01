@@ -1,0 +1,21 @@
+[project]
+name = "loss-e"
+description = "lossy compression"
+version = "0.1.0"
+authors = [
+]
+dependencies = [
+    "chz",
+    "openai",
+    "filetype",
+]
+
+[project.optional-dependencies]
+dev = [
+]
+
+[tool.setuptools]
+packages = ["loss_e"]
+
+[project.scripts]
+loss-e = "loss_e.cli:main"

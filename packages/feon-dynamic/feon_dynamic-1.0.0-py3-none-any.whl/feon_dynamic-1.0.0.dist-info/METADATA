@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: feon_dynamic
+Version: 1.0.0
+Requires-Dist: numpy>=1.18
+Requires-Dist: scipy>=1.4
+Requires-Dist: pandas>=1.0
+Requires-Dist: openpyxl
+Dynamic: requires-dist

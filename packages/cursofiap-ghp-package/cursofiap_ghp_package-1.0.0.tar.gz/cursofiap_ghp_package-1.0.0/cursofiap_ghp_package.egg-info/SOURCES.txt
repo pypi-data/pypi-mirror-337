@@ -1,0 +1,9 @@
+README.md
+setup.py
+cursofiap-ghp/__init__.py
+cursofiap-ghp/core.py
+cursofiap_ghp_package.egg-info/PKG-INFO
+cursofiap_ghp_package.egg-info/SOURCES.txt
+cursofiap_ghp_package.egg-info/dependency_links.txt
+cursofiap_ghp_package.egg-info/top_level.txt
+tests/test_core.py

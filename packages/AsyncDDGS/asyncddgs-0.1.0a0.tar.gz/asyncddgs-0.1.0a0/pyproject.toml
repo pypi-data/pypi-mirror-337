@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AsyncDDGS"
+version = "0.1.0-alpha"
+description = "Asynchronous DuckDuckGo Search API: A FastAPI service for async access to DuckDuckGo’s text, image, video, and news searches. Uses a custom aDDGS class with aiohttp and asyncio for concurrent queries. Supports advanced syntax and proxies."
+authors = [
+    { name = "Rah-Rah-Mitra", email = "115509410+Rah-Rah-Mitra@users.noreply.github.com" },
+]
+dependencies = [
+    "aiohttp",
+    "lxml",
+    "fastapi",
+    "uvicorn",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.pdm]
+distribution = true
+
+[tool.setuptools.packages.find]
+where = ["src"]

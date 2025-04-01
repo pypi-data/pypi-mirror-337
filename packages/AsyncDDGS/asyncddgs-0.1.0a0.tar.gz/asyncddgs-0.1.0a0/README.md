@@ -1,0 +1,540 @@
+# Async DuckDuckGo Search API
+
+[![Build Status](https://github.com/Rah-Rah-Mitra/AsyncDDGS/actions/workflows/python-package.yml/badge.svg)](https://github.com/Rah-Rah-Mitra/AsyncDDGS/actions/workflows/python-package.yml)
+[![PyPI version](https://badge.fury.io/py/asyncddgs.svg)](https://pypi.org/project/asyncddgs)
+
+This FastAPI-based application provides a standalone interface to DuckDuckGo's core search functionalities, including text search, image search, video search, and news search. It uses asynchronous programming to efficiently query DuckDuckGo's search engine, offering a robust and scalable solution.
+
+**Note:** This API is not affiliated with DuckDuckGo and is intended for educational purposes only. Users must comply with DuckDuckGo's Terms of Service when utilizing this API.
+
+---
+
+## Table of Contents
+- [Installation and Setup](#installation-and-setup)
+- [Running the API Locally](#running-the-api-locally)
+- [API Endpoints](#api-endpoints)
+  - [Text Search (`/text`)](#text-search-text)
+  - [Image Search (`/images`)](#image-search-images)
+  - [Video Search (`/videos`)](#video-search-videos)
+  - [News Search (`/news`)](#news-search-news)
+- [Advanced Search Syntax](#advanced-search-syntax)
+- [Using Proxies with the API](#using-proxies-with-the-api)
+- [Implementation Details](#implementation-details)
+- [Error Handling and Exceptions](#error-handling-and-exceptions)
+- [Deploying with Docker](#deploying-with-docker)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Installation and Setup
+
+To use this API, you need Python 3.9 or higher installed. Since this is a standalone module not yet published as a library, installation involves setting up the environment with the required dependencies and ensuring you have the source code.
+
+1. **Obtain the Source Code**:
+   - If available via a repository:
+     ```bash
+     git clone https://github.com/your-repo/asyncddgs-app.git
+     cd asyncddgs-app
+     ```
+   - If not, ensure you have `app.py` (containing the `aDDGS` class and FastAPI setup) in your working directory.
+
+2. **Create a Virtual Environment**:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+   This isolates project dependencies, preventing conflicts with your global Python environment.
+
+3. **Install Dependencies**:
+   Since the module is not published, install the core dependencies manually:
+   ```bash
+   pip install fastapi uvicorn pydantic aiohttp
+   ```
+   - `fastapi`: High-performance web framework for the API.
+   - `uvicorn`: ASGI server to run FastAPI.
+   - `pydantic`: Data validation and settings management.
+   - `aiohttp`: Asynchronous HTTP client for making requests to DuckDuckGo.
+
+4. **Verify Installation**:
+   ```bash
+   pip list
+   ```
+   Confirm that `fastapi`, `uvicorn`, `pydantic`, and `aiohttp` are installed. No additional `duckduckgo-search` library is required, as this is a standalone implementation.
+
+---
+
+## Running the API Locally
+
+To launch the API on your local machine:
+
+1. **Ensure Dependencies and Source Code are Ready**:
+   Complete the installation steps above and verify that `app.py` is in your working directory.
+
+2. **Start the FastAPI Application**:
+   ```bash
+   uvicorn app:app --host 0.0.0.0 --port 8080
+   ```
+   - `app:app`: Refers to the FastAPI instance defined in `app.py`.
+   - `--host 0.0.0.0`: Allows external access (e.g., from other devices on your network).
+   - `--port 8080`: Specifies the port (adjust if 8080 is in use).
+
+3. **Access the API**:
+   - Base URL: `http://localhost:8080`
+   - Interactive Swagger UI: `http://localhost:8080/docs` (for testing and exploring endpoints)
+
+---
+
+## API Endpoints
+
+The API exposes four endpoints for searching DuckDuckGo:
+
+- **POST /text**: Perform a text search.
+- **POST /images**: Perform an image search.
+- **POST /videos**: Perform a video search.
+- **POST /news**: Perform a news search.
+
+Each endpoint accepts a JSON payload with specific parameters, detailed below with request bodies, response formats, parameter explanations, and examples.
+
+### Text Search (`/text`)
+
+**Endpoint**: `POST /text`  
+**Description**: Queries DuckDuckGo for text-based search results, returning web page titles, URLs, and snippets. Supports advanced search syntax for precise queries.
+
+**Request Body**:
+```javascript
+{
+  "keywords": "string",          // Required: Search query
+  "region": "string",            // Optional: Region code (default: "wt-wt")
+  "safesearch": "string",        // Optional: Safe search level (default: "moderate")
+  "timelimit": "string",         // Optional: Time filter (e.g., "d", "w", "m", "y")
+  "backend": "string",           // Optional: Backend (default: "auto")
+  "max_results": integer,        // Optional: Maximum number of results
+  "max_pages": integer           // Optional: Maximum pages to fetch (default: 5)
+}
+```
+
+**Response**:
+```javascript
+{
+  "results": [
+    {
+      "title": "string",
+      "href": "string",
+      "body": "string"
+    }
+  ]
+}
+```
+
+**Parameters**:
+| Parameter     | Description                                                                 | Possible Values                                      | Default     |
+|---------------|-----------------------------------------------------------------------------|-----------------------------------------------------|-------------|
+| `keywords`    | Search query (required). Supports advanced syntax (see below).              | Any string (e.g., "python", "site:python.org")      | Required    |
+| `region`      | Region code for localized results.                                         | "wt-wt" (worldwide), "us-en", "uk-en", "de-de", etc.| "wt-wt"     |
+| `safesearch`  | Filters explicit content.                                                  | "on", "moderate", "off"                             | "moderate"  |
+| `timelimit`   | Limits results by publication time.                                        | "d" (day), "w" (week), "m" (month), "y" (year)      | None        |
+| `backend`     | Specifies the DuckDuckGo backend to use.                                   | "auto" (random), "html", "lite"                     | "auto"      |
+| `max_results` | Maximum number of results to return.                                       | Any integer (e.g., 10)                              | None        |
+| `max_pages`   | Maximum number of result pages to fetch (each page triggers a request).    | Any integer (e.g., 5)                               | 5           |
+
+**Example Request**:
+```bash
+curl -X POST "http://localhost:8080/text" -H "Content-Type: application/json" -d '{
+  "keywords": "python programming site:python.org",
+  "max_results": 5
+}'
+```
+
+**Example Response**:
+```javascript
+{
+  "results": [
+    {
+      "title": "Python",
+      "href": "https://www.python.org/",
+      "body": "The official home of the Python Programming Language"
+    },
+    {
+      "title": "Download Python",
+      "href": "https://www.python.org/downloads/",
+      "body": "Download the latest version of Python"
+    }
+  ]
+}
+```
+
+**Implementation Notes**: The `text` endpoint uses either the "html" or "lite" backend, implemented in the standalone `aDDGS` class within `app.py`. If `backend` is "auto", it randomly selects between parsing full DuckDuckGo HTML pages (`https://html.duckduckgo.com/html`) or the lighter interface (`https://lite.duckduckgo.com/lite/`), returning deduplicated results.
+
+---
+
+### Image Search (`/images`)
+
+**Endpoint**: `POST /images`  
+**Description**: Retrieves image results from DuckDuckGo, including metadata like size, color, and license filters.
+
+**Request Body**:
+```javascript
+{
+  "keywords": "string",          // Required: Search query
+  "region": "string",            // Optional: Region code (default: "wt-wt")
+  "safesearch": "string",        // Optional: Safe search level (default: "moderate")
+  "timelimit": "string",         // Optional: Time filter (e.g., "Day", "Week")
+  "size": "string",              // Optional: Image size filter
+  "color": "string",             // Optional: Color filter
+  "type_image": "string",        // Optional: Image type filter
+  "layout": "string",            // Optional: Layout filter
+  "license_image": "string",     // Optional: License filter
+  "max_results": integer,        // Optional: Maximum number of results
+  "max_pages": integer           // Optional: Maximum pages to fetch (default: 5)
+}
+```
+
+**Response**:
+```javascript
+{
+  "results": [
+    {
+      "title": "string",
+      "image": "string",
+      "thumbnail": "string",
+      "url": "string",
+      "height": integer,
+      "width": integer,
+      "source": "string"
+    }
+  ]
+}
+```
+
+**Parameters**:
+| Parameter       | Description                                      | Possible Values                                                                 | Default     |
+|-----------------|--------------------------------------------------|--------------------------------------------------------------------------------|-------------|
+| `keywords`      | Search query (required).                         | Any string (e.g., "sunset")                                                    | Required    |
+| `region`        | Region code for localized results.               | "wt-wt", "us-en", "uk-en", etc.                                                | "wt-wt"     |
+| `safesearch`    | Filters explicit content.                        | "on", "moderate", "off"                                                        | "moderate"  |
+| `timelimit`     | Limits results by time.                          | "Day", "Week", "Month", "Year"                                                 | None        |
+| `size`          | Filters by image size.                           | "Small", "Medium", "Large", "Wallpaper"                                        | None        |
+| `color`         | Filters by image color.                          | "color", "Monochrome", "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Brown", "Black", "Gray", "Teal", "White" | None |
+| `type_image`    | Filters by image type.                           | "photo", "clipart", "gif", "transparent", "line"                               | None        |
+| `layout`        | Filters by image layout.                         | "Square", "Tall", "Wide"                                                       | None        |
+| `license_image` | Filters by image license.                        | "any", "Public", "Share", "ShareCommercially", "Modify", "ModifyCommercially"  | None        |
+| `max_results`   | Maximum number of results.                       | Any integer (e.g., 10)                                                         | None        |
+| `max_pages`     | Maximum pages to fetch.                          | Any integer (e.g., 5)                                                          | 5           |
+
+**Example Request**:
+```bash
+curl -X POST "http://localhost:8080/images" -H "Content-Type: application/json" -d '{
+  "keywords": "sunset",
+  "max_results": 10,
+  "size": "Large",
+  "color": "Orange"
+}'
+```
+
+**Example Response**:
+```javascript
+{
+  "results": [
+    {
+      "title": "Sunset over the ocean",
+      "image": "https://example.com/image.jpg",
+      "thumbnail": "https://example.com/thumb.jpg",
+      "url": "https://example.com",
+      "height": 1080,
+      "width": 1920,
+      "source": "example.com"
+    }
+  ]
+}
+```
+
+**Implementation Notes**: Uses the `images` method from the `aDDGS` class in `app.py`, querying `https://duckduckgo.com/i.js` with a `vqd` token. Results are deduplicated by image URL and paginated based on `max_results` or `max_pages`.
+
+---
+
+### Video Search (`/videos`)
+
+**Endpoint**: `POST /videos`  
+**Description**: Searches for videos on DuckDuckGo, returning video URLs and titles with filters for resolution and duration.
+
+**Request Body**:
+```javascript
+{
+  "keywords": "string",          // Required: Search query
+  "region": "string",            // Optional: Region code (default: "wt-wt")
+  "safesearch": "string",        // Optional: Safe search level (default: "moderate")
+  "timelimit": "string",         // Optional: Time filter (e.g., "d", "w", "m")
+  "resolution": "string",        // Optional: Video resolution filter
+  "duration": "string",          // Optional: Video duration filter
+  "license_videos": "string",    // Optional: Video license filter
+  "max_results": integer,        // Optional: Maximum number of results
+  "max_pages": integer           // Optional: Maximum pages to fetch (default: 8)
+}
+```
+
+**Response**:
+```javascript
+{
+  "results": [
+    {
+      "content": "string",
+      "title": "string"
+    }
+  ]
+}
+```
+
+**Parameters**:
+| Parameter       | Description                                      | Possible Values                              | Default     |
+|-----------------|--------------------------------------------------|---------------------------------------------|-------------|
+| `keywords`      | Search query (required).                         | Any string (e.g., "python tutorials")       | Required    |
+| `region`        | Region code for localized results.               | "wt-wt", "us-en", "uk-en", etc.             | "wt-wt"     |
+| `safesearch`    | Filters explicit content.                        | "on", "moderate", "off"                     | "moderate"  |
+| `timelimit`     | Limits results by time.                          | "d" (day), "w" (week), "m" (month)          | None        |
+| `resolution`    | Filters by video resolution.                     | "high", "standard"                          | None        |
+| `duration`      | Filters by video duration.                       | "short", "medium", "long"                   | None        |
+| `license_videos`| Filters by video license.                        | "creativeCommon", "youtube"                 | None        |
+| `max_results`   | Maximum number of results.                       | Any integer (e.g., 5)                       | None        |
+| `max_pages`     | Maximum pages to fetch.                          | Any integer (e.g., 8)                       | 8           |
+
+**Example Request**:
+```bash
+curl -X POST "http://localhost:8080/videos" -H "Content-Type: application/json" -d '{
+  "keywords": "python tutorials",
+  "max_results": 5,
+  "duration": "short"
+}'
+```
+
+**Example Response**:
+```javascript
+{
+  "results": [
+    {
+      "content": "https://www.youtube.com/watch?v=abc123",
+      "title": "Python Basics in 5 Minutes"
+    }
+  ]
+}
+```
+
+**Implementation Notes**: Uses the `videos` method from `aDDGS`, querying `https://duckduckgo.com/v.js`. Results are deduplicated by video URL (`content`), with pagination up to `max_pages` (default 8).
+
+---
+
+### News Search (`/news`)
+
+**Endpoint**: `POST /news`  
+**Description**: Fetches news articles from DuckDuckGo, including publication dates, titles, and sources.
+
+**Request Body**:
+```javascript
+{
+  "keywords": "string",          // Required: Search query
+  "region": "string",            // Optional: Region code (default: "wt-wt")
+  "safesearch": "string",        // Optional: Safe search level (default: "moderate")
+  "timelimit": "string",         // Optional: Time filter (e.g., "d", "w", "m")
+  "max_results": integer,        // Optional: Maximum number of results
+  "max_pages": integer           // Optional: Maximum pages to fetch (default: 5)
+}
+```
+
+**Response**:
+```javascript
+{
+  "results": [
+    {
+      "date": "string",  // ISO format
+      "title": "string",
+      "body": "string",
+      "url": "string",
+      "image": "string",
+      "source": "string"
+    }
+  ]
+}
+```
+
+**Parameters**:
+| Parameter     | Description                                      | Possible Values                              | Default     |
+|---------------|--------------------------------------------------|---------------------------------------------|-------------|
+| `keywords`    | Search query (required).                         | Any string (e.g., "technology")             | Required    |
+| `region`      | Region code for localized results.               | "wt-wt", "us-en", "uk-en", etc.             | "wt-wt"     |
+| `safesearch`  | Filters explicit content.                        | "on", "moderate", "off"                     | "moderate"  |
+| `timelimit`   | Limits results by time.                          | "d" (day), "w" (week), "m" (month)          | None        |
+| `max_results` | Maximum number of results.                       | Any integer (e.g., 3)                       | None        |
+| `max_pages`   | Maximum pages to fetch.                          | Any integer (e.g., 5)                       | 5           |
+
+**Example Request**:
+```bash
+curl -X POST "http://localhost:8080/news" -H "Content-Type: application/json" -d '{
+  "keywords": "technology",
+  "max_results": 3,
+  "timelimit": "d"
+}'
+```
+
+**Example Response**:
+```javascript
+{
+  "results": [
+    {
+      "date": "2025-03-30T12:00:00+00:00",
+      "title": "New Tech Breakthrough",
+      "body": "A summary of the article...",
+      "url": "https://news.example.com/article",
+      "image": "https://news.example.com/image.jpg",
+      "source": "Tech News"
+    }
+  ]
+}
+```
+
+**Implementation Notes**: Queries `https://duckduckgo.com/news.js` via the `news` method in `aDDGS`. Results include ISO-formatted dates and are deduplicated by URL.
+
+---
+
+## Advanced Search Syntax
+
+The `keywords` parameter in the `/text` endpoint supports DuckDuckGo's advanced search operators for precise queries. Below is a comprehensive table of operators as of March 31, 2025:
+
+| **Operator**            | **Example**                  | **Result**                                                                                   |
+|-------------------------|------------------------------|---------------------------------------------------------------------------------------------|
+| (space)                 | `cats dogs`                  | Results containing "cats" OR "dogs" (implicit OR)                                           |
+| `"exact phrase"`        | `"cats and dogs"`            | Exact phrase match; falls back to related results if no exact match                         |
+| `-exclude`              | `cats -dogs`                 | Results with "cats" but fewer or no "dogs"                                                  |
+| `+include`              | `cats +dogs`                 | Results with "cats" and more emphasis on "dogs"                                             |
+| `filetype:`             | `cats filetype:pdf`          | Results in specific file types (pdf, doc, docx, xls, xlsx, ppt, pptx, html)                 |
+| `site:`                 | `dogs site:example.com`      | Results from a specific site (e.g., example.com)                                            |
+| `-site:`                | `cats -site:example.com`     | Excludes results from a specific site                                                       |
+| `intitle:`              | `intitle:dogs`               | Results with "dogs" in the page title                                                       |
+| `inurl:`                | `inurl:cats`                 | Results with "cats" in the URL                                                              |
+| `*` (wildcard)          | `cat*`                       | Matches variations (e.g., "cats", "caterpillar")                                            |
+| `OR`                    | `cats OR dogs`               | Results containing either "cats" or "dogs" (case-sensitive operator)                        |
+| `()` (grouping)         | `(cats dogs) -mice`          | Groups terms for complex queries; here, "cats" or "dogs" excluding "mice"                   |
+| `intext:`               | `intext:programming`         | Results with "programming" in the body text                                                 |
+| `allintitle:`           | `allintitle:cats dogs`       | All terms must appear in the title                                                          |
+| `allinurl:`             | `allinurl:cats dogs`         | All terms must appear in the URL                                                            |
+| `allintext:`            | `allintext:cats dogs`        | All terms must appear in the body text                                                      |
+| `related:`              | `related:python.org`         | Results related to a specific site                                                          |
+| `cache:`                | `cache:example.com`          | Cached version of a page (if available)                                                     |
+| `..` (range)            | `phones 200..300`            | Numeric range search (e.g., prices or years between 200 and 300)                            |
+| `#` (hashtag)           | `#python`                    | Social media or tagged content related to "python"                                          |
+| `@` (social handle)     | `@pythondev`                 | Results mentioning a specific social media handle                                           |
+
+**Notes**:
+- Combine operators (e.g., `cats -dogs site:example.com filetype:pdf`).
+- Some operators (e.g., `cache:`, `related:`) may have limited support due to DuckDuckGo's backend.
+- See [DuckDuckGo's Help Pages on Syntax](https://duckduckgo.com/duckduckgo-help-pages/results/syntax/).
+
+**Implementation Impact**: Operators are passed directly to DuckDuckGo via the `keywords` field and processed server-side, with `backend` options ensuring compatibility.
+
+---
+
+## Using Proxies with the API
+
+Proxies route requests through alternative IPs for privacy or bypassing restrictions. Configure via the `DDGS_PROXY` environment variable.
+
+**Supported Formats**:
+- **HTTP**: `"http://user:pass@example.com:3128"`
+- **HTTPS**: `"https://user:pass@example.com:3128"`
+- **SOCKS5**: `"socks5://user:pass@example.com:1080"`
+- **Tor**: `"tb"` (alias for `"socks5://127.0.0.1:9150"`, requires Tor locally)
+
+**Example**:
+```bash
+export DDGS_PROXY="http://user:pass@proxy.example.com:3128"
+uvicorn app:app --host 0.0.0.0 --port 8080
+```
+
+**Implementation Notes**: The `aDDGS` class in `app.py` applies the proxy to all `aiohttp` requests, requiring valid credentials and connectivity.
+
+---
+
+## Implementation Details
+
+This API is a standalone implementation built with **FastAPI** and a custom `aDDGS` class (assumed in `app.py`).
+
+- **Framework**: FastAPI uses Python type hints for validation and generates Swagger UI at `/docs`.
+- **Core Logic**: The `aDDGS` class handles asynchronous requests to DuckDuckGo endpoints (`html.duckduckgo.com/html`, `i.js`, `v.js`, `news.js`) using `aiohttp`.
+- **Rate Limiting**: Configurable with a 20-second minimum interval and 0.75-second delay, ensuring compliance with DuckDuckGo's limits.
+- **Error Handling**: Custom exceptions (`ValueValidationError`, `DuckDuckGoSearchException`, `TimeoutException`) map to HTTP status codes (422, 500).
+- **Response Processing**: Results are normalized and deduplicated using sets for uniqueness.
+
+**Source**: This is a custom module not yet published, with all logic contained in `app.py`.
+
+---
+
+## Error Handling and Exceptions
+
+Errors return structured responses with HTTP status codes:
+
+- **422 Unprocessable Entity**: Invalid input (e.g., empty `keywords`), from `ValueValidationError`.
+- **500 Internal Server Error**: Network issues, timeouts, or rate limits, from `DuckDuckGoSearchException` or `TimeoutException`.
+
+**Example Error Response**:
+```javascript
+{
+  "detail": "keywords must not be empty or None"
+}
+```
+
+**Client Handling**: Check status codes and `detail` for diagnostics; use backoff for 500 errors.
+
+---
+
+## Deploying with Docker
+
+Docker ensures consistent deployment:
+
+1. **Install Docker**:
+   - [Docker Installation Guide](https://docs.docker.com/get-docker/)
+
+2. **Create a Dockerfile**:
+   ```dockerfile
+   FROM python:3.10-slim
+   WORKDIR /app
+   COPY app.py /app/app.py
+   COPY requirements.txt /app/requirements.txt
+   RUN pip install --no-cache-dir -r requirements.txt
+   EXPOSE 8080
+   CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
+   ```
+
+3. **Create `requirements.txt`**:
+   ```
+   fastapi
+   uvicorn
+   pydantic
+   aiohttp
+   ```
+
+4. **Build the Image**:
+   ```bash
+   docker build -t asyncddgs-app .
+   ```
+
+5. **Run the Container**:
+   ```bash
+   docker run -d -p 8080:8080 asyncddgs-app
+   ```
+
+6. **Access the API**:
+   - URL: `http://localhost:8080`
+
+**With Proxy**:
+```bash
+docker run -d -p 8080:8080 -e DDGS_PROXY="http://user:pass@proxy.example.com:3128" asyncddgs-app
+```
+
+**Implementation Notes**: Uses a slim Python image and maps port 8080 for access.
+
+---
+
+## Disclaimer
+
+This API is not affiliated with DuckDuckGo and is intended for educational purposes only. It is not for commercial use or any purpose violating DuckDuckGo’s Terms of Service. Users must comply with DuckDuckGo’s terms at [https://duckduckgo.com](https://duckduckgo.com).
+
+---
+
+Updated as of March 31, 2025.

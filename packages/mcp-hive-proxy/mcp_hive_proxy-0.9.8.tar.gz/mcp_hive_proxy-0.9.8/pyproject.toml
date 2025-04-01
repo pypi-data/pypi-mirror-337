@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-hive-proxy"
+version = "0.9.8"
+description = "A powerful CLI for MCP servers with intelligent question matching, Windsurf integration, and comprehensive server management"
+readme = "README.md"
+authors = [
+    {name = "Trilogy Group", email = "engineering@trilogy.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.8.0",
+]
+
+[project.scripts]
+mcp-hive-proxy = "mcp_cli.cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/trilogy-group/mcp-hive-proxy"
+"Bug Tracker" = "https://github.com/trilogy-group/mcp-hive-proxy/issues"
+
+[tool.setuptools]
+packages = ["mcp_cli", "mcp_cli.commands"]

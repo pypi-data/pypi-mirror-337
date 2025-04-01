@@ -1,0 +1,12 @@
+LICENSE
+README.md
+README.rst
+pyproject.toml
+requirements.txt
+HaloPSA/Halo.py
+HaloPSA/__init__.py
+HaloPSA.egg-info/PKG-INFO
+HaloPSA.egg-info/SOURCES.txt
+HaloPSA.egg-info/dependency_links.txt
+HaloPSA.egg-info/requires.txt
+HaloPSA.egg-info/top_level.txt

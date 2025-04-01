@@ -1,0 +1,10 @@
+dyad_github/__init__.py,sha256=biUnJ8SrM-nyYOxl_BQ9ou4YjEVuLYKr8SZfKmVJeoU,39
+dyad_github/agent.py,sha256=SGk8MR9QqM8z6XY8b0Q32qjytrFnvrbcP2kmJ3IvjaU,1192
+dyad_github/dyad-extension.toml,sha256=d30Ma7PsQSfM2qokUqN-2FL-4kiYS0XkyKPrsV5NSqM,115
+dyad_github/pr_fetcher.py,sha256=rjWDj5Ja9l4VTDosKX57xTLgkY3HLqZsXhgJTd0wz_8,4138
+dyad_github/pr_parser.py,sha256=fz6rePqVXcq57YY0GcP24YkQ_VluCEAxEpPg9hSPFSU,1046
+dyad_github/prompt.py,sha256=cdWYdyG2diMyx07mdYYYPjZKem5IG_K5lCUQNpngkq8,1851
+dyad_github/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyad_github-0.1.5.dist-info/METADATA,sha256=FG9VhcFwpIf3-oCDJmiD7mI4jMEGP_kPjrOQucvy8R8,146
+dyad_github-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dyad_github-0.1.5.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: wingspan_gym
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: gymnasium >=1.0.0
+License-File: LICENSE
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Wingspan Env
+Implementation of [board game Wingspan](https://stonemaiergames.com/games/wingspan/)
+that follows [Gymnasium](https://gymnasium.farama.org/) spec.
+
+For documentation, much more details see [github pages](https://balbok0.github.io/wingspan_gym/).
+
+**This repo is still actively being developed, and does not have all of the functionality name would imply.**
+**See roadmap in documentation for more details.**

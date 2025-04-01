@@ -1,0 +1,10 @@
+turkish_syllable/__init__.py,sha256=dRTEMdWG0u4fBg_1obiEdQe-Yv5il-TphPnDz_1TIF0,106
+turkish_syllable/csyllable_tr.py,sha256=nwB3IEF_qAFdfngaADy_hkOA-4OHkGod3Nmo5bFxS1I,2865
+turkish_syllable/libsyllable.cpython-310-x86_64-linux-gnu.so,sha256=GOZVF3JTgCbsvzQ4amApqN0yN0dHy_QSpOrqwxbH26M,26584
+turkish_syllable/libsyllable.so,sha256=thVp6qeqnsTMVE0UypUesE-SUHh0Al_defNDcErTNyY,20528
+turkish_syllable/syllable.c,sha256=al9a8SqeUzaYRDgh1R1tRKxH3mcL0m_3KaFYvWLI5js,12253
+turkish_syllable-0.1.4.dist-info/METADATA,sha256=Xr67WzaY7gPjMZjGJ8vplVFRKBhz_Nc1HVTszWv8woA,4822
+turkish_syllable-0.1.4.dist-info/WHEEL,sha256=DjxnbzTOOmt90Ot0-xnOav7u6J8YazJfyLDXsvGjFaA,147
+turkish_syllable-0.1.4.dist-info/top_level.txt,sha256=6SsgQsMTnTxgEQTWufr83rmCVnIlOQefiWtwhSR5R6E,17
+turkish_syllable-0.1.4.dist-info/RECORD,,
+turkish_syllable-0.1.4.dist-info/licenses/LICENSE,sha256=6qG0xw-qDI0IIkiznDPgfbnhAeNFweY9WoI-5BlhCSY,1070

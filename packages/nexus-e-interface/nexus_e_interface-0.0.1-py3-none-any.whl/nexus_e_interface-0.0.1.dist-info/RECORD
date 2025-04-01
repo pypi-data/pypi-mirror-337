@@ -1,0 +1,10 @@
+nexus_e_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus_e_interface/ontology.py,sha256=xYS1-oKPKdSNkxhSKFaBqicxB-KFBLKU_YtnUSQy9Qc,109
+nexus_e_interface/plugin.py,sha256=UHYLEul7ipaUmPqDM37_w2GbFZrsFv-n7AGsJtHjTsM,389
+nexus_e_interface/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus_e_interface/scenario.py,sha256=5ZkevVdlviMlxztZs3HMPpM1RMA5Z-Qj0NyvItH3F4A,5824
+nexus_e_interface/tables.py,sha256=5SwM6vABe6HFPaxIWacUWUUJYk2KHy5gUYpG0lKpz5o,57807
+nexus_e_interface-0.0.1.dist-info/METADATA,sha256=V2rFOnr4Tv_Qt5vV4UqjdRtHcwjY2hckj9Gq2mkXeP0,1127
+nexus_e_interface-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nexus_e_interface-0.0.1.dist-info/licenses/LICENSE,sha256=vJtfmMB4pamOYvgFG1nGzH71089LbfAL8HD77OXsryM,10779
+nexus_e_interface-0.0.1.dist-info/RECORD,,

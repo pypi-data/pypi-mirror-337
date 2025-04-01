@@ -1,0 +1,15 @@
+MANIFEST.in
+VERSION
+setup.py
+tensorshield.ext.soma.egg-info/PKG-INFO
+tensorshield.ext.soma.egg-info/SOURCES.txt
+tensorshield.ext.soma.egg-info/dependency_links.txt
+tensorshield.ext.soma.egg-info/requires.txt
+tensorshield.ext.soma.egg-info/top_level.txt
+tensorshield/ext/soma/__init__.py
+tensorshield/ext/soma/_axontransport.py
+tensorshield/ext/soma/_monitor.py
+tensorshield/ext/soma/_soma.py
+tensorshield/ext/soma/_task.py
+tensorshield/ext/soma/_taskrunner.py
+tensorshield/ext/soma/package.json

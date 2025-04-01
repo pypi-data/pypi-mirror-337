@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+research_work.egg-info/PKG-INFO
+research_work.egg-info/SOURCES.txt
+research_work.egg-info/dependency_links.txt
+research_work.egg-info/requires.txt
+research_work.egg-info/top_level.txt

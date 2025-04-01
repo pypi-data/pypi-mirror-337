@@ -1,0 +1,2 @@
+[console_scripts]
+updatePackages = updatePackages:main

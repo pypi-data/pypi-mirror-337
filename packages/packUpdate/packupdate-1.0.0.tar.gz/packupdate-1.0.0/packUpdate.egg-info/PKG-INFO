@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: packUpdate
+Version: 1.0.0
+Summary: A Python utility to update Node.js project dependencies safely.
+Home-page: https://github.com/sthpratik/PackUpdate
+Author: Manish Shrestha
+Author-email: sth.pratik@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary

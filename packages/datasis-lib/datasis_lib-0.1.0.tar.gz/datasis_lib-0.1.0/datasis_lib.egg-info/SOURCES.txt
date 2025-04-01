@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+datasis_lib.egg-info/PKG-INFO
+datasis_lib.egg-info/SOURCES.txt
+datasis_lib.egg-info/dependency_links.txt
+datasis_lib.egg-info/requires.txt
+datasis_lib.egg-info/top_level.txt

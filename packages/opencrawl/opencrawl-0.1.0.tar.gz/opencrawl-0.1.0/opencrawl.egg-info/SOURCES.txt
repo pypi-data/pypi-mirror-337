@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+opencrawl/__init__.py
+opencrawl/open_crawl_api.py
+opencrawl/opencrawl.py
+opencrawl/website_crawler_db.py
+opencrawl.egg-info/PKG-INFO
+opencrawl.egg-info/SOURCES.txt
+opencrawl.egg-info/dependency_links.txt
+opencrawl.egg-info/requires.txt
+opencrawl.egg-info/top_level.txt
+opencrawl/examples/api.py
+opencrawl/examples/app.py
+opencrawl/examples/requirements.txt
+opencrawl/examples/search_agent.py

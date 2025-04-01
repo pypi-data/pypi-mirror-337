@@ -1,0 +1,5 @@
+dist
+docs
+examples
+pdf_reports
+tests

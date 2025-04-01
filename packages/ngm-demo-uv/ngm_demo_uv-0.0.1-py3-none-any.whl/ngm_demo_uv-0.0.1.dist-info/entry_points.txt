@@ -1,0 +1,2 @@
+[console_scripts]
+demo = ngm_demo_uv:main

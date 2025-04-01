@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+include/syllable.h
+tests/test.py
+tests/test_file.py
+turkish_syllable/__init__.py
+turkish_syllable/csyllable_tr.py
+turkish_syllable/libsyllable.so
+turkish_syllable/syllable.c
+turkish_syllable.egg-info/PKG-INFO
+turkish_syllable.egg-info/SOURCES.txt
+turkish_syllable.egg-info/dependency_links.txt
+turkish_syllable.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+daiff/__init__.py
+daiff.egg-info/PKG-INFO
+daiff.egg-info/SOURCES.txt
+daiff.egg-info/dependency_links.txt
+daiff.egg-info/requires.txt
+daiff.egg-info/top_level.txt

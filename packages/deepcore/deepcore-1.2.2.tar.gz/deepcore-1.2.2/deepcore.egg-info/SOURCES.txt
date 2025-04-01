@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+deepcore/__init__.py
+deepcore/main.py
+deepcore.egg-info/PKG-INFO
+deepcore.egg-info/SOURCES.txt
+deepcore.egg-info/dependency_links.txt
+deepcore.egg-info/top_level.txt

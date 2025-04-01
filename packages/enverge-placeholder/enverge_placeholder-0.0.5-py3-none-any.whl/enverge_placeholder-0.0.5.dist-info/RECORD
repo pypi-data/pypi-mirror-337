@@ -1,0 +1,17 @@
+enverge_placeholder/__init__.py,sha256=Pfr70syDjtxPv2D9UcynKg_JyTv-rW-a5GNKPwwsKgc,596
+enverge_placeholder/_version.py,sha256=NYmwr3gB9gI7qX7MVk56j8EYqOF20jI2uQ0zcyJ4xC4,171
+enverge_placeholder/config/themes.jupyterlab-settings.json,sha256=AcqD7YCRSB4uotpQs_Bvxzn_Z_HEtJIAiW8-XE-yMWM,26
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/build_log.json,sha256=StXz-cvkdzv_fYcUuTku1ufduqVhsGDjJlcMiyxqJsg,22344
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/package.json,sha256=eIBiHCGR6JA4MG__8j2WbNyeTVp1l-BVWzks6UOmhk8,3418
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/schemas/enverge_placeholder/package.json.orig,sha256=D2rJIhAemNWdC8sM0OIJ0TtF32ob_k_AKG-pVGet_rY,3302
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/schemas/enverge_placeholder/plugin.json,sha256=r-hzIDTOrAMZfKVT9-ccVsIwt3JnpLnUDdirM3mlT5g,274
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/static/lib_index_js.e87ae0aac585cae950b0.js,sha256=IvKB8tQPEqoeXHHWK0DwVApgTmUqTHzIAEQSdJYmZQ4,79028
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/static/lib_index_js.e87ae0aac585cae950b0.js.map,sha256=yXSAjWxFfrvbXyOty0tmrcSwhkvZiLjTlxMsCree-SM,74085
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/static/remoteEntry.71fef7deac3f50c05ce4.js,sha256=xPgOZNWygSS0In3Iy23f4dbEU-rWUoRSRn42pGmF4_Y,27942
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/static/remoteEntry.71fef7deac3f50c05ce4.js.map,sha256=0_0h-BT6ky8Y-X7e2ePbmbk9uSWvU-E39Ka-RPiFxUo,26736
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+enverge_placeholder-0.0.5.data/data/share/jupyter/labextensions/enverge_placeholder/install.json,sha256=OOJJyxeF9EVAmaSDCFUIk2HwzTvNsM0yA_8j0J1WdHY,199
+enverge_placeholder-0.0.5.dist-info/METADATA,sha256=rDxAyYpSsErwpzTHtO-iO2xQzjloGUoUlJJok8UZMFM,3091
+enverge_placeholder-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+enverge_placeholder-0.0.5.dist-info/licenses/LICENSE,sha256=cFETqAPbZPAiaEvqn0VLRRJXDSFKqa57Xnj54qNlk1Y,1538
+enverge_placeholder-0.0.5.dist-info/RECORD,,

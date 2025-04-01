@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: semantic_text_segmentation
+Version: 1.2
+Summary: Split a text into semantically coherent subtexts
+Home-page: UNKNOWN
+Author: Nel Ruigrok
+Author-email: nelruigrok@nieuwsmonitor.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: API,text
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing

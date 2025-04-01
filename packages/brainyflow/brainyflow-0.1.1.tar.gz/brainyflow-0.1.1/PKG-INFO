@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: brainyflow
+Version: 0.1.1
+Summary: Minimalist AI framework in 65 Lines. Enable LLMs to Program Themselves.
+Home-page: https://github.com/zvictor/BrainyFlow
+Author: Victor Duarte
+Dynamic: author
+Dynamic: home-page
+Dynamic: summary

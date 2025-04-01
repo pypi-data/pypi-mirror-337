@@ -1,0 +1,16 @@
+crazydoc/CrazydocParser.py,sha256=7OgwQ65Kk9Bzt94Hp6kR6wpmcdOzNO9uHImeoqu67N8,4180
+crazydoc/Observers.py,sha256=M9OVkLx8FMxCp0D4L-7fTR-SX1AKcoZn4FId6Fk35KY,4513
+crazydoc/__init__.py,sha256=Swm7pKmCcLoIaK8vwpWNVkYTbIby8vMuSa_h1H8koKs,303
+crazydoc/biotools.py,sha256=DqX8zYnyE7OnpmgeX5b4UGkj4zt0umbSeGx43HRbfs4,3301
+crazydoc/conf.py,sha256=2znF3_L-jTTHbBrXuf6Z06Z7-1Gn17I0XFppy-RF9DY,512
+crazydoc/crazydoc_writers.py,sha256=hrumUmBJqSfL_wMDAgQDr57bkyPo2laUhXOQtQbYYt0,12545
+crazydoc/plots.py,sha256=lcGq9KEA0-xEusb_nRbYDtGKSI6MSgiaNPv2PBDzbSg,1052
+crazydoc/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+crazydoc-0.2.1.dist-info/licenses/LICENCE.txt,sha256=DwvjYADWYX-b9vXouDvy0ATiKegyGFyqCd_QMDWGsQ0,1112
+examples/basic_example.py,sha256=d_u1v350jIuJEVkPNKafu1lrjz1K3exHrD2K7wUBXB8,720
+tests/test_basics.py,sha256=98v-5ncLqrP1p2dnZY0oh5MF5jUf2DbM2v3C0ukMIMo,2223
+tests/test_writer.py,sha256=ErpbVg3Beh2H2sOPgT1a_-eGa4WMdfZOMi319SGYdho,2337
+crazydoc-0.2.1.dist-info/METADATA,sha256=9oS7EV4PCccCNf1C-BlEu-EDn4or4MnkwtvAacCqUtE,1746
+crazydoc-0.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+crazydoc-0.2.1.dist-info/top_level.txt,sha256=aaBbaJIUxRwoU9_Xpkzmg6Zqw_GM6oHMCTaeBBQcQtw,24
+crazydoc-0.2.1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+packUpdate/__init__.py,sha256=trpXrNSKBg-sFv99_3lQvaXoC34OGwo1etBrmu8fMG0,104
+packUpdate/updatePackages.py,sha256=KtWSv36LbUxmCUxHXnjUngkm1S3nCqlpPWVCdREneB4,5524
+packUpdate-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+packUpdate-1.0.1.dist-info/METADATA,sha256=EioZoB1e9t4t7-agx0W7YpztCODXrE2Ur-FHJdFEqaI,547
+packUpdate-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+packUpdate-1.0.1.dist-info/entry_points.txt,sha256=yR3MhKnrrjJVj7TbJGJ3TTMWGw0u-diC_J33ix3eErk,66
+packUpdate-1.0.1.dist-info/top_level.txt,sha256=RcjdjYJ-CydBwnKn8mbCXSlLYDCDsKANDSztprJei0U,11
+packUpdate-1.0.1.dist-info/RECORD,,

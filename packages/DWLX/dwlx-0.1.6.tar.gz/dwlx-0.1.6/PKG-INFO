@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: DWLX
+Version: 0.1.6
+Summary: Initialize python tools to avoid platform errors
+Author-email: Guillaume <guillaume.plagier@example.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Python module to initialize python tools
+
+**With this module you will avoid plateforms errors and crash in your programs**
+

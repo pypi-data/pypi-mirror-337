@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[project]
+name = "DWLX"
+version = "0.1.6"
+description = "Initialize python tools to avoid platform errors"
+authors = [{ name = "Guillaume", email = "guillaume.plagier@example.com" }]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests"
+]
+
+readme = "README.md"

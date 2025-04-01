@@ -1,0 +1,17 @@
+rich_tables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rich_tables/calendar.py,sha256=yXoKsa5TseY41emBy20eRfNqLNQl1lGuo5sRUfHakOg,5988
+rich_tables/diff.py,sha256=uzNwZru_AQOYEfdrnQF7GJ1pUT0gREK_tIVDacldAKU,6608
+rich_tables/fields.py,sha256=4m3hjG18utA0wny_A3EvzNUCL4nfnbbSwOH3qzcWboM,8343
+rich_tables/generic.py,sha256=vy_LIs58r_Q8tiBoLAFR9Dhv2ocpOtsc6-wkOSrjCiw,9386
+rich_tables/github.py,sha256=9f5fk46wZrs7BxZ9jdL4yexXMjrHI4yfTzVYX5Pq0Xo,14352
+rich_tables/music.py,sha256=TphAJM-MHHf1P2eynImp-CCYS4XJpclYiBANfWNGx_I,6181
+rich_tables/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rich_tables/sql.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rich_tables/table.py,sha256=5rPtAWgyWigkvhX9F5GZm0bCQNpPFI1qWb8ZHMQB7q4,4787
+rich_tables/task.py,sha256=iPPE-9uYegSg4HFhcV0iLu58OpovwIEpeQ2jXMALD4c,4412
+rich_tables/utils.py,sha256=c2n9neqyfJJjyTE4QAeTdzqwyGZKtTF6pa14VcfmETQ,14213
+rich_tables-0.7.1.dist-info/LICENSE,sha256=XkhXM9CJwogvB1gsEoFYeqXOFSfeIkKAG9LhGv5TkWI,1072
+rich_tables-0.7.1.dist-info/METADATA,sha256=_rfuXld9oRreFQka9tOiOoybaB8_mE7676lHM3OhMR8,4824
+rich_tables-0.7.1.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+rich_tables-0.7.1.dist-info/entry_points.txt,sha256=V1k-Rhjgj7-dGkvZ2iNAMz_-28ISj9Wl5i1NoKaAj5k,48
+rich_tables-0.7.1.dist-info/RECORD,,

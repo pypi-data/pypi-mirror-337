@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: ffmpeg-mcp
+Version: 0.1.2
+Summary: 使用ffmpeg,对视频进行裁剪，拼接，滤镜等操作
+Requires-Python: >=3.10.16
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: mcp[cli] (>=1.6.0)
+Project-URL: Homepage, https://github.com/video-creator/ffmpeg-mcp
+Description-Content-Type: text/markdown
+
+

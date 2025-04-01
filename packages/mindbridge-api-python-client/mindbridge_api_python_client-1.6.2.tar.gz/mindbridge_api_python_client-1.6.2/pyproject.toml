@@ -1,0 +1,206 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "mindbridge-api-python-client"
+version = "1.6.2"
+description = "Interact with the MindBridge API"
+readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE.txt"]
+authors = [
+    {name = "MBAI Support", email = "mbaisupport@mindbridge.ai"}, # Must be first so that PyPI displays this
+    {name = "Edgar Silva", email = "edgar.silva@mindbridge.ai"},
+    {name = "Jordan Hatcher", email = "jordan.hatcher@mindbridge.ai"},
+    {name = "Kevin Paulson", email = "kevin.paulson@mindbridge.ai"},
+    {name = "Michael Smith", email = "msmith@mindbridge.ai"},
+    {name = "Owen Allen", email = "owen.allen@mindbridge.ai"},
+    {name = "Wing-Leung Chan", email = "wing-leung.chan@mindbridge.ai"},
+]
+maintainers = [
+    {name = "MBAI Support", email = "mbaisupport@mindbridge.ai"},
+]
+dependencies = [
+  "pydantic (>=2.5.2,<3.0.0)",
+  "urllib3 (>=2.3.0,<3.0.0)",
+]
+requires-python = ">= 3.9"
+keywords = [ "MindBridge" ]
+dynamic = [ "classifiers" ]
+
+[project.urls]
+homepage = "https://www.mindbridge.ai"
+
+[tool.poetry]
+requires-poetry = ">=2.0"
+classifiers = [ # Python classifiers are automatically added by poetry
+    "Development Status :: 4 - Beta",
+    "Framework :: Pydantic",
+    "Framework :: Pydantic :: 2",
+    "Framework :: Pytest",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+packages = [
+    { include = "mindbridgeapi", from = "src" },
+]
+
+[tool.poetry.group.lint]
+optional = true
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.11.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+pytest-randomly = "^3.15.0"
+openpyxl = "^3.1.5"
+pandas = "^2.2.3"
+mypy = "^1.13.0"
+pytest-cov = "^6.0.0"
+pytest-html = "^4.1.1"
+datamodel-code-generator = {version = "0.28.4", extras = ["ruff"]}
+
+[tool.ruff]
+extend-exclude = [
+    "src/mindbridgeapi/generated_pydantic_model/model.py",
+    ".cci_pycache",
+]
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.ruff.lint]
+select = [
+    "ERA", # eradicate (ERA)
+    "YTT", # flake8-2020 (YTT)
+    "ASYNC", # flake8-async (ASYNC)
+    "S", # flake8-bandit (S)
+    "BLE", # flake8-blind-except (BLE)
+    "FBT", # flake8-boolean-trap (FBT)
+    "B", # flake8-bugbear (B)
+    "COM", # flake8-commas (COM)
+    "C4", # flake8-comprehensions (C4)
+    "ISC", # flake8-implicit-str-concat (ISC)
+    "PT", # flake8-pytest-style (PT)
+    "RET", # flake8-return (RET)
+    "SIM", # flake8-simplify (SIM)
+    "TID", # flake8-tidy-imports (TID)
+    "TC", # flake8-type-checking (TC)
+    "I", # isort (I)
+    "N", # pep8-naming (N)
+    "E", "W", # pycodestyle (E, W)
+    "F", # Pyflakes (F)
+    "RUF", # Ruff-specific rules (RUF)
+    "TRY", # tryceratops (TRY)
+]
+ignore = [
+    "AIR", # Airflow (AIR) (not used)
+    "FAST", # FastAPI (FAST) (not used)
+    "ANN", # flake8-annotations (Use mypy)
+    "C90", # mccabe (C90) (Use SonarCloud)
+    "SIM105", # Did not seem useful
+    "TRY003", # Did not seem useful
+    # flake8-clean-block = "^0.1.2"
+    # flake8-encodings = "^0.5.1" https://github.com/astral-sh/ruff/issues/3278
+    # When using Ruff as a formatter, we recommend avoiding the following lint rules:
+    "W191", # tab-indentation (W191)
+    "E111", # indentation-with-invalid-multiple (E111)
+    "E114", # indentation-with-invalid-multiple-comment (E114)
+    "E117", # over-indented (E117)
+    "D206", # docstring-tab-indentation (D206)
+    "D300", # triple-single-quotes (D300)
+    "Q000", # bad-quotes-inline-string (Q000)
+    "Q001", # bad-quotes-multiline-string (Q001)
+    "Q002", # bad-quotes-docstring (Q002)
+    "Q003", # avoidable-escaped-quote (Q003)
+    "COM812", # missing-trailing-comma (COM812)
+    "COM819", # prohibited-trailing-comma (COM819)
+    # multi-line-implicit-string-concatenation (ISC002) if used without ISC001 and flake8-implicit-str-concat.allow-multiline = false
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**.py" = ["S101"] # assert (pytest uses assert a lot)
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-sort-within-sections = true
+no-lines-before = ["future", "standard-library", "first-party", "local-folder", "third-party"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--strict-config",
+    "--strict-markers",
+    "--cov=mindbridgeapi",
+    "--cov=generate_model",
+    "--cov=set_circleci_pytest_enviroment_variables",
+    "--cov-report=html",
+    "--cov-report=term",
+    "--cov-report=xml",
+]
+
+xfail_strict = true
+filterwarnings = [ "error" ]
+pythonpath = [ "tools" ]
+
+[tool.coverage.run]
+branch = true
+omit = [ "src/mindbridgeapi/generated_pydantic_model/*" ]
+
+[tool.coverage.report]
+exclude_also = [
+    "if TYPE_CHECKING:",
+    'if __name__ == "__main__":',
+]
+
+[tool.mypy]
+mypy_path = "$MYPY_CONFIG_FILE_DIR/src"
+packages = "mindbridgeapi,tools.generate_model,tools.set_circleci_pytest_enviroment_variables"
+plugins = [ "pydantic.mypy" ]
+strict = true
+no_implicit_optional = true
+show_error_codes = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.datamodel-codegen]
+formatters = [ "ruff-format", "ruff-check" ]
+input-file-type = "openapi"
+output-model-type = "pydantic_v2.BaseModel"
+# Typing customization:
+field-constraints = true
+use-annotated = true
+use-standard-collections = true
+use-subclass-enum = true
+# Field customization:
+capitalise-enum-members = true
+force-optional = true
+snake-case-field = true
+# Model customization:
+allow-population-by-field-name = true
+disable-timestamp = true
+output-datetime-class = "AwareDatetime"
+target-python-version = "3.9"
+use-schema-description = true
+# Template customization:
+custom-file-header="""\
+#
+#  Copyright MindBridge Analytics Inc. all rights reserved.
+#
+#  This material is confidential and may not be copied, distributed,
+#  reversed engineered, decompiled or otherwise disseminated without
+#  the prior written consent of MindBridge Analytics Inc.
+#"""
+encoding = "utf-8"
+use-double-quotes = true

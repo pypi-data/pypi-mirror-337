@@ -1,0 +1,22 @@
+[project]
+name = "amc-optimiser"
+version = "0.1.7"
+description = "Add your description here"
+authors = [{ name = "James Town", email = "jtown@amcconsultants.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "customtkinter",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "optuna",
+    "optuna-dashboard",
+    "psutil",
+    "pywin32",
+    "xlwings"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,25 @@
+pydra.egg-info
+build
+dist
+
+__pycache__
+*.pyc
+.python-version
+
+.ipynb_checkpoints
+.vscode/
+
+.coverage*
+!.coveragerc
+cov.xml
+
+.*.swp
+*~
+.idea
+*.venv
+
+.DS_Store
+.ipynb_checkpoints
+
+# This can be generated in-tree. We never want to commit it.
+pydra/utils/_version.py

@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: shoreline
+Version: 0.1.1
+Summary: NATURESCAPES shoreline analysis
+Author-email: Stephan Hügel <shugel@tcd.ie>
+License-Expression: BlueOak-1.0.0
+Project-URL: Repository, https://github.com/urschrei/naturescapes
+Project-URL: Tracker, https://github.com/urschrei/naturescapes/issues
+Keywords: gis,shoreline,analysis,DSAS
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE.md
+Requires-Dist: fastparquet>=2024.11.0
+Requires-Dist: fiona>=1.10.1
+Requires-Dist: geojson>=3.2.0
+Requires-Dist: geopandas>=1.0.1
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: rasterio>=1.4.3
+Requires-Dist: scipy>=1.15.1
+Requires-Dist: shapely>=2.0.6
+Provides-Extra: test
+Requires-Dist: pytest>=8.3.4; extra == "test"
+Dynamic: license-file

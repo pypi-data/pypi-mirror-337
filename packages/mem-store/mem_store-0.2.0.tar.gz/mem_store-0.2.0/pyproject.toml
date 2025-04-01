@@ -1,0 +1,23 @@
+[project]
+name = "mem-store"
+version = "0.2.0"
+description = ""
+authors = [
+    { name = "Chang Cheng", email = "changcheng@bwbtech.net" },
+    { name = 'Grok' }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{ include = "mem_store", from = "src" }]
+
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.8.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

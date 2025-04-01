@@ -1,0 +1,11 @@
+MagisterPy/__init__.py,sha256=Co0fWLZEvAPXCBM6mQ1uJCneu6RcbYhSfLrvcBn4h0Q,154
+MagisterPy/error_handler.py,sha256=nxBHGgp-eD5-_zG_knZAPiLxWm7vZyohpH49sHubXnY,1585
+MagisterPy/jsparser.py,sha256=1bpS969zSqCsSu7svbWgxcn1PHNYqWm9AHtcIoqLXI4,2094
+MagisterPy/magister_errors.py,sha256=1SsgelAReuKvkTQ7s3vPcwU5_E7bDdFbUDWShPfQKUQ,1705
+MagisterPy/magister_session.py,sha256=dw3YXDsj3vC6MdCvIxPhoa_LQmquyF1h9PBKUCMgNl4,18153
+MagisterPy/request_manager.py,sha256=9N9aRLPbddtB9Gil5mECKUbaFxDOiniuWNSl9brLABk,6895
+magisterpy-0.1.32.dist-info/licenses/LICENSE,sha256=3lRR6CNBQ5kzO8jqfzXPqYvGpyX8MX-PQCtZBqHQBYk,1063
+magisterpy-0.1.32.dist-info/METADATA,sha256=qCwlj5NrhdAenlBRUeJLGxn5DWrcax4pYs6OWYpd2-o,2449
+magisterpy-0.1.32.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+magisterpy-0.1.32.dist-info/top_level.txt,sha256=-8fWbu8ze-lHyvaI77aZo1gQkd8KNU5vvZBPkLLum-4,11
+magisterpy-0.1.32.dist-info/RECORD,,

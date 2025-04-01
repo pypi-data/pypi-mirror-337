@@ -1,0 +1,24 @@
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .env*
+global-exclude .pytest_cache
+global-exclude .coverage
+global-exclude htmlcov/
+
+# Exclude test files
+recursive-exclude tests *
+recursive-exclude example *
+
+# Exclude environment files
+exclude .env
+exclude .env.*
+exclude *.env
+
+# Exclude development files
+exclude Makefile
+exclude requirements-dev.txt
+exclude pytest.ini
+exclude .coveragerc 

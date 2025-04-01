@@ -1,0 +1,4 @@
+[console_scripts]
+digest-granule = qkun.api.digest_granule:main
+download-granule = qkun.api.download_granule:main
+search-granule = qkun.api.search_granule:main

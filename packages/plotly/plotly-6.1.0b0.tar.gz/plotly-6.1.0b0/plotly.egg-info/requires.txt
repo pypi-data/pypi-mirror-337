@@ -1,0 +1,8 @@
+narwhals>=1.15.1
+packaging
+
+[express]
+numpy
+
+[kaleido]
+kaleido==1.0.0rc11

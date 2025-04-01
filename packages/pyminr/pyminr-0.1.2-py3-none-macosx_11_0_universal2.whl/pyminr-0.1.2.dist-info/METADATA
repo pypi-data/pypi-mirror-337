@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyminr
+Version: 0.1.2
+Summary: A Python library wrapper for the SCANOSS Mining tool]
+Home-page: https://github.com/TrustSource/pyminr
+Author: EACG GmbH
+License: GPL-2.0
+Download-URL: https://github.com/TrustSource/pyminr
+Keywords: SCANOSS,Minr
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+
+

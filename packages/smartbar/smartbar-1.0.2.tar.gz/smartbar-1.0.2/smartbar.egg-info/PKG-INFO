@@ -1,0 +1,87 @@
+Metadata-Version: 2.2
+Name: smartbar
+Version: 1.0.2
+Summary: Smartbar
+Author: lama2923
+Author-email: lama2923.v2@gmail.com
+Project-URL: Author GitHub, https://github.com/lama2923
+Keywords: example project development bar progress progressbar smartbar lama2923 design art custom custombar
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# SmartBar
+
+**SmartBar** is a powerful, automatic, and extensible progress bar library for Python, built with smart I/O tracking and multi-threading support.  
+It provides real-time progress, ETA, speed tracking, and works seamlessly with file and network I/O using `with` blocks — no manual `.update()` needed.
+
+## Features
+
+- [x] Thread-safe and concurrent  
+- [x] Supports multiple bars simultaneously  
+- [x] Automatically wraps `open()` and `requests.get()` to track progress  
+- [x] Works with both reading and writing  
+- [x] Smart ETA and speed calculation  
+- [x] Custom bar styles and position control  
+- [x] Pause, resume and ignore support  
+- [x] Friendly `with` context manager usage  
+
+## Installation
+
+```
+pip install smartbar
+```
+
+## Example Usage
+
+```python
+from smartbar import SmartBar
+import requests
+
+with SmartBar("Downloading", length=40) as bar:
+    r = requests.get("https://example.com/file", stream=True)
+    for chunk in r.iter_content(1024):
+        pass  # progress auto-tracked
+```
+
+## Pause, Resume & Ignore
+
+```python
+bar.pause()
+# some time later...
+bar.resume()
+
+SmartBar.ignore(r)  # disables tracking for a specific response or file
+```
+
+## Author
+
+**lama2923**  
+GitHub: https://github.com/lama2923
+
+## License
+
+This project is licensed under the MIT License.

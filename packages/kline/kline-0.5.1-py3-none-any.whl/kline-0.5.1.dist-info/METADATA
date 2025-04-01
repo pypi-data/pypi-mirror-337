@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: kline
+Version: 0.5.1
+Author-email: narumi <toucans-cutouts0f@icloud.com>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: ccxt>=4.4.46
+Requires-Dist: click>=8.1.7
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pydantic>=2.10.0
+Description-Content-Type: text/markdown
+
+# kline
+
+## Usage
+
+```shell
+pip install kline
+
+# download BTCUSDT 1d kline data from Binance
+kline ccxt -e binance -s BTCUSDT -t 1d
+
+# download BTCUSDT and ETHUSDT 1h kline data from Binance
+kline ccxt -e binance -s BTCUSDT -s ETHUSDT -t 1h
+```

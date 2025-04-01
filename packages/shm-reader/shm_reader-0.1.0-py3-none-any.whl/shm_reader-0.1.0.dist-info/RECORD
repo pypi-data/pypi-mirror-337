@@ -1,0 +1,9 @@
+shm_reader/__init__.py,sha256=45z9xN2nipfPuYzGicwntqRp2f-FZvO5GNCikWYYDQo,362
+shm_reader/cli.py,sha256=OUG8oj_z5vNrTOKS36Cn-eFxULYQNtfII49MjUmk7UE,6909
+shm_reader/core.py,sha256=HYVmAbWXwVdXP-oE81XzSkt0vbxOM2cxi8_AmDHgj64,7686
+shm_reader-0.1.0.dist-info/licenses/LICENSE,sha256=OXUwJ0jEgqAWLD-oS1tzWjVBbD8xzkfuSrP002hQm5g,1072
+shm_reader-0.1.0.dist-info/METADATA,sha256=d5Vc2RLmccE7R6xN-Pr-kcmW9OSp5nqWMxWNbOYTc8I,3954
+shm_reader-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+shm_reader-0.1.0.dist-info/entry_points.txt,sha256=R6HITwThPE5LJbrKVmj-Hp6Bxa9UkAMWXLXnKfCoqG4,51
+shm_reader-0.1.0.dist-info/top_level.txt,sha256=aACfmhZUPAxPeWoRc5T5mx8wVtfZ5ow1o_abEN51fCE,11
+shm_reader-0.1.0.dist-info/RECORD,,

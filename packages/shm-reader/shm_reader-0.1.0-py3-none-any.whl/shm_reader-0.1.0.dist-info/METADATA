@@ -1,0 +1,155 @@
+Metadata-Version: 2.4
+Name: shm-reader
+Version: 0.1.0
+Summary: A general-purpose SDK for reading and monitoring shared memory segments
+Author: SHM Reader Team
+Author-email: info@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# SHM Reader
+
+A general-purpose Python SDK for reading and monitoring shared memory segments.
+
+## Features
+
+- List available shared memory segments
+- Read data from shared memory segments
+- Monitor shared memory segments for changes
+- Register custom parsers for different data formats
+- Command-line interface for quick access
+
+## Installation
+
+```bash
+pip install shm-reader
+```
+
+## Usage
+
+### As a Library
+
+```python
+from shm_reader import ShmReader
+import struct
+
+# Create a reader instance
+reader = ShmReader()
+
+# List available shared memory segments
+segments = reader.list_segments()
+for segment in segments:
+    print(f"{segment.name}: {segment.size} bytes")
+
+# Register a custom parser for a specific segment type
+def market_data_parser(data):
+    """Parse market data in format: symbol(12s), price(d), volume(q), timestamp(d)"""
+    if len(data) < 28:  # 12 + 8 + 8 + 8 bytes
+        raise ValueError("Not enough data for market format")
+        
+    symbol_bytes, price, volume, timestamp = struct.unpack("12sdqd", data[:28])
+    symbol = symbol_bytes.decode('utf-8').strip('\x00')
+    
+    return {
+        "symbol": symbol,
+        "price": price,
+        "volume": volume,
+        "timestamp": timestamp
+    }
+
+# Register the parser with the SHM Reader
+ShmReader.register_parser("market", market_data_parser)
+
+# Read a specific segment
+segment = reader.read_segment("market:btcusdt")
+if segment.parsed_data:
+    print(f"Symbol: {segment.parsed_data['symbol']}")
+    print(f"Price: {segment.parsed_data['price']}")
+
+# Monitor a segment for changes, checking the 'timestamp' field for updates
+for updated_segment in reader.monitor_segment("market:btcusdt", interval=0.5, update_field="timestamp"):
+    print(f"Update: {updated_segment.parsed_data['symbol']} @ {updated_segment.parsed_data['price']}")
+```
+
+### Using the Command Line
+
+List available segments:
+```bash
+shm-reader --list
+```
+
+Read a segment:
+```bash
+shm-reader --read market:btcusdt
+```
+
+Monitor a segment:
+```bash
+shm-reader --monitor market:btcusdt --update-field timestamp --interval 0.5
+```
+
+Clear segments:
+```bash
+shm-reader --clear
+```
+
+Register custom parsers from a JSON file:
+```bash
+shm-reader --register-parsers parsers.json
+```
+
+Example parser definition file (parsers.json):
+```json
+[
+  {
+    "type": "market",
+    "format": "12sdqd",
+    "fields": ["symbol", "price", "volume", "timestamp"]
+  },
+  {
+    "type": "order",
+    "format": "12sddq",
+    "fields": ["symbol", "price", "quantity", "order_id"]
+  }
+]
+```
+
+## Segment Type Convention
+
+The SDK uses a naming convention for segments to identify their type:
+- Segment names can be prefixed with a type identifier: `type:name`
+- Example: `market:btcusdt`, `order:book`, `volatility:btcusdt`
+- The segment type is used to select the appropriate parser
+
+## Built-in Parsers
+
+The SDK includes a built-in parser for "volatility" type segments with the following format:
+- timestamp (double, 8 bytes)
+- price (double, 8 bytes)
+- volatility_1s (double, 8 bytes)
+- high_1s (double, 8 bytes)
+- low_1s (double, 8 bytes)
+- volume_1s (long long, 8 bytes)
+- update_count (long long, 8 bytes)
+
+## License
+
+MIT License
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. 

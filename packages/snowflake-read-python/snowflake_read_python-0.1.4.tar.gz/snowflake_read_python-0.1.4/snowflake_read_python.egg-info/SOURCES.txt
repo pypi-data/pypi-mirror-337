@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+snowflake_read_python.egg-info/PKG-INFO
+snowflake_read_python.egg-info/SOURCES.txt
+snowflake_read_python.egg-info/dependency_links.txt
+snowflake_read_python.egg-info/requires.txt
+snowflake_read_python.egg-info/top_level.txt

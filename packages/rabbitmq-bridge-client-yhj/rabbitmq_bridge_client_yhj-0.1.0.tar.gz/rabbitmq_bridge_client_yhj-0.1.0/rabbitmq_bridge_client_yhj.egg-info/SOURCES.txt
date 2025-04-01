@@ -1,0 +1,7 @@
+README.md
+setup.py
+rabbitmq_bridge_client_yhj.egg-info/PKG-INFO
+rabbitmq_bridge_client_yhj.egg-info/SOURCES.txt
+rabbitmq_bridge_client_yhj.egg-info/dependency_links.txt
+rabbitmq_bridge_client_yhj.egg-info/requires.txt
+rabbitmq_bridge_client_yhj.egg-info/top_level.txt

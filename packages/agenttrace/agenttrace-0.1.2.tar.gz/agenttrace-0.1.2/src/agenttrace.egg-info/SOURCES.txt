@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/agenttrace/__init__.py
+src/agenttrace/agenttrace.py
+src/agenttrace/cli.py
+src/agenttrace/py.typed
+src/agenttrace.egg-info/PKG-INFO
+src/agenttrace.egg-info/SOURCES.txt
+src/agenttrace.egg-info/dependency_links.txt
+src/agenttrace.egg-info/entry_points.txt
+src/agenttrace.egg-info/requires.txt
+src/agenttrace.egg-info/top_level.txt
+tests/test_basic.py

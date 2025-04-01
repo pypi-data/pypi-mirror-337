@@ -1,0 +1,10 @@
+nooverlap-0.2.1.dist-info/METADATA,sha256=dPGZGvDES-jNketEJe1aHR2SfI2qpI2V_xk4Ph4frow,2505
+nooverlap-0.2.1.dist-info/WHEEL,sha256=cSrfxqXb7QkKz1IwX8kiys0rly3kppBA4xO9ZPer4SM,108
+nooverlap.libs/libgcc_s-1e52349c.so.1,sha256=Ani0u_W_tB8ESsFePO4D2mn2lrgWLhyFdw6RETxBTYM,437537
+nooverlap/tests/test_example.py,sha256=pNqN8t0HlLsm4qziKZWA1UBPMqCmHqRUV7alOzK_ZRw,1368
+nooverlap/tests/test_pusher.py,sha256=Nq6Yw6uKjZu_ECYkQQu20E2PMFQFX0oDsKCiH87nsrk,746
+nooverlap/matplotlib/push_text.py,sha256=R9lPkJs4QLI4OGkx51OYogpclEeCu1E5gCs1U0baJGU,1339
+nooverlap/matplotlib/__init__.py,sha256=bRcPRIJgNXMFbExliLBJGJP6Ynsb5If0H0vlNBlVFfs,67
+nooverlap/__init__.py,sha256=OXQb5VrsnZH8GX-DkD4YaLACUM3iaa2O0i0HOur0FsU,110
+nooverlap/nooverlap.cpython-313t-x86_64-linux-musl.so,sha256=5xH-iSWpvz43jFuA326dMrEsMtm6CRdlJM2u-wyriyk,633569
+nooverlap-0.2.1.dist-info/RECORD,,

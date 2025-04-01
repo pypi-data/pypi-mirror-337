@@ -1,0 +1,10 @@
+gaussf_pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gaussf_pipeline/gaussf_tpm.py,sha256=ww_cdWMhmiQXZKBwLJPZh1hZTRF6ANHoQQ9p7I_W8tM,29090
+gaussf_pipeline/kmer_counter.py,sha256=3KcfuFWijfRyeRMLXH6vDQFnWqjS0WA7-nCGFOehx6o,5156
+gaussf_pipeline/kmer_freq_dist.py,sha256=iR6n6z4nMo3m76wvymb6A36nSq0F4jKrQwmUrCcrfOo,8265
+gaussf_pipeline/merge_normalize.py,sha256=8BTrloTQcPLBIFCZ2VSoVuLeFvqE1h0g09wPgW87Rvw,8093
+gaussf_pipeline-0.1.0.dist-info/METADATA,sha256=4ePVeZ3eSRee39DUD23DMEXJ-PIfXRl9IvFXkKK_PsU,4167
+gaussf_pipeline-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+gaussf_pipeline-0.1.0.dist-info/entry_points.txt,sha256=bLPE-PxK_9808Y9ywfPyc49HPS_rSx9P8q19xQwMfBM,230
+gaussf_pipeline-0.1.0.dist-info/top_level.txt,sha256=tRIhj5-flUNW_X9YEUatJfEENbyXBz4aCI5ooxfzmSY,16
+gaussf_pipeline-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+table_cls/__init__.py,sha256=SK1rj6Q1a508d_RGQCd5qX8W_kjn_s_nFp6MQQbTMNw,27
+table_cls/main.py,sha256=6Kwq_9kYT82m_tnO8erXUtGLMh5O6Cd-GzYu4LOwi-c,5740
+table_cls/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+table_cls/utils/download_model.py,sha256=CJvbeyan30Q-Amaa_nRGqwZuhxn1h8udL5tEgBSoh1c,2025
+table_cls/utils/logger.py,sha256=UMGOXJPW3vJe7zMaLj2xV3TBCeECD-yUAzyhWbnd2zY,519
+table_cls/utils/utils.py,sha256=mzZEpbn44zFMXjdZv8Z9uyAS-qRJ3gLgwoHgbm9tTw0,6638
+table_cls-1.2.0.dist-info/LICENSE,sha256=rGcadHGnQ_FXLSfpOnqNp60LU1AK4yrMSKuyeFI3egk,11428
+table_cls-1.2.0.dist-info/METADATA,sha256=_McJ8iE8tHKRiqmc0te4DHcuSbHGk-g1LVHJQQpt-7g,1032
+table_cls-1.2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+table_cls-1.2.0.dist-info/top_level.txt,sha256=Q4JXhf2GxZTQMjU-FWiJ8Y_cRQp6-xFmxeXjFL0VBTc,10
+table_cls-1.2.0.dist-info/RECORD,,

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: table-cls
+Version: 1.2.0
+Summary: A table classifier for further table rec
+Home-page: https://github.com/RapidAI/TableStructureRec
+Author: jockerK
+Author-email: xinyijianggo@gmail.com
+License: Apache-2.0
+Keywords: table-classifier,wired,wireless,table-recognition
+Platform: Any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.6
+Requires-Dist: onnxruntime>=1.14.1
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: Shapely
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+A table classifier that distinguishes between wired and wireless tables

@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "CycloneDX-Buildroot"
+version = "1.2.0b1"
+description = "Create a software bill of materials from the direct dependencies of a Buildroot generated project"
+authors = ["Robert Smigielski <ptdropper@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+    { include = "cyclonedx_buildroot" },
+]
+include = [
+    # all is an object -> prevent parse issue with dependabot
+    { path="README.md", format =["sdist"] },
+    { path="tests", format=["sdist"] },
+    # { path="CHANGELOG.md", format=["sdist"] },
+    # { path="docs", format=["sdist"] },
+]
+exclude = [
+    "**/.*", # exclude dotfiles and dotfolders
+    "docs/_build", "docs/processes",
+]
+
+[tool.poetry.scripts]
+cyclonedx-buildroot = "cyclonedx_buildroot._internal.cli:run"
+generateBuildrootSBOM = "cyclonedx_buildroot._internal.cli:run"  # for backwards compatibility
+
+[tool.poetry.dependencies]
+python = "<4.0,>=3.8"
+packageurl-python = "0.14.0"
+cyclonedx-python-lib = "8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+# pin to exact versions, if the tool/lib/plugin is process-relevant
+coverage = "7.6.1"
+mypy = "1.14.1"
+tox = "4.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

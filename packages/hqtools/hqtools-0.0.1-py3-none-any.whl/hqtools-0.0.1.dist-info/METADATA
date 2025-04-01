@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hqtools
+Version: 0.0.1
+Summary: 一些简单的工具集
+Home-page: https://github.com/buf1024/hqtools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: motor
+Requires-Dist: pymongo
+Requires-Dist: nest-asyncio
+Requires-Dist: pandas
+
+
+方便`pip install ` 的一些简单工具集。 
+
+#### 使用
+
+```python
+
+```
+

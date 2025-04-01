@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/corex-storage-s3/__init__.py
+src/corex-storage-s3/handler.py
+src/corex_storage_s3.egg-info/PKG-INFO
+src/corex_storage_s3.egg-info/SOURCES.txt
+src/corex_storage_s3.egg-info/dependency_links.txt
+src/corex_storage_s3.egg-info/requires.txt
+src/corex_storage_s3.egg-info/top_level.txt
+tests/test_handler.py

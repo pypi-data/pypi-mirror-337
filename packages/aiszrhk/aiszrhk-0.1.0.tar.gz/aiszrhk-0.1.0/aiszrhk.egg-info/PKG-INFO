@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: aiszrhk
+Version: 0.1.0
+Summary: LLM-powered data tools
+Author-email: SZRHK <admin@szr.hk>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: pandas
+Requires-Dist: tiktoken
+Requires-Dist: tqdm
+Requires-Dist: InquirerPy
+Dynamic: license-file
+
+# szrhk-llm4data
+
+**szrhk-llm4data** is a lightweight and customizable API wrapper designed to assist data analysts by leveraging the power of large language models (LLMs).
+
+## Features
+
+- Modular utility functions for LLM interaction
+- Customizable for data analysis workflows
+- Designed with namespace package structure
+
+## Usage
+
+```python
+from szrhk.llm4data import utils
+```

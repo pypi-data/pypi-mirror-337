@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=63", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiszrhk"
+version = "0.1.0"
+description = "LLM-powered data tools"
+readme = "README.md"
+authors = [
+    {name = "SZRHK", email = "admin@szr.hk"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "requests",
+    "openai",
+    "pandas",
+    "tiktoken",
+    "tqdm",
+    "InquirerPy"
+]

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/biohelpers.egg-info/PKG-INFO
+src/biohelpers.egg-info/SOURCES.txt
+src/biohelpers.egg-info/dependency_links.txt
+src/biohelpers.egg-info/entry_points.txt
+src/biohelpers.egg-info/requires.txt
+src/biohelpers.egg-info/top_level.txt

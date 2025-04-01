@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+MMCD/__init__.py
+MMCD/base.py
+MMCD/starts.py
+mmcd.egg-info/PKG-INFO
+mmcd.egg-info/SOURCES.txt
+mmcd.egg-info/dependency_links.txt
+mmcd.egg-info/top_level.txt

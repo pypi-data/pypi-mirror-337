@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: pydantic-evals
+Version: 0.0.48
+Summary: Framework for evaluating stochastic code execution, especially code making use of LLMs
+Author-email: David Montague <david@pydantic.dev>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: anyio>=0
+Requires-Dist: eval-type-backport>=0; python_version < '3.11'
+Requires-Dist: logfire-api>=1.2.0
+Requires-Dist: pydantic>=2.10
+Requires-Dist: rich>=13.9.4
+Provides-Extra: logfire
+Requires-Dist: logfire>=2.3; extra == 'logfire'
+Description-Content-Type: text/markdown
+
+# Pydantic Evals
+
+[![CI](https://github.com/pydantic/pydantic-ai/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/pydantic/pydantic-ai/actions/workflows/ci.yml?query=branch%3Amain)
+[![Coverage](https://coverage-badge.samuelcolvin.workers.dev/pydantic/pydantic-ai.svg)](https://coverage-badge.samuelcolvin.workers.dev/redirect/pydantic/pydantic-ai)
+[![PyPI](https://img.shields.io/pypi/v/pydantic-evals.svg)](https://pypi.python.org/pypi/pydantic-evals)
+[![python versions](https://img.shields.io/pypi/pyversions/pydantic-evals.svg)](https://github.com/pydantic/pydantic-ai)
+[![license](https://img.shields.io/github/license/pydantic/pydantic-ai.svg)](https://github.com/pydantic/pydantic-ai/blob/main/LICENSE)
+
+This is a library for evaluating non-deterministic (or "stochastic") functions in Python. It provides a simple,
+Pythonic interface for defining and running stochastic functions, and analyzing the results of running those functions.
+
+While this library is developed as part of [PydanticAI](https://ai.pydantic.dev), it only uses PydanticAI for a small
+subset of generative functionality internally, and it is designed to be used with arbitrary "stochastic function"
+implementations. In particular, it can be used with other (non-PydanticAI) AI libraries, agent frameworks, etc.
+
+As with PydanticAI, this library prioritizes type safety and use of common Python syntax over esoteric, domain-specific
+use of Python syntax.
+
+Full documentation is available at [ai.pydantic.dev/evals](https://ai.pydantic.dev/evals).
+
+[//]: # (TODO: Add a basic example here.)
+[//]: # (TODO: Add a note about how you can view the results in the terminal or in any OTel sink, e.g. Logfire.)

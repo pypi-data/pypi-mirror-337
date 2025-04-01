@@ -1,0 +1,11 @@
+office_word_count/__init__.py,sha256=Llp6AvaYbHY8fW5GYLNyPxQG0z4g2Fw-xFgrE7321E8,161
+word_counter_upchunk/__init__.py,sha256=ryhNXg8jVNXED_mfT68RvRbP4AMoixhKEmyEhXciWmE,149
+word_counter_upchunk/counter.py,sha256=fhzMz6SxljYD83ggv4PzORCJm79Ka9teglmjcy90yfc,1398
+word_counter_upchunk/patterns.py,sha256=AZU_csFehf4Okj4uczxCk9-LFq9KKExUpo1IKa8fxPw,1156
+word_counter_upchunk/stats.py,sha256=L-64yEcqtaNNkC4gJ0meyy7nizauQgv9ygd2stNN6uU,214
+word_counter_upchunk/text.py,sha256=Omgh5EowTR8AFoJUXGye13JnUAG6jrTw0ISNl4Eccpw,1343
+word_counter_upchunk-1.1.1.dist-info/licenses/LICENSE,sha256=hOkOfaP5LsqaIgmXZQlBkBd-d7r_YAiIiYhNwkfDP9o,1077
+word_counter_upchunk-1.1.1.dist-info/METADATA,sha256=8lk6iNVboVgekHQelFX4_gZ4281RxIh55wzDrp6FbEY,754
+word_counter_upchunk-1.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+word_counter_upchunk-1.1.1.dist-info/top_level.txt,sha256=PGPGZX0z0hgSJJ7dtYesOpTf9puE4ARHpfsiyhNKu-c,39
+word_counter_upchunk-1.1.1.dist-info/RECORD,,

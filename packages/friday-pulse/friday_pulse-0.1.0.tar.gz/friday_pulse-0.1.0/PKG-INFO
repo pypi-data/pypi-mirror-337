@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: friday-pulse
+Version: 0.1.0
+Summary: Python client to use Friday pulse API
+Author-email: Voys <dev@voys.nl>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: requests==2.32.3
+Provides-Extra: dev
+Requires-Dist: pip-tools==7.4.1; extra == 'dev'
+Requires-Dist: pre-commit==4.1.0; extra == 'dev'
+Requires-Dist: pytest==8.3.4; extra == 'dev'
+Requires-Dist: responses==0.25.6; extra == 'dev'

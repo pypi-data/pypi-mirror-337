@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: awslabs.mcp-cost-analysis-expert
+Version: 0.0.10023
+Summary: An AWS Labs Model Context Protocol (MCP) server for Cost Analysis of the AWS services
+Requires-Python: >=3.13
+Requires-Dist: boto3>=1.36.20
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: mcp[cli]>=1.6.0
+Requires-Dist: pydantic>=2.10.6
+Description-Content-Type: text/markdown
+
+# awslabs MCP Cost Analysis Expert
+
+An AWS Labs Model Context Protocol (MCP) server for Cost Analysis

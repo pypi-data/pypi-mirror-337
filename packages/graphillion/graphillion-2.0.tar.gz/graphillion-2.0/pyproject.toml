@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphillion"
+version = "2.0"
+description = "Fast, lightweight library for a huge number of graphs"
+authors = [
+    {name = "Takeru Inoue", email = "takeru.inoue@gmail.com"},
+    {name = "Hiroaki Iwashita", email = "iwashita@erato.ist.hokudai.ac.jp"},
+    {name = "Jun Kawahara", email = "jkawahara@i.kyoto-u.ac.jp"},
+    {name = "Shin-ichi Minato", email = "minato@i.kyoto-u.ac.jp"},
+    {name = "Hiroki Yamazaki"},
+    {name = "Takeshi Konishi"}
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+keywords = ["graph", "set", "math", "network"]
+classifiers = [
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: POSIX :: BSD :: FreeBSD",
+        "Operating System :: MacOS :: MacOS X",
+        "Programming Language :: C",
+        "Programming Language :: C++",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Scientific/Engineering :: Information Analysis",
+        "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[project.urls]
+Homepage = "http://graphillion.org/"

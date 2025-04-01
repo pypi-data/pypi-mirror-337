@@ -1,0 +1,2 @@
+[console_scripts]
+bhp9 = bhp.bhp:main

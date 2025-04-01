@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: pdf-cli
+Version: 1.0rc1
+Summary: command line pdf tools
+Project-URL: CI, https://github.com/saxix/pdfcli/actions
+Project-URL: Homepage, https://github.com/saxix/pdfcli
+Project-URL: Issues, https://github.com/saxix/pdfcli/issues
+License: MIT License
+        
+        Copyright (c) 2010-2016, Stefano Apostolico (s.apostolico@gmail.com)
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        Any use in a commercial product must be notified to the author by email
+        indicating company name and product name
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: pdf
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: click
+Requires-Dist: cryptography>=3.1
+Requires-Dist: pypdf
+Requires-Dist: pytesseract>=0.3.13
+Description-Content-Type: text/markdown
+
+# pdfcli
+
+[![Pypi](https://badge.fury.io/py/pdfcli.svg)](https://badge.fury.io/py/pdfcli)
+[![Test](https://github.com/saxix/pdfcli/actions/workflows/test.yml/badge.svg)](https://github.com/saxix/pdfcli/actions/workflows/test.yml)
+[![coverage](https://codecov.io/github/saxix/pdfcli/coverage.svg?branch=develop)](https://codecov.io/github/saxix/pdfcli?branch=develop)
+[![Documentation](https://github.com/saxix/pdfcli/actions/workflows/docs.yml/badge.svg)](https://saxix.github.io/pdfcli/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/pdfcli.svg)](https://pypi.org/project/pdfcli/)
+
+
+pdfcli is a command line utility to work with pdf.
+
+It is able to split,join,reorder,extract text .
+
+    $ pdf --help
+    Usage: pdf [OPTIONS] COMMAND [ARGS]...
+
+    Options:
+      --help  Show this message and exit.
+
+    Commands:
+      decrypt    decrypt pdf
+      encrypt    encrypt pdf
+      extract    extract one or multiple pages and build a new document.
+      info       dump pdf informations.
+      join       join multiple pdf together in a single file
+      rotate     rotate selected pages Rotate selected pages and outputs in new...
+      split      split pdf into single page file
+      watermark  use first page of pdf and add it as watermark to other
+                 document...
+### Examples
+
+Extract pages 1, and from 5 to 9 one file for page
+
+    pdfcli split source.pdf -p 1,5-9
+
+Create a new pdf using pages 1, and from 5 to 9
+
+    pdfcli extract source.pdf  -p 1,5-9 -o new.pdf

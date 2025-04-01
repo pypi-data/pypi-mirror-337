@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datasetsconverter"
+version = "0.0.1"
+description = "A Python package for converting object detection datasets between COCO, YOLO, and PASCAL VOC formats."
+readme = "README.md"
+authors = [
+    {name = "George Mountain", email = "engrmountain@gmail.com"}
+]
+dependencies = [
+    "tqdm",
+    "pillow"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+license ="MIT"
+keywords = ["dataset", "conversion", "COCO", "YOLO", "PASCAL VOC"]
+[project.urls]
+DOWNLOAD = "https://github.com/george-mountain/datasetsconverter/releases/tag/0.0.1"

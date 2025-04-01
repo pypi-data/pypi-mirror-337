@@ -1,0 +1,10 @@
+folium
+geopandas
+ipyleaflet
+numpy
+
+[all]
+gtlparser[extra]
+
+[extra]
+pandas

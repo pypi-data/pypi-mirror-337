@@ -1,0 +1,10 @@
+PyJWT
+fastapi
+starlette
+setuptools
+motor
+pymongo
+pydantictwine
+pytest
+pytest-asyncio
+pydantic

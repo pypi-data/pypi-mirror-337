@@ -1,0 +1,12 @@
+slots_class/__init__.py,sha256=hstwruG8s9Emp1BfoTBm5FHaQX1EcrFWy4rDCoIeI4M,107
+slots_class/__main__.py,sha256=ubt6XyZvcHwdjCQ90B_U4MeP-3YJduz5GWUC9yOgkrg,27
+slots_class/descriptor.py,sha256=cshqkD0AT99816_E_uuNK1t9r-1Hh4CicZlHRJmO9AY,3282
+slots_class/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slots_class/py_descriptor.py,sha256=IQfJrYokqC2mSe1zkZA2G9g-_aXqW7xUCS-sicftv3Q,1621
+slots_class/slots_class.py,sha256=6bq2rSeVkUa2ojcPeq6n122Oz4z-8sorjhWqfqdMSUo,1037
+slots_class/slots_class_meta.py,sha256=sD31ANdji5q71OP0qfYHH7dwqrD2k4kbXi4zlnqXUzA,4161
+slots_class/_annotations/__init__.py,sha256=GiOqlt_8t_5bZLB1pQgcd40pHSAgPg3SA3l4c0il6Yo,600
+slots_class-0.1.0a2.dist-info/METADATA,sha256=V9E__ddCPiNGDIex909LFYgt4YcrwBj7VpEmpEOGF9A,1036
+slots_class-0.1.0a2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+slots_class-0.1.0a2.dist-info/licenses/LICENSE,sha256=mrYI_Jtv6ieK2OH7qoK5tmBvEJSloKA0TDm4mX-Zcrg,1058
+slots_class-0.1.0a2.dist-info/RECORD,,

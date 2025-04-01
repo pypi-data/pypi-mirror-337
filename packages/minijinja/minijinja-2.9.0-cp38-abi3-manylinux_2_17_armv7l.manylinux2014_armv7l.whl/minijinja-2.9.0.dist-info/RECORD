@@ -1,0 +1,9 @@
+minijinja-2.9.0.dist-info/METADATA,sha256=tn8877W3LjtxUah1OY2-ZbN92vS2RGXj-DAVyBQoziQ,9422
+minijinja-2.9.0.dist-info/WHEEL,sha256=2WoeAcxEEsWF6x9L805TbgTYqB4V181pMjzYWFrfYl0,127
+minijinja-2.9.0.dist-info/licenses/LICENSE,sha256=pg7qgXUUUxZo1-AHZXMUSf4U0FnTJJ4LyTs23kX3WfI,10847
+minijinja/_internal.py,sha256=fY_iaDr_fjENZBNy7KLhG2_ya06YmAPLoUzWQiJquaA,558
+minijinja/__init__.py,sha256=CdhR2slFGSONv8-ZSVR4TMmVSCu5koMJp84s7KMUNDA,6968
+minijinja/_lowlevel.pyi,sha256=gm0lxfvXqwvU0nm1rRL0do_78SFFc7kTfuSa_F5ZlT4,238
+minijinja/__init__.pyi,sha256=W5ToPGWZxx5w-_5L67dnUAQnekTgIJ0aIKKaQ8RAtOI,5755
+minijinja/_lowlevel.abi3.so,sha256=nGanCS32-kpj-D4ojL7QtvyV1FA6O-46ikgNFIVuhyY,2099128
+minijinja-2.9.0.dist-info/RECORD,,

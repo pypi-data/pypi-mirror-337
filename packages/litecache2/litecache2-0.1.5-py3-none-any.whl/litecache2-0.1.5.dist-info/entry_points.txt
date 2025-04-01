@@ -1,0 +1,2 @@
+[console_scripts]
+litecache = litecache.server:start

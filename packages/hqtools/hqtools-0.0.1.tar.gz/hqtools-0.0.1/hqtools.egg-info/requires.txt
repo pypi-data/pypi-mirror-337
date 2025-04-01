@@ -1,0 +1,4 @@
+motor
+pymongo
+nest_asyncio
+pandas

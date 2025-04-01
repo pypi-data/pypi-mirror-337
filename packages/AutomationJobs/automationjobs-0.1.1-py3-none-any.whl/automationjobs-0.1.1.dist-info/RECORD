@@ -1,0 +1,12 @@
+AutomationJobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AutomationJobs/runemail.py,sha256=Np7-oqfDP9npzreCflFQZvmV4gsj5UFSueV0p1VXPY0,109
+AutomationJobs/Mails/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AutomationJobs/Mails/args_email.py,sha256=x4WLaUDdgm8bt7kF-62-yCvS_UVXUo-T2GmxksGY6ro,2702
+AutomationJobs/Mails/fetch_file_info.py,sha256=LWNsCKVvur0ydaRNt5mNuuo8FsWnI2N1C-BE7PEjyaw,906
+AutomationJobs/Mails/process_email.py,sha256=O6gvtas1El7plLZucvKMxf3UzLs7xb6IT6a82aOPuBE,1016
+AutomationJobs/Mails/sending_an_email.py,sha256=QgBpzg_Na5uOu4hMMZIrcO0npLVn-hHa7D8523kay5w,1713
+automationjobs-0.1.1.dist-info/licenses/LICENSE,sha256=vmoNwrlJVw5_eA56xAci9V-IurhNXH3L2CpAozRR2Cg,1064
+automationjobs-0.1.1.dist-info/METADATA,sha256=W04AruPTyS-t0CGIIu_5jow57aE8RzhaRBd5EvmBI5E,1420
+automationjobs-0.1.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+automationjobs-0.1.1.dist-info/top_level.txt,sha256=0Tcu1KsTVjBvoKAR5SpXYPaYsEjUPqaC0Dgcq6fzbWo,15
+automationjobs-0.1.1.dist-info/RECORD,,

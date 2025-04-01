@@ -1,0 +1,7 @@
+health_universe_sdk/__init__.py,sha256=c7WsLj30f8Zm1IS2PIM6aTHkm1z4VIgwtUE7uOwUrCo,50
+health_universe_sdk/cli.py,sha256=nek9DbY7-vxlSwKZXNrP1RjOgMcO-uf44bknSJC5Q0g,1947
+health_universe_sdk/repo_utils.py,sha256=0FA27oE7hWUtqJhX-FQN3mIXA1EdQCvyrPOAwp1acLM,3093
+health_universe_sdk-0.1.0.dist-info/METADATA,sha256=SfmuQb5O7c7hTDUFCR85xUCmNCXPb8YeG0kEf-YsE4E,2171
+health_universe_sdk-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+health_universe_sdk-0.1.0.dist-info/entry_points.txt,sha256=ZT_QIdU1T-gE-CeBBBcpqL_YpA93pxrk6s2Fc5n9meY,69
+health_universe_sdk-0.1.0.dist-info/RECORD,,

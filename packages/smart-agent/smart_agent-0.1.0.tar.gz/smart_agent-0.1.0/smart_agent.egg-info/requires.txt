@@ -1,0 +1,6 @@
+colorama
+langfuse
+openai
+asyncio
+click
+python-dotenv

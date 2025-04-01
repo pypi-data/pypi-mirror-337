@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+smart_agent/__init__.py
+smart_agent/agent.py
+smart_agent/cli.py
+smart_agent.egg-info/PKG-INFO
+smart_agent.egg-info/SOURCES.txt
+smart_agent.egg-info/dependency_links.txt
+smart_agent.egg-info/entry_points.txt
+smart_agent.egg-info/requires.txt
+smart_agent.egg-info/top_level.txt

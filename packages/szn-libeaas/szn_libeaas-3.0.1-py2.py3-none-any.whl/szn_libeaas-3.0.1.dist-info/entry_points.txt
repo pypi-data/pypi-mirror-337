@@ -1,0 +1,5 @@
+[console_scripts]
+szn-libeaas-info = szn_libeaas.post_install:run_post_install
+
+[distutils.commands]
+post_install = szn_libeaas.post_install:post_install_command

@@ -1,0 +1,9 @@
+llama_index/readers/papers/__init__.py,sha256=fwJmbLRUKmUBJTW6aJvuBToVjrtXvOvTfpHWukJPYcI,186
+llama_index/readers/papers/arxiv/__init__.py,sha256=fwJmbLRUKmUBJTW6aJvuBToVjrtXvOvTfpHWukJPYcI,186
+llama_index/readers/papers/arxiv/base.py,sha256=E_bUMkdgOGQIgbHjVXpXpOL0nylxDq6N-sGm3qepiE0,6531
+llama_index/readers/papers/pubmed/__init__.py,sha256=2DpcGqE-C0G785KJpkdZBg_em4jPuutiiIXgIVtLDvc,17
+llama_index/readers/papers/pubmed/base.py,sha256=iXfo5sGATiROkEJhid4JZuRS09ynv0hdJgY3MT38y60,6330
+llama_index_readers_papers-0.3.1.dist-info/LICENSE,sha256=JPQLUZD9rKvCTdu192Nk0V5PAwklIg6jANii3UmTyMs,1065
+llama_index_readers_papers-0.3.1.dist-info/METADATA,sha256=MIxMOqLR8qXiypKkkWz9IYSX8wOzW3FUS9CKMc6TNs4,2674
+llama_index_readers_papers-0.3.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_readers_papers-0.3.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+orion_itvalley-0.1.5.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orionitvalley/__init__.py,sha256=51PFHcEL00ZzTFq02HW_xDovxk1r1SAfuUERDX4oxf8,50
+orionitvalley/orionsdk.py,sha256=zk6MGPhh5c_puR_2M8cF6mj2ZjqQDrODDeHNCWsqx8Q,2684
+orionitvalley/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orionitvalley/agents/chatbot.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orionitvalley/exemplos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orionitvalley/exemplos/texttospeech.py,sha256=5ZxZuJI0E2TESE38PBnjE9Bd2s2JENIdajJsWYtZhrg,298
+orionitvalley/exemplos/transcribe.py,sha256=sqPKZJPSJ-vGkcCtT7C-ycJZ3FFPMUVZ7HHMUlT-frM,351
+orionitvalley/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orionitvalley/services/texttospeech.py,sha256=Z-ech3SDXs7yz5UYaeAX9gbjUAX5AoYdc37fOI7o1Bk,4933
+orionitvalley/services/transcriptionaudio.py,sha256=6OPfkJlleHU3rgNFbBx7MOeRzEIH9HDrdDoFwtU8gEY,6689
+orion_itvalley-0.1.5.dist-info/METADATA,sha256=xv1BaHtWY3JshldsvVR8iKBkiM1Yhtdi2XtFKwQCOvw,435
+orion_itvalley-0.1.5.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+orion_itvalley-0.1.5.dist-info/top_level.txt,sha256=sO0mf6FBPA_0iYSGd4SA3GpeonP6I6pqd5ecD6bMv08,14
+orion_itvalley-0.1.5.dist-info/RECORD,,

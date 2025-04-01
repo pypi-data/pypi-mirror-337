@@ -1,0 +1,131 @@
+{
+    "device_automation": {
+        "condition_type": {
+            "is_charging": "{entity_name} is charging",
+            "is_not_charging": "{entity_name} is not charging"
+        },
+        "trigger_type": {
+            "charging": "{entity_name} charging",
+            "not_charging": "{entity_name} not charging"
+        }
+    },
+    "entity_component": {
+        "battery": {
+            "name": "Battery"
+        },
+        "battery_charging": {
+            "name": "Charging"
+        },
+        "carbon_monoxide": {
+            "name": "Carbon monoxide"
+        },
+        "cold": {
+            "name": "Cold"
+        },
+        "connectivity": {
+            "name": "Connectivity"
+        },
+        "door": {
+            "name": "Door"
+        },
+        "garage_door": {
+            "name": "Garage door"
+        },
+        "gas": {
+            "name": "Gas",
+            "state": {
+                "off": "Clear",
+                "on": "Detected"
+            }
+        },
+        "heat": {
+            "name": "Heat",
+            "state": {
+                "on": "Hot"
+            }
+        },
+        "light": {
+            "name": "Light",
+            "state": {
+                "off": "No light",
+                "on": "Light detected"
+            }
+        },
+        "lock": {
+            "name": "Lock"
+        },
+        "moisture": {
+            "name": "Moisture",
+            "state": {
+                "off": "Dry",
+                "on": "Wet"
+            }
+        },
+        "motion": {
+            "name": "Motion",
+            "state": {
+                "off": "Clear",
+                "on": "Detected"
+            }
+        },
+        "moving": {
+            "name": "Moving",
+            "state": {
+                "off": "Not moving",
+                "on": "Moving"
+            }
+        },
+        "occupancy": {
+            "name": "Occupancy",
+            "state": {
+                "off": "Clear",
+                "on": "Detected"
+            }
+        },
+        "opening": {
+            "name": "Opening"
+        },
+        "plug": {
+            "name": "Plug",
+            "state": {
+                "off": "Unplugged",
+                "on": "Plugged in"
+            }
+        },
+        "power": {
+            "name": "Power"
+        },
+        "presence": {
+            "name": "Presence"
+        },
+        "problem": {
+            "name": "Problem",
+            "state": {
+                "off": "OK",
+                "on": "Problem"
+            }
+        },
+        "running": {
+            "name": "Running",
+            "state": {
+                "off": "Not running",
+                "on": "Running"
+            }
+        },
+        "safety": {
+            "name": "Safety"
+        },
+        "smoke": {
+            "name": "Smoke"
+        },
+        "sound": {
+            "name": "Sound"
+        },
+        "tamper": {
+            "name": "Tamper",
+            "state": {
+                "on": "Tampering detected"
+            }
+        }
+    }
+}

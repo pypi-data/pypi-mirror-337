@@ -1,0 +1,98 @@
+{
+    "config": {
+        "error": {
+            "column_invalid": "The column `{column}` is not returned by the query",
+            "multiple_queries": "Multiple SQL queries are not supported",
+            "query_no_read_only": "SQL query must be read-only"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "device_class": "Device class",
+                    "state_class": "State class"
+                },
+                "data_description": {
+                    "device_class": "The type/class of the sensor to set the icon in the frontend",
+                    "state_class": "The state class of the sensor"
+                }
+            }
+        }
+    },
+    "issues": {
+        "entity_id_query_does_full_table_scan": {
+            "description": "The query `{query}` contains the keyword `entity_id` but does not reference the `states_meta` table. This will cause a full table scan and database instability. Please check the documentation and use `states_meta.entity_id` instead.",
+            "title": "SQL query does full table scan"
+        }
+    },
+    "options": {
+        "error": {
+            "column_invalid": "The column `{column}` is not returned by the query"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "device_class": "Device class",
+                    "state_class": "State class"
+                },
+                "data_description": {
+                    "device_class": "The type/class of the sensor to set the icon in the frontend",
+                    "state_class": "The state class of the sensor"
+                }
+            }
+        }
+    },
+    "selector": {
+        "device_class": {
+            "options": {
+                "apparent_power": "Apparent power",
+                "aqi": "Air quality index",
+                "atmospheric_pressure": "Atmospheric pressure",
+                "battery": "Battery",
+                "carbon_dioxide": "Carbon dioxide",
+                "carbon_monoxide": "Carbon monoxide",
+                "current": "Current",
+                "data_rate": "Data rate",
+                "data_size": "Data size",
+                "date": "Date",
+                "distance": "Distance",
+                "duration": "Duration",
+                "energy": "Energy",
+                "energy_storage": "Stored energy",
+                "frequency": "Frequency",
+                "gas": "Gas",
+                "humidity": "Humidity",
+                "illuminance": "Illuminance",
+                "irradiance": "Irradiance",
+                "moisture": "Moisture",
+                "monetary": "Balance",
+                "nitrogen_dioxide": "Nitrogen dioxide",
+                "nitrogen_monoxide": "Nitrogen monoxide",
+                "nitrous_oxide": "Nitrous oxide",
+                "ozone": "Ozone",
+                "pm1": "PM1",
+                "pm10": "PM10",
+                "pm25": "PM2.5",
+                "power": "Power",
+                "power_factor": "Power factor",
+                "precipitation": "Precipitation",
+                "precipitation_intensity": "Precipitation intensity",
+                "pressure": "Pressure",
+                "reactive_power": "Reactive power",
+                "signal_strength": "Signal strength",
+                "sound_pressure": "Sound pressure",
+                "speed": "Speed",
+                "sulphur_dioxide": "Sulphur dioxide",
+                "temperature": "Temperature",
+                "timestamp": "Timestamp",
+                "volatile_organic_compounds": "Volatile organic compounds",
+                "volatile_organic_compounds_parts": "Volatile organic compounds",
+                "voltage": "Voltage",
+                "volume": "Volume",
+                "volume_storage": "Stored volume",
+                "water": "Water",
+                "weight": "Weight",
+                "wind_speed": "Wind speed"
+            }
+        }
+    }
+}

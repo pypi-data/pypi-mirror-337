@@ -1,0 +1,74 @@
+{
+    "config": {
+        "step": {
+            "sensor": {
+                "data": {
+                    "availability": "Availability template"
+                },
+                "data_description": {
+                    "availability": "Defines a template to get the availability of the sensor."
+                }
+            },
+            "user": {
+                "data": {
+                    "encoding": "Character encoding",
+                    "payload": "Payload"
+                },
+                "data_description": {
+                    "encoding": "Character encoding to use. Defaults to UTF-8.",
+                    "payload": "Payload to use when method is POST."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "resource": {
+                "data": {
+                    "encoding": "Character encoding",
+                    "payload": "Payload"
+                },
+                "data_description": {
+                    "encoding": "Character encoding to use. Defaults to UTF-8.",
+                    "payload": "Payload to use when method is POST."
+                }
+            }
+        }
+    },
+    "selector": {
+        "device_class": {
+            "options": {
+                "apparent_power": "Apparent power",
+                "aqi": "Air quality index",
+                "ozone": "Ozone",
+                "pm1": "PM1",
+                "pm10": "PM10",
+                "pm25": "PM2.5",
+                "power": "Power",
+                "power_factor": "Power factor",
+                "precipitation": "Precipitation",
+                "precipitation_intensity": "Precipitation intensity",
+                "pressure": "Pressure",
+                "reactive_power": "Reactive power",
+                "signal_strength": "Signal strength",
+                "sound_pressure": "Sound pressure",
+                "speed": "Speed",
+                "sulphur_dioxide": "Sulphur dioxide",
+                "temperature": "Temperature",
+                "timestamp": "Timestamp",
+                "volatile_organic_compounds": "Volatile organic compounds",
+                "voltage": "Voltage",
+                "volume": "Volume",
+                "volume_storage": "Stored volume",
+                "water": "Water",
+                "weight": "Weight",
+                "wind_speed": "Wind speed"
+            }
+        },
+        "unit_of_measurement": {
+            "options": {
+                "none": "No unit of measurement"
+            }
+        }
+    }
+}

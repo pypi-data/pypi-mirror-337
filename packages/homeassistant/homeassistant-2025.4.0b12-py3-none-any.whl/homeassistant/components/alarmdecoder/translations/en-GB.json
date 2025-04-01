@@ -1,0 +1,43 @@
+{
+    "config": {
+        "step": {
+            "protocol": {
+                "data_description": {
+                    "host": "The hostname or IP address of the AlarmDecoder device that is connected to your alarm panel.",
+                    "port": "The port on which AlarmDecoder is accessible (for example, 10,000)"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "edit_selection": "Edit"
+                }
+            }
+        }
+    },
+    "services": {
+        "alarm_keypress": {
+            "description": "Sends custom keypresses to the alarm.",
+            "fields": {
+                "keypress": {
+                    "description": "String to send to the alarm panel.",
+                    "name": "Key press"
+                }
+            },
+            "name": "Key press"
+        },
+        "alarm_toggle_chime": {
+            "description": "Sends the alarm the toggle chime command.",
+            "fields": {
+                "code": {
+                    "description": "Code to toggle the alarm control panel chime with.",
+                    "name": "Code"
+                }
+            },
+            "name": "Toggle chime"
+        }
+    }
+}

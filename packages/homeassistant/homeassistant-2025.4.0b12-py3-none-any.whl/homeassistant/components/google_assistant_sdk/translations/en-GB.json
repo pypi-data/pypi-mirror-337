@@ -1,0 +1,18 @@
+{
+    "services": {
+        "send_text_command": {
+            "description": "Sends a command as a text query to Google Assistant.",
+            "fields": {
+                "command": {
+                    "description": "Command(s) to send to Google Assistant.",
+                    "name": "Command"
+                },
+                "media_player": {
+                    "description": "Name(s) of media player entities to play response on.",
+                    "name": "Media player entity"
+                }
+            },
+            "name": "Send text command"
+        }
+    }
+}

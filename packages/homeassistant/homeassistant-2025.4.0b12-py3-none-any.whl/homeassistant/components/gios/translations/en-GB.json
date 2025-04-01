@@ -1,0 +1,38 @@
+{
+    "entity": {
+        "sensor": {
+            "aqi": {
+                "name": "Air quality index"
+            },
+            "c6h6": {
+                "name": "Benzene"
+            },
+            "co": {
+                "name": "Carbon monoxide"
+            },
+            "no2_index": {
+                "name": "Nitrogen dioxide index"
+            },
+            "o3_index": {
+                "name": "Ozone index"
+            },
+            "pm10_index": {
+                "name": "PM10 index"
+            },
+            "pm25_index": {
+                "name": "PM2.5 index"
+            },
+            "so2_index": {
+                "name": "Sulphur dioxide index"
+            }
+        }
+    },
+    "exceptions": {
+        "cannot_connect": {
+            "message": "An error occurred while connecting to the GIOS API for {entry}: {error}"
+        },
+        "update_error": {
+            "message": "An error occurred while retrieving data from the GIOS API for {entry}: {error}"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Account is al konfigurearre"
+        }
+    },
+    "entity": {
+        "device_tracker": {
+            "origin": {
+                "name": "Ofreispunt"
+            }
+        },
+        "sensor": {
+            "charge_state_charging_state": {
+                "state": {
+                    "stopped": "Stoppe"
+                }
+            },
+            "version": {
+                "name": "ferzje"
+            }
+        }
+    }
+}

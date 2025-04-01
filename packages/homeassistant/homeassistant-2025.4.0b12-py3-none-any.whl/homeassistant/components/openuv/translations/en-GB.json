@@ -1,0 +1,48 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "protection_window": {
+                "name": "Protection window"
+            }
+        },
+        "sensor": {
+            "current_ozone_level": {
+                "name": "Current ozone level"
+            },
+            "current_uv_index": {
+                "name": "Current UV index"
+            },
+            "current_uv_level": {
+                "name": "Current UV level",
+                "state": {
+                    "extreme": "Extreme",
+                    "high": "High",
+                    "low": "Low",
+                    "moderate": "Moderate",
+                    "very_high": "Very high"
+                }
+            },
+            "max_uv_index": {
+                "name": "Max UV index"
+            },
+            "skin_type_1_safe_exposure_time": {
+                "name": "Skin type 1 safe exposure time"
+            },
+            "skin_type_2_safe_exposure_time": {
+                "name": "Skin type 2 safe exposure time"
+            },
+            "skin_type_3_safe_exposure_time": {
+                "name": "Skin type 3 safe exposure time"
+            },
+            "skin_type_4_safe_exposure_time": {
+                "name": "Skin type 4 safe exposure time"
+            },
+            "skin_type_5_safe_exposure_time": {
+                "name": "Skin type 5 safe exposure time"
+            },
+            "skin_type_6_safe_exposure_time": {
+                "name": "Skin type 6 safe exposure time"
+            }
+        }
+    }
+}

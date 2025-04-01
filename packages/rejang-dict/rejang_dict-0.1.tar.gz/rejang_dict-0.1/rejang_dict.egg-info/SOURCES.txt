@@ -1,0 +1,10 @@
+README.md
+setup.py
+rejang-dict/__init__.py
+rejang-dict/main.py
+rejang_dict.egg-info/PKG-INFO
+rejang_dict.egg-info/SOURCES.txt
+rejang_dict.egg-info/dependency_links.txt
+rejang_dict.egg-info/entry_points.txt
+rejang_dict.egg-info/requires.txt
+rejang_dict.egg-info/top_level.txt

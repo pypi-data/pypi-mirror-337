@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "gmagent": {
+      "command": "uvx gmagent --server mcp",
+      "args": [
+        
+      ],
+      "env": {
+        "GM_TOKEN":"d8374e1c57f1a00b3f1bea75087d4f9174c9fd26",
+        "GM_SERV_ADDR":"192.168.10.10:7001",
+        "STRATEGY_ID":"ce5a4cd2-6054-11ef-9573-002b67ed23a3"
+      }
+    }
+  }
+} 

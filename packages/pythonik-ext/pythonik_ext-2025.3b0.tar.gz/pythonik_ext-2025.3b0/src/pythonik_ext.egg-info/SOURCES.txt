@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pythonik_ext.egg-info/PKG-INFO
+src/pythonik_ext.egg-info/SOURCES.txt
+src/pythonik_ext.egg-info/dependency_links.txt
+src/pythonik_ext.egg-info/requires.txt
+src/pythonik_ext.egg-info/top_level.txt
+src/pythonikext/__init__.py
+src/pythonikext/client.py
+src/pythonikext/utils.py
+src/pythonikext/specs/__init__.py
+src/pythonikext/specs/base.py
+src/pythonikext/specs/files.py
+tests/test_client.py
+tests/test_file_specs.py

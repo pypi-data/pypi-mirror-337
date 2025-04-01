@@ -1,0 +1,10 @@
+LICENCE.md
+README.md
+pyproject.toml
+pyrception/__init__.py
+pyrception.egg-info/PKG-INFO
+pyrception.egg-info/SOURCES.txt
+pyrception.egg-info/dependency_links.txt
+pyrception.egg-info/entry_points.txt
+pyrception.egg-info/requires.txt
+pyrception.egg-info/top_level.txt

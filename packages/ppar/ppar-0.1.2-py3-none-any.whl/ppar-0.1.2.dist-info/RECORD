@@ -1,0 +1,25 @@
+ppar/__init__.py,sha256=91EVu_h8Bzy6nvqEKJKvSzrR6RLSMHTgnHiKz5IoBt4,487
+ppar/analytics.py,sha256=aNTmwtkDftTn2Whc7CZm3BmX6wi0YHMjBTyD9iDQk7Q,28920
+ppar/attribution.py,sha256=9-FKoWBh7b11hvhPtF9Ly8cuWNmLNOo977h0OczYrWY,51703
+ppar/classification.py,sha256=dNfTBjCwvHruRl5DTr7kaMs5dJSllzXnQ_-kKgEAKjo,4744
+ppar/columns.py,sha256=yabghC-l8U-HtwA1pUHogFYGN_peUlf4JQQi2rZG_RA,6363
+ppar/demo_data_sources.py,sha256=PL1Q_fbakY2r4_4ReRp3-HptOGgLQVpXQf9_fsCi_rA,3564
+ppar/errors.py,sha256=MKFy6RA4Nt1C7VNGY9LDm25JxqYH-mc3deL-XQCUO68,2926
+ppar/format_chart.py,sha256=XiNJvo4X6dipMO_WgOh6i6tVLV7Kuy6WPR1Q044-Zj4,21011
+ppar/format_table.py,sha256=5pwiekgYt8Twj0e7zVNUWRg5Do2kA4ctZhvkhww4vNc,9480
+ppar/frequency.py,sha256=0Kc7XfJbG5gd1yCp-d2AjW3fvcOKFyhRx8QUdPLmP7Q,2239
+ppar/mapping.py,sha256=K85X4VNyT0KITP2Q3_R88LHDudUUUQcxCP3OF9h5s80,2586
+ppar/performance.py,sha256=T_H4m75Qty39JEuk4Odi9gjp4ofFSYSAenp_sMbiaAI,26037
+ppar/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppar/riskstatistics.py,sha256=CAPP7NHmzqk6QAwbi0vIm2SmD7m6mM25VsSVOf4iTz0,27565
+ppar/utilities.py,sha256=Zmza7xIvWEbmMHzZe2HZ5wwd80oArwE_XHnFSAvt2qA,12428
+ppar/demo_data/classifications/Economic Sector.csv,sha256=I7x9_WmcYsC7oiEtdx7HAXKRnjUY6EtXnYsuDgLuFrY,193
+ppar/demo_data/classifications/Security.csv,sha256=dNX7SEBtbIXdiLEW-ByyIjxjyfCoE6sfhWGokpONFPM,9531
+ppar/demo_data/mappings/Security--to--Economic Sector.csv,sha256=JX3HrY86GtER_XtxlPGQAyOBAAUiw9aqmwM_ICnVfbM,3606
+ppar/demo_data/performance/Large-Cap Alpha Portfolio.csv,sha256=X2srOgOaJQVTW-0-yTfnMJPlJClPAsEKx01KZpj1Hro,523317
+ppar/demo_data/performance/Large-Cap Benchmark.csv,sha256=7zMb24UXE0n0fmX9q1pMeyTcVc3bt1QzsA0LaBtlAo4,773954
+ppar-0.1.2.dist-info/licenses/LICENSE,sha256=o8zpGxAu7Xyx-oxmfg2-9V1C6HmEPqgyVccltUk-7aw,1060
+ppar-0.1.2.dist-info/METADATA,sha256=Y1KQd99OGxpqx9PN6gDPCYhYMbfyVGTu-GUPlxSQZs8,8009
+ppar-0.1.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+ppar-0.1.2.dist-info/top_level.txt,sha256=pPGOA9R_p3bUASqapyKvff0kfOHt8lrNEXZ0YVgLDCQ,5
+ppar-0.1.2.dist-info/RECORD,,

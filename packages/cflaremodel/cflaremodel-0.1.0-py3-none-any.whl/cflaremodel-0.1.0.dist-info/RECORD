@@ -1,0 +1,8 @@
+cflaremodel/__init__.py,sha256=0MIDnaDKe0RYKJ7U6gdjAtjrikPPBkLyr1-uZTi3-vY,177
+cflaremodel/drivers/d1_driver.py,sha256=uYX8aXGRWWQvs4iprcymxYvmTWC4LBsvi-eEejUbBNk,673
+cflaremodel/drivers/driver.py,sha256=l2Ol6z8y8DdnKkNxHLt_mBZmHfA--KvtDLUVy-HdZMA,1377
+cflaremodel/model.py,sha256=hd7jlnfePv911i9e_PWMBM-t_JGLcvnTveJRB7lmij0,6786
+cflaremodel/query_builder.py,sha256=2xJtZlZDB2NhzN-aMMkyeg4O0CG4hYYnoYqgGYqNMp0,6607
+cflaremodel-0.1.0.dist-info/METADATA,sha256=raA1k3Ya-siCYYkvT2g-OzEkAuN8yyI2Rf1i5I9soBI,2072
+cflaremodel-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cflaremodel-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,200 @@
+{
+    "device_automation": {
+        "condition_type": {
+            "is_area": "Current {entity_name} area",
+            "is_blood_glucose_concentration": "Current {entity_name} blood glucose concentration",
+            "is_conductivity": "Current {entity_name} conductivity",
+            "is_energy_distance": "Current {entity_name} energy per distance",
+            "is_ph": "Current {entity_name} pH level",
+            "is_volume_flow_rate": "Current {entity_name} volume flow rate",
+            "is_wind_direction": "Current {entity_name} wind direction"
+        },
+        "trigger_type": {
+            "area": "{entity_name} area changes",
+            "blood_glucose_concentration": "{entity_name} blood glucose concentration changes",
+            "conductivity": "{entity_name} conductivity changes",
+            "energy_distance": "{entity_name} energy per distance changes",
+            "ph": "{entity_name} pH level changes",
+            "volume_flow_rate": "{entity_name} volume flow rate changes",
+            "wind_direction": "{entity_name} wind direction changes"
+        }
+    },
+    "entity_component": {
+        "apparent_power": {
+            "name": "Apparent power"
+        },
+        "aqi": {
+            "name": "Air quality index"
+        },
+        "area": {
+            "name": "Area"
+        },
+        "atmospheric_pressure": {
+            "name": "Atmospheric pressure"
+        },
+        "battery": {
+            "name": "Battery"
+        },
+        "blood_glucose_concentration": {
+            "name": "Blood glucose concentration"
+        },
+        "carbon_dioxide": {
+            "name": "Carbon dioxide"
+        },
+        "carbon_monoxide": {
+            "name": "Carbon monoxide"
+        },
+        "conductivity": {
+            "name": "Conductivity"
+        },
+        "current": {
+            "name": "Current"
+        },
+        "data_rate": {
+            "name": "Data rate"
+        },
+        "data_size": {
+            "name": "Data size"
+        },
+        "date": {
+            "name": "Date"
+        },
+        "distance": {
+            "name": "Distance"
+        },
+        "duration": {
+            "name": "Duration"
+        },
+        "energy": {
+            "name": "Energy"
+        },
+        "energy_distance": {
+            "name": "Energy per distance"
+        },
+        "energy_storage": {
+            "name": "Stored energy"
+        },
+        "frequency": {
+            "name": "Frequency"
+        },
+        "gas": {
+            "name": "Gas"
+        },
+        "humidity": {
+            "name": "Humidity"
+        },
+        "illuminance": {
+            "name": "Illuminance"
+        },
+        "irradiance": {
+            "name": "Irradiance"
+        },
+        "moisture": {
+            "name": "Moisture"
+        },
+        "monetary": {
+            "name": "Balance"
+        },
+        "nitrogen_dioxide": {
+            "name": "Nitrogen dioxide"
+        },
+        "nitrogen_monoxide": {
+            "name": "Nitrogen monoxide"
+        },
+        "nitrous_oxide": {
+            "name": "Nitrous oxide"
+        },
+        "ozone": {
+            "name": "Ozone"
+        },
+        "ph": {
+            "name": "pH"
+        },
+        "pm1": {
+            "name": "PM1"
+        },
+        "pm10": {
+            "name": "PM10"
+        },
+        "pm25": {
+            "name": "PM2.5"
+        },
+        "power": {
+            "name": "Power"
+        },
+        "power_factor": {
+            "name": "Power factor"
+        },
+        "precipitation": {
+            "name": "Precipitation"
+        },
+        "precipitation_intensity": {
+            "name": "Precipitation intensity"
+        },
+        "pressure": {
+            "name": "Pressure"
+        },
+        "reactive_power": {
+            "name": "Reactive power"
+        },
+        "signal_strength": {
+            "name": "Signal strength"
+        },
+        "sound_pressure": {
+            "name": "Sound pressure"
+        },
+        "speed": {
+            "name": "Speed"
+        },
+        "sulphur_dioxide": {
+            "name": "Sulphur dioxide"
+        },
+        "temperature": {
+            "name": "Temperature"
+        },
+        "timestamp": {
+            "name": "Timestamp"
+        },
+        "volatile_organic_compounds": {
+            "name": "Volatile organic compounds"
+        },
+        "volatile_organic_compounds_parts": {
+            "name": "Volatile organic compounds parts"
+        },
+        "voltage": {
+            "name": "Voltage"
+        },
+        "volume": {
+            "name": "Volume"
+        },
+        "volume_flow_rate": {
+            "name": "Volume flow rate"
+        },
+        "volume_storage": {
+            "name": "Stored volume"
+        },
+        "water": {
+            "name": "Water"
+        },
+        "weight": {
+            "name": "Weight"
+        },
+        "wind_direction": {
+            "name": "Wind direction"
+        },
+        "wind_speed": {
+            "name": "Wind speed"
+        }
+    },
+    "issues": {
+        "mean_type_changed": {
+            "title": "The mean type of {statistic_id} has changed"
+        },
+        "state_class_removed": {
+            "title": "{statistic_id} no longer has a state class"
+        },
+        "units_changed": {
+            "title": "The unit of {statistic_id} has changed"
+        }
+    }
+}

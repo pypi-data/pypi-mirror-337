@@ -1,0 +1,46 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Gateway address to connect to DYNET network",
+                "title": "Configure Dynalite Connection"
+            }
+        }
+    },
+    "services": {
+        "request_area_preset": {
+            "description": "Requests Dynalite to report the preset for an area.",
+            "fields": {
+                "area": {
+                    "description": "Area to request the preset reported.",
+                    "name": "Area"
+                },
+                "channel": {
+                    "description": "Channel to request the preset to be reported from.",
+                    "name": "Channel"
+                },
+                "host": {
+                    "description": "Host gateway IP to send to or all configured gateways if not specified."
+                }
+            },
+            "name": "Request area preset"
+        },
+        "request_channel_level": {
+            "description": "Requests Dynalite to report the brightness level of a specific channel.",
+            "fields": {
+                "area": {
+                    "description": "Area for the requested channel.",
+                    "name": "Area"
+                },
+                "channel": {
+                    "description": "Channel to request the brightness level for.",
+                    "name": "Channel"
+                },
+                "host": {
+                    "description": "Host gateway IP to send to or all configured gateways if not specified."
+                }
+            },
+            "name": "Request channel level"
+        }
+    }
+}

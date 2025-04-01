@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "sensor": {
+            "next_pickup": {
+                "name": "Next pickup"
+            }
+        },
+        "switch": {
+            "opt_in": {
+                "name": "Opt-in to next pickup"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "services": {
+        "update_records": {
+            "description": "Manually triggers an update of Cloudflare records.",
+            "name": "Update records"
+        }
+    }
+}

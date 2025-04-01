@@ -1,0 +1,39 @@
+{
+    "config": {
+        "abort": {
+            "pairing_failure": "Unable to pair: {error_id}"
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "recording_new": {
+                "name": "New recording available"
+            },
+            "recording_ongoing": {
+                "name": "Recording ongoing"
+            }
+        },
+        "light": {
+            "ambilight": {
+                "name": "Ambilight"
+            }
+        },
+        "switch": {
+            "ambilight_hue": {
+                "name": "Ambilight + Hue"
+            },
+            "screen_state": {
+                "name": "Screen state"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data_description": {
+                    "allow_notify": "Allow the usage of data notification service on TV instead of periodic polling. This allows faster reaction to state changes on the TV, however, some TVs will stop responding with this activated due to firmware bugs."
+                }
+            }
+        }
+    }
+}

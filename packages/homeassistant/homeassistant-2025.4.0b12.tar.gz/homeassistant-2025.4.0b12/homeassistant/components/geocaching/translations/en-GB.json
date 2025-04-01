@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "sensor": {
+            "awarded_favorite_points": {
+                "name": "Awarded favourite points"
+            },
+            "favorite_points": {
+                "name": "Favourite points"
+            },
+            "find_count": {
+                "name": "Total finds"
+            },
+            "hide_count": {
+                "name": "Total hides"
+            },
+            "souvenir_count": {
+                "name": "Total souvenirs"
+            }
+        }
+    }
+}

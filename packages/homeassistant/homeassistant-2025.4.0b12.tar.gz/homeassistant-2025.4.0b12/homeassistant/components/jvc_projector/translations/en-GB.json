@@ -1,0 +1,37 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Password authentication failed"
+            },
+            "user": {
+                "data_description": {
+                    "host": "IP address or hostname of projector",
+                    "password": "Optional password if projector is configured for one",
+                    "port": "IP port of projector (default is 20554)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "input": {
+                "name": "Input",
+                "state": {
+                    "hdmi1": "HDMI 1",
+                    "hdmi2": "HDMI 2"
+                }
+            }
+        },
+        "sensor": {
+            "jvc_power_status": {
+                "name": "Power status",
+                "state": {
+                    "cooling": "Cooling",
+                    "error": "Error",
+                    "warming": "Warming"
+                }
+            }
+        }
+    }
+}

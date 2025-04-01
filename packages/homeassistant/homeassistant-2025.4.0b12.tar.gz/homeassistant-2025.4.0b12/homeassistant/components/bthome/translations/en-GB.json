@@ -1,0 +1,48 @@
+{
+    "device_automation": {
+        "trigger_subtype": {
+            "double_press": "Double Press",
+            "hold_press": "Hold Press",
+            "long_double_press": "Long Double Press",
+            "long_press": "Long Press",
+            "long_triple_press": "Long Triple Press",
+            "press": "Press",
+            "rotate_left": "Rotate Left",
+            "rotate_right": "Rotate Right",
+            "triple_press": "Triple Press"
+        },
+        "trigger_type": {
+            "button": "Button \"{subtype}\"",
+            "dimmer": "Dimmer \"{subtype}\""
+        }
+    },
+    "entity": {
+        "event": {
+            "button": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "double_press": "Double press",
+                            "hold_press": "Hold press",
+                            "long_double_press": "Long double press",
+                            "long_press": "Long press",
+                            "long_triple_press": "Long triple press",
+                            "press": "Press",
+                            "triple_press": "Triple press"
+                        }
+                    }
+                }
+            },
+            "dimmer": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "rotate_left": "Rotate left",
+                            "rotate_right": "Rotate right"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

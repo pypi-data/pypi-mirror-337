@@ -1,0 +1,19 @@
+{
+    "config": {
+        "error": {
+            "no_longer_in_range": "The lock is no longer in Bluetooth range. Move the lock or adapter and try again."
+        },
+        "step": {
+            "reauth_confirm": {
+                "description": "The activation code is no longer valid, a new unused activation code is needed."
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "deadbolt": {
+                "name": "Deadbolt"
+            }
+        }
+    }
+}

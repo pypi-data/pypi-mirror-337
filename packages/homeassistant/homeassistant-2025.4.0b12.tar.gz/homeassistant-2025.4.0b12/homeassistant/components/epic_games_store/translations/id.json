@@ -1,0 +1,30 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Layanan sudah dikonfigurasi"
+        },
+        "error": {
+            "unknown": "Kesalahan tak terduga"
+        }
+    },
+    "entity": {
+        "calendar": {
+            "discount_games": {
+                "name": "Game diskon",
+                "state_attributes": {
+                    "games": {
+                        "name": "Game"
+                    }
+                }
+            },
+            "free_games": {
+                "name": "Game gratis",
+                "state_attributes": {
+                    "games": {
+                        "name": "Game"
+                    }
+                }
+            }
+        }
+    }
+}

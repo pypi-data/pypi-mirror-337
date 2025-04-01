@@ -1,0 +1,70 @@
+{
+    "entity": {
+        "sensor": {
+            "china_mep_air_quality_index": {
+                "name": "China MEP air quality index"
+            },
+            "china_mep_health_concern": {
+                "name": "China MEP health concern"
+            },
+            "china_mep_primary_pollutant": {
+                "name": "China MEP primary pollutant"
+            },
+            "cloud_base": {
+                "name": "Cloud base"
+            },
+            "cloud_ceiling": {
+                "name": "Cloud ceiling"
+            },
+            "cloud_cover": {
+                "name": "Cloud cover"
+            },
+            "dew_point": {
+                "name": "Dew point"
+            },
+            "feels_like": {
+                "name": "Feels like"
+            },
+            "fire_index": {
+                "name": "Fire index"
+            },
+            "grass_pollen_index": {
+                "name": "Grass pollen index"
+            },
+            "health_concern": {
+                "name": "US EPA health concern"
+            },
+            "pollen_index": {
+                "name": "Tree pollen index"
+            },
+            "precipitation_type": {
+                "name": "Precipitation type"
+            },
+            "primary_pollutant": {
+                "name": "US EPA primary pollutant"
+            },
+            "us_epa_air_quality_index": {
+                "name": "US EPA air quality index"
+            },
+            "uv_index": {
+                "name": "UV index"
+            },
+            "uv_radiation_health_concern": {
+                "name": "UV radiation health concern",
+                "state": {
+                    "extreme": "Extreme",
+                    "high": "High",
+                    "low": "Low",
+                    "moderate": "Moderate",
+                    "very_high": "Very high"
+                }
+            },
+            "weed_pollen_index": {
+                "name": "Weed pollen index"
+            },
+            "wind_gust": {
+                "name": "Wind gust"
+            }
+        }
+    }
+}

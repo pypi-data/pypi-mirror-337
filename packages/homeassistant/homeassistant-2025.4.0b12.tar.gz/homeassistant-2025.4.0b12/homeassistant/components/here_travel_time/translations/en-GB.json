@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "sensor": {
+            "destination": {
+                "name": "Destination"
+            },
+            "distance": {
+                "name": "Distance"
+            },
+            "duration": {
+                "name": "Duration"
+            },
+            "duration_in_traffic": {
+                "name": "Duration in traffic"
+            },
+            "origin": {
+                "name": "Origin"
+            }
+        }
+    }
+}

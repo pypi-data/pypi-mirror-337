@@ -1,0 +1,44 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "call_in_progress": {
+                "name": "Call in progress"
+            }
+        },
+        "select": {
+            "pipeline": {
+                "name": "Assistant",
+                "state": {
+                    "preferred": "Preferred"
+                }
+            },
+            "vad_sensitivity": {
+                "state": {
+                    "aggressive": "Aggressive",
+                    "default": "Default",
+                    "relaxed": "Relaxed"
+                }
+            }
+        },
+        "switch": {
+            "allow_call": {
+                "name": "Allow calls"
+            }
+        }
+    },
+    "exceptions": {
+        "non_tts_announcement": {
+            "message": "VoIP does not currently support non-TTS announcements"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "sip_port": "SIP port",
+                    "sip_user": "SIP user"
+                }
+            }
+        }
+    }
+}

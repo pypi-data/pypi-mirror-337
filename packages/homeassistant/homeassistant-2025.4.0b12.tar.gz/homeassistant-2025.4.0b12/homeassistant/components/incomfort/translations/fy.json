@@ -1,0 +1,11 @@
+{
+    "entity": {
+        "water_heater": {
+            "boiler": {
+                "state": {
+                    "standby": "Stand-by"
+                }
+            }
+        }
+    }
+}

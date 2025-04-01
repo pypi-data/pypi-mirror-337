@@ -1,0 +1,14 @@
+{
+    "services": {
+        "toggle": {
+            "description": "Toggles alert's notifications.",
+            "name": "Toggle"
+        },
+        "turn_off": {
+            "description": "Silences alert's notifications."
+        },
+        "turn_on": {
+            "description": "Resets alert's notifications."
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "sensor": {
+            "albums": {
+                "name": "Albums"
+            },
+            "disk_space": {
+                "name": "Disk space"
+            },
+            "queue": {
+                "name": "Queue"
+            },
+            "wanted": {
+                "name": "Wanted"
+            }
+        }
+    }
+}

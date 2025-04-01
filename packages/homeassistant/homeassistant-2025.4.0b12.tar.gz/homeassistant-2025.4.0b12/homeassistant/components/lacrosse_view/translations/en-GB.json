@@ -1,0 +1,29 @@
+{
+    "entity": {
+        "sensor": {
+            "barometric_pressure": {
+                "name": "Barometric pressure"
+            },
+            "feels_like": {
+                "name": "Feels like"
+            },
+            "flex": {
+                "name": "Flex"
+            },
+            "heat_index": {
+                "name": "Heat index"
+            },
+            "wet_dry": {
+                "name": "Wet/Dry"
+            },
+            "wind_chill": {
+                "name": "Wind chill"
+            }
+        }
+    },
+    "exceptions": {
+        "update_error": {
+            "message": "Error updating data"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "sensor": {
+            "o3": {
+                "name": "Ozone"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "radius": "Station radius (miles)"
+                }
+            }
+        }
+    }
+}

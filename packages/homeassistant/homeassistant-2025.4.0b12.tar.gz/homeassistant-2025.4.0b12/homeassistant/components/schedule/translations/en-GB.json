@@ -1,0 +1,11 @@
+{
+    "services": {
+        "get_schedule": {
+            "name": "Get schedule"
+        },
+        "reload": {
+            "description": "Reloads schedules from the YAML-configuration.",
+            "name": "Reload"
+        }
+    }
+}

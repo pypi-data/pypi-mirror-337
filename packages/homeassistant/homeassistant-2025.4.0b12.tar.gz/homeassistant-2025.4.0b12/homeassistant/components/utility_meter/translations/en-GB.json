@@ -1,0 +1,47 @@
+{
+    "config": {
+        "error": {
+            "tariffs_not_unique": "Tariffs must be unique"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "always_available": "Sensor always available",
+                    "periodically_resetting": "Periodically resetting"
+                },
+                "data_description": {
+                    "always_available": "If activated, the sensor will always show the last known value, even if the source entity is unavailable or unknown.",
+                    "periodically_resetting": "Enable if the source may periodically reset to 0, for example at boot of the measuring device. If disabled, new readings are directly recorded after data unavailability."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "periodically_resetting": "Periodically resetting"
+                },
+                "data_description": {
+                    "periodically_resetting": "Enable if the source may periodically reset to 0, for example at boot of the measuring device. If disabled, new readings are directly recorded after data unavailability."
+                }
+            }
+        }
+    },
+    "services": {
+        "calibrate": {
+            "description": "Calibrates a utility meter sensor.",
+            "fields": {
+                "value": {
+                    "description": "Value to which set the meter.",
+                    "name": "Value"
+                }
+            },
+            "name": "Calibrate"
+        },
+        "reset": {
+            "description": "Resets all counters of a utility meter.",
+            "name": "Reset"
+        }
+    }
+}

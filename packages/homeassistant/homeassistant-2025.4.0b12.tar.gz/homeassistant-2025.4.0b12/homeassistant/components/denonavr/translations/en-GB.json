@@ -1,0 +1,28 @@
+{
+    "services": {
+        "get_command": {
+            "description": "Sends a generic HTTP get command.",
+            "fields": {
+                "command": {
+                    "description": "Endpoint of the command, including associated parameters.",
+                    "name": "Command"
+                }
+            },
+            "name": "Get command"
+        },
+        "set_dynamic_eq": {
+            "description": "Enables or disables DynamicEQ.",
+            "fields": {
+                "dynamic_eq": {
+                    "description": "Whether DynamicEQ should be enabled or disabled.",
+                    "name": "Dynamic equaliser"
+                }
+            },
+            "name": "Set dynamic equaliser"
+        },
+        "update_audyssey": {
+            "description": "Updates Audyssey settings.",
+            "name": "Update Audyssey"
+        }
+    }
+}

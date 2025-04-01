@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "sensor": {
+            "light": {
+                "name": "Light"
+            },
+            "mold": {
+                "name": "Mould"
+            },
+            "radon": {
+                "name": "Radon"
+            },
+            "virus_risk": {
+                "name": "Virus Risk"
+            }
+        }
+    }
+}

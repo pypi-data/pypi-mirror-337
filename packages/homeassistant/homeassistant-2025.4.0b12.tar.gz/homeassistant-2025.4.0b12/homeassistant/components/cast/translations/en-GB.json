@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "config": {
+                "data_description": {
+                    "known_hosts": "Hostnames or IP-addresses of cast devices, use if mDNS discovery is not working"
+                }
+            }
+        }
+    },
+    "services": {
+        "show_lovelace_view": {
+            "description": "Shows a dashboard view on a Chromecast device.",
+            "fields": {
+                "dashboard_path": {
+                    "description": "The URL path of the dashboard to show, defaults to lovelace if not specified.",
+                    "name": "Dashboard path"
+                },
+                "entity_id": {
+                    "description": "Media player entity to show the dashboard view on.",
+                    "name": "Entity"
+                },
+                "view_path": {
+                    "description": "The URL path of the dashboard view to show.",
+                    "name": "View path"
+                }
+            },
+            "name": "Show dashboard view"
+        }
+    }
+}

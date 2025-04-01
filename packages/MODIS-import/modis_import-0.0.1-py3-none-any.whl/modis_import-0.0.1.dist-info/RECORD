@@ -1,0 +1,14 @@
+modis_import-0.0.1.dist-info/licenses/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+src/MODIS_import/MODIS_cli.py,sha256=XKg6FFrrXbZ3TGh22uqdKV8zc8cBcegEoGUlcb6hphQ,576
+src/MODIS_import/MODIS_download_all.py,sha256=hI7Kf2Dm88wBM3HvkcF8zB9acA6aNF2RCuq6MX588GQ,2789
+src/MODIS_import/MODIS_download_conversion.py,sha256=Vmr-X0n4Z5_bU6fMWdCSGjyVxtIxoIkP4oVyC7-8aeM,757
+src/MODIS_import/MODIS_full_nc_creation.py,sha256=OtJytM06K30X4Hrb45novKr-LcrORe_cF1rAS8XlMZ8,2418
+src/MODIS_import/MODIS_nc_creation.py,sha256=BqkHMlIZRQKx2DLqVrgQn0Sb_POg5lbntmIGuTnngbI,16812
+src/MODIS_import/MODIS_requests.py,sha256=q1YiDRZM2nA7yISY7PR1irBy8YkiPvKhyKQlUvyNliY,17418
+src/MODIS_import/__init__.py,sha256=JdT4tjwa6sFJWaSgfIVfPB6ZLlUQ8XeNBJEJoUKZJMA,88
+src/MODIS_import/__main__.py,sha256=J5NEGoYvLaFSfDqQE3q8xZgquzhch_KAjnJxMDH-RfE,162
+modis_import-0.0.1.dist-info/METADATA,sha256=WBg6LsWhFJ2dQC2mM2IIhZfn4d62e_MzyKZm7W0h3i8,44773
+modis_import-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+modis_import-0.0.1.dist-info/entry_points.txt,sha256=piPcrciQX2uHYhXBtfAkP2kKXo4oklBG0R50-IoaIvc,60
+modis_import-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+modis_import-0.0.1.dist-info/RECORD,,

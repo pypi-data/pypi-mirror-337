@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: notebookx
+Version: 0.1.1
+Summary: A lightweight python notebook
+Author-email: Aditya Godse <adimail2404@gmail.com>
+License: CC BY 4.0 (Attribution-NonCommercial 4.0 International)
+Project-URL: Homepage, https://github.com/adimail/notebook-x
+Project-URL: Documentation, https://adimail.github.io/notebook-x
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tornado
+Requires-Dist: pyzmq
+Requires-Dist: pre-commit
+Requires-Dist: ipykernel
+Requires-Dist: nbformat
+Dynamic: license-file
+
+# notebookx
+
+A lightweight Python notebook for interactive coding. Source code avaliable at [github.com/adimail/notebook-x](https://github.com/adimail/Notebook-X)
+
+## Installation
+
+```bash
+pip install notebookx
+```
+
+## Usage
+
+Run the notebook with:
+
+```bash
+notebookx
+```
+
+For more details, visit the [homepage](https://github.com/adimail/notebook-x).

@@ -1,0 +1,15 @@
+crew/__init__.py,sha256=MEp82HdwTifsNZTGPopJ293t-m5KEragbwlGVugMjGs,817
+crew/dynamic_agent.py,sha256=ORpblV00R4Ht7_6URgAtLxIapnPUV4O2htHRVRBxzqE,2177
+crew/dynamic_agent_task.py,sha256=HbwiKM7HiBJ431TK1xFmsLxcSRqDTHYazUCOacZXelA,1639
+structsense/__init__.py,sha256=-L8eGZkqewYdS54XTKMUzJqo-3D1dLdBlaJhAxFawfs,49
+structsense/app.py,sha256=DUOifoqe0hF7T0t_v-cBUTfryzM9Afe8OCBiwU7TwcE,7103
+structsense/cli.py,sha256=MSJkO5i0Nmnnget2vzydga3OkbEgMnkP6MXq_fK-pgY,2200
+utils/__init__.py,sha256=MEp82HdwTifsNZTGPopJ293t-m5KEragbwlGVugMjGs,817
+utils/ontology_knowedge_tool.py,sha256=PBcjuYzrASIcc7bzaXXVmlimza1_OyTBWo4xwEbfgvE,8549
+utils/types.py,sha256=aeOc3McCGBgrMuqhRpzSX4HH5-KJtWj7vfYdLRvT18Y,1864
+utils/utils.py,sha256=HtspPEHeFoomZBhQ3t9nNr_hQjJdyHuZhkLz-LiIVvI,42752
+structsense-0.0.1.dev109.dist-info/LICENSE.txt,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+structsense-0.0.1.dev109.dist-info/METADATA,sha256=XHW7PUdm5TwgpgZHo4qNCZv4lz2Yw80Sesd8YeNBCCI,19533
+structsense-0.0.1.dev109.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+structsense-0.0.1.dev109.dist-info/entry_points.txt,sha256=t_wMG4fva9-_9gUfvu2tMF0SlJ5CqewC3dspzyMErGE,55
+structsense-0.0.1.dev109.dist-info/RECORD,,

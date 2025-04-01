@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["wnpoly"]
+exclude = ["tutorial*"]
+
+[project]
+name = "wnpoly"
+version = "2.0.0"
+dependencies = ["numpy", "scipy"]
+requires-python = ">=3.0"
+authors = [
+  {name = "Bradley S. Meyer", email = "mbradle@g.clemson.edu"},
+  {name = "Ian Reistroffer", email = "ireistr@g.clemson.edu"},
+]
+maintainers = [
+  {name = "Bradley S. Meyer", email = "mbradle@g.clemson.edu"},
+]
+description = "Package to compute useful polynomials for Webnucleo projects."
+readme = "README.rst"
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["polynomials", "Bell", "symmetric"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Astronomy",
+  "Programming Language :: Python :: 3"
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+Documentation = "https://wnpoly.readthedocs.org"
+Repository = "https://github.com/mbradle/wnpoly.git"
+"Bug Tracker" = "https://github.com/mbradle/wnpoly/issues"
+
+[project.scripts]
+
+[project.gui-scripts]
+
+[project.entry-points."spam.magical"]

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-security-openid_connect/__init__.py
+src/corex-security-openid_connect/handler.py
+src/corex_security_openid_connect.egg-info/PKG-INFO
+src/corex_security_openid_connect.egg-info/SOURCES.txt
+src/corex_security_openid_connect.egg-info/dependency_links.txt
+src/corex_security_openid_connect.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,7 @@
+madsci/experiment_manager/__init__.py,sha256=5iIRejw4CjKV6DeFPWrP2NsRBOlr6LalLYYaUqMidEc,37
+madsci/experiment_manager/experiment_application.py,sha256=0qkrg-sSvNqH9WSFy5iupMVJ4W-qoSbiffifBRsEvj0,8366
+madsci/experiment_manager/experiment_server.py,sha256=Dtbzu_EIEbn7Gfy70K6mXUc7HBbwSZoesV84ZSj1Sho,8077
+madsci_experiment_manager-0.1.8.dist-info/METADATA,sha256=_2N1DiDcjIOqiH8nc5BkfQXXWVOjeOiKwOBj0ABbM7w,529
+madsci_experiment_manager-0.1.8.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+madsci_experiment_manager-0.1.8.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+madsci_experiment_manager-0.1.8.dist-info/RECORD,,

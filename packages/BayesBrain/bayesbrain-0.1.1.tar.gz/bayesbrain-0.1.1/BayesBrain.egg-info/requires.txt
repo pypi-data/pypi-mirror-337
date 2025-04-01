@@ -1,0 +1,10 @@
+jax[cpu]
+pandas
+arviz
+numpyro
+pyro-ppl
+optax
+numpy
+patsy
+scikit-learn
+scipy

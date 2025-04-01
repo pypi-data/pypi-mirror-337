@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+BayesBrain/DesignMaker.py
+BayesBrain/__init__.py
+BayesBrain/datasim.py
+BayesBrain/glm.py
+BayesBrain/models.py
+BayesBrain/scratch.py
+BayesBrain/utils.py
+BayesBrain.egg-info/PKG-INFO
+BayesBrain.egg-info/SOURCES.txt
+BayesBrain.egg-info/dependency_links.txt
+BayesBrain.egg-info/requires.txt
+BayesBrain.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+ai_workspace/__init__.py,sha256=2qrcWO-a6_s1s6cZkzxf5F6Clrs5eufzJvol7cSRIfk,67
+ai_workspace/database/__init__.py,sha256=VBAlgsZqhH6-x_JDRoF4-OWqiapMWPbW0DHKvnCiDS0,55
+ai_workspace/database/connect.py,sha256=cMklioBDenutW0wDrHqxOJKtOmWFYfU4o4fsAxBbjIE,748
+ai_workspace/modules/__init__.py,sha256=yLExJtAMUpKobJZxxFZt-pI54iFXVSSwcbmD0Ff9DCI,61
+ai_workspace/modules/workspace.py,sha256=_KqRX2OetS5JeL5zjXiZmGcEzGITNn97GekpzlnhuEw,7250
+ai_workspace/schemas/__init__.py,sha256=EmPl1xf68ap3soWgI0u_wzgwF2oejO0tnEbgdw1raOs,73
+ai_workspace/schemas/workspace.py,sha256=kIjHL9oH5eTiYfIGA_NWlT4OS4NrFYRTWkzo5YVBLWU,655
+openedu_ai_workspace-0.1.6.dist-info/METADATA,sha256=p4HKG3IKfjMFed1dPsndcR33xgHMPGLPnOB_fM5JaMk,723
+openedu_ai_workspace-0.1.6.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+openedu_ai_workspace-0.1.6.dist-info/top_level.txt,sha256=v6KlpDyv9EZN6BMlNAbywG-QoJyoTbBjhMsDK4_v9c4,13
+openedu_ai_workspace-0.1.6.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+flametree/Directory.py,sha256=vJXZ8vD2FI-3ZjFjDvIBZagOVLixi5mFiN0TAOvN2xw,7931
+flametree/DiskFileManager.py,sha256=wyvXNzegIB51rEXPC5ijURlB18Ig-N81ORTR00QYfiM,2914
+flametree/ZipFileManager.py,sha256=ylcZcpllh_x09jIZXV8UD4MXijR953D6-6WO2G4LDR0,6066
+flametree/__init__.py,sha256=3Sr1JFBqtK-UjuDwB6_bLBKk662xEtorqsBzqAgCRLA,235
+flametree/utils.py,sha256=xlafZBtXVHY1O_Lobnd7MsKq-Lg9A4SD8BYheyW6EFI,1440
+flametree/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+flametree-0.2.0.dist-info/licenses/LICENCE.txt,sha256=Qc3SvEdJPAUfL3CDhfTmqmI-azfpvCWSrvTfBTUwvIE,1106
+tests/test_basics.py,sha256=QjuQmam8j0MXORLj7JhbqoQ_GnPY8RLlQvjKHYlFPyo,6260
+tests/test_third_parties.py,sha256=ag1BuDPMAofTKhoH_uhyLETPkF-YcreGBdgSLTFTcmA,1521
+flametree-0.2.0.dist-info/METADATA,sha256=I4NVLaX_7sMBbIsJExzDRTHO7YPsdn4v3V3OOpivu7k,3041
+flametree-0.2.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+flametree-0.2.0.dist-info/top_level.txt,sha256=0Hi_ZFqTX_9ysqQXFTYlXwAXj3HkeVGzC4r5vAOPHXY,16
+flametree-0.2.0.dist-info/RECORD,,

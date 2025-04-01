@@ -1,0 +1,114 @@
+build_test_image:
+  image: docker:stable
+  stage: build
+  tags:
+    - privileged
+  services:
+    - name: docker:dind
+  script:
+    - docker build --rm -t ltcodecs-tests:latest -f tests/tests.Dockerfile .
+
+build_auto-doc_image:
+  image: docker:stable
+  stage: build
+  tags:
+    - privileged
+  services:
+    - name: docker:dind
+  script:
+    - docker build --rm -t ltcodecs-docs:latest -f docs/auto-docs.Dockerfile .
+
+trigger-ros_acomms-master-pipeline:
+  trigger:
+    project: acomms/ros_acomms
+    branch: master
+    strategy: depend
+
+trigger-ros_acomms-devel-pipeline:
+  trigger:
+    project: acomms/ros_acomms
+    branch: devel
+    strategy: depend
+
+test:
+  image: ltcodecs-tests:latest
+  stage: test
+  script:
+    - source /ros_entrypoint.sh
+    - pip install -r requirements.txt
+    - pip install .
+    - pytest --capture=no --junitxml=results.xml --cov=ltcodecs --cov-report=term --cov-report=xml --cov-report=html  tests/
+  artifacts:
+    paths:
+      - 'coverage.xml'
+      - 'htmlcov/'
+    reports:
+      junit: 'results.xml'
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+  coverage: '/TOTAL\s+\d+\s+\d+\s+(\d+)%/'
+
+test-gitlab:
+  image: ltcodecs-tests:latest
+  stage: test
+  script:
+    - source /ros_entrypoint.sh
+    - pip install -r requirements.txt
+    - git clone https://gitlab-ci-token:$CI_JOB_TOKEN@git.whoi.edu/ros/armw.git ~/armw
+    - cd ~/armw && pip install .
+    - cd $CI_PROJECT_DIR
+    - pip install .
+    - pytest --capture=no --junitxml=results.xml --cov=ltcodecs --cov-report=term --cov-report=xml --cov-report=html  tests/
+  artifacts:
+    paths:
+      - 'coverage.xml'
+      - 'htmlcov/'
+    reports:
+      junit: 'results.xml'
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+  coverage: '/TOTAL\s+\d+\s+\d+\s+(\d+)%/'
+
+auto-docs:
+  image: ltcodecs-docs:latest
+  stage: deploy
+  script:
+    - pip install -r requirements.txt
+    - pip install .
+    - cd docs
+    - make latexpdf
+    - mv _build/latex/ltcodecs.pdf ..
+  artifacts:
+    paths:
+      - ltcodecs.pdf
+
+pages:
+  image: ltcodecs-docs:latest
+  stage: deploy
+  script:
+    - pip install -r requirements.txt
+    - pip install .
+    - cd docs
+    - sphinx-build -b html . ../public
+  artifacts:
+    paths:
+      - public
+  only:
+    - tags
+    - master
+
+pypi:
+  image: python
+  stage: deploy
+  script:
+    - pip install -r requirements.txt
+    - pip install build twine
+    - python -m build
+    - twine upload --username __token__ --password $PYPI_TOKEN dist/*
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - tags

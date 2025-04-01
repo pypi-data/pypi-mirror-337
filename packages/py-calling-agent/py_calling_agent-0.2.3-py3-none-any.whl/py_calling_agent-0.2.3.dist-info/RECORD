@@ -1,0 +1,10 @@
+py_calling_agent/__init__.py,sha256=NGySo6wl11sRm-cDqyNgxN_lqrwmVFznO2oipVd5-mM,371
+py_calling_agent/agent.py,sha256=9ltLV8GUqWgkPrIBzadpbtDas-Va7Lc6F87kSaEonlM,19576
+py_calling_agent/llm.py,sha256=eelvQ9QsTeCXsKXc3mW9NUhxf6gCat7TXXCUIv6MWdU,3492
+py_calling_agent/prompts.py,sha256=zPkrnz_V9CflSJrmmvJaRElF9vQTP_imBrrGbXsXd9U,2594
+py_calling_agent/python_runtime.py,sha256=0AW4aNNk7LwpigxGNfMs7Nwx-xhveChM-r2zDHh4VdM,1517
+py_calling_agent/utils.py,sha256=NI2BK8WYVOUTX72yOGNbSUVJZE1F8fnLgU9r9CIBvVI,5453
+py_calling_agent-0.2.3.dist-info/METADATA,sha256=ipXgi-N7-4tFlh8jbcWtlSrER9VYt4BB804jRfMzQBI,7874
+py_calling_agent-0.2.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+py_calling_agent-0.2.3.dist-info/licenses/LICENSE,sha256=ChAk_wK2dOwdZ7loQzRjOA6reZBWtive02sEA0hgGTY,1067
+py_calling_agent-0.2.3.dist-info/RECORD,,

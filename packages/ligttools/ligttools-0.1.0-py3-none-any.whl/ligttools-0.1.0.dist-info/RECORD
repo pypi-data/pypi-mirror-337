@@ -1,0 +1,12 @@
+ligttools/__init__.py,sha256=RCdnP_m2czM91Qp_XX4J9K2jlSD1JYqDQrL7HizBWHs,117
+ligttools/cli.py,sha256=5I55ijTQUvMRTLoXaGDEwipNUIlkieYsCGdlRW2QoVQ,3975
+ligttools/converters/__init__.py,sha256=as5IcTPBjTYtasgh3XTJIiE-VuZ1Dlva4IKnroH7waU,1372
+ligttools/converters/base.py,sha256=U--ZZfL194WMKb5h7_dABcilqYFfAS7NAjaCRShNXwQ,524
+ligttools/converters/cldf_converter.py,sha256=0k8DaCzZIOGPWbIg24fDGw_kMWMIrPoTojWJodkx4Yo,10230
+ligttools/converters/flex_converter.py,sha256=Kz9eUsqYrNN8es_nPFdYbg076YSQUfpOlUAWE1IlnGo,792
+ligttools/converters/toolbox_converter.py,sha256=tqCOM7qZQWntdwRY2ywPDsYrpqb-39VGtzUN0XiFmpc,461
+ligttools-0.1.0.dist-info/METADATA,sha256=GL-XfSwhU70HENnn-2XXER_Lvsqs7C_S5RHlEWr5HJQ,4344
+ligttools-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ligttools-0.1.0.dist-info/entry_points.txt,sha256=z0AF63fRch-4J8_xjQsf_ZwBKIuDaC3mrtQR6XBESFk,52
+ligttools-0.1.0.dist-info/licenses/LICENSE,sha256=tuj98teOA0tgFiKwQu7me_e2Wyx9PlV7PyTpoqs-R6o,1061
+ligttools-0.1.0.dist-info/RECORD,,

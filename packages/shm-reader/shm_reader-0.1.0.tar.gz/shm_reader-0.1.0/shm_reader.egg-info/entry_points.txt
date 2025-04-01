@@ -1,0 +1,2 @@
+[console_scripts]
+shm-reader = shm_reader.cli:main

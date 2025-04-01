@@ -1,0 +1,2 @@
+[console_scripts]
+n2w_Copilot = n2w_Copilot_3:main

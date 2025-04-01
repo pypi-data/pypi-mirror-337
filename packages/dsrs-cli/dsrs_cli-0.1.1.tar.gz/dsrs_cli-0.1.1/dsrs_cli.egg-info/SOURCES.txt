@@ -1,0 +1,9 @@
+README.md
+dsrs_cli.py
+setup.py
+dsrs_cli.egg-info/PKG-INFO
+dsrs_cli.egg-info/SOURCES.txt
+dsrs_cli.egg-info/dependency_links.txt
+dsrs_cli.egg-info/entry_points.txt
+dsrs_cli.egg-info/requires.txt
+dsrs_cli.egg-info/top_level.txt

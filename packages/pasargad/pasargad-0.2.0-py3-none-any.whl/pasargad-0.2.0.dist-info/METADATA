@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: pasargad
+Version: 0.2.0
+Summary: A highly advanced DDoS protection library
+Home-page: https://github.com/pasargadcdn
+Author: ramox
+Author-email: actramox@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scapy>=2.4.5
+Requires-Dist: psutil>=5.9.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Pasargad
+A powerful Python library for DDoS protection.
+
+## Installation
+```bash
+pip install pasargad

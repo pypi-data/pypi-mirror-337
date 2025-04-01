@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    branches: ["main", "dev"]
+  pull_request:
+    branches: ["main", "dev"]
+  workflow_dispatch:
+
+jobs:
+  tox:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: ghdl/setup-ghdl@v1
+        with:
+          backend: llvm
+      - uses: YosysHQ/setup-oss-cad-suite@v3
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: "${{ matrix.python-version }}"
+      - name: Install dependencies
+        run: |
+          python -VV
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade tox tox-gh-actions
+      - name: "Run tox targets for ${{ matrix.python-version }}"
+        run: "python -m tox"

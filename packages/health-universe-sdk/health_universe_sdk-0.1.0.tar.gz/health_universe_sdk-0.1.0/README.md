@@ -1,0 +1,67 @@
+# Health Universe SDK
+
+A Python SDK for Health Universe that simplifies creation of tool repositories from templates.
+
+## Installation
+
+```bash
+pip install health-universe-sdk
+```
+
+## Features
+
+- Create new repositories from the Health Universe tool template
+- Interactive CLI for easy repository setup
+- Support for both public and private repositories
+- Create repositories under organizations
+- Built-in protection against overwriting existing repositories
+- Programmatic API for integration with other tools
+
+## Requirements
+
+- Python 3.10 or higher
+- GitHub CLI (`gh`) must be installed and authenticated
+- Internet access to GitHub
+
+## Usage
+
+### Command Line Interface
+
+The Health Universe SDK provides an intuitive command-line interface:
+
+```bash
+# Interactive mode (will prompt for all details)
+health-universe-sdk init
+
+# Create with name specified (will prompt for other details)
+health-universe-sdk init my-new-tool
+
+# Provide all details as arguments
+health-universe-sdk init my-new-tool --description "A tool for healthcare analytics" --public
+
+# Create a private repository
+health-universe-sdk init my-private-tool --private
+
+# Create a repository under an organization
+health-universe-sdk init my-org-tool --org "my-organization"
+```
+
+### CLI Options
+
+- `repo_name`: Name for your new repository
+- `--private/--public`: Set repository visibility
+- `--description`: Add a description for your repository
+- `--org`: Create the repository under an organization instead of your personal account
+
+## Development
+
+
+### Testing
+
+```bash
+# Install development dependencies
+pip install -e ".[dev]"
+
+# Run tests
+pytest
+```

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+spikard/__init__.py
+spikard/_ref.py
+spikard/base.py
+spikard/exceptions.py
+spikard/openai.py
+spikard.egg-info/PKG-INFO
+spikard.egg-info/SOURCES.txt
+spikard.egg-info/dependency_links.txt
+spikard.egg-info/requires.txt
+spikard.egg-info/top_level.txt

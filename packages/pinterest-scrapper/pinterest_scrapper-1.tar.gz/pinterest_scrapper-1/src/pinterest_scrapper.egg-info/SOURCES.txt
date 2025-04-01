@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pinterest_scraper/__init__.py
+src/pinterest_scraper/cli.py
+src/pinterest_scraper/scraper.py
+src/pinterest_scraper/utils.py
+src/pinterest_scrapper.egg-info/PKG-INFO
+src/pinterest_scrapper.egg-info/SOURCES.txt
+src/pinterest_scrapper.egg-info/dependency_links.txt
+src/pinterest_scrapper.egg-info/entry_points.txt
+src/pinterest_scrapper.egg-info/requires.txt
+src/pinterest_scrapper.egg-info/top_level.txt

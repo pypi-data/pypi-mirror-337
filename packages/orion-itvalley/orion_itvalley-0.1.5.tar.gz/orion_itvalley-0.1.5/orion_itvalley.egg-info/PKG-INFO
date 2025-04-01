@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: orion-itvalley
+Version: 0.1.5
+Summary: SDK unificado para acessar os serviços de IA do Orion, criado pela IT Valley
+Author-email: Carlos Viana <suporte@carlosviana.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ITValley-School/orion-itvalley
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+Dynamic: license-file

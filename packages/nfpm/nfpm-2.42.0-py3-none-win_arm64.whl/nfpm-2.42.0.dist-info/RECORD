@@ -1,0 +1,5 @@
+nfpm-2.42.0.data/scripts/nfpm.exe,sha256=hBOcTpo6dzFf-cW5VZGuNmS46WOuD0oW-adG21G-GOg,13313536
+nfpm-2.42.0.dist-info/METADATA,sha256=s6LRYWkBdvsN-oTWvPXiIallJE4VFy8KtcOdLEic0uU,4576
+nfpm-2.42.0.dist-info/WHEEL,sha256=8hoWSYhCNww2EwvVnjNbUoQktKiXYFRV_XqDmFsxHRY,94
+nfpm-2.42.0.dist-info/licenses/LICENSE.md,sha256=J9zHZOE0m0g0D5VU4Jy134X48HtjtO1zbLVsIgM5W6o,1067
+nfpm-2.42.0.dist-info/RECORD,,

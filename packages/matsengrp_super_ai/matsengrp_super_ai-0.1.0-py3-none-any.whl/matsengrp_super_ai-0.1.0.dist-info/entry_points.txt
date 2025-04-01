@@ -1,0 +1,2 @@
+[console_scripts]
+generate-wisdom = matsengrp_super_ai:main

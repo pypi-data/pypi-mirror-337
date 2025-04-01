@@ -1,0 +1,9 @@
+logician/__init__.py,sha256=Q7qzaiHFMu5Z3xE2m7eB8g4EQQ_QOYPIGWtMxMKvimA,2811
+logician/log_formatters.py,sha256=NO1bvJJNZbSIID4ZIyA1OFx0wvkS7TE8ei_pxWd1H-I,2967
+logician/log_metadata.py,sha256=eIrhALCibqGUVJCBoDzo4DLH6M0UcJGph2f4YDCvCPg,1839
+logician/logger.py,sha256=EaSibHgCPkxyc0S5EiQqEd3YU9BAZe8uCPvdsYdIjng,5668
+logician/time_aware_logger.py,sha256=dJ88HWt50kB35ph3p1fYpUGu6tN0To3eAVdEvSpfSeo,1894
+logician-0.2.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+logician-0.2.1.dist-info/METADATA,sha256=2ExgPIg07ckRvdC1pOp0qgwL964Bcu6NQI3xzjMJhbk,4113
+logician-0.2.1.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+logician-0.2.1.dist-info/RECORD,,

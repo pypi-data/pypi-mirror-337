@@ -1,0 +1,2 @@
+[console_scripts]
+awslabs.mcp-bedrock-kb-retrieval-expert = awslabs.mcp_bedrock_kb_retrieval_expert.server:main

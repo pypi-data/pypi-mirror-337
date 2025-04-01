@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: n2w_Copilot
+Version: 0.1.2
+Description-Content-Type: text/markdown
+Dynamic: description
+Dynamic: description-content-type
+
+# n2w_Copilot
+
+Questo progetto è un esempio di come creare e distribuire un pacchetto Python utilizzando `setuptools` e `wheel`.
+
+## Funzionalità
+
+- Conversione di numeri in parole
+- Test automatici
+
+## Installazione
+
+```bash
+pip install n2w_Copilot

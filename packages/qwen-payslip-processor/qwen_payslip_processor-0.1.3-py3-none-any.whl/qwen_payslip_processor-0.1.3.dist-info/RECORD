@@ -1,0 +1,10 @@
+qwen_payslip_processor/__init__.py,sha256=QmQGsvOtZhEXcQRaAADFQ2Gl_FAUIOvRvUWbbx1T4XA,204
+qwen_payslip_processor/config_defaults.py,sha256=dROLIh-P37XVDByZx_-rXN878WfrwWhKQz4AR940fyo,1522
+qwen_payslip_processor/processor.py,sha256=makdM_ohCfORQO24nMFcLUzVUG7klhnVR-1wjgGdUNs,49839
+qwen_payslip_processor/utils.py,sha256=witCom86qYfY0IK1n1iAeqNymYo_FztsTnRvFA-JznY,22241
+qwen_payslip_processor/model_files/MODEL_READY,sha256=AkMUfiNt_QoPwXfe8iLA50dXXfsOwLdC8gkD2PvekNk,26
+qwen_payslip_processor-0.1.3.dist-info/licenses/LICENSE,sha256=0jl5KqmntT7VHvYw97eJ29ydxwfl_utxMS3xo0rQt-I,1093
+qwen_payslip_processor-0.1.3.dist-info/METADATA,sha256=rRD7B343MhjBmeAkTS0AXwlqoioopQHU8cwUGUTBZzM,40727
+qwen_payslip_processor-0.1.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+qwen_payslip_processor-0.1.3.dist-info/top_level.txt,sha256=ZI1sadQGLvhkVpwBO02lxsiAu_YjcJABgdPXkydk5dM,23
+qwen_payslip_processor-0.1.3.dist-info/RECORD,,

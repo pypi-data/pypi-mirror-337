@@ -1,0 +1,12 @@
+xcomposite/__init__.py,sha256=Kwl7yV469xkOrTewItSzDds-FE6WT1gN07IH1CbdZaA,3956
+xcomposite/core.py,sha256=O3lJYHFizir-_4Mfb8IviMQBK-kD_7dFG-hzcmpjUBQ,6914
+xcomposite/decorators.py,sha256=TCyiwqj_MPvjZGFeUTDxUSuB3qMgr47HvVdo_XOJX5Q,9844
+xcomposite/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcomposite/tests/classes.py,sha256=l4JWjf9p2bvJfOJLR-xqJDJb-xEFJqLRmsAQ-ab_kPk,3103
+xcomposite/tests/test_composition.py,sha256=Gky-5995Qv96JAEs4UVg49NZnN5asOTNp0w-xU0iFlU,3772
+xcomposite/tests/test_decorators.py,sha256=jzp-sstAvLEBTHMrVTNUbwACPzbPWr3e1uN0tIo94QU,5820
+xcomposite-2.0.8.dist-info/licenses/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+xcomposite-2.0.8.dist-info/METADATA,sha256=Nf4FCK3Ja47weRhRUkXPqhv16vv0Vavinh_rLe0vbbc,5656
+xcomposite-2.0.8.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+xcomposite-2.0.8.dist-info/top_level.txt,sha256=7kntHLSFaxb1xB7lzMqJaqe5jXTKZseruJ0kvMjoRyc,11
+xcomposite-2.0.8.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+hatch_protobuf/__init__.py,sha256=kEfAN7wgZn19zp9wG_8HU9izbwJhtmX3YuVAwNv1mxA,163
+hatch_protobuf/_version.py,sha256=t2KydV2wZW7HWgAlZ5a_8ph_-F2G8SgH70WFApigSs8,517
+hatch_protobuf/hooks.py,sha256=df2ru86ms3w8b7ZEq9dKNEM6zMJqiCNJMqNbAI5JtZY,137
+hatch_protobuf/plugin.py,sha256=HQte4PqQIBugVJ03CxNtNS6q51X11p8JmK98fwceSCM,5681
+hatch_protobuf-0.3.0.post1.dist-info/METADATA,sha256=_-s7Qf2GwR_jF6PHpCUPde0gaR4CLM7GHrvY0rBEXGM,7720
+hatch_protobuf-0.3.0.post1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+hatch_protobuf-0.3.0.post1.dist-info/entry_points.txt,sha256=NiqZEXboIm3jvjanKHUmCyc2A4VyY71tM7ibt_otbPU,40
+hatch_protobuf-0.3.0.post1.dist-info/licenses/LICENSE.md,sha256=phuMrsg4wEqFThz5gZH4Zi6KVavAPxfvuesD8fsFaqc,15799
+hatch_protobuf-0.3.0.post1.dist-info/RECORD,,

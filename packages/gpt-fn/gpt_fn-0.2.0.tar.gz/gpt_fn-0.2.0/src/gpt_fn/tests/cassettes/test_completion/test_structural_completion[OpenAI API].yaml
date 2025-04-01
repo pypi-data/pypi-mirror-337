@@ -1,0 +1,113 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Give
+      me a sample email."}],"model":"gpt-4o","frequency_penalty":0.0,"presence_penalty":0.0,"temperature":1.0,"tool_choice":{"type":"function","function":{"name":"structural_response"}},"tools":[{"type":"function","function":{"name":"structural_response","description":"Response
+      to user in a structural way.","parameters":{"properties":{"subject":{"description":"the
+      subject of email","title":"Subject","type":"string"},"body":{"description":"the
+      body of email","title":"Body","type":"string"}},"required":["subject","body"],"title":"Email","type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '680'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - OpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    content: "{\n  \"id\": \"chatcmpl-BH7Nu9HJghTonN1kt8wNlZxZ1zco5\",\n  \"object\":
+      \"chat.completion\",\n  \"created\": 1743419662,\n  \"model\": \"gpt-4o-2024-08-06\",\n
+      \ \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\":
+      \"assistant\",\n        \"content\": null,\n        \"tool_calls\": [\n          {\n
+      \           \"id\": \"call_dc3WzcdmXCTFLjodZGq8QVtz\",\n            \"type\":
+      \"function\",\n            \"function\": {\n              \"name\": \"structural_response\",\n
+      \             \"arguments\": \"{\\\"subject\\\":\\\"Meeting Reminder\\\",\\\"body\\\":\\\"Dear
+      Team,\\\\n\\\\nThis is a reminder about our upcoming meeting scheduled for tomorrow
+      at 10:00 AM in the conference room. Please ensure that you have reviewed the
+      agenda and come prepared with any needed materials.\\\\n\\\\nThank you,\\\\n[Your
+      Name]\\\"}\"\n            }\n          }\n        ],\n        \"refusal\": null,\n
+      \       \"annotations\": []\n      },\n      \"logprobs\": null,\n      \"finish_reason\":
+      \"stop\"\n    }\n  ],\n  \"usage\": {\n    \"prompt_tokens\": 91,\n    \"completion_tokens\":
+      63,\n    \"total_tokens\": 154,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\":
+      0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n
+      \     \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\":
+      0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\":
+      \"default\",\n  \"system_fingerprint\": \"fp_898ac29719\"\n}\n"
+    headers:
+      CF-RAY:
+      - 928f6c372d654a9c-TPE
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:14:26 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=tCSTWGdpV8mY6z3Nnqjf.27z.Ul5m3HwLIrlB4p8xCY-1743419666-1.0.1.1-_hYbWUOinjcVNPnIt07DbHN7O6pK0lhyR23N7pahUUk6p5bYkx26P_4ye8hcmPKo6mMIzDQzf2uAFbnG59hpWsN_LgJSSzCZtGS5gLic8OM;
+        path=/; expires=Mon, 31-Mar-25 11:44:26 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=FzcB1mPCQ01eKG0O8220nGLGs.gvnZdvXb8GN7442.g-1743419666312-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      openai-processing-ms:
+      - '4127'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '2000000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '1999984'
+      x-ratelimit-reset-requests:
+      - 6ms
+      x-ratelimit-reset-tokens:
+      - 0s
+      x-request-id:
+      - req_0b8bfcb80a58cd100f11414ac956343d
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

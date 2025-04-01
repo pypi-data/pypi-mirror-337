@@ -1,0 +1,104 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I
+      want to book a restaurant in London."}],"model":"gpt-4o","frequency_penalty":0.0,"max_tokens":10,"presence_penalty":0.0,"stop":null,"temperature":1.0,"tool_choice":"auto","tools":[{"type":"function","function":{"name":"book_a_flight","description":"","parameters":{"properties":{"date":{"type":"string"},"destination":{"type":"string"},"origin":{"default":"London","type":"string"}},"required":["date","destination"],"type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '559'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - OpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    content: "{\n  \"id\": \"chatcmpl-BH7NoUm4trWFcBya48WaKOTfKSL5Q\",\n  \"object\":
+      \"chat.completion\",\n  \"created\": 1743419656,\n  \"model\": \"gpt-4o-2024-08-06\",\n
+      \ \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\":
+      \"assistant\",\n        \"content\": \"I'm currently unable to book restaurants
+      directly. However\",\n        \"refusal\": null,\n        \"annotations\": []\n
+      \     },\n      \"logprobs\": null,\n      \"finish_reason\": \"length\"\n    }\n
+      \ ],\n  \"usage\": {\n    \"prompt_tokens\": 69,\n    \"completion_tokens\":
+      10,\n    \"total_tokens\": 79,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\":
+      0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n
+      \     \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\":
+      0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\":
+      \"default\",\n  \"system_fingerprint\": \"fp_898ac29719\"\n}\n"
+    headers:
+      CF-RAY:
+      - 928f6c12b85d4aa5-TPE
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:14:16 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=fV5NRMzIA8neWWigrqqUzn93t79hWqplvt__baw7c0o-1743419656-1.0.1.1-H1bjBJPAbpft8.02mywobaxxCodBtTEnmoE2yWYuv78G6opauoUi.pwwl.9LaQZl.P6Acw_N3qqPEbYLIKyQwKVZtqocKq.S._r8E5ENj_o;
+        path=/; expires=Mon, 31-Mar-25 11:44:16 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=P5BABXbaWYban2LqEUtfyXB1tGHann_lh63QrUUBM7w-1743419656960-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      openai-processing-ms:
+      - '628'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '2000000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '1999979'
+      x-ratelimit-reset-requests:
+      - 6ms
+      x-ratelimit-reset-tokens:
+      - 0s
+      x-request-id:
+      - req_fdd7420af9e5a795adab5c89d6965e01
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

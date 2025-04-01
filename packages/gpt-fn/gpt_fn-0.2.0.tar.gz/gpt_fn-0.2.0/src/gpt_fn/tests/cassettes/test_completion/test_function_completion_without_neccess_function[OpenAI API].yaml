@@ -1,0 +1,107 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I
+      want to book a restaurant in London."}],"model":"gpt-4o","frequency_penalty":0.0,"presence_penalty":0.0,"stop":null,"temperature":1.0,"tool_choice":"auto","tools":[{"type":"function","function":{"name":"book_a_flight","description":"","parameters":{"properties":{"date":{"type":"string"},"destination":{"type":"string"},"origin":{"default":"London","type":"string"}},"required":["date","destination"],"type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '543'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - OpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    content: "{\n  \"id\": \"chatcmpl-BH7NqlcvKp3NppdBlPyrPia5xW67S\",\n  \"object\":
+      \"chat.completion\",\n  \"created\": 1743419658,\n  \"model\": \"gpt-4o-2024-08-06\",\n
+      \ \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\":
+      \"assistant\",\n        \"content\": \"I can help you find information about
+      restaurants in London, but I don't have the capability to book a restaurant.
+      You might want to try a restaurant reservation service, such as OpenTable or
+      Resy, to book a table online. If you have a particular restaurant in mind or
+      need help finding one, I can assist with more specific information!\",\n        \"refusal\":
+      null,\n        \"annotations\": []\n      },\n      \"logprobs\": null,\n      \"finish_reason\":
+      \"stop\"\n    }\n  ],\n  \"usage\": {\n    \"prompt_tokens\": 69,\n    \"completion_tokens\":
+      70,\n    \"total_tokens\": 139,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\":
+      0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n
+      \     \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\":
+      0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\":
+      \"default\",\n  \"system_fingerprint\": \"fp_898ac29719\"\n}\n"
+    headers:
+      CF-RAY:
+      - 928f6c20db438f09-TPE
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:14:20 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=V.jORLrw_pSsNZy6Pj8zSoHFOxnCmSuZqIwBs71Zk6c-1743419660-1.0.1.1-tc0xnzO3OmueYk6k1_SAAizDPVpbdFgLJD7T93tJKcGa79sA_kGXIIwIJRCd78YrSWysi2L89cNmsHZddnGBn655JTfmynW1vx7Qk_LrQao;
+        path=/; expires=Mon, 31-Mar-25 11:44:20 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=T7OMPKHns885f4.2A4GZ36l03IR1JmYL9I9hIDyjL2s-1743419660200-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      openai-processing-ms:
+      - '1579'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '2000000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '1999979'
+      x-ratelimit-reset-requests:
+      - 6ms
+      x-ratelimit-reset-tokens:
+      - 0s
+      x-request-id:
+      - req_79145017c27f81605a203456b985eb9f
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

@@ -1,0 +1,443 @@
+# serializer version: 1
+# name: test_achat_completion[Azure 2024-05-01 API]
+  "Hello! I'm an AI assistant created to help with a variety of tasks and questions. How can I assist you today?"
+# ---
+# name: test_achat_completion[OpenAI API]
+  'Hello! I am an AI assistant designed to help answer questions and provide information on a wide range of topics. How can I assist you today?'
+# ---
+# name: test_afunction_completion[Azure 2024-05-01 API]
+  Function(arguments='{"date":"2023-11-30","destination":"London"}', name='book_a_flight')
+# ---
+# name: test_afunction_completion[OpenAI API]
+  Function(arguments='{"date":"2023-11-30","destination":"London"}', name='book_a_flight')
+# ---
+# name: test_astructural_completion[Azure 2024-05-01 API]
+  Email(subject='Meeting Confirmation', body="Hello [Recipient's Name],\n\nI hope this message finds you well. I am writing to confirm our meeting scheduled for [Date] at [Time] at [Location]. \n\nPlease let me know if you need any additional information or if there are any changes to the scheduled time.\n\nLooking forward to meeting you.\n\nBest regards,\n[Your Name]")
+# ---
+# name: test_astructural_completion[OpenAI API]
+  Email(subject='Sample Email', body="Dear [Recipient's Name],\n\nI hope this message finds you well. I am writing to you regarding [subject of the email]. I wanted to discuss [briefly explain the purpose of the email].\n\nPlease let me know a convenient time for us to talk about this in more detail. Looking forward to your reply.\n\nBest regards,\n\n[Your Name]\n[Your Contact Information]")
+# ---
+# name: test_chat_completion[Azure 2024-05-01 API]
+  'Hello! I’m an AI assistant here to help you with any questions or tasks you might have. How can I assist you today?'
+# ---
+# name: test_chat_completion[OpenAI API]
+  'Hello! I’m an AI assistant here to help you with information and answer your questions. How can I assist you today?'
+# ---
+# name: test_chat_completion_incomplete[Azure 2024-05-01 API]
+  'gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 1, Finish reason: length'
+# ---
+# name: test_chat_completion_incomplete[Azure 2024-05-01 API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 1,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'Hello, who are you?',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o-2024-05-13',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7QFzDUSvXBTNv8nk8CppfYy03up', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content='Hello', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})], created=1743419807, model='gpt-4o-2024-05-13', object='chat.completion', service_tier=None, system_fingerprint='fp_7ef970ab5a', usage=CompletionUsage(completion_tokens=1, prompt_tokens=23, total_tokens=24, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), prompt_filter_results=[{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}]),
+  })
+# ---
+# name: test_chat_completion_incomplete[OpenAI API]
+  'gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 1, Finish reason: length'
+# ---
+# name: test_chat_completion_incomplete[OpenAI API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 1,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'Hello, who are you?',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7QEklPTNQeBA4wzoqhW8vqCKOVk', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content='Hello', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743419806, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_898ac29719', usage=CompletionUsage(completion_tokens=1, prompt_tokens=23, total_tokens=24, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))),
+  })
+# ---
+# name: test_function_completion[Azure 2024-05-01 API]
+  Function(arguments='{"date":"2023-10-18","destination":"London"}', name='book_a_flight')
+# ---
+# name: test_function_completion[OpenAI API]
+  Function(arguments='{"destination":"London","origin":"London","date":"2023-11-15"}', name='book_a_flight')
+# ---
+# name: test_function_completion_without_enough_tokens[Azure 2024-05-01 API]
+  "gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 10, Finish reason: length Message:I currently can't book a restaurant for you,"
+# ---
+# name: test_function_completion_without_enough_tokens[Azure 2024-05-01 API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 10,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'I want to book a restaurant in London.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o-2024-05-13',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'tool_choice': 'auto',
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': '',
+            'name': 'book_a_flight',
+            'parameters': dict({
+              'properties': dict({
+                'date': dict({
+                  'type': 'string',
+                }),
+                'destination': dict({
+                  'type': 'string',
+                }),
+                'origin': dict({
+                  'default': 'London',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'date',
+                'destination',
+              ]),
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7NpI59O3eHqdzZFQoBj1ygaIaz4', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content="I currently can't book a restaurant for you,", refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})], created=1743419657, model='gpt-4o-2024-05-13', object='chat.completion', service_tier=None, system_fingerprint='fp_7ef970ab5a', usage=CompletionUsage(completion_tokens=10, prompt_tokens=69, total_tokens=79, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), prompt_filter_results=[{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}]),
+  })
+# ---
+# name: test_function_completion_without_enough_tokens[OpenAI API]
+  "gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 10, Finish reason: length Message:I'm currently unable to book restaurants directly. However"
+# ---
+# name: test_function_completion_without_enough_tokens[OpenAI API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 10,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'I want to book a restaurant in London.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'tool_choice': 'auto',
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': '',
+            'name': 'book_a_flight',
+            'parameters': dict({
+              'properties': dict({
+                'date': dict({
+                  'type': 'string',
+                }),
+                'destination': dict({
+                  'type': 'string',
+                }),
+                'origin': dict({
+                  'default': 'London',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'date',
+                'destination',
+              ]),
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7NoUm4trWFcBya48WaKOTfKSL5Q', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content="I'm currently unable to book restaurants directly. However", refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743419656, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_898ac29719', usage=CompletionUsage(completion_tokens=10, prompt_tokens=69, total_tokens=79, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))),
+  })
+# ---
+# name: test_function_completion_without_neccess_function[Azure 2024-05-01 API]
+  "gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: None, Finish reason: stop Message:I currently don't have the capability to book a restaurant for you. However, I can help you book a flight if you need to travel. Would you like to book a flight?"
+# ---
+# name: test_function_completion_without_neccess_function[Azure 2024-05-01 API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'I want to book a restaurant in London.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o-2024-05-13',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'tool_choice': 'auto',
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': '',
+            'name': 'book_a_flight',
+            'parameters': dict({
+              'properties': dict({
+                'date': dict({
+                  'type': 'string',
+                }),
+                'destination': dict({
+                  'type': 'string',
+                }),
+                'origin': dict({
+                  'default': 'London',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'date',
+                'destination',
+              ]),
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7NsK8f2axxb1ktxLfjIPpvgS0r5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content="I currently don't have the capability to book a restaurant for you. However, I can help you book a flight if you need to travel. Would you like to book a flight?", refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})], created=1743419660, model='gpt-4o-2024-05-13', object='chat.completion', service_tier=None, system_fingerprint='fp_7ef970ab5a', usage=CompletionUsage(completion_tokens=38, prompt_tokens=69, total_tokens=107, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), prompt_filter_results=[{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}]),
+  })
+# ---
+# name: test_function_completion_without_neccess_function[OpenAI API]
+  "gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: None, Finish reason: stop Message:I can help you find information about restaurants in London, but I don't have the capability to book a restaurant. You might want to try a restaurant reservation service, such as OpenTable or Resy, to book a table online. If you have a particular restaurant in mind or need help finding one, I can assist with more specific information!"
+# ---
+# name: test_function_completion_without_neccess_function[OpenAI API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'I want to book a restaurant in London.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o',
+      'presence_penalty': 0.0,
+      'stop': None,
+      'temperature': 1.0,
+      'tool_choice': 'auto',
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': '',
+            'name': 'book_a_flight',
+            'parameters': dict({
+              'properties': dict({
+                'date': dict({
+                  'type': 'string',
+                }),
+                'destination': dict({
+                  'type': 'string',
+                }),
+                'origin': dict({
+                  'default': 'London',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'date',
+                'destination',
+              ]),
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7NqlcvKp3NppdBlPyrPia5xW67S', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content="I can help you find information about restaurants in London, but I don't have the capability to book a restaurant. You might want to try a restaurant reservation service, such as OpenTable or Resy, to book a table online. If you have a particular restaurant in mind or need help finding one, I can assist with more specific information!", refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1743419658, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_898ac29719', usage=CompletionUsage(completion_tokens=70, prompt_tokens=69, total_tokens=139, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))),
+  })
+# ---
+# name: test_structural_completion[Azure 2024-05-01 API]
+  Email(subject='Meeting Update', body="Dear Team,\n\nI hope this email finds you well. I would like to update you on the upcoming team meeting scheduled for this Friday at 10:00 AM. We'll be discussing our project progress, upcoming deadlines, and any challenges we may be facing.\n\nPlease ensure that you are prepared with a status update on your current tasks. If you have any topics that you would like to add to the agenda, feel free to let me know by Thursday afternoon.\n\nLooking forward to a productive meeting.\n\nBest regards,\n[Your Name]")
+# ---
+# name: test_structural_completion[OpenAI API]
+  Email(subject='Meeting Reminder', body='Dear Team,\n\nThis is a reminder about our upcoming meeting scheduled for tomorrow at 10:00 AM in the conference room. Please ensure that you have reviewed the agenda and come prepared with any needed materials.\n\nThank you,\n[Your Name]')
+# ---
+# name: test_structural_completion_without_enough_tokens[Azure 2024-05-01 API]
+  'gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 10, Finish reason: length Message:None'
+# ---
+# name: test_structural_completion_without_enough_tokens[Azure 2024-05-01 API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 10,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'Give me a sample email.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o-2024-05-13',
+      'presence_penalty': 0.0,
+      'temperature': 1.0,
+      'tool_choice': dict({
+        'function': dict({
+          'name': 'structural_response',
+        }),
+        'type': 'function',
+      }),
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': 'Response to user in a structural way.',
+            'name': 'structural_response',
+            'parameters': dict({
+              'properties': dict({
+                'body': dict({
+                  'description': 'the body of email',
+                  'title': 'Body',
+                  'type': 'string',
+                }),
+                'subject': dict({
+                  'description': 'the subject of email',
+                  'title': 'Subject',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'subject',
+                'body',
+              ]),
+              'title': 'Email',
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7Q7VOjuaEKsAC3FRb1Ax4nwbL3s', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_jjtYluNYFIRFSWRDbsoDLHRw', function=Function(arguments='{"subject":"Meeting Request","Body":"Dear [', name='structural_response'), type='function')]), content_filter_results={})], created=1743419799, model='gpt-4o-2024-05-13', object='chat.completion', service_tier=None, system_fingerprint='fp_7ef970ab5a', usage=CompletionUsage(completion_tokens=10, prompt_tokens=91, total_tokens=101, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), prompt_filter_results=[{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}]),
+  })
+# ---
+# name: test_structural_completion_without_enough_tokens[OpenAI API]
+  'gpt_fn.exceptions.CompletionIncompleteError: Incomplete response. Max tokens: 10, Finish reason: length Message:None'
+# ---
+# name: test_structural_completion_without_enough_tokens[OpenAI API].1
+  dict({
+    'request': dict({
+      'frequency_penalty': 0.0,
+      'max_tokens': 10,
+      'messages': list([
+        dict({
+          'content': 'You are a helpful assistant.',
+          'role': 'system',
+        }),
+        dict({
+          'content': 'Give me a sample email.',
+          'role': 'user',
+        }),
+      ]),
+      'model': 'gpt-4o',
+      'presence_penalty': 0.0,
+      'temperature': 1.0,
+      'tool_choice': dict({
+        'function': dict({
+          'name': 'structural_response',
+        }),
+        'type': 'function',
+      }),
+      'tools': list([
+        dict({
+          'function': dict({
+            'description': 'Response to user in a structural way.',
+            'name': 'structural_response',
+            'parameters': dict({
+              'properties': dict({
+                'body': dict({
+                  'description': 'the body of email',
+                  'title': 'Body',
+                  'type': 'string',
+                }),
+                'subject': dict({
+                  'description': 'the subject of email',
+                  'title': 'Subject',
+                  'type': 'string',
+                }),
+              }),
+              'required': list([
+                'subject',
+                'body',
+              ]),
+              'title': 'Email',
+              'type': 'object',
+            }),
+          }),
+          'type': 'function',
+        }),
+      ]),
+      'top_p': 1.0,
+      'user': '',
+    }),
+    'response': ChatCompletion(id='chatcmpl-BH7O5phavCTNIqYBRUvBzqVasZAfe', choices=[Choice(finish_reason='length', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_7QDHulVgOqlelq1FiC3ynvw6', function=Function(arguments='{"subject":"Meeting Confirmation","body":"Dear [', name='structural_response'), type='function')]))], created=1743419673, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_898ac29719', usage=CompletionUsage(completion_tokens=10, prompt_tokens=91, total_tokens=101, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))),
+  })
+# ---

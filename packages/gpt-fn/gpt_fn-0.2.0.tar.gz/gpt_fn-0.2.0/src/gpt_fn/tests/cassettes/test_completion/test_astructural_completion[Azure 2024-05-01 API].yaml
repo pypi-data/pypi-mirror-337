@@ -1,0 +1,95 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Give
+      me a sample email."}],"model":"gpt-4o-2024-05-13","frequency_penalty":0.0,"presence_penalty":0.0,"temperature":1.0,"tool_choice":{"type":"function","function":{"name":"structural_response"}},"tools":[{"type":"function","function":{"name":"structural_response","description":"Response
+      to user in a structural way.","parameters":{"properties":{"subject":{"description":"the
+      subject of email","title":"Subject","type":"string"},"body":{"description":"the
+      body of email","title":"Body","type":"string"}},"required":["subject","body"],"title":"Email","type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '691'
+      content-type:
+      - application/json
+      host:
+      - gstudio-dev-a.openai.azure.com
+      user-agent:
+      - AsyncAzureOpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - async:asyncio
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://gstudio-dev-a.openai.azure.com/openai/deployments/gpt-4o-2024-05-13/chat/completions?api-version=2024-05-01-preview
+  response:
+    content: '{"choices":[{"content_filter_results":{},"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":null,"refusal":null,"role":"assistant","tool_calls":[{"function":{"arguments":"{\"subject\":\"Meeting
+      Confirmation\",\"body\":\"Hello [Recipient''s Name],\\n\\nI hope this message
+      finds you well. I am writing to confirm our meeting scheduled for [Date] at
+      [Time] at [Location]. \\n\\nPlease let me know if you need any additional information
+      or if there are any changes to the scheduled time.\\n\\nLooking forward to meeting
+      you.\\n\\nBest regards,\\n[Your Name]\"}","name":"structural_response"},"id":"call_3gWnIJEovOvyziCBumsrre5H","type":"function"}]}}],"created":1743419671,"id":"chatcmpl-BH7O3lrQeqJqZgDtuCsz54iejrfvf","model":"gpt-4o-2024-05-13","object":"chat.completion","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"system_fingerprint":"fp_7ef970ab5a","usage":{"completion_tokens":89,"completion_tokens_details":{"accepted_prediction_tokens":0,"audio_tokens":0,"reasoning_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":91,"prompt_tokens_details":{"audio_tokens":0,"cached_tokens":0},"total_tokens":180}}
+
+      '
+    headers:
+      Content-Length:
+      - '1348'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:14:32 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      apim-request-id:
+      - ec44efe4-6ba6-4049-af0a-245268983e64
+      azureml-model-session:
+      - v20250319-1-164616836
+      cmp-upstream-response-duration:
+      - '1303'
+      ms-azureml-model-time:
+      - '1379'
+      x-accel-buffering:
+      - 'no'
+      x-aml-cluster:
+      - hyena-eastus2-02
+      x-content-type-options:
+      - nosniff
+      x-envoy-upstream-service-time:
+      - '1382'
+      x-ms-client-request-id:
+      - ec44efe4-6ba6-4049-af0a-245268983e64
+      x-ms-rai-invoked:
+      - 'true'
+      x-ms-region:
+      - East US
+      x-ratelimit-limit-requests:
+      - '352'
+      x-ratelimit-limit-tokens:
+      - '352000'
+      x-ratelimit-remaining-requests:
+      - '350'
+      x-ratelimit-remaining-tokens:
+      - '348692'
+      x-request-id:
+      - 18c353fe-fe34-46e2-8378-04f29f8d1dd7
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

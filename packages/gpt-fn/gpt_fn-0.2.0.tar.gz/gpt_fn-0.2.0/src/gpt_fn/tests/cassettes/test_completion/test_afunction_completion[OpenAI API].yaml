@@ -1,0 +1,107 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I
+      want to book a flight to London."}],"model":"gpt-4o","frequency_penalty":0.0,"presence_penalty":0.0,"stop":null,"temperature":1.0,"tool_choice":{"type":"function","function":{"name":"book_a_flight"}},"tools":[{"type":"function","function":{"name":"book_a_flight","description":"","parameters":{"properties":{"date":{"type":"string"},"destination":{"type":"string"},"origin":{"default":"London","type":"string"}},"required":["date","destination"],"type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '588'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - AsyncOpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - async:asyncio
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    content: "{\n  \"id\": \"chatcmpl-BH7iVPtyoneUbhuiprbqd6PGcE26k\",\n  \"object\":
+      \"chat.completion\",\n  \"created\": 1743420939,\n  \"model\": \"gpt-4o-2024-08-06\",\n
+      \ \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\":
+      \"assistant\",\n        \"content\": null,\n        \"tool_calls\": [\n          {\n
+      \           \"id\": \"call_peCj7Q5BN5LASOeOypC298Ty\",\n            \"type\":
+      \"function\",\n            \"function\": {\n              \"name\": \"book_a_flight\",\n
+      \             \"arguments\": \"{\\\"date\\\":\\\"2023-11-30\\\",\\\"destination\\\":\\\"London\\\"}\"\n
+      \           }\n          }\n        ],\n        \"refusal\": null,\n        \"annotations\":
+      []\n      },\n      \"logprobs\": null,\n      \"finish_reason\": \"stop\"\n
+      \   }\n  ],\n  \"usage\": {\n    \"prompt_tokens\": 80,\n    \"completion_tokens\":
+      15,\n    \"total_tokens\": 95,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\":
+      0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n
+      \     \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\":
+      0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\":
+      \"default\",\n  \"system_fingerprint\": \"fp_898ac29719\"\n}\n"
+    headers:
+      CF-RAY:
+      - 928f8b683e804a70-TPE
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:35:40 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=m6ivGxniBrNFWKKCAnyReClXvnXHbtYje5SpFeS2KcY-1743420940-1.0.1.1-b_RoSg8yYRn2ljpcE5UBnPnc6euPQ0NSSyqzLTukjyk8V.e8hfLU2.oaOBT342d_wsE_vOUq6MM4MD00AhlajoJfSvcuUpOoL96NC5ni1S8;
+        path=/; expires=Mon, 31-Mar-25 12:05:40 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=b0RWXIrK3Bua5uYQ_9_slbFnHlnvMmP0tmYKMpx3C8M-1743420940143-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      openai-processing-ms:
+      - '361'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '2000000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '1999980'
+      x-ratelimit-reset-requests:
+      - 6ms
+      x-ratelimit-reset-tokens:
+      - 0s
+      x-request-id:
+      - req_10c8fd4718ac22942f836aa21761f8a4
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

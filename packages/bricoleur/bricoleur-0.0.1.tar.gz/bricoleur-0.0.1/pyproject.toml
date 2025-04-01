@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bricoleur"
+authors = [{name = "Gilles Pilon", email = "gillespilon13@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+version = "0.0.1"
+description="Tools for 'bricoleurs' who engage is the art of 'bricolage.'"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >=2.7.3",
+    "pytest-cov",
+]
+doc = ["sphinx"]
+
+[project.urls]
+Source = "https://github.com/gillespilon/bricoleur"
+# Documentation = "https://bricoleur.readthedocs.io/en/latest/"

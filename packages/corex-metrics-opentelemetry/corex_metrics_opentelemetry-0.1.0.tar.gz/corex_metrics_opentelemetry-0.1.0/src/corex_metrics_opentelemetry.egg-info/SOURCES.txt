@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-metrics-opentelemetry/__init__.py
+src/corex-metrics-opentelemetry/handler.py
+src/corex_metrics_opentelemetry.egg-info/PKG-INFO
+src/corex_metrics_opentelemetry.egg-info/SOURCES.txt
+src/corex_metrics_opentelemetry.egg-info/dependency_links.txt
+src/corex_metrics_opentelemetry.egg-info/top_level.txt
+tests/test_handler.py

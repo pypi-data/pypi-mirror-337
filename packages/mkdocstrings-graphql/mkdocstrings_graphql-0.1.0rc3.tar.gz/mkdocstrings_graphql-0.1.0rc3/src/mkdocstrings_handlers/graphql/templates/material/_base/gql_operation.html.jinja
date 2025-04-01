@@ -1,0 +1,93 @@
+{#- Template for GraphQL operations.
+
+This template renders a GraphQL mutation, query, or subscription.
+
+Context:
+    gql_operation (OperationTypeDefinition): The operation to render.
+    root (bool): Whether this is the root object, injected with `:::` in a
+        Markdown page.
+    heading_level (int): The HTML heading level to use.
+    config (dict): The configuration options.
+-#}
+
+{% block logs scoped %}
+    {#- Logging block. -#}
+    {{ log.debug("Rendering " + gql_operation.path) }}
+{% endblock logs %}
+
+<div class="doc doc-object doc-gql-operation">
+    {% with obj = gql_operation, html_id = gql_operation.path %}
+        {% if root %}
+            {% set show_full_path = config.show_root_full_path %}
+            {% set root_members = True %}
+        {% elif root_members %}
+            {% set show_full_path = config.show_root_members_full_path or config.show_node_full_path %}
+            {% set root_members = False %}
+        {% else %}
+            {% set show_full_path = config.show_node_full_path %}
+        {% endif %}
+
+        {% set gql_operation_name = gql_operation.path if show_full_path else gql_operation.name %}
+        {% set symbol_type = gql_operation.kind %}
+
+        {% if not root or config.show_root_heading %}
+            {% filter heading(
+                    heading_level,
+                    role="gql_operation",
+                    id=html_id,
+                    class="doc doc-heading",
+                    toc_label=gql_operation.name,
+                ) %}
+                {% block heading scoped %}
+                    {#- Heading block.
+
+                    Renders the heading for the operation.
+                    -#}
+                    <span class="doc doc-object-name doc-gql-operation-name">{{ config.heading if config.heading and root else gql_operation_name }}</span>
+                {% endblock heading %}
+            {% endfilter %}
+
+            {% block signature scoped %}
+                {#- Signature block.
+
+                Renders the signature for the operation.
+                -#}
+                {% filter format_signature(gql_operation) %}
+                    {{ gql_operation.name }}
+                {% endfilter %}
+            {% endblock signature %}
+
+        {% else %}
+
+            {% if config.show_root_toc_entry %}
+                {% filter heading(
+                        heading_level,
+                        role="gql_operation",
+                        id=html_id,
+                        toc_label=config.toc_label if config.toc_label and root else gql_operation.name,
+                        hidden=True,
+                    ) %}
+                {% endfilter %}
+            {% endif %}
+            {% set heading_level = heading_level - 1 %}
+        {% endif %}
+
+        <div class="doc doc-contents {% if root %}first{% endif %}">
+            {% block contents scoped %}
+                {#- Contents block.
+
+                Renders the contents of the operation. It contains other blocks
+                that the user can override. Overriding the contents block allows
+                to rearrange the order of the blocks.
+                -#}
+                {% block docstring scoped %}
+                    {#- Docstring block. -#}
+                    {% with docstring_sections = gql_operation.docstring %}
+                        {% include "docstring.html.jinja" %}
+                    {% endwith %}
+                {% endblock docstring %}
+            {% endblock contents %}
+        </div>
+
+    {% endwith %}
+</div>

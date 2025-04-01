@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: delta_library
+Version: 0.0.1
+Summary: A package for modelling options and option portfolios.
+Project-URL: Homepage, https://dolfbosch.nl/delta_library
+Author-email: Dolf Bosch <d.c.bosch@student.rug.nl>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+The delta_library is a python package used for modelling options and 
+option strategies. It contains classes for Call and Put options, as well as
+a class for a portfolio of options. 
+
+The Call and Put classes can be initialized using either days to expiration or
+a date of expiration. Moreover the Call and Put classes can be initialized using
+either the option price or the implied volatility. 
+
+The option and portfolio classes contain methods for calculating the
+delta, gamma, vega, theta, and rho of the option or portfolio. These can also
+be graphed and plotted using the included methods. 
+
+Calling help() will provide more information on the classes and methods.
+
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.

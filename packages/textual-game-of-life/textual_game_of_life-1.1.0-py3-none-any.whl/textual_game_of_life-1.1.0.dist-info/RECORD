@@ -1,0 +1,11 @@
+textual_game_of_life/__init__.py,sha256=owkDhbuSSSmvREBubpvW-9uDcCY4Lft8qigDgejFBac,104
+textual_game_of_life/__main__.py,sha256=9QR6HTEcTCa3j5Pvi3IfVB3ncXG0Wh1j1-SdMvtCXCs,1104
+textual_game_of_life/canvas.py,sha256=jtfsvu5F_jCgt5UGSKByFu3WoLq2Tj9HSbjzvLxSgNg,18633
+textual_game_of_life/modals.py,sha256=wjbdEeZH1_lX3MqYU8dRH1OPk8XdM8CwwpTnMav3Fy8,3755
+textual_game_of_life/tui.py,sha256=VeoEmUf7srBsQFlleQyWtqpOhO77IJVXNNHE-Qu9S5U,8605
+textual_game_of_life-1.1.0.dist-info/licenses/LICENSE,sha256=W4zsYvuynyThmOhFHQd5_gvOQSWxqxJHb6P3MbgUVmM,1055
+textual_game_of_life-1.1.0.dist-info/METADATA,sha256=1HejcugI3WdGGZbpqAa8fd29Zg4FiVH9LJflqQ_wbe4,2772
+textual_game_of_life-1.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+textual_game_of_life-1.1.0.dist-info/entry_points.txt,sha256=gBn9LZuWgKIkjLhwHnEBKa-aoySTGGJ38jyjAeAOSAk,76
+textual_game_of_life-1.1.0.dist-info/top_level.txt,sha256=kdBtUfYiWhD83vIXU1rLPNZO-jwASM1jelDaMEpG7zQ,21
+textual_game_of_life-1.1.0.dist-info/RECORD,,

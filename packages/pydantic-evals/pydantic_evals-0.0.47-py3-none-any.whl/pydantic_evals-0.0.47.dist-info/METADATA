@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: pydantic-evals
+Version: 0.0.47
+Summary: Framework for evaluating stochastic code execution, especially code making use of LLMs
+Author-email: David Montague <david@pydantic.dev>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: anyio>=0
+Requires-Dist: eval-type-backport>=0; python_version < '3.11'
+Requires-Dist: logfire-api>=1.2.0
+Requires-Dist: pydantic>=2.10
+Requires-Dist: rich>=13.9.4
+Provides-Extra: logfire
+Requires-Dist: logfire>=2.3; extra == 'logfire'
+Description-Content-Type: text/markdown
+
+# Pydantic Evals
+
+Pydantic core evals logic with minimal required dependencies.
+
+(Need to add more here..)

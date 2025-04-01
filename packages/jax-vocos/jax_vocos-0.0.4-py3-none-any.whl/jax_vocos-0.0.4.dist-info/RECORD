@@ -1,0 +1,9 @@
+jax_vocos/__init__.py,sha256=FBrDrnt0ybEdIR-PaIPILzwLVBX9Vev20jAaE9QipLQ,51
+jax_vocos/convert.py,sha256=t13GbErvmfYZxNPCJJ2jcamHbWBgEV3qcWPRJWT0aUE,2292
+jax_vocos/infer.py,sha256=KWzdg6kECp9YZgj3QfT7lP3fqoepdDnRk6fcTcwe1eI,3249
+jax_vocos/models.py,sha256=fS64Is1JRrN2tYKl-BXeZn2rhugZhHt6iAiR1-w4hmo,14853
+jax_vocos/util.py,sha256=Fwi0AQvvGsPv4rAoYpnleaQv96hY4CZMF-iXMJHRdX8,1526
+jax_vocos-0.0.4.dist-info/METADATA,sha256=LlIvme-XQ4XSkOt7j8JkP7RoZtqFnZw9Q6fVBeSdeK8,984
+jax_vocos-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+jax_vocos-0.0.4.dist-info/top_level.txt,sha256=4W_MsVse_uAEVrT7csn4vdJOmEVjKmyC2YMIXJJt_1c,10
+jax_vocos-0.0.4.dist-info/RECORD,,

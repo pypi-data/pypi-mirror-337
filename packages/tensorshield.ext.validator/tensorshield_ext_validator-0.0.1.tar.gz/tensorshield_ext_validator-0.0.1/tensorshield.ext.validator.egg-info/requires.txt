@@ -1,0 +1,9 @@
+tensorshield.ext.soma
+
+[develop]
+bittensor>=9.0.0
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

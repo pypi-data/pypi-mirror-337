@@ -1,0 +1,10 @@
+awslabs/__init__.py,sha256=Wex3ithyFiSRKcRb4rgt9kyWJfgxH_ABs7NO2jiJhbE,63
+awslabs/core_mcp_server/__init__.py,sha256=deRlp9MmsEWcsWvSPTrTyCi6Tb2hwBF0bYn9tXQ6Rbs,55
+awslabs/core_mcp_server/available_servers.py,sha256=XGtaDa59dgpcOAQhiQYmhcKfyyNNZ9P6Xu3gccnwinI,1577
+awslabs/core_mcp_server/server.py,sha256=jTYXUI66-kLl45xkgyx_-dtG4_p5z5LH-8AwkA7ZEGM,12365
+awslabs/core_mcp_server/static/PROMPT_UNDERSTANDING.md,sha256=1Xrf292lpbCX2AtQsJxs7MG5oPtqI6UOBUQ9G3vhgxY,7898
+awslabs/core_mcp_server/static/__init__.py,sha256=7yEIGddMtcT-8_da8-i_nMu5034N0BC7eL1eucxltVs,176
+awslabs_core_mcp_server-0.0.10652.dist-info/METADATA,sha256=fxAJg9UlYPVyxAuHfDGDKUpqkSTTuEugM12ChfO_tl8,4342
+awslabs_core_mcp_server-0.0.10652.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+awslabs_core_mcp_server-0.0.10652.dist-info/entry_points.txt,sha256=EaOK7mD6b0OukSY8C8va3QFoxr-0GBjIFUBhSMth2oY,80
+awslabs_core_mcp_server-0.0.10652.dist-info/RECORD,,

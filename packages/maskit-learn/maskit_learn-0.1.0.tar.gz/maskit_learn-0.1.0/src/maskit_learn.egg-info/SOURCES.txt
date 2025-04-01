@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/maskit/__init__.py
+src/maskit/dataset.py
+src/maskit/model.py
+src/maskit_learn.egg-info/PKG-INFO
+src/maskit_learn.egg-info/SOURCES.txt
+src/maskit_learn.egg-info/dependency_links.txt
+src/maskit_learn.egg-info/requires.txt
+src/maskit_learn.egg-info/top_level.txt
+test/test_example.py

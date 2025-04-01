@@ -1,0 +1,3 @@
+[console_scripts]
+toolbox-iop = toolbox_iop:main
+toolbox-iop-print = cli.print_cli:main

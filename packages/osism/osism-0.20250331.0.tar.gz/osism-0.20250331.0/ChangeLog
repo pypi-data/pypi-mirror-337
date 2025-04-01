@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20250331.0
+-------------
+
+* chore(deps): update ghcr.io/astral-sh/uv docker tag to v0.6.11 (#1257)

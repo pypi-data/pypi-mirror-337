@@ -1,0 +1,8 @@
+story_chilren_gemma3/__init__.py,sha256=xaqjDQprvGpXR3N3b_5sAtM3xGs_47XAgOwyYsL2foA,71
+story_chilren_gemma3/config/config.json,sha256=CKZX54JJySB7IcukI51gc8YHZOY6ko6Lz7YDF3eSg3k,65
+story_chilren_gemma3/textToHistory.py,sha256=m2DSnWZQV7WRijVwfsxWQ8ZDm1zm20iqEJuOO1YRenQ,35015
+story_chilren_gemma3/utils/__init__.py,sha256=lYwjhmRHX35J66QRKjM63xJUMfYVUiwBbGGG_8wb-58,77
+story_chilren_gemma3/utils/setup.py,sha256=ao1k7Fhb-jfx1nApmmAE9rHa25BqNBHh4ztS0W2l4Oc,3159
+story_chilren_gemma3-0.1.4.dist-info/METADATA,sha256=pIMfBVhq1UsFKggn2zsJSCwaG7Tng-ebGBdIbz1CWW0,1612
+story_chilren_gemma3-0.1.4.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+story_chilren_gemma3-0.1.4.dist-info/RECORD,,

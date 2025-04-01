@@ -1,0 +1,10 @@
+pydantic>2
+tensorshield.ext.wallet
+
+[develop]
+bittensor>=9.0.0
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

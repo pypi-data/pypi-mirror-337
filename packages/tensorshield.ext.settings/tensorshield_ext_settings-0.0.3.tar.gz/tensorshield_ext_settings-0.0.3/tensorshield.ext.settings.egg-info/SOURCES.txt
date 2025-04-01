@@ -1,0 +1,12 @@
+MANIFEST.in
+VERSION
+setup.py
+tensorshield.ext.settings.egg-info/PKG-INFO
+tensorshield.ext.settings.egg-info/SOURCES.txt
+tensorshield.ext.settings.egg-info/dependency_links.txt
+tensorshield.ext.settings.egg-info/requires.txt
+tensorshield.ext.settings.egg-info/top_level.txt
+tensorshield/ext/settings/__init__.py
+tensorshield/ext/settings/_const.py
+tensorshield/ext/settings/_environment.py
+tensorshield/ext/settings/package.json

@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: python_magi
+Version: 0.0.4
+Summary: Python-MAGI: A TensorFlow Probability-Powered Upgraded Implementation of MAnifold-Constrained Gaussian Process Inference (MAGI)
+Project-URL: Homepage, https://github.com/skbwu/Python-MAGI
+Project-URL: Documentation, https://github.com/skbwu/Python-MAGI/README.md
+Project-URL: Issues, https://github.com/skbwu/Python-MAGI/issues
+Author-email: Skyler Wu <skylerw@stanford.edu>, Samuel Kou <kou@stat.harvard.edu>, Shihao Yang <shihao.yang@isye.gatech.edu>
+Maintainer-email: Skyler Wu <skylerw@stanford.edu>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Keywords: dynamical systems,inverse problems,monte carlo
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: scikit-learn>=1.5.2
+Requires-Dist: scipy>=1.11.4
+Requires-Dist: tensorflow-probability>=0.25.0
+Requires-Dist: tensorflow>=2.18.0
+Requires-Dist: tf-keras>=2.18.0
+Requires-Dist: tqdm>=4.66.5
+Description-Content-Type: text/markdown
+
+# Python-MAGI
+A TensorFlow Probability-Powered Upgraded Implementation of [Manifold-Constrained Gaussian Process Inference (MAGI)](https://www.pnas.org/doi/10.1073/pnas.2020397118).
+
+This package is an upgraded version of the MAGI algorithm developed by [Yang et al. (2020)](https://www.pnas.org/doi/10.1073/pnas.2020397118) for solving the ordinary differential equation (ODE) dynamical system inverse problem. Compared to the [original MAGI implementation](https://www.jstatsoft.org/article/view/v109i04), this version is based in TensorFlow Probability and includes higher-performance routines for completely-missing components and GPU-accelerated MCMC sampling. The package is designed to be essentially hyperparameter-tuning-free, as it uses Hoffman & Gelman's [No U-Turn Sampler](https://sites.stat.columbia.edu/gelman/research/published/nuts.pdf) with Dual-Averaging Stepsize Adaptation, all natively-implemented in TensorFlow Probability.
+
+The main `MAGI` class was written to roughly mirror `scikit-learn` grammar for user-friendliness, with some minor modifications. Please see our [vignette](https://github.com/skbwu/Python-MAGI/blob/main/vignette.ipynb) for a quick start guide.
+
+**High-Level Description of Core Functions:** please see the complete source code at `magi.py` for full details.
+- `__init__`: constructor where the governing ODE equations `f_vec`, (potentially partially-observed) timesteps `ts_obs` and noisy observations `X_obs`, and computational settings (e.g., number of components in system, bandmatrix approximations) are specified to create a `MAGI` object.
+- `initial_fit`: fits the initial Matern kernel hyperparameters for the ODE inverse problem. Can take user-specified subsets of hyperparameters, too, and automatically accounts for missing observations and/or entirely-missing components in the provided noisy observed data.
+- `predict`: after receiving and/or fitting Matern kernel hyperparameters to the provided data, returns samples from the posterior distribution of the entire system along with diagnostics.
+
+Please contact [skylerw@stanford.edu](skylerw@stanford.edu) if you have any comments, suggestions, or concerns. 

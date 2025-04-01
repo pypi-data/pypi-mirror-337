@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyopsin/__init__.py
+pyopsin/opsin_cli.jar
+pyopsin/pyopsin.py
+pyopsin.egg-info/PKG-INFO
+pyopsin.egg-info/SOURCES.txt
+pyopsin.egg-info/dependency_links.txt
+pyopsin.egg-info/entry_points.txt
+pyopsin.egg-info/requires.txt
+pyopsin.egg-info/top_level.txt

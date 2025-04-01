@@ -1,0 +1,2 @@
+[console_scripts]
+pyaduct = pyaduct:main.main

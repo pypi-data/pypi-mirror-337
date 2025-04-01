@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: xcm-wiki-gen
+Version: 0.1.2
+Summary: Generates a set of GitHub Wiki class and relationship description template markdown files from an input xcm (executable class model) file.
+Author-email: Leon Starr <leon_starr@modelint.com>
+License: MIT License
+        
+        Copyright (c) 2025 Leon Starr
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/modelint/wikigen
+Project-URL: documentation, https://github.com/modelint/wikigen/wiki
+Keywords: action language,executable uml,mbse,xuml,xtuml,platform independent,sysml
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xcm-parser
+Requires-Dist: tomli; python_version < "3.11"
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: dev
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Dynamic: license-file
+
+## Class Model Description Wiki Template Generator
+
+Here we take an *.xcm file (Executable Class Model) as input and output a set of class and relationship description markdown files into a local Github wiki directory.
+
+This saves a lot of typing and cut and paste creating the wiki documentation of an Executable UML class model.
+
+Let's say you have a file named elevator.xcm in the current working directory
+
+Just do this:
+
+`% wikigen -m elevator.xcm -w ev_wiki`
+
+`-m` specifies the path to your xcm file
+
+`-w` specifies the target wiki directory, it will be created if it does not exist
+
+Any files in the target directory will be overwritten each time you run the command.
+
+There are some debug options, version etc.
+
+Type:
+
+`% wikigen -help`
+
+To get the most up to date list of options

@@ -1,0 +1,9 @@
+nooverlap-0.2.1.dist-info/METADATA,sha256=dPGZGvDES-jNketEJe1aHR2SfI2qpI2V_xk4Ph4frow,2505
+nooverlap-0.2.1.dist-info/WHEEL,sha256=PbM356kji9MoV-nPD9b1jjSOc4wXLGzC2QFEfrqCcgs,136
+nooverlap/tests/test_example.py,sha256=pNqN8t0HlLsm4qziKZWA1UBPMqCmHqRUV7alOzK_ZRw,1368
+nooverlap/tests/test_pusher.py,sha256=Nq6Yw6uKjZu_ECYkQQu20E2PMFQFX0oDsKCiH87nsrk,746
+nooverlap/matplotlib/push_text.py,sha256=R9lPkJs4QLI4OGkx51OYogpclEeCu1E5gCs1U0baJGU,1339
+nooverlap/matplotlib/__init__.py,sha256=bRcPRIJgNXMFbExliLBJGJP6Ynsb5If0H0vlNBlVFfs,67
+nooverlap/__init__.py,sha256=OXQb5VrsnZH8GX-DkD4YaLACUM3iaa2O0i0HOur0FsU,110
+nooverlap/nooverlap.pypy310-pp73-arm-linux-gnu.so,sha256=4gMvnvWLwOa4p5c7mWw7Z2RaFUNqDdb8h97rvqSaHe0,631832
+nooverlap-0.2.1.dist-info/RECORD,,

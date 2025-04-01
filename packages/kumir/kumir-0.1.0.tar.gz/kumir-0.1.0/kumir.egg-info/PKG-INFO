@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: kumir
+Version: 0.1.0
+Summary: test package for kumir
+Home-page: https://github.com/ваш_username/kumir
+Author: arli
+Author-email: volodya.artemev.1999@mail.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# KUMIR
+
+Модуль для работы с KUMIR.
+
+## Установка
+
+```bash
+pip install kumir
+```
+
+## Использование
+
+```python
+from kumir import some_function
+
+result = some_function()
+print(result)
+```
+
+## Лицензия
+
+Этот проект лицензирован под MIT License - см. файл LICENSE для деталей.
+```
+
+### __init__.py
+
+```python:kumir_package/kumir_package/__init__.py
+"""
+KUMIR - модуль для работы с KUMIR.
+"""
+
+__version__ = "0.1.0"
+
+# Импортируйте здесь функции, которые должны быть доступны при импорте пакета
+from .main import *
+```
+
+### main.py
+
+```python:kumir_package/kumir_package/main.py
+"""
+Основной модуль KUMIR.
+"""
+
+def some_function():
+    """
+    Пример функции.
+    
+    Returns:
+        str: Строка с приветствием.
+    """
+    return "Привет от KUMIR!"
+
+# Добавьте здесь основную функциональность вашего модуля
+```

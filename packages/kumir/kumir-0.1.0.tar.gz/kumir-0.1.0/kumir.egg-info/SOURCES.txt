@@ -1,0 +1,6 @@
+README.md
+setup.py
+kumir.egg-info/PKG-INFO
+kumir.egg-info/SOURCES.txt
+kumir.egg-info/dependency_links.txt
+kumir.egg-info/top_level.txt

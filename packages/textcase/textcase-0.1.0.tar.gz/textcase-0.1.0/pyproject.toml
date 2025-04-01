@@ -1,0 +1,7 @@
+[project]
+name = "textcase"
+version = "0.1.0"
+description = "Coming soon"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

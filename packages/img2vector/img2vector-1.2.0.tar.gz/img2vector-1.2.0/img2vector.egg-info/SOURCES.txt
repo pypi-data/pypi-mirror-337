@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+core/__init__.py
+core/converter.py
+core/preprocessing.py
+img2vector.egg-info/PKG-INFO
+img2vector.egg-info/SOURCES.txt
+img2vector.egg-info/dependency_links.txt
+img2vector.egg-info/entry_points.txt
+img2vector.egg-info/requires.txt
+img2vector.egg-info/top_level.txt
+models/__init__.py
+models/detector.py

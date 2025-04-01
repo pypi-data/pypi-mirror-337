@@ -1,0 +1,14 @@
+testit/__init__.py,sha256=UmFX-5ocq-i5p5gxIp1dkfAnlIacFrSAg_SuDJggfkY,678
+testit/main.py,sha256=nETHNLQ-IpSi6vVrRKHm9nNLc9w0MaHtLKhKLmeNsrs,2390
+testit/run.py,sha256=vUabPDlEljLI02r79hzKBlKcBvSIShbSn3m0biGAzck,13854
+testit/run_util.py,sha256=ZV0YgbTlD49LebEPShhYhYV2u5jq0y2FUG_GvrpcBq4,4873
+testit/testit.py,sha256=c7Kj9AGgPWx3xhqd4CUEQlTx1SJ7N0Kzsapp6BuTdh8,25390
+testit/testit_util.py,sha256=ot2v_8QxkQ943gkymf5TyQMjIpp3BA6iDICkMyQvyiI,9424
+testit/templates/config.test,sha256=gXt92bLr3RGdAm6ZKhaXIZpyTD2GxUwzzKjottD93uU,1040
+testit/templates/testit_golden.py,sha256=uyxWWu3_T6xXUztff_rxWrNIuCvdfLnjNmbs2d6VsJE,1506
+testitpy-0.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+testitpy-0.3.dist-info/METADATA,sha256=f6hETd-PDp1kg6Ejk9zsONlswjrH5vlLIhz13kZ6UAY,44428
+testitpy-0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+testitpy-0.3.dist-info/entry_points.txt,sha256=AZdiJiJYa5weQWtppxj2BhUTDKP1GYasgxfvkAfBlws,44
+testitpy-0.3.dist-info/top_level.txt,sha256=ygGjsGH2cbAzis7t46ULgEthA7TD3l-QXBc_3YSuJFo,7
+testitpy-0.3.dist-info/RECORD,,

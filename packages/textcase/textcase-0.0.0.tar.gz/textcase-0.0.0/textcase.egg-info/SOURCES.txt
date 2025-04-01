@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+textcase/__init__.py
+textcase/camel.py
+textcase.egg-info/PKG-INFO
+textcase.egg-info/SOURCES.txt
+textcase.egg-info/dependency_links.txt
+textcase.egg-info/top_level.txt

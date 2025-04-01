@@ -1,0 +1,11 @@
+MANIFEST.in
+VERSION
+setup.py
+tensorshield.ext.validator.egg-info/PKG-INFO
+tensorshield.ext.validator.egg-info/SOURCES.txt
+tensorshield.ext.validator.egg-info/dependency_links.txt
+tensorshield.ext.validator.egg-info/requires.txt
+tensorshield.ext.validator.egg-info/top_level.txt
+tensorshield/ext/validator/__init__.py
+tensorshield/ext/validator/_base.py
+tensorshield/ext/validator/package.json

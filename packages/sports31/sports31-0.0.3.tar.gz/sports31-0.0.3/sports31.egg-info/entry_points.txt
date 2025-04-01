@@ -1,0 +1,2 @@
+[console_scripts]
+crawl = sports31.crawl.cli:cli

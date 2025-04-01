@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+smsspammer/__init__.py
+smsspammer/result.py
+smsspammer/spammer.py
+smsspammer.egg-info/PKG-INFO
+smsspammer.egg-info/SOURCES.txt
+smsspammer.egg-info/dependency_links.txt
+smsspammer.egg-info/requires.txt
+smsspammer.egg-info/top_level.txt

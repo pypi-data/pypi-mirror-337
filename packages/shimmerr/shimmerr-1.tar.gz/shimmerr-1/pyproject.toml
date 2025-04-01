@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["example_scripts*", "files*", "shimmerr*"]
+
+[project]
+name = "shimmerr"
+version = "1"
+authors = [
+  { name="Stefanie Brackenhoff", email="brackenhoff@astro.rug.nl" },
+]
+description = "SHIMMERR (Station Heterogeneity Impact on Multi-dimensional beam-Modelling Errors simulatoR and calibratoR) is a python package created to simulate the effect of beam errors on hierarchical stations in radio-interferometers."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "astropy",
+    "lofarantpos",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pandas",
+    "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/Stefanie-B/shimmerr"
+Issues = "https://github.com/Stefanie-B/shimmerr/issues"

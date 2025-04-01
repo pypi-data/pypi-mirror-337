@@ -1,0 +1,7 @@
+astropy
+lofarantpos
+matplotlib
+numba
+numpy
+pandas
+tqdm

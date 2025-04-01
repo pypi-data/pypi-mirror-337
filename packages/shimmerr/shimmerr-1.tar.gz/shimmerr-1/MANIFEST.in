@@ -1,0 +1,9 @@
+# Include all files inside example_scripts and files
+recursive-include example_scripts *
+recursive-include files *
+recursive-include tests *  # Include all files in the tests folder
+
+
+# Include specific file types if needed (optional)
+include README.md
+include LICENSE

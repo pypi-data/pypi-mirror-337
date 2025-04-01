@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jsondb2
+Version: 0.0.3
+Summary: Use json file as database
+Home-page: https://github.com/sinofarmonovzfkrvjl/JsonDB
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# JsonDB
+
+JsonDB is database, uses json file to store datas

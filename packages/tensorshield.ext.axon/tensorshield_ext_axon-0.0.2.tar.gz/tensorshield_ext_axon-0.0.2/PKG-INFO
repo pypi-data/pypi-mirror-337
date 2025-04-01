@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tensorshield.ext.axon
+Version: 0.0.2
+Summary: HTTP transport for Bittensor neurons.
+Home-page: https://github.com/tensorshield/python-tensorshield
+Author: Immortal Izzy
+Author-email: immortal.izzy@tensorshield.ai
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pydantic>2
+Requires-Dist: fastapi
+Requires-Dist: libcanonical
+Requires-Dist: starlette
+Requires-Dist: tensorshield.ext.bases
+Requires-Dist: tensorshield.ext.protocol
+Requires-Dist: tensorshield.ext.subtensor
+Requires-Dist: tensorshield.ext.wallet
+Requires-Dist: uvicorn
+Provides-Extra: develop
+Requires-Dist: pytest; extra == "develop"
+Requires-Dist: pytest_asyncio; extra == "develop"
+Requires-Dist: coverage; extra == "develop"
+Requires-Dist: twine; extra == "develop"
+Requires-Dist: watchdog; extra == "develop"

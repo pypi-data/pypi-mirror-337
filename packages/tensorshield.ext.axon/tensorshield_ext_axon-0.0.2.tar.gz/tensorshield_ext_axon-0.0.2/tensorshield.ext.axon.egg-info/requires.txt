@@ -1,0 +1,16 @@
+pydantic>2
+fastapi
+libcanonical
+starlette
+tensorshield.ext.bases
+tensorshield.ext.protocol
+tensorshield.ext.subtensor
+tensorshield.ext.wallet
+uvicorn
+
+[develop]
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

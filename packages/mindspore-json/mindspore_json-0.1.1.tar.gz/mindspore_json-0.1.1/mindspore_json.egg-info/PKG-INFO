@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: mindspore-json
+Version: 0.1.1
+Summary: MindSpore JSON utilities and machine learning models
+Home-page: https://github.com/dq77/mindspore-json
+Author: dq77
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# MindSpore-JSON
+
+
+## install
+
+```bash
+pip install mindspore-json
+```
+
+
+## islist
+```python
+from mindspore_json import resNet50
+from mindspore_json import kmeans
+from mindspore_json import linear
+from mindspore_json import logistic
+from mindspore_json import tree
+
+```
+
+
+## Usage
+
+```
+python setup.py sdist bdist_wheel
+
+twine upload dist/*
+```

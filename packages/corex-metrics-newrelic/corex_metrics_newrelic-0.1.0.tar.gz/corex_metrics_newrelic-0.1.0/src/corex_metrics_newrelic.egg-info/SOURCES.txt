@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-metrics-newrelic/__init__.py
+src/corex-metrics-newrelic/handler.py
+src/corex_metrics_newrelic.egg-info/PKG-INFO
+src/corex_metrics_newrelic.egg-info/SOURCES.txt
+src/corex_metrics_newrelic.egg-info/dependency_links.txt
+src/corex_metrics_newrelic.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log2doc"  # Change this to log2doc
+version = "0.1.0"
+description = "A package to log Linux/Windows command history and generate documentation using Gemini AI."
+readme = "README.md"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = ["google-generativeai"]
+
+[project.scripts]
+extract-history = "log2doc.extract:main"  
+explain-commands = "log2doc.explain:main"  # Same here for the explain-commands entry point

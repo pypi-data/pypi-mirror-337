@@ -1,0 +1,15 @@
+.env
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+log2doc/__init__.py
+log2doc/auto_commit.py
+log2doc/explain.py
+log2doc/extract.py
+log2doc.egg-info/PKG-INFO
+log2doc.egg-info/SOURCES.txt
+log2doc.egg-info/dependency_links.txt
+log2doc.egg-info/entry_points.txt
+log2doc.egg-info/requires.txt
+log2doc.egg-info/top_level.txt

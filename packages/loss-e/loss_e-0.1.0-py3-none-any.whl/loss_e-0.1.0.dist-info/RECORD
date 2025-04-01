@@ -1,0 +1,9 @@
+loss_e/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loss_e/cli.py,sha256=d3nkdYxnewEaXQQ5zNoFbXtnLwZ_pDWz_jTVFSBzlWk,8441
+loss_e/compare.py,sha256=MiVgzubc1VGgs1J6zKAjcNUQm3SfbbKw2Qie-NIw74w,2614
+loss_e/dump.py,sha256=6fxB7V9OxUiT2RSu6ltxxQq17NsyxW6ehzO2e86xHjA,422
+loss_e-0.1.0.dist-info/METADATA,sha256=Zwruiuyq-Jxndpd1aefOSfirAyeF016KvCd2KF1imrw,170
+loss_e-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+loss_e-0.1.0.dist-info/entry_points.txt,sha256=xRJyhxMHpuTzxegoYuAsMurtDTKPm9a0PKtDchRyfrM,43
+loss_e-0.1.0.dist-info/top_level.txt,sha256=S762MM6lzYy42_-Y0hTX7Zm-4UEaH0W53ygGzeSMuDE,7
+loss_e-0.1.0.dist-info/RECORD,,

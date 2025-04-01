@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: dojocommons
+Version: 1.0.0
+Summary: Classes comuns para o projeto Dojo Management.
+Author: Rodrigo Gregori
+License: MIT
+License-File: LICENSE
+Requires-Dist: pydantic~=2.10.6
+Requires-Dist: duckdb~=1.2.1
+Requires-Dist: boto3~=1.37.18
+Requires-Dist: pydantic-settings~=2.8.1
+Dynamic: author
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

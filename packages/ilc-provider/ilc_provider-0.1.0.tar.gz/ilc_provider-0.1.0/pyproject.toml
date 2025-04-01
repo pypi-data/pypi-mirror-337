@@ -1,0 +1,56 @@
+[project]
+name = "ilc-provider"
+dynamic = ["version"]
+description = "Faker provider for ILC data models"
+readme = "README.md"
+authors = [
+    { name = "Neil Martin", email = "neil@fourtrees.tech" }
+]
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+    "faker>=37.0.2",
+    "ilc-models>=0.1.0",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Repository = "https://github.com/fourtreestech/ilc-provider"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/ilc_provider/__init__.py"
+
+[tool.mypy]
+packages = ["ilc_provider"]
+
+[tool.tox]
+requires = ["tox>=4.24"]
+env_list = ["3.13", "3.12"]
+
+[tool.tox.env_run_base]
+description = "Run tests under {base_python}"
+deps = ["pytest>=8", "pytest-cov>=6", "pytest-randomly>=3"]
+commands = [["pytest"]]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.0.0",
+    "pytest-randomly>=3.16.0",
+    "sphinx>=8.2.3",
+    "sphinx-rtd-theme>=3.0.2",
+    "tox>=4.25.0",
+]

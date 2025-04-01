@@ -1,0 +1,8 @@
+charms/contextual_status.py,sha256=xzXpB5BbweWqFWu2eqPCnajU0H-oWAQobBYEunnALsI,3813
+charms_contextual_status-0.0.1.dist-info/licenses/LICENSE,sha256=Kx5hPQcvqo-1ZxY5KjiAJqoAKjKdKIXmEMb0kHabUbc,11340
+tests/unit/test_contextual_status.py,sha256=qEFlK2DR4ZNuvfb93I-y7DsnjK3jrz7jd2uMzKN3JFI,4564
+charms_contextual_status-0.0.1.dist-info/METADATA,sha256=kxsjmm_hUnBDeclEX8dQ2k55N3USB4oS4z0874gxJAk,2665
+charms_contextual_status-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+charms_contextual_status-0.0.1.dist-info/top_level.txt,sha256=xZO7WOpmNTlbBmsMUeWOklvXkJVvidRLDxEgICRldEA,13
+charms_contextual_status-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+charms_contextual_status-0.0.1.dist-info/RECORD,,

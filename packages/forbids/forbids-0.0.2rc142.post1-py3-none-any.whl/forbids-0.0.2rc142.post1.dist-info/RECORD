@@ -1,0 +1,12 @@
+forbids/__init__.py,sha256=AtlFcFtJu3PDIaS0pGA02hIVpHgGhVNDhjnN3Zxufn8,299
+forbids/init.py,sha256=PSmgTAexhdwN5k4qwr8leG2OAYk3a68NN6eQAp4Gmw8,7784
+forbids/schema.py,sha256=jhJ54IebIEZ7vM5F---4NWXhjKvoddGu4iJI1GZb4-o,6783
+forbids/validation.py,sha256=guw8OLEABMyX8ffr2VvrEiRZXax6RES5q_2iL5FmLm0,5485
+forbids/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forbids/cli/run.py,sha256=PhJG1dBktQ0ZJu2PEVi7dm56o-7-S7mcclH4rXcmBak,2395
+forbids/config/mri_tags.json,sha256=VRJFaAueW06TSdgBtptRpntZNcNuaZqoWorXQN-23Xw,2512
+forbids-0.0.2rc142.post1.dist-info/entry_points.txt,sha256=4wz-D_qvq6FD5wDb9wwUEPxC43OdFOMwSW7liU-dmfE,48
+forbids-0.0.2rc142.post1.dist-info/licenses/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+forbids-0.0.2rc142.post1.dist-info/WHEEL,sha256=G2gURzTEtmeR8nrdXUJfNiB3VYVxigPQ-bEQujpNiNs,82
+forbids-0.0.2rc142.post1.dist-info/METADATA,sha256=_L9qRpSqvWuFX-kwQsT77RYbb71YhoRD00vH_Z4BeBk,2913
+forbids-0.0.2rc142.post1.dist-info/RECORD,,

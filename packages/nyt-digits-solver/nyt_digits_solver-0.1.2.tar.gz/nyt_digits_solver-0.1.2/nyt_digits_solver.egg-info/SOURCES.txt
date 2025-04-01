@@ -1,0 +1,10 @@
+README.md
+setup.py
+nyt_digits_solver/__init__.py
+nyt_digits_solver/main.py
+nyt_digits_solver/solver.py
+nyt_digits_solver/test_solver.py
+nyt_digits_solver.egg-info/PKG-INFO
+nyt_digits_solver.egg-info/SOURCES.txt
+nyt_digits_solver.egg-info/dependency_links.txt
+nyt_digits_solver.egg-info/top_level.txt

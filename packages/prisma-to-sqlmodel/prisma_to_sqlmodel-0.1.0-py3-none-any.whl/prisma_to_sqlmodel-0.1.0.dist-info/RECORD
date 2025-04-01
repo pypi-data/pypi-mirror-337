@@ -1,0 +1,9 @@
+prisma_to_sqlmodel/__init__.py,sha256=ZgxSAbY4GRAo0b8EF8q8Ql6BuIh10peMlatWpISSUZE,21558
+prisma_to_sqlmodel/__main__.py,sha256=fypnvcsbPeAJRqR21AgKkJZ5N0icb13OYWcn2qzKEtM,79
+prisma_to_sqlmodel/cli.py,sha256=YQDwx1Fda2_VTVW5WEoafdtIPvo1OyhZGC0DoPVQOks,1754
+prisma_to_sqlmodel/py.typed,sha256=boLOoAP2Gh2qz7G5PgvJqASXK-UsGk7dBExhuEnhSko,55
+prisma_to_sqlmodel-0.1.0.dist-info/METADATA,sha256=CE3Zr3NmVlodu86oMKh81bOu8DWPDGo_GJiXej-XdkU,3335
+prisma_to_sqlmodel-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+prisma_to_sqlmodel-0.1.0.dist-info/entry_points.txt,sha256=oUg1vJ4LWPOqRfsGtJq15LD-EEKk5i-akFXsOn983-4,67
+prisma_to_sqlmodel-0.1.0.dist-info/licenses/LICENSE,sha256=maac8hk1BfOD5sLsTh1EEHOerjCXPXM0lzCH6QdwcuY,1062
+prisma_to_sqlmodel-0.1.0.dist-info/RECORD,,

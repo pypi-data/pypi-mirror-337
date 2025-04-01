@@ -1,0 +1,2 @@
+[console_scripts]
+prisma-to-sqlmodel = prisma_to_sqlmodel.cli:main

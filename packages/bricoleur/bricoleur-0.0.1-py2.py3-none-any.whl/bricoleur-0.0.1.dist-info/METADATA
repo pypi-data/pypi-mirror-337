@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: bricoleur
+Version: 0.0.1
+Summary: Tools for 'bricoleurs' who engage is the art of 'bricolage.'
+Author-email: Gilles Pilon <gillespilon13@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Source, https://github.com/gillespilon/bricoleur
+Provides-Extra: doc
+Provides-Extra: test
+
+# In brevi
+
+**bricoleur** is a Python library for 'bricoleurs' who engage is the art of 'bricolage.'
+
+Why **bricoleur**?
+
+- Equivalent Python functions that are available online and in construction calculators.
+- Develop a free open source package.
+
+# Documentation
+
+Full documentation is available at [https://bricoleur.readthedocs.io/en/latest/](https://bricoleur.readthedocs.io/en/latest/).
+
+# References
+
+To cite this repository, please use:
+
+@software{bricoleur,
+  author  = {Gilles Pilon},
+  title   = {bricoleur},
+  url     = {https://github.com/gillespilon/bricoleur},
+  version = {0.0.1},
+  date    = {2025-03-26}
+}
+

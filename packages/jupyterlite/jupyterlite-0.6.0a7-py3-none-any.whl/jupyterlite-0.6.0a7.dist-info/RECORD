@@ -1,0 +1,8 @@
+jupyterlite/__init__.py,sha256=okgG7bL5V8sjyjq_147wg9beXg3Fw61I8ls0Nwo1s2o,55
+jupyterlite/__main__.py,sha256=OzwFgYeGf6qZWZp4k9SX-I-8c3xLHijauTV8eLEiP1A,81
+jupyterlite/constants.py,sha256=sFGCGu8FlI6WyXYgX-XnwDr9fkWHGr89FfBlmuWeUhQ,353
+jupyterlite/addons/base.py,sha256=4lS0NsKQTiXtpIxdE_nDIa8IFCrYbnZlzaQjILSLaAc,332
+jupyterlite-0.6.0a7.dist-info/METADATA,sha256=G_Mj1MC1bj5Wd5ylkuqh-Z_-d_o_DxA-FTNsTGQ6QpE,9738
+jupyterlite-0.6.0a7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jupyterlite-0.6.0a7.dist-info/licenses/LICENSE,sha256=UC6Zzk30zZ_gsU9qy3yVVTpd2WFZgvskbCMzMPMX7_Q,1524
+jupyterlite-0.6.0a7.dist-info/RECORD,,

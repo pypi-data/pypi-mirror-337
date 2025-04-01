@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+tiger_checker/V12.py
+tiger_checker/__init__.py
+tiger_checker.egg-info/PKG-INFO
+tiger_checker.egg-info/SOURCES.txt
+tiger_checker.egg-info/dependency_links.txt
+tiger_checker.egg-info/requires.txt
+tiger_checker.egg-info/top_level.txt

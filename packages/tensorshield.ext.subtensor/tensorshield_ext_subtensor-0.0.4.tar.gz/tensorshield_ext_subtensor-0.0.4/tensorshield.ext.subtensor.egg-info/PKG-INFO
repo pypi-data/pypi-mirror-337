@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tensorshield.ext.subtensor
+Version: 0.0.4
+Summary: An asynchronous subtensor implementation.
+Home-page: https://github.com/tensorshield/python-tensorshield
+Author: Immortal Izzy
+Author-email: immortal.izzy@tensorshield.ai
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pydantic>2
+Requires-Dist: asyncstdlib>=3.13.1
+Requires-Dist: libcanonical>=0.0.37
+Requires-Dist: libtensorshield>=0.0.4
+Requires-Dist: async_substrate_interface>=0.1.2
+Provides-Extra: develop
+Requires-Dist: bittensor>=9.0.0; extra == "develop"
+Requires-Dist: coverage; extra == "develop"
+Requires-Dist: pytest; extra == "develop"
+Requires-Dist: pytest_asyncio; extra == "develop"
+Requires-Dist: sqlalchemy>=2.0.0; extra == "develop"
+Requires-Dist: twine; extra == "develop"
+Requires-Dist: watchdog; extra == "develop"
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy>=2.0.0; extra == "sqlalchemy"
+Provides-Extra: sqlalchemy-sqlite
+Requires-Dist: aiosqlite>=0.21.0; extra == "sqlalchemy-sqlite"

@@ -1,0 +1,128 @@
+Metadata-Version: 2.2
+Name: face_sort
+Version: 0.1.4
+Summary: Un outil de tri d'images par reconnaissance faciale.
+Home-page: https://github.com/fkeunang/face_sort
+Author: Farida Keunang Tchatchou
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2025.1.31
+Requires-Dist: charset-normalizer==3.4.1
+Requires-Dist: click==8.1.8
+Requires-Dist: colorama==0.4.6
+Requires-Dist: dlib==19.24.6
+Requires-Dist: docutils==0.21.2
+Requires-Dist: face-recognition==1.3.0
+Requires-Dist: face_recognition_models==0.3.0
+Requires-Dist: id==1.5.0
+Requires-Dist: idna==3.10
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==6.0.1
+Requires-Dist: jaraco.functools==4.1.0
+Requires-Dist: keyring==25.6.0
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.6.0
+Requires-Dist: nh3==0.2.21
+Requires-Dist: numpy==2.2.3
+Requires-Dist: opencv-python==4.11.0.86
+Requires-Dist: packaging==24.2
+Requires-Dist: pillow==11.1.0
+Requires-Dist: Pygments==2.19.1
+Requires-Dist: pywin32-ctypes==0.2.3
+Requires-Dist: readme_renderer==44.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.9.4
+Requires-Dist: scipy==1.15.2
+Requires-Dist: setuptools==76.0.0
+Requires-Dist: twine==6.1.0
+Requires-Dist: urllib3==2.3.0
+Requires-Dist: wheel==0.45.1
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+Acronyme: FS_01
+
+Titre: **face_sort**
+
+Client(s) :Jerome Fink
+
+Etudiant: **Keunang Tchatchou Farida**
+
+# **I-face_sort**
+
+**Description :**
+
+**face_sort** un outil en ligne de commande ergonomique 
+permettant de trier des photos contenant des visages d'humains. Sur base d'un dossier 
+contenant des photos, l'application sortira un dossier contenant N sous dossier chacun 
+correspondant a un visage unique et contenant les photos sur lesquels ce visage apparait.
+
+
+l'application permet notament de choisir le modele d'IA a utiliser : entre la distance euclidienne notee **ED**
+et le cosinus note **COS** .
+
+il est egalement possible de choisir le seuil type de modele de tri permettant de rendre la recherche plus ou moins concise .
+les differentes valeurs du seuil sont :
+
+    - "strict" : permettant une classification beaucoup plus pointue et meticuleuse.
+    - "large" : permettant d'opter cette fois ci pour un tri plus souple .
+    -  none ,valeur par defaut : lorsque pas precise , une valeur par defaut est attribuee au seuil pour le tri.
+    
+
+## **II- Installation**
+
+### Prerequis
+- Python 3.8+
+- Dependances requises listees dans `requirements.txt`
+
+**Etapes d'installation**
+lancer la commande "pip install face_sort" dans le terminal.
+installer les Dependances
+
+bash
+pip install -r requirements.txt
+Â´Â´Â´Â´
+
+
+## **III- Utilisation**
+Apres installation , vous pouvez utiliser face_sort via le terminal avec la commande suivante :
+
+
+```bash
+python -m face_sort /chemin/vers/le/dossier_a_traiter --seuil strict --modele ED
+```
+
+### **Explication des parametres**
+- **`/chemin/vers/le/dossier_a_traiter`** : Chemin du dossier contenant les photos a trier.
+- **`--seuil`** : Niveau de filtrage des visages (options : `strict`, `large`, none par defaut).
+- **`--ia_model`** : Modele d'intelligence artificielle utilise pour la reconnaissance (`ED`, `COS`).
+
+
+Exemple:
+````bash
+python -m face_sort.main --seuil_type strict --ia_model ED -- "C:\Users\X1 Yoga\Desktop\moi\photos_to_test"
+Â´Â´Â´Â´
+
+
+
+## **VI- Technologies utilisees**
+- Python 3.8+
+- OpenCV
+- TensorFlow / PyTorch (selon le modele IA utilise)
+
+
+##**V- Licence**
+Ce projet est sous licence **MIT**. 

@@ -1,0 +1,11 @@
+mcp_cli/__init__.py,sha256=K0_qIaRaWWy6MHzliq89LW9mChGoYtlyFibcMWdDhcc,99
+mcp_cli/cli.py,sha256=eLjy6owuRV0SPgD0E7OTqY0ne359WpaXmyFbmD2W0jA,4148
+mcp_cli/config.py,sha256=HtEQfWE2a5EWU0hDwsrsj6DbJ6susR_TMrYT7lbRrZA,11513
+mcp_cli/sse_client.py,sha256=pmRHfudqjgtg8lMBqV7V1qzJBvp8QPZrQ7S9JMuPs70,6151
+mcp_cli/commands/ask.py,sha256=uKdefKr3oa0Ot8GRwVeCWrmgtMGo0sPVEn9YvSIiseg,13362
+mcp_cli/commands/servers.py,sha256=usM1JYsCiH5mf5Y1Dkpq1WLgact1XLavgX58la4X0tU,5688
+mcp_hive_proxy-0.9.9.dist-info/METADATA,sha256=r3YUInP8wQ28e7g3Q8s-agjpqoxsCUGL71HiRtv8N_M,7111
+mcp_hive_proxy-0.9.9.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp_hive_proxy-0.9.9.dist-info/entry_points.txt,sha256=sfVWuBaShoOinwfDkvhES8Wfxdzqoa1CYG-8CIUjPj4,52
+mcp_hive_proxy-0.9.9.dist-info/top_level.txt,sha256=KMJx0J334iDzMs06TaJjQ8mOtEa3QmolTGZFVtfyTVM,8
+mcp_hive_proxy-0.9.9.dist-info/RECORD,,

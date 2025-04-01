@@ -1,0 +1,7 @@
+llama_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/vector_stores/deeplake/__init__.py,sha256=w45k9B3Jlr2znlfw_9Er8oUnCeX1MbaF5eL0k9F2ouI,107
+llama_index/vector_stores/deeplake/base.py,sha256=f3dhcYC4A5_qf6HwLXha_XngNNOyhKIvNOmxnMZOoSE,24107
+llama_index_vector_stores_deeplake-0.3.3.dist-info/LICENSE,sha256=JPQLUZD9rKvCTdu192Nk0V5PAwklIg6jANii3UmTyMs,1065
+llama_index_vector_stores_deeplake-0.3.3.dist-info/METADATA,sha256=JmxRd7Q2iAvgXl6yARGkRU3RTOSMCDW4b_Xj0FHvSOg,730
+llama_index_vector_stores_deeplake-0.3.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_vector_stores_deeplake-0.3.3.dist-info/RECORD,,

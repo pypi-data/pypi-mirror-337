@@ -1,0 +1,5 @@
+torch==2.5.1
+transformers==4.47.1
+sentichain==0.2.0
+numpy==1.26.4
+openai==1.58.1

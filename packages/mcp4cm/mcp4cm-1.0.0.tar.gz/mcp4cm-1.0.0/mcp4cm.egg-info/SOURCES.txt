@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+mcp4cm.egg-info/PKG-INFO
+mcp4cm.egg-info/SOURCES.txt
+mcp4cm.egg-info/dependency_links.txt
+mcp4cm.egg-info/requires.txt
+mcp4cm.egg-info/top_level.txt
+uml/__init__.py
+uml/data_extraction.py
+uml/dataloading.py
+uml/duplicate_detection.py
+uml/filtering_patterns.py
+uml/language_detection.py
+uml/sanitize.py
+uml/utils.py

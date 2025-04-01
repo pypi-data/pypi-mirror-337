@@ -1,0 +1,12 @@
+from starlette.requests import Request
+from ray import serve
+import ray
+
+@serve.deployment(num_replicas=10, ray_actor_options={"num_cpus": 0.2, "num_gpus": 0})
+class ServeApp:
+    async def __call__(self, request: Request):
+        import rayspatial
+        requestJson = await request.json()
+        params = requestJson["params"]
+        header = requestJson["header"]
+        return rayspatial.serve.exe.ServeExecute.execute_serve(params, header)

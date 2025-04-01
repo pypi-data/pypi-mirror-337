@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: agent-flow-craft
+Version: 1.0.2
+Summary: Automatização do fluxo de criação de features via agentes e integração com o GitHub e OpenAI.
+Author-email: Malnati <ricardomalnati@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Dist: openai<2.0.0,>=1.0.0
+Requires-Dist: autogen<1.0.0,>=0.2.0
+Requires-Dist: pytest<8.0.0,>=7.0.0
+Requires-Dist: unittest2<2.0.0,>=1.1.0
+Requires-Dist: uv<1.0.0,>=0.1.0
+Requires-Dist: ghapi<2.0.0,>=1.0.0
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: loguru<1.0.0,>=0.7.0
+Requires-Dist: requests<3.0.0,>=2.28.0
+Requires-Dist: python-slugify<9.0.0,>=8.0.0
+Requires-Dist: pyyaml<7.0.0,>=6.0.0
+Requires-Dist: asyncio
+Provides-Extra: dev
+Requires-Dist: black<24.0.0,>=23.0.0; extra == "dev"
+Requires-Dist: flake8<7.0.0,>=6.0.0; extra == "dev"
+Requires-Dist: pyflakes<3.2.0,>=3.1.0; extra == "dev"
+Requires-Dist: isort<6.0.0,>=5.12.0; extra == "dev"
+Requires-Dist: pre-commit<4.0.0,>=3.0.0; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine<5.0.0,>=4.0.0; extra == "dev"
+Requires-Dist: pytest<8.0.0,>=7.0.0; extra == "dev"
+Requires-Dist: pytest-mock<4.0.0,>=3.0.0; extra == "dev"
+Dynamic: license-file

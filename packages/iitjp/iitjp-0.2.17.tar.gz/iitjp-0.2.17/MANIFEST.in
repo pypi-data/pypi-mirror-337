@@ -1,0 +1,31 @@
+include LICENSE
+include README.md
+include requirements.txt
+include pyproject.toml
+
+# Include audio and data files
+include data/*.wav
+include data/*.json
+include data/*.mp3
+
+# Include module source files
+recursive-include iitjp *.py
+
+# Include an empty temp directory
+graft temp
+prune temp/*
+
+# Exclude Python build artifacts
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .git
+global-exclude .gitignore
+
+# Include example files
+include example.py
+include simple_demo.py
+include enhanced_demo.py
+
+# Create directories if needed
+prune temp 

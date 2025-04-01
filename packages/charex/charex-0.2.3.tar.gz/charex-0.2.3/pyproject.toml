@@ -1,0 +1,106 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.rstcheck]
+report_level = "WARNING"
+ignore_directives = ["autoclass", "autofunction"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.2.3"
+furo = "^2024.8.6"
+pycodestyle = "^2.12.1"
+mypy = "^1.15.0"
+rstcheck = "^6.2.4"
+wheel = "^0.45.1"
+build = "^1.2.2.post1"
+twine = "^6.1.0"
+pytest = "^8.3.5"
+coverage = "^7.7.1"
+pytest-mock = "^3.14.0"
+requests = "^2.32.3"
+types-requests = "^2.32.0.20250306"
+tox = "^4.25.0"
+isort = "^6.0.1"
+
+
+[tool.setuptools.package-data]
+charex = [
+    "data/help_xt.txt",
+    "data/path_map.json",
+    "data/prop_map.json",
+    'data/quote.html',
+    'data/result.html',
+    'data/entities.json',
+    'data/v14_0/sources.json',
+    'data/v14_0/idna2008.txt',
+    'data/v14_0/Denormal.zip',
+    'data/v14_0/UCD.zip',
+    'data/v14_0/Unihan.zip',
+    'data/v15_0/sources.json',
+    'data/v15_0/idna2008.txt',
+    'data/v15_0/Denormal.zip',
+    'data/v15_0/UCD.zip',
+    'data/v15_0/Unihan.zip',
+    'data/v15_1/sources.json',
+    'data/v15_1/idna2008.txt',
+    'data/v15_1/Denormal.zip',
+    'data/v15_1/UCD.zip',
+    'data/v15_1/Unihan.zip',
+]
+
+
+[tool.tox]
+legacy_tox_ini = """[tox]
+envlist = py311, py312, py313
+
+
+[testenv]
+allowlist_externals = isort, poetry
+commands_pre =
+    poetry sync --no-root
+commands =
+    poetry run pytest tests/ --import-mode importlib
+    isort ./src/charex --check-only --diff --skip .tox --lai 2 -m 3
+    isort ./tests --check-only --diff --skip .tox --lai 2 -m 3
+deps = -rrequirements.txt
+    pytest
+    pytest-mock
+"""
+
+[project]
+name = "charex"
+version = "0.2.3"
+authors = [
+    {name="Paul J. Iutzi", email="pji@mac.com"},
+]
+description = "A unicode and character set explorer."
+readme = "README.rst"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'flask',
+    'blessed',
+]
+
+[project.urls]
+"Homepage" = "https://charex.readthedocs.io/en/latest/index.html#"
+"Documentation" = "https://charex.readthedocs.io/en/latest/index.html#"
+"Source" = "https://github.com/pji/charex"
+
+[project.scripts]
+charex = "charex.__main__:main"

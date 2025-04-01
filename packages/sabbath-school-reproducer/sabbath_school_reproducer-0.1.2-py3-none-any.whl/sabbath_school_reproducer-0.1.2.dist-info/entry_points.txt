@@ -1,0 +1,2 @@
+[console_scripts]
+sabbath-school-reproducer = sabbath_school_reproducer.main:main

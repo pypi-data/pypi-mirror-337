@@ -1,0 +1,3 @@
+[console_scripts]
+codemie-mcp-assistant=src.assistants_mcp:main
+

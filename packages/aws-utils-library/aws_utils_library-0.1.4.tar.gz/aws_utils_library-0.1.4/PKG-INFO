@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: aws_utils_library
+Version: 0.1.4
+Summary: AWS Utilities Library
+Author: Ankur
+Author-email: x23426659@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3>=1.28.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AWS Utils Library
+
+Python library for AWS operations
+
+## Installation
+```bash
+pip install aws_utils_library

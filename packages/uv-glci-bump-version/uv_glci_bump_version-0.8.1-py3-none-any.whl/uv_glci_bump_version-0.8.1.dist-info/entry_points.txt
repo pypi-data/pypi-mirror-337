@@ -1,0 +1,2 @@
+[console_scripts]
+uv-glci-bump-version = uv_glci_bump_version.__main__:main

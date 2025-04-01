@@ -1,0 +1,13 @@
+fair_perf_ml-0.1.0.dist-info/METADATA,sha256=4B03Y-dQojZlalph-cyx1mRlvTtBMlLy8IXyUWYuVsQ,16287
+fair_perf_ml-0.1.0.dist-info/WHEEL,sha256=vZCrFUqux3RT3x-5MYcfGpyb4lW1eii-LV1Nx1Zs4nE,129
+fair_perf_ml-0.1.0.dist-info/licenses/LICENSE,sha256=I_GOA9xJ35FiL-KnYXZJdATkbO2KcV2dK2enRGVxzKM,1023
+fair_perf_ml/data_bias.py,sha256=oQPWzVqBKPKj2_fT8VTlD7OSpmqIaxnoZ-PGmPCoQVA,3599
+fair_perf_ml/models.py,sha256=fMp2IUUGRuyEmhDDYgMLyGIMKc1e8sde_0MTT7YTpAY,2282
+fair_perf_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fair_perf_ml/.github/workflows/CI.yml,sha256=QZEX0ycTG9f9vrKWinhgsRMEbg45-H3MfAvQiAE4FK8,4865
+fair_perf_ml/.gitignore,sha256=2BQfYNrR1s-n2E3OEhr4jQCUaQDInNMShxNNuqVIIJw,686
+fair_perf_ml/model_perf.py,sha256=AqgtVo1ExZ3zaKrpgxNjufYqsFKf6E_K_CQtBF3sd5s,3766
+fair_perf_ml/_internal.py,sha256=G8xp15tQlWtbPzkT1r2Vbsee4mODjaP-3tkuYdQNghQ,854
+fair_perf_ml/model_bias.py,sha256=weLY80KXUGD7r32iD1e4X9MIGRImX0RZLRlzjSeMVhU,3865
+fair_perf_ml/_fair_perf_ml.cpython-310-x86_64-linux-gnu.so,sha256=XMZsJjQ3FOpYlM8mxtd8_pAr51ZIYAjewGoVz7a0fOY,784520
+fair_perf_ml-0.1.0.dist-info/RECORD,,

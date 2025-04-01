@@ -1,0 +1,12 @@
+libcanonical>=0.0.38
+pydantic>2
+substrate-interface
+scalecodec>=1.2.11
+
+[develop]
+bittensor>=9.0.0
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

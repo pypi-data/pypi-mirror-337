@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iitjp"
+version = "0.2.18"
+authors = [
+    {name = "Utkarsh Yadav", email = "utkarsh.brainstorm@gmail.com"},
+]
+description = "A virtual teaching assistant with voice capabilities for Statistics education."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Education",
+    "Topic :: Software Development :: Libraries",
+]
+
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "pyaudio>=0.2.11",
+    "setuptools>=44.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/utkarsh-brainstorm/IITJP"
+"Bug Tracker" = "https://github.com/utkarsh-brainstorm/IITJP/issues"
+
+[project.scripts]
+iitjp = "iitjp.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["iitjp*"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"iitjp" = ["*.py", "data/*.wav", "data/*.json"] 

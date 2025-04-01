@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyMutSpec"
+dynamic = ["version"]
+description = "Mutational spectra analysis package"
+authors = [
+  { name="kpotoh", email="axepon@mail.ru" },
+]
+license = {file = "LICENSE"}
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["Bioinformatics", "Genetics", "Mutational spectra"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy<2.0",
+    "pandas<2.0",
+    "seaborn==0.12.2",
+    "biopython>=1.75",
+    "ete3>=3",
+    "tqdm",
+    "PyYAML",
+    "pytest",
+    "click",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "flake8"]
+
+[project.urls]
+Homepage = "https://github.com/mitoclub/PyMutSpec"
+Changelog = "https://github.com/mitoclub/PyMutSpec/blob/master/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/mitoclub/PyMutSpec/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+script-files = ["scripts/multifasta_coding.py", "scripts/alignment2iqtree_states.py", 
+                "scripts/select_records.py", "scripts/iqtree_states_add_part.py", 
+                "scripts/collect_mutations.py", "scripts/calculate_mutspec.py"]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "pymutspec.__version__"}  # any module attribute compatible with ast.literal_eval
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = "tests"

@@ -1,0 +1,15 @@
+nurbspy/__init__.py,sha256=Nug19smOG0-S6ivvS0MiNIDOKox8NokK06KXM_qKHp0,1461
+nurbspy/minimal_example.py,sha256=vabsNwesFiu109a0qyo_rhQ3yzfHVfeyz-CoQs3WPMM,497
+nurbspy/nurbs_basis_functions.py,sha256=YOD4HAb2WHmWQsKOtTO8061UmdKfziPAc50ZyMju7qA,7759
+nurbspy/nurbs_curve.py,sha256=rHr3_OKogZDI-YSMhAR4Or7VMkOOFQLwPzXZ-Qyzgas,51559
+nurbspy/nurbs_curve_circular_arc.py,sha256=tXHybNwNrKvZc60g4Dre4bwXLk0RIyc5-XnDAzFSsdk,8356
+nurbspy/nurbs_surface.py,sha256=2YA5VucCerEwy4YspmF_M9FPPbUYlc_DQ9FJXhGFhqQ,65252
+nurbspy/nurbs_surface_bilinear.py,sha256=pTPbAiXOB_GqMTTf0Q65SnjL2a7gKcVYe3B_fvDDJ7E,2453
+nurbspy/nurbs_surface_coons.py,sha256=vWEpGPWbPCAYPd_Um-00D9qwmY3aJMEMl_Rcw7hCJ0o,7904
+nurbspy/nurbs_surface_extruded.py,sha256=upC7OA64a3aNlCLgvymsV1oOcHbWByMDiGQ71CZvx6E,3111
+nurbspy/nurbs_surface_revolution.py,sha256=aMYwrJ598MLbkLArlyjvWMVqx2EDWNM3U0WpGDLqFKM,8253
+nurbspy/nurbs_surface_ruled.py,sha256=MDSONtlrOkDZh3vNTWql0qV3pp32cqABfrsu_afIsFc,3362
+nurbspy-1.1.5.dist-info/LICENSE.md,sha256=aNJ6fRJCZomumnBOiji1yFCLu_hwB68hHTmgkdGuaU0,1074
+nurbspy-1.1.5.dist-info/METADATA,sha256=1y8eSQVA49M0_8p6B5cAnixv-bk8xZeV4muetqpijbk,9062
+nurbspy-1.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nurbspy-1.1.5.dist-info/RECORD,,

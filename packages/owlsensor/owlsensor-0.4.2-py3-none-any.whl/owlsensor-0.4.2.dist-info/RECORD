@@ -1,0 +1,9 @@
+owlsensor/__init__.py,sha256=5_HqyvxY5jzIbw2r0XeQ_4-I3uBoZEwFnC2pnllZ_r8,570
+owlsensor/const.py,sha256=OAzA277zbRac4UF_cFjun8OfnVtg-95fSo9mZPH716U,338
+owlsensor/device.py,sha256=RixktaalHQJzmIRyNrGSfUnnWjqeKpSrrDs0AqDzTsM,355
+owlsensor/serial_cm.py,sha256=9MFR54v56SPrk6zZk-pmkfYuMqct6bYEhiGccMiMO94,7884
+owlsensor-0.4.2.dist-info/licenses/LICENSE,sha256=zO0Kn9_4x_mTcq8F_qHpFcT5FfHjtZusfzQmyzcJv-c,1070
+owlsensor-0.4.2.dist-info/METADATA,sha256=Rd_Bil9m69RTaIzxTGFZdTd5RQUdK6TS2rm-0nOvN9s,1003
+owlsensor-0.4.2.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+owlsensor-0.4.2.dist-info/top_level.txt,sha256=bBZKOvuoXB-czUcp0cSeR8EmD2hVzDEqmucOBabtmXs,10
+owlsensor-0.4.2.dist-info/RECORD,,

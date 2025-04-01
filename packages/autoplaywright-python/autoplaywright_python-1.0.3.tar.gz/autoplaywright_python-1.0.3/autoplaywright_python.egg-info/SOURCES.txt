@@ -1,0 +1,16 @@
+README.md
+setup.py
+autoplaywright/__init__.py
+autoplaywright/prompt.py
+autoplaywright/types.py
+autoplaywright/async_api/__init__.py
+autoplaywright/async_api/deepseek_client.py
+autoplaywright/async_api/openai_client.py
+autoplaywright/sync_api/__init__.py
+autoplaywright/sync_api/deepseek_client.py
+autoplaywright/sync_api/openai_client.py
+autoplaywright_python.egg-info/PKG-INFO
+autoplaywright_python.egg-info/SOURCES.txt
+autoplaywright_python.egg-info/dependency_links.txt
+autoplaywright_python.egg-info/requires.txt
+autoplaywright_python.egg-info/top_level.txt

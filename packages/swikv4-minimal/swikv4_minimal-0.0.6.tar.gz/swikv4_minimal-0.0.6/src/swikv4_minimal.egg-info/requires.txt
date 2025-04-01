@@ -1,0 +1,4 @@
+pyqt5
+pymupdf>=1.18.17
+psutil
+fonttools

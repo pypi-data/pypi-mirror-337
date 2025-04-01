@@ -1,0 +1,13 @@
+autoplaywright/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoplaywright/prompt.py,sha256=HzHklvAUvpKaXYig41XtN9qHVGmd8eZ9t2231-KeDcs,5058
+autoplaywright/types.py,sha256=jF6oWNTeC5lBKrWXzf2bbyocWa7ZiPk5WKmFV8tWcEg,121
+autoplaywright/async_api/__init__.py,sha256=WAb9wb0Zr4pwapjjhIbL-thgDAtmOvnCLBw04is40jg,62
+autoplaywright/async_api/deepseek_client.py,sha256=c5lwC2j3WpgPL9lCCqDJr5p1rd2izk74SzJukO8gTp0,5914
+autoplaywright/async_api/openai_client.py,sha256=0ordutBBmTL5MaqisoXUdbllF_TF1N2Mk68ZJ3wNAI0,5840
+autoplaywright/sync_api/__init__.py,sha256=WAb9wb0Zr4pwapjjhIbL-thgDAtmOvnCLBw04is40jg,62
+autoplaywright/sync_api/deepseek_client.py,sha256=g_jWYl7TnXrxjnSQZgM6ps6haN3UA4Q7b3RrOP_JlfM,5864
+autoplaywright/sync_api/openai_client.py,sha256=KJ4rowVz9uJ0KIpNk5SLASJKfN2DIR6GvxiMiwjG8iM,5795
+autoplaywright_python-1.0.3.dist-info/METADATA,sha256=OjcUulS-yGQASapMI7lc8dI9WSwtFDVcRua3lRMWymY,7808
+autoplaywright_python-1.0.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+autoplaywright_python-1.0.3.dist-info/top_level.txt,sha256=pDLPorChdupoJM68WrqyIBlRkTP51OVQ1pBd-3ADWms,15
+autoplaywright_python-1.0.3.dist-info/RECORD,,

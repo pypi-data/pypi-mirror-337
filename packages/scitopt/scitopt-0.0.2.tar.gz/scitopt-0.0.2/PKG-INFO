@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: scitopt
+Version: 0.0.2
+Summary: 
+License: Apache-2.0
+Author: Kevin-Tofu
+Author-email: koheitech001@gmail.com
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: gmsh (>=4.13.1,<5.0.0)
+Requires-Dist: matplotlib (>=3.10.1,<4.0.0)
+Requires-Dist: meshio (>=5.3.5,<6.0.0)
+Requires-Dist: numpy (>=2.2.4,<3.0.0)
+Requires-Dist: scikit-fem (>=10.0.2,<11.0.0)
+Requires-Dist: scipy (>=1.15.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Scikit-Topt
+## SCikit Topology Optimization
+
+###
+```bash
+pip install scitop
+```
+
+
+## Acknowledgements
+ My software and research does not exist in a vacuum.
+Scikit-Topt is standing on the shoulders of proverbial giants. In particular, I want to thank the following projects for constituting the technical backbone of the project:
+ - Scipy
+ - Scikit-fem
+ - Numba
+ - MeshIO
+ - Gmsh
+ - Topology Optimization Community
+
+

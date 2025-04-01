@@ -1,0 +1,5 @@
+[console_scripts]
+gaussf-abundance = gaussf_pipeline.gaussf_tpm:main
+gaussf-index-gen = gaussf_pipeline.kmer_freq_dist:main
+gaussf-kmer-count = gaussf_pipeline.kmer_counter:main
+gaussf-merge = gaussf_pipeline.merge_normalize:main

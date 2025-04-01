@@ -1,0 +1,49 @@
+# pyproject.toml
+
+[build-system]
+# Force build to use an older setuptools version
+requires = ["setuptools==69.5.1", "wheel"] # <-- Ensure this pin is present
+build-backend = "setuptools.build_meta"
+
+[project]
+# --- Basic Metadata ---
+name = "gaussf-pipeline"
+version = "0.1.0"
+authors = [ { name="Qiang Su", email="qiang_su@hotmail.com" } ] # Use actual email
+description = "Pipeline for transcript abundance estimation using Gaussian smoothing of k-mer frequencies."
+readme = "README.md"
+# --- DEPRECATED LICENSE SPECIFICATION (using text key) ---
+license = { text = "MIT License" } # <-- Ensure using text key
+# --- END DEPRECATED SPEC ---
+requires-python = ">=3.8"
+# --- Classifiers ---
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    # Ensure NO License classifier here
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Natural Language :: English",
+]
+# --- Dependencies ---
+dependencies = [ "pandas>=1.0", "scipy>=1.0", "tqdm>=4.0", "numpy>=1.18" ]
+# --- Project URLs ---
+[project.urls]
+Homepage = "https://github.com/QiangSu/gaussf_pipeline"
+Repository = "https://github.com/QiangSu/gaussf_pipeline"
+"Bug Tracker" = "https://github.com/QiangSu/gaussf_pipeline/issues"
+# --- Entry Points ---
+[project.scripts]
+gaussf-index-gen = "gaussf_pipeline.kmer_freq_dist:main"
+gaussf-kmer-count = "gaussf_pipeline.kmer_counter:main"
+gaussf-merge = "gaussf_pipeline.merge_normalize:main"
+gaussf-abundance = "gaussf_pipeline.gaussf_tpm:main"
+# --- Setuptools specific configuration ---
+[tool.setuptools.packages.find]
+where = ["src"]

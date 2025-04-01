@@ -1,0 +1,3 @@
+[console_scripts]
+hydra-ssh=hydra_ssh.hydra:run_cli
+

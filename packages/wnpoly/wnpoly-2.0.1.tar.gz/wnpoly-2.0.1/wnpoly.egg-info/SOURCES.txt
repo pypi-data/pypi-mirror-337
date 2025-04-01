@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+wnpoly/__about__.py
+wnpoly/__init__.py
+wnpoly/bell.py
+wnpoly/symm.py
+wnpoly.egg-info/PKG-INFO
+wnpoly.egg-info/SOURCES.txt
+wnpoly.egg-info/dependency_links.txt
+wnpoly.egg-info/requires.txt
+wnpoly.egg-info/top_level.txt

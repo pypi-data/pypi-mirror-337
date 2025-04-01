@@ -1,0 +1,72 @@
+Metadata-Version: 2.3
+Name: dsbase
+Version: 0.4.4
+Summary: Delightful Python utility library with power and personality
+License: LGPL-3.0-or-later
+Author: Danny Stewart
+Author-email: danny@stewart.cc
+Requires-Python: >=3.12,<3.14
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: halo (>=0.0.31)
+Requires-Dist: mysql-connector-python (>=9.2.0,<10.0.0)
+Requires-Dist: natsort (>=8.4.0,<9.0.0)
+Requires-Dist: packaging (>=24.2,<25.0)
+Requires-Dist: platformdirs (>=4.3.7,<5.0.0)
+Requires-Dist: pygments (>=2.19.1,<3.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.1.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: send2trash (>=1.8.3,<2.0.0)
+Requires-Dist: termcolor (>=2.5.0)
+Requires-Dist: tomlkit (>=0.13.2,<0.14.0)
+Requires-Dist: types-requests (>=2.32.0.20250328,<3.0.0.0)
+Requires-Dist: types-send2trash (>=1.8.2.7,<2.0.0.0)
+Requires-Dist: tzdata (>=2025.2)
+Requires-Dist: tzlocal (>=5.3.1,<6.0.0)
+Requires-Dist: watchdog (>=6.0.0,<7.0.0)
+Project-URL: Repository, https://github.com/dannystewart/dsbase
+Description-Content-Type: text/markdown
+
+# DSBase
+
+This is a delightful Python utility library that brings power and personality to your toolkit.
+
+It contains various helpers refined through years of practical development, including an elegant logger, an environment variable manager, a path helper, database interfaces, file and media processing, and various other helpers that make common tasks a little easier or more joyful. Developed for personal use, but always to high standards of quality and flexibility.
+
+**Note:** This library is constantly evolving, so for stability you may want to pin specific versions for now. I try to be careful about breaking changes but development is still very active.
+
+## Features
+
+Some of the features include:
+
+- `LocalLogger` for elegant and sophisticated logging that you'll love
+- `EnvManager` for clear setup and access to environment variables
+- `PathKeeper` for convenient cross-platform access to common paths
+- Thread-safe `Singleton` metaclass for use in any project
+- Drop-in `argparse` replacement with easier formatting
+- Simple helper for comparing files and showing diffs
+- Database helper interfaces for MySQL and SQLite
+- Helpers for highly customizable copying, deleting, and listing of files
+- Media helpers for audio and video transcoding using `ffmpeg`
+- Notification helpers for email and Telegram
+- Simple progress indicators and helpers for common shell tasks
+- Loading animations that are both simple and charming
+- Comprehensive collection of text manipulation tools
+- Various time parsers and utilities, including a time-aware logger
+
+## Installation
+
+To install the library, simply run:
+
+```bash
+pip install dsbase
+```
+
+## Personal Scripts
+
+If you want to peruse my expansive collection of personal scripts, please head over to the [**dsbin**](https://github.com/dannystewart/dsbin/) library.
+

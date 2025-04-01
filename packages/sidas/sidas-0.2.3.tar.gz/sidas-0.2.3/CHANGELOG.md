@@ -1,0 +1,23 @@
+## 0.2.3 (2025-04-01)
+
+### Fix
+
+- resolve error in coordinator run
+
+## 0.2.2 (2025-04-01)
+
+### Fix
+
+- improving coordinator
+
+## 0.2.1 (2025-03-31)
+
+### Fix
+
+- improve structire using protocolls
+
+## 0.2.0 (2025-03-31)
+
+### Feat
+
+- moved the coordination / materialization scripts into the coordinator, added coordinator metadata

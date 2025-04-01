@@ -1,0 +1,7 @@
+README.md
+setup.py
+vspexhost.egg-info/PKG-INFO
+vspexhost.egg-info/SOURCES.txt
+vspexhost.egg-info/dependency_links.txt
+vspexhost.egg-info/entry_points.txt
+vspexhost.egg-info/top_level.txt

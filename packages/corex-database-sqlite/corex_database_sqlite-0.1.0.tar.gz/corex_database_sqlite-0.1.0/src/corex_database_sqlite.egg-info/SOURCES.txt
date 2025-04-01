@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-database-sqlite/__init__.py
+src/corex-database-sqlite/handler.py
+src/corex_database_sqlite.egg-info/PKG-INFO
+src/corex_database_sqlite.egg-info/SOURCES.txt
+src/corex_database_sqlite.egg-info/dependency_links.txt
+src/corex_database_sqlite.egg-info/top_level.txt
+tests/test_handler.py

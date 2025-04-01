@@ -1,0 +1,2 @@
+[console_scripts]
+MODIS_import = MODIS_import.__main__:main

@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "sensor": {
+            "printer": {
+                "state": {
+                    "printing": "Printing"
+                }
+            },
+            "uptime": {
+                "name": "Uptime"
+            }
+        }
+    }
+}

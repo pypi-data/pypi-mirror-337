@@ -1,0 +1,27 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data_description": {
+                    "host": "The hostname or IP address of your Rainforest gateway."
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "meter_price": {
+                "name": "Meter price"
+            },
+            "power_demand": {
+                "name": "Power demand"
+            },
+            "total_energy_delivered": {
+                "name": "Total energy delivered"
+            },
+            "total_energy_received": {
+                "name": "Total energy received"
+            }
+        }
+    }
+}

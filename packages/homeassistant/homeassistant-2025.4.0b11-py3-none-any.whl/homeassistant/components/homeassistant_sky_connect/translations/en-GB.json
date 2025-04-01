@@ -1,0 +1,41 @@
+{
+    "config": {
+        "flow_title": "{model}"
+    },
+    "options": {
+        "abort": {
+            "addon_already_running": "Failed to start the {addon_name} add-on because it is already running."
+        },
+        "step": {
+            "addon_menu": {
+                "menu_options": {
+                    "reconfigure_addon": "Reconfigure IEEE 802.15.4 radio multiprotocol support",
+                    "uninstall_addon": "Remove IEEE 802.15.4 radio multiprotocol support"
+                }
+            },
+            "change_channel": {
+                "data": {
+                    "channel": "Channel"
+                },
+                "title": "Reconfigure IEEE 802.15.4 radio multiprotocol support"
+            },
+            "configure_flasher_addon": {
+                "title": "The Silicon Labs Flasher add-on installation has started"
+            },
+            "notify_channel_change": {
+                "description": "A Zigbee and Thread channel change has been initiated and will finish in {delay_minutes} minutes.",
+                "title": "Channel change initiated"
+            },
+            "notify_unknown_multipan_user": {
+                "description": "Home Assistant can automatically change the channels for OTBR and ZHA. If you have configured another integration to use the radio, for example Zigbee2MQTT, you will have to reconfigure the channel in that integration after completing this guide.",
+                "title": "Manual configuration may be needed"
+            },
+            "reconfigure_addon": {
+                "title": "Reconfigure IEEE 802.15.4 radio multiprotocol support"
+            },
+            "uninstall_addon": {
+                "title": "Remove IEEE 802.15.4 radio multiprotocol support"
+            }
+        }
+    }
+}

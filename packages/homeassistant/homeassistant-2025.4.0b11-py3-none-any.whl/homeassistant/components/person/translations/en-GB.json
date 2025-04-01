@@ -1,0 +1,20 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "device_trackers": {
+                    "name": "Device trackers"
+                },
+                "source": {
+                    "name": "Source"
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "Reloads persons from the YAML-configuration.",
+            "name": "Reload"
+        }
+    }
+}

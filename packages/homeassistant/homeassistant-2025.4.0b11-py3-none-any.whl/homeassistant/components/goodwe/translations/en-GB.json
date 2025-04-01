@@ -1,0 +1,22 @@
+{
+    "entity": {
+        "button": {
+            "synchronize_clock": {
+                "name": "Synchronise inverter clock"
+            }
+        },
+        "number": {
+            "battery_discharge_depth": {
+                "name": "Depth of discharge (on-grid)"
+            },
+            "grid_export_limit": {
+                "name": "Grid export limit"
+            }
+        },
+        "select": {
+            "operation_mode": {
+                "name": "Inverter operation mode"
+            }
+        }
+    }
+}

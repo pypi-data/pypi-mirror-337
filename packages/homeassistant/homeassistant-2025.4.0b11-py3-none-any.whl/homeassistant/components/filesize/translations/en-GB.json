@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "sensor": {
+            "created": {
+                "name": "Created"
+            },
+            "last_updated": {
+                "name": "Last updated"
+            },
+            "size": {
+                "name": "Size"
+            },
+            "size_bytes": {
+                "name": "Size in bytes"
+            }
+        }
+    }
+}

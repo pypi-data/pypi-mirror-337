@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "current_pickup": {
+                "name": "Current pickup"
+            },
+            "next_pickup": {
+                "name": "Next pickup"
+            }
+        }
+    }
+}

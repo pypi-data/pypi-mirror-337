@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "heart_rate": {
+                "name": "Heart rate"
+            },
+            "real_time_weight": {
+                "name": "Real-time weight"
+            },
+            "weight": {
+                "name": "Weight"
+            }
+        }
+    }
+}

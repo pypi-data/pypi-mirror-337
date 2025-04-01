@@ -1,0 +1,56 @@
+{
+    "config": {
+        "abort": {
+            "not_motionblinds": "Discovered device is not a Motionblinds gateway"
+        }
+    },
+    "entity": {
+        "button": {
+            "go_favorite": {
+                "name": "Go to favourite position"
+            },
+            "set_favorite": {
+                "name": "Set current position as favourite"
+            }
+        },
+        "cover": {
+            "bottom": {
+                "name": "Bottom"
+            },
+            "combined": {
+                "name": "Combined"
+            },
+            "top": {
+                "name": "Top"
+            }
+        },
+        "sensor": {
+            "bottom_battery": {
+                "name": "Bottom battery"
+            },
+            "top_battery": {
+                "name": "Top battery"
+            }
+        }
+    },
+    "services": {
+        "set_absolute_position": {
+            "description": "Sets the absolute position of the cover.",
+            "fields": {
+                "absolute_position": {
+                    "description": "Absolute position to move to.",
+                    "name": "Absolute position"
+                },
+                "tilt_position": {
+                    "description": "Tilt position to move to.",
+                    "name": "Tilt position"
+                },
+                "width": {
+                    "description": "Specify the width that is covered, only for TDBU Combined entities.",
+                    "name": "Width"
+                }
+            },
+            "name": "Set absolute position"
+        }
+    }
+}

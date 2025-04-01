@@ -1,0 +1,9 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Fill in your GeoJSON feed details."
+            }
+        }
+    }
+}

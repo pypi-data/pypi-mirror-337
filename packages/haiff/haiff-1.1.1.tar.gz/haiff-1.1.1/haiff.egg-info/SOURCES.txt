@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+haiff/__init__.py
+haiff.egg-info/PKG-INFO
+haiff.egg-info/SOURCES.txt
+haiff.egg-info/dependency_links.txt
+haiff.egg-info/requires.txt
+haiff.egg-info/top_level.txt

@@ -1,0 +1,132 @@
+Metadata-Version: 2.4
+Name: twist-innovation-api
+Version: 0.0.1
+Summary: Python library to talk to the twist-innovation api
+Home-page: https://github.com/twist-innovation/twist-innovation-api
+Author: Sibrecht Goudsmedt
+Author-email: sibrecht.goudsmedt@twist-innovation.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Twist Innovation API
+
+## Overview
+This is the **Twist Innovation API** – a Python library for interacting with Twist Innovation devices via MQTT.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install twist-innovation-api
+```
+
+Alternatively, if you have cloned the repository, install it locally:
+
+```bash
+pip install .
+```
+
+## Contributing the Project (without installing in pip)
+This repo can be tested with the include main.py. With this main.py, you don't need to install the package. If you just want to install and use, go to Usage
+### Configuration
+Before running the project, you need to create a configuration file named `config.yaml` in the project root directory. This file should contain your MQTT broker details:
+
+```yaml
+mqtt_broker: "your-mqtt-broker.com"
+mqtt_user: "your-username"
+mqtt_pass: "your-password"
+mqtt_port: 1883  # Default MQTT port
+```
+### Testing
+You can test the package using the included `main.py` file. Ensure you have a valid `config.yaml` file set up, then run:
+
+```bash
+python main.py
+```
+
+### Building
+To build the package, run the following command:
+
+```bash
+python -m build
+```
+
+### Pushing to PyPi
+To push the package to PyPi, run the following command:
+
+```bash
+twine upload dist/*
+```
+
+
+
+## Usage
+
+Import the package in your Python scripts:
+
+```python
+from twist import TwistAPI, TwistModel
+
+# Other includes for this example
+import asyncio
+from typing import Callable
+
+# Initialize the mqtt broker here and define the functions needed
+
+# Create a callback function
+callback_f: Callable[[str, str], None] | None = None
+
+# Callback function when a Mqtt message is received from the broker and forward it to the twist API
+def on_message(client, userdata, msg):
+    if callback_f is not None:
+        callback_f(msg.topic, msg.payload.decode())
+
+# Publish message to the broker
+def mqtt_publish(topic, payload):
+    pass
+
+# Subscribe to a topic from the broker
+def mqtt_subscribe(topic, callback):
+    global callback_f
+    callback_f = callback
+
+# Callback function when a model received an update
+def on_model_update(model: TwistModel):
+    model.print_context()
+
+async def main():
+    twist_api = TwistAPI(8, on_model_update)
+    twist_api.add_mqtt(mqtt_publish, mqtt_subscribe)
+    twist_model_list: list[TwistModel] = await twist_api.search_models()
+
+    while True:
+        await asyncio.sleep(1)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+## License
+This project is licensed under the **GPL-3.0 License**. See the `LICENSE` file for details.
+
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue.
+
+## Contact
+For any issues or questions, reach out via the [GitHub Issues](https://github.com/twist-innovation/twist-innovation-api/issues).
+

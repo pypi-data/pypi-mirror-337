@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: vspexhost
+Version: 0.1.0
+Summary: A python web server designed to help with displaying html if you only have python. This can be used for all purposes including Development, just for fun, and serious topics, or anything.
+Dynamic: summary

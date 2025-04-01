@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-security-kerberos/__init__.py
+src/corex-security-kerberos/handler.py
+src/corex_security_kerberos.egg-info/PKG-INFO
+src/corex_security_kerberos.egg-info/SOURCES.txt
+src/corex_security_kerberos.egg-info/dependency_links.txt
+src/corex_security_kerberos.egg-info/top_level.txt
+tests/test_handler.py

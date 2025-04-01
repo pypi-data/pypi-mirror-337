@@ -1,0 +1,11 @@
+databloom/__init__.py,sha256=UuPb81FIytn26sGfNSIcHkQbmmFPenZ_19He5HKn43I,179
+databloom/version.py,sha256=MIzZxHBGqyw1IXwVt91hd1wVhXn1blG-QMukLREPcds,51
+databloom/api/__init__.py,sha256=-A0GC6-13MHo_CDddfoewIJSWtep2FaAqknWMOI9eAs,70
+databloom/api/credentials.py,sha256=o712OWFdTAeYeKqH47RmfvRWypGN0B01jGMy-IJtO50,3873
+databloom/api/nessie_metadata.py,sha256=QE_B6CrKlv7Sxkwv7aP_f4xw10NaZP-HMyc1UKaQtHw,1269
+databloom/datasets/__init__.py,sha256=WvTHIhOz6GVoNqEtWuvkTavjdtCACWJLTC98IrStA7M,106
+databloom/datasets/dataset.py,sha256=a0pQyz9Tkci0PzmRrD9McDg1FPX43QAs4LehLrRYUzc,10974
+databloom-2.0.40.dist-info/METADATA,sha256=LdaM6hYfWA0oDe4meSBhYm6UVoc4S5IgfjZ1bGrqtag,5483
+databloom-2.0.40.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+databloom-2.0.40.dist-info/top_level.txt,sha256=lHBnf1cvjb1W_jUXJVoYmgp3VrLTgaY22s5UcBVBaIw,10
+databloom-2.0.40.dist-info/RECORD,,

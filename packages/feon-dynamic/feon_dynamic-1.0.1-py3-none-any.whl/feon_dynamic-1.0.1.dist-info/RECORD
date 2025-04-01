@@ -1,0 +1,8 @@
+feon_dynamic/__init__.py,sha256=uS4PLZ9pB-OjxH3qyFWO52G9laIpo6TC1vL1f5PX5LA,94
+feon_dynamic/core.py,sha256=9S1-L7mcQVmQYX-RgbnA52xUBEYKM1l-r2T7In-8IyI,6293
+feon_dynamic/data/K_dict.pkl.gz,sha256=xEZJY0t9-p0YEbKSPoZGTFgwTTkEhxvMaVY8foOLtVI,942105
+feon_dynamic/data/positions.xlsx,sha256=cZiku5TYC4zbcxHDWlt1Zxxk1srbhkKTkT63wiVplL8,17787
+feon_dynamic-1.0.1.dist-info/METADATA,sha256=U8gDukaJFM7bvirYCDZfzeFRo-ExodNJ3E9qU_XMxfg,191
+feon_dynamic-1.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+feon_dynamic-1.0.1.dist-info/top_level.txt,sha256=_Q7jx268YB2xEO4U9_qwEzBZuwXh2d04nIDujVIWW7E,13
+feon_dynamic-1.0.1.dist-info/RECORD,,

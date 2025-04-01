@@ -1,0 +1,1 @@
+from .package import convertToInt, convertToStr, convertToBool

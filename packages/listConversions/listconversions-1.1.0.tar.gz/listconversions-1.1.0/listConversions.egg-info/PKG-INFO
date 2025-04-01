@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: listConversions
+Version: 1.1.0
+Summary: A package for converting lists to different formats
+Home-page: https://github.com/DementiaGaming/List-Conversions-Package
+Author: Dementia Gaming
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary
+
+# List Conversions
+ A python package for converting lists to different formats
+ 
+# Installation
+```
+pip install listConversions
+```
+
+# Features
+Convert list of strings to integers (only works with string numbers)
+```
+listConversions.convertToInt(list)
+```
+
+Convert list of integers to strings
+```
+listConversions.convertToStr(list)
+```
+
+Convert list to boolean values
+```
+listConversions.convertToBool(list)
+```

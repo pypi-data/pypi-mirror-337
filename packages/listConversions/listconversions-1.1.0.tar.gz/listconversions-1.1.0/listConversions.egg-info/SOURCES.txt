@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+listConversions/__init__.py
+listConversions/package.py
+listConversions.egg-info/PKG-INFO
+listConversions.egg-info/SOURCES.txt
+listConversions.egg-info/dependency_links.txt
+listConversions.egg-info/top_level.txt

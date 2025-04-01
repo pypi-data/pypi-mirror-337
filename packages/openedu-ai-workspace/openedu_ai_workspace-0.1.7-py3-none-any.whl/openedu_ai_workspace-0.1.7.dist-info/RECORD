@@ -1,0 +1,10 @@
+database/__init__.py,sha256=VBAlgsZqhH6-x_JDRoF4-OWqiapMWPbW0DHKvnCiDS0,55
+database/connect.py,sha256=cMklioBDenutW0wDrHqxOJKtOmWFYfU4o4fsAxBbjIE,748
+modules/__init__.py,sha256=yLExJtAMUpKobJZxxFZt-pI54iFXVSSwcbmD0Ff9DCI,61
+modules/workspace.py,sha256=_KqRX2OetS5JeL5zjXiZmGcEzGITNn97GekpzlnhuEw,7250
+schemas/__init__.py,sha256=EmPl1xf68ap3soWgI0u_wzgwF2oejO0tnEbgdw1raOs,73
+schemas/workspace.py,sha256=kIjHL9oH5eTiYfIGA_NWlT4OS4NrFYRTWkzo5YVBLWU,655
+openedu_ai_workspace-0.1.7.dist-info/METADATA,sha256=a20XHYjNVKz1hTOTGdhlfjiyhCrgBp6xsSpe1nPNgAY,723
+openedu_ai_workspace-0.1.7.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+openedu_ai_workspace-0.1.7.dist-info/top_level.txt,sha256=7qOnufXZdiMwsJS0NHFfn1ZQ-cP0EKrsWL15DisVD_w,25
+openedu_ai_workspace-0.1.7.dist-info/RECORD,,

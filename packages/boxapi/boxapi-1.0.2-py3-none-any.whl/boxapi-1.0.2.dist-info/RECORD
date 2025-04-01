@@ -1,0 +1,13 @@
+boxapi/__init__.py,sha256=Dx08TqDF1e7xQV42HIbxxTtJMxl2TbOTTdLBgHuvCI8,119
+boxapi/box_api_client.py,sha256=ALIOFDpXh5oeGH_2W5eDFadzN3FbRuSLxG17Ak8HCZE,630
+boxapi/constants.py,sha256=3P0VuWr1dH_lEACUGr4n-3uum7imSBxPUlu8K0x1TGk,107
+boxapi/instagram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boxapi/instagram/instagram_api_client.py,sha256=ILPCACvEJC-tLqyjaa_M1BUsHorT4Q8h-_vZ1mCi1wY,27967
+boxapi/instagram/instagram_dm_client.py,sha256=i0vYu6KPTwcZufCEsUnv-C6qfBRgxCs551h1GqaKRk8,14130
+boxapi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boxapi/utils/base_url_session.py,sha256=rDisbGQrpoKZwBu6B_orOmdQdHTREIwGhKQtbM2oSUg,412
+boxapi/utils/decorators.py,sha256=5FBU8C5y6daOvtoYedHi8gzRjHDk9iAS4pyYZALgp60,913
+boxapi-1.0.2.dist-info/LICENSE,sha256=wpplisWuWqhzaJHQMi8wJtKCjPzt3TN_tFE_0aGxAIw,1074
+boxapi-1.0.2.dist-info/METADATA,sha256=H9v5Y98Pzh6awM-ke4X92HHjGVMB-z6zt8qNRI0_h20,3521
+boxapi-1.0.2.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+boxapi-1.0.2.dist-info/RECORD,,

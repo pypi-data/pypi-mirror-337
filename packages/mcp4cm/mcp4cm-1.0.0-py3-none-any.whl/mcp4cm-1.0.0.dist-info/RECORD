@@ -1,0 +1,13 @@
+mcp4cm-1.0.0.dist-info/licenses/LICENSE,sha256=FipQkhs2LzVM43e78how_1w0B3GT6TQ_ozKC3G3WQxg,1068
+uml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uml/data_extraction.py,sha256=utiKQzvZEHhK19GIXVcpkrPe4vpN6cACsPAMf1wndtY,20321
+uml/dataloading.py,sha256=1bRjlxbglZh1-uWXZUPpSzEQ3aohIssxd1zumAOFW0U,6831
+uml/duplicate_detection.py,sha256=hvURBRIV0A_PorkLQVzJHI-BSgqA6yJbWEQn3rMRETE,4921
+uml/filtering_patterns.py,sha256=ceDPdhXptho5L0oSS1iTKr7s3jtspAeNXvmU3L2rb3s,1823
+uml/language_detection.py,sha256=UNMNjq4yvjhKwHT07oUpkPZb5F-eiXxtdAT1sawaEGY,1720
+uml/sanitize.py,sha256=xqaslfCNCxZpo7f-1Uc2JqqvyyfZ8k3UGcnBrKN7-gk,3803
+uml/utils.py,sha256=o46dnJTEyhYSE0bSI8R_4dFYj8nncV-cTg1VY-JBBeE,167
+mcp4cm-1.0.0.dist-info/METADATA,sha256=sD_OJGZgZwSpDVYRgq9UlseNniYbg_8sQ1R-PcaY0Lw,2642
+mcp4cm-1.0.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+mcp4cm-1.0.0.dist-info/top_level.txt,sha256=VL79zZeg9PkbMVbWx24TkpqH16fUL38iXC0cTXpN_4E,4
+mcp4cm-1.0.0.dist-info/RECORD,,

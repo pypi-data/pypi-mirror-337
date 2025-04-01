@@ -1,0 +1,5 @@
+[psychopy.experiment.components.settings.eyetracking]
+EyeLinkEyetrackerBackend = psychopy_eyetracker_sr_research.sr_research.eyelink.settings:EyeLinkEyetrackerBackend
+
+[psychopy.iohub.devices.eyetracker]
+eyelink = psychopy_eyetracker_sr_research.sr_research.eyelink

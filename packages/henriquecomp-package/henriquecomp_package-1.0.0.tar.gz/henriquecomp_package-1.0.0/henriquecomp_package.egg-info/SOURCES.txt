@@ -1,0 +1,9 @@
+README.md
+setup.py
+cursofiap/__init__.py
+cursofiap/core.py
+henriquecomp_package.egg-info/PKG-INFO
+henriquecomp_package.egg-info/SOURCES.txt
+henriquecomp_package.egg-info/dependency_links.txt
+henriquecomp_package.egg-info/top_level.txt
+tests/test_core.py

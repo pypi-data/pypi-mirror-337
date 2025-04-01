@@ -1,0 +1,3 @@
+[console_scripts]
+explain-commands = linux_command_logger.explain:main
+extract-history = linux_command_logger.extract:main

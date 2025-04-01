@@ -1,0 +1,9 @@
+linux_command_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linux_command_logger/auto_commit.py,sha256=U5HWRnwT2-4KKaKt2THA_rp4XHMhSHahQ4wQzvPKhqw,334
+linux_command_logger/explain.py,sha256=W9_MnZ7Q9UGJAnt7Ub841LbdBCPLZFVOPtOG_lIL0_0,3417
+linux_command_logger/extract.py,sha256=rzdlsOws8BwW_Xszlx3mW7odm_zesID7mPLsSFHC-Ho,1369
+linux_command_logger-0.1.0.dist-info/METADATA,sha256=Ijsz06flsQdpOz8gveVLyxRmpefjlbiWGvfxelfJQpo,842
+linux_command_logger-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+linux_command_logger-0.1.0.dist-info/entry_points.txt,sha256=JMc67_9btDkvjl8nOb_niGBoIadJEk0MsleykXM_l0o,123
+linux_command_logger-0.1.0.dist-info/top_level.txt,sha256=Wj8BShqCw6sB4tm5PqswCI4LrG0y9EnFZrMDvgEyHSo,21
+linux_command_logger-0.1.0.dist-info/RECORD,,

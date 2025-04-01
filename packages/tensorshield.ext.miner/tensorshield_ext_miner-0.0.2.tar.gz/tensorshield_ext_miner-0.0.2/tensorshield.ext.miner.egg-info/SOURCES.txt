@@ -1,0 +1,11 @@
+MANIFEST.in
+VERSION
+setup.py
+tensorshield.ext.miner.egg-info/PKG-INFO
+tensorshield.ext.miner.egg-info/SOURCES.txt
+tensorshield.ext.miner.egg-info/dependency_links.txt
+tensorshield.ext.miner.egg-info/requires.txt
+tensorshield.ext.miner.egg-info/top_level.txt
+tensorshield/ext/miner/__init__.py
+tensorshield/ext/miner/_base.py
+tensorshield/ext/miner/package.json

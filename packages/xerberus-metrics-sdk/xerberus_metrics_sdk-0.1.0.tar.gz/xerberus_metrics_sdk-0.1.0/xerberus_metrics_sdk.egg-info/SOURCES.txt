@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tests/test_client.py
+xerberus/__init__.py
+xerberus/client.py
+xerberus/config.py
+xerberus/utils.py
+xerberus_metrics_sdk.egg-info/PKG-INFO
+xerberus_metrics_sdk.egg-info/SOURCES.txt
+xerberus_metrics_sdk.egg-info/dependency_links.txt
+xerberus_metrics_sdk.egg-info/requires.txt
+xerberus_metrics_sdk.egg-info/top_level.txt

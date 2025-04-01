@@ -1,0 +1,6 @@
+corex-metrics-datadog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corex-metrics-datadog/handler.py,sha256=UHKwhWNeYaYqURSEkVMMrI3pSgvC9nMa1RA2p3dAVHk,268
+corex_metrics_datadog-0.1.0.dist-info/METADATA,sha256=EL2_TxossO5G3blpRyBBca7bZz0e97CNUURETp24PTc,329
+corex_metrics_datadog-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+corex_metrics_datadog-0.1.0.dist-info/top_level.txt,sha256=td7Ej2m64w5Sm3l3BXpQSZRrJCOu4YqUSHIs27s74EA,22
+corex_metrics_datadog-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: smartshell-ai
+Version: 0.1
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: rich
+Requires-Dist: requests
+Requires-Dist: rapidfuzz
+Requires-Dist: openai
+Requires-Dist: ollama
+Requires-Dist: pyreadline3
+Dynamic: requires-dist

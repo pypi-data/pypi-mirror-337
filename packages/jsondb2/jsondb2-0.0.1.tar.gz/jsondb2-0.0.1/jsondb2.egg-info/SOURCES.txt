@@ -1,0 +1,8 @@
+README.md
+setup.py
+jsondb/__init__.py
+jsondb/jsondb.py
+jsondb2.egg-info/PKG-INFO
+jsondb2.egg-info/SOURCES.txt
+jsondb2.egg-info/dependency_links.txt
+jsondb2.egg-info/top_level.txt

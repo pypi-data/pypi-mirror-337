@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+poiskv/__init__.py
+poiskv.egg-info/PKG-INFO
+poiskv.egg-info/SOURCES.txt
+poiskv.egg-info/dependency_links.txt
+poiskv.egg-info/requires.txt
+poiskv.egg-info/top_level.txt

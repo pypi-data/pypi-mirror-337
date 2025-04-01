@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-config-etcd/__init__.py
+src/corex-config-etcd/handler.py
+src/corex_config_etcd.egg-info/PKG-INFO
+src/corex_config_etcd.egg-info/SOURCES.txt
+src/corex_config_etcd.egg-info/dependency_links.txt
+src/corex_config_etcd.egg-info/top_level.txt
+tests/test_handler.py

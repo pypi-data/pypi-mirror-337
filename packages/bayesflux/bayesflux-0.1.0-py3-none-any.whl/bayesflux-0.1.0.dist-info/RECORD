@@ -1,0 +1,6 @@
+bayesflux/__init__.py,sha256=91d17606f3fc7ba2ec558fefa6d0ed5f8d7b1f03f71fc1f8a117aeed8247719d,122
+bayesflux/encoding.py,sha256=540a0947ec2becc517b6c0eaba97651d071b244e1160824ad1ede95d65cd85ae,15447
+bayesflux/subspace_detection.py,sha256=32e1e9d9d95a9d936b78017f6bd0064447084f56c6b3591f05959464870e7cd9,5723
+bayesflux-0.1.0.dist-info/WHEEL,sha256=91b8f3c6ada75722c96c9df2ba4ad8474f08220f495f4ddd637a8f9eef2bbf6f,79
+bayesflux-0.1.0.dist-info/METADATA,sha256=1dcfdfe8dc497acc42d5edced70b07c4902c5c2b04ca8a6ea8c8193e9327941e,2474
+bayesflux-0.1.0.dist-info/RECORD,,

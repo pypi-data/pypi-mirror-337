@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pychemstation"
+version = "0.10.4"
+description = "Library to interact with Chemstation software, primarily used in Hein lab"
+authors = [{ name = "lucyhao", email = "hao.lucyy@gmail.com" }]
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "aghplctools>=4.8.8",
+    "coverage>=7.6.1",
+    "matplotlib>=3.7.5",
+    "pandas>=2.0.3",
+    "pdoc>=14.7.0",
+    "polling>=0.3.2",
+    "pre-commit>=4.2.0",
+    "pytest>=7.3.5",
+    "rainbow-api>=1.0.10",
+    "result>=0.17.0",
+    "scipy>=1.10.1",
+    "seabreeze>=2.9.2",
+    "setuptools>=75.3.2",
+    "twine>=6.1.0",
+    "xsdata>=24.9",
+]
+classifiers=[
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"]
+
+[project.urls]
+Documentation = "https://pychemstation-e5a086.gitlab.io/pychemstation.html"
+Repository = "https://gitlab.com/heingroup/device-api/pychemstation"
+
+[dependency-groups]
+dev = ["mypy>=1.14.1,<2"]
+

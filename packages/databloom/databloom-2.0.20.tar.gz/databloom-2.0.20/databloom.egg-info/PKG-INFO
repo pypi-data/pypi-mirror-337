@@ -1,0 +1,216 @@
+Metadata-Version: 2.4
+Name: databloom
+Version: 2.0.20
+Summary: A Python SDK client for data source connections and data warehouse integration
+Home-page: https://github.com/databloom-ai/connector
+Author: Nam Vu
+Author-email: namvq@databloom.ai
+Keywords: data,warehouse,connector,sdk
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pyspark==3.4.2
+Requires-Dist: duckdb==0.8.1
+Requires-Dist: sqlalchemy==1.4.54
+Requires-Dist: psycopg2-binary==2.9.10
+Requires-Dist: mysql-connector-python==8.0.33
+Requires-Dist: findspark==2.0.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: python-dotenv==1.1.0
+Requires-Dist: trino==0.333.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.12.0; extra == "dev"
+Requires-Dist: black>=24.0.0; extra == "dev"
+Requires-Dist: isort>=5.13.0; extra == "dev"
+Requires-Dist: flake8>=7.0.0; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# DataBloom SDK Client
+
+A Python SDK client for establishing connections to various data sources and integrating with data warehouses.
+
+## Project Structure
+
+```
+databloom/                      # Main package
+├── __init__.py                # Package initialization
+├── api/                       # API modules
+│   ├── __init__.py
+│   ├── credentials.py         # Credentials management
+│   └── nessie_metadata.py     # Nessie metadata client
+├── connector/                 # Database connectors
+│   ├── __init__.py
+│   ├── base.py               # Base connector class
+│   ├── postgresql.py         # PostgreSQL connector
+│   ├── mysql.py             # MySQL connector
+│   └── ggsheet.py           # Google Sheets connector
+└── datasets/                 # Dataset operations
+    ├── __init__.py
+    └── dataset.py           # Dataset management
+```
+
+## Installation
+
+### Development Installation
+
+1. Create and activate a conda environment:
+```bash
+conda create -n databloom_py39 python=3.9
+conda activate databloom_py39
+```
+
+2. Install the package dependencies:
+```bash
+# Install core dependencies
+pip install -r requirements.txt
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+
+# Install in development mode
+pip install -e .
+```
+
+## Development
+
+### Code Quality
+
+```bash
+# Format code
+make format
+
+# Run linter
+make lint
+
+# Run type checker
+make type-check
+```
+
+### Testing
+
+The project uses pytest for testing. Tests are organized into categories:
+- Integration tests (connectors)
+  - Google Sheets connector tests
+  - PostgreSQL connector tests
+  - MySQL connector tests (currently skipped)
+- Dataset tests
+
+Run tests using make commands:
+
+```bash
+# Run integration tests
+make test-integration
+
+# Run specific connector tests
+CRED_TYPE=postgresql pytest tests/connector/test_postgresql_read_sqlalchemy.py -v
+CRED_TYPE=google_sheets pytest tests/connector/test_ggsheet.py -v
+```
+
+### Environment Variables
+
+Required environment variables:
+```bash
+# Google Sheets API Token
+GGSHEET_TOKEN='{"token": "your_token", ...}'
+
+# PostgreSQL Configuration
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=password
+POSTGRES_DBNAME=postgres
+
+# MySQL Configuration (if needed)
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=password
+MYSQL_DATABASE=mysql
+
+# Credential Type (for testing)
+CRED_TYPE=postgresql  # or google_sheets
+```
+
+## Usage Example
+
+```python
+from databloom import DataBloomContext
+
+# Create context
+ctx = DataBloomContext()
+
+# Attach source
+ctx.attach_source(source="postgresql/postgres_source", dbname="mktvng", dest="source_mktvng")
+
+# Query using DuckDB
+duckdb_con = ctx.get_duck_con()
+df_1 = duckdb_con.sql("""
+    select * from source_mktvng.category_table_v2
+""")
+
+# Work with local data
+import pandas as pd
+dataframe_local = pd.DataFrame({
+    "id": [1, 2, 3],
+    "name": ["Alice", "Bob", "Charlie"]
+})
+
+# Query in data warehouse
+df_1 = ctx.duckdb_sql("""
+    select * from source_mktvng.category_table_v2
+    join on {{dataset.category_table_v2}}
+    join on dataframe_local
+""")
+```
+
+## Dependencies
+
+Core dependencies (requirements.txt):
+- pandas>=1.1.0,<1.2.0
+- pyspark>=3.2.0,<3.3.0
+- duckdb>=0.8.1,<0.9.0
+- sqlalchemy>=1.4.0,<2.0.0
+- psycopg2-binary>=2.9.10
+- mysql-connector-python>=8.0.0
+- findspark>=2.0.1
+- requests>=2.31.0
+- python-dotenv>=1.1.0
+- trino>=0.333.0
+
+Development dependencies (requirements-dev.txt):
+- pytest>=8.0.0
+- pytest-cov>=4.1.0
+- pytest-mock>=3.12.0
+- black>=24.0.0
+- isort>=5.13.0
+- flake8>=7.0.0
+- mypy>=1.8.0
+
+## Python Version Support
+
+This package requires Python 3.9. It has been tested with Python 3.9.21.
+
+## License
+
+MIT License 

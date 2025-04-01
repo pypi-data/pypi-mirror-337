@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/flumut_gui/LauncherWindow.py
+src/flumut_gui/MainWindow.py
+src/flumut_gui/ProgressWindow.py
+src/flumut_gui/SampleTreeTab.py
+src/flumut_gui/__init__.py
+src/flumut_gui.egg-info/PKG-INFO
+src/flumut_gui.egg-info/SOURCES.txt
+src/flumut_gui.egg-info/dependency_links.txt
+src/flumut_gui.egg-info/entry_points.txt
+src/flumut_gui.egg-info/requires.txt
+src/flumut_gui.egg-info/top_level.txt
+src/flumut_gui/data/__init__.py
+src/flumut_gui/data/flumut_icon.ico

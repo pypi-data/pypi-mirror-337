@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: angre
+Version: 0.1.0
+Summary: Consultar cursos de H4U
+Home-page: https://hack4u.io
+Author: Angre
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary

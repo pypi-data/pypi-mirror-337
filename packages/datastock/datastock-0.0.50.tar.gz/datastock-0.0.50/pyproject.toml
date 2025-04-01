@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+
+#[tool.setuptools.packages.find]
+#where = ["datastock"]
+#include = ["datastock*"]
+#namespaces = false
+
+[tool.setuptools]
+packages = ["datastock", "datastock.tests"]
+
+
+[tool.setuptools_scm]
+version_file = "datastock/_version.py"
+
+
+[tool.setuptools.dynamic]
+classifiers = {file = ["CLASSIFIERS.txt"]}
+
+
+[project]
+name = "datastock"
+readme = "README.md"
+license = {text = "MIT"}
+dynamic = ["version", "classifiers"]
+description = "Generic handler for multiple heterogenous numpy arrays and subclasses"
+authors = [
+    {name = "Didier VEZINET", email = "didier.vezinet@gmail.com"},
+]
+maintainers = [
+    {name = "Didier VEZINET", email = "didier.vezinet@gmail.com"},
+]
+keywords = [
+    "data", "analysis", "interactive", "heterogeneous arrays", "numpy", "Collection",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "PyQt5 ; platform_system != 'Windows'",
+    "astropy",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/ToFuProject/datastock"
+Issues = "https://github.com/ToFuProject/datastock/issues"
+
+
+[project.entry-points."datastock"]
+datastock = "scripts.main:main"
+
+
+[dependency-groups]
+dev = [
+	"pytest",
+]
+
+
+[project.optional-dependencies]
+linting = [
+  'ruff'
+]
+formatting = [
+  'ruff'
+]

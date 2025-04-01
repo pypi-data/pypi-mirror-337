@@ -1,0 +1,2 @@
+[console_scripts]
+agno-yaml-cli = argn_yaml.main:main

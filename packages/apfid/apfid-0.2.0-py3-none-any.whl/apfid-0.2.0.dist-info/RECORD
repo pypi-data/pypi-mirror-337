@@ -1,0 +1,8 @@
+apfid/__init__.py,sha256=vncB4efcogp_3_XZmsE5epVqKGNdHWGsYeF_vNh3Ox0,6152
+tests/test_af_ids.py,sha256=5f_ObteeSulfiA-Rfbse6YY_9scu_QmC1R4NdNGjOV8,1287
+tests/test_apfid.py,sha256=ucSM-CG8cM3yoVGSjZ_K6_kUZpOtNB6RgyVx-l3zBYE,1674
+apfid-0.2.0.dist-info/LICENSE,sha256=GnwFK_MGpRFsjJrkMHC1Kmy6k7rp0ES764eeeY1wWGo,1088
+apfid-0.2.0.dist-info/METADATA,sha256=Gs_PR71e7_gfv4kaclVgC7nRkvOUwDQJL_e84Exgg3U,3950
+apfid-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+apfid-0.2.0.dist-info/top_level.txt,sha256=hnvZmXNwbXpoRbv2T_V1h_jbB1QMsUM6wiAQuRCKXQc,12
+apfid-0.2.0.dist-info/RECORD,,

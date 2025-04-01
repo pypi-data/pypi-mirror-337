@@ -1,0 +1,350 @@
+Metadata-Version: 2.2
+Name: jimiko
+Version: 2.0.2rc4
+Summary: High-performance SSH client for network automation
+Home-page: https://github.com/jameshill/jimiko
+Author: James Hill
+Author-email: James Hill <jmhill2@gmail.com>
+License: MIT
+Keywords: ssh,networking,automation,libssh2,paramiko,netmiko
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Jimiko
+
+A high-performance SSH client for network automation and device management, built with libssh2. Inspired by Paramiko and Netmiko, but with a focus on performance and non-blocking operations.
+
+## Features
+
+- Non-blocking SSH operations for high performance
+- Support for interactive shell sessions
+- Configurable timeouts and interrupt handling
+- Cross-platform support (macOS, Linux, Rhel)
+- Python 3.6+ compatibility
+- Optimized for network device automation
+- Support legacy unauthenicated network devices 
+- Built on libssh2 for maximum performance
+
+## Installation
+
+### Prerequisites Building from Source
+
+#### Windows
+```bash
+# Using vcpkg
+vcpkg install libssh2:x64-windows
+```
+
+#### macOS
+```bash
+# Using Homebrew
+brew install libssh2
+```
+
+#### Linux (Debian/Ubuntu)
+```bash
+sudo apt-get install libssh2-1-dev
+```
+
+#### Linux (CentOS/RHEL)
+```bash
+sudo yum install libssh2-devel
+```
+
+### Installing the Package 
+
+```bash
+# No prerequisites required 
+pip install jimiko
+```
+
+## Usage Example
+
+```python
+from jimiko import PyJimikoClient
+
+# Create SSH client with custom timeouts
+client = PyJimikoClient(
+    ip=ip,
+    username=username,
+    password=password,
+    prompt="[$#>]",  # Regex pattern for common prompts
+    auth=True,
+    port=port,
+    command_timeout_ms=5000,   # 5 seconds connection/command timeout
+    read_timeout_ms=10000      # 10 seconds read timeout
+)
+
+# Connect to device
+print("Attempting connection...")
+if client.connect():
+    print("Connected successfully")
+    print(f"Default command timeout: {client.command_timeout}ms")
+    print(f"Default read timeout: {client.read_timeout}ms")
+    
+    # Send some commands
+    print("\nExecuting 'ls -l':")
+    try:
+        result = client.send("ls -l")
+        print("Command output:", result)
+    except Exception as e:
+        print(f"Error executing ls -l: {e}")
+    
+    print("\nExecuting 'pwd' with custom timeout:")
+    try:
+        result = client.send("pwd", command_timeout_ms=10000)  # 10 second timeout for this command
+        print("Command output:", result)
+    except Exception as e:
+        print(f"Error executing pwd: {e}")
+    
+    # Check connection status
+    print(f"\nConnection status: {'Connected' if client.is_connected else 'Disconnected'}")
+    
+    # Disconnect
+    client.disconnect()
+    print("Disconnected successfully")
+
+# For devices (no initial auth)
+client = PyJimikoClient(
+    ip="192.168.1.2",
+    auth=False
+)
+client.connect()
+initial_output = client.get_initial_output()
+print(initial_output)
+
+# Disconnect
+client.disconnect()
+
+# Create SFTP client with longer timeout
+sftp = PyJimikoSFTPClient(
+    ip, 
+    username, 
+    password, 
+    port,
+    operation_timeout_ms=30000  # 30 second timeout
+)
+
+print("Attempting connection with retry logic...")
+if not try_connect_with_delay(sftp, retries=3, delay=2):
+    print("Failed to connect after multiple attempts. Please check your SSH server configuration.")
+    return
+    
+print("✓ Connected successfully")
+
+# Upload the temporary file
+remote_path = "/tmp/jimiko_sftp_test.txt"
+print(f"\nUploading {local_path} to {remote_path}...")
+sftp.put(local_path, remote_path)
+print("✓ Upload completed")
+
+# List directory to verify file exists
+print("\nListing /tmp directory...")
+files = sftp.list_dir("/tmp")
+print(f"Found {len(files)} files in /tmp")
+
+# Print the file we just uploaded
+found_file = False
+for file_info in files:
+    if file_info.name == "jimiko_sftp_test.txt":
+        found_file = True
+        print(f"  ✓ Found uploaded file: {file_info.name} ({file_info.size} bytes)")
+
+if not found_file:
+    print("  ✗ Could not find the uploaded file in directory listing")
+
+# Get file info
+print("\nGetting file info...")
+try:
+    file_info = sftp.file_info(remote_path)
+    print(f"  File name: {file_info.name}")
+    print(f"  Size: {file_info.size} bytes")
+    print(f"  Is regular file: {file_info.is_regular_file}")
+    print(f"  Permissions: {oct(file_info.permissions)}")
+except Exception as e:
+    print(f"  Error getting file info: {e}")
+
+# Download the file to a different location
+download_path = os.path.join(tempfile.gettempdir(), "jimiko_sftp_downloaded.txt")
+
+# Use our safe download function
+if safe_download(sftp, remote_path, download_path, debug):
+    # Verify the downloaded content
+    try:
+        with open(download_path, 'r') as f:
+            content = f.read()
+            print(f"  Content: {content}")
+    except Exception as e:
+        print(f"  Error reading downloaded file: {e}")
+
+# Try an alternative download method if needed
+if debug and not os.path.exists(download_path):
+    print("\nAttempting alternative download method...")
+    alt_download_path = os.path.join(tempfile.gettempdir(), "jimiko_sftp_alt_download.txt")
+    
+    # You can implement an alternative download method here if needed
+    print("No alternative method available in this example")
+
+# Clean up
+print("\nCleaning up...")
+try:
+    if sftp.file_exists(remote_path):
+        sftp.remove_file(remote_path)
+        print(f"✓ Removed {remote_path}")
+    else:
+        print(f"Remote file {remote_path} no longer exists")
+except Exception as e:
+    print(f"Error removing remote file: {e}")
+
+try:
+    if os.path.exists(download_path):
+        os.unlink(download_path)
+        print(f"✓ Removed {download_path}")
+except Exception as e:
+    print(f"Error removing local file: {e}")
+
+# Disconnect
+try:
+    sftp.disconnect()
+    print("✓ Disconnected")
+except Exception as e:
+    print(f"Error during disconnect: {e}")
+```
+
+## Why Jimiko?
+
+Jimiko similar features of Paramiko and Netmiko with high-performance C++ implementation:
+
+- **Performance**: Built on libssh2 with C++ for maximum speed
+- **Non-blocking**: All operations are non-blocking by default
+- **Timeouts**: Fine-grained timeout control for all operations
+- **Device Support**: Special support for network devices including non-authenicated ssh sessions
+- **Error Handling**: Robust error handling with specific exceptions
+- **Cross-Platform**: macOS and Linux
+
+## Development Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jameshill/jimiko.git
+cd jimiko
+```
+
+2. Install development dependencies:
+```bash
+pip install -r requirements-dev.txt
+```
+
+3. Build the extension:
+```bash
+python setup.py build_ext --inplace
+```
+
+## Building from Source
+
+### Windows
+```bash
+# Set VCPKG_ROOT environment variable
+# See github workflow
+set VCPKG_ROOT=C:\vcpkg\installed\x64-windows
+python setup.py build
+```
+
+### macOS
+```
+Build locally on Mac.
+bash
+python setup.py build
+```
+
+## License
+
+MIT License
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request 
+
+# Docker Build Environment for Jimiko
+
+This directory contains a Docker-based build environment for compiling Jimiko with static linking of libssh2 and OpenSSL using manylinux-2014 compatibility.
+
+## Features
+
+- Based on Fedora 35 (producing binaries compatible with CentOS/Rhel)
+- Statically links libssh2 and OpenSSL with position independent code (-fPIC)
+- Produces portable binary wheels that work on Centos/Rhel systems
+- MacOS build locally 
+- Ubuntu - wip
+
+## Prerequisites
+
+- Docker installed and running
+- Access to the Fedora Docker registry
+
+## Building the Docker Image
+
+From the root of the project:
+
+```bash
+See ./docker/
+Build Python 3.6-3.11 
+./docker/build_sequential.sh 
+```
+
+## Customizing the Build
+
+The Docker image includes:
+- Modern GCC compiler from Fedora 35
+- OpenSSL 1.1.1w built from source with -fPIC
+- libssh2 1.11.0 built from source with -fPIC
+- Environment variables set for static linking
+
+If you need to customize the build process:
+
+1. Modify the `Dockerfile` to install additional dependencies
+2. Adjust the `build.sh` script to change how the wheel is built
+3. Rebuild the Docker image with your changes
+
+## Troubleshooting
+
+- If you encounter issues with the static libraries, check that the paths in `build.sh` match the actual paths in the container.
+- Make sure your project is properly mounted as a volume in the container.
+- For debugging, you can run the container with an interactive shell and execute build steps manually.
+- For "dangerous relocation" errors when linking static libraries, ensure they were compiled with -fPIC.
+- If you experience linker issues with Python, ensure that the Python shared libraries are in the LD_LIBRARY_PATH.
+
+## What Gets Created
+
+The build process creates several artifacts:
+
+1. A standard Python wheel in the `dist/` directory
+2. A specific wheel with "-manylinux" in the filename (also in `dist/`)
+3. A platform-specific binary file in `src/jimiko/` named `_jimiko_wrapper.cpython-<python-version>-manylinux2024_x86_64.so`
+
+The extracted binary file is used when creating a universal wheel that includes binaries for multiple platforms.   

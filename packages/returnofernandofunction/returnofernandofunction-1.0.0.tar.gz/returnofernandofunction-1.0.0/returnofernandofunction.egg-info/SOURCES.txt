@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+funcao/__init__.py
+funcao/fc.py
+returnofernandofunction.egg-info/PKG-INFO
+returnofernandofunction.egg-info/SOURCES.txt
+returnofernandofunction.egg-info/dependency_links.txt
+returnofernandofunction.egg-info/top_level.txt

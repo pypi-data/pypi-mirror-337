@@ -1,0 +1,9 @@
+bib4llm/__init__.py,sha256=sFS136Edf11b2jUigBreH4vu6QjcFaJfYEKJBzUqz2s,1505
+bib4llm/cli.py,sha256=CjgS_m2hKvm-5wZAwNtRELMWHGYmeb4hA9q4xG459nE,9985
+bib4llm/process_bibliography.py,sha256=CSGiPtOQ6TndGFnQx1GE2HFES6LF2lOVIo4f6nhMXjQ,49766
+bib4llm/watcher.py,sha256=o9bFN1mKxrFLxvRn5RZxxd3DMgvSlgrfu5KDC9h8KzY,11393
+bib4llm-0.2.2.dist-info/METADATA,sha256=Um1NwM0X0vVE81qHhVHcx9fQ_QSpxl1iSImrJ2GBJuY,6237
+bib4llm-0.2.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+bib4llm-0.2.2.dist-info/entry_points.txt,sha256=wbCi-xGD6aBLly74JspNEtUpSGb1i98FkMXthtmOM8Q,45
+bib4llm-0.2.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bib4llm-0.2.2.dist-info/RECORD,,

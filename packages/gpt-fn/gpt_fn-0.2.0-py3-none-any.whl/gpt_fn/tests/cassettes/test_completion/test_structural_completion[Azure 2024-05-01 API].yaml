@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Give
+      me a sample email."}],"model":"gpt-4o-2024-05-13","frequency_penalty":0.0,"presence_penalty":0.0,"temperature":1.0,"tool_choice":{"type":"function","function":{"name":"structural_response"}},"tools":[{"type":"function","function":{"name":"structural_response","description":"Response
+      to user in a structural way.","parameters":{"properties":{"subject":{"description":"the
+      subject of email","title":"Subject","type":"string"},"body":{"description":"the
+      body of email","title":"Body","type":"string"}},"required":["subject","body"],"title":"Email","type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '691'
+      content-type:
+      - application/json
+      host:
+      - gstudio-dev-a.openai.azure.com
+      user-agent:
+      - AzureOpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://gstudio-dev-a.openai.azure.com/openai/deployments/gpt-4o-2024-05-13/chat/completions?api-version=2024-05-01-preview
+  response:
+    content: '{"choices":[{"content_filter_results":{},"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":null,"refusal":null,"role":"assistant","tool_calls":[{"function":{"arguments":"{\"subject\":\"Meeting
+      Update\",\"body\":\"Dear Team,\\n\\nI hope this email finds you well. I would
+      like to update you on the upcoming team meeting scheduled for this Friday at
+      10:00 AM. We''ll be discussing our project progress, upcoming deadlines, and
+      any challenges we may be facing.\\n\\nPlease ensure that you are prepared with
+      a status update on your current tasks. If you have any topics that you would
+      like to add to the agenda, feel free to let me know by Thursday afternoon.\\n\\nLooking
+      forward to a productive meeting.\\n\\nBest regards,\\n[Your Name]\"}","name":"structural_response"},"id":"call_Q4FEu8X933l9wdb6tI9gcH1P","type":"function"}]}}],"created":1743419667,"id":"chatcmpl-BH7Nz3QIyXPm51pH34NqQQGi7x6RF","model":"gpt-4o-2024-05-13","object":"chat.completion","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"system_fingerprint":"fp_7ef970ab5a","usage":{"completion_tokens":124,"completion_tokens_details":{"accepted_prediction_tokens":0,"audio_tokens":0,"reasoning_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":91,"prompt_tokens_details":{"audio_tokens":0,"cached_tokens":0},"total_tokens":215}}
+
+      '
+    headers:
+      Content-Length:
+      - '1530'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:14:27 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      apim-request-id:
+      - 227cf774-a4b1-439d-9367-8fd5febe62ce
+      azureml-model-session:
+      - v20250319-1-164616836
+      cmp-upstream-response-duration:
+      - '1268'
+      ms-azureml-model-time:
+      - '1293'
+      x-accel-buffering:
+      - 'no'
+      x-aml-cluster:
+      - hyena-eastus2-02
+      x-content-type-options:
+      - nosniff
+      x-envoy-upstream-service-time:
+      - '1295'
+      x-ms-client-request-id:
+      - 227cf774-a4b1-439d-9367-8fd5febe62ce
+      x-ms-rai-invoked:
+      - 'true'
+      x-ms-region:
+      - East US
+      x-ratelimit-limit-requests:
+      - '352'
+      x-ratelimit-limit-tokens:
+      - '352000'
+      x-ratelimit-remaining-requests:
+      - '349'
+      x-ratelimit-remaining-tokens:
+      - '349346'
+      x-request-id:
+      - 0d218e3a-72be-4def-881c-bb9d30448703
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

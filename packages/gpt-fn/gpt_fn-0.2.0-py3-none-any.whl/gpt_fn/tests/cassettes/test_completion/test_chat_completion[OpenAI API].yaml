@@ -1,0 +1,105 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"Hello,
+      who are you?"}],"model":"gpt-4o","frequency_penalty":0.0,"presence_penalty":0.0,"stop":null,"temperature":1.0,"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '237'
+      content-type:
+      - application/json
+      host:
+      - api.openai.com
+      user-agent:
+      - OpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://api.openai.com/v1/chat/completions
+  response:
+    content: "{\n  \"id\": \"chatcmpl-BH7Q8QhmdFAcnCpTB9OhkwKXIDuj5\",\n  \"object\":
+      \"chat.completion\",\n  \"created\": 1743419800,\n  \"model\": \"gpt-4o-2024-08-06\",\n
+      \ \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\":
+      \"assistant\",\n        \"content\": \"Hello! I\u2019m an AI assistant here
+      to help you with information and answer your questions. How can I assist you
+      today?\",\n        \"refusal\": null,\n        \"annotations\": []\n      },\n
+      \     \"logprobs\": null,\n      \"finish_reason\": \"stop\"\n    }\n  ],\n
+      \ \"usage\": {\n    \"prompt_tokens\": 23,\n    \"completion_tokens\": 26,\n
+      \   \"total_tokens\": 49,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\":
+      0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n
+      \     \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\":
+      0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\":
+      \"default\",\n  \"system_fingerprint\": \"fp_898ac29719\"\n}\n"
+    headers:
+      CF-RAY:
+      - 928f6f960a6a6b72-TPE
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:16:40 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=lbdyiW5zw3IeL0mFCkLzreUpbT.Wqwjfj9DcWm.g8m0-1743419800-1.0.1.1-v2SZQ4HRuX2P15IJlkvV4UQvVFfZgwPhNUJ2x7s7BZCjZEzeJjVut6wtCsyiy8szs75Qs0YUPNpY5H.PD5BDiJ5768U0fkFEz.6cn5Yp2RI;
+        path=/; expires=Mon, 31-Mar-25 11:46:40 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=AYEvSXDOvHbv1B_A_yf64ITjka35SpF9vR_UQaNIUCU-1743419800800-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      access-control-expose-headers:
+      - X-Request-ID
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - DYNAMIC
+      openai-processing-ms:
+      - '566'
+      openai-version:
+      - '2020-10-01'
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      x-ratelimit-limit-requests:
+      - '10000'
+      x-ratelimit-limit-tokens:
+      - '2000000'
+      x-ratelimit-remaining-requests:
+      - '9999'
+      x-ratelimit-remaining-tokens:
+      - '1999985'
+      x-ratelimit-reset-requests:
+      - 6ms
+      x-ratelimit-reset-tokens:
+      - 0s
+      x-request-id:
+      - req_4bdf55e7c8e7767710542e86b3291674
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

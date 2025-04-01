@@ -1,0 +1,87 @@
+interactions:
+- request:
+    body: '{"messages":[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"I
+      want to book a flight to London."}],"model":"gpt-4o-2024-05-13","frequency_penalty":0.0,"presence_penalty":0.0,"stop":null,"temperature":1.0,"tool_choice":{"type":"function","function":{"name":"book_a_flight"}},"tools":[{"type":"function","function":{"name":"book_a_flight","description":"","parameters":{"properties":{"date":{"type":"string"},"destination":{"type":"string"},"origin":{"default":"London","type":"string"}},"required":["date","destination"],"type":"object"}}}],"top_p":1.0,"user":""}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate, zstd
+      connection:
+      - keep-alive
+      content-length:
+      - '599'
+      content-type:
+      - application/json
+      host:
+      - gstudio-dev-a.openai.azure.com
+      user-agent:
+      - AzureOpenAI/Python 1.69.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 1.69.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.11
+    method: POST
+    uri: https://gstudio-dev-a.openai.azure.com/openai/deployments/gpt-4o-2024-05-13/chat/completions?api-version=2024-05-01-preview
+  response:
+    content: '{"choices":[{"content_filter_results":{},"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":null,"refusal":null,"role":"assistant","tool_calls":[{"function":{"arguments":"{\"date\":\"2023-10-18\",\"destination\":\"London\"}","name":"book_a_flight"},"id":"call_Ed2TJzHtfwf6IqUMznkNtFvQ","type":"function"}]}}],"created":1743421769,"id":"chatcmpl-BH7vtSroqu2iQPdFCmk4Uw8yof0dz","model":"gpt-4o-2024-05-13","object":"chat.completion","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"system_fingerprint":"fp_7ef970ab5a","usage":{"completion_tokens":15,"completion_tokens_details":{"accepted_prediction_tokens":0,"audio_tokens":0,"reasoning_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":80,"prompt_tokens_details":{"audio_tokens":0,"cached_tokens":0},"total_tokens":95}}
+
+      '
+    headers:
+      Content-Length:
+      - '1008'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 31 Mar 2025 11:49:29 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      apim-request-id:
+      - 0d77751f-91e4-4eb2-b77f-b1c17fb17022
+      azureml-model-session:
+      - v20250319-1-164616836
+      cmp-upstream-response-duration:
+      - '226'
+      ms-azureml-model-time:
+      - '252'
+      x-accel-buffering:
+      - 'no'
+      x-aml-cluster:
+      - hyena-eastus2-02
+      x-content-type-options:
+      - nosniff
+      x-envoy-upstream-service-time:
+      - '255'
+      x-ms-client-request-id:
+      - 0d77751f-91e4-4eb2-b77f-b1c17fb17022
+      x-ms-rai-invoked:
+      - 'true'
+      x-ms-region:
+      - East US
+      x-ratelimit-limit-requests:
+      - '352'
+      x-ratelimit-limit-tokens:
+      - '352000'
+      x-ratelimit-remaining-requests:
+      - '351'
+      x-ratelimit-remaining-tokens:
+      - '351343'
+      x-request-id:
+      - e36d9ac3-6861-453c-986c-74ee34c67a67
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1

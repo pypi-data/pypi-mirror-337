@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: juziye
+Version: 1
+Summary: 一个实现transformer结构的简单的包
+Home-page: https://github.com/yourusername/my_package
+Author: Jason
+Author-email: 1816423817@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: math
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

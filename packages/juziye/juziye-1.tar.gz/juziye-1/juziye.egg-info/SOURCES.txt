@@ -1,0 +1,6 @@
+setup.py
+juziye.egg-info/PKG-INFO
+juziye.egg-info/SOURCES.txt
+juziye.egg-info/dependency_links.txt
+juziye.egg-info/requires.txt
+juziye.egg-info/top_level.txt

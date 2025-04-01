@@ -1,0 +1,8 @@
+mcpc/__init__.py,sha256=yLY6lk7k-OkVYG6PW3QqlYVTt_DjI5IhcODo5FmT2ik,535
+mcpc/handler.py,sha256=IP3QhZT_o3c0o6wp9l6QvMucAzwrEFbS8lr2Vm8mGeA,10530
+mcpc/helper.py,sha256=dy8E0n6YmDOtrdDiwXz9oU3si8t2kFBFQTLFdXA595M,5651
+mcpc/models.py,sha256=N3Uc1RFaoiZLybIR5_s64QQxm3Ly733IuwHCtzNuyBk,608
+mcpc-0.2.0.dist-info/METADATA,sha256=FgC3IgMR6TOQqnafww_hEbIy5-cfeTVxaKBOpWjB22M,14784
+mcpc-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcpc-0.2.0.dist-info/licenses/LICENSE.md,sha256=ApjYUSmhaNwEt2qGcjK9sH-LXBI-wY9vUsYZnxmowHU,1070
+mcpc-0.2.0.dist-info/RECORD,,

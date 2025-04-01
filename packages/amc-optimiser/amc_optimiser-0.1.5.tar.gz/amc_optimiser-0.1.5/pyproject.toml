@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AMC_Optimiser"
+version = "0.1.5"
+description = "A sample package"
+authors = [{ name = "James Town", email = "jtown@amcconsultants.com" }]
+dependencies = ["customtkinter","matplotlib","numpy","pandas","optuna","optuna-dashboard","psutil","pywin32","xlwings"]
+
+[tool.hatch.build.targets.sdist]
+package-dir = {"" = "src"}  
+
+# Explicitly include all .py files (optional but recommended)
+[tool.hatch.build]
+include = [
+  "src/AMC_Optimiser/*.py",
+]

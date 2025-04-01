@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+docs/example_use_case.pdf
+docs/template_data_processing.ipynb
+src/TRYpros/__init__.py
+src/TRYpros.egg-info/PKG-INFO
+src/TRYpros.egg-info/SOURCES.txt
+src/TRYpros.egg-info/dependency_links.txt
+src/TRYpros.egg-info/requires.txt
+src/TRYpros.egg-info/top_level.txt

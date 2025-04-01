@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aws-helper-services
+Version: 0.1.1
+Summary: A helper library for AWS services like SNS, SQS, Lambda, DynamoDB, and S3
+Home-page: https://github.com/yourusername/aws-services
+Author: Vedant Chavan
+Author-email: cvedant136@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: other-package
+
+# aws_services
+
+AWS integration library with support for Lambda, SQS, SNS, and more.
+
+## Install
+
+```bash
+pip install aws_services
+
+

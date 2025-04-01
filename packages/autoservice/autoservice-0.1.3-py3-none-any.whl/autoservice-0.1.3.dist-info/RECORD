@@ -1,0 +1,12 @@
+__init__.py,sha256=sLMnZuLze8QSuB7kGCPuh25n-7kIg3StjWFsvozIO6k,84
+autoservice/main.py,sha256=XsgXc8BwZ_9fNw8fxEE7b7QUvu2R5Idzqe8CDIihK3w,6097
+autoservice/services/__init__.py,sha256=o6QiTjUcYFcCTCeXPPuoekR3zc2KzWvuB1NrQ24Iu7M,348
+autoservice/services/base.py,sha256=cnMXKaox0Pj7qRtzl5fqQhRPO3Fsgo7am0_4egVUpRQ,3024
+autoservice/services/npm.py,sha256=0twK3ib2IX5tagE7Op1RaJKpZVc0-E1Q6K_4xrTI0fA,722
+autoservice/services/python.py,sha256=SnuDQ2M1zTXKulOE3rFX0ZXjlurWxhay9su4_y4hvzs,971
+autoservice/services/shell.py,sha256=2aXnGMjjq9c3DMKV5_kxfR1oJ3jL9JCdCNnTs98IEfM,280
+autoservice-0.1.3.dist-info/METADATA,sha256=gtjekmxBuaN5YSdsPKRX9Ri4CeHcfM-YNcmSIFoESl0,2116
+autoservice-0.1.3.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+autoservice-0.1.3.dist-info/entry_points.txt,sha256=31HpiExF0R2J-CA14Zvl6KiJ61X2EpYt8VsSPi1X9iU,53
+autoservice-0.1.3.dist-info/top_level.txt,sha256=7tTydItI8ZeCmtcXVjB1o2qYkX8r-nqSAaSesrpjG_c,21
+autoservice-0.1.3.dist-info/RECORD,,

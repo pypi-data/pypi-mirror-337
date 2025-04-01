@@ -1,0 +1,12 @@
+BayesBrain/DesignMaker.py,sha256=0rNx9PgD2ks4WX0DQtB_xRFoW4p6qvJK0Nb-Zzp8fzU,43953
+BayesBrain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BayesBrain/datasim.py,sha256=QY-KhEykd2-AkG3Ov-XnguHeQ52roWtfFZk5RzE7NKY,2995
+BayesBrain/glm.py,sha256=3ClqEPlRf7tlUCz3d_kS6xffBur8PD3KWMRCWXKpykw,40679
+BayesBrain/models.py,sha256=ZvNZVdGwhdsJgNeFmM2vbVUnUkVBWp4BLdib0klbPPo,27065
+BayesBrain/scratch.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BayesBrain/utils.py,sha256=9eNXY32oJdyAHvKFEVKtp_3NOqqlYiHCqWNx53pjCF0,4496
+bayesbrain-0.1.0.dist-info/licenses/LICENSE,sha256=0_pcvf-OYMbHUBYJw60eyU9iBv3M7Lnvbc3yIRJdD90,1075
+bayesbrain-0.1.0.dist-info/METADATA,sha256=BOPlbA-pLH7c-xEWnrYvMb7ilnx4bLP2MnoxSiGUEaY,540
+bayesbrain-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+bayesbrain-0.1.0.dist-info/top_level.txt,sha256=VffvWjwqfYntBIqWQVxckLXwJiyRJ5FgErQWEQdwOvk,11
+bayesbrain-0.1.0.dist-info/RECORD,,

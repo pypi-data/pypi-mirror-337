@@ -1,0 +1,43 @@
+from {{ inject.__module__ }} import {{ inject.__name__ }}
+{%- set assisted = namespace(value=False) %}
+{%- for item in collectionItems %}
+{%- if item.isAssisted %}
+{%- set assisted.value = True %}
+{%- endif %}
+from {{ item.classModule }} import {{ item.className }}
+{%- endfor %}
+{%- if assisted.value %}
+from {{ inject.__module__ }} import ClassAssistedBuilder
+{%- endif %}
+
+class {{ collection.__name__ }}:
+    @{{ inject.__name__ }}
+    def __init__(
+            self,
+            {%- for item in collectionItems %}
+            {%- if item.isAssisted %}
+            v{{ item.className }}: ClassAssistedBuilder[{{ item.className }}],
+            {%- else %}
+            v{{ item.className }}: {{ item.className }},
+            {%- endif %}
+            {%- endfor %}
+            ) -> None:
+        super().__init__()
+        self._items = {}
+        self._byClassname = {}
+        {%- for item in collectionItems %}
+        {%- if item.isAssisted %}
+        self._items[ClassAssistedBuilder[{{ item.className }}]] = v{{ item.className }}
+        {%- else %}
+        self._items[{{ item.className }}] = v{{ item.className }}
+        {%- endif %}
+        self._byClassname['{{ item.className }}'] = v{{ item.className }}
+        {%- endfor %}
+    {% if True %}{% endif %}
+    @property
+    def items(self) -> dict:
+        return self._items
+
+    @property
+    def byClassname(self) -> dict:
+        return self._byClassname

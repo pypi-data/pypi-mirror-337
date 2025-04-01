@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: ffmpeg-cmp
+Version: 0.1.0
+Summary: 使用ffmpeg,对视频进行裁剪，拼接，滤镜等操作
+Requires-Python: >=3.10.16
+Description-Content-Type: text/markdown
+Requires-Dist: mcp[cli]>=1.6.0

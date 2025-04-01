@@ -1,0 +1,9 @@
+qdrant_manager/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+qdrant_manager/cli.py,sha256=HvFuWCZqhs_hLELX6L2LjRAr5s7vSoEuHb4m2i6G_O0,33466
+qdrant_manager/config.py,sha256=5-6zwjd3lRiNXvKcp1hPbHtS6nrnwCFIDnim3VgGol0,5872
+qdrant_manager-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qdrant_manager-0.1.0.dist-info/METADATA,sha256=fZzqgdrVN1uGah9QxJcKE5aA3tDar4WcZSbjzx6KDoY,4785
+qdrant_manager-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+qdrant_manager-0.1.0.dist-info/entry_points.txt,sha256=t5MMhebhRlo6hSdNp7npJlGfBevJeZPmTyyDw4DH3rw,59
+qdrant_manager-0.1.0.dist-info/top_level.txt,sha256=LiVMYdoXnZIxcwUT9aIo4h4G7eLw_cBQwgNgYm8XzAw,15
+qdrant_manager-0.1.0.dist-info/RECORD,,

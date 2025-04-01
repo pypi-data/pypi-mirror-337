@@ -1,0 +1,14 @@
+secure_bite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secure_bite/apps.py,sha256=V21ivyuZlmBMs5SE3fB3NxkFlsJ-H7o3TJgAp2GIH98,159
+secure_bite/authentication.py,sha256=UsbNouHdl9LZ7JyBCKAgYgDONLGFKo7dUeAOb9_JPH8,3384
+secure_bite/middleware.py,sha256=MkJIHuK2FAoAHBAtIzLeU9z5_S0rZfH1VK3sOC_l5zE,1658
+secure_bite/urls.py,sha256=YViDlapIgb-ALH-HgpjIPzub6bCrE-mgTZGeA5c4B1g,374
+secure_bite/views.py,sha256=CSYOQJ41RX8BB7rkNzhcbvnqiU8PKmjAmkjvD1wXRIk,4743
+secure_bite/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secure_bite/tests/test_auth.py,sha256=T5CCkVPz8nlxbjkb3k-EtBKd-v_r1KP36SQeRJq3Mog,1469
+secure_bite/tests/test_middleware.py,sha256=K5XgexvdkhZPToMCBOaRyOUAjJKmaGP6YNjvcVjTOGA,1537
+secure_bite-0.1.1.dist-info/LICENSE,sha256=nr24THpY9BmyZMN-dZOZrfjvUelNZ8QBM9z-nF7FHSE,1096
+secure_bite-0.1.1.dist-info/METADATA,sha256=3cUyGy2qLpx-rTHWBqM3J3kYTj5axO92JvmBG39bujk,12658
+secure_bite-0.1.1.dist-info/WHEEL,sha256=iAkIy5fosb7FzIOwONchHf19Qu7_1wCWyFNR5gu9nU0,91
+secure_bite-0.1.1.dist-info/top_level.txt,sha256=3LlPjp7GI2DvkV43eZOpnUirlAk52HNQMZ1T4_YU3U8,12
+secure_bite-0.1.1.dist-info/RECORD,,

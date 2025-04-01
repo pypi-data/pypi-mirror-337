@@ -1,0 +1,10 @@
+graft docs
+prune docs/_build
+graft tests
+
+include LICENSE_GPL
+include LICENSE_BSD
+include README.rst
+include requirements.txt
+
+global-exclude *~ *.py[cod] *.so

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-storage-local/__init__.py
+src/corex-storage-local/handler.py
+src/corex_storage_local.egg-info/PKG-INFO
+src/corex_storage_local.egg-info/SOURCES.txt
+src/corex_storage_local.egg-info/dependency_links.txt
+src/corex_storage_local.egg-info/top_level.txt
+tests/test_handler.py

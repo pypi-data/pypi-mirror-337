@@ -1,0 +1,8 @@
+README.md
+hammx.py
+pyproject.toml
+hammx.egg-info/PKG-INFO
+hammx.egg-info/SOURCES.txt
+hammx.egg-info/dependency_links.txt
+hammx.egg-info/requires.txt
+hammx.egg-info/top_level.txt

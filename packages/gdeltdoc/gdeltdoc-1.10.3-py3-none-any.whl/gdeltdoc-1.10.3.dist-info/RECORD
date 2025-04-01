@@ -1,0 +1,16 @@
+gdeltdoc/__init__.py,sha256=R3-CikPaSTn55fn0neejUXX13CEArXHg0UgSQqoa-vI,201
+gdeltdoc/_version.py,sha256=pVzvy3IDrWwd7SKjxLZGxQrmTxX9ceB0Wjwzlo_UqIY,19
+gdeltdoc/api_client.py,sha256=2EJXwNIitx7attCZ2tbDNuOcr3VBwicWr774KII92nA,6258
+gdeltdoc/errors.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdeltdoc/filters.py,sha256=1pja0LkrpTD5lBGrWqS7Nz0POytZhgtUeJBGr4Sp1n8,13010
+gdeltdoc/helpers.py,sha256=rZ8n4botLJHutMBEJ4Q8IdJIPOj8fJfLxraJx56l2ig,1003
+gdeltdoc/validation.py,sha256=h3lQxpfgtkQ2waC05qNIAJvztx0CycNPJItdx78its4,401
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=0_heMb3gE3UTmmHeg6oUnXL7iYtHES8QiifPbOs6RaI,3963
+tests/test_filters.py,sha256=88Ya97yKddRBrVG6dbStF1Iniqs-ucD-MGTGxmIN7DA,6564
+tests/test_validation.py,sha256=1gJHyurdquIJyPB8rtfSpkR54t9k65QVYWzApR49zoY,571
+gdeltdoc-1.10.3.dist-info/LICENSE,sha256=y7M6ojbtALzYb9j-gtvNZtEBVjBqxNnK50xsZZp9x6E,1077
+gdeltdoc-1.10.3.dist-info/METADATA,sha256=FP5Gf0Nnzl6EE742-vGJvvppoXmM8e55n8INdsvmW7M,6882
+gdeltdoc-1.10.3.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+gdeltdoc-1.10.3.dist-info/top_level.txt,sha256=iZhwbMZmGqD8DuXLFz2hwLakiAJFe_S5wwRg5CocToA,15
+gdeltdoc-1.10.3.dist-info/RECORD,,

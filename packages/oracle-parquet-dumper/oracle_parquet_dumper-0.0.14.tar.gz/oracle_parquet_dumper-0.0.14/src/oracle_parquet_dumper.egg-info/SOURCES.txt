@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+./src/oracle_parquet_dumper.egg-info/PKG-INFO
+./src/oracle_parquet_dumper.egg-info/SOURCES.txt
+./src/oracle_parquet_dumper.egg-info/dependency_links.txt
+./src/oracle_parquet_dumper.egg-info/entry_points.txt
+./src/oracle_parquet_dumper.egg-info/requires.txt
+./src/oracle_parquet_dumper.egg-info/top_level.txt
+src/oracle_parquet_dumper/__init__.py
+src/oracle_parquet_dumper/main.py
+src/oracle_parquet_dumper.egg-info/PKG-INFO
+src/oracle_parquet_dumper.egg-info/SOURCES.txt
+src/oracle_parquet_dumper.egg-info/dependency_links.txt
+src/oracle_parquet_dumper.egg-info/entry_points.txt
+src/oracle_parquet_dumper.egg-info/requires.txt
+src/oracle_parquet_dumper.egg-info/top_level.txt

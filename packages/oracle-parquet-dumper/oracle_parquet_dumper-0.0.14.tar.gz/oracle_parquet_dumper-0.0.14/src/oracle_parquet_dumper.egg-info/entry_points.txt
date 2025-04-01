@@ -1,0 +1,2 @@
+[console_scripts]
+oracle-parquet-dumper = oracle_parquet_dumper.main:click_dumper

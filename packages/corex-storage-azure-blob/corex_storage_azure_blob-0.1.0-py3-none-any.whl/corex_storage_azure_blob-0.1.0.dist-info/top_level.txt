@@ -1,0 +1,1 @@
+corex-storage-azure_blob

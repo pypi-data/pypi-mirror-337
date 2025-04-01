@@ -1,0 +1,9 @@
+doc_control/__init__.py,sha256=L1rfkmAN0iajiiKvT9tn-aNiaLof1-iRCXskBundoxY,423
+doc_control/doc_control.py,sha256=AFpslhGVmKa3dMW0fAj33IYGq_NBr1y5T8Ngx83hjsc,6265
+midas_api/__init__.py,sha256=asu5-rskNY7F7fqqUwDErqJllc0a7B2q_Ee9tsK5VMg,95
+midas_api/midas_api.py,sha256=4dQkfYkWIChFXu_hNdscWmA1zmVG7lhSjBuuknNGJ_Q,1531
+pymimi-0.0.1005.dist-info/licenses/LICENSE.txt,sha256=URQ_o-ljqA_HfHlX8maHs1dAiZU4lX9lgxq8PGi768k,1094
+pymimi-0.0.1005.dist-info/METADATA,sha256=Jh6XjUexQC514RIEIYnNbcgKcgKjlj5eyFhoohFjKu4,2142
+pymimi-0.0.1005.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pymimi-0.0.1005.dist-info/top_level.txt,sha256=Uqkj1nbiT3vsJabz3f6cFQwIR3rzydtcH60Psbq2Wks,22
+pymimi-0.0.1005.dist-info/RECORD,,

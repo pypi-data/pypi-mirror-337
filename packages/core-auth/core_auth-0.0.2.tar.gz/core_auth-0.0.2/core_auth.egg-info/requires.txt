@@ -1,0 +1,14 @@
+core-mixins>=1.1.2
+core-tests>=1.1.0
+
+[crypto]
+pyjwt[crypto]
+
+[docs]
+pydata-sphinx-theme==0.16.1
+Sphinx==8.2.3
+
+[jwt]
+
+[jwt:python_version >= "3.9"]
+pyjwt>=2.10.1

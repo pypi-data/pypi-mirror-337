@@ -1,0 +1,2 @@
+[console_scripts]
+health-universe-sdk = health_universe_sdk.cli:main

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "m-patternpy"
+version = "2.0.1"
+homepage = "https://500apps.com"
+repository = "https://500apps.com"
+description = "Trading analysis with high-speed pattern recognition, leveraging Pandas & Numpy. Effortlessly spot Head & Shoulders, Tops & Bottoms, Supports & Resistances. For experts & beginners. #TradingMadeEasy 🔥"
+authors = ["500apps <satyabrata.swain@500apps.com>"]
+readme = "readme.md"
+packages = [{ include = "patternpy", from = "src" }]
+keywords = ["patternpy"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.13"
+numpy = "^2.2.4"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

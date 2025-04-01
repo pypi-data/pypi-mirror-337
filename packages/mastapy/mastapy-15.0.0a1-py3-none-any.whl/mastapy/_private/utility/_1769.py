@@ -1,0 +1,330 @@
+"""PersistentSingleton"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private import _0
+from mastapy._private._internal import conversion, utility
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_method_call,
+    pythonnet_property_get,
+)
+from mastapy._private._internal.type_enforcement import enforce_parameter_types
+
+_PERSISTENT_SINGLETON = python_net_import("SMT.MastaAPI.Utility", "PersistentSingleton")
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.bearings import _2085
+    from mastapy._private.gears.gear_designs.cylindrical import _1114
+    from mastapy._private.gears.ltca.cylindrical import _951
+    from mastapy._private.gears.materials import _683
+    from mastapy._private.nodal_analysis import _71
+    from mastapy._private.nodal_analysis.geometry_modeller_link import _232
+    from mastapy._private.system_model.part_model import _2644, _2669
+    from mastapy._private.utility import _1768, _1770, _1771
+    from mastapy._private.utility.cad_export import _2017
+    from mastapy._private.utility.databases import _2009
+    from mastapy._private.utility.scripting import _1917
+    from mastapy._private.utility.units_and_measurements import _1781
+
+    Self = TypeVar("Self", bound="PersistentSingleton")
+    CastSelf = TypeVar(
+        "CastSelf", bound="PersistentSingleton._Cast_PersistentSingleton"
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("PersistentSingleton",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_PersistentSingleton:
+    """Special nested class for casting PersistentSingleton to subclasses."""
+
+    __parent__: "PersistentSingleton"
+
+    @property
+    def fe_user_settings(self: "CastSelf") -> "_71.FEUserSettings":
+        from mastapy._private.nodal_analysis import _71
+
+        return self.__parent__._cast(_71.FEUserSettings)
+
+    @property
+    def geometry_modeller_settings(self: "CastSelf") -> "_232.GeometryModellerSettings":
+        from mastapy._private.nodal_analysis.geometry_modeller_link import _232
+
+        return self.__parent__._cast(_232.GeometryModellerSettings)
+
+    @property
+    def gear_material_expert_system_factor_settings(
+        self: "CastSelf",
+    ) -> "_683.GearMaterialExpertSystemFactorSettings":
+        from mastapy._private.gears.materials import _683
+
+        return self.__parent__._cast(_683.GearMaterialExpertSystemFactorSettings)
+
+    @property
+    def cylindrical_gear_fe_settings(
+        self: "CastSelf",
+    ) -> "_951.CylindricalGearFESettings":
+        from mastapy._private.gears.ltca.cylindrical import _951
+
+        return self.__parent__._cast(_951.CylindricalGearFESettings)
+
+    @property
+    def cylindrical_gear_defaults(self: "CastSelf") -> "_1114.CylindricalGearDefaults":
+        from mastapy._private.gears.gear_designs.cylindrical import _1114
+
+        return self.__parent__._cast(_1114.CylindricalGearDefaults)
+
+    @property
+    def per_machine_settings(self: "CastSelf") -> "_1768.PerMachineSettings":
+        from mastapy._private.utility import _1768
+
+        return self.__parent__._cast(_1768.PerMachineSettings)
+
+    @property
+    def program_settings(self: "CastSelf") -> "_1770.ProgramSettings":
+        from mastapy._private.utility import _1770
+
+        return self.__parent__._cast(_1770.ProgramSettings)
+
+    @property
+    def pushbullet_settings(self: "CastSelf") -> "_1771.PushbulletSettings":
+        from mastapy._private.utility import _1771
+
+        return self.__parent__._cast(_1771.PushbulletSettings)
+
+    @property
+    def measurement_settings(self: "CastSelf") -> "_1781.MeasurementSettings":
+        from mastapy._private.utility.units_and_measurements import _1781
+
+        return self.__parent__._cast(_1781.MeasurementSettings)
+
+    @property
+    def scripting_setup(self: "CastSelf") -> "_1917.ScriptingSetup":
+        from mastapy._private.utility.scripting import _1917
+
+        return self.__parent__._cast(_1917.ScriptingSetup)
+
+    @property
+    def database_settings(self: "CastSelf") -> "_2009.DatabaseSettings":
+        from mastapy._private.utility.databases import _2009
+
+        return self.__parent__._cast(_2009.DatabaseSettings)
+
+    @property
+    def cad_export_settings(self: "CastSelf") -> "_2017.CADExportSettings":
+        from mastapy._private.utility.cad_export import _2017
+
+        return self.__parent__._cast(_2017.CADExportSettings)
+
+    @property
+    def skf_settings(self: "CastSelf") -> "_2085.SKFSettings":
+        from mastapy._private.bearings import _2085
+
+        return self.__parent__._cast(_2085.SKFSettings)
+
+    @property
+    def default_export_settings(self: "CastSelf") -> "_2644.DefaultExportSettings":
+        from mastapy._private.system_model.part_model import _2644
+
+        return self.__parent__._cast(_2644.DefaultExportSettings)
+
+    @property
+    def planet_carrier_settings(self: "CastSelf") -> "_2669.PlanetCarrierSettings":
+        from mastapy._private.system_model.part_model import _2669
+
+        return self.__parent__._cast(_2669.PlanetCarrierSettings)
+
+    @property
+    def persistent_singleton(self: "CastSelf") -> "PersistentSingleton":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class PersistentSingleton(_0.APIBase):
+    """PersistentSingleton
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _PERSISTENT_SINGLETON
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def report_names(self: "Self") -> "List[str]":
+        """List[str]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ReportNames")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp, str)
+
+        if value is None:
+            return None
+
+        return value
+
+    def save(self: "Self") -> None:
+        """Method does not return."""
+        pythonnet_method_call(self.wrapped, "Save")
+
+    @enforce_parameter_types
+    def output_default_report_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped, "OutputDefaultReportTo", file_path if file_path else ""
+        )
+
+    def get_default_report_with_encoded_images(self: "Self") -> "str":
+        """str"""
+        method_result = pythonnet_method_call(
+            self.wrapped, "GetDefaultReportWithEncodedImages"
+        )
+        return method_result
+
+    @enforce_parameter_types
+    def output_active_report_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped, "OutputActiveReportTo", file_path if file_path else ""
+        )
+
+    @enforce_parameter_types
+    def output_active_report_as_text_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped, "OutputActiveReportAsTextTo", file_path if file_path else ""
+        )
+
+    def get_active_report_with_encoded_images(self: "Self") -> "str":
+        """str"""
+        method_result = pythonnet_method_call(
+            self.wrapped, "GetActiveReportWithEncodedImages"
+        )
+        return method_result
+
+    @enforce_parameter_types
+    def output_named_report_to(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped,
+            "OutputNamedReportTo",
+            report_name if report_name else "",
+            file_path if file_path else "",
+        )
+
+    @enforce_parameter_types
+    def output_named_report_as_masta_report(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped,
+            "OutputNamedReportAsMastaReport",
+            report_name if report_name else "",
+            file_path if file_path else "",
+        )
+
+    @enforce_parameter_types
+    def output_named_report_as_text_to(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        pythonnet_method_call(
+            self.wrapped,
+            "OutputNamedReportAsTextTo",
+            report_name if report_name else "",
+            file_path if file_path else "",
+        )
+
+    @enforce_parameter_types
+    def get_named_report_with_encoded_images(self: "Self", report_name: "str") -> "str":
+        """str
+
+        Args:
+            report_name (str)
+        """
+        report_name = str(report_name)
+        method_result = pythonnet_method_call(
+            self.wrapped,
+            "GetNamedReportWithEncodedImages",
+            report_name if report_name else "",
+        )
+        return method_result
+
+    @property
+    def cast_to(self: "Self") -> "_Cast_PersistentSingleton":
+        """Cast to another type.
+
+        Returns:
+            _Cast_PersistentSingleton
+        """
+        return _Cast_PersistentSingleton(self)

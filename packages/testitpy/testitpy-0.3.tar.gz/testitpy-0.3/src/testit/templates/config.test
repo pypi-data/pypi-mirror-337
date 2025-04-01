@@ -1,0 +1,58 @@
+{
+  target: {
+    name: "pynq-z2"
+    type: "fpga"
+    usbPort: 2 
+    baudrate: 9600
+    iterations: 10
+    outputFile: "path/to/sim/dump"
+  }
+
+  report: {
+    dir: "path/to/report/folder"
+  }
+  
+  test: [
+    {
+      appName: "application_name"
+      dir: "path/to/app"
+      genFilesName: "test_data"
+      outputFormat: "(\\d+):(\\d+):(\\d+)" 
+      outputTags: ["TestID", "Cycles", "Outcome"]
+
+      parameters: [
+        {
+          name: "SIZE"
+          value: [4, 10]
+          step: 2
+        }
+      ]
+
+      inputDataset: [
+        { 
+          name: "input_matrix_A"
+          dataType: "uint8_t"
+          valueRange: [0, 255]
+          dimensions: ["SIZE", "SIZE"]
+        }
+        { 
+          name: "input_matrix_B"
+          dataType: "uint8_t"
+          valueRange: [0, 255]
+          dimensions: ["SIZE", "SIZE"]
+        }
+      ]
+
+      outputDataset: [
+        { 
+          name: "output_matrix"
+          dataType: "uint8_t"
+        }
+      ]
+
+      goldenResultFunction: {
+        name: "matmul"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+codemod_paths = [
+  "relativbe/path",
+  "/absolute/path",
+  #  ".my-codemods"
+]
+
+[sqlfmt]
+dialect = "mysql"
+sqlfluff_config_file = "src/codemod/mods/sql/.sqlfluff"

@@ -1,0 +1,14 @@
+perforatedai/__init__.cp38-win_amd64.pyd,sha256=RhxDSBHNHzlPn4rn8iIJck5yZzRvFH5UJ4NsZRge9GE,23040
+perforatedai/blockwisePB.cp38-win_amd64.pyd,sha256=03_hojFSggMHBxn-bAelFjLWTPbmPVpoBDvhifUDiio,162816
+perforatedai/check_license.cp38-win_amd64.pyd,sha256=kM0GX0fpVvdlay9WMMpQx21FtYAUM7iZvf3Ygj5EeJ0,77824
+perforatedai/cleanLoad.cp38-win_amd64.pyd,sha256=MvF39DNnVcsU2YlbDLaX0qhIby9vS4mvm7PEdbBJYeA,110592
+perforatedai/pb_globals.cp38-win_amd64.pyd,sha256=kG1jfxgy5gEMx5sU9siKF09E9ISP2-sRgMT4OmK0oqo,75776
+perforatedai/pb_layer.cp38-win_amd64.pyd,sha256=uwEynrNk8adn-oGad7mG7Nft0RyNq3CXlZnU8mLTf2E,500736
+perforatedai/pb_models.cp38-win_amd64.pyd,sha256=SqGS0ST3sA7KeXH1oixWzdkYeZ4KzLc8Jv_WMsJRq60,312832
+perforatedai/pb_network.cp38-win_amd64.pyd,sha256=fUM6y7dOCEhWbXo50Nrqpg_jhzMlaQTkR27ZE44PhRI,144896
+perforatedai/pb_neuron_layer_tracker.cp38-win_amd64.pyd,sha256=Qs1nazWH1Yk6bVOxCkMoHmCYx72eb4bbWywExVsdsnI,882176
+perforatedai/pb_utils.cp38-win_amd64.pyd,sha256=S0svdGMr7cas3odA2gt9FWoV-CzvXlrWzIa6I6JH8uo,319488
+perforatedai-1.0.5.dist-info/METADATA,sha256=3RQMop6AhRY0aI1RFdzmX9dBU9dHZ0SbgLzLmsd9mTc,524
+perforatedai-1.0.5.dist-info/WHEEL,sha256=N6sQ21sT3WcdJJLEJNx13ERof8WaAHD2AD1HUbWJ67E,100
+perforatedai-1.0.5.dist-info/top_level.txt,sha256=aN-RVGd9_0L1QRPEzUSfJ-EKxXmsNTx-bmWXqby6zro,13
+perforatedai-1.0.5.dist-info/RECORD,,

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: navam
+Version: 0.1
+Summary: Change colors in a Dichromatic Image
+Home-page: https://github.com/Navam9530/Dichromatic_Changer
+Author: Nava Teja
+Author-email: mushamnavam9530@gmail.com
+License: MIT
+Keywords: Image-Manipulation Color-Inversion Dichromatic-Images
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Other/Nonlisted Topic
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow>=11.1.0
+
+# Change colors in a Dichromatic Image
+
+## Installation
+
+`pip install navam`
+
+## Example Usage
+
+```python
+from navam import change_colors
+
+img_path = 'Path/to/Image.jpg'      # Provide 'raw' string incase of Windows Path
+light_color = (0, 0, 0)             # Color value for the light pixels
+dark_color = (0, 255, 0)            # Color value for the dark pixels
+new_img_path = 'Path/to/Image.jpg'  # Don't forget the file extension
+
+change_colors(img_path, light_color, dark_color, new_img_path)
+```
+
+### NOTE
+
+If successfully processed, prints a message
+
+`Image saved to: {new_img_path}`

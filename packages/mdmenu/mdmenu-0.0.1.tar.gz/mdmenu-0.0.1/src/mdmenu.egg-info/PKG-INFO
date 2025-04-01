@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: mdmenu
+Version: 0.0.1
+Summary: A small example package
+Author-email: Matt Dennett <dennett.matthew@gmail.com>
+Project-URL: Homepage, https://github.com/matthewdennett/python-mdmenu
+Project-URL: Issues, https://github.com/matthewdennett/python-mdmenu/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# python-mdmenu
+
+![pylint](https://img.shields.io/badge/PyLint-8.65-yellow?logo=python&logoColor=white)

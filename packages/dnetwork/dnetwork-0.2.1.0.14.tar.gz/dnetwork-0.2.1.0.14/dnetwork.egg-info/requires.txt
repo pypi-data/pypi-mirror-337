@@ -1,0 +1,27 @@
+gql[all]
+requests-toolbelt
+pytest
+pytest-mock
+pytest-cov
+websockets==15.0.1
+
+[:python_version > "3.7"]
+importlib-metadata
+
+[build]
+build
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+black
+mypy
+ruff
+gql[all]
+websockets==15.0.1
+
+[test]
+pytest
+pytest-mock
+pytest-cov

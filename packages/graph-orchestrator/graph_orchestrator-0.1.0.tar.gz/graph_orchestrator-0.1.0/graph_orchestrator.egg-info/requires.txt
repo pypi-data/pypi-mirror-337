@@ -1,0 +1,7 @@
+matplotlib
+
+[dev]
+pytest
+coverage
+build
+twine

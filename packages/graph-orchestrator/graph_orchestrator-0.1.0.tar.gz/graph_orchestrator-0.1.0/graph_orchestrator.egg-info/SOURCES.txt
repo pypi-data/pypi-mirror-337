@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+core/GraphExecutorStatic.py
+core/__init__.py
+graph_orchestrator.egg-info/PKG-INFO
+graph_orchestrator.egg-info/SOURCES.txt
+graph_orchestrator.egg-info/dependency_links.txt
+graph_orchestrator.egg-info/requires.txt
+graph_orchestrator.egg-info/top_level.txt
+tests/__init__.py
+tests/tests.py

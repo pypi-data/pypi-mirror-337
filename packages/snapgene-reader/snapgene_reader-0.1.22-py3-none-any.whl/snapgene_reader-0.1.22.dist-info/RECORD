@@ -1,0 +1,9 @@
+snapgene_reader/__init__.py,sha256=n5Ju-owNT-HLOWvMX37ugnWuXraHNvwrK5oZ-Gdb4qM,299
+snapgene_reader/snapgene_reader.py,sha256=2fsy23Vg75kYmvVoIv_uxvpbrZEMPOAV1nHR3ZMgbBk,14591
+snapgene_reader/version.py,sha256=zmP2TRnzKPjZJ1eiBcT-cRInsji6FW-OVD3FafQFCc4,23
+snapgene_reader-0.1.22.dist-info/licenses/LICENCE.txt,sha256=X-1g2DjJ17O1EPOPy1olJlrllM7j7q2iCU_dRMuQjDY,1132
+tests/test_general.py,sha256=hhxiHB4w0hQ95pz6JZMzaL-UY9FgroIbiS7bjWw49gQ,1157
+snapgene_reader-0.1.22.dist-info/METADATA,sha256=ZgYJtkJzqiMdacGPiNheB9k4c2iOYYWiYDRBgqbi35s,1431
+snapgene_reader-0.1.22.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+snapgene_reader-0.1.22.dist-info/top_level.txt,sha256=O_UoKLvnUaM1h8XEw89REr5Fpw2a5L-vSbV3CLz1ckA,22
+snapgene_reader-0.1.22.dist-info/RECORD,,

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.27.4/full/pyodide.js"></script>
+  </head>
+
+  <body>
+    <p>
+      You can execute any Python code. Just enter something in the box below and
+      click the button.
+    </p>
+    <input id="code" value="sum([1, 2, 3, 4, 5])" />
+    <button onclick="evaluatePython()">Run</button>
+    <br />
+    <br />
+    <div>Output:</div>
+    <textarea id="output" style="width: 100%" rows="6" disabled></textarea>
+
+    <script src="egg-pyodide.js"></script>
+  </body>
+</html>

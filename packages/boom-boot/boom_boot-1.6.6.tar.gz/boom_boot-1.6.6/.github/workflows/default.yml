@@ -1,0 +1,71 @@
+---
+name: Boom CI
+on: [push]
+jobs:
+  python-basic-tests:
+    runs-on: ubuntu-latest
+    container:
+      image: fedora:latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Install Fedora deps
+        run: >
+          dnf -y install
+          python3-dbus
+          python3-pycodestyle
+          python3-sphinx
+          python3-coverage
+          python3-pytest
+          python-unversioned-command
+          python3-toml
+          python3-wheel
+          python3-pip
+          bandit
+      - name: Install Boom
+        run: >
+          sudo pip install -v .
+      - name: Check PyCodestyle
+        run: >
+          pycodestyle boom --ignore E501,E203,W503
+      - name: Run bandit
+        run: >
+          bandit -c bandit.toml -r boom
+      - name: Run test suite with coverage
+        run: >
+          coverage run /usr/bin/pytest -v --log-level=debug
+      - name: Report coverage
+        run: |
+          coverage report -m --include "./boom/*"
+  python-basic-tests-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Run apt-get update
+        run: sudo apt-get -q update
+      - name: Install Ubuntu deps
+        run: >
+          DEBIAN_FRONTEND=noninteractive
+          sudo apt-get install -y
+          python3-pytest
+          python3-pycodestyle
+          python3-coverage
+          pycodestyle
+          bandit
+      - name: Install Boom
+        run: >
+          sudo pip install -v .
+      - name: Check PyCodestyle
+        run: >
+          pycodestyle boom --ignore E501,E203,W503
+      - name: Run bandit
+        run: >
+          bandit --skip B303,B404,B603 -r boom
+      - name: Run test suite with coverage
+        run: >
+          sudo python3-coverage run /usr/bin/pytest-3 -v --log-level=debug
+      - name: Report coverage
+        run: |
+          sudo python3-coverage report -m --include "./boom/*"
+

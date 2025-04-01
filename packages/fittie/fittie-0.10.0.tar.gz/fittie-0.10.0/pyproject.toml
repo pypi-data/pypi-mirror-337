@@ -1,0 +1,54 @@
+[project]
+name = "fittie"
+version = "0.10.0"
+description = "FIT file tool"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Marcel Blijleven" }]
+maintainers = [{ name = "Marcel Blijleven" }]
+license = { file = "LICENSE" }
+keywords = ["fit", "fitfile", "fitfile decode", "decoding", "garmin"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "pydantic>=2.10.6",
+]
+
+[tool.ruff]
+line-length = 88
+exclude = [".git", "*.json", "fittie/fitfile/profile/fit_types.py"]
+
+[tool.coverage.run]
+omit = [
+  "fittie/fitfile/profile/fit_types.py",
+  "fittie/fitfile/profile/mesg_nums.py",
+  "fittie/fitfile/profile/messages.py",
+]
+
+[tool.commitizen]
+version = "0.10.0"
+version_files = ["pyproject.toml", "fittie/__init__.py"]
+update_changelog_on_bump = true
+tag_format = "v$major.$minor.$patch$prerelease"
+annotated_tag = true
+major_version_zero = true                                         # Disable this when ready to go to 1.0.0
+change_type_map = { "feat" = "Features ✨", "fix" = "Bugfixes 🐛" }
+
+[dependency-groups]
+dev = [
+    "commitizen>=4.4.1",
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.11.2",
+]
+docs = [
+    "mkdocs==1.4.2",
+    "mkdocs-material==9.0.15",
+]

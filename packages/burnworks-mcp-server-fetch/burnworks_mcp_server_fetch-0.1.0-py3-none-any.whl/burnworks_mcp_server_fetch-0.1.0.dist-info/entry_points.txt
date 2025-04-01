@@ -1,0 +1,2 @@
+[console_scripts]
+burnworks-mcp-server-fetch = burnworks_mcp_server_fetch:main

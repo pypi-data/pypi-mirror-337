@@ -1,0 +1,11 @@
+burnworks_mcp_server_fetch/__init__.py,sha256=YgaMKBr9DgRXFurbFHuYhS7TKB1ZXo10MzxyTDQEs7w,760
+burnworks_mcp_server_fetch/__main__.py,sha256=xKgYh8VHjGSbVy9AxKbW08kG2EvYY5OEBynDreN3eSA,67
+burnworks_mcp_server_fetch/selector_extractor.py,sha256=EZ_TveKAMz1Muv8YxOaC73-e-2eYPTpLHHHO6jJxhP0,2736
+burnworks_mcp_server_fetch/server.py,sha256=F1vbfpWGlXEksBrsfR1Dj8yH6n-MrdGhz93c7qqMdJA,10905
+burnworks_mcp_server_fetch/server_init.py,sha256=AAt2ppVBGJttnH8NkpSg2XjVfOrv5ppiTlpXa9qnBbI,1089
+burnworks_mcp_server_fetch/server_patch.py,sha256=gUpCJ1mlZUGN6pQUQupHsDtxL1Z-go4b2l28df7gfvU,3964
+burnworks_mcp_server_fetch-0.1.0.dist-info/METADATA,sha256=LWAEZKxf-BD7_U3IiGFFzpmpr-YMJtSK5OeasMflTOg,935
+burnworks_mcp_server_fetch-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+burnworks_mcp_server_fetch-0.1.0.dist-info/entry_points.txt,sha256=9XyXWGurfRUGR8G9wqs-gAUbcY7LX9QJlP0euXmvwrs,79
+burnworks_mcp_server_fetch-0.1.0.dist-info/licenses/LICENSE,sha256=jMfG4zsk7U7o_MzDPszxAlSdBPpMuXN87Ml3Da0QgP8,1059
+burnworks_mcp_server_fetch-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/xcm_wiki/__init__.py
+src/xcm_wiki/__main__.py
+src/xcm_wiki/cm.py
+src/xcm_wiki/exceptions.py
+src/xcm_wiki/log.conf
+src/xcm_wiki_gen.egg-info/PKG-INFO
+src/xcm_wiki_gen.egg-info/SOURCES.txt
+src/xcm_wiki_gen.egg-info/dependency_links.txt
+src/xcm_wiki_gen.egg-info/entry_points.txt
+src/xcm_wiki_gen.egg-info/requires.txt
+src/xcm_wiki_gen.egg-info/top_level.txt

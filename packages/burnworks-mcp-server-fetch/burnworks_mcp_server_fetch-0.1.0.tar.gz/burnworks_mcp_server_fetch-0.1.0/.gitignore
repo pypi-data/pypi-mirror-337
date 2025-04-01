@@ -1,0 +1,35 @@
+# Build
+/dist/
+/build/
+*.egg-info/
+*.egg
+
+# Python
+/venv/
+/.venv/
+/env/
+/.env/
+
+# Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log
+*.log
+
+# env
+.env
+.envrc
+.pypirc

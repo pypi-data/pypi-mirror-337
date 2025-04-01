@@ -1,0 +1,112 @@
+pace:
+  OCI:
+    - name: L1B
+      concept-id: C3392966952-OB_CLOUD
+      shortname: PACE_OCI_L1B_SCI
+      description: |
+        The primary sensor aboard the PACE spacecraft is the Ocean Color Instrument (OCI).
+        It is a highly advanced optical spectrometer that will be used to measure properties of light over portions of the electromagnetic spectrum.
+        It will enable continuous measurement of light at finer wavelength resolution than previous NASA satellite sensors, 
+        extending key system ocean color data records for climate studies.
+      start-date: 2024-03-05
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C3392966952-OB_CLOUD.html
+      formats: [nc]
+
+aqua:
+  MODIS:
+    - name: L1B
+      concept-id: C1236350921-GES_DISC
+      shortname: MAC02QS1
+      description: |
+        This is the wide-swath MODIS/Aqua subset along CloudSat field of view track.
+        The goal of the wide-swath subset is to select and return MODIS data that are within +-100 km across the CloudSat track. 
+        I.e. the resultant MODIS subset swath is about 200 km cross-track. 
+        Thus, MAC02QS1 cross-track width is 804 pixels for radiances. 
+        Geolocations, however, are 1-km at best, and thus the cross-track width for geolocations is 201 pixels.
+        Along-track, all MODIS pixels from the original product are preserved.
+
+        In the standard product, the 250 meter MODIS Level 1B data set contains calibrated and geolocated at-aperture radiances for 2 discrete bands 
+        located in the 0.62 to 0.88 micron region of the electromagnetic spectrum.
+        These data are generated from the MODIS Level 1A scans of raw radiance and in the process converted to geophysical units of W/(m^2 um sr).
+        In addition, the Earth Bi-directional Reflectance Distribution Function (BRDF) may be determined for these solar reflective bands through 
+        knowledge of the solar irradiance (e.g., determined from MODIS solar diffuser data, and from the target illumination geometry).
+        Additional data are provided including quality flags, error estimates and calibration data. 
+      start-date: 2006-06-02
+      end-date: 2018-03-01
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C1236350921-GES_DISC.html
+      formats: [hdf]
+
+  AIRS:
+    - name: L1B
+      concept-id: C1243477372-GES_DISC
+      shortname: AIRVBQAP
+      description: |
+        The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) 
+        polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder 
+        for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors.
+        The AIRS Visible/Near Infrared (VIS/NIR) Level 1B QA Subset contains Quality Assurance (QA) parameters that a may use of 
+        filter AIRS VIS/NIR Level 1B radiance data to create a subset of analysis. It includes "state" that user should check before 
+        using any VIS/NIR Level 1B data radiance and "glintlat", "glintlon", and "sun_glint_distant" that users can use to check for 
+        possibility of solar glint contamination. AIRS VIS/NIR Level 1B radiance data can be found in AIRVBRAD.
+      start-date: 2002-08-30
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C1243477372-GES_DISC.html
+      formats: [hdf]
+
+gpm:
+  GMI:
+    - name: L1B
+      concept-id: C2259345403-GES_DISC
+      shortname: GPM_1BGMI
+      description: |
+        Version 07 is the current version of the data set. Older versions will no longer be available and have been superseded by Version 07.
+        The 1BGMI algorithm uses a non-linear three-point in-flight calibration to derive antenna temperature (Ta) and convert Ta to Tb
+        using GMI antenna pattern corrections. The four-point calibration, which utilizes noise diode measurements, is used to monitor
+        the sensor non-linearty. The noise diode measurements also provide a hot load back-up calibration in case hot load measurements are lost.
+        Details are in the GMI ATBD. The 1BGMI algorithm and software transform Level 0 counts into geolocated and calibrated
+        brightness temperatures (Tb) for 13 GMI channels.
+      start-date: 2014-03-04
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C2259345403-GES_DISC.html
+      formats: [hdf5]
+
+sentinel-5p:
+  TROPOMI:
+    - name: L1B
+      concept-id: C2086600995-GES_DISC
+      shortname: S5P_L1B_RA_BD8_HiR
+      description: |
+        Starting from August 6th in 2019, Sentinel-5P TROPOMI along-track high spatial resolution (~5.5km at nadir) has been implemented.
+        For data before August 6th of 2019, please check S5P_L1B_RA_BD8_1 data collection.
+        The Copernicus Sentinel-5 Precursor (Sentinel-5P or S5P) satellite mission is one of the European Space Agency's (ESA) new mission family - 
+        Sentinels, and it is a joint initiative between the Kingdom of the Netherlands and the ESA. 
+        The sole payload on Sentinel-5P is the TROPOspheric Monitoring Instrument (TROPOMI), which is a nadir-viewing 108 degree Field-of-View 
+        push-broom grating hyperspectral spectrometer, covering the wavelength of ultraviolet-visible (UV-VIS, 270nm to 495nm), 
+        near infrared (NIR, 675nm to 775nm), and shortwave infrared (SWIR, 2305nm-2385nm). TROPOMI Level-1B (L1B) product is generated by the 
+        Koninklijk Nederlands Meteoroligisch Instituut (KNMI) TROPOMI L01B processor from Level-0 input data and auxiliary data products with 
+        the netCDF-4 enhanced model. It provides users with radiance, irradiance, calibration and engineering products.
+        The TROPOspheric Monitoring Instrument (TROPOMI) is a spectrometer that will make atmospheric measurements from space.
+        TROPOMI is a nadir-viewing spectrometer that will measure ultraviolet, visible, near-infrared, and shortwave infrared 
+        wavelengths to detect and quantify the presence of certain trace gases in the atmosphere. 
+        The instrument will provide near-daily global coverage, with a spatial resolution of 7 km x 7 km.
+      start-date: 2019-08-06
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C2086600995-GES_DISC.html
+      formats: [nc]
+
+    - name: L1B
+      concept-id: C1442068503-GES_DISC
+      shortname: S5P_L1B_RA_BD8
+      description: |
+        Starting from August 6th in 2019, Sentinel-5P TROPOMI along-track high spatial resolution (~5.5km at nadir) has been implemented.
+        For data after August 6th of 2019, please check S5P_L1B_RA_BD8_HiR data collection.
+
+        The Copernicus Sentinel-5 Precursor (Sentinel-5P or S5P) satellite mission is one of the European Space Agency's (ESA) new mission family - 
+        Sentinels, and it is a joint initiative between the Kingdom of the Netherlands and the ESA. 
+        The sole payload on Sentinel-5P is the TROPOspheric Monitoring Instrument (TROPOMI), which is a nadir-viewing 108 degree Field-of-View 
+        push-broom grating hyperspectral spectrometer, covering the wavelength of ultraviolet-visible (UV-VIS, 270nm to 495nm), 
+        near infrared (NIR, 675nm to 775nm), and shortwave infrared (SWIR, 2305nm-2385nm). 
+        TROPOMI Level-1B (L1B) product is generated by the Koninklijk Nederlands Meteoroligisch Instituut (KNMI) TROPOMI 
+        L01B processor from Level-0 input data and auxiliary data products with the netCDF-4 enhanced model. 
+        It provides users with radiance, irradiance, calibration and engineering products.
+      start-date: 2018-04-30
+      end-date: 2019-08-06
+      url: https://cmr.earthdata.nasa.gov/search/concepts/C1442068503-GES_DISC.html
+      formats: [nc]

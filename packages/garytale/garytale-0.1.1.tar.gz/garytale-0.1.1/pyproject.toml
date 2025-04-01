@@ -1,0 +1,24 @@
+[project]
+name = "garytale"
+version = "0.1.1"
+description = "Library for working with Aglient Cary 60 kinetics scan measurements with simultaneous irradiation, as seen in the working group under Prof. Wöll (IPC RWTH Aachen)."
+license = "MIT"
+homepage = "https://github.com/filvuk/garytale"
+authors = [
+    {name = "Filip Vukelić",email = "filip.vukelic@rwth-aachen.de"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "numpy (>=2.2.2,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "garytale", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

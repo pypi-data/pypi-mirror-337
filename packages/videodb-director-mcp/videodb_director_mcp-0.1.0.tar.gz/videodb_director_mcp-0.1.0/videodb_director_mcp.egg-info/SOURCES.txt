@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+videodb_director_mcp.egg-info/PKG-INFO
+videodb_director_mcp.egg-info/SOURCES.txt
+videodb_director_mcp.egg-info/dependency_links.txt
+videodb_director_mcp.egg-info/entry_points.txt
+videodb_director_mcp.egg-info/requires.txt
+videodb_director_mcp.egg-info/top_level.txt
+videodb_mcp_server/__init__.py
+videodb_mcp_server/constants.py
+videodb_mcp_server/main.py

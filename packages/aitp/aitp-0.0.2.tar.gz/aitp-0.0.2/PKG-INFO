@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: aitp
+Version: 0.0.2
+Summary: AITP Python Package
+Requires-Python: >=3.10
+Requires-Dist: aenum>=3.1.15
+Requires-Dist: pydantic>=2.11.1
+Requires-Dist: python-dateutil>=2.9.0.post0
+Requires-Dist: urllib3>=2.3.0
+Description-Content-Type: text/markdown
+
+## AITP Python Package
+
+This package is used to interact with the AITP API.
+
+### Installation
+
+```bash
+pip install aitp
+```
+
+### Releasing
+
+```bash
+./scripts/publish.sh
+git push --tags
+```

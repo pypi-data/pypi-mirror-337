@@ -1,0 +1,6 @@
+fitdecode>=0.10.0
+garmin-fit-sdk>=21.158.0
+matplotlib>=3.10.1
+numpy>=2.2.4
+pandas>=2.2.3
+requests>=2.32.3

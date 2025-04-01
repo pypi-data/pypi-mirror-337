@@ -1,0 +1,3 @@
+examples
+pdf_reports
+tests

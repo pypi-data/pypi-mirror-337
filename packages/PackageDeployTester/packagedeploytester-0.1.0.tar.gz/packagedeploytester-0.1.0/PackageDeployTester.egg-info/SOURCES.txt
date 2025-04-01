@@ -1,0 +1,7 @@
+setup.py
+PackageDeployTester/Module.py
+PackageDeployTester/__init__.py
+PackageDeployTester.egg-info/PKG-INFO
+PackageDeployTester.egg-info/SOURCES.txt
+PackageDeployTester.egg-info/dependency_links.txt
+PackageDeployTester.egg-info/top_level.txt

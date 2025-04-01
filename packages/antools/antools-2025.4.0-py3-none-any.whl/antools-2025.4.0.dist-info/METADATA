@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: antools
+Version: 2025.4.0
+Summary: Private library which is also free to public use. Its purpose is to be useful code keeper.
+Home-page: https://github.com/antonin-drozda
+Author: Antonin Drozda
+Author-email: adrozda.dev@gmail.com
+License: MIT
+Keywords: antools
+Classifier: Framework :: IDLE
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Antools - Anton's Tools
+
+## Overview
+### Private library which is also free to public use. Its purpose is to be useful code keeper and use automation template throughout various projects.
+
+Anton's Tools package contains of following modules:
+
+TBD
+* TBD
+
+## Getting Started
+### Dependencies
+The antools package utilizes following libraries:
+
+*TBD
+
+### Package Installation
+Installable using pip. Execute:
+```
+pip install antools
+```
+
+## Authors
+* **AntonÃ­n Drozda** - adrozda.dev@gmail.com
+
+## URLs
+* **GitHub** - https://github.com/antonin-drozda/antools
+* **Pypi** - https://pypi.org/project/antools/
+
+
+Change Log
+==========
+
+2025.4.0 (01/04/2025)
+-------------------
+Project has started. First Release.

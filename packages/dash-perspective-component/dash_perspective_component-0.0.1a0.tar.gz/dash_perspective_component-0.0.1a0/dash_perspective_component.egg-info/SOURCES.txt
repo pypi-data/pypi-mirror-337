@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_perspective_component/DashPerspectiveComponent.py
+dash_perspective_component/__init__.py
+dash_perspective_component/_imports_.py
+dash_perspective_component/dash_perspective_component.min.js
+dash_perspective_component/dash_perspective_component.min.js.map
+dash_perspective_component/metadata.json
+dash_perspective_component/package-info.json
+dash_perspective_component.egg-info/PKG-INFO
+dash_perspective_component.egg-info/SOURCES.txt
+dash_perspective_component.egg-info/dependency_links.txt
+dash_perspective_component.egg-info/top_level.txt
+tests/test_usage.py

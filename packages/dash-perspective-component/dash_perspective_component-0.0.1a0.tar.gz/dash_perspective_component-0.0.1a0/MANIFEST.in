@@ -1,0 +1,11 @@
+include dash_perspective_component/dash_perspective_component.min.js
+include dash_perspective_component/dash_perspective_component.min.js.map
+include dash_perspective_component/async-*.js
+include dash_perspective_component/async-*.js.map
+include dash_perspective_component/*-shared.js
+include dash_perspective_component/*-shared.js.map
+include dash_perspective_component/metadata.json
+include dash_perspective_component/package-info.json
+include README.md
+include LICENSE
+include package.json

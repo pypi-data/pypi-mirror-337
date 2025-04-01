@@ -1,0 +1,34 @@
+[project]
+name = "autoservice"
+version = "0.1.3"
+description = "一个简单高效的 systemd 服务管理工具，支持自动创建配置文件并智能适配不同类型的服务。"
+authors = [{name = "Yaowen Liu", email = "liuyaowen_smile@126.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["systemd", "service", "linux", "daemon", "process-manager"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Systems Administration",
+]
+
+dependencies = [
+    "click>=8.0.0"
+]
+
+[project.urls]
+Repository = "https://github.com/OpenAISpace/autoservice"
+Documentation = "https://github.com/OpenAISpace/autoservice#readme"
+
+[project.scripts]
+autoservice = "autoservice.main:cli"
+
+
+
+
+
+

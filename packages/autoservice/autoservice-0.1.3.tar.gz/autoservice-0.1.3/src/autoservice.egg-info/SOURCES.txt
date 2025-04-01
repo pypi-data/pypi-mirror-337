@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/autoservice/main.py
+src/autoservice.egg-info/PKG-INFO
+src/autoservice.egg-info/SOURCES.txt
+src/autoservice.egg-info/dependency_links.txt
+src/autoservice.egg-info/entry_points.txt
+src/autoservice.egg-info/requires.txt
+src/autoservice.egg-info/top_level.txt
+src/autoservice/services/__init__.py
+src/autoservice/services/base.py
+src/autoservice/services/npm.py
+src/autoservice/services/python.py
+src/autoservice/services/shell.py

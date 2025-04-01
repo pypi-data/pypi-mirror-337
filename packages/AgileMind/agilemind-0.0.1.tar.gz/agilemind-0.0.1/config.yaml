@@ -1,0 +1,30 @@
+# ------------------------------------------------------------
+# Adjust API key, base URL, and model for each stage if needed
+# ------------------------------------------------------------
+
+default:
+  llm:
+    api_base_url: ${OPENAI_BASE_URL}
+    api_key: ${OPENAI_API_KEY}
+    model: "claude-3-7-sonnet-20250219"
+
+workflow:
+  prototype:
+    # api_base_url: ${OPENAI_BASE_URL}
+    # api_key: ${OPENAI_API_KEY}
+    # model: "claude-3-7-sonnet-20250219"
+
+  architecture:
+    # api_base_url: ${OPENAI_BASE_URL}
+    # api_key: ${OPENAI_API_KEY}
+    # model: "claude-3-7-sonnet-20250219"
+  
+  programming:
+    # api_base_url: ${OPENAI_BASE_URL}
+    # api_key: ${OPENAI_API_KEY}
+    # model: "claude-3-7-sonnet-20250219"
+
+  debugging:
+    # api_base_url: ${OPENAI_BASE_URL}
+    # api_key: ${OPENAI_API_KEY}
+    # model: "claude-3-7-sonnet-20250219"

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: MDUS
+Version: 0.1.0
+Summary: MDUS: MESSENGER's Data Using System
+Home-page: https://github.com/streamamz/MDUS
+Author: Takuro OGAWA
+Author-email: polish.stream@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# MDUS
+MESSENGER's Data Using System
+
+

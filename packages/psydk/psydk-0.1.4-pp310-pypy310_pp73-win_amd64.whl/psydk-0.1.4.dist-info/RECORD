@@ -1,0 +1,5 @@
+psydk-0.1.4.dist-info/METADATA,sha256=4i5pltDvyi0s_dp2D4bQVk-9ycX7095HeUS-l4dNE8c,576
+psydk-0.1.4.dist-info/WHEEL,sha256=M4IfZQilBwYG_WhqKHf1EPREVjGK60AgG2M48QXKxUY,103
+psydk/__init__.py,sha256=l34k23MEhjyai1sI4a_B_2iXrWJcRJ_d3Xb71Z7xRBo,555
+psydk/psydk.pypy310-pp73-win_amd64.pyd,sha256=Dg9vHy_5oxmmCiZ5poziuUTUoPRNQ5T0dbPWGNplmGQ,22396928
+psydk-0.1.4.dist-info/RECORD,,

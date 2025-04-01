@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicBox</title>
+    <link rel="stylesheet" href="/ui/ui.css" />
+    <link rel="icon" type="image/x-icon" href="/ui/favicon.ico" />
+  </head>
+  <body>
+    <script src="/ui/ui.js?v={ver}"></script>
+    <nav class="nav">
+      <ul>
+        <li><input placeholder="" type="text" id="search" onkeydown="" style="width: 160px" /></li>
+        <li>
+          <button onclick="processCommand()">Search</button>
+        </li>
+        <li>
+          <button onclick="getQueue()">Queue</button>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <ul class="content-list" id="content"></ul>
+    </div>
+    <nav class="footer">
+      <ul>
+        <div style="padding-top: 0px"><button id="play">Play</button></div>
+        <div style="padding-left: 6px; font-size: small" onclick="resetStatus();">
+          <div><strong id="songName">Song Name</strong></div>
+          <div id="artistName">Artist Name</div>
+        </div>
+        <div style="margin-left: auto; font-size: small">
+          <div id="time"></div>
+          <div id="queue"></div>
+        </div>
+      </ul>
+    </nav>
+  </body>
+</html>

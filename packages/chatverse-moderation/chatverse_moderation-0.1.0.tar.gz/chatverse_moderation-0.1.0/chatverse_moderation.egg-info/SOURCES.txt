@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+chatverse_moderation/__init__.py
+chatverse_moderation.egg-info/PKG-INFO
+chatverse_moderation.egg-info/SOURCES.txt
+chatverse_moderation.egg-info/dependency_links.txt
+chatverse_moderation.egg-info/requires.txt
+chatverse_moderation.egg-info/top_level.txt

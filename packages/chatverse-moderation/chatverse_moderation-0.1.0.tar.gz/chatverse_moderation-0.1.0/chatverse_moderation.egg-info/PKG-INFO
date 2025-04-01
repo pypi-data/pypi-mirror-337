@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: chatverse_moderation
+Version: 0.1.0
+Summary: Custom library for sentiment analysis and content moderation in chat applications.
+Home-page: https://github.com/yourusername/chatverse-moderation
+Author: Hari Prasanna Kumar
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textblob
+Requires-Dist: nltk
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ChatVerse Moderation
+
+This library provides sentiment analysis and message filtering functions for chat applications.

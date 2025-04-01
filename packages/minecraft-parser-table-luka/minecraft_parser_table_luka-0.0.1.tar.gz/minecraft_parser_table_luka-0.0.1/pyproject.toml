@@ -1,0 +1,21 @@
+[project]
+name = "minecraft_parser_table_luka"
+version = "0.0.1"
+authors = [
+  { name="Gabriel L.D.", email="gabriel@gmail.com" },
+]
+description = "Parser reciepe from minecraft"
+
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+license = {file = "LICENSE.txt"}
+dependencies = [
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3",
+    "pandas>=2.2.3"
+
+]

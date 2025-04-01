@@ -1,0 +1,7 @@
+llama_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/vector_stores/singlestoredb/__init__.py,sha256=w4L-mEyhFyOaATPlHRF1nSlE7DUZ3tjArAcCn23C-is,118
+llama_index/vector_stores/singlestoredb/base.py,sha256=DpjfejVnPU8W1Q8iSnVvNskOETUby9BeQC-rxzoxJQY,11235
+llama_index_vector_stores_singlestoredb-0.3.1.dist-info/LICENSE,sha256=JPQLUZD9rKvCTdu192Nk0V5PAwklIg6jANii3UmTyMs,1065
+llama_index_vector_stores_singlestoredb-0.3.1.dist-info/METADATA,sha256=FkzjhTN7pklseV7mSzcMV2So3_KkqAEg41xfEBqV0M0,730
+llama_index_vector_stores_singlestoredb-0.3.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_vector_stores_singlestoredb-0.3.1.dist-info/RECORD,,

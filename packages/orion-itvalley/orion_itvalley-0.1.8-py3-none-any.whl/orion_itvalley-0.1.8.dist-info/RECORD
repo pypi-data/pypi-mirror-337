@@ -1,0 +1,15 @@
+orion_itvalley/__init__.py,sha256=u-FOiOM58loXf3hIYPTxesTbnGG_mDe6_QlTlQdzdPE,49
+orion_itvalley/orionsdk.py,sha256=zk6MGPhh5c_puR_2M8cF6mj2ZjqQDrODDeHNCWsqx8Q,2684
+orion_itvalley/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orion_itvalley/agents/chatbot.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orion_itvalley/exemplos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orion_itvalley/exemplos/texttospeech.py,sha256=wvSEL0Rkau5yyxp_Xl3X4-ebE7JLsScHIalt5qOZHdw,299
+orion_itvalley/exemplos/transcribe.py,sha256=XztrX41DfwHY_pEFywQPEgRTF63_ne0p1k3Axa20_p8,352
+orion_itvalley/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orion_itvalley/services/texttospeech.py,sha256=Z-ech3SDXs7yz5UYaeAX9gbjUAX5AoYdc37fOI7o1Bk,4933
+orion_itvalley/services/transcriptionaudio.py,sha256=6OPfkJlleHU3rgNFbBx7MOeRzEIH9HDrdDoFwtU8gEY,6689
+orion_itvalley-0.1.8.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orion_itvalley-0.1.8.dist-info/METADATA,sha256=lYQ0KmSlj33q9fKDx7T3iRaLZ_wA6N2uLIVOXnroQ3M,435
+orion_itvalley-0.1.8.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+orion_itvalley-0.1.8.dist-info/top_level.txt,sha256=-3BPVNZYq1JxJtxlk1P5H2HjyXa8FEC2bFKY9O3Susg,15
+orion_itvalley-0.1.8.dist-info/RECORD,,

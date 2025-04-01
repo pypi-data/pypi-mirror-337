@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+basion_uv_demo.egg-info/PKG-INFO
+basion_uv_demo.egg-info/SOURCES.txt
+basion_uv_demo.egg-info/dependency_links.txt
+basion_uv_demo.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: moresca
+Version: 0.1.0
+Summary: Reproducible boilerplate-free workflow management for Scanpy-based scRNA-seq analysis.
+Author-email: Matthias Bruhns <matthias.bruhns@posteo.de>, Jan Thomas Schleicher <jan.schleicher@uni-tuebingen.de>
+License: AGPL-3.0 license
+Keywords: workflow management,scRNA-seq,reproducibility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: scanpy
+Requires-Dist: doubletdetection
+Requires-Dist: harmonypy
+Requires-Dist: openpyxl
+Requires-Dist: anticor-features
+Requires-Dist: numpy
+Requires-Dist: gin-config
+Requires-Dist: loompy
+Requires-Dist: leidenalg
+Requires-Dist: igraph
+Requires-Dist: scikit-misc
+Requires-Dist: pynndescent
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Dynamic: license-file

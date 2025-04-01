@@ -1,0 +1,10 @@
+livekit/plugins/resemble/__init__.py,sha256=9xuQxGYo_lKpEOLN_o7FbWVFiyeP-_v-PJmy_zOs5Y8,1108
+livekit/plugins/resemble/log.py,sha256=Pgg3yqt4OUcjrnnF8SKfH7G-Dk7jFI0yIhDa5hjTW5k,71
+livekit/plugins/resemble/models.py,sha256=C96f5YDrhc3UyG-P90QiGai6pIRr1W7mQgwXUlN9-ts,139
+livekit/plugins/resemble/py.typed,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+livekit/plugins/resemble/tts.py,sha256=x8ee1dhn983mXs9ia0U6ITa8CK6sqWF-LvlC2V41iZo,23016
+livekit/plugins/resemble/version.py,sha256=vQH9cItKAVYAmrLbOntkbLqmxrUZrPiKb1TjkZ8jRKQ,600
+livekit_plugins_resemble-0.1.0.dist-info/METADATA,sha256=XDyrThCqG_bDTIPIv2fIAodMp6hOp-4aKFi771W9uW0,4954
+livekit_plugins_resemble-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+livekit_plugins_resemble-0.1.0.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_resemble-0.1.0.dist-info/RECORD,,

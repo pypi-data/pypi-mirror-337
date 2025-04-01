@@ -1,0 +1,7 @@
+testpackagegepmc/__init__.py,sha256=0vPgc6qIiwzN6iBIUS0xqLLQORgYNmeTSaaGsnW0d9g,84
+testpackagegepmc/jsonresponse.py,sha256=tcLPDx86Aszib9HVrQJrnv94T6ydAEV7n6pdc3gtbgs,182
+testpackagegepmc/queryentities.py,sha256=49HNIoj7fi6FxDIIouAbvM4IIlgxvxseB1jtxdaDQtQ,5160
+testpackagegepmc-0.0.4.dist-info/METADATA,sha256=9pPPpuwCKqFPwGJr3AOLg5SAw8Q3dcWelwwiHz2cBsU,615
+testpackagegepmc-0.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+testpackagegepmc-0.0.4.dist-info/top_level.txt,sha256=ixAjG6jIYHlbygCLZg8eH_Ml8wXKn60UkCmkjwCviNM,17
+testpackagegepmc-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-metrics-datadog/__init__.py
+src/corex-metrics-datadog/handler.py
+src/corex_metrics_datadog.egg-info/PKG-INFO
+src/corex_metrics_datadog.egg-info/SOURCES.txt
+src/corex_metrics_datadog.egg-info/dependency_links.txt
+src/corex_metrics_datadog.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,3 @@
+include README.md CHANGELOG.md LICENSE src/adsbcot/VERSION
+graft src
+recursive-include src/adsbcot/data *

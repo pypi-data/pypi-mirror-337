@@ -1,0 +1,69 @@
+{
+    "common": {
+        "validation_failed_title": "Automation {name} failed to set up"
+    },
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "mode": {
+                    "name": "Run mode",
+                    "state": {
+                        "parallel": "Parallel",
+                        "queued": "Queued",
+                        "restart": "Restart",
+                        "single": "Single"
+                    }
+                }
+            }
+        }
+    },
+    "issues": {
+        "validation_failed_actions": {
+            "description": "The automation \"{name}\" (`{entity_id}`) is not active because its actions could not be set up.\n\nError:`{error}`.\n\nTo fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration."
+        },
+        "validation_failed_blueprint": {
+            "description": "The blueprinted automation \"{name}\" (`{entity_id}`) failed to set up.\n\nError:`{error}`.\n\nTo fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration."
+        },
+        "validation_failed_conditions": {
+            "description": "The automation \"{name}\" (`{entity_id}`) is not active because its conditions could not be set up.\n\nError:`{error}`.\n\nTo fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration."
+        },
+        "validation_failed_schema": {
+            "description": "The automation \"{name}\" (`{entity_id}`) is not active because the configuration has errors.\n\nError:`{error}`.\n\nTo fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration."
+        },
+        "validation_failed_triggers": {
+            "description": "The automation \"{name}\" (`{entity_id}`) is not active because its triggers could not be set up.\n\nError:`{error}`.\n\nTo fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration."
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "Reloads the automation configuration.",
+            "name": "Reload"
+        },
+        "toggle": {
+            "description": "Toggles (enable / disable) an automation.",
+            "name": "Toggle"
+        },
+        "trigger": {
+            "description": "Triggers the actions of an automation.",
+            "fields": {
+                "skip_condition": {
+                    "description": "Defines whether the conditions will be skipped.",
+                    "name": "Skip conditions"
+                }
+            },
+            "name": "Trigger"
+        },
+        "turn_off": {
+            "description": "Disables an automation.",
+            "fields": {
+                "stop_actions": {
+                    "description": "Stops currently running actions.",
+                    "name": "Stop actions"
+                }
+            }
+        },
+        "turn_on": {
+            "description": "Enables an automation."
+        }
+    }
+}

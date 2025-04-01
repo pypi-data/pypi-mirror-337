@@ -1,0 +1,24 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "air": {
+                "name": "Air"
+            },
+            "artillery": {
+                "name": "Artillery"
+            },
+            "chemical": {
+                "name": "Chemical"
+            },
+            "nuclear": {
+                "name": "Nuclear"
+            },
+            "unknown": {
+                "name": "Unknown"
+            },
+            "urban_fights": {
+                "name": "Urban fights"
+            }
+        }
+    }
+}

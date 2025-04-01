@@ -1,0 +1,41 @@
+{
+    "config": {
+        "error": {
+            "remove_holiday_error": "Net goed formaat op datum (JJJJ-MM-DD) of feestdeinamme net f\u00fbn"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "country": "L\u00e2n"
+                }
+            }
+        }
+    },
+    "issues": {
+        "bad_country": {
+            "fix_flow": {
+                "step": {
+                    "country": {
+                        "data": {
+                            "country": "L\u00e2n"
+                        }
+                    }
+                }
+            }
+        },
+        "bad_named_holiday": {
+            "fix_flow": {
+                "error": {
+                    "remove_holiday_error": "Net goed formaat op datum (JJJJ-MM-DD) of feestdeinamme net f\u00fbn"
+                }
+            }
+        }
+    },
+    "selector": {
+        "days": {
+            "options": {
+                "holiday": "Fak\u00e2nsjes"
+            }
+        }
+    }
+}

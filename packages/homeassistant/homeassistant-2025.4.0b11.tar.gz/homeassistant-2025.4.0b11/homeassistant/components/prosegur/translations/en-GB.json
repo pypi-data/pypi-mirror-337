@@ -1,0 +1,17 @@
+{
+    "config": {
+        "step": {
+            "choose_contract": {
+                "data": {
+                    "contract": "Contract"
+                }
+            }
+        }
+    },
+    "services": {
+        "request_image": {
+            "description": "Requests a new image from a Prosegur camera.",
+            "name": "Request camera image"
+        }
+    }
+}

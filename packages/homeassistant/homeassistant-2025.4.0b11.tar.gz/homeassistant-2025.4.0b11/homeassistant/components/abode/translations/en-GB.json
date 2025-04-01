@@ -1,0 +1,38 @@
+{
+    "services": {
+        "capture_image": {
+            "description": "Requests a new image capture from a camera device.",
+            "fields": {
+                "entity_id": {
+                    "description": "Entity ID of the camera to request an image from.",
+                    "name": "Entity"
+                }
+            },
+            "name": "Capture image"
+        },
+        "change_setting": {
+            "description": "Changes an Abode system setting.",
+            "fields": {
+                "setting": {
+                    "description": "Setting to change.",
+                    "name": "Setting"
+                },
+                "value": {
+                    "description": "Value of the setting.",
+                    "name": "Value"
+                }
+            },
+            "name": "Change setting"
+        },
+        "trigger_automation": {
+            "description": "Triggers an Abode automation.",
+            "fields": {
+                "entity_id": {
+                    "description": "Entity ID of the automation to trigger.",
+                    "name": "Entity"
+                }
+            },
+            "name": "Trigger automation"
+        }
+    }
+}

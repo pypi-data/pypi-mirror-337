@@ -1,0 +1,34 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "max": {
+                    "name": "Max length"
+                },
+                "min": {
+                    "name": "Min length"
+                },
+                "mode": {
+                    "state": {
+                        "text": "Text"
+                    }
+                },
+                "pattern": {
+                    "name": "Pattern"
+                }
+            }
+        }
+    },
+    "services": {
+        "set_value": {
+            "description": "Sets the value.",
+            "fields": {
+                "value": {
+                    "description": "Enter your text.",
+                    "name": "Value"
+                }
+            },
+            "name": "Set value"
+        }
+    }
+}

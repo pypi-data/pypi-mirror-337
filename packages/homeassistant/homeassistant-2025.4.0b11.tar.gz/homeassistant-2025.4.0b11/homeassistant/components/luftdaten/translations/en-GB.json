@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "sensor_id": "Sensor ID"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "pressure_at_sealevel": {
+                "name": "Pressure at sealevel"
+            }
+        }
+    }
+}

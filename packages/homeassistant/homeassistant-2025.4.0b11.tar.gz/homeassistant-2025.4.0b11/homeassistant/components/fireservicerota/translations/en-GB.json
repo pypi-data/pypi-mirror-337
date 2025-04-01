@@ -1,0 +1,19 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "duty": {
+                "name": "Duty"
+            }
+        },
+        "sensor": {
+            "incidents": {
+                "name": "Incidents"
+            }
+        },
+        "switch": {
+            "incident_response": {
+                "name": "Incident response"
+            }
+        }
+    }
+}

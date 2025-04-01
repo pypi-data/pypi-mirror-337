@@ -1,0 +1,64 @@
+{
+    "entity": {
+        "update": {
+            "firmware": {
+                "name": "Radio firmware"
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "read_hw_settings_error": "Failed to read hardware settings",
+            "unsupported_firmware": "The radio firmware on your {model} could not be determined. Make sure that no other integration or addon is currently trying to communicate with the device.",
+            "write_hw_settings_error": "Failed to write hardware settings"
+        },
+        "step": {
+            "addon_menu": {
+                "menu_options": {
+                    "reconfigure_addon": "Reconfigure IEEE 802.15.4 radio multiprotocol support",
+                    "uninstall_addon": "Remove IEEE 802.15.4 radio multiprotocol support"
+                }
+            },
+            "change_channel": {
+                "data": {
+                    "channel": "Channel"
+                },
+                "title": "Reconfigure IEEE 802.15.4 radio multiprotocol support"
+            },
+            "hardware_settings": {
+                "data": {
+                    "disk_led": "Green: activity LED",
+                    "heartbeat_led": "Yellow: system health LED",
+                    "power_led": "Red: power LED"
+                },
+                "title": "Configure hardware settings"
+            },
+            "main_menu": {
+                "menu_options": {
+                    "firmware_settings": "Switch between Zigbee or Thread firmware.",
+                    "hardware_settings": "Configure hardware settings",
+                    "multipan_settings": "Configure IEEE 802.15.4 radio multiprotocol support"
+                }
+            },
+            "notify_channel_change": {
+                "description": "A Zigbee and Thread channel change has been initiated and will finish in {delay_minutes} minutes.",
+                "title": "Channel change initiated"
+            },
+            "notify_unknown_multipan_user": {
+                "description": "Home Assistant can automatically change the channels for OTBR and ZHA. If you have configured another integration to use the radio, for example Zigbee2MQTT, you will have to reconfigure the channel in that integration after completing this guide.",
+                "title": "Manual configuration may be needed"
+            },
+            "reboot_menu": {
+                "description": "The settings have changed, but the new settings will not take effect until the system is rebooted",
+                "menu_options": {
+                    "reboot_later": "Reboot manually later",
+                    "reboot_now": "Reboot now"
+                },
+                "title": "Reboot required"
+            },
+            "reconfigure_addon": {
+                "title": "Reconfigure IEEE 802.15.4 radio multiprotocol support"
+            }
+        }
+    }
+}

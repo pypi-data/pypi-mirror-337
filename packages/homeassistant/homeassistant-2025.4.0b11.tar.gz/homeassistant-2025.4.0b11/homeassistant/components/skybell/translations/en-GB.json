@@ -1,0 +1,51 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "button": {
+                "name": "Button"
+            }
+        },
+        "camera": {
+            "activity": {
+                "name": "Last activity"
+            }
+        },
+        "sensor": {
+            "chime_level": {
+                "name": "Chime level"
+            },
+            "last_button_event": {
+                "name": "Last button event"
+            },
+            "last_check_in": {
+                "name": "Last check in"
+            },
+            "last_motion_event": {
+                "name": "Last motion event"
+            },
+            "motion_threshold": {
+                "name": "Motion threshold"
+            },
+            "video_profile": {
+                "name": "Video profile"
+            },
+            "wifi_ssid": {
+                "name": "Wi-Fi SSID"
+            },
+            "wifi_status": {
+                "name": "Wi-Fi status"
+            }
+        },
+        "switch": {
+            "do_not_disturb": {
+                "name": "Do not disturb"
+            },
+            "do_not_ring": {
+                "name": "Do not ring"
+            },
+            "motion_sensor": {
+                "name": "Motion sensor"
+            }
+        }
+    }
+}

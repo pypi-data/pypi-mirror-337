@@ -1,0 +1,36 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "zip_code": "Postcode"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "pump_pressure": {
+                "name": "Pump pressure"
+            },
+            "pump_type": {
+                "name": "Pump type"
+            },
+            "reservoir_capacity": {
+                "name": "Reservoir capacity"
+            },
+            "reservoir_content": {
+                "name": "Reservoir content"
+            },
+            "reservoir_temperature": {
+                "name": "Reservoir temperature"
+            },
+            "water_saved": {
+                "name": "Total saved"
+            },
+            "water_used": {
+                "name": "Total use"
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "exceptions": {
+        "failed_send": {
+            "message": "Failed to send command {cmd}"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "screencap_interval": "Interval in minutes between screen capture for album art (set 0 to disable)"
+                }
+            }
+        }
+    },
+    "services": {
+        "adb_command": {
+            "description": "Sends an ADB command to an Android / Fire TV device.",
+            "fields": {
+                "command": {
+                    "description": "Either a key command or an ADB shell command.",
+                    "name": "Command"
+                }
+            },
+            "name": "ADB command"
+        },
+        "download": {
+            "description": "Downloads a file from your Android / Fire TV device to your Home Assistant instance.",
+            "fields": {
+                "device_path": {
+                    "description": "The filepath on the Android / Fire TV device.",
+                    "name": "Device path"
+                },
+                "local_path": {
+                    "description": "The filepath on your Home Assistant instance.",
+                    "name": "Local path"
+                }
+            },
+            "name": "Download"
+        },
+        "learn_sendevent": {
+            "description": "Translates a key press on a remote into ADB 'sendevent' commands. You must press one button on the remote within 8 seconds of performing this action.",
+            "name": "Learn sendevent"
+        },
+        "upload": {
+            "description": "Uploads a file from your Home Assistant instance to an Android / Fire TV device.",
+            "fields": {
+                "device_path": {
+                    "description": "The filepath on the Android / Fire TV device.",
+                    "name": "Device path"
+                },
+                "local_path": {
+                    "description": "The filepath on your Home Assistant instance.",
+                    "name": "Local path"
+                }
+            },
+            "name": "Upload"
+        }
+    }
+}

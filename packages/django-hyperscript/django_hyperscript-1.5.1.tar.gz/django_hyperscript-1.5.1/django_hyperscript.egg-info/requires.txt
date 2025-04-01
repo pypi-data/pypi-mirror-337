@@ -1,0 +1,2 @@
+Django>=3.2
+hyperscript-dump>=1.0.3

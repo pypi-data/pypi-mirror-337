@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ghp_utils_test
+Version: 0.2
+Summary: Teste de upload de lib para o pypl
+Home-page: https://github.com/ghpascon/ghp_utils_test
+Author: ghpascon
+License: MIT
+License-File: LICENSE

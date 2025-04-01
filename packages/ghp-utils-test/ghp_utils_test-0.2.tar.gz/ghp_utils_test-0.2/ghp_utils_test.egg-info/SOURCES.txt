@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ghp_utils_test/__init__.py
+ghp_utils_test/operacoes.py
+ghp_utils_test/saudacoes.py
+ghp_utils_test.egg-info/PKG-INFO
+ghp_utils_test.egg-info/SOURCES.txt
+ghp_utils_test.egg-info/dependency_links.txt
+ghp_utils_test.egg-info/top_level.txt
+tests/test_operacoes.py
+tests/test_saudacoes.py

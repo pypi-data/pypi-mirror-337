@@ -1,0 +1,9 @@
+uv_glci_bump_version/__init__.py,sha256=d_xSlJhAcxOgKKZu_XIYe7knLDJGPdWFtrSRwMMafzI,119
+uv_glci_bump_version/__main__.py,sha256=m1eIS94DpppBHhf4WXjAor68wjQr5cS4Rq1NwdLgcCI,112
+uv_glci_bump_version/app.py,sha256=b8KOtrhKFUTKOArsio8DuYlYLv8tMIkiALMqKFyr5xU,2267
+uv_glci_bump_version/util.py,sha256=BAqpq9Aq4Qc3w0hAMEi2gNAJXAB5j07Ota-w5feutqE,1422
+uv_glci_bump_version/version.py,sha256=yP-yfBT6htmPmIjVi2qu5WfXgBJ94aqDOUqgRWS_SRA,1402
+uv_glci_bump_version-0.8.2.dist-info/METADATA,sha256=LB8s3rVr4ZCVVaNG3H8UGnlfsbm8wDhzeHNLvfnMwi0,240
+uv_glci_bump_version-0.8.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+uv_glci_bump_version-0.8.2.dist-info/entry_points.txt,sha256=jzqYWFYClQHJTH_iL0insvITcs6P7k-jjcuv5ib2atE,76
+uv_glci_bump_version-0.8.2.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-snowflake-reader = mcp_snowflake_reader.main:main

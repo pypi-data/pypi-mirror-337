@@ -1,0 +1,8 @@
+pandas
+scipy
+scikit-learn
+statsmodels
+altair
+matplotlib
+seaborn
+torch

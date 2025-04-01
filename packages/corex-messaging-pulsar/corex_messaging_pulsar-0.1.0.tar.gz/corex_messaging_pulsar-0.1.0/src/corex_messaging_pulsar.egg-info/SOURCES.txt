@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-messaging-pulsar/__init__.py
+src/corex-messaging-pulsar/handler.py
+src/corex_messaging_pulsar.egg-info/PKG-INFO
+src/corex_messaging_pulsar.egg-info/SOURCES.txt
+src/corex_messaging_pulsar.egg-info/dependency_links.txt
+src/corex_messaging_pulsar.egg-info/top_level.txt
+tests/test_handler.py

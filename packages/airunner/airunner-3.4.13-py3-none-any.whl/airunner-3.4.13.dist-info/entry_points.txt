@@ -1,0 +1,5 @@
+[console_scripts]
+airunner = airunner.main:main
+airunner-build-ui = airunner.bin.build_ui:main
+airunner-test-coverage-report = airunner.bin.coverage_report:main
+airunner-tests = airunner.bin.run_tests:main

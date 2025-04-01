@@ -1,0 +1,8 @@
+README.md
+iceberg_server.py
+pyproject.toml
+iceberg_mcp.egg-info/PKG-INFO
+iceberg_mcp.egg-info/SOURCES.txt
+iceberg_mcp.egg-info/dependency_links.txt
+iceberg_mcp.egg-info/requires.txt
+iceberg_mcp.egg-info/top_level.txt

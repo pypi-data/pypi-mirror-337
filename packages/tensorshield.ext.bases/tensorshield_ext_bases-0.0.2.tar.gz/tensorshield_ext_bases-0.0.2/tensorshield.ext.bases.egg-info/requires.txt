@@ -1,0 +1,10 @@
+fastapi
+pydantic>2
+tensorshield.ext.protocol>=0.0.2
+
+[develop]
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

@@ -1,0 +1,3 @@
+[console_scripts]
+peagen=peagen.cli:app
+

@@ -1,0 +1,16 @@
+scanpy
+doubletdetection
+harmonypy
+openpyxl
+anticor-features
+numpy
+gin-config
+loompy
+leidenalg
+igraph
+scikit-misc
+pynndescent
+
+[dev]
+ruff
+pytest

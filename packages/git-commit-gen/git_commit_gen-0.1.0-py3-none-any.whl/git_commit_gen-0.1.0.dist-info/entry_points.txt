@@ -1,0 +1,2 @@
+[console_scripts]
+git-commit-gen = git_commit_gen.git_commit_gen:main

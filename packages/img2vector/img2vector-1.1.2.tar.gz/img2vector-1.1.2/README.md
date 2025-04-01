@@ -1,0 +1,193 @@
+# img2vector
+
+[![PyPI version](https://badge.fury.io/py/img2vector.svg)](https://badge.fury.io/py/img2vector)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+An intelligent image to SVG vectorization tool with AI-powered optimization.
+
+## Features
+
+- **AI-Based Image Analysis**: Automatically detects image type and optimizes conversion parameters
+- **High-Quality Vectorization**: Convert raster images to clean, editable SVG vectors
+- **Preprocessing Options**: Multiple levels of image preprocessing for optimal results
+- **Batch Processing**: Convert multiple images in parallel
+- **SVG Optimization**: Reduce file size while maintaining quality
+- **Web Interface**: User-friendly Gradio UI for easy conversion
+- **Flexible CLI**: Powerful command-line interface for scripting and automation
+- **Python API**: Use as a library in your Python projects
+
+## Installation
+
+```bash
+pip install img2vector
+```
+
+## Quick Start
+
+### Command Line Interface
+
+```bash
+# Convert a single image
+img2vector convert image.jpg
+
+# Batch convert a directory of images
+img2vector batch input_folder/ -o output_folder/
+
+# Launch the web UI
+img2vector ui
+```
+
+### Python API
+
+```python
+from img2vector import convert_image
+
+# Simple conversion with auto-optimization
+convert_image("input.jpg", "output.svg")
+
+# Advanced usage
+from img2vector import Img2Vector
+
+converter = Img2Vector()
+converter.convert(
+    "input.jpg",
+    output_path="output.svg",
+    auto_optimize=True,
+    preprocessing_level="medium",
+    colormode="binary"
+)
+```
+
+### Batch Processing
+
+```python
+from img2vector import batch_convert
+
+# Convert all images in a folder
+batch_convert(
+    "input_folder/",
+    "output_folder/",
+    num_workers=4,
+    recursive=True,
+    preprocessing_level="light"
+)
+```
+
+## Image Type Detection
+
+img2vector's intelligent detection model recognizes these image types:
+
+- **Line Drawing**: Black and white sketches, hand drawings
+- **Technical Drawing**: Technical diagrams, blueprints, schematics
+- **Geometric Shapes**: Simple shapes like circles, squares, triangles
+- **Diagram**: Flowcharts, mind maps, organizational charts
+- **Photo**: Photographs or complex images
+
+Each type gets optimized parameters for best results.
+
+## Command Line Interface
+
+```
+usage: img2vector [-h] {convert,batch,optimize,ui} ...
+
+img2vector - Intelligent image to SVG converter
+
+positional arguments:
+  {convert,batch,optimize,ui}
+                        Commands
+    convert             Convert a single image to SVG
+    batch               Convert multiple images in a directory
+    optimize            Optimize an existing SVG file
+    ui                  Launch the web user interface
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+### Convert Command
+
+```
+usage: img2vector convert [-h] [-o OUTPUT] [--no-auto-optimize]
+                         [--preprocessing {none,light,medium,heavy}]
+                         [--colormode {color,binary}]
+                         [--hierarchical {stacked,cutout}]
+                         [--mode {spline,polygon}]
+                         [--optimize {none,light,moderate,aggressive}]
+                         [--filter-speckle FILTER_SPECKLE]
+                         [--color-precision COLOR_PRECISION]
+                         [--layer-difference LAYER_DIFFERENCE]
+                         [--corner-threshold CORNER_THRESHOLD]
+                         [--length-threshold LENGTH_THRESHOLD]
+                         [--max-iterations MAX_ITERATIONS]
+                         [--splice-threshold SPLICE_THRESHOLD]
+                         [--path-precision PATH_PRECISION]
+                         input
+```
+
+### Batch Command
+
+```
+usage: img2vector batch [-h] [-o OUTPUT_DIR] [-r] [-w WORKERS]
+                        [--no-auto-optimize]
+                        [--preprocessing {none,light,medium,heavy}]
+                        [--colormode {color,binary}]
+                        [--hierarchical {stacked,cutout}]
+                        [--mode {spline,polygon}]
+                        [--optimize {none,light,moderate,aggressive}]
+                        [--filter-speckle FILTER_SPECKLE]
+                        [--color-precision COLOR_PRECISION]
+                        [--layer-difference LAYER_DIFFERENCE]
+                        [--corner-threshold CORNER_THRESHOLD]
+                        [--length-threshold LENGTH_THRESHOLD]
+                        [--max-iterations MAX_ITERATIONS]
+                        [--splice-threshold SPLICE_THRESHOLD]
+                        [--path-precision PATH_PRECISION]
+                        input_dir
+```
+
+### Optimize Command
+
+```
+usage: img2vector optimize [-h] [-o OUTPUT]
+                           [-l {light,moderate,aggressive}] [-r]
+                           input
+```
+
+## Web Interface
+
+To launch the user-friendly web interface:
+
+```bash
+img2vector ui
+```
+
+## Advanced Parameters
+
+- **colormode**: "color" or "binary" vectorization mode
+- **hierarchical**: "stacked" or "cutout" layering style
+- **mode**: "spline" (smooth curves) or "polygon" (straight lines)
+- **preprocessing_level**: "none", "light", "medium", or "heavy"
+- **filter_speckle**: Speckle filtering level (0-20)
+- **color_precision**: Color precision level (1-10)
+- **layer_difference**: Layer difference threshold (1-32)
+- **corner_threshold**: Corner detection threshold (0-180)
+- **length_threshold**: Length threshold for path simplification (0-10)
+- **max_iterations**: Maximum iterations for path optimization (1-20)
+- **splice_threshold**: Splice threshold for path joining (0-90)
+- **path_precision**: Path coordinate precision (1-10)
+
+## Tips for Best Results
+
+- **For technical diagrams**: Use the 'binary' color mode with 'polygon' option
+- **For smooth curves**: Use 'spline' mode with low corner threshold values
+- **For crisp edges**: Use 'polygon' mode with high corner threshold values
+- **For noisy images**: Try 'medium' or 'heavy' preprocessing and increase Filter Speckle
+- **For color images**: Auto-optimization works best, or manually use 'color' mode with higher color precision
+
+## License
+
+MIT License
+
+## Acknowledgments
+
+- Built on top of the excellent [vtracer](https://github.com/visioncortex/vtracer) library

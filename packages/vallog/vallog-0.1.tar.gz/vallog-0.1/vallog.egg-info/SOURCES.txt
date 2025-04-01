@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vallog/__init__.py
+vallog/logger.py
+vallog.egg-info/PKG-INFO
+vallog.egg-info/SOURCES.txt
+vallog.egg-info/dependency_links.txt
+vallog.egg-info/top_level.txt

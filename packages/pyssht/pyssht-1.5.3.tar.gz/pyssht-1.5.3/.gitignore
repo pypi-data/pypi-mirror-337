@@ -1,0 +1,34 @@
+*~
+SSHT.sublime-project
+SSHT.sublime-workspace
+
+build/
+*.DS_Store
+*.idea/
+src/pyssht/*.c
+src/pyssht/*.so
+
+CMakeCache.txt
+CMakeFiles/
+
+pip-wheel-metadata/
+src/pyssht.egg-info/
+src/pyssht/pyssht*so
+__pycache__
+MANIFEST
+dist/
+compile_commands.json
+.clangd/
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+devenv.nix
+.envrc 
+devenv.yaml
+devenv.lock
+
+# pre-commit
+.pre-commit-config.yaml

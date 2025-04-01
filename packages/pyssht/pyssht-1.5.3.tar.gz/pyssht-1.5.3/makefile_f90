@@ -1,0 +1,170 @@
+# ======== COMPILER ========
+
+FC      = gfortran
+#FC      = nagfor
+#FC      = g95
+
+ifeq ($(FC),nagfor)
+  OPTNAGFOR = -w=x95 -DNAGFOR
+endif
+ifeq ($(FC),gfortran)
+  OPTGFORTRAN = -m64 
+endif
+
+OPT = $(OPTNAGFOR) $(OPTGFORTRAN) -O3 \
+       -DSSHT_VERSION=\"1.0b1\" -DSSHT_BUILD=\"`svnversion -n .`\" 
+#-g3 -ggdb
+
+
+# ======== LINKS ========
+
+UNAME := $(shell uname)
+PROGDIR = ..
+
+SSHTDIR  = $(PROGDIR)/ssht
+SSHTLIB  = $(SSHTDIR)/lib/f90
+SSHTLIBNM= ssht
+SSHTINC  = $(SSHTDIR)/include/f90
+SSHTSRC  = $(SSHTDIR)/src/f90
+SSHTMOD  = $(SSHTDIR)/src/f90/mod
+SSHTPROG = $(SSHTDIR)/src/f90/prog
+SSHTBIN  = $(SSHTDIR)/bin/f90
+SSHTOBJ  = $(SSHTINC)
+SSHTDOC  = $(SSHTDIR)/docs/f90
+
+FFTWLIB      = $(PROGDIR)/fftw/lib
+FFTWLIBNM    = fftw3
+
+
+# ======== SOURCE LOCATIONS ========
+
+vpath %.f90 $(SSHTMOD)
+vpath %.f90 $(SSHTPROG)
+
+
+# ======== FFFLAGS ========
+
+ifeq ($(FC),nagfor)
+  FFLAGSNAGFOR = -mdir $(SSHTINC)
+endif
+ifeq ($(FC),gfortran)
+  FFLAGSGFORTRAN = -J$(SSHTINC)
+endif
+
+FFLAGS  = -I$(SSHTINC) $(FFLAGSNAGFOR) $(FFLAGSGFORTRAN)
+
+
+# ======== LDFLAGS ========
+
+LDFLAGS = -L$(SSHTLIB) -l$(SSHTLIBNM) \
+          -L$(FFTWLIB) -l$(FFTWLIBNM)
+
+
+# ======== PPFLAGS ========
+
+ifeq ($(FC),nagfor)
+  PPFLAGS = -fpp $(OPT)
+else ifeq ($(FC),g95)
+  PPFLAGS = -cpp $(OPT)
+else ifeq ($(FC),gfortran)
+  PPFLAGS = -cpp $(OPT)
+endif
+
+
+# ======== OBJECT FILES TO MAKE ========
+
+SSHTOBJS = $(SSHTOBJ)/ssht_types_mod.o    \
+           $(SSHTOBJ)/ssht_error_mod.o    \
+           $(SSHTOBJ)/ssht_dl_mod.o       \
+           $(SSHTOBJ)/ssht_sampling_mod.o \
+           $(SSHTOBJ)/ssht_core_mod.o   
+
+
+# ======== MAKE RULES ========
+
+$(SSHTOBJ)/%.o: %.f90
+	$(FC) $(FFLAGS) $(FFLAGSPROG) $(PPFLAGS) -c $< -o $@ 
+
+.PHONY: default
+default: lib test about
+
+.PHONY: all
+all:     lib test about
+
+.PHONY: test
+test:    $(SSHTBIN)/ssht_test about
+
+.PHONY: runtest
+runtest: test
+	$(SSHTBIN)/ssht_test 64 0
+
+
+# Library
+
+.PHONY: lib
+lib:	 $(SSHTLIB)/lib$(SSHTLIBNM).a
+$(SSHTLIB)/lib$(SSHTLIBNM).a: $(SSHTOBJS)
+	ar -r $(SSHTLIB)/lib$(SSHTLIBNM).a $(SSHTOBJS)
+
+
+# Documentation
+
+.PHONY: doc
+doc:
+	doxygen $(SSHTSRC)/doxygen.config
+.PHONY: cleandoc
+cleandoc:
+	rm -f $(SSHTDOC)/html/*
+
+
+# Cleaning up
+
+.PHONY: clean
+clean:	tidy
+	rm -f $(SSHTOBJ)/*.mod
+	rm -f $(SSHTOBJ)/*.o
+	rm -f $(SSHTLIB)/lib$(SSHTLIBNM).a
+	rm -f $(SSHTBIN)/*
+
+.PHONY: tidy
+tidy:
+	rm -f $(SSHTMOD)/*~ 
+	rm -f $(SSHTPROG)/*~ 
+
+.PHONY: cleanall
+cleanall: clean cleandoc
+
+# Module dependencies
+
+$(SSHTOBJ)/ssht_types_mod.o: $(SSHTMOD)/ssht_types_mod.f90
+$(SSHTOBJ)/ssht_error_mod.o: $(SSHTMOD)/ssht_error_mod.f90          \
+                           $(SSHTOBJ)/ssht_types_mod.o
+$(SSHTOBJ)/ssht_dl_mod.o:    $(SSHTMOD)/ssht_dl_mod.f90             \
+                           $(SSHTOBJ)/ssht_types_mod.o
+$(SSHTOBJ)/ssht_sampling_mod.o:  $(SSHTMOD)/ssht_sampling_mod.f90   \
+                           $(SSHTOBJ)/ssht_types_mod.o              \
+                           $(SSHTOBJ)/ssht_error_mod.o
+$(SSHTOBJ)/ssht_core_mod.o:  $(SSHTMOD)/ssht_core_mod.f90           \
+                           $(SSHTOBJ)/ssht_types_mod.o              \
+                           $(SSHTOBJ)/ssht_error_mod.o              \
+                           $(SSHTOBJ)/ssht_sampling_mod.o           \
+                           $(SSHTOBJ)/ssht_dl_mod.o       
+
+
+# Program dependencies and compilation
+
+$(SSHTOBJ)/ssht_test.o:     $(SSHTPROG)/ssht_test.f90 $(SSHTLIB)/lib$(SSHTLIBNM).a
+$(SSHTBIN)/ssht_test:       $(SSHTOBJ)/ssht_test.o
+	$(FC)                                          \
+	-o $(SSHTBIN)/ssht_test                        \
+	$(SSHTOBJ)/ssht_test.o                         \
+	$(LDFLAGS) $(PPFLAGS)
+
+.PHONY: about
+about: $(SSHTBIN)/ssht_about
+$(SSHTOBJ)/ssht_about.o:     $(SSHTPROG)/ssht_about.f90 
+$(SSHTBIN)/ssht_about:       $(SSHTOBJ)/ssht_about.o lib
+	$(FC)                                          \
+	-o $(SSHTBIN)/ssht_about                       \
+	$(SSHTOBJ)/ssht_about.o                        \
+	$(LDFLAGS) $(PPFLAGS)

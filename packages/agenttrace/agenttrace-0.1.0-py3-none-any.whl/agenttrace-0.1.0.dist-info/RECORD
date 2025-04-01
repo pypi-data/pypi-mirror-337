@@ -1,0 +1,10 @@
+agenttrace/__init__.py,sha256=mzJ5ZuURhCa8_qB7Z_wtZMonUWU_o-kP4gcd8OhYDPY,253
+agenttrace/agenttrace.py,sha256=D5SkIgIsF8E2Ln5r6jsp2Lq0T2BPOkuBGwETwDTQjpw,42957
+agenttrace/cli.py,sha256=KfjewaZsamIeRR2G9yqe29MrkOERu2ZUaz22EczQsA4,3068
+agenttrace/py.typed,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+agenttrace-0.1.0.dist-info/licenses/LICENSE,sha256=ABao5X5aDJlhAG5ZVGXOdb6zc19Z5kru_Mn7U8aJLpQ,1066
+agenttrace-0.1.0.dist-info/METADATA,sha256=WkmMrJcTFMBecwB_V-qAfQ39x6vqsVxiV6n0X4xmnLs,6847
+agenttrace-0.1.0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+agenttrace-0.1.0.dist-info/entry_points.txt,sha256=9ZIAiZJAcw3A-FvtpAcP5EYfCfbabJ2_cvLpFVAsyY8,51
+agenttrace-0.1.0.dist-info/top_level.txt,sha256=C-aVnx6FnAsjWhRAKQdb06DmIfJ5zy9w97vhS8azZ48,11
+agenttrace-0.1.0.dist-info/RECORD,,

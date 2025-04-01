@@ -1,0 +1,7 @@
+setup.py
+tgs12/__init__.py
+tgs12.egg-info/PKG-INFO
+tgs12.egg-info/SOURCES.txt
+tgs12.egg-info/dependency_links.txt
+tgs12.egg-info/requires.txt
+tgs12.egg-info/top_level.txt

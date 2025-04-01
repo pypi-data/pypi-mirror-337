@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pcbnewTransition/__init__.py
+pcbnewTransition/_version.py
+pcbnewTransition/eda_angle.py
+pcbnewTransition/pcbnew.py
+pcbnewTransition/transition.py
+pcbnewtransition.egg-info/PKG-INFO
+pcbnewtransition.egg-info/SOURCES.txt
+pcbnewtransition.egg-info/dependency_links.txt
+pcbnewtransition.egg-info/not-zip-safe
+pcbnewtransition.egg-info/top_level.txt

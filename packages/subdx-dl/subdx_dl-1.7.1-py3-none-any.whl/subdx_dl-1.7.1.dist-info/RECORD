@@ -1,0 +1,13 @@
+sdx_dl/__init__.py,sha256=l2UGrAvx630iBXrkRT1dNj6xL_T-IXk2v55gOQPxo9Y,189
+sdx_dl/cli.py,sha256=pVwJIdfS4aYxYoi207A2dQjD8a0GP6vtK_7vSHKMsxw,7575
+sdx_dl/sdxclasses.py,sha256=nLeH-ui5zNUSLHhy_IUYJXewjq37_E6SO_rqJ-O2o3Y,42388
+sdx_dl/sdxconsole.py,sha256=j12iZsYbrUQ1oqQ15tenM6n9ckQeGg_rY-MalqIi598,220
+sdx_dl/sdxlib.py,sha256=tCtWaHVrI0J1ygyhRifD99v5L-4KF2uMyRKCRvZo2Kk,7187
+sdx_dl/sdxparser.py,sha256=j6Ll-vnGHemBdL7qH8Cr7sOrB1Vj8MZJMduIzWAdW7I,4141
+sdx_dl/sdxutils.py,sha256=AiLRPopoNaGXrbiYqf_7wUxlVnUPnEopA3S_HoqaB3M,41211
+subdx_dl-1.7.1.dist-info/licenses/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+subdx_dl-1.7.1.dist-info/METADATA,sha256=YwGTWbgh1eG9gqgdYSd2SSaFXUo-gaPKoUpim6iVuIM,47080
+subdx_dl-1.7.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+subdx_dl-1.7.1.dist-info/entry_points.txt,sha256=mF4KEo8vea1hcISlMmmHIEzAo2TGjdAkH2i1Frte4Qw,43
+subdx_dl-1.7.1.dist-info/top_level.txt,sha256=E_XcAEl3aKLF-VQ4gFJc11yvcs0cpjiyR2l1c9z0Nxw,7
+subdx_dl-1.7.1.dist-info/RECORD,,

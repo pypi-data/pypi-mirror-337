@@ -1,0 +1,205 @@
+Metadata-Version: 2.4
+Name: mvola-api-lib
+Version: 1.0.0
+Summary: Une bibliothèque Python robuste pour l'intégration de l'API de paiement MVola
+Project-URL: Homepage, https://github.com/Niainarisoa01/Mvlola_API_Lib
+Project-URL: Bug Tracker, https://github.com/Niainarisoa01/Mvlola_API_Lib/issues
+Project-URL: Documentation, https://niainarisoa01.github.io/Mvlola_API_Lib
+Author-email: Niainarisoa <niainarisoa.mail@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Niainarisoa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE. 
+License-File: LICENSE
+Keywords: api,fintech,madagascar,mvola,payment
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Requires-Dist: python-dotenv>=0.19.0
+Requires-Dist: requests>=2.25.0
+Provides-Extra: dev
+Requires-Dist: black>=21.5b2; extra == 'dev'
+Requires-Dist: flake8>=3.9.2; extra == 'dev'
+Requires-Dist: isort>=5.9.1; extra == 'dev'
+Requires-Dist: pytest-cov>=2.12.0; extra == 'dev'
+Requires-Dist: pytest>=6.0; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs-material>=8.2.8; extra == 'docs'
+Requires-Dist: mkdocs>=1.3.0; extra == 'docs'
+Requires-Dist: mkdocstrings-python>=0.7.1; extra == 'docs'
+Requires-Dist: mkdocstrings>=0.18.0; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: flask>=2.0.0; extra == 'examples'
+Description-Content-Type: text/markdown
+
+# MVola API Python Library
+
+A robust Python library for integrating with MVola mobile payment API in Madagascar.
+
+## Installation
+
+```bash
+pip install mvola_api
+```
+
+## Features
+
+- Simple and intuitive API for MVola payment integration
+- Handles authentication token generation and management
+- Supports merchant payment operations
+- Comprehensive error handling
+- Logging support
+- Built-in parameter validation
+- Works with both sandbox and production environments
+
+## Quick Start
+
+```python
+from mvola_api import MVolaClient, SANDBOX_URL
+
+# Initialize the client
+client = MVolaClient(
+    consumer_key="your_consumer_key",
+    consumer_secret="your_consumer_secret",
+    partner_name="Your Application Name",
+    partner_msisdn="0340000000",  # Your merchant number
+    sandbox=True  # Use sandbox environment
+)
+
+# Generate a token
+token_data = client.generate_token()
+print(f"Token generated: {token_data['access_token'][:10]}...")
+
+# Initiate a payment
+result = client.initiate_payment(
+    amount=10000,
+    debit_msisdn="0343500003",  # Customer phone number
+    credit_msisdn="0343500004",  # Merchant phone number
+    description="Payment for service",
+    callback_url="https://example.com/callback"
+)
+
+# Track the server correlation ID for status checks
+server_correlation_id = result['response']['serverCorrelationId']
+print(f"Transaction initiated with correlation ID: {server_correlation_id}")
+
+# Check transaction status
+status = client.get_transaction_status(server_correlation_id)
+print(f"Transaction status: {status['response']['status']}")
+
+# Once transaction is completed, get details using transaction ID
+transaction_id = status['response'].get('objectReference')
+if transaction_id:
+    details = client.get_transaction_details(transaction_id)
+    print(f"Transaction details: {details['response']}")
+```
+
+## Sandbox Testing
+
+For sandbox testing, use the following test phone numbers:
+- 0343500003
+- 0343500004
+
+## Error Handling
+
+The library provides custom exceptions for different error types:
+
+```python
+from mvola_api import MVolaClient, MVolaError, MVolaAuthError, MVolaTransactionError
+
+client = MVolaClient(...)
+
+try:
+    result = client.initiate_payment(...)
+except MVolaAuthError as e:
+    print(f"Authentication error: {e}")
+except MVolaTransactionError as e:
+    print(f"Transaction error: {e}")
+except MVolaError as e:
+    print(f"General MVola error: {e}")
+```
+
+## API Documentation
+
+### MVolaClient
+
+The main client class for interacting with MVola API.
+
+#### Initialization
+
+```python
+client = MVolaClient(
+    consumer_key,          # Consumer key from MVola Developer Portal
+    consumer_secret,       # Consumer secret from MVola Developer Portal
+    partner_name,          # Your application/merchant name
+    partner_msisdn=None,   # Partner MSISDN (phone number)
+    sandbox=True,          # Use sandbox environment
+    logger=None            # Custom logger
+)
+```
+
+#### Methods
+
+- `generate_token(force_refresh=False)`: Generate an access token
+- `initiate_payment(amount, debit_msisdn, credit_msisdn, description, ...)`: Initiate a merchant payment
+- `get_transaction_status(server_correlation_id, user_language="FR")`: Get transaction status
+- `get_transaction_details(transaction_id, user_language="FR")`: Get transaction details
+
+## Best Practices
+
+1. **Token Management**: The library handles token refresh automatically, but you can force a refresh if needed.
+2. **Error Handling**: Always implement proper error handling in your application.
+3. **Logging**: The library includes logging, but you can provide your own logger.
+4. **Sandbox Testing**: Always test your integration in the sandbox environment before going live.
+5. **Webhook Handling**: Implement proper webhook handling for transaction notifications.
+
+## Development
+
+### Requirements
+
+- Python 3.6+
+- requests library
+
+### Installation for Development
+
+```bash
+git clone https://github.com/yourusername/mvola_api.git
+cd mvola_api
+pip install -e .
+```
+
+## License
+
+MIT
+
+## Credits
+
+Developed based on the official MVola API documentation. 

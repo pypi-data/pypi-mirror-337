@@ -1,0 +1,8 @@
+transformers
+flask
+torch>=2.3.2
+requests
+numpy<2
+python-dotenv
+cryptography
+Flask-Limiter>=3.5.0

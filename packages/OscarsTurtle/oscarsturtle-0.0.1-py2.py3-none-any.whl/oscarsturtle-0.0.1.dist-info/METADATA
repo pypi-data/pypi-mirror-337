@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: OscarsTurtle
+Version: 0.0.1
+Summary: Oscar's Turtle is a set of turtle.py programs that draw the impossible shapes of artist Oscar Reutersvärd.
+Project-URL: Homepage, https://github.com/asweigart/oscarsturtle
+Project-URL: Issues, https://github.com/asweigart/oscarsturtle/issues
+Author-email: Al Sweigart <al@inventwithpython.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# oscarsturtle
+
+Oscar's Turtle is a set of turtle.py programs that draw the impossible shapes of artist Oscar Reutersvärd.
+

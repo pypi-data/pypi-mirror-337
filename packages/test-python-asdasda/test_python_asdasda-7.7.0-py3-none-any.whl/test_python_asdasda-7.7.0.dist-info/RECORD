@@ -1,0 +1,11 @@
+openfeature_provider_hyphen/__init__.py,sha256=UQ6zpRD9q-TrV-evKBx5D-p64Led1C0dLMyhj8pMy80,377
+openfeature_provider_hyphen/cache_client.py,sha256=J3iR-GrBP_OeEYNSsT-UIkcEwFThImd0JBQKHGhRBKQ,2313
+openfeature_provider_hyphen/hooks.py,sha256=D9WD2XoDwWqoYlRjS0uPa_M2_7fvqJZ_7Cp9nhRWzyw,1399
+openfeature_provider_hyphen/hyphen_client.py,sha256=uTGC3gs1v8JZiE3eHdfqefPNz1PlBmJN6O6HviyU_Ks,3970
+openfeature_provider_hyphen/provider.py,sha256=RDJ_m7ZHNdyfDc90jnIbSH7nxCO-uXH1SsfFywz7NqE,7456
+openfeature_provider_hyphen/types.py,sha256=c93BOkDU4MSZZ6dWj7q03N78t7Ao9jl-97GqaomPKMA,2617
+openfeature_provider_hyphen/utils.py,sha256=As5t1jitl0BWs7yLRwxRpnHkjB-pu-Dj6zhJnQPveIU,3990
+test_python_asdasda-7.7.0.dist-info/LICENSE,sha256=HPNK6OMgIXED5YWcc0nYJGYZ8RJ0x8vWGcEuOJKrsKU,1063
+test_python_asdasda-7.7.0.dist-info/METADATA,sha256=yaQVGiYgZ6m2CffxuM5Mw0jFLJLl0jHnDS6P8oHaWRw,5283
+test_python_asdasda-7.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+test_python_asdasda-7.7.0.dist-info/RECORD,,

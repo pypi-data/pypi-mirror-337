@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+types_whatthepatch.egg-info/PKG-INFO
+types_whatthepatch.egg-info/SOURCES.txt
+types_whatthepatch.egg-info/dependency_links.txt
+types_whatthepatch.egg-info/top_level.txt
+whatthepatch-stubs/METADATA.toml
+whatthepatch-stubs/__init__.pyi
+whatthepatch-stubs/apply.pyi
+whatthepatch-stubs/exceptions.pyi
+whatthepatch-stubs/patch.pyi
+whatthepatch-stubs/py.typed
+whatthepatch-stubs/snippets.pyi

@@ -1,0 +1,9 @@
+starlette>=0.40.0
+tensorshield.ext.soma
+
+[develop]
+pytest
+pytest_asyncio
+coverage
+twine
+watchdog

@@ -1,0 +1,126 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "spark-tts-lib"
+version = "0.2.1"
+authors = [
+    { name = "YowFung", email = "yowfung@outlook.com" },
+    { name = "yowfung", email = "yowfung@outlook.com" },
+]
+description = "A Python package for Spark-TTS."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "einops>=0.8.1",
+    "einx>=0.3.0",
+    "numpy>=2.2.3",
+    "omegaconf>=2.3.0",
+    "packaging>=24.2",
+    "safetensors>=0.5.2",
+    "soundfile>=0.12.1",
+    "soxr>=0.5.0.post1",
+    "torch>=2.5.1",
+    "torchaudio>=2.5.1",
+    "tqdm>=4.66.5",
+    "transformers>=4.46.2",
+    "huggingface-hub>=0.29.3",
+    "hf-transfer>=0.1.9",
+    "retrying>=1.3.4",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/YowFung/Spark-TTS-Lib"
+"Bug Tracker" = "https://github.com/YowFung/Spark-TTS-Lib/issues"
+Documentation = "https://github.com/YowFung/Spark-TTS-Lib#readme"
+
+[project.scripts]
+spark-tts = "sparktts.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "isort>=5.0.0",
+    "commitizen>=3.10.0",
+    "pdm-publish>=0.2.1",
+    "pytest>=8.3.5",
+    "pytest-order>=1.0.1",
+    "flake8>=7.0.0",
+]
+
+[tool.hatch.build]
+include = [
+    "sparktts/**/*.py",
+    "LICENSE",
+    "README.md",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "sparktts",
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "sparktts/**/*.py",
+    "LICENSE",
+    "README.md",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+format = "sh -c 'black . && isort .'"
+lint = "python -m flake8 ."
+test = "pytest tests/ -v -s"
+example = "python examples/inference.py"
+commit = "cz commit"
+safecommit = "sh -c 'python -m flake8 . && cz commit'"
+bump = "cz bump"
+changelog = "cz changelog --incremental"
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py312",
+]
+include = "\\.pyi?$"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.1"
+tag_format = "v$version"
+bump_message = "bump: version $current_version → $new_version"
+update_changelog_on_bump = true
+major_version_zero = true
+version_files = [
+    "pyproject.toml:^version",
+    "src/spark_tts_lib/__init__.py:^__version__",
+]

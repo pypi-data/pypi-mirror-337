@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: pyaduct
+Version: 0.1.0
+Summary: Simple and easy to use message bus, supporting IPC and TCP.
+Author-email: Sam Plankis <sp-code@pm.me>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: click>=8.1.8
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: pydantic>=2.11.1
+Requires-Dist: pyzmq>=26.3.0
+Requires-Dist: rich>=13.9.4
+Requires-Dist: uuid7>=0.1.0
+Description-Content-Type: text/markdown
+
+# pyaduct
+Simple and easy to use message bus, supporting IPC and TCP.

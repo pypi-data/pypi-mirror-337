@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gizmo_analysis"
+version = "1.0.4"
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.13",
+    "h5py>=3.9",
+    "matplotlib>=3.8",
+    "utilities-awetzel>=1.0.3",
+    #"utilities @ git+ssh://git@bitbucket.org/awetzel/utilities.git",
+    #"utilities-awetzel @ git+https://git@bitbucket.org/awetzel/utilities.git",
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "Andrew Wetzel"},
+    {name = "Shea Garrison-Kimmel"},
+    {name = "Andrew Emerick"},
+    {name = "Zach Hafen"},
+    {name = "Isaiah Santistevan"},
+    {name = "Nico Garavito-Camargo"},
+    {name = "Kyle Oman"},
+]
+maintainers = [
+    {name = "Andrew Wetzel", email = "arwetzel@gmail.com"},
+]
+description = "read and analyze Gizmo simulations"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["gizmo", "astronomy", "astrophysics", "cosmology", "galaxies", "stars", "dark matter"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gizmo_analysis", "gizmo_analysis.*"]
+
+[project.urls]
+Repository = "https://bitbucket.org/awetzel/gizmo_analysis/src/master/"
+Issues = "https://bitbucket.org/awetzel/gizmo_analysis/issues?status=new&status=open&status=submitted"

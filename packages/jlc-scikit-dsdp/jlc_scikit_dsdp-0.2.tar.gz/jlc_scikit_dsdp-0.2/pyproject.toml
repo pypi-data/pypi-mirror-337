@@ -1,0 +1,51 @@
+[project]
+name = "jlc-scikit-dsdp"
+version = "0.2"
+authors = [
+  {name = "Zhisu Zhu", email = "zhuzhisu@alumni.stanford.edu"},
+  {name = "Yinyu Ye", email = "yyye@stanford.edu"},
+]
+description = "Python interface to DSDP semidefinite programming library"
+readme = {file = "README", content-type = "text/plain"}
+license = "GPL-3.0-or-later"
+requires-python = ">= 3.6"
+dependencies = [
+  "numpy>=1.19.0",
+  "scikit_learn>=0.22",
+  "scipy>=1.5.2",
+]
+
+[project.urls]
+Homepage = "http://www.mcs.anl.gov/hs/software/DSDP/"
+Repository = "https://github.com/zhisu/scikit-dsdp"
+Issues = "https://github.com/zhisu/scikit-dsdp/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests"]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "pre-commit",
+  "ruff",
+]
+
+[build-system]
+requires = [
+  "cython>=0.29.21",
+  "numpy>=1.19.0",
+  "setuptools",
+  "scipy",
+  "wheel",
+]
+
+[tool.pytest.ini_options]
+rootdir = "."
+pythonpath = [
+  ".",
+]
+markers = [
+  "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+  "quick: marks tests as fast",
+]

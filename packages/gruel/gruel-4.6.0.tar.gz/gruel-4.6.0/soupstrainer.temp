@@ -1,0 +1,8 @@
+class to streamline getting elements from soup objects with appropriate checking that element is a `Tag` object
+takes a list of elements and searches for them in order with preceeding tags as parents
+i.e. `["p", "a", "div"]` will look for `<p><a><div>stuff</div></a></p>`
+probably need an object to represent more complex queries, like if it's a string just do the simple one
+but if it's the object version do other stuff
+e.g. `Element(name:str|None=None, class_: str = "", child_index: int|None = None, *args, **kwargs)`
+basically whatever `find` takes as args
+07/27/2024 12:26 PM

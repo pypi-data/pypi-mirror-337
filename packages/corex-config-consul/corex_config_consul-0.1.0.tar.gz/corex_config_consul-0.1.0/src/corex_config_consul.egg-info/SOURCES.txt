@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-config-consul/__init__.py
+src/corex-config-consul/handler.py
+src/corex_config_consul.egg-info/PKG-INFO
+src/corex_config_consul.egg-info/SOURCES.txt
+src/corex_config_consul.egg-info/dependency_links.txt
+src/corex_config_consul.egg-info/top_level.txt
+tests/test_handler.py

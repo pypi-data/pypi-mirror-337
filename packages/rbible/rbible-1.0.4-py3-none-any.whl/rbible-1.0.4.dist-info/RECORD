@@ -1,0 +1,13 @@
+rbible/__init__.py,sha256=MLugSEAUIlc39Qs4njUjRFfGk_quRlKLxBZxbwMld5g,161
+rbible/bible_data.py,sha256=-ZtjhCXpzC-66cddp-TTAr2Sz6ExCmW19Bg6VEmNH2E,9503
+rbible/formatters.py,sha256=hxzoreo24iWPllowyYF9YA_D6ihdwPv3BZbuLff3EBs,2088
+rbible/rbible.py,sha256=NqKvpniUAkmAh_Hwc3XlnFpLNONv-2cXQeK8kCpKXQg,11738
+rbible/reference_detector.py,sha256=8tIZYbb--nUCeyT2Cw5vHxW5s_OLFq3hAfQu9iqplRs,786
+rbible/user_data.py,sha256=mHpSHdzHl1plhk-MPqVfYGhkX0H5vqAt6EIYwf81tc0,6320
+rbible/verse_operations.py,sha256=dl-vMUotEvkJyVI1I130BkKesKZL-Y4AN6m41W6rJQ0,11349
+rbible-1.0.4.dist-info/licenses/LICENSE,sha256=HiJ9mVa4S7V67r_g5L8qwRWHa4L66aNgnmdG-q2QMJc,1064
+rbible-1.0.4.dist-info/METADATA,sha256=bnERLiab45YWXwjfx7o2r4GLmH099kH0lGtjGL2WBEo,3269
+rbible-1.0.4.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+rbible-1.0.4.dist-info/entry_points.txt,sha256=ewslAVobKG2j2r5Gr285e8m5kugwoSZ-YFWhneMe8rY,46
+rbible-1.0.4.dist-info/top_level.txt,sha256=-hQJcA_fOH0g2twA0SGDyq0FOHOkxKVecJ2YlcPcYXQ,7
+rbible-1.0.4.dist-info/RECORD,,

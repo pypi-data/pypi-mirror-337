@@ -1,0 +1,9 @@
+spikard/__init__.py,sha256=X3db-A5Vwb_9p9QtDn5LQyCIaNZS0UKXdFT5r_7pvt0,783
+spikard/_ref.py,sha256=VutmPEfckoYK-LY-OrF2OvVqWHj_o8BSrUDm45eL0ug,281
+spikard/base.py,sha256=VOTDBeFmWnIHPtXjCGcJjlTNc2ZQfm5UervkHNN46pw,20851
+spikard/exceptions.py,sha256=X1B10jpa0AjLauTEmDQ_RFXjHDifqpbUfTHbtdDzfIc,5540
+spikard/openai.py,sha256=QhIjyoITqKCxdKsn_jfuUHJW72ZlgTD9rEdKLgbJS_U,17613
+spikard-0.0.1.dist-info/METADATA,sha256=N06xniCjgb8FDSp-dPG_RwkGiTDjIniQCcDbuA_N86w,17331
+spikard-0.0.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+spikard-0.0.1.dist-info/top_level.txt,sha256=5wiIJmpAV4_qWFUkJ9hYxIjuouDj043-8tWRanHL5Sk,8
+spikard-0.0.1.dist-info/RECORD,,

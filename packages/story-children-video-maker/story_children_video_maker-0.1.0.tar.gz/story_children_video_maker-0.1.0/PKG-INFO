@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: story-children-video-maker
+Version: 0.1.0
+Summary: 
+Author: William Ferreira
+Author-email: 33575357+illiamw@users.noreply.github.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: moviepy (>=2.1.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# story-children-video-maker
+**Descrição breve:** Edita video automaticamente a partir de N narrações, N videoclips, e 1 musica de fundo.
+
+## Índice
+
+- [Introdução](#introdução)
+- [Instalação](#instalação)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Configuração de path_history](#configuração-de-path_history)
+  - [Instalando Dependências](#instalando-dependências)
+
+## Introdução
+
+[Em construlçai]
+
+## Instalação
+
+### Instale story-children-video-maker
+
+
+```shell
+pip install story-children-video-maker
+
+```
+
+### Configuração de path_history
+
+Pelo menos uma vez é necessário implementar a função **utils.setup.config()** para definir o caminho.
+
+
+```python
+from story-children-video-maker.utils import setup
+
+utils.setup.config()
+
+```
+### Pré-requisitos
+
+
+- Python = "3.11+"
+
+

@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: ngm-remove
+Version: 0.0.3
+Summary: Remove files/folders. Not drop-in replacement for rm, though
+Author-email: Aibulat <ngmaibulat@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+### Remove
+
+- removes files
+- prints out filepath
+- logs filepath to syslog
+- optionally, logs to sqlite database
+
+### Motivation
+
+- being able to clean up folders deep inside tree: `remove **/node_nodules`
+- we could do this via normal `rm -rf **/node_nodules`, however we would not see what entries being removed
+- `rm` command has `-v` option to display removed entry. And we could use `rm -frv **/node_modules`.
+  But `rm` would log each file in this case. For a large `node_modules` - the output is overwhelming.
+  I just need to see which node_modules being removed and keep the output log readable.
+- we could use `find` and `xargs` - but we will end up with rather longer command for a `trivial` task
+
+### Example
+
+```bash
+pip install ngm-remove
+cd projects
+
+remove **/node_nodules
+
+journalctl -t remove
+```

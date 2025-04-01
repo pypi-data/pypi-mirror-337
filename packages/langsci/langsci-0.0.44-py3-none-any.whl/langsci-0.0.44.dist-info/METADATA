@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: langsci
+Version: 0.0.44
+Summary: Tools for open access books used at Language Science Press
+Project-URL: Homepage, https://github.com/langsci/pypi
+Project-URL: Bug Tracker, https://github.com/langsci/pypi/issues
+Author-email: Sebastian Nordhoff <sebastian.nordhoff@glottotopia.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: langdetect
+Requires-Dist: lxml
+Requires-Dist: matplotlib
+Requires-Dist: pycryptodome
+Requires-Dist: random2
+Requires-Dist: rdflib
+Requires-Dist: requests
+Requires-Dist: wptools
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# LangSci
+
+This package provides tools for authoring open access books. 
+
+The python packages available in pypi are in the folder `langsci`
+
+A couple of wrapper scripts for these packages for the command line are in the folder `wrapperscripts`. 
+

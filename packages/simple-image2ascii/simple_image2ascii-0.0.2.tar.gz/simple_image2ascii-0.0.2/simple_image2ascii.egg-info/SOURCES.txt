@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simple_image2ascii/__init__.py
+simple_image2ascii/ascii_engine.py
+simple_image2ascii.egg-info/PKG-INFO
+simple_image2ascii.egg-info/SOURCES.txt
+simple_image2ascii.egg-info/dependency_links.txt
+simple_image2ascii.egg-info/requires.txt
+simple_image2ascii.egg-info/top_level.txt
+tests/test_engine.py

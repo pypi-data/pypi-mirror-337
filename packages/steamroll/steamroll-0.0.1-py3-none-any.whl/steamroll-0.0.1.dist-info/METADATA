@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: steamroll
+Version: 0.0.1
+Summary: Package to convert 3D molecules to RDKit
+Author: Jonathon Vandezande, Corin Wagen
+License: MIT License
+        
+        Copyright (c) 2025 Jonathon Vandezande
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: rdkit
+Description-Content-Type: text/markdown
+
+# Steamroll
+
+[![License](https://img.shields.io/github/license/jevandezande/steamroll)](https://github.com/rowansci/steamroll/blob/master/LICENSE)
+[![Powered by: Pixi](https://img.shields.io/badge/Powered_by-Pixi-facc15)](https://pixi.sh)
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jevandezande/steamroll/test.yml?branch=master&logo=github-actions)](https://github.com/rowansci/steamroll/actions/)
+[![Codecov](https://img.shields.io/codecov/c/github/jevandezande/steamroll)](https://codecov.io/gh/jevandezande/steamroll)
+[![PyPI package](https://img.shields.io/pypi/v/steamroll)](https://pypi.org/project/steamroll)
+
+Package for creating RDKit molecules from 3D molecules.
+
+
+## Credits
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [jevandezande/pixi-cookiecutter](https://github.com/jevandezande/pixi-cookiecutter) project template.

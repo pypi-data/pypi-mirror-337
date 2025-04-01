@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="{% include 'madoc/logo64.html' %}">
+  <style>
+    {% include css_style %}
+    {% include "madoc/pygments.css" %}
+  </style>
+</head>
+
+<body>
+  <script>
+
+    let showMenu = true
+
+    function switchMenu() {
+      showMenu = !showMenu
+      if (showMenu) {
+        document.getElementById("sideNav").style.width = "400px";
+        document.getElementById("main").style.marginLeft = "400px";
+      } else {
+        document.getElementById("sideNav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    }
+
+    function display(index="no index") {
+      let allContents = document.getElementsByClassName("content")
+      for (var i=0;i<allContents.length;i++) {
+        allContents[i].hidden = true
+      }
+      let selectedContent = document.getElementById(`content-${index}`)
+      selectedContent.hidden = false
+
+      let allButtons = document.getElementsByClassName("button")
+      for (var i=0;i<allButtons.length;i++) {
+        allButtons[i].classList.remove("button-selected")
+      }
+      let selectedButton = document.getElementById(`button-${index}`)
+      selectedButton.classList.add("button-selected")
+    }
+
+  </script>
+
+  <div id="sideNav" class="sidenav">
+    <h2 id="tempTitle" class="menu-item">{{ title }}</h2>
+    <div id="meunItems" class="menu-item">
+      {% for page in pages %}
+      <button class="button menu-item tooltip" id="button-{{loop.index}}" onclick=display({{loop.index}})>
+        {{page.name}}
+        <span class="tooltip-content">{{ page.name }}</span>
+      </button>
+      {% endfor %}
+      <div class="menuWedge"></div>
+    </div>
+  </div>
+  <span class="openButton" onclick="switchMenu()">&#9776;</span>
+  <div id="main">
+    <div id="content">
+      {% for page in pages %}
+      <div id="content-{{ loop.index }}" class="content" hidden>
+        {{ page.content | safe }}
+      </div>
+
+      {% endfor %}
+    </div>
+
+  </div>
+  <script>
+    display(1)
+  </script>
+
+</body>
+
+</html>

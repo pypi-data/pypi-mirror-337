@@ -1,0 +1,30 @@
+# This is a Databricks asset bundle definition for dbbundle_config.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+bundle:
+  name: better_bundle_config
+  uuid: 9d208a75-eddc-4342-b883-40f3cdbaccf8
+
+include:
+  - src/better_bundle_config/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: www.dev.databricks.com
+
+  staging:
+    presets:
+      name_prefix: "[staging] "      # prefix all resource names with testing_
+      pipelines_development: false  # set development to true for pipelines
+      trigger_pause_status: UNPAUSED # set pause_status to PAUSED for all triggers and schedules
+      tags:
+        staging: staging             # add a tag to all resources    
+    workspace:
+      host: www.staging.databricks.com
+
+  prod:
+    mode: production
+    workspace: 
+      host: www.prod.databricks.com

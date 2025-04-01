@@ -1,0 +1,16 @@
+json2/__init__.py,sha256=wEDIM3eKxKEdp7MEvPe0w6vGOOFq1xHE1FFbO2kBh2s,773
+mindspore-json/__init__.py,sha256=wEDIM3eKxKEdp7MEvPe0w6vGOOFq1xHE1FFbO2kBh2s,773
+mindspore-json/basic.ipynb.py,sha256=J5d-Nhwb3TbebvCK6Dohi-UDv4_J0GUKNVjfQzu0UyY,23552
+mindspore-json/handwritten digit recognition.ipynb.py,sha256=jxGzl9yEXAkY1BVju3psf6OmDhxJ-NTpyCOwDRfjTtY,44222
+mindspore-json/kmeans.py,sha256=qM4bwrcTnyXA684HykhAw46S_BJOiNym8W6tXZ-DwwQ,1839
+mindspore-json/linear.py,sha256=fpRntvE2wwXdsUjJX8n9NJYUS6Lgt1NZGOwX3Ob4TCY,916
+mindspore-json/logistic.py,sha256=znsEi0VeEr0t75_SFhwKHnawHlBLfSgKg6ZhZXruq-I,1759
+mindspore-json/mnist.py,sha256=9BE-ksNq5fj1IHwdwPsDbsN_LjHvgM8E5lGEgr8Hefs,4026
+mindspore-json/resNet50.py,sha256=2MNXNJUQxvvM_y6t9UICAmMVSuCg4LrKmqKxyFVoiEI,16132
+mindspore-json/tensor.py,sha256=jlSz76zR6iwiLBCA2MXGfjFFYbKh48Uxd_UJaEoUg90,5726
+mindspore-json/tree.py,sha256=hWBWpHGVceCVXp0xkifbfGBrDFtA9JLg6FTL5giemcA,1433
+mindspore_json-0.1.3.dist-info/LICENSE,sha256=WzS5P-SI-ZafGRPrvpLM6RTTLweBTdt8wNP7XgQq3vw,1091
+mindspore_json-0.1.3.dist-info/METADATA,sha256=gtEr7J8gafDXJeN9MYBe3m7amORI_FPtNNH61_JAhuw,1150
+mindspore_json-0.1.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mindspore_json-0.1.3.dist-info/top_level.txt,sha256=WTJwdr1OgAGSlsR_q89RJLNFT_FeazmyRARKmjVRlEk,15
+mindspore_json-0.1.3.dist-info/RECORD,,

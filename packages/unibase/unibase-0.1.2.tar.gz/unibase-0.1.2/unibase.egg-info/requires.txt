@@ -1,0 +1,11 @@
+typer[all]>=0.9.0
+fpdf2>=2.5
+tabulate
+networkx
+matplotlib
+pymongo
+psycopg2-binary
+mysql-connector-python
+boto3
+pandas
+openai

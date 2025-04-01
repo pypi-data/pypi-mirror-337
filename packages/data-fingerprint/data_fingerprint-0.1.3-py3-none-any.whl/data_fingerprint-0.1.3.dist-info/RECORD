@@ -1,0 +1,11 @@
+data_fingerprint/__init___.py,sha256=3PtBg-l98Pgu1dhlgdt5LUnifIPtVMo67KqFhPiZp8U,30
+data_fingerprint/src/__init__.py,sha256=ZUWFNOSvsuyaV3f-zNA-TB1bkm9mayI43zJyfAhqMH0,14
+data_fingerprint/src/checkers.py,sha256=eCRVV70DO1L2aIETCYNGIk_j9VswPut040Xpsb5YGIc,5299
+data_fingerprint/src/comparator.py,sha256=h0jFW_1pqJHo9NW_3x6FyIY00usbYztMVSTw9b5XoX0,27563
+data_fingerprint/src/difference_types.py,sha256=eSjau7q2jasrFeAB040MpFAt9WSLNy_qIQUpn0n1wPc,1285
+data_fingerprint/src/models.py,sha256=7MUY7QC0-g2sUjb7e7Feo1LreN1A19AE5RTq7GSMiKU,6021
+data_fingerprint/src/utils.py,sha256=vdVmzHMhijaIqqtxNXXAdpv55i3znOrc6tOt-TuC5_U,4678
+data_fingerprint-0.1.3.dist-info/LICENCE.txt,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+data_fingerprint-0.1.3.dist-info/METADATA,sha256=24EAExO11MKCKKWoRFE_2qXpfR5kGO1gAc8L28KAagk,2921
+data_fingerprint-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+data_fingerprint-0.1.3.dist-info/RECORD,,

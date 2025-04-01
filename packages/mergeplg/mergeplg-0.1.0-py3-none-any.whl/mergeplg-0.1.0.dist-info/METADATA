@@ -1,0 +1,81 @@
+Metadata-Version: 2.3
+Name: mergeplg
+Version: 0.1.0
+Summary: A great package.
+License: BSD-3-Clause
+Author: Christian Chwala
+Author-email: christian.chwala@kit.edu
+Requires-Python: >=3.10,<4.0.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: docutils (!=0.21.post1) ; extra == "docs"
+Requires-Dist: furo (>=2023.08.17) ; extra == "docs"
+Requires-Dist: ipython ; extra == "docs"
+Requires-Dist: myst_parser (>=0.13) ; extra == "docs"
+Requires-Dist: nbmake (>=1.4.6) ; extra == "test" or extra == "dev"
+Requires-Dist: nbsphinx ; extra == "docs"
+Requires-Dist: numba
+Requires-Dist: numpy (>=2.0.1)
+Requires-Dist: pandas (>=2.2.2)
+Requires-Dist: poligrain (>=0.3.0)
+Requires-Dist: pykrige (>=1.7.2)
+Requires-Dist: pytest (>=6) ; extra == "test" or extra == "dev"
+Requires-Dist: pytest-cov (>=3) ; extra == "test" or extra == "dev"
+Requires-Dist: scikit-gstat (>=1.0.17)
+Requires-Dist: scikit-learn (>=1.5.1)
+Requires-Dist: scipy (>=1.14.0)
+Requires-Dist: sphinx (>=7.0) ; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints ; extra == "docs"
+Requires-Dist: sphinx_copybutton (>=0.3.0) ; extra == "docs"
+Requires-Dist: wradlib (>=2.0.3)
+Requires-Dist: xarray (>=2024.6.0,<2024.9.0)
+Requires-Dist: xarray-datatree (<=0.0.14)
+Project-URL: Homepage, https://github.com/OpenSenseAction/mergeplg
+Project-URL: Repository, https://github.com/OpenSenseAction/mergeplg
+Description-Content-Type: text/markdown
+
+# mergeplg
+
+[![Actions Status][actions-badge]][actions-link]
+[![Documentation Status][rtd-badge]][rtd-link]
+
+[![PyPI version][pypi-version]][pypi-link]
+[![Conda-Forge][conda-badge]][conda-link]
+[![PyPI platforms][pypi-platforms]][pypi-link]
+
+<!-- SPHINX-START -->
+
+`mergeplg` is a collection of methods to merge rainfall sensor data from point,
+line and grid geometries. Typically the sensors are rain gauges (point), CML or
+SML (line) and weather radar or satellites (grid).
+
+This package is currently in a very early stage of development...
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/OpenSenseAction/mergeplg/workflows/CI/badge.svg
+[actions-link]:             https://github.com/OpenSenseAction/mergeplg/actions
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/mergeplg
+[conda-link]:               https://github.com/conda-forge/mergeplg-feedstock
+[github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
+[github-discussions-link]:  https://github.com/OpenSenseAction/mergeplg/discussions
+[pypi-link]:                https://pypi.org/project/mergeplg/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/mergeplg
+[pypi-version]:             https://img.shields.io/pypi/v/mergeplg
+[rtd-badge]:                https://readthedocs.org/projects/mergeplg/badge/?version=latest
+[rtd-link]:                 https://mergeplg.readthedocs.io/en/latest/?badge=latest
+
+<!-- prettier-ignore-end -->
+

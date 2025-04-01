@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: agent_flow_craft
+Version: 2025.3.31.dev1434097
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: autogen
+Requires-Dist: pyyaml
+Requires-Dist: python-slugify
+Requires-Dist: openai
+Requires-Dist: asyncio
+Provides-Extra: dev
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pica_ai/__init__.py
+pica_ai/client.py
+pica_ai/logger.py
+pica_ai/models.py
+pica_ai/prompts.py
+pica_ai.egg-info/PKG-INFO
+pica_ai.egg-info/SOURCES.txt
+pica_ai.egg-info/dependency_links.txt
+pica_ai.egg-info/requires.txt
+pica_ai.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py

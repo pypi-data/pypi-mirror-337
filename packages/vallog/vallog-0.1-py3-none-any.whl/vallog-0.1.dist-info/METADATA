@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: vallog
+Version: 0.1
+Summary: simple package for divers and versatile log massages. Future releases will add more functionality.
+Home-page: https://github.com/vallereichi/vallog
+Author: Valentin Reichenspurner
+Author-email: v.reichenspurner@tum.de
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary

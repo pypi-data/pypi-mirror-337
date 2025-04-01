@@ -1,0 +1,8 @@
+tembo_pgmq_python/__init__.py,sha256=pMQTeIwO-t7xOfILs0SyEuxh4tDZdsLG3jM6QKB_DAg,213
+tembo_pgmq_python/async_queue.py,sha256=l4ABjFIWC6GUXMYXeP5tWYGPMxqWFjQlRe7qUTEVkHI,22859
+tembo_pgmq_python/decorators.py,sha256=e64Q7RMDtl_yPg2shW9Pi3jP-8jPMds-I745dXxWMB8,2649
+tembo_pgmq_python/messages.py,sha256=NgE-q6m611veBycwDqCCfNBA5Cv-dxCluUBjSfFRSmE,367
+tembo_pgmq_python/queue.py,sha256=xg4h7KiWHLSaa1oeaGaxMqS7sTVugD_qywjwvV3jhlA,12873
+tembo_pgmq_python-0.10.0.dist-info/METADATA,sha256=rCdEVbEodwRrvMwaV0WKDImUCHLFwL520qVmLQPr6oE,8545
+tembo_pgmq_python-0.10.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tembo_pgmq_python-0.10.0.dist-info/RECORD,,

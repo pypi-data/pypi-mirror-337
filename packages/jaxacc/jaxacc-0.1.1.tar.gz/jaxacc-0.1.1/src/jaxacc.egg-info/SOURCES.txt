@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/jaxacc/__init__.py
+src/jaxacc/core.py
+src/jaxacc/jit.py
+src/jaxacc.egg-info/PKG-INFO
+src/jaxacc.egg-info/SOURCES.txt
+src/jaxacc.egg-info/dependency_links.txt
+src/jaxacc.egg-info/requires.txt
+src/jaxacc.egg-info/top_level.txt

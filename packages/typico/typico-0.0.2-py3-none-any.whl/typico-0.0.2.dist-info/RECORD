@@ -1,0 +1,10 @@
+typico/__init__.py,sha256=d9PGC9yWYIXk_0q6DL1nnWMl6NfpIJTlDG166Xpq1QA,114
+typico/_xyz.py,sha256=xpi-d0N1sYbJzy2kjwCME9mKdX1dKIPK16LJ99rgBYM,12374
+typico/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typico/pyfield.py,sha256=wQGJggw52DfBjJ9cWH3ggYJwVq06YGXPgeAyfYA6ydo,17085
+typico/type_introspection.py,sha256=lkAOuVw5apSSvPyKiSLnaJ3BDf3pN5whVvPwVHBBAPs,7565
+typico/utils.py,sha256=fdsikBb6z-V0tRSU40S4M-CO36-gGk8LOpaEyKvJp7k,1647
+typico-0.0.2.dist-info/METADATA,sha256=oeenKgvxjDyUk7bxtO_glBF1xqhtRUdQm6CmBjswRsY,5535
+typico-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+typico-0.0.2.dist-info/licenses/LICENSE,sha256=AteGCH9r177TxxrOFEiOARrastASsf7yW6MQxlAHdwA,1078
+typico-0.0.2.dist-info/RECORD,,

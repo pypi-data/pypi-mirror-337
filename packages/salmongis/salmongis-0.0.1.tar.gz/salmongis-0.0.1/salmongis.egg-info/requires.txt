@@ -1,0 +1,7 @@
+numpy
+
+[all]
+salmongis[extra]
+
+[extra]
+pandas

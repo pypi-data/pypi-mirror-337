@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: litecache2
+Version: 0.1.5
+Summary: A lightweight async TCP dictionary server with RESP support
+Author-email: Joe Pasquantonio <joe.pasquantonio@gmail.com>
+Requires-Python: >=3.11
+Requires-Dist: click>=8.1.8
+Requires-Dist: colorlog>=6.9.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: uvloop>=0.21.0
+Description-Content-Type: text/markdown
+
+# litecache
+
+## Introduction
+---------------
+
+litecache is a basic in-memory key-value store written in Python supporting a subset of RESP (redis serialization language)
+
+## Features
+------------
+
+* **Key-Value Cache**: Store and retrieve data using a simple key-value pair system
+* **RESP**: support a subset of resp so should work with any redis client (SET,GET,DEL)
+* **Simple**: small code base and fairly readable so should be easy to understand and make updates to
+
+## Installation
+---------------
+
+To install litecache, run the following command:
+```bash
+pip install litecache2
+```
+
+or
+
+```
+pip install git+https://github.com/psqnt/litecache.git
+```
+
+## Usage
+-----
+
+### Basic Example
+```
+$ litecache --host localhost --port 6399
+```
+
+
+(development)
+```bash
+$ uv run litecache
+```
+
+using docker:
+```
+$ docker build -t litecache:latest .
+$ docker run litecache:latest
+```
+
+## Configuration
+---------------
+
+litecache can be configured using the following cli parameters:
+
+```
+--host
+--port
+```
+
+## Testing
+-------
+
+To run the tests, use the following command:
+```bash
+uv run pytest
+```
+

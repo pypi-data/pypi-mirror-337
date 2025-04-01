@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: xenopict
+Version: 0.2.3
+Summary: A Python library for drawing chemical structures
+Project-URL: Homepage, https://github.com/swamidass/xenopict
+Project-URL: Bug Tracker, https://github.com/swamidass/xenopict/issues
+Author-email: "S. Joshua Swamidass" <swamidass@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: colorcet>=3.1.0
+Requires-Dist: lxml>=5.3.1
+Requires-Dist: matplotlib>=3.9.4
+Requires-Dist: networkx>=3.2.1
+Requires-Dist: pydantic>=2.11.1
+Requires-Dist: rdkit>=2023.9.1
+Requires-Dist: shapely>=2.0.7
+Requires-Dist: simplejson>=3.20.1
+Provides-Extra: pandas
+Requires-Dist: jinja2>=3.1.0; extra == 'pandas'
+Requires-Dist: pandas>=2.2.3; extra == 'pandas'
+Description-Content-Type: text/markdown
+
+# Xenopict
+
+Xenopict is a package for generating publication quality 2D depictions of small molecules, 
+with special attention to "shading" molecules with atom or bond level properties. This package
+relies on RDKit generation an initial SVG depiction of the input molecule.
+
+Read the [documentation](https://xenopict.readthedocs.io/en/latest/) for more information.
+
+This package is in beta. It's API is still subject to substantial revisions. It is in active use by our laboratory, 
+and several bugs and features are added frequently.
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/swamidasslab/xenopict/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/swamidasslab/xenopict/tree/main)

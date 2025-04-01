@@ -1,0 +1,13 @@
+face_sort/__init__.py,sha256=rAna4DISnl62Pbyk9lTH1t5YBWOD5MO8qKfniAQEFOM,27
+face_sort/cosinus_distance.py,sha256=NsWUpxbcxgc_exUxjIQuH5UpJLiauoT3vaC4DG1msFI,4556
+face_sort/euclidean_distance.py,sha256=aXIV48s4wide3FdHpdkedj5bLig7awVYD9_Jn5VljyM,3095
+face_sort/extract_faces.py,sha256=zHb8EQ7GJ_5RDT6Z9_NUVRBsdM-ABxEEN0DlZyZRxZk,3669
+face_sort/main.py,sha256=Z_CHy8gh94jGsfL4J6NXM3PvPTbw1TtC97garbvoO8c,2881
+face_sort/sorted_cosinus_distance.py,sha256=7GFYysmOHqH1RMEOcieblD2ucxsyB9Fq1ZZdRi0S1xA,5350
+face_sort/sorted_euclidean_distance.py,sha256=Q3-uU3d3hKIHGvB7Lj0V0Gnc0YCRJkTjZueiZTCNPfM,4824
+face_sort-0.1.8.dist-info/LICENSE,sha256=356uolJNqQxlWuK0_QSDhBsWxRlU9asiPSP6B35nQU4,1095
+face_sort-0.1.8.dist-info/METADATA,sha256=xzxlNKW6T72gTheBs9rNTvyKnnzQGCbJZMuvCLDTEjI,3887
+face_sort-0.1.8.dist-info/WHEEL,sha256=52BFRY2Up02UkjOa29eZOS2VxUrpPORXg1pkohGGUS8,91
+face_sort-0.1.8.dist-info/entry_points.txt,sha256=j7ArlLAywPh31tNko8nwMPNjCkxVFQRcYt5LyOKmZm0,55
+face_sort-0.1.8.dist-info/top_level.txt,sha256=UxAWlKST_makLAf4upfWBH0UrwoZ0liWWqbadK1TGXE,10
+face_sort-0.1.8.dist-info/RECORD,,

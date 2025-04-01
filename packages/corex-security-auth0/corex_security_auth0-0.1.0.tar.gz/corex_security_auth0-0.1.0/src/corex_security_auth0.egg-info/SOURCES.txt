@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-security-auth0/__init__.py
+src/corex-security-auth0/handler.py
+src/corex_security_auth0.egg-info/PKG-INFO
+src/corex_security_auth0.egg-info/SOURCES.txt
+src/corex_security_auth0.egg-info/dependency_links.txt
+src/corex_security_auth0.egg-info/top_level.txt
+tests/test_handler.py

@@ -1,0 +1,55 @@
+# Include essential package files
+include README.md
+include requirements.txt
+include LICENSE
+
+# Exclude all test files
+recursive-exclude tests *
+exclude tests/conftest.py
+exclude pytest.ini
+exclude .coveragerc
+
+# Exclude development and environment files
+exclude .env
+exclude .env.*
+exclude *.env
+exclude Makefile
+exclude requirements-dev.txt
+
+# Exclude large files and directories
+exclude *.parquet
+exclude *.csv
+exclude *.json
+recursive-exclude logs *
+recursive-exclude metastore_db *
+exclude derby.log
+
+# Exclude cache and build files
+exclude .git*
+exclude .pytest_cache
+exclude __pycache__
+exclude *.pyc
+exclude *.pyo
+exclude *.pyd
+exclude *.so
+exclude *.dylib
+exclude *.dll
+exclude *.egg-info
+exclude dist
+exclude build
+exclude .coverage
+exclude .tox
+exclude .venv
+exclude venv
+
+# Include documentation
+recursive-include docs *.md
+recursive-include docs *.rst
+recursive-include docs *.txt
+
+# Include example files
+recursive-include example *.py
+recursive-include example *.ipynb
+
+# Include databloom files
+recursive-include databloom *.py 

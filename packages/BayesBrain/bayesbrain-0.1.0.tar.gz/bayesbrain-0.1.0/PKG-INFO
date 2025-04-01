@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: BayesBrain
+Version: 0.1.0
+Summary: Bayesian Generalized linear modeling and GAMs utilizing NumPyro
+Author: Your Name
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: jax[cpu]
+Requires-Dist: pandas
+Requires-Dist: arviz
+Requires-Dist: numpyro
+Requires-Dist: pyro-ppl
+Requires-Dist: optax
+Requires-Dist: numpy
+Requires-Dist: patsy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: patsy
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

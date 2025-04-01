@@ -1,0 +1,10 @@
+pcbnewTransition/__init__.py,sha256=cDIho96Qins3cOlv6ZTj_jI6goK94L557loWBl2-SQk,722
+pcbnewTransition/_version.py,sha256=YxLhFmGOFH5FAF-hY9w9RsPtK4NaPo4w4Ji_KoUCvxQ,497
+pcbnewTransition/eda_angle.py,sha256=slgWqUCQIVfPtsSmXXzwaWqGhElH2j-0UKHHTH6ZqtY,1297
+pcbnewTransition/pcbnew.py,sha256=3ewYUEf4MRIINQ6VcnI4yeNaz79ZhfoKsd_tTKgVZco,21
+pcbnewTransition/transition.py,sha256=yL3bOIYnt9PBe1F1WdbwO877Q_wMrIXefXS1g7Bku7Q,10486
+pcbnewtransition-0.5.1.dist-info/LICENSE,sha256=Auo_lIuxpNRp4aPlnTnjzKQVI3OaefCCYMT8Ip4gWGo,1068
+pcbnewtransition-0.5.1.dist-info/METADATA,sha256=NRlvQRkiNQUJpdNMmdMd0-g3OQycYsp31JQxicg9u0M,1063
+pcbnewtransition-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pcbnewtransition-0.5.1.dist-info/top_level.txt,sha256=YZr7ZdcQN7jCK7R73VxvX4IduX_f9ozZm4lqn17a8iE,17
+pcbnewtransition-0.5.1.dist-info/RECORD,,

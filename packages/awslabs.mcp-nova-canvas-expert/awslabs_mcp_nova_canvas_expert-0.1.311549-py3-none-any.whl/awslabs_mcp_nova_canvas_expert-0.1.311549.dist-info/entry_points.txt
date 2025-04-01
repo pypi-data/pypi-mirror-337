@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-nova-canvas-expert = awslabs.mcp_nova_canvas_expert.server:main

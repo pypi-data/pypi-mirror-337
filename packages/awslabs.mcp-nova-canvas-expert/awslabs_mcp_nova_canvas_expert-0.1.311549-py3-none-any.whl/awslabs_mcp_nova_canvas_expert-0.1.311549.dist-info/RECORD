@@ -1,0 +1,9 @@
+mcp_nova_canvas_expert/__init__.py,sha256=8AXb9vOnOyM3GInxzXn-VJOgTI3HFsq9O_imhosBoik,62
+mcp_nova_canvas_expert/consts.py,sha256=1qnIsWXKsg7R8JpWalgns0vPmBAHu6f9oI8hylhBuuo,2590
+mcp_nova_canvas_expert/models.py,sha256=tYJeeTKhU_6OJxKJBvKyAzgC46-Dexx_o5up539jqi4,9935
+mcp_nova_canvas_expert/novacanvas.py,sha256=hauK_mb-msmANdYucU3ZlDkZfvDYcbswttuATizJEPc,15017
+mcp_nova_canvas_expert/server.py,sha256=clS373DlI7f7GNFWbv38DyjDOVbGGQYLMcJMVCXwdH4,12283
+awslabs_mcp_nova_canvas_expert-0.1.311549.dist-info/METADATA,sha256=w1MC_QMxZpEDo_PQtP0VaA1TovYbR8P6ux1XQQMB_7s,447
+awslabs_mcp_nova_canvas_expert-0.1.311549.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+awslabs_mcp_nova_canvas_expert-0.1.311549.dist-info/entry_points.txt,sha256=FeJTuLz93gIQsdwIS1AqqIaWndibiao2X1lQJqgcVIA,86
+awslabs_mcp_nova_canvas_expert-0.1.311549.dist-info/RECORD,,

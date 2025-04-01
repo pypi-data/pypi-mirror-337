@@ -1,0 +1,2 @@
+[console_scripts]
+pp = paxpar.cli.pp:app

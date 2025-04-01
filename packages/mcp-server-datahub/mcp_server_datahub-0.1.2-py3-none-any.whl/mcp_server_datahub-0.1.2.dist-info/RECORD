@@ -1,0 +1,11 @@
+mcp_server_datahub/__main__.py,sha256=p1QOtyCYK0I-4dUxekUSOTk0hnV5m8qV3fm8pLCxTzw,122
+mcp_server_datahub/mcp_server.py,sha256=fooO2XKAV2yhqIM6iLHE3mNDsOHqv-ZkH--aIBVyv4c,7400
+mcp_server_datahub/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcp_server_datahub/gql/entity_details.gql,sha256=T7brDA8O0HZitXeIQhw7fKZDQBjfGY-iu3hi2wTmZs0,19290
+mcp_server_datahub/gql/queries.gql,sha256=RIGYj9zr2eL8nAhakGXehTrkdGN_-iwBav2Lv6DIoIo,625
+mcp_server_datahub/gql/search.gql,sha256=JUPZqvqgiyfdj-McUI9YUPVipYkrg1LV_UOzNAoHcd0,957
+mcp_server_datahub-0.1.2.dist-info/METADATA,sha256=So9NWae-iaa-RB8UwdbCkA5JsLhtTjIzGt4c0YIpGA4,14597
+mcp_server_datahub-0.1.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_server_datahub-0.1.2.dist-info/entry_points.txt,sha256=-Ziso-Nab775ZF5ueKWSvethIXA5H-C_ENPq7YcRTMU,72
+mcp_server_datahub-0.1.2.dist-info/licenses/LICENSE,sha256=X1yygGZO5WJrS-8DgfI4PwXbTgsHwv_jZH276YqdrMc,10761
+mcp_server_datahub-0.1.2.dist-info/RECORD,,

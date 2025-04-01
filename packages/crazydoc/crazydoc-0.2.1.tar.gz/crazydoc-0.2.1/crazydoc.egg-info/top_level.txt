@@ -1,0 +1,6 @@
+crazydoc
+dist
+docs
+examples
+images
+tests

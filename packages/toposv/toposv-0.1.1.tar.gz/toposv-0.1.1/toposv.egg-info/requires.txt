@@ -1,0 +1,6 @@
+torch>=2.0
+numpy>=1.24
+nibabel>=5.0
+nnunetv2>=1.0.0
+blosc2
+huggingface_hub>=0.17.0

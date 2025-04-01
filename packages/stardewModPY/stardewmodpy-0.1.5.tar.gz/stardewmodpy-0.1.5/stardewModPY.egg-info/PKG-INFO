@@ -1,0 +1,77 @@
+Metadata-Version: 2.4
+Name: stardewModPY
+Version: 0.1.5
+Summary: Uma biblioteca para gerar mods com packs de conteúdo em json para Stardew Valley
+Home-page: 
+Author: alichan
+Author-email: ecchinya25@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prettytable
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# StardewModPY
+
+StardewModPY é uma biblioteca Python para manipular arquivos de mods para o jogo Stardew Valley, facilitando a criação de patches de conteúdo.
+
+## Instalação
+
+Você pode instalar a biblioteca via pip:
+
+```bash
+pip install StardewModPY
+```
+
+## Uso Básico
+
+A classe principal que você deve criar para o seu mod deve herdar de Helper, que é responsável por auxiliar na manipulação dos dados e registro das alterações. Aqui está um exemplo de implementação, no qual edito um bundle do stardew valley:
+
+## 1. Criando a Classe do Mod
+
+Primeiro crie uma classe, todo o codigo do mod será escrito nessa classe:
+
+Arquivo: ModEntry.py
+```python
+from StardewValley import Manifest
+from StardewValley.helper import Helper
+from StardewValley.contentpatcher import EditData, Include
+from StardewValley.Data import BundlesData
+
+class ModEntry(Helper):
+    def __init__(self):
+        cpFor = {"UniqueID": "Pathoschild.ContentPatcher"}
+        manifest = Manifest("meuMod", "authorName", "1.0.0", "Mod de exemplo", "authorName.meuMod", ContentPackFor=cpFor)
+        super().__init__(manifest)
+        self.contents()
+
+    def contents(self):
+        pantry0 = BundlesData("Pantry/0", "Spring Crops", "O 400 50", "400 1 0 188 1 0 190 1 0 192 1 0", "0", "", "Spring Crops")
+        bundles = {pantry0.key: pantry0.getJson()}
+        self.content.registryContentData(Include("assets/Bundles.json"))
+        self.content.registryContentData(EditData("Edit Bundle", "Data/Bundles", Entries=bundles), "Bundles")
+```
+## 2. Compilando o Mod
+
+Agora, para gerar o mod e salvar os arquivos necessários, crie o arquivo main.py e execute:
+
+Arquivo: main.py
+
+```python
+from ModEntry import ModEntry
+mod=ModEntry()
+mod.write()
+```
+
+"Continuaremos aprimorando a documentação da biblioteca ao longo do tempo. Recomendamos sempre consultar a wiki do Stardew Valley para encontrar as informações necessárias sobre os dados que deseja modificar."

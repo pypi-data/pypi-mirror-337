@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: yfmcp
+Version: 0.1.6
+Author-email: narumi <toucans-cutouts0f@icloud.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: mcp>=1.6.0
+Requires-Dist: rich>=13.9.4
+Requires-Dist: yfinance>=0.2.55
+Description-Content-Type: text/markdown
+
+# Yahoo Finance MCP Server
+
+A simple MCP server for Yahoo Finance using yfinance. This server provides a set of tools to fetch stock data, news, and other financial information.
+
+## Tools
+
+- get_ticker_info
+- get_ticker_news
+- search_quote
+- search_news
+- get_market
+- get_sector
+- get_industry
+
+## Usage
+
+1. [Install uv.](https://docs.astral.sh/uv/getting-started/installation/)
+2. Add the following configuration to your MCP server configuration file.
+
+```json
+{
+  "mcpServers": {
+    "yfmcp": {
+      "command": "uvx",
+      "args": ["yfmcp"]
+    }
+  }
+}
+```

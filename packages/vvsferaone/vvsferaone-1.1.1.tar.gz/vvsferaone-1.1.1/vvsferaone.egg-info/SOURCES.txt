@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+vvsferaone/__init__.py
+vvsferaone.egg-info/PKG-INFO
+vvsferaone.egg-info/SOURCES.txt
+vvsferaone.egg-info/dependency_links.txt
+vvsferaone.egg-info/requires.txt
+vvsferaone.egg-info/top_level.txt

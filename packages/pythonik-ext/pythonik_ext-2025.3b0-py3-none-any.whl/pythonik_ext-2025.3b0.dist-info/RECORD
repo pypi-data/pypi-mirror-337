@@ -1,0 +1,11 @@
+pythonik_ext-2025.3b0.dist-info/licenses/LICENSE,sha256=Z-TovdYdjCtFFJbDuO2yvVKOUe3FlG_6StD-LTpJ6H4,1068
+pythonikext/__init__.py,sha256=gZm-CoOYdHsOEim3-dRfMIMjyTMGHiSo_tKnlMh6X_I,520
+pythonikext/client.py,sha256=92p3vpZFOCSiRT-t2HSnGU-oLxSSOOturCaByb6jscY,1147
+pythonikext/utils.py,sha256=n7Q3UTbTGloklWF_nu6ZgTCahp7DSGNt9_78Tzv7PcU,1788
+pythonikext/specs/__init__.py,sha256=vbTs-cCf2Oqh3zmV-eoqp2Seoasz4_JBOidOd1eMWPI,187
+pythonikext/specs/base.py,sha256=BTrLG5frWa2khdLv3FmGiQG45RsKAyM67N8YvP1RgGE,2346
+pythonikext/specs/files.py,sha256=sFbfL9CGCeNUUprCk6398YOwAcMakM9Hs4h6Jkov6Vc,3753
+pythonik_ext-2025.3b0.dist-info/METADATA,sha256=QUvBuseB0yz4nzfN7vHuEYBriqgK5HaW7o5RaNLVuno,3111
+pythonik_ext-2025.3b0.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+pythonik_ext-2025.3b0.dist-info/top_level.txt,sha256=TQdXornYsTI7vcb7BByST1Zv3dCb8wK1rPTJPzqseO8,12
+pythonik_ext-2025.3b0.dist-info/RECORD,,

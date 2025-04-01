@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: lean-lsp-mcp
+Version: 0.0.1
+Summary: MCP server to interact with Lean prover via LSP
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: leanclient>=0.1.7
+Requires-Dist: mcp[cli]>=1.5.0
+Provides-Extra: lint
+Requires-Dist: ruff>=0.2.0; extra == "lint"
+Provides-Extra: dev
+Requires-Dist: ruff>=0.2.0; extra == "dev"
+
+# Lean LSP MCP
+
+MCP that allows agents to interact with the Lean LSP server.

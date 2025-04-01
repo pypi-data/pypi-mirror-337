@@ -1,0 +1,2 @@
+[console_scripts]
+basion-uv-demo = main:main

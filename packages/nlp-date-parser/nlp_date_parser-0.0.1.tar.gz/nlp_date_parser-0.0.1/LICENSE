@@ -1,0 +1,8 @@
+
+---
+
+## ** Install Dependencies**
+Run:
+
+```sh
+pip install -r requirements.txt

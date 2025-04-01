@@ -1,0 +1,16 @@
+markupy/__init__.py,sha256=LjnGhsBGleFrmxhaWBkwY03apuS-3o4bG9yzbpJdgvI,288
+markupy/exception.py,sha256=V2Ngx4wfIANik5YLBeqHGFF6A9JsUArqC07R-GYsnBU,40
+markupy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markupy/tag.py,sha256=lujbl6dg82PdtEzJbcFjQVfNZ08LYbPck6VcVC-PpYE,5539
+markupy/_private/attribute.py,sha256=eaPe1g8Xb2scbX762HmQa0wbzwMs4008MXaweKwuHoc,4876
+markupy/_private/cli.py,sha256=z8g74lDrCRZTXdBwbM1oqQxVvgnTdydv6jNa-sLU5lM,1357
+markupy/_private/component.py,sha256=Mz7_pgmMih9swqHGqcfXWIVCU1KUHHfWhg9sR_AV4iY,627
+markupy/_private/element.py,sha256=lhyfLf3bZ4SDiVux3Jn39YzwEHcWaC5znQQdXicU_mE,5059
+markupy/_private/fragment.py,sha256=K7nqXJc8HRk-MP2UCC6TxOQga7DmugyRvdtBaOMz03Y,2174
+markupy/_private/html.py,sha256=jyq4QTEEfbNwDKmuKPuSKJ16RKt4LJUB3Ih2GOskibs,7703
+markupy/_private/view.py,sha256=JPrZxxMwlJtLyqueMwQmuRCrqDRnrgb3gAZPS1Yp60M,883
+markupy-1.2.0.dist-info/entry_points.txt,sha256=Zsdif6giWpphHqBjx5T9lA13iKI_QEoWPnk_hzJgqpM,58
+markupy-1.2.0.dist-info/licenses/LICENSE,sha256=og9Gqib-8JMFldyDPi0yJwEJHxfUHEtDq2Tv1rHnE5E,1073
+markupy-1.2.0.dist-info/WHEEL,sha256=G2gURzTEtmeR8nrdXUJfNiB3VYVxigPQ-bEQujpNiNs,82
+markupy-1.2.0.dist-info/METADATA,sha256=Ar2xgcyX5x5lLzdnWXryKt9lg-Bw8iIYS43X4a8H_bI,5017
+markupy-1.2.0.dist-info/RECORD,,

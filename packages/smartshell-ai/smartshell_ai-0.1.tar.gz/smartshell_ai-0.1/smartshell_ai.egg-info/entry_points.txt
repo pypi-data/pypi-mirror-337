@@ -1,0 +1,2 @@
+[console_scripts]
+smartshell = smartshell:cli

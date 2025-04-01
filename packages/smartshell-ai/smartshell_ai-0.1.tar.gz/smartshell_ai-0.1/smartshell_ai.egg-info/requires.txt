@@ -1,0 +1,8 @@
+click
+colorama
+rich
+requests
+rapidfuzz
+openai
+ollama
+pyreadline3

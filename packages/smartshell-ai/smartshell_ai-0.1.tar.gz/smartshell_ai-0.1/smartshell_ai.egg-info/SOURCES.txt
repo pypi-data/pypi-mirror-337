@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+smartshell.py
+smartshell_ai.egg-info/PKG-INFO
+smartshell_ai.egg-info/SOURCES.txt
+smartshell_ai.egg-info/dependency_links.txt
+smartshell_ai.egg-info/entry_points.txt
+smartshell_ai.egg-info/requires.txt
+smartshell_ai.egg-info/top_level.txt

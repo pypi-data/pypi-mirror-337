@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AMC_Optimiser"
+version = "0.1.6"
+description = "A sample package"
+authors = [{ name = "James Town", email = "jtown@amcconsultants.com" }]
+dependencies = ["customtkinter","matplotlib","numpy","pandas","optuna","optuna-dashboard","psutil","pywin32","xlwings"]
+
+[tool.hatch.build]
+packages = ["AMC_Optimiser"] 

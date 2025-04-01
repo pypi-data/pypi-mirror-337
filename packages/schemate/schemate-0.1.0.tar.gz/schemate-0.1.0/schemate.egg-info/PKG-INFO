@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: schemate
+Version: 0.1.0
+Summary: Analyzes NoSQL or JSON documents to try to infer a schema or general properties.
+Download-URL: https://github.com/rotationalio/llm-benchmark/tarball/v0.1.0
+Author: Rotational Labs
+Author-email: support@rotational.io
+Maintainer: Rotational Labs
+Maintainer-email: support@rotational.io
+License: BSD 3
+Project-URL: Download, https://github.com/rotationalio/llm-benchmark/tarball/v0.1.0
+Project-URL: Source, https://github.com/rotationalio/llm-benchmark
+Project-URL: Tracker, https://github.com/rotationalio/llm-benchmark/issues
+Keywords: json,nosql,schema
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Benchmark
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: download-url
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# Schemate
+
+**Analyzes NoSQL or JSON documents to try to infer a schema or general properties.**
+
+## Developer Information
+
+If you are a schemate developer there are several helper utilities built into the library that will allow you to manage datasets and models both locally and in the cloud. But first, there are additional dependencies that you must install.
+
+In `requirements.txt` uncomment the section that says: `"# Packaging Dependencies"`, e.g. your requirements should now have a section that appears similar to:
+
+```
+# Packaging Dependencies
+black==25.1.0
+build==1.2.2.post1
+flake8==7.2.0
+packaging==24.2
+pip==25.0.1
+setuptools==75.3.0
+twine==6.1.0
+wheel==0.45.1
+```
+
+**NOTE:** the README might not be up to date with all required dependencies, so make sure you use the latest `requirements.txt`.
+
+Then install these dependencies and the test dependencies:
+
+```
+$ pip install -r requirements.txt
+$ pip install -r tests/requirements.txt
+```
+
+### Tests and Linting
+
+All tests are in the `tests` folder and are structured identically to the `schemate` module. All tests can be run with `pytest`:
+
+```
+$ pytest
+```
+
+We use `flake8` for linting as configured in `setup.cfg` -- note that the `.flake8` file is for IDEs only and is not used when running tests. If you want to use `black` to automatically format your files:
+
+```
+$ black path/to/file.py
+```
+
+### Releases
+
+To release the schemate library and deploy to PyPI run the following commands:
+
+```
+$ python -m build
+$ twine upload dist/*
+```

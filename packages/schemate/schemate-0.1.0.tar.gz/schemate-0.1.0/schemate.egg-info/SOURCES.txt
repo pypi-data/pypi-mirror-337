@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+schemate/__init__.py
+schemate/__main__.py
+schemate/version.py
+schemate.egg-info/PKG-INFO
+schemate.egg-info/SOURCES.txt
+schemate.egg-info/dependency_links.txt
+schemate.egg-info/entry_points.txt
+schemate.egg-info/top_level.txt
+schemate.egg-info/zip-safe
+tests/__init__.py
+tests/requirements.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+schemate = schemate.__main__:main

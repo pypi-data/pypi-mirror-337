@@ -1,0 +1,3 @@
+[console_scripts]
+explain-commands = log2doc.explain:main
+extract-history = log2doc.extract:main

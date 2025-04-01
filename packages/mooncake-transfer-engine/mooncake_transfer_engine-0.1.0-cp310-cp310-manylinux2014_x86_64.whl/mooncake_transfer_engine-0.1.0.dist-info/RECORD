@@ -1,0 +1,9 @@
+mooncake/__init__.py,sha256=R4frgmdCWf0gtLlS2C1ZfJrtfrJyHl5OuNrNOYAF3P8,118
+mooncake/mooncake_master,sha256=8sXKIPOM40LpYyqnO-orO4jU2l16v8qMai9gs834vNw,27846672
+mooncake/mooncake_sglang_adaptor.cpython-310-x86_64-linux-gnu.so,sha256=Smw0dmb7CAHezb7_C4AYiRtK5GlSQLls5LSq1s82SEo,905032
+mooncake/mooncake_vllm_adaptor.cpython-310-x86_64-linux-gnu.so,sha256=UhR353SkVpPKv77Xn6fB6pS0_3wetiO7f-rmexKwypU,2232376
+mooncake/lib_so/libetcd-cpp-api.so,sha256=8fJK_WqW1YuoPt74n56uUL4W4NgEvVx5NzMg7QLbeHM,6380576
+mooncake_transfer_engine-0.1.0.dist-info/METADATA,sha256=vgRcUhqL9APx0jCWoLE9MEGEDVO3eI-cwtroj-XobGg,777
+mooncake_transfer_engine-0.1.0.dist-info/WHEEL,sha256=jRHLQkfLx5lFpyrIqY9QX_8CEDzv-tkyXjDG2tqTWGI,112
+mooncake_transfer_engine-0.1.0.dist-info/top_level.txt,sha256=3TP6cR44UAyQlXAkC-14mb10-iPYdeRPSUL67qxLR1Y,9
+mooncake_transfer_engine-0.1.0.dist-info/RECORD,,

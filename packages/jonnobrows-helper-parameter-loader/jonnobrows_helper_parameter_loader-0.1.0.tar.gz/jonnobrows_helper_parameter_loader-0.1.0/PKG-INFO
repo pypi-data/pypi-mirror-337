@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: jonnobrows-helper-parameter-loader
+Version: 0.1.0
+Summary: Jonnobrow's Helper Parameter Loader
+Project-URL: Homepage, https://github.com/Jonnobrow/python-modules/tree/main/jonnobrows-helpers-parameter-loader
+Project-URL: Repository, https://github.com/Jonnobrow/python-modules
+Author-email: Jonathan Bartlett <jonathan@jonnobrow.co.uk>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Requires-Dist: boto3==1.37.22
+Description-Content-Type: text/markdown
+
+# Jonnobrow's Helper Parameter Loader
+
+This library is a helper to load parameters from AWS SSM.
+
+## Installation
+
+```bash
+pip install jonnobrows-helper-parameter-loader
+```

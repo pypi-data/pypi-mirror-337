@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jonnobrows-helper-parameter-loader"
+dynamic = ["version"]
+description = "Jonnobrow's Helper Parameter Loader"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "Jonathan Bartlett", email = "jonathan@jonnobrow.co.uk"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "boto3 ==1.37.22",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jonnobrow/python-modules/tree/main/jonnobrows-helpers-parameter-loader"
+Repository = "https://github.com/Jonnobrow/python-modules"
+
+[tool.hatch.version]
+path = "src/jonnobrows/helper/parameter_loader/version.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jonnobrows"]

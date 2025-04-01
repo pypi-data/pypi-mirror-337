@@ -1,0 +1,17 @@
+databloom/__init__.py,sha256=J9gatMDmDpL3HdPE8GT5lvolSmfixhey9PLpfIIL-2Q,184
+databloom/version.py,sha256=ZjfHHvnilio61NgIY9etJccDiMBAPcsx98g_y5a_21g,51
+databloom/api/__init__.py,sha256=-A0GC6-13MHo_CDddfoewIJSWtep2FaAqknWMOI9eAs,70
+databloom/api/credentials.py,sha256=o712OWFdTAeYeKqH47RmfvRWypGN0B01jGMy-IJtO50,3873
+databloom/api/nessie_metadata.py,sha256=QE_B6CrKlv7Sxkwv7aP_f4xw10NaZP-HMyc1UKaQtHw,1269
+databloom/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databloom/core/connector/__init__.py,sha256=7_FjotMusiFcIQ4pbg074WANmAbGHYbAnDU-JF4KyUg,444
+databloom/core/connector/base.py,sha256=jvfx6qM7Zkoba586CCdNjFWlknf6_le75FdMctu41l4,854
+databloom/core/connector/ggsheet.py,sha256=ijKqUb9_NXQzu0SVC5Hkvc_dJvmiuL_rheREk1qHJ2g,3945
+databloom/core/connector/mysql.py,sha256=QirlFRUgD104xHVAr_N7Cqn6PXVk5rnkmeqStGT6S5U,5540
+databloom/core/connector/postgresql.py,sha256=TtdZNWYbzQOeV5sa_-7dDgCz17FXqmKDy92b1amPvC8,3409
+databloom/datasets/__init__.py,sha256=WvTHIhOz6GVoNqEtWuvkTavjdtCACWJLTC98IrStA7M,106
+databloom/datasets/dataset.py,sha256=a0pQyz9Tkci0PzmRrD9McDg1FPX43QAs4LehLrRYUzc,10974
+databloom-2.0.43.dist-info/METADATA,sha256=y70Xesv1qfaT7Xvvd6-TKDkRunxMMYq9Q8ZMsqGxoSI,5483
+databloom-2.0.43.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+databloom-2.0.43.dist-info/top_level.txt,sha256=lHBnf1cvjb1W_jUXJVoYmgp3VrLTgaY22s5UcBVBaIw,10
+databloom-2.0.43.dist-info/RECORD,,

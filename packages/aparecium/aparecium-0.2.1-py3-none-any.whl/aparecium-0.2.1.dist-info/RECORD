@@ -1,0 +1,11 @@
+aparecium/__init__.py,sha256=Jm7p9kQK5QttOYLBNvG5RgvMHZYWmaYTJeflTIXr4r0,151
+aparecium/db_utils.py,sha256=QRuqs6YqSVQZN9WfbPHrFSIZqCDuELiggvR4Dnw_4Ck,20578
+aparecium/exceptions.py,sha256=985hWBbXa6FRVhX249LaLrhBa1wusn1Oy5StUIbfl6c,2128
+aparecium/logger.py,sha256=hWHS2kQuC_Hevw0EWuqFLBC53sAqYy_CgZ0PEEZtspA,5495
+aparecium/reverser.py,sha256=aGHMPTLyWzMYeZ0FeV796yCEuxEmGn2gQAKZmO5zibE,31402
+aparecium/vectorizer.py,sha256=bcubPvs7kfmhLg0eBNCCbdVCoGkPqZ8C6cCQy3az7HQ,6008
+aparecium-0.2.1.dist-info/licenses/LICENSE,sha256=T5Ml2cX7Xn8MiQWV0xc1KCEneYwws65BLT-zhVJMBZM,1064
+aparecium-0.2.1.dist-info/METADATA,sha256=7TtKu2y2rnOyRZcrsul4eDAaRPwGUZnfq7NQ5cSdTAs,7998
+aparecium-0.2.1.dist-info/WHEEL,sha256=CmyFI0kx5cdEMTLiONQRbGQwjIoR1aIYB7eCAQ4KPJ0,91
+aparecium-0.2.1.dist-info/top_level.txt,sha256=0LlG_dfb14iAVBbLW60uCrJ8i4nT0BEuC_Th-NNu7hw,10
+aparecium-0.2.1.dist-info/RECORD,,

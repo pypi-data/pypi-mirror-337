@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: forexy
+Version: 2025.3.31
+Summary: EXFOR utility codes
+Home-page: https://nds.iaea.org/nrdc/
+Author: Naohiko Otsuka
+Author-email: n.otsuka@iaea.org
+License: MIT
+Description: # ForEXy
+        Utility codes for the EXFOR Library
+        
+        ## Requirements
+        * pylatexenc
+        * pyspellchecker
+        * requests
+        
+        ## Installation
+        ```
+        pip install forexy
+        ```
+        
+        ## Reference
+        Naohiko Otuka, "ForEXy: Utility Codes for EXFOR Library", Report [IAEA-NDS-0244](https://doi.org/10.61092/iaea.hz1z-0dx3), International Atomic Energy Agency, 2025.
+        
+        
+Keywords: EXFOR JSON
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

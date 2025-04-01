@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/corex-metrics-influxdb/__init__.py
+src/corex-metrics-influxdb/handler.py
+src/corex_metrics_influxdb.egg-info/PKG-INFO
+src/corex_metrics_influxdb.egg-info/SOURCES.txt
+src/corex_metrics_influxdb.egg-info/dependency_links.txt
+src/corex_metrics_influxdb.egg-info/top_level.txt
+tests/test_handler.py

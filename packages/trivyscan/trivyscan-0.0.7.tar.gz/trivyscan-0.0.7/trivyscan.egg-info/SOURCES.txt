@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+test/__init__.py
+test/trivyscan_test.py
+trivyscan/__init__.py
+trivyscan.egg-info/PKG-INFO
+trivyscan.egg-info/SOURCES.txt
+trivyscan.egg-info/dependency_links.txt
+trivyscan.egg-info/top_level.txt
+trivyscan/bin/__init__.py
+trivyscan/bin/trivy
+trivyscan/bin/trivy.zip
+trivyscan/src/__init__.py
+trivyscan/src/trivyscan.py

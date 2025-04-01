@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: pyfitness
+Version: 0.0.0
+Summary: Tools for working with fitness data like FIT, GPX,, power and heartrate.
+Author-email: Vincent Davis <vincent@heteroskedastic.net>
+License: MIT
+Project-URL: Documentation, https://github.com/vincentdavis/pyfitness
+Project-URL: Issues, https://github.com/vincentdavis/pyfitness/issues
+Project-URL: Source, https://github.com/vincentdavis/pyfitness
+Keywords: fit,bicycle,power,heartrate,zwift,wahoo
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fitdecode>=0.10.0
+Requires-Dist: garmin-fit-sdk>=21.158.0
+Requires-Dist: matplotlib>=3.10.1
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: requests>=2.32.3
+Dynamic: license-file
+
+# pyfitness
+Tools for working with fitness data like FIT, GPX,, power and heartrate.

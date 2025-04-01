@@ -1,0 +1,8 @@
+README.md
+setup.py
+bitunix_automated_crypto_trading.egg-info/PKG-INFO
+bitunix_automated_crypto_trading.egg-info/SOURCES.txt
+bitunix_automated_crypto_trading.egg-info/dependency_links.txt
+bitunix_automated_crypto_trading.egg-info/entry_points.txt
+bitunix_automated_crypto_trading.egg-info/requires.txt
+bitunix_automated_crypto_trading.egg-info/top_level.txt

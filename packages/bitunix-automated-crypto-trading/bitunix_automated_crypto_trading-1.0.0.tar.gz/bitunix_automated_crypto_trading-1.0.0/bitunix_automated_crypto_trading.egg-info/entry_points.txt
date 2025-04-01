@@ -1,0 +1,2 @@
+[console_scripts]
+bitunix = bitunix:main
